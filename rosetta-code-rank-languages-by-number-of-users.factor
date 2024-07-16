@@ -1,0 +1,47 @@
+! Task:
+! 
+! Sort most popular programming languages based on the number of users on
+! Rosetta Code.
+! 
+! Show the languages with at least 100 users.
+! 
+! A method to solve the task:
+! 
+! Users of a computer programming language X are those referenced in the
+! page:
+! 
+!  https://rosettacode.org/wiki/Category:X_User,     or preferably: 
+!  https://rosettacode.org/mw/index.php?title=Category:X_User&redirect=no to avoid re-directions. 
+! 
+! In order to find the list of such categories, it's possible to first
+! parse the entries of:
+! 
+!  http://rosettacode.org/mw/index.php?title=Special:Categories&limit=5000. 
+! 
+! Then download and parse each computer language users category to find
+! the number of users of that computer language.
+! 
+! Sample output on 18 February 2019:
+! 
+!     Language             Users
+!     --------------------------
+!     C                      391
+!     Java                   276
+!     C++                    275
+!     Python                 262
+!     JavaScript             238
+!     Perl                   171
+!     PHP                    167
+!     SQL                    138
+!     UNIX Shell             131
+!     BASIC                  120
+!     C sharp                118
+!     Pascal                 116
+!     Haskell                102
+! 
+! A Rosetta Code user usually declares using a language with the mylang
+! template. This template is expected to appear on the User page. However,
+! in some cases it appears in a user Talk page. It's not necessary to take
+! this into account. For instance, among the 373 C users in the table
+! above, 3 are actually declared in a Talk page.
+
