@@ -1,1 +1,25 @@
 # rosetta-code
+
+The [Rosetta Code](https://rosettacode.org) project is quite interesting:
+
+> The idea is to present solutions to the same task in as many different
+> languages as possible, to demonstrate how languages are similar and
+> different, and to aid a person with a grounding in one approach to a problem
+> in learning another. Rosetta Code currently has 1,276
+> [tasks](*https://rosettacode.org/wiki/Category:Solutions_by_Programming_Task),
+> 401 [draft
+> tasks](https://rosettacode.org/wiki/Category:Draft_Programming_Tasks), and
+> is aware of 948
+> [languages](https://rosettacode.org/wiki/Category:Programming_Languages),
+> though we do not (and cannot) have solutions to every task in every
+> language.
+
+There is a [page for Factor](https://rosettacode.org/wiki/Category:Factor)
+with some programming language history, notes, and a list of [tasks not
+implemented in
+Factor](https://rosettacode.org/wiki/Tasks_not_implemented_in_Factor).  If
+you are new to learning Factor, this might be a fun way to learn and
+contribute.
+
+This git repository is a mirror of the various solutions to allow us to
+learn from them.
