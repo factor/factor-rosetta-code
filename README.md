@@ -21,5 +21,16 @@ Factor](https://rosettacode.org/wiki/Tasks_not_implemented_in_Factor).  If
 you are new to learning Factor, this might be a fun way to learn and
 contribute.
 
-This git repository is a mirror of the various solutions to allow us to
-learn from them.
+The ``rosetta-code`` vocabulary includes words for scraping solutions from
+Rosetta Code, while the ``rosetta-code/solutions`` directory contains all
+the currently scraped solutions.
+
+Currently this is a fair amount of code:
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Language            Files        Lines         Code     Comments       Blanks
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Factor               1409        57694        12638        40418         4638
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```

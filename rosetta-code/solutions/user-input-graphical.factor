@@ -1,0 +1,8 @@
+! In this task, the goal is to input a string and the integer 75000, from
+! graphical user interface.
+! 
+! See also: User input/Text
+! 
+! Category:GUI Category:Basic language learning
+
+
