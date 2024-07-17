@@ -1,7 +1,7 @@
 USING: assocs combinators.short-circuit io.directories
 io.encodings.utf8 io.files io.files.unique io.launcher kernel
-math mediawiki.api namespaces regexp sequences sets sorting
-splitting strings unicode ;
+math mediawiki.api namespaces prettyprint regexp sequences sets
+sorting splitting strings unicode ;
 
 IN: rosetta-code
 
@@ -100,7 +100,7 @@ MEMO: cached-page-content ( title -- content )
 : save-task ( task -- )
     "vocab:rosetta-code/solutions" [
         [ get-solution ]
-        [ [ task-path utf8 set-file-contents ] when* ] bi
+        [ task-path '[ _ utf8 set-file-contents ] when* ] bi
     ] with-directory ;
 
 : save-all-tasks ( -- )
