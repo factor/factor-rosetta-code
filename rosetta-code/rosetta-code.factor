@@ -9,9 +9,6 @@ MEMO: list-category ( title -- members )
     'H{ { "list" "categorymembers" } { "cmtitle" _ } }
     query [ "title" of ] map ;
 
-MEMO: cached-page-content ( title -- content )
-    page-content ;
-
 : list-categories ( title -- tasks )
     list-category
     [ "User:" head? ] reject
@@ -26,17 +23,16 @@ MEMO: cached-page-content ( title -- content )
 : draft-tasks ( -- tasks )
     "Category:Draft_Programming_Tasks" list-categories ;
 
-: extract-section ( page-content start end -- section/f )
-    [
-        '[
-            _ [ subseq-index ] [ length dupd '[ _ + ] when ] bi
-        ] keep over
-    ] dip '[
-        [ dupd _ subseq-index-from ] [ subseq ] bi
-    ] [ 2drop f ] if ;
+:: extract-section ( page begin end -- section/f )
+    page begin subseq-index [
+        begin length +
+        dup page end subseq-index-from
+        [ page length ] unless*
+        page subseq
+    ] [ f ] if* ;
 
-:: get-code ( task lang -- code/f )
-    task cached-page-content {
+:: get-code ( page lang -- code/f )
+    page {
         [
             "<syntaxhighlight lang=\"" lang "\">" 3append
             "</syntaxhighlight>" extract-section
@@ -46,15 +42,15 @@ MEMO: cached-page-content ( title -- content )
         ]
     } 1|| ;
 
-: get-description ( task -- description/f )
-    cached-page-content "=={{header" over subseq? [
+: get-description ( page -- description/f )
+    "=={{header" over subseq? [
         "" "=={{header" extract-section
         dup "{{task" head? [
             CHAR: \n over index [ 1 + tail ] when*
         ] when
     ] [ drop f ] if ;
 
-: get-clean-description ( task -- description/f )
+: get-clean-description ( page -- description/f )
     get-description dup [
         "<br>" "\n" replace
         "&nbsp;" "" replace
@@ -70,7 +66,7 @@ MEMO: cached-page-content ( title -- content )
         ] map! "\n" join [ blank? ] trim
     ] when ;
 
-: get-plain-description ( task -- description/f )
+: get-plain-description ( page -- description/f )
     get-clean-description dup [
         [
             "raw.txt" utf8 set-file-contents
@@ -86,7 +82,8 @@ MEMO: cached-page-content ( title -- content )
     ] when ;
 
 : get-solution ( task -- solution/f )
-    [ get-plain-description ] keep over empty? [ 2drop f ] [
+    page-content [ get-plain-description ] keep over empty?
+    [ 2drop f ] [
         [ string-lines [ "! " prepend ] map "\n" join ]
         [ "factor" get-code "\n\n" glue "\n" append ] bi*
     ] if ;
@@ -95,7 +92,8 @@ MEMO: cached-page-content ( title -- content )
     [
         dup { [ Letter? ] [ digit? ] } 1||
         [ drop CHAR: - ] unless
-    ] map >lower R/ --+/ "-" re-replace "-" ?tail drop ".factor" append ;
+    ] map >lower R/ --+/ "-" re-replace
+    [ CHAR: - = ] trim ".factor" append ;
 
 : save-task ( task -- )
     "vocab:rosetta-code/solutions" [
