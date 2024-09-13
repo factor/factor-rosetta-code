@@ -1,3 +1,6 @@
+! The Sattolo cycle is an algorithm for randomly shuffling an array in
+! such a way that each element ends up in a new position.
+! 
 ! Implement the Sattolo cycle for an integer array (or, if possible, an
 ! array of any type).
 ! 

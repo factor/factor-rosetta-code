@@ -48,5 +48,7 @@
 ! minuscule letters were placed closer to hand, in the lower cases of the
 ! work bench. The less often needed, capitalized, majuscule letters, ended
 ! up in the harder to reach upper cases.
+! 
+! Category:Handicap
 
 

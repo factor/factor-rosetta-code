@@ -6,5 +6,8 @@
 ! concatenated with another string literal.
 ! 
 ! To illustrate the operation, show the content of the variables.
+! 
+! Category:String manipulation Category: String manipulation
+! Category:Simple
 
 "wake up" [ " sheeple" append print ] [ ", you sheep" append ] bi print

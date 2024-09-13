@@ -10,5 +10,7 @@
 ! Output example:
 ! 
 !                 HI DE TH EG OL DI NT HE TR EX ES TU MP
+! 
+! Category:Encryption
 
 

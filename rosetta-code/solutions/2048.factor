@@ -67,6 +67,8 @@
 !     by trying a move that doesn't change the board.
 ! -   Check for a win condition.
 ! -   Check for a lose condition.
+! 
+! Category:Puzzles Category:Games
 
 
 USE: accessors

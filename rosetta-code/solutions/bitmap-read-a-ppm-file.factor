@@ -4,5 +4,7 @@
 ! 
 ! Task: Use write ppm file solution and grayscale image solution with this
 ! one in order to convert a color image to grayscale one.
+! 
+! Category:Input Output Category:E examples needing attention
 
 

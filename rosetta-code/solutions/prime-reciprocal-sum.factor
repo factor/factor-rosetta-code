@@ -22,6 +22,9 @@
 !     with more than 40 digits, show the first and last 20 digits and the
 !     overall digit count.
 ! 
+! If any of the tests for primality used in your program are probabilistic
+! please so indicate.
+! 
 ! Stretch
 ! 
 ! -   Find and display the next 5 terms of the sequence. (Or as many as

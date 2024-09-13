@@ -21,5 +21,7 @@
 ! 
 ! -   Check if two polygons overlap
 ! -   Check if a polygon overlaps with a rectangle
+! 
+! Category:Geometry Category:Collision detection
 
 

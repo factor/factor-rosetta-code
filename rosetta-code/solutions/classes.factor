@@ -42,6 +42,8 @@
 ! 
 ! Create a basic class with a method, a constructor, an instance variable
 ! and how to instantiate it.
+! 
+! Category:Object oriented Category:Type System Category:Encyclopedia
 
 TUPLE: my-class foo bar baz ;
 M: my-class quux foo>> 20 + ;

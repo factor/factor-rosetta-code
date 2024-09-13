@@ -2,5 +2,7 @@
 ! write the image to a PPM file (binary P6 preferred).
 ! 
 ! (Read the definition of PPM file on Wikipedia.)
+! 
+! Category:Input Output
 
 

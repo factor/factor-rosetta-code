@@ -17,5 +17,7 @@
 ! 
 ! The purpose of this task is to demonstrate how to use this approximation
 ! in order to compute a large number of decimals of π.
+! 
+! Category:Geometry
 
 

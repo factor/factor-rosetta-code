@@ -16,6 +16,8 @@
 ! 
 ! There should be no other whitespace, radix or sign markers in the
 ! produced output, and leading zeros should not appear in the results.
+! 
+! Category:Radices
 
 USING: io kernel math math.parser ;
 

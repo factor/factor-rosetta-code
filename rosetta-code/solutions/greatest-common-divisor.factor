@@ -13,6 +13,8 @@
 ! 
 ! -   -   MathWorld entry: greatest common divisor.
 !     -   Wikipedia entry: greatest common divisor.
+! 
+! Category:Recursion
 
 : gcd ( a b -- c )
     [ abs ] [

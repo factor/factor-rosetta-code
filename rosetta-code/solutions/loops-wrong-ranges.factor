@@ -38,6 +38,8 @@
 ! -   Loops/While
 ! -   Loops/with multiple ranges
 ! -   Loops/Wrong ranges
+! 
+! Category:Loop modifiers
 
 USING: continuations formatting io kernel math.ranges
 prettyprint sequences ;

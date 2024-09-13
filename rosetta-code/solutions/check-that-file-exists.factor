@@ -11,6 +11,8 @@
 ! 
 ! -   -   zero-length files
 !     -   an unusual filename: `Abdu'l-Bahá.txt
+! 
+! Category:Simple
 
 : print-exists? ( path -- )
     [ write ": " write ] [ exists? "exists." "doesn't exist." ? print ] bi ;

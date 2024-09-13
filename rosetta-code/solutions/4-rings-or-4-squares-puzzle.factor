@@ -42,6 +42,8 @@
 ! Related task:
 ! 
 ! -   Solve the no connection puzzle
+! 
+! Category:Games Category:Puzzles
 
 USING: arrays backtrack formatting grouping kernel locals math
 math.ranges prettyprint sequences sequences.generalizations

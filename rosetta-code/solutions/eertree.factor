@@ -20,5 +20,7 @@
 !     Palindromes in Strings.
 ! -   EERTREE: An efficient data structure for processing palindromes in
 !     strings1
+! 
+! Category:String algorithms Category:Palindromes
 
 

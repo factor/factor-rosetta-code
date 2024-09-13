@@ -22,6 +22,8 @@
 !  --police--  --sanitation--  --fire-- 
 !      2             3            7 
 !      6             5            1
+! 
+! Category:Puzzles
 
 USING: formatting io kernel math math.combinatorics math.ranges
 sequences sets ;

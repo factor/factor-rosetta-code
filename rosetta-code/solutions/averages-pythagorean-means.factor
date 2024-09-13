@@ -19,6 +19,8 @@
 !     item in the list:
 ! 
 !     $H(x_1, \ldots, x_n) = \frac{n}{\frac{1}{x_1} + \cdots + \frac{1}{x_n}}$
+! 
+! Category:Geometry
 
 : a-mean ( seq -- mean )
     [ sum ] [ length ] bi / ;

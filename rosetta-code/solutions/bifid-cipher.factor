@@ -72,5 +72,7 @@
 ! Related task
 ! 
 ! Playfair cipher
+! 
+! Category:Encryption
 
 

@@ -25,6 +25,8 @@
 ! -   Rot-13
 ! -   Substitution Cipher
 ! -   Vigenère Cipher/Cryptanalysis
+! 
+! Category:String manipulation
 
 USING: io kernel locals math sequences unicode.categories ;
 IN: rosetta-code.caesar-cipher

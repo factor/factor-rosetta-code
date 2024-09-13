@@ -44,5 +44,7 @@
 ! -   Bulls and cows/Player
 ! -   Guess the number
 ! -   Guess the number/With Feedback
+! 
+! Category:Puzzles
 
 

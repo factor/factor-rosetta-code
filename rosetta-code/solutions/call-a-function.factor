@@ -20,5 +20,7 @@
 ! * Is partial application possible and how
 ! 
 ! This task is not about defining functions.
+! 
+! Category:Functions and subroutines Category:Simple
 
 foo

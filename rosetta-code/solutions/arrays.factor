@@ -26,6 +26,8 @@
 ! -   Collections
 ! -   Creating an Associative Array
 ! -   Two-dimensional array (runtime)
+! 
+! Category:Simple
 
 { 1 2 3 }
 { 

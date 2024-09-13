@@ -1,3 +1,5 @@
+! Implement a flood fill.
+! 
 ! A flood fill is a way of filling an area using color banks to define the
 ! contained area or a target color which "determines" the area (the valley
 ! that can be flooded; Wikipedia uses the term target color). It works
@@ -13,5 +15,7 @@
 ! [] Testing: the basic algorithm is not suitable for truecolor images; a
 ! possible test image is the one shown on the right box; you can try to
 ! fill the white area, or the black inner circle.
+! 
+! Category:Graphics algorithms
 
 

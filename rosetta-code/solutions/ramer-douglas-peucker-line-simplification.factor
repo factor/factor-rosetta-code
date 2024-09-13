@@ -15,5 +15,7 @@
 ! Reference:
 ! 
 ! -   -   the Wikipedia article: Ramer-Douglas-Peucker algorithm.
+! 
+! Category:Geometry Category:Recursion
 
 

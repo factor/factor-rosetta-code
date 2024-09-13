@@ -18,5 +18,7 @@
 ! demonstrate that your implementation is linear (i.e. that 10000 takes
 ! approx. 10 times as long as 1000). You may vary the size of the lists of
 ! decimal places of pi to give reasonable answers.
+! 
+! Category:String algorithms
 
 

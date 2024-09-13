@@ -16,6 +16,8 @@
 ! 
 ! Design a simple Nim game where the human player goes first, and the
 ! computer always wins. The game should enforce the rules.
+! 
+! Category:Puzzles Category:Games
 
 USING: interpolate io kernel math math.parser sequences ;
 IN: rosetta-code.nim-game

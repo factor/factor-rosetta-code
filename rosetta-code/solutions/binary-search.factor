@@ -218,6 +218,8 @@
 ! -   -   wp:Binary search algorithm
 !     -   Extra, Extra - Read All About It: Nearly All Binary Searches and
 !         Mergesorts are Broken.
+! 
+! Category:Recursion
 
 USING: binary-search kernel math.order ;
 

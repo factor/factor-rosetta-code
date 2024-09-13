@@ -67,5 +67,7 @@
 ! 
 ! For edges and vertices not next to a hole, the standard algorithm from
 ! above is used.
+! 
+! Category:Graphics algorithms Category:Geometry
 
 

@@ -1,3 +1,5 @@
+! []
+! 
 ! The Zebra puzzle, a.k.a. Einstein's Riddle, is a logic puzzle which is
 ! to be solved programmatically.
 ! 

@@ -37,6 +37,8 @@
 ! 
 ! -   MathWorld entry: Least Common Multiple.
 ! -   Wikipedia entry: Least common multiple.
+! 
+! Category:Recursion
 
 USING: math.functions prettyprint ;
 26 28 lcm .

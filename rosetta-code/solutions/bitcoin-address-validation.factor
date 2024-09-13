@@ -39,6 +39,8 @@
 ! 
 ! You can change a few characters in this string and check that it'll fail
 ! the test.
+! 
+! Category:Checksums
 
 USING: byte-arrays checksums checksums.sha io.binary kernel math
 math.parser sequences ;

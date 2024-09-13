@@ -31,5 +31,7 @@
 ! 
 ! (which, of course, isn't the lowest positive sum that can't be
 ! expressed).
+! 
+! Category:Puzzles
 
 

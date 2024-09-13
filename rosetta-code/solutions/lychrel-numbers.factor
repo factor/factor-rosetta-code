@@ -85,5 +85,7 @@
 !     palindrome under repeated applications of the function f(x) = x + (x
 !     with digits reversed).
 ! -   Status of the 196 conjecture? Mathoverflow.
+! 
+! Category:Palindromes
 
 

@@ -32,6 +32,8 @@
 ! Verify that now the object's output is approximately 0 (the sine has the
 ! period of 2s). The accuracy of the result will depend on the OS
 ! scheduler time slicing and the accuracy of the clock.
+! 
+! Category:Object oriented
 
 USING: accessors alarms calendar combinators kernel locals math
 math.constants math.functions prettyprint system threads ;

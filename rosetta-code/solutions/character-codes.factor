@@ -9,6 +9,9 @@
 ! well as Unicode, as ASCII forms the beginning of Unicode).
 ! 
 ! Conversely, given a code, print out the corresponding character.
+! 
+! Category:Basic language learning Category:String manipulation
+! Category:Simple
 
 CHAR: katakana-letter-a .
 "ア" first .

@@ -4,6 +4,8 @@
 ! graphics images,
 ! 
 ! draw a line given two points with Bresenham's line algorithm.
+! 
+! Category:Graphics algorithms Category:Geometry
 
 USING: accessors arrays kernel locals math math.functions
 math.ranges math.vectors rosettacode.raster.display

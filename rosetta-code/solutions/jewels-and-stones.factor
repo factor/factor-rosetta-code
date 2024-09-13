@@ -26,6 +26,8 @@
 ! the function should return 3.
 ! 
 ! This task was inspired by this problem.
+! 
+! Category:Puzzles
 
 USING: kernel prettyprint sequences ;
 

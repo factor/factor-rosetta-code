@@ -8,5 +8,7 @@
 ! Related tasks:
 ! 
 ! -   Logical operations
+! 
+! Category:Simple
 
 

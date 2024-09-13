@@ -1,3 +1,5 @@
+! Create a program which parses and evaluates arithmetic expressions.
+! 
 ! Requirements:
 ! 
 ! -   An abstract-syntax tree (AST) for the expression must be created
@@ -23,6 +25,8 @@
 ! -   24 game Player.
 ! -   Parsing/RPN calculator algorithm.
 ! -   Parsing/RPN to infix conversion.
+! 
+! Category:Recursion
 
 USING: accessors kernel locals math math.parser peg.ebnf ;
 IN: rosetta.arith

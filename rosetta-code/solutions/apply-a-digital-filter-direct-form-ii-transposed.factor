@@ -23,6 +23,8 @@
 ! https://en.wikipedia.org/wiki/Butterworth_filter Wikipedia on
 ! Butterworth filters
 ! 
+! Category:Digital signal processing
+! 
 ! [1] 1
 
 

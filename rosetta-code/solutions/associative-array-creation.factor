@@ -7,6 +7,8 @@
 ! 
 ! -   Associative arrays/Iteration
 ! -   Hash from two arrays
+! 
+! Category:Data Structures
 
 H{ { "one" 1 } { "two" 2 } }
 { [ "one" swap at . ]

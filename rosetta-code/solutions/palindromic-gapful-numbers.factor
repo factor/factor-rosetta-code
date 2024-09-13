@@ -48,6 +48,8 @@
 ! Also see:
 ! 
 ! -   -   The OEIS entry: A108343 gapful numbers.
+! 
+! Category:Palindromes
 
 USING: formatting fry io kernel lists lists.lazy locals math
 math.functions math.ranges math.text.utils prettyprint sequences ;

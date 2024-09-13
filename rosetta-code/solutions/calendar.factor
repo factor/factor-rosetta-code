@@ -29,6 +29,8 @@
 ! Related task:
 ! 
 ! -   -   Five weekends
+! 
+! Category:Scala examples needing attention
 
 USING: arrays calendar.format grouping io.streams.string kernel
 math.ranges prettyprint sequences sequences.interleaved ;

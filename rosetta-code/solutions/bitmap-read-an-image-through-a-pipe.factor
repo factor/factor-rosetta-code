@@ -4,5 +4,7 @@
 ! into the data storage type defined here. We can also use the code from
 ! Read ppm file, so that we can use PPM format like a (natural) bridge
 ! between the foreign image format and our simple data storage.
+! 
+! Category:Input Output Category:Less Than 20 Examples
 
 

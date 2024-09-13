@@ -12,6 +12,8 @@
 ! unidiomatic at best, and poor programming practice at worst.
 ! Nonetheless, if your language intentionally maintains a double-standard
 ! for OO privacy, here's where you can show it off.
+! 
+! Category:Object oriented
 
 ( scratchpad ) USING: sets sets.private ;
 ( scratchpad ) { 1 2 3 } { 1 2 4 } sequence/tester count .

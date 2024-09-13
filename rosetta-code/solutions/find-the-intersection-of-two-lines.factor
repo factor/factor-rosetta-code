@@ -1,3 +1,6 @@
+! Finding the intersection of two lines that are in the same plane is an
+! important topic in collision detection.[1]
+! 
 ! Task:
 ! 
 ! Find the point of intersection of two lines in 2D.
@@ -5,6 +8,10 @@
 ! The 1^(st) line passes though (4,0) and (6,10) .
 ! 
 ! The 2^(nd) line passes though (0,3) and (10,7) .
+! 
+! Category:Geometry Category:Collision detection
+! 
+! [1] 1
 
 USING: arrays combinators.extras kernel math
 math.matrices.laplace math.vectors prettyprint sequences ;

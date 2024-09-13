@@ -5,6 +5,8 @@
 ! 
 ! Show how to call a static or class method, and an instance method of a
 ! class.
+! 
+! Category:Object oriented Category:Encyclopedia
 
 USING: accessors io kernel literals math sequences ;
 IN: rosetta-code.call-a-method

@@ -12,6 +12,8 @@
 ! 
 ! -   -   determine if a string has all the same characters
 !     -   determine if a string has all unique characters
+! 
+! Category:String manipulation
 
 : pangram? ( str -- ? )
     [ "abcdefghijklmnopqrstuvwxyz" ] dip >lower diff length 0 = ;

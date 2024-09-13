@@ -85,6 +85,8 @@
 ! -   Loops/While
 ! -   Loops/with multiple ranges
 ! -   Loops/Wrong ranges
+! 
+! Category:Loop modifiers Category:Conditional loops Category:Simple
 
 USING: formatting kernel locals math math.functions math.ranges
 sequences sequences.generalizations tools.memory.private ;

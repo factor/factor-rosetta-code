@@ -1,3 +1,8 @@
+! Task
+! 
+! Write and test a function which expands one or more Unix-style numeric
+! and alphabetic range braces embedded in a larger string.
+! 
 ! The brace strings used by Unix shells permit expansion of both:
 ! 
 ! 1.  Recursive comma-separated lists (covered by the related task:

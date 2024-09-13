@@ -27,6 +27,8 @@
 ! 
 ! -   Perfect Numbers
 ! -   Check Machin-like formulas
+! 
+! Category:Arithmetic
 
 USING: generalizations io kernel math math.functions
 math.primes.factors math.ranges prettyprint sequences ;

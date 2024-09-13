@@ -10,6 +10,8 @@
 ! 
 ! -   -   Factors of an integer
 !     -   Sieve of Eratosthenes
+! 
+! Category:Prime Numbers
 
 USING: assocs formatting kernel locals make math
 math.primes.factors sequences.extras ;

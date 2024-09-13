@@ -1,3 +1,10 @@
+! Many programming languages provide convenient ways to look for a known
+! value in a simple list of strings or numbers.
+! 
+! But what if the elements of the list are themselves compound
+! records/objects/data-structures, and the search condition is more
+! complex than a simple equality test?
+! 
 ! Write a function/method/etc. that can find the first element in a given
 ! list matching a given condition.
 ! 

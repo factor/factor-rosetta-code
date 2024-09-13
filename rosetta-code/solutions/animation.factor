@@ -14,6 +14,8 @@
 ! 
 ! When the user clicks on the (windowed) text, it should reverse its
 ! direction.
+! 
+! Category:GUI Category:Animation
 
 USING: accessors timers calendar kernel models sequences ui
 ui.gadgets ui.gadgets.labels ui.gestures ;

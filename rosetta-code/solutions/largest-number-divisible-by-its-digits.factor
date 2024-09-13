@@ -33,6 +33,8 @@
 ! Also see:
 ! 
 ! -   -   The OEIS sequence: A115569: Lynch-Bell numbers.
+! 
+! Category:Puzzles
 
 USING: io kernel math math.combinatorics math.parser math.ranges
 sequences tools.time ;

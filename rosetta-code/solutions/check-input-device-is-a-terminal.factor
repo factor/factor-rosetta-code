@@ -5,5 +5,7 @@
 ! Related task:
 ! 
 ! -   Check output device is a terminal
+! 
+! Category:Terminal control Category:Hardware Category:Initialization
 
 

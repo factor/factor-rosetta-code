@@ -5,6 +5,8 @@
 ! Related task:
 ! 
 ! -   Check input device is a terminal
+! 
+! Category:Hardware Category:Terminal control Category:Initialization
 
 
 IN: scratchpad USE: unix.ffi

@@ -1,4 +1,4 @@
-! []
+! [|right|2 circles with a given radius through 2 points in 2D space.]
 ! 
 ! Given two points on a plane and a radius, usually two circles of given
 ! radius can be drawn through the points.
@@ -38,6 +38,8 @@
 ! 
 ! -   Finding the Center of a Circle from 2 Points and Radius from Math
 !     forum @ Drexel
+! 
+! Category:Geometry
 
 USING: accessors combinators combinators.short-circuit
 formatting io kernel literals locals math math.distances

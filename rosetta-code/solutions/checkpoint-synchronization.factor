@@ -27,5 +27,7 @@
 ! lagging behind.
 ! 
 ! If you can, implement workers joining and leaving.
+! 
+! Category:Classic CS problems and programs
 
 

@@ -4,6 +4,8 @@
 ! 
 ! Note that there are many algorithms to draw Mandelbrot set and there are
 ! many functions which generate it .
+! 
+! Category:Graphics Category:Raster graphics operations
 
 
 ! with ("::") or without (":") generalizations:

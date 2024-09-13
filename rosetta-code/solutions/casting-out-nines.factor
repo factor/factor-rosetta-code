@@ -54,5 +54,7 @@
 ! 
 ! -   First perfect square in base N with N unique digits
 ! -   Kaprekar numbers
+! 
+! Category:Checksums
 
 

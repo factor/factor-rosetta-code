@@ -40,6 +40,8 @@
 !     -   [90, 180, 270, 360]
 !     -   [10, 20, 30]
 ! 2.  Show your output here.
+! 
+! Category:Geometry
 
 USING: formatting kernel math math.functions math.libm math.trig
 sequences ;

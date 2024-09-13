@@ -37,6 +37,8 @@
 ! -   The On-Line Encyclopedia of Integer Sequences: A000069 odious
 !     numbers.
 ! -   The On-Line Encyclopedia of Integer Sequences: A001969 evil numbers.
+! 
+! Category:Mathematics
 
 USING: formatting kernel lists lists.lazy math math.bitwise
 math.functions namespaces prettyprint.config sequences ;

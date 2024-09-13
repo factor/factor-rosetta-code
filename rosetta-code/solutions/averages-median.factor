@@ -17,6 +17,8 @@
 ! the median in O(n) time.
 ! 
 ! Quickselect_algorithm
+! 
+! Category:Sorting Category:E examples needing attention
 
 USING: arrays kernel locals math math.functions random sequences ;
 IN: median

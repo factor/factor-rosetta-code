@@ -32,5 +32,7 @@
 ! 2.  allocate some objects (e.g., integers) in the pool.
 ! 
 ! Explain what controls the storage pool choice in the language.
+! 
+! Category:Encyclopedia
 
 

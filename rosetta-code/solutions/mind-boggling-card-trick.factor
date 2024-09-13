@@ -46,6 +46,8 @@
 ! evidence of the truthfulness of the assertion.)
 ! 
 ! Show output on this page.
+! 
+! Category:Puzzles
 
 USING: accessors combinators.extras formatting fry
 generalizations io kernel math math.ranges random sequences

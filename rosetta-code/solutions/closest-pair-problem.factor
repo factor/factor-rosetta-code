@@ -67,5 +67,7 @@
 ! -   Closest Pair (UCSB)
 ! -   Closest pair (WUStL)
 ! -   Closest pair (IUPUI)
+! 
+! Category:Geometry
 
 

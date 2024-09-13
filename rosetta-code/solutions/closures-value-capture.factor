@@ -22,6 +22,8 @@
 ! time the function was run.
 ! 
 ! See also: Multiple distinct objects
+! 
+! Category:Functions and subroutines
 
 USING: io kernel locals math prettyprint sequences ;
 

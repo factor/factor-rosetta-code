@@ -31,6 +31,8 @@
 ! -   1174.8380510598456 and -154146.66490124757
 ! -   60175.77306795546 and 42213.07192354373
 ! 
+! Category:Geometry
+! 
 ! [1] 1
 
 USING: combinators generalizations kernel math prettyprint ;

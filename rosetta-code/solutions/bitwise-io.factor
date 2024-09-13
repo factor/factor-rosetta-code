@@ -1,3 +1,4 @@
+! The aim of this task is to write functions (or create a class if your
 ! language is Object Oriented and you prefer) for reading and writing
 ! sequences of bits, most significant bit first. While the output of a
 ! asciiprint "STRING" is the ASCII byte sequence "S", "T", "R", "I", "N",
@@ -21,5 +22,7 @@
 ! -   Limits in the maximum number of bits that can be written/read in a
 !     single read/write operation are allowed.
 ! -   Errors handling is not mandatory
+! 
+! Category:Bitwise operations
 
 

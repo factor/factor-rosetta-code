@@ -8,6 +8,8 @@
 ! deems appropriate, though if the programming language has an established
 ! convention for conveying math errors or undefined values, it's
 ! preferable to follow it.
+! 
+! Category:Arithmetic Category:Simple
 
 USING: math math.statistics ;
 

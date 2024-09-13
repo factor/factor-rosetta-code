@@ -21,6 +21,8 @@
 !     -   issue a notification when there is a winner, and
 !     -   determine who goes first (maybe a random or user choice, or can
 !         be specified when the game begins).
+! 
+! Category:Puzzles Category:Games
 
 USING: accessors combinators.random continuations formatting io
 kernel math math.functions math.parser multiline qw random

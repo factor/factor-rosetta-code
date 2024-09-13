@@ -61,6 +61,8 @@
 ! 
 ! -   Extract file extension
 ! -   String matching
+! 
+! Category:File_System_Operations Category:String_manipulation
 
 USING: formatting kernel qw sequences splitting unicode ;
 IN: rosetta-code.file-extension-list

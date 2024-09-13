@@ -15,6 +15,8 @@
 ! should be split and show:
 ! 
 !  g, HHH, 5, YY, ++, ///, \ 
+! 
+! Category: String manipulation Category:Strings Category:Simple
 
 USE: splitting.monotonic
 "gHHH5YY++///\\"

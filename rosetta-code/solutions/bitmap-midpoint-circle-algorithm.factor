@@ -5,5 +5,7 @@
 ! Bresenham's circle algorithm).
 ! 
 ! (definition on Wikipedia).
+! 
+! Category:Geometry
 
 

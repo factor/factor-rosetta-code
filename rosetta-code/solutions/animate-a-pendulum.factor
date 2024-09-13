@@ -1,4 +1,4 @@
-! []
+! [|right|Capture of the Oz version.]
 ! 
 ! One good way of making an animation is by simulating a physical system
 ! and illustrating the variables in that system using a dynamically
@@ -9,6 +9,8 @@
 ! Task:
 ! 
 ! Create a simple physical model of a pendulum and animate it.
+! 
+! Category:Animation
 
 USING: accessors alarms arrays calendar colors.constants kernel
 locals math math.constants math.functions math.rectangles

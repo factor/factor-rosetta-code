@@ -16,6 +16,8 @@
 ! 
 ! -   Sequence A60792, numbers that are palindromic in bases 2 and 3 on
 !     The On-Line Encyclopedia of Integer Sequences.
+! 
+! Category:Palindromes
 
 USING: combinators.short-circuit formatting io kernel lists
 lists.lazy literals math math.parser sequences tools.time ;

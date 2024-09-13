@@ -58,6 +58,8 @@
 !         True
 !         >>> can_make_word("CONFUSE")
 !         True
+! 
+! Category:Puzzles Category:Games
 
 USING: assocs combinators.short-circuit formatting grouping io
 kernel math math.statistics qw sequences sets unicode ;

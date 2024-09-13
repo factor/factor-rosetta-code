@@ -1,4 +1,4 @@
-! []
+! [|right]
 ! 
 ! Task:
 ! 
@@ -18,5 +18,7 @@
 ! Because of the lax rules governing the random nature of the particle's
 ! placement and motion, no two resulting trees are really expected to be
 ! the same, or even necessarily have the same general shape.
+! 
+! Category:Raster graphics operations Category:Geometry
 
 

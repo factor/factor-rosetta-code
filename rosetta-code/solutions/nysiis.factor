@@ -22,6 +22,11 @@
 ! The original implementation is also restricted to six characters, but
 ! this is not a requirement.
 ! 
+! Note
+! 
+! rules 7, 8 and 9 in the Wikipedia article are not mutually exclusive,
+! Willis encodes to WAL, for example.
+! 
 ! See also
 ! 
 ! -   Soundex
