@@ -28,17 +28,17 @@
 ! in column one.
 ! 
 ! The list may have leading/embedded/trailing blanks during the
-! declaration (the actual program statements), this is allow the list to
-! be more readable. The "final" list shouldn't have any leading/trailing
-! or superfluous blanks (when stored in the program's "memory").
+! declaration (the actual program statements), this allows the list to be
+! more readable. The "final" list shouldn't have any leading/trailing or
+! superfluous blanks (when stored in the program's "memory").
 ! 
 ! This list should be written with the idea in mind that the program will
-! be updated, most likely someone other than the original author, as there
-! will be newer (discovered) elements of the periodic table being added
-! (possibly in the near future). These future updates should be one of the
-! primary concerns in writing these programs and it should be "easy" for
-! someone else to add chemical elements to the list (within the computer
-! program).
+! be updated, most likely by someone other than the original author, as
+! there will be newer (discovered) elements of the periodic table being
+! added (possibly in the near future). These future updates should be one
+! of the primary concerns in writing these programs and it should be
+! "easy" for someone else to add chemical elements to the list (within the
+! computer program).
 ! 
 ! Attention should be paid so as to not exceed the clause length of
 ! continued or specified statements, if there is such a restriction. If
