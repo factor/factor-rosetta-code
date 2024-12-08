@@ -27,6 +27,7 @@
 ! 
 ! See also
 ! * Numbers Aplenty - Brilliant numbers
+! * - Like the task upper Limit 1E201
 ! * OEIS:A078972 - Brilliant numbers: semiprimes whose prime factors have the same number of decimal digits
 
 USING: assocs formatting grouping io kernel lists lists.lazy

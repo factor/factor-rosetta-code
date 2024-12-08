@@ -8,7 +8,7 @@
 ! 
 ! list3 = [19,20,21,22,23,24,25,26,27]
 ! 
-! Turn the numbers them into strings and concatenate them.
+! At each index, turn the numbers into strings and concatenate them.
 ! 
 ! The result should be:
 ! 

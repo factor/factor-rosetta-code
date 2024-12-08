@@ -3,11 +3,15 @@
 ! this operation is the nested loop join algorithm, but a more scalable
 ! alternative is the hash join algorithm.
 ! 
+! Task
+! 
 ! Implement the "hash join" algorithm, and demonstrate that it passes the
 ! test-case listed below.
 ! 
 ! You should represent the tables as data structures that feel natural in
 ! your programming language.
+! 
+! Guidance
 ! 
 ! The "hash join" algorithm consists of two steps:
 ! 
@@ -40,6 +44,8 @@
 !    for each row b in multimap M_(B) under key a(j_(A)):
 !       let c = the concatenation of row a and row b
 !       place row c in table C
+! 
+! Test case
 ! 
 ! +----------------------------------+----------------------------------+
 ! | Input                            | Output                           |

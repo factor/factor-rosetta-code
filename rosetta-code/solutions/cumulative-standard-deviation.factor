@@ -1,3 +1,5 @@
+! Task
+! 
 ! Write a stateful function, class, generator or co-routine that takes a
 ! series of floating point numbers, one at a time, and returns the running
 ! standard deviation of the series.

@@ -1,0 +1,49 @@
+! In the area of number decomposition algorithms, Pollard's rho algorithm
+! is a fast, yet fairly simple method to find factors of a number, using a
+! pseudorandom number generator modulo the number.
+! 
+! Except for trivial factors like 2, 3, 5 etc., it is much faster than
+! trial division, finding a factor quite often, but may terminate without
+! a factor. Thus it cannot prove that a number is prime. If it is known
+! that a number is not prime, the algorithm can be re-iterated with
+! changed parameters to finally find a factor (not necessarily a prime
+! factor) with quite high probability.
+! 
+! Task:
+! 
+! Write a function to demonstrate the algorithm (see pseudocode in
+! Wikipedia). The intent is to show the principle as clear as possible in
+! the respective language, but avoid an endless loop. Enhanced versions
+! may be presented as extra examples.
+! 
+! Warning:
+! 
+! The variables 'x' and 'y' may be equal during an iteration, calling
+! 'gcd()' with first argument 0, while the GCD is only defined for
+! postitive numbers, so a library gdc() function might fail. If in this
+! case, the other argument is returned, the algorithm reports failure,
+! which is acceptable. The gcd() functions supplied for AWK and C have
+! this property.
+! 
+! Example numbers, if supported:
+! 
+! -   4294967213 = 75167 * 57139 (32 bits)
+! -   9759463979 = 98779 * 98801 (34 bits)
+! -   34225158206557151 = 130051349 * 263166499 (55 bits)
+! -   763218146048580636353 = 25998278833 * 29356487441 (70 bits)
+! 
+! Related tasks:
+! 
+! -   prime decomposition
+! -   AKS test for primes
+! -   factors of an integer
+! -   factors of a Mersenne number
+! -   trial factoring of a Mersenne number
+! -   partition an integer X into N primes
+! -   sequence of primes by Trial Division
+! 
+! References:
+! 
+! -   Wikipedia: Pollard's rho algorithm
+
+

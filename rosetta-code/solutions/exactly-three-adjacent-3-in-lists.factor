@@ -13,6 +13,8 @@
 ! list[5] = [4,6,8,7,2,3,3,3,1]
 ! 
 ! For each list, print 'true' if the list contains exactly three '3's that
-! form a consecutive subsequence, otherwise print 'false'.
+! form a consecutive subsequence, otherwise print 'false'. That is, print
+! false unless there is exactly one run of three '3's and there is no
+! other occurrence of a '3'.
 
 

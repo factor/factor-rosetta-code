@@ -22,6 +22,15 @@
 ! Opening only those doors is an optimization that may also be expressed;
 ! however, as should be obvious, this defeats the intent of comparing
 ! implementations across programming languages.
+! 
+! Why doesn't syntax highlighting work on this page ?:
+! 
+! Currently, there is a limit on how many <syntaxhighlight> tags can
+! appear on a page, so only the first few languages get highlighting, the
+! rest are shown in monochrome.
+! You could try "manual highlighting", possibly using one of the
+! highlighters on Syntax highlighting using Mediawiki formatting or
+! something similar.
 
 USING: bit-arrays formatting fry kernel math math.ranges
 sequences ;
