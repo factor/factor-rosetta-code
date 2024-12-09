@@ -1,4 +1,4 @@
-USING: assocs combinators.short-circuit io.directories
+USING: assocs combinators.short-circuit io io.directories
 io.encodings.utf8 io.files io.files.unique io.launcher kernel
 math mediawiki.api namespaces prettyprint regexp sequences sets
 sorting splitting strings unicode ;
@@ -102,10 +102,10 @@ MEMO: list-category ( title -- members )
     ] with-directory ;
 
 : save-all-tasks ( -- )
-    all-tasks [ dup . save-task ] each ;
+    all-tasks [ dup . flush save-task ] each ;
 
 : save-draft-tasks ( -- )
-    draft-tasks [ dup . save-task ] each ;
+    draft-tasks [ dup . flush save-task ] each ;
 
 : with-rosetta-code ( quot -- )
     [ "https://rosettacode.org/w/api.php" endpoint ] dip
