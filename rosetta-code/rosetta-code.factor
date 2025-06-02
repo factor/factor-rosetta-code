@@ -1,7 +1,7 @@
 USING: assocs combinators.short-circuit io io.directories
 io.encodings.utf8 io.files io.files.unique io.launcher kernel
-math mediawiki.api namespaces prettyprint regexp sequences sets
-sorting splitting strings unicode ;
+literals math mediawiki.api namespaces prettyprint regexp
+sequences sets sorting splitting strings system unicode ;
 
 IN: rosetta-code
 
@@ -70,8 +70,10 @@ MEMO: list-category ( title -- members )
     get-clean-description dup [
         [
             "raw.txt" utf8 set-file-contents
-            {
+            ${
+                os macos?
                 "/opt/homebrew/bin/pandoc"
+                "/usr/bin/pandoc" ?
                 "-f" "mediawiki"
                 "-t" "plain"
                 "-o" "plain.txt"
