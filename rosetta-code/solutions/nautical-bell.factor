@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! Task
 ! 
 ! Write a small program that emulates a nautical bell producing a ringing

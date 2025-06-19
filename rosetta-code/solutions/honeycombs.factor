@@ -24,6 +24,6 @@
 ! whether they were selected by player one or player two and records of
 ! both players selections are maintained.)
 ! 
-! []
+! image:honeycomb.gif
 
 

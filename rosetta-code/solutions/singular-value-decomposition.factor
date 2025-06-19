@@ -15,7 +15,7 @@
 ! 
 ! Then, input a square/rectangular matrix A^(m × n).
 ! 
-! Finally, output U, Σ, V with respect to A.
+! Finally, output U, Σ, V with respect to A.
 ! 
 ! Example
 ! 

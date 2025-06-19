@@ -1,5 +1,7 @@
 ! []
 ! 
+! 15_puzzle.png
+! 
 ! Task:
 ! 
 ! Implement the Fifteen Puzzle Game.

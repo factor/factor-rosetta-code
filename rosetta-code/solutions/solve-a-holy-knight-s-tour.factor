@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! Chess coaches have been known to inflict a kind of torture on beginners
 ! by taking a chess board, placing pennies on some squares and requiring
 ! that a Knight's tour be constructed that avoids the squares with

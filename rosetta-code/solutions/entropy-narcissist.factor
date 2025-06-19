@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! Task:
 ! 
 ! Write a computer program that computes and shows its own entropy.

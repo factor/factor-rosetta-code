@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! A pentagram is a star polygon, consisting of a central pentagon of which
 ! each side forms the base of an isosceles triangle. The vertex of each
 ! triangle, a point of the star, is 36 degrees.

@@ -28,6 +28,8 @@
 ! 
 ! []
 ! 
+! Huffman_coding_example.jpg
+! 
 ! 1.  Create a leaf node for each symbol and add it to the priority queue.
 ! 2.  While there is more than one node in the queue:
 !     1.  Remove the node of highest priority (lowest probability) twice

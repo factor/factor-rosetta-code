@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! The Pythagoras tree is a fractal tree constructed from squares. It is
 ! named after Pythagoras because each triple of touching squares encloses
 ! a right triangle, in a configuration traditionally used to represent the

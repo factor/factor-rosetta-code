@@ -1,5 +1,7 @@
 ! []
 ! 
+! |top
+! 
 ! A Barnsley fern is a fractal named after British mathematician Michael
 ! Barnsley and can be created using an iterated function system (IFS).
 ! 

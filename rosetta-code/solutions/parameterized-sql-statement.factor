@@ -7,8 +7,6 @@
 ! show how to make a parameterized SQL statement, set the parameters to
 ! the values given above, and execute the statement.
 ! 
-!   
-! 
 ! Non-parameterized SQL is the GoTo statement of database programming.
 ! Don't do it, and make sure your coworkers don't either.
 

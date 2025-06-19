@@ -86,8 +86,6 @@
 ! 
 ! -   Wikipedia: Autogram
 ! 
-! =
-! 
 ! Category: String manipulation Category:Strings
 
 

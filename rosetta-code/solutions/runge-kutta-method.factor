@@ -1,6 +1,6 @@
 ! Given the example Differential equation:
 ! 
-! $$y'(t) = t \times \sqrt {y(t)}$$
+! $$y'(t) = t \cdot \sqrt {y(t)}$$
 ! With initial condition:
 ! 
 ! t₀ = 0
@@ -23,13 +23,13 @@
 ! 
 ! Starting with a given y_(n) and t_(n) calculate:
 ! 
-! δy₁ = δt × y′(t_(n), y_(n))  
+! δy₁ = δt ⋅ y′(t_(n), y_(n))  
 ! 
-! $$\delta y_2 = \delta t\times y'(t_n + \tfrac{1}{2}\delta t , y_n + \tfrac{1}{2}\delta y_1)$$
+! $$\delta y_2 = \delta t\cdot y'(t_n + \tfrac{1}{2}\delta t , y_n + \tfrac{1}{2}\delta y_1)$$
 ! 
-! $$\delta y_3 = \delta t\times y'(t_n + \tfrac{1}{2}\delta t , y_n + \tfrac{1}{2}\delta y_2)$$
+! $$\delta y_3 = \delta t\cdot y'(t_n + \tfrac{1}{2}\delta t , y_n + \tfrac{1}{2}\delta y_2)$$
 ! 
-! δy₄ = δt × y′(t_(n) + δt, y_(n) + δy₃)  
+! δy₄ = δt ⋅ y′(t_(n) + δt, y_(n) + δy₃)  
 ! then:
 ! 
 ! $$y_{n+1} = y_n + \tfrac{1}{6} (\delta y_1 + 2\delta y_2 + 2\delta y_3 + \delta y_4)$$

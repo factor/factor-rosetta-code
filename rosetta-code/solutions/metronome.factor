@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! The task is to implement a metronome.
 ! 
 ! The metronome should be capable of producing high and low audio beats,

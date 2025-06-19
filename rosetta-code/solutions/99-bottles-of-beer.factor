@@ -7,8 +7,6 @@
 ! 
 ! The lyrics follow this form:
 ! 
-!   
-! 
 !       
 ! 
 !           99 bottles of beer on the wall
@@ -37,25 +35,11 @@
 ! -   :Category:Programming language families
 ! -   Wikipedia 99 bottles of beer
 
-USING: io kernel make math math.parser math.ranges sequences ;
 
-: bottle ( -- quot )
-    [
-        [
-            [
-                [ # " bottles of beer on the wall,\n" % ]
-                [ # " bottles of beer.\n" % ] bi
-            ] keep
-            "Take one down, pass it around,\n" %
-            1 - # " bottles of beer on the wall\n" %
-        ] " " make print
-    ] ; inline
+USE: math.parser
+100 <iota> <reversed>
+[ dup 1 - [ >dec " bottles of beer" append [ " on the wall" append ] keep ] bi@
+  "Take one down, pass it around" -rot
+  first CHAR: - = [ 2drop "..." "why's all the rum gone??" ] when ! if leading character is "-" then replace with new string
+  4array "\n" join print nl ] each
 
-: last-verse ( -- )
-    "Go to the store and buy some more," 
-    "no more bottles of beer on the wall!" [ print ] bi@ ;
-
-: bottles ( n -- )
-    1 [a,b] bottle each last-verse ;
-
-! Usage: 99 bottles

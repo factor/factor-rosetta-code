@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! Suppose you're on a game show and you're given the choice of three
 ! doors.
 ! 

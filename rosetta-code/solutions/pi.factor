@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! Create a program to continually calculate and output the next decimal
 ! digit of π (pi).
 ! 

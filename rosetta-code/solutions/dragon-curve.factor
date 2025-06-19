@@ -1,6 +1,10 @@
 ! []
 ! 
+! |right
+! 
 ! []
+! 
+! |right
 ! 
 ! Create and display a dragon curve fractal.
 ! 

@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! This organic chemistry task is essentially to implement a tree
 ! enumeration algorithm.
 ! 

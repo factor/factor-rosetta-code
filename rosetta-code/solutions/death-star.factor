@@ -1,5 +1,7 @@
 ! []
 ! 
+! Deathstar-tcl.gif
+! 
 ! Task:
 ! 
 ! Display a region that consists of a large sphere with part of a smaller

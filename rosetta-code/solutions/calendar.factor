@@ -26,6 +26,11 @@
 ! For economy of size, do not actually include Snoopy generation in either
 ! the code or the output, instead just output a place-holder.
 ! 
+! See Also:
+! 
+! -   -   Snoopy calendar 1969-2025 Marcel van der Veer - The deck is
+!         credited as being one of the first FOSS programs.
+! 
 ! Related task:
 ! 
 ! -   -   Five weekends

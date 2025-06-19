@@ -6,7 +6,7 @@
 ! compiler and (all being well) receives a compiled executable in return.
 ! That executable only does what the specific program does.
 ! 
-! If the language is implemented via an interpreter, the decveloper
+! If the language is implemented via an interpreter, the developer
 ! (usually) writes one or more source files and invokes an interpreter to
 ! execute the program. Generally "object code" as such, is not created.
 ! 
@@ -20,11 +20,11 @@
 ! 
 ! Note: This task is about creating a compiled executable. Some operating
 ! systems allow a script to start with e.g. "#!" and the name of the
-! interpreter to run it. This is not. what is reuired, as this would mean
+! interpreter to run it. This is not what is reuired, as this would mean
 ! shipping the source.
 ! 
 ! One method of doing this would be to create a program in a language for
-! which there is a compiler available (C for example) that contanss the
+! which there is a compiler available (C for example) that contains the
 ! source of the program to be interpreted, writes it to a temporary file
 ! and calls the interpreter to run it and then deletes the temporary file
 ! afterwards.

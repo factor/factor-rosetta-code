@@ -1,30 +1,23 @@
-! The Almkvist-Giullera formula for calculating 1/π² is based on the
-! Calabi-Yau differential equations of order 4 and 5, which were
+! The Almkvist-Giullera formula for calculating $\frac{1}{\pi^2}$ is based
+! on the Calabi-Yau differential equations of order 4 and 5, which were
 ! originally used to describe certain manifolds in string theory.
 ! 
 ! The formula is:
 ! 
-!     
+! $$\frac{1}{\pi^{2}}=32 \sum_{n=0}^{\infty}\frac{(6n)!}{3 \cdot n!^{6}}(532n^{2}+126n+9)\frac{1}{10^{6n+3}}$$
 ! 
-!         1/π² = (2⁵/3) ∑₀^(∞) ((6n)! / (n!⁶))(532n² + 126n + 9) /
-!         1000^(2n+1)
-! 
-! This formula can be used to calculate the constant π⁻², and thus to
-! calculate π.
+! This formula can be used to calculate the constant $\frac{1}{\pi^2}$,
+! and thus to calculate π.
 ! 
 ! Note that, because the product of all terms but the power of 1000 can be
 ! calculated as an integer, the terms in the series can be separated into
 ! a large integer term:
 ! 
-!     
-! 
-!          (2⁵) (6n)! (532n² + 126n + 9) / (3(n!)⁶) (***)
+! $$\frac{32(6n)!}{3 \cdot n!^{6}}(532n^{2}+126n+9)$$
 ! 
 ! multiplied by a negative integer power of 10:
 ! 
-!     
-! 
-!          10^(-(6n + 3))
+! 10^(−(6n + 3))
 ! 
 ! Task:
 ! 

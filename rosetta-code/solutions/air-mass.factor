@@ -16,7 +16,7 @@
 ! 
 ! -   -   The density of Earth's atmosphere is proportional to exp(-a/8500
 !         metres)
-!     -   The Earth is a perfect sphere of radius 6731 km.
+!     -   The Earth is a perfect sphere of radius 6371 km.
 ! 
 ! Task:
 ! 

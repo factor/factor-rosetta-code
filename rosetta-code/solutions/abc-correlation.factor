@@ -7,4 +7,7 @@
 ! characters MUST be ignored. If the "a"'s, "b"'s and "c"'s occur with
 ! exactly equal frequency, return true; otherwise return false.
 
+USING: assocs grouping kernel math.statistics sequences ;
 
+: abc? ( str -- ? )
+    histogram "abc" [ of ] with { } map-as all-eq? ;

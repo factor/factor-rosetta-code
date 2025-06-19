@@ -11,7 +11,7 @@
 ! 
 ! Write a function/method/subroutine/... that generates k-almost primes
 ! and use it to create a table here of the first ten members of k-Almost
-! primes for 1 <  = K <  = 5.
+! primes for 1 ≤ K ≤ 5.
 ! 
 ! Related tasks:
 ! 

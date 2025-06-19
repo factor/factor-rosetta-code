@@ -1,4 +1,4 @@
-! Parametric Polymorphism is a way to define types or functions that are
+! Parametric polymorphism is a way to define types or functions that are
 ! generic over other types. The genericity can be expressed by using type
 ! variables for the parameter type, and by a mechanism to explicitly or
 ! implicitly replace the type variables with concrete types when

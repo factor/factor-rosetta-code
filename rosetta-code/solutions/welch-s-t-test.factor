@@ -59,7 +59,7 @@
 ! 
 ! Keeping in mind that
 ! 
-! Β(x; a, b) = ∫₀^(x)r^(a − 1) (1 − r)^(b − 1) dr. 
+! $\Beta(x;a,b) = \int_0^x r^{a-1}\,(1-r)^{b-1}\,\mathrm{d}r. \!$
 ! 
 ! and
 ! 

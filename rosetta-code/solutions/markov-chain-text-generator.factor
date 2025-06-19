@@ -6,12 +6,12 @@
 ! To do this, a Markov chain program typically breaks an input text
 ! (training text) into a series of words, then by sliding along them in
 ! some fixed sized window, storing the first N words as a prefix and then
-! the N + 1 word as a member of a set to choose from randomly for the
+! the N + 1 word as a member of a list to choose from randomly for the
 ! suffix.
 ! 
 ! As an example, take this text with N = 2:
 ! 
-! now he is gone she said he is gone for good
+!     now he is gone she said he is gone for good
 ! 
 ! this would build the following table:
 ! 

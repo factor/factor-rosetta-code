@@ -4,7 +4,7 @@
 ! with the same shape (after rotating one of the pieces by 180°). All such
 ! paths for 2 × 2 and 4 × 3 rectangles are shown below.
 ! 
-! []
+! file:rect-cut.svg
 ! 
 ! Write a program that calculates the number of different ways to cut an m
 ! × n rectangle. Optionally, show each of the cuts.

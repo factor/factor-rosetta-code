@@ -68,7 +68,7 @@
 ! 
 !     &bull; Numeric fields as numerics.                    Text strings:   ['foo100bar99baz0.txt', 
 !                                                                       'foo100bar10baz0.txt', 
-!                                                                       'foo1000bar99baz10.txt', 
+!                                            sv                           'foo1000bar99baz10.txt', 
 !                                                                       'foo1000bar99baz9.txt']
 ! 
 !     &bull; Title sorts.                                   Text strings:   ['The Wind in the Willows', 

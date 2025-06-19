@@ -1,14 +1,14 @@
-! An Abundant number is a number n for which the sum of divisors σ(n) >
-! 2n,
+! An Abundant number is a number n for which the sum of divisors
+! σ(n) > 2n,
 ! 
-! or, equivalently, the sum of proper divisors (or aliquot sum) s(n) > n.
+! or, equivalently, the sum of proper divisors (or aliquot sum) s(n) > n.
 ! 
 ! E.G.:
 ! 
-! 12 is abundant, it has the proper divisors 1,2,3,4 & 6 which sum to 16
-! ( > 12 or n);
+! 12 is abundant, it has the proper divisors 1, 2, 3, 4 & 6 which sum to
+! 16 ( > 12 or n);
 ! 
-!   or alternately,  has the sigma sum of  1,2,3,4,6 & 12  which sum to  28  ( > 24 or 2n).
+!   or alternately,  has the sigma sum of  1, 2, 3, 4, 6 & 12  which sum to  28  ( > 24 or 2n).
 ! 
 ! Abundant numbers are common, though even abundant numbers seem to be
 ! much more common than odd abundant numbers.

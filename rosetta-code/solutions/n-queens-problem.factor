@@ -1,6 +1,10 @@
 ! []
 ! 
+! |right
+! 
 ! []
+! 
+! |right
 ! 
 ! Solve the eight queens puzzle.
 ! 

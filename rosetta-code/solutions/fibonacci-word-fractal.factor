@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! The Fibonacci word may be represented as a fractal as described here:
 ! 
 ! (Clicking on the above website (hal.archives-ouvertes.fr) will leave a

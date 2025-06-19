@@ -15,7 +15,7 @@
 ! 
 ! 1.  Support arbitrarily large integers, both positive and negative;
 ! 2.  Provide ways to convert to and from text strings, using digits '+',
-!     '-' and '0' (unless you are already using strings to represent
+!     '−' and '0' (unless you are already using strings to represent
 !     balanced ternary; but see requirement 5).
 ! 3.  Provide ways to convert to and from native integer type (unless,
 !     improbably, your platform's native integer type is balanced
@@ -27,8 +27,8 @@
 ! 5.  Make your implementation efficient, with a reasonable definition of
 !     "efficient" (and with a reasonable definition of "reasonable").
 ! 
-! Test case With balanced ternaries a from string "+-0++0+", b from native
-! integer -436, c "+-++-":
+! Test case With balanced ternaries a from string "+−0++0+", b from native
+! integer −436, c "+−++−":
 ! 
 ! -   write out a, b and c in decimal notation;
 ! -   calculate a × (b − c), write out the result in both ternary and

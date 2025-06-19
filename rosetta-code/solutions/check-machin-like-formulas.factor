@@ -41,7 +41,7 @@
 ! extra credit parse them from human-readable text input.
 ! 
 ! Note: to formally prove the formula correct, it would have to be shown
-! that ${-3 pi \over 4}$ < right hand side < ${5 pi \over 4}$ due to
+! that ${-3 \pi \over 4}$ < right hand side < ${5 \pi \over 4}$ due to
 ! tan () periodicity.
 
 USING: combinators formatting kernel locals math sequences ;

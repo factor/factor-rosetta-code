@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! Task
 ! 
 ! Generate and draw a Julia set.

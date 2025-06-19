@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! Task
 ! 
 ! Problem: you have a standard 8x8 chessboard, empty but for a single

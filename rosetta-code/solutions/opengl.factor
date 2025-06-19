@@ -2,7 +2,8 @@
 ! 
 ! Display a smooth shaded triangle with OpenGL.
 ! 
-! []
+! right|thumb|300px|Triangle created using C example compiled with GCC
+! 4.1.2 and freeglut3.
 ! 
 ! Category:GUI Category:Temporal media
 

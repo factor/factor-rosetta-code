@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right|a maze
+! 
 ! Task:
 ! 
 ! Generate and show a maze, using the simple Depth-first search algorithm.

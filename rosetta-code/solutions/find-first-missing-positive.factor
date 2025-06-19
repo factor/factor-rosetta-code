@@ -1,7 +1,10 @@
 ! Task:
 ! 
-! Given an integer array nums (which may or may not be sorted), find the
-! smallest missing positive integer.
+! Given a list of integer arrays nums (which may be unsorted), find the
+! smallest missing positive integer in each array in the list.
+! 
+! A missing positive integer is any positive integer, starting from 1,
+! which is not present in the array.
 ! 
 ! Example:
 ! 

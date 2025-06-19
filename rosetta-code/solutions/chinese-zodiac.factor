@@ -19,8 +19,8 @@
 ! 
 ! Mapping the branches to twelve traditional animal deities results in the
 ! well-known "Chinese zodiac", assigning each year to a given animal. For
-! example, Saturday, February 10, 2024 CE (in the common Gregorian
-! calendar) began the lunisolar Year of the Dragon.
+! example, Wednesday, January 29, 2025 CE (in the common Gregorian
+! calendar) begins the lunisolar Year of the Snake.
 ! 
 ! The stems do not have a one-to-one mapping like that of the branches to
 ! animals; however, the five pairs of consecutive stems are each
@@ -28,10 +28,10 @@
 ! Earth, Metal, and Water). Further, one of the two years within each
 ! element is assigned to yin, the other to yang.
 ! 
-! Thus, the Chinese year beginning in 2024 CE is also the yang year of
+! Thus, the Chinese year beginning in 2025 CE is also the yin year of
 ! Wood. Since 12 is an even number, the association between animals and
-! yin/yang aspect doesn't change; consecutive Years of the Dragon will
-! cycle through the five elements, but will always be yang.
+! yin/yang aspect doesn't change; consecutive Years of the Snake will
+! cycle through the five elements, but will always be yin.
 ! 
 ! Task: Create a subroutine or program that will return or output the animal, yin/yang association, and element for the lunisolar year that begins in a given CE year.
 ! 
@@ -49,8 +49,8 @@
 ! -   The first year (Wood Rat, yang) of the current 60-year cycle began
 !     in 1984 CE.
 ! 
-! The lunisolar year beginning in 2024 CE - which, as already noted, is
-! the year of the Wood Dragon (yang) - is the 41st of the current cycle.
+! The lunisolar year beginning in 2025 CE - which, as already noted, is
+! the year of the Wood Snake (yin) - is the 42nd of the current cycle.
 ! 
 ! Information for optional task:
 ! 
@@ -63,8 +63,8 @@
 !     ASCII Pinyin, those are "zi3", "chou3", "yin2", "mao3", "chen2",
 !     "si4", "wu3", "wei4", "shen1", "you3", "xu1", and "hai4".
 ! 
-! Therefore 1984 was 甲子 (jiă-zĭ, or jia3-zi3), while 2024 is 甲辰
-! (jĭa-chén or jia3-chen2).
+! Therefore 1984 was 甲子 (jiă-zĭ, or jia3-zi3), while 2025 is 乙巳 (yĭ-sì
+! or yi3-si4).
 
 USING: circular formatting io kernel math qw sequences
 sequences.repeating ;

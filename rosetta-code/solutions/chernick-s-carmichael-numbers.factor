@@ -1,18 +1,18 @@
-! category:Prime Numbers In 1939, Jack Chernick proved that, for n ≥ 3 and
-! m ≥ 1:
+! category:Prime Numbers In 1939, Jack Chernick proved that, for n ≥ 3 and
+! m ≥ 1:
 ! 
-!    U(n, m) = (6m + 1) * (12m + 1) * Product_{i=1..n-2} (2^i * 9m + 1)
+!    $U(n, m) = (6m + 1)  (12m + 1)  \prod_{k=1}^{n-2} (2^k \, 9m + 1)$
 ! 
-! is a Carmichael number if all the factors are primes and, for n > 4, m
-! is a multiple of 2^(n-4).
+! is a Carmichael number if all the factors are primes and, for n > 4, m
+! is a multiple of 2^((n − 4)).
 ! 
 ! Example
 ! 
-!    U(3, m) = (6m + 1) * (12m + 1) * (18m + 1)
-!    U(4, m) = U(3, m) * (2^2 * 9m + 1)
-!    U(5, m) = U(4, m) * (2^3 * 9m + 1)
-!    ...
-!    U(n, m) = U(n-1, m) * (2^(n-2) * 9m + 1)
+!    U(3, m) = (6m + 1)(12m + 1)(18m + 1)
+!    U(4, m) = U(3, m)(2²9m + 1)
+!    U(5, m) = U(4, m)(2³9m + 1)
+!    ⋯
+!    U(n, m) = U(n − 1, m)(2^((n − 2))9m + 1)
 ! 
 ! -   The smallest Chernick's Carmichael number with 3 prime factors, is:
 !     U(3, 1) = 1729.
@@ -47,7 +47,7 @@
 ! 
 ! See also
 ! 
-! -   Jack Chernick, On Fermat's simple theorem (PDF)
+! -   Jack Chernick, On Fermat's simple theorem (PDF), equation (8)
 ! 
 ! -   OEIS A318646: The least Chernick's "universal form" Carmichael
 !     number with n prime factors

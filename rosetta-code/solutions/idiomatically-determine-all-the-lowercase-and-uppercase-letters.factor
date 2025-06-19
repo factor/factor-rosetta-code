@@ -1,5 +1,7 @@
 ! []
 ! 
+! |right
+! 
 ! Idiomatically determine all the lowercase and uppercase letters (of the
 ! Latin [English] alphabet) being used currently by a computer programming
 ! language. The method should find the letters regardless of the hardware
