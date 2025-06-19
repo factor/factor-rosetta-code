@@ -23,22 +23,30 @@ MEMO: list-category ( title -- members )
 : draft-tasks ( -- tasks )
     "Category:Draft_Programming_Tasks" list-categories ;
 
-:: extract-section ( page begin end -- section/f )
-    page begin subseq-index [
+:: extract-section-from ( from page begin end -- from'/f section/f )
+    from page begin subseq-index-from [
         begin length +
         dup page end subseq-index-from
         [ page length ] unless*
-        page subseq
-    ] [ f ] if* ;
+        [ page subseq ] keep
+        end length + swap
+    ] [ f f ] if* ;
+
+: extract-section ( page begin end -- section/f )
+    [ 0 ] 3dip extract-section-from nip ;
+
+: extract-sections ( page begin end -- sections/f ) 
+    [ 0 ] 3dip '[ _ _ _ extract-section-from dup ] [ ] produce 2nip
+    [ f ] [ "\n\n" join ] if-empty ;
 
 :: get-code ( page lang -- code/f )
     page {
         [
             "<syntaxhighlight lang=\"" lang "\">" 3append
-            "</syntaxhighlight>" extract-section
+            "</syntaxhighlight>" extract-sections
         ] [
             "<syntaxhighlight lang=" lang ">" surround
-            "</syntaxhighlight>" extract-section
+            "</syntaxhighlight>" extract-sections
         ]
     } 1|| ;
 
