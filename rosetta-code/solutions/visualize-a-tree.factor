@@ -26,3 +26,6 @@ CONSTANT: mammals { "mammals" { "deer" "gorilla" "dolphin" } }
 CONSTANT: reptiles { "reptiles" { "turtle" "lizard" "snake" } }
 
 { "animals" ${ mammals reptiles } } dup . 10 margin set .
+
+USE: trees.avl
+AVL{ { 1 2 } { 9 19 } { 3 4 } { 5 6 } } .

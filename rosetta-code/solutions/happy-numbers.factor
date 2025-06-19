@@ -52,3 +52,5 @@ USING: combinators kernel make math sequences ;
             dup happy? [ dup , [ 1 - ] dip ] when 1 +
         ] while 2drop
     ] { } make ;
+
+8 happy-numbers ! { 1 7 10 13 19 23 28 31 }

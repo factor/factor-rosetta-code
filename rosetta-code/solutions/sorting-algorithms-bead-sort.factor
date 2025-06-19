@@ -22,3 +22,6 @@ dup 0 [ max ] reduce
 [ ] [ v+ ] map-reduce ;
 
 : beadsort ( seq -- newseq ) bead bead ;
+
+( scratchpad ) { 5 2 4 1 3 3 9 } beadsort .
+{ 9 5 4 3 3 2 1 }

@@ -82,3 +82,6 @@ append append ;
 dup length 1 >
 [ dup length 2 / floor [ head ] [ tail ] 2bi [ mergesort ] bi@ merge ]
 [ ] if ;
+
+( scratchpad ) { 4 2 6 5 7 1 3 } mergesort .
+{ 1 2 3 4 5 6 7 }

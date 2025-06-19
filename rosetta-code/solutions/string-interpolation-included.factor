@@ -31,3 +31,9 @@ SYMBOL: little
 "little" little set
 
 little get "Mary had a %s lamb" sprintf
+
+USE: formatting 
+
+CONSTANT: little "little"
+
+little "Mary had a %s lamb" sprintf

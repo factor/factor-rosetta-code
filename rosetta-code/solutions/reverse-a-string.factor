@@ -11,3 +11,5 @@
 ! For example, "as⃝df̅" becomes "f̅ds⃝a", not "̅fd⃝sa".
 
 "hello" reverse
+
+"as⃝df̅" string-reverse "f̅ds⃝a" = .

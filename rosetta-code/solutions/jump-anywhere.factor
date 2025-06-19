@@ -35,3 +35,11 @@
 USING: continuations prettyprint ;
 
 current-continuation short.
+
+USING: continuations math prettyprint ;
+
+[ 10 2 / . continue 1 0 / . ] callcc0
+
+USING: continuations kernel math ;
+
+[ 10 2 / swap continue-with 1 0 / ] callcc1

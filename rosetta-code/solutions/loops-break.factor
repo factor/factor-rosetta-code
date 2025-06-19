@@ -32,3 +32,5 @@
 [
     [ 20 random [ . ] [ 10 = [ return ] when ] bi 20 random . t ] loop
 ] with-return
+
+[ 20 random [ . ] [ 10 = not ] bi dup [ 20 random . ] when ] loop

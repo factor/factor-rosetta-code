@@ -5,3 +5,5 @@
 ! Category:Iteration
 
 { 1 2 3 4 } [ sq . ] each
+
+{ 1 2 3 4 } [ sq ] map

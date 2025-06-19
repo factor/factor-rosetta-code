@@ -46,3 +46,9 @@ USING: sequences xml.syntax xml.writer ;
 : print-character-remarks ( names remarks -- )
     [ [XML <Character name=<-> ><-></Character> XML] ] 2map
     [XML <CharacterRemarks><-></CharacterRemarks> XML] pprint-xml ;
+
+{ "April" "Tam O'Shanter" "Emily" } {
+    "Bubbly: I'm > Tam and <= Emily"
+    "Burns: \"When chapman billies leave the street ...\""
+    "Short & shrift"
+} print-remarks

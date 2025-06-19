@@ -24,3 +24,26 @@
 ! Category:Functions and subroutines Category:Simple
 
 foo
+
+foo
+
+"a" "b" "c" 3 narray
+! { "a" "b" "c" }
+
+<email>
+    "jack@aol.com" >>from
+    { "jill@aol.com" } >>to
+    "Hello there" >>subject
+    body >>body
+send-email
+
+\ foo
+
+{ foo } [ foo ]
+
+foo
+
+\ foo primitive?
+
+{ 1 2 3 } 2 [ - ] curry map .
+! { -1 0 1 }

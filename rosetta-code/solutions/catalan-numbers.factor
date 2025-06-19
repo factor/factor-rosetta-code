@@ -26,3 +26,14 @@ USING: kernel math math.combinatorics prettyprint ;
 : catalan ( n -- n ) [ 1 + recip ] [ 2 * ] [ nCk * ] tri ;
 
 15 [ catalan . ] each-integer
+
+USING: kernel math prettyprint sequences ;
+
+: next ( seq -- newseq )
+  [ ] [ last ] [ length ] tri
+  [ 2 * 1 - 2 * ] [ 1 + ] bi /
+  * suffix ;
+
+: Catalan ( n -- seq )  V{ 1 } swap 1 - [ next ] times ;
+
+15 Catalan .

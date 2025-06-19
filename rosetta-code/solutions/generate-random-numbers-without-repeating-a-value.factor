@@ -38,3 +38,11 @@ sequences ;
     [ length dup nPk random ] keep permutation ;
 
 20 [1,b] random-permutation .
+
+USING: math.ranges prettyprint random vectors ;
+
+20 [1,b] >vector randomize .
+
+USING: math.ranges prettyprint random ;
+
+20 [1,b] 20 sample .

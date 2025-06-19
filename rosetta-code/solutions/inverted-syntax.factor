@@ -30,3 +30,18 @@
 [ + 1 1 ] reverse call ! 2
 { 1 2 3 4 5 } [ sq ] map ! { 1 4 9 16 25 }
 [ map [ sq ] { 1 2 3 4 5 } ] reverse call ! { 1 4 9 16 25 }
+
+MACRO: pre ( quot -- quot ) reverse ;
+
+[ + 2 2 ] pre ! 4
+
+[ + 3 + 2 2 ] pre ! 7
+
+MACRO: pre ( quot -- quot ) 1 cut swap [ 0 ] dip reduce 1quotation ;
+
+[ + 1 2 3 4 5 ] pre ! 15
+
+USE: infix
+[infix
+    5*(1+1) ! 10
+infix]

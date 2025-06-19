@@ -44,3 +44,29 @@
 ! produce a list of the first n fibs
 : fibseq ( n -- fibs ) 1 0 rot [ [ + ] 2keep ] replicate 2nip ; inline
 
+
+: fib ( n -- m )
+    dup 2 < [
+        [ 0 1 ] dip [ swap [ + ] keep ] times
+        drop
+    ] unless ;
+
+: fib ( n -- m )
+    dup 2 < [
+        [ 1 - fib ] [ 2 - fib ] bi +
+    ] unless ;
+
+: fib2 ( x y n -- a )
+  dup 1 <
+    [ 2drop ]
+    [ [ swap [ + ] keep ] dip 1 - fib2 ]
+  if ;
+: fib ( n -- m ) [ 0 1 ] dip fib2 ;
+
+USE: math.matrices
+
+: fib ( n -- m )
+    dup 2 < [
+        [ { { 0 1 } { 1 1 } } ] dip 1 - m^n
+        second second
+    ] unless ;

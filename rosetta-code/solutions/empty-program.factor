@@ -5,3 +5,7 @@
 ! Category:Initialization Category:Simple
 
 
+
+IN: rosetta.empty
+: main ( -- ) ;
+MAIN: main

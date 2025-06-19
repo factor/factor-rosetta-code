@@ -52,3 +52,9 @@
 ] [
   [ print ] slurp-heap
 ] bi
+
+Solve RC tasks
+Tax return
+Clear drains
+Feed cat
+Make tea

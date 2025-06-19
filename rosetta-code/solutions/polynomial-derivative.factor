@@ -17,3 +17,7 @@ USING: generalizations kernel math.polynomials prettyprint ;
 { 1 1 0 -1 -1 }
 
 [ pdiff ] 5 napply .s clear
+
+USING: kernel math.vectors sequences ;
+IN: math.polynomials
+: pdiff ( p -- p' ) dup length <iota> v* rest ;

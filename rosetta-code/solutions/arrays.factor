@@ -36,3 +36,10 @@
   [ "Modified array: " write . ]
   [ "The element we modified: " write [ 1 ] dip nth . ]
 } cleave
+
+V{ 1 2 3 }
+{ 
+  [ "The initial vector: " write . ]
+  [ [ 42 ] dip push ]
+  [ "Modified vector: " write . ]
+} cleave

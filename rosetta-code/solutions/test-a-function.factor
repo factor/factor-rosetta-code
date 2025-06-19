@@ -10,3 +10,11 @@ USING: kernel sequences ;
 IN: palindrome
 
 : palindrome? ( string -- ? ) dup reverse = ;
+
+USING: palindrome tools.test ;
+IN: palindrome.tests
+
+[ t ] [ "racecar" palindrome? ] unit-test
+[ f ] [ "ferrari" palindrome? ] unit-test
+
+( scratchpad ) "palindrome" test

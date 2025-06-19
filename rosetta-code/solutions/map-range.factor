@@ -26,3 +26,11 @@
 USE: locals
 :: map-range ( a1 a2 b1 b2 x -- y )
    x a1 - b2 b1 - * a2 a1 - / b1 + ;
+
+USING: locals infix ;
+:: map-range ( a1 a2 b1 b2 x -- y ) 
+   [infix
+     b1 + (x - a1) * (b2 - b1) / (a2 - a1)
+   infix] ;
+
+10 iota [| x | 0 10 -1 0 x map-range ] map . ! { -1 -9/10 -4/5 -7/10 -3/5 -1/2 -2/5 -3/10 -1/5 -1/10 }

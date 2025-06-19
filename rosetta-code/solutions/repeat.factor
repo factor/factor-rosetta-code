@@ -7,3 +7,6 @@
 ! integer.
 
 3 [ "Hello!" print ] times
+
+: times ( ... n quot: ( ... -- ... ) -- ... )
+    [ drop ] prepose each-integer ; inline

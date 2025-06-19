@@ -40,3 +40,13 @@ FROM: monads => do ;
 { 3 4 5 }
 >>= [ 1 + array-monad return ] swap call
 >>= [ 2 * array-monad return ] swap call .
+
+{ 3 4 5 }
+[ 1 + array-monad return ] bind
+[ 2 * array-monad return ] bind .
+
+{
+    [ { 3 4 5 } ]
+    [ 1 + array-monad return ]
+    [ 2 * array-monad return ]
+} do .

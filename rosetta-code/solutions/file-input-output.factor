@@ -14,3 +14,11 @@
 
 "input.txt" binary file-contents
 "output.txt" binary set-file-contents
+
+[
+    "input.txt" binary <file-reader> &dispose
+    "output.txt" binary <file-writer> stream-copy
+] with-destructors
+
+
+"input.txt" "output.txt" copy-file

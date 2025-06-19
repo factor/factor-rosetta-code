@@ -56,3 +56,7 @@ IN: rosetta-code.chess960
 : chess960-demo ( -- ) 5 [ chess960 print ] times ;
 
 MAIN: chess960-demo
+
+USING: chess960 prettyprint ;
+
+chess960-position .

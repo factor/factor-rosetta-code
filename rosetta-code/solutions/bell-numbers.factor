@@ -53,3 +53,22 @@ USING: formatting io kernel math math.matrices sequences vectors ;
 "First 15 Bell numbers:\n%[%d, %]\n\n50th: %d\n\n" printf
 "First 10 rows of the Bell triangle:" print
 10 aitken [ "%[%d, %]\n" printf ] each
+
+USING: formatting kernel math math.combinatorics sequences ;
+
+: next-bell ( seq -- n )
+    dup length 1 - [ swap nCk * ] curry map-index sum ;
+
+: bells ( n -- seq )
+    V{ 1 } clone swap 1 - [ dup next-bell suffix! ] times ;
+
+50 bells [ 15 head ] [ last ] bi
+"First 15 Bell numbers:\n%[%d, %]\n\n50th: %d\n" printf
+
+USING: formatting kernel math math.extras math.ranges sequences ;
+
+: bell ( m -- n )
+    [ 1 ] [ dup [1,b] [ stirling ] with map-sum ] if-zero ;
+
+50 [ bell ] { } map-integers [ 15 head ] [ last ] bi
+"First 15 Bell numbers:\n%[%d, %]\n\n50th: %d\n" printf

@@ -18,3 +18,7 @@ elt0 elt1 <  [ elt1 ind1 ] [ elt0 ind0 ] if ;
 : max-subseq ( seq -- subseq )
 dup 0 [ + 0 max ] accumulate swap suffix last-of-max head
 dup 0 [ + ] accumulate swap suffix [ neg ] map last-of-max tail ;
+
+( scratchpad ) { -1 -2 3 5 6 -2 -1 4 -4 2 -1 } max-subseq  dup sum  swap . .
+{ 3 5 6 -2 -1 4 }
+15

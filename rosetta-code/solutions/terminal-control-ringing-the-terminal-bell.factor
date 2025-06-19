@@ -17,3 +17,7 @@
 USE: io
 
 "\u{7}" print
+
+USING: io strings ;
+
+7 1string print

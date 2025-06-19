@@ -84,3 +84,5 @@
 ! -   -   print itself.
 
 "%s [ 34 1string dup surround ] keep printf" [ 34 1string dup surround ] keep printf
+
+"[ pprint ] [ write ] bi"[ pprint ] [ write ] bi

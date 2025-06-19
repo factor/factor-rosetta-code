@@ -43,3 +43,8 @@ IN: rosetta-code.largest-int
     reverse concat print ;             
     
 qw{ 1 34 3 98 9 76 45 4 } qw{ 54 546 548 60 } [ largest-int ] bi@
+
+USING: kernel math.order qw sequences sorting ;
+
+: fn ( seq -- str )
+    [ 2dup swap [ append ] 2bi@ after? +lt+ +gt+ ? ] sort concat ;

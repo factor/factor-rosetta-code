@@ -19,3 +19,12 @@
 ! Category: String manipulation Category:Simple
 
 "cheesecake" "cheese" head?   ! t
+
+"sec" "cheesecake" subseq?   ! t
+
+"cheesecake" "cake" tail?   ! t
+
+"sec" "cheesecake" subseq-start   ! 4
+
+USE: regexp
+"Mississippi" "iss" <regexp> all-matching-slices [ from>> ] map   ! { 1 4 }

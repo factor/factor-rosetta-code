@@ -6,3 +6,14 @@
 ! Category:Type System
 
 PREDICATE: my-int < integer [ 0 > ] [ 11 < ] bi and ;
+
+11 my-int? ! f
+10 my-int? ! t
+"hello" my-int? ! f
+
+GENERIC: ++ ( m -- n )
+M: integer ++ 1 + ;
+M: my-int ++ 2/ ;
+
+10 ++ ! 5
+11 ++ ! 12

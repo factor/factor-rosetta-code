@@ -23,3 +23,6 @@
 0b10 . ! binary
 -0o10 . ! octal
 0x10 . ! hexadecimal
+
+1,234,567 .
+1,23,4,567 .

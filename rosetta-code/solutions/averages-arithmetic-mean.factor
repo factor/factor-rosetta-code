@@ -15,3 +15,6 @@ USING: math math.statistics ;
 
 : arithmetic-mean ( seq -- n )
     [ 0 ] [ mean ] if-empty ;
+
+( scratchpad ) { 2 3 5 } arithmetic-mean >float
+3.333333333333333

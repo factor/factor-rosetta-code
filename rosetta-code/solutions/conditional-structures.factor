@@ -16,3 +16,13 @@
 
 t 1 2 ? ! returns 1
 
+
+t [ 1 ] [ 2 ] if ! returns 1
+
+{ { [ t ] [ 1 ] } { [ f ] [ 2 ] } } cond ! returns 1
+
+t { { t [ 1 ] } { f [ 2 ] } } case ! returns 1
+
+t [ "1" print ] when ! prints 1
+
+f [ "1" print ] unless ! prints 1

@@ -22,3 +22,31 @@
 : pow ( f n -- f' )
     dup 0 < [ abs pow recip ]
     [ [ 1 ] 2dip swap [ * ] curry times ] if ;
+
+: pow ( f n -- f' )
+    {  
+        { [ dup 0 < ] [ abs pow recip ] }
+        { [ dup 0 = ] [ 2drop 1 ] }
+        [ [ 2 mod 1 = swap 1 ? ] [ [ sq ] [ 2 /i ] bi* pow ] 2bi * ]
+    } cond ;
+
+USING: combinators kernel math ;
+IN: test
+
+: (pow) ( f n -- f' )
+    [ dup even? ] [ [ sq ] [ 2 /i ] bi* ] while
+    dup 1 = [ drop ] [ dupd 1 - (pow) * ] if ;
+
+: pow ( f n -- f' )
+    {
+        { [ dup 0 < ] [ abs (pow) recip ] }
+        { [ dup 0 = ] [ 2drop 1 ] }
+        [ (pow) ]
+    } cond ;
+
+: (pow) ( f n -- f' )
+    [ 1 ] 2dip     
+    [ dup 1 = ] [
+        dup even? [ [ sq ] [ 2 /i ] bi* ] [ [ [ * ] keep ] dip 1 - ] if
+    ] until
+    drop * ;

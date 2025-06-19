@@ -45,3 +45,11 @@
 : sum ( lo hi term -- x ) [ [a,b] ] dip map-sum ; inline
 
 1 100 [ recip ] sum .
+
+SYMBOL: i
+
+: sum ( i lo hi term -- x )
+    [ [a,b] ] dip pick [ inc ] curry compose map-sum nip ;
+    inline
+
+i 1 100 [ recip ] sum .

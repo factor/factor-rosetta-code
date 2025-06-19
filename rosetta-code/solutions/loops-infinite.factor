@@ -23,3 +23,8 @@
 ! Category:Simple
 
 : spam ( -- ) "SPAM" print spam ;
+
+[ "SPAM" print t ] loop
+
+USE: combinators.extras
+[ "SPAM" print ] forever

@@ -54,3 +54,19 @@
     [ b neg sd + a 2 * / ]
     [ b neg sd - a 2 * / ] if :> x
     x c a x * / ;
+
+( scratchpad ) 1 -1.e20 1 quadratic-equation
+--- Data stack:
+1.0e+20
+9.999999999999999e-21
+
+:: quadratic-equation2 ( a b c -- x1 x2 )
+ a c * sqrt b / :> q 
+ 1 4 q sq * - sqrt 0.5 * 0.5 + :> f
+ b neg a / f * c neg b / f / ; 
+
+
+( scratchpad ) 1 -1.e20 1 quadratic-equation
+--- Data stack:
+1.0e+20
+1.0e-20

@@ -60,3 +60,6 @@ USING: arrays kernel math math.constants math.functions math.vectors sequences ;
   2bi
 v.
 haversininv R_earth * ;
+
+( scratchpad ) { 36.12 -86.67 } { 33.94 -118.4 } haversineDist .
+2887.259950607113

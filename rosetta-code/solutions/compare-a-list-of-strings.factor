@@ -30,3 +30,6 @@
 
 USE: grouping
 all-equal?
+
+USING: grouping math.order ;
+[ before? ] monotonic?

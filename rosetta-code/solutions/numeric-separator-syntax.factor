@@ -38,3 +38,31 @@ USE: prettyprint
 
 ! and complex numbers
 C{ 5.225,312 2.0 } .   ! C{ 5.225312 2.0 }
+
+USING: lexer math.parser prettyprint sequences sets ;
+
+<< SYNTAX: PN: scan-token "_" without string>number suffix! ; >>
+
+! permissive numbers
+PN: _1_2_3_ .   ! 123
+PN: 1__234___567 .   ! 1234567
+PN: 0b0___10.100001p3 .   ! 20.125
+
+USING: eval prettyprint ;
+
+<<
+
+"IN: math.parser.private
+USE: combinators
+: @pos-digit-or-punc ( i number-parse n char -- n/f )
+    {
+        { 95 [ [ @pos-digit ] require-next-digit ] }   ! normally 44
+        { 43 [ ->numerator ] }
+        { 47 [ ->denominator ] }
+        { 46 [ ->mantissa ] }
+        [ [ @pos-digit ] or-exponent ]
+    } case ; inline" eval( -- )
+
+>>
+
+3_333_333 .   ! 3333333

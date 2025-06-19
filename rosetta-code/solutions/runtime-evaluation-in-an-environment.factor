@@ -15,3 +15,21 @@
 USE: eval
 : eval-bi@- ( a b program -- n )
     tuck [ ( y -- z ) eval ] 2bi@ - ;
+
+IN: scratchpad 9 4 "dup *" eval-bi@- .
+65
+
+: bi@- ( a b quot -- n ) bi@ - ; inline
+
+IN: scratchpad 9 4 [ dup * ] bi@- .
+65
+
+SYMBOL: x
+: eval-with-x ( a b program -- n )
+    tuck
+    [ [ x ] dip [ ( -- y ) eval ] curry with-variable ] 2bi@ - ;
+
+IN: scratchpad 9 4 "x get dup *" eval-with-x .
+65
+IN: scratchpad x get .
+f

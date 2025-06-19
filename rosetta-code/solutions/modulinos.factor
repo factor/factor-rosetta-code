@@ -26,3 +26,24 @@ IN: syntax
 : include-vocab ( vocab -- ) dup ".factor" append parse-file append use-vocab ;
 
 SYNTAX: INCLUDING: ";" [ include-vocab ] each-token ;
+
+#! /usr/bin/env factor
+
+USING: io math.parser ;
+IN: scriptedmain
+
+: meaning-of-life ( -- n ) 42 ;
+
+: main ( -- ) meaning-of-life "Main: The meaning of life is " write number>string print ;
+
+MAIN: main
+
+#! /usr/bin/env factor
+
+INCLUDING: scriptedmain ;
+USING: io math.parser ;
+IN: test
+
+: main ( -- ) meaning-of-life "Test: The meaning of life is " write number>string print ;
+
+MAIN: main

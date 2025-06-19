@@ -44,3 +44,6 @@ USE: math.vectors
 : equilibrium-indices ( seq -- inds )
   0 [ + ] [ accum-left ] [ accum-right ] 3bi [ = ] 2map
   V{ } swap dup length iota [ [ suffix ] curry [ ] if ] 2each ;
+
+( scratchpad ) { -7 1 5 2 -4 3 0 } equilibrium-indices .
+V{ 3 6 }

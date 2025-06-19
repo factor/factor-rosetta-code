@@ -11,3 +11,9 @@
 "Let's make a deal!" dup clone  ! copy
 "New" " string" append .               ! new string
     "New string"
+
+SBUF" Grow me!" dup "  OK." append
+    SBUF" Grow me!  OK."
+
+SBUF" I'll be a string someday." >string .
+    "I'll be a string someday."

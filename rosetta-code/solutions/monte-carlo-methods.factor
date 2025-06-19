@@ -34,3 +34,6 @@ USING: kernel math math.functions random sequences ;
 : in-circle ( x y -- ? ) limit [ sq ] tri@ [ + ] [ <= ] bi* ;
 : rand ( -- r ) limit random ;
 : pi ( n -- pi ) [ [ drop rand rand in-circle ] count ] keep / 4 * >float ;
+
+10000 pi .
+3.1412

@@ -47,3 +47,8 @@ DEFER: nth-in-order
 
 : median ( seq -- median )
   dup length 1 - 2 / floor nth-in-order ;
+
+( scratchpad ) 11 iota median .
+5
+( scratchpad ) 10 iota median .
+4

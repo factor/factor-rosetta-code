@@ -17,3 +17,7 @@
 USING: kernel system ;
 
 t [ 0 exit ] when
+
+USING: init io ;
+
+[ "Exiting Factor..." print flush ] "message" add-shutdown-hook

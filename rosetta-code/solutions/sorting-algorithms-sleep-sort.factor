@@ -19,3 +19,7 @@ USING: threads calendar concurrency.combinators ;
 
 : sleep-sort ( seq -- ) [ dup seconds sleep . ] parallel-each ;
 
+
+
+{ 1 9 2 6 3 4 5 8 7 0 } sleep-sort
+

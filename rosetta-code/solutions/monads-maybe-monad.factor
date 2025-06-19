@@ -27,3 +27,17 @@ FROM: monads => do ;
 ! Prints "nothing"
 nothing >>= [ 2 * maybe-monad return ] swap call
         >>= [ 1 + maybe-monad return ] swap call .
+
+3 <just> [ 2 * <just> ] bind [ 1 + <just> ] bind .
+nothing [ 2 * <just> ] bind [ 1 + <just> ] bind .
+
+{
+    [ 3 <just> ]
+    [ 2 * <just> ]
+    [ 1 + <just> ]
+} do .
+{
+    [ nothing ]
+    [ 2 * <just> ]
+    [ 1 + <just> ]
+} do .

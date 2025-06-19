@@ -31,3 +31,8 @@ dup length iota [ 0 <repetition> ] map
 : digits->integer ( xs -- x )  0 [ swap 10 * + ] reduce ;
 
 : longmult ( x y -- z )  [ integer->digits ] bi@ longmult-seq digits->integer ;
+
+( scratchpad ) 2 64 ^ dup longmult .
+340282366920938463463374607431768211456
+( scratchpad ) 2 64 ^ dup * .
+340282366920938463463374607431768211456

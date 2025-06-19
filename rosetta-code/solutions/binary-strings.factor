@@ -28,3 +28,5 @@
 ! L-systems (manipulation of symbols), many more.
 
 "Hello, byte-array!" utf8 encode .
+
+B{ 147 250 150 123 } shift-jis decode .

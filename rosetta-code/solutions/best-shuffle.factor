@@ -33,6 +33,9 @@
 ! -   Permutations/Derangements
 
 
+USING: arrays combinators.short-circuit formatting kernel random
+sequences sequences.extras ;
+
 :: best-shuffle ( str -- str' )
     str clone :> new-str
     str length :> n

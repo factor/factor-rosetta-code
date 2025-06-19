@@ -56,3 +56,6 @@ USING: grouping kernel math sequences ;
 
 : pascal ( n -- seq )
     1 - { { 1 } } swap [ (pascal) ] times ;
+
+5 pascal .
+{ { 1 } { 1 1 } { 1 2 1 } { 1 3 3 1 } { 1 4 6 4 1 } }

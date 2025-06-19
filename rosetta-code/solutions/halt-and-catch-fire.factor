@@ -19,3 +19,7 @@
 ! Category:Simple
 
 +
+
+1
+
+USE: kernel IN: a : b ( -- ) die ; MAIN: b
