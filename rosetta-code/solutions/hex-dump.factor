@@ -67,5 +67,14 @@
 ! 
 ! Other hexdump/xxd features and a command line interface to your program
 ! are optional.
+! 
+! Example UTF-16 encoded file
+! 
+! Some solutions will require a suitable UTF-16 encoded text file for
+! testing. This example shows how to generate such a file using Python.
+! 
+!     s = "Rosetta Code is a programming chrestomathy site \U0001F600."
+!     with open("example_utf16.txt", "wb") as of:
+!         of.write(s.encode("utf-16"))
 
 

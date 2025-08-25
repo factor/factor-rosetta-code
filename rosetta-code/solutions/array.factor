@@ -90,8 +90,8 @@
 ! 
 ! The lower bound of non-associative arrays in many programming languages
 ! is commonly fixed at either 0 (C and relatives) or 1 (Old Fortran and
-! relatives); or an arbitrary integer (Pascal and relatives, modern
-! Fortran). In Ada any discrete type can used as an index. Zero-based
+! relatives); or an arbitrary integer (modern Fortran). In Pascal and its
+! family, including Ada any ordinal type can used as an index. Zero-based
 ! indexing is best thought of in terms of the index being an offset from
 ! the beginning of the array. Thus the first element is located zero
 ! elements from this starting point. The alternative can be thought of as

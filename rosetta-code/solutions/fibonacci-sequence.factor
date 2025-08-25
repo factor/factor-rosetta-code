@@ -3,7 +3,7 @@
 ! 
 !       F⁰ = 0 
 !       F¹ = 1 
-!       F_(n) = F_(n-1) + F_(n-2), if n>1 
+!       F_(n) = F_(n-1) + F_(n-2) , if n > 1 
 ! 
 ! Task:
 ! 
@@ -13,16 +13,20 @@
 ! generally considered too slow and are mostly used as an exercise in
 ! recursion).
 ! 
-! The sequence is sometimes extended into negative numbers by using a
-! straightforward inverse of the positive definition:
+! The sequence is sometimes extended for negative numbers by using an
+! alternating inverse of the positive values. Rewriting the definition as
 ! 
-!       F_(n) = F_(n+2) - F_(n+1), if n<0   
+!       F_(n) = F_(n+2) - F_(n+1) , if n < 0 
 ! 
-! support for negative n in the solution is optional.
+! leads to
+! 
+!       F_(-n) = (-1)^(n+1) F_(n) .
+! 
+! Support for negative n in the solution is optional.
 ! 
 ! Related tasks:
 ! 
-! -   Fibonacci n-step number sequences‎
+! -   Fibonacci n-step number sequences
 ! -   Leonardo numbers
 ! 
 ! References:

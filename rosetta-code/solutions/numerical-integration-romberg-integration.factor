@@ -5,17 +5,19 @@
 ! it performs a series of steps each time doubling the number of
 ! intervals, until the requested precision is reached. The routine is said
 ! to be faster as Simpson's or Boole's rule.
-! ;Pseudo code Below code does not check for the requested precision, but
-! just executes the given number of steps, using the trapezium rule. It
-! requires the function to integrate, the lower bound, the upper bound and
-! the number of steps. Specifying s steps calculates 2**s intervals.
+! ;Pseudo code Below code executes until the specified number of steps or
+! the accuracy is reached. It requires the function to integrate, the
+! lower bound, the upper bound, the number of steps and the required
+! accuracy. Step number i will calculate 2**i intervals.
 ! 
-!     procedure Romberg(func,lower,upper,steps)
+!     procedure Romberg(func,lower,upper,steps,acc)
 !     h0 := upper-lower
 !     s0 := func(lower)+func(upper)
 !     r[0][0] := s0*h0/2
+!     rr := 0
 !     n := 1
-!     for i := 1 to steps do
+!     for i := 1 to steps until Abs(rr-ro) < acc do
+!        ro := rr
 !        n := 2*n
 !        h := h0/n
 !        s := s0/2
@@ -45,5 +47,7 @@
 ! ∫⁻³³exp (x) dx ≈ 20.0357499
 ! with 5 steps.
 ! ;Reference Wikipedia
+! 
+! Category:Arithmetic Category:Mathematics
 
 

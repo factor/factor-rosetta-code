@@ -2,7 +2,7 @@
 ! and more important. For handling multiple languages, Unicode is your
 ! best friend.
 ! 
-! It is a very capable and remarquable tool, but also quite complex
+! It is a very capable and remarkable tool, but also quite complex
 ! compared to older single- and double-byte character encodings.
 ! 
 ! How well prepared is your programming language for Unicode?

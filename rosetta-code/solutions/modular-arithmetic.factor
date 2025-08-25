@@ -2,16 +2,16 @@
 ! involving the concepts of addition and multiplication) which is done on
 ! numbers with a defined equivalence relation called congruence.
 ! 
-! For any positive integer p called the congruence modulus, two numbers a
-! and b are said to be congruent modulo p whenever there exists an integer
+! For any positive integer m called the congruence modulus, two numbers a
+! and b are said to be congruent modulo m whenever there exists an integer
 ! k such that:
 ! 
-! a = b + k p
+! a = b + k m
 ! 
 ! The corresponding set of equivalence classes forms a ring denoted
-! $\frac{\Z}{p\Z}$. When p is a prime number, this ring becomes a field
-! denoted 𝔽_(p), but you won't have to implement the multiplicative
-! inverse for this task.
+! $\Z/m\Z$. When q = p^(k) (k > 0) is a prime power, the ring $\Z/q\Z$
+! becomes a finite field, usually denoted 𝔽_(q) or GF(q), but you won't
+! have to implement the multiplicative inverse for this task.
 ! 
 ! Addition and multiplication on this ring have the same algebraic
 ! structure as in usual arithmetic, so that a function such as a

@@ -14,7 +14,7 @@
 ! enough to allow embedding of the Peano axioms and the opportunity to
 ! carry out constructive proofs. Examples of the trusted mathematical
 ! metatheories can be given: SystemF for Haskell, MLTT for Agda, CoC/CoIC
-! for Coq.
+! for Rocq.
 ! 
 ! Task:
 ! 

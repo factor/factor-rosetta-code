@@ -1,0 +1,59 @@
+! Introduction
+! 
+! Tanh-Sinh Quadrature double exponentiation remaps an integral to an
+! interval around zero using hyperbolic functions in such a way that the
+! integrand value decays with double exponential rate for lower/higher
+! values of x. Starting with 3 intervals, it performs a series of steps
+! each time doubling the number of intervals, until the requested
+! precision is reached. In spite of the calls to hyperbolic functions, the
+! routine is hailed to be the fastest, specifically for high precision.
+! 
+! An important internal value in this routine is h, the step size. You
+! might add this as parameter, but the fixed value 0.1 in the pseudo code
+! is sufficient for the task. An optimal value for h (typically between
+! 0.05 and 0.25) depends on the integrand, the range, the required
+! accuracy and even on the magnitude of the integral to calculate...
+! ;Pseudo code Below code executes until the specified number of steps or
+! the accuracy is reached. It expects the function to integrate, the lower
+! bound, the upper bound, the number of steps and the required accuracy.
+! Step number i will calculate 2**i-1 intervals.
+! 
+!     procedure TanhSinh(func,lower,upper,steps,acc)
+!     h := 0.1
+!     h0 := (upper-lower) / 2
+!     h1 := (lower+upper) / 2
+!     rr := 0
+!     for k := 1 to steps until Abs(rr-ro) < acc do
+!         ro := rr
+!         n := 2**k - 1
+!         ss := 0
+!         for i := -n to n do
+!             t := i*h
+!             sh := Sinh(t)
+!             ch := Cosh(t)
+!             th := Tanh(sh*Pi/2)
+!             dx := (ch*Pi/2) / (Cosh(sh*Pi/2)**2)
+!             xi := h1 + h0*th
+!             wt := h*dx
+!             ss := ss + func(xi)*wt
+!         endfor
+!         rr := h0*ss
+!     endfor
+!     return rr
+! 
+! ;Example in single precision
+! 
+!     print Tanh-Sinh(sin(x),0,1,5)
+! 
+! returns 0.45969769.
+! ;Task Write a procedure (routine, function, method) that calculates the
+! definite integral for a function f(x) using Tanh-Sinh Quadrature (also
+! called Double-Exponentiation integration). Test your solution by
+! calculating
+! ∫⁻³³exp (x) dx ≈ 20.0357499
+! with 5 steps.
+! ;Reference Wikipedia
+! 
+! Category:Arithmetic Category:Mathematics
+
+

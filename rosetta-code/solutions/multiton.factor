@@ -18,7 +18,5 @@
 ! Related task
 ! 
 ! -   Singleton
-! 
-! =
 
 

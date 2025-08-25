@@ -1,6 +1,5 @@
-! category:Discrete math
-! 
-! Write a function which says whether a number is perfect.
+! category:Discrete math Write a function which says whether a number is
+! perfect.
 ! 
 ! A perfect number is a positive integer that is the sum of its proper
 ! positive divisors excluding the number itself.

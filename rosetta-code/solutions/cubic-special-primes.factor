@@ -3,6 +3,10 @@
 ! n is smallest prime such that the difference of successive terms are the
 ! smallest cubics of positive integers, where n < 15000.
 ! 
+! See also
+! 
+! -   Quadrat special primes
+! 
 ! Category:Prime Numbers
 
 USING: fry io kernel lists lists.lazy math math.functions

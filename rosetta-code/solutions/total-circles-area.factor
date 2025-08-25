@@ -1,9 +1,9 @@
 ! [Example circles] [Example circles filtered]
-! 
-! Given some partially overlapping circles on the plane, compute and show
-! the total area covered by them, with four or six (or a little more)
-! decimal digits of precision. The area covered by two or more disks needs
-! to be counted only once.
+! https://rosettacode.org/wiki/Total_circles_area?action=edit Given some
+! partially overlapping circles on the plane, compute and show the total
+! area covered by them, with four or six (or a little more) decimal digits
+! of precision. The area covered by two or more disks needs to be counted
+! only once.
 ! 
 ! One point of this Task is also to compare and discuss the relative
 ! merits of various solution strategies, their performance, precision and

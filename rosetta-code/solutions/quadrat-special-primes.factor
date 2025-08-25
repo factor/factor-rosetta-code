@@ -4,6 +4,10 @@
 ! 16,000, where the successor of q is the least prime, p, such that p - q
 ! is a perfect square.
 ! 
+! See also
+! 
+! -   Cubic special primes
+! 
 ! Category:Prime Numbers
 
 USING: fry io kernel lists lists.lazy math math.primes prettyprint ;

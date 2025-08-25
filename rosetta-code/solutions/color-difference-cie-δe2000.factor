@@ -1,9 +1,10 @@
 ! The CIE ΔE2000 color difference formula
 ! 
-! The ΔE2000 color difference formula is a widely used metric for
-! comparing two colors in the CIE 1976 color space. It enhances the
-! earlier CIE76 algorithm by integrating additional perceptual factors,
-! resulting in more accurate color matching.
+! The ΔE2000 color difference formula has become a widely used industry
+! standard for evaluating the distance between two colors in the CIE 1976
+! color space. It improves on the ΔE₉₄, its predecessor, by incorporating
+! additional adjustments into the algorithm, so that color comparisons
+! better match those of human vision.
 ! 
 ! [caption|The CIEDE2000 formula, based on CIE Technical Report 142-2001.]
 ! 

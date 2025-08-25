@@ -32,7 +32,9 @@
 ! The key steps are:
 ! 
 ! 1. Initialize C(x) = 1, degree L = 0, and a temporary polynomial
-! B(x) = 1. 2. For each sequence element s_(i):
+! B(x) = 1.
+! 
+! 2. For each sequence element s_(i):
 ! 
 !   * Compute the discrepancy $\Delta = s_i + \sum_{k=1}^L c_k s_{i-k}$.
 !   * If Δ ≠ 0:

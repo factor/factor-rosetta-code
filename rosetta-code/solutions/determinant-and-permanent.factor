@@ -1,5 +1,6 @@
 ! For a given matrix, return the determinant and the permanent of the
-! matrix.
+! matrix. For a matrix of orthonormal basis vectors, return the
+! Levi-Civita symbol of the orthonormal basis vector permutation.
 ! 
 ! The determinant is given by
 ! 

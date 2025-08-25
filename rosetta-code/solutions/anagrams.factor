@@ -4,7 +4,7 @@
 ! Task
 ! 
 ! Using the word list at
-! http://wiki.puzzlers.org/pub/wordlists/unixdict.txt,
+! http://wiki.puzzlers.org/pub/wordlists/unixdict.txt or here,
 ! 
 ! find the sets of words that share the same characters that contain the
 ! most words in them.
