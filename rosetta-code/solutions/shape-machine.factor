@@ -1,6 +1,6 @@
 ! Task:
 ! 
-! Get user input (or store the number somewhere if the programing langauge
+! Get user input (or store the number somewhere if the programing language
 ! doesn't support input) and then add 3, multiply that 0.86 and repeat
 ! that over and over again.
 ! 

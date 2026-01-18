@@ -20,6 +20,6 @@
 ! Any cell size is allowed, EOF (End-O-File) support is optional, as is
 ! whether you have bounded or unbounded memory.
 
-USE: brainf***
+USE: brainfuck
 
-"++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++." run-brainf***
+"++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++." run-brainfuck

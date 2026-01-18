@@ -77,6 +77,19 @@
 ! a¹c² − b¹d² + c¹a² + d¹b², 
 ! a¹d² + b¹c² − c¹b² + d¹a² ) 
 ! 
+!     /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+!     /* quaternion multiplication                                             */
+!     /*                                                                       */
+!     /*      \    black           sign             index                      */
+!     /*        g  \-\-\-       1,-1,-1,-1        0, 1, 2, 3                   */
+!     /*     +\ _r/_\-\-        1, 1, 1,-1        1, 0, 3, 2                   */
+!     /*    +\+\ /e  \-         1,-1, 1, 1        2, 3, 0, 1                   */
+!     /*   +\+\+\  y            1, 1,-1, 1        3, 2, 1, 0                   */
+!     /*    white    \                                                         */
+!     /*                       infinitesimal    skew-symmetric                 */
+!     /*                      rotation matrix  permutation matrix              */
+!     /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+! 
 ! 1.  Show that, for the two quaternions q¹ and q₂:
 ! 
 ! q¹q² ≠ q²q¹  
@@ -85,7 +98,17 @@
 ! 
 ! C.f.:
 ! 
+! -   On Infinitesimal rotation matrix relationship to skew-symmetric
+!     matrices;
 ! -   Vector products
+! -   Bivector type
+! -   Trivector type
+! -   Antivector type
+! -   Tensor type
+! -   Rotor type
+! -   Motor type
+! -   Sedenion type
+! -   Octonion type
 ! -   On Quaternions; or on a new System of Imaginaries in Algebra. By Sir
 !     William Rowan Hamilton LL.D, P.R.I.A., F.R.A.S., Hon. M. R. Soc. Ed.
 !     and Dub., Hon. or Corr. M. of the Royal or Imperial Academies of St.

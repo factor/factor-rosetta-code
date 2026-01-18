@@ -10,9 +10,9 @@
 ! Every product is unique.
 ! 
 ! 2346 is not a colorful number. 2, 3, 4, 6, (2×3)6, (3×4)12, (4×6)24,
-! (2×3×4)48, (3×4×6)72, (2×3×4×6)144
+! (2×3×4)24, (3×4×6)72, (2×3×4×6)144
 ! 
-! The product 6 is repeated.
+! The products 6 and 24 are repeated.
 ! 
 ! Single digit numbers are considered to be colorful. A colorful number
 ! larger than 9 cannot contain a repeated digit, the digit 0 or the

@@ -23,6 +23,9 @@
 ! 
 ! Related tasks:
 ! 
+! -   Array
+! -   Vector
+! -   Sum and product of an array
 ! -   Collections
 ! -   Creating an Associative Array
 ! -   Two-dimensional array (runtime)

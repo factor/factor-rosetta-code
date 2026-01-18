@@ -8,7 +8,7 @@
 ! 
 ! Other programming languages may make use of the POW or some other BIF
 ! 
-! (Built─In Ffunction),  or some other library service.
+! (Built─In Function),  or some other library service.
 ! 
 ! If your language's exponentiation operator is not one of the usual ones,
 ! please comment on how to recognize it.

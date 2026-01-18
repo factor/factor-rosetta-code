@@ -33,18 +33,17 @@
 ! Category:Puzzles Category:Games
 
 
-USING: io kernel math math.parser random ranges sequences sets ; IN: bullsncows
-9 [1..b] 4 sample [ 48 + ] "" map-as
-[ "guess the 4-digit number: " write flush readln dup
-  [ length 4 = ] [ [ 48 57 [a..b] in? ] all? ] bi and ! [48,57] is the ascii range for 0-9
-  [ 2dup =
-    [ 2drop "yep!" print flush f ]
-    [ "bulls & cows: " write
-      [ 0 [ = 1 0 ? + ] 2reduce ] [ intersect length ] 2bi over -
-      [ number>string ] bi@ " & " glue print flush t ]
-    if ]
-  [ 2drop "bad input" print t ]
-  if ] curry loop
+USING: io kernel math math.parser math.vectors random ranges sequences sets ; IN: bullsncows
+: fp ( str -- ) print flush ; inline : fw ( str -- ) write flush ; inline
+: bac ( -- )
+  CHAR: 0 CHAR: 9 [a..b] dup 4 sample
+  '[ "guess the 4-digit number: " fw readln { } like
+    dup [ length 4 = ] keep [ _ in? ] all? and
+    [ _ [ v= vcount ] 2keep intersect length over - over 4 =
+      [ 2drop "correct!" fp f ]
+      [ "bulls & cows: " fw [ >dec ] bi@ " & " glue fp t ] if
+    ] [ drop "bad input" fp t ] if
+  ] loop ; MAIN: bac
 
 
 USING: accessors assocs combinators fry grouping hashtables kernel

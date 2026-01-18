@@ -9,9 +9,9 @@
 ! 
 ! Write a function to generate the n^(th) Fibonacci number.
 ! 
-! Solutions can be iterative or recursive (though recursive solutions are
+! Solutions can be iterative, recursive (though recursive solutions are
 ! generally considered too slow and are mostly used as an exercise in
-! recursion).
+! recursion), or use Binet's algebraic formula.
 ! 
 ! The sequence is sometimes extended for negative numbers by using an
 ! alternating inverse of the positive values. Rewriting the definition as

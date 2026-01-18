@@ -39,9 +39,8 @@
 ! References:
 ! 
 ! Wikipedia entry on Alternating Permutation
-! 
 ! OEIS sequence A000111: Euler zigzag numbers
-! 
 ! OEIS sequence A001250: Number of alternating permutations of order n.
+! Zigzag permutations and quantum operators
 
 

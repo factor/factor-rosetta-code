@@ -10,7 +10,7 @@
 !     character then use a weighted random choice of the possible words
 !     that may follow a full-stop to add to the sentence.
 ! -   Then repeatedly add words to the sentence based on weighted random
-!     choices of what words my follow the last two words to extend the
+!     choices of what words may follow the last two words to extend the
 !     sentence.
 ! -   Stop after adding a sentence ending punctuation character.
 ! -   Tidy and then print the sentence.

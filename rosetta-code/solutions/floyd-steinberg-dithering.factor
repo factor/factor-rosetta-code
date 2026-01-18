@@ -1,0 +1,11 @@
+! Floyd-Steinberg dithering is an image dithering algorithm first
+! published in 1976 by Robert W. Floyd and Louis Steinberg. It is commonly
+! used by image manipulation software to represent images using a
+! restricted color palette while maintaining the illusion of smooth
+! gradients and fine detail.
+! 
+! Task
+! 
+! Implement the Floyd-Steinberg dithering algorithm in your language.
+
+

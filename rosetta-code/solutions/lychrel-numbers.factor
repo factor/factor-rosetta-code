@@ -32,7 +32,9 @@
 ! numbers.
 ! 
 ! For the purposes of this task a Lychrel number is any starting number
-! that does not form a palindrome within 500 (or more) iterations.
+! that does not form a palindrome within 500 (or more) iterations; the
+! existence of Lychrel numbers in base 10 is unproven, but there are known
+! Lychrel numbers in binary and hexadecimal.
 ! 
 ! Seed and related Lychrel numbers:
 ! 

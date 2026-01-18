@@ -1,7 +1,7 @@
 ! Introduction
 ! 
 ! Suppose you have to sort a list of strings based on a property of each,
-! called "the key", i.e. their lenghts. The most popular solution would
+! called "the key", i.e. their lengths. The most popular solution would
 ! require the use of a sorting algorithm with a custom comparator.
 ! 
 ! Now suppose that key computation is an expensive operation, for example,

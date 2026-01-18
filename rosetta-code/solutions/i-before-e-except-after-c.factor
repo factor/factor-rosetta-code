@@ -4,7 +4,7 @@
 ! Task:
 ! 
 ! Using the word list from
-! http://wiki.puzzlers.org/pub/wordlists/unixdict.txt,
+! https://web.archive.org/web/20240920144647if_/http://wiki.puzzlers.org/pub/wordlists/unixdict.txt,
 ! 
 ! check if the two sub-clauses of the phrase are plausible individually:
 ! 

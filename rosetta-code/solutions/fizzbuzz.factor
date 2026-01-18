@@ -21,7 +21,7 @@
 
 
 USE: math.parser
-1 101 [ [ 3 5 [ mod 0 = ] bi-curry@ bi "Fizz" "Buzz" swapd [ and ] 2bi@ append ] keep number>string or print ] each-integer-from
+100 [1..b] [ { "Fizz" "Buzz" } { 3 5 } [ overd mod 0 = swap and ] 2map concat swap >dec or print ] each
 
 
 USING: math kernel io math.functions math.parser math.ranges ;

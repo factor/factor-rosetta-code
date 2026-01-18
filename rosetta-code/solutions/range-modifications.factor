@@ -66,7 +66,5 @@
 !        remove 26
 !        remove 9
 !        remove 7
-! 
-! Requires Gdip Library
 
 

@@ -42,11 +42,25 @@
 ! (including one) up to `x` that have been culled of all multiples of the
 ! primes up to and including the `p_(a)` prime value, if `x` is less than
 ! or equal to `p_(a)`, then the whole "tree" must result in a value of
-! just one. If this minor (and obvious) optimization is done, the
-! "exponential time" performance goes away, memoization is not absolutely
-! necessary (saving the overhead in time and space of doing the
-! memoization), and the time complexity becomes O(n/(log n²) and the space
-! complexity becomes O(n^(1/2)/log n) as they should be.
+! just one. Thus, there should be (at least) two tree-splitting
+! terminating conditions:
+! 
+! φ(x, 0) = x, and φ(0, a) = 0 for any a
+! φ(x, a−1) − φ(⌊x/p_(a)⌋, a−1), where p_(a) is the a^(th) prime number.
+! 
+! The trouble with using a cache to achieve this is that one gets a huge
+! cache full of the results of the φ(0, a) function with all the various
+! values of a, which has a (usually) constant factor time cost in storing
+! and retrieving values for every call to the function and the cache
+! solution should not be the recommended way to accomplish this when it is
+! so easy to do otherwise.
+! 
+! If this minor (and obvious) optimization is done, the "exponential time"
+! performance goes away, memoization is not absolutely necessary (saving
+! the overhead in time and space of doing the memoization), and the time
+! complexity becomes O(n/(log n²) and the space complexity becomes
+! O(n^(1/2)/log n) as they should be. Without caching or this
+! optimization, the time complexity is O(n²/(log n²)
 ! 
 ! This is the problem when non-mathematician programmers blindly apply
 ! such a general formula as the recursive Legendre one without doing any
@@ -82,7 +96,7 @@
 ! operations (especially long integer division operations) to actually use
 ! it for any reasonably range even with this optimization (about 250
 ! thousand divisions to count primes to ten million), but the follow-on
-! work by Meissel in the 1800's definitely would have used this
+! work by Meissel in about 1870 onward definitely would have used this
 ! optimization and others in order to hand calculate the number of primes
 ! to a billion (1e9) in about ten years. Even with this optimization,
 ! Meissel would have had to hand calculate over five million divisions, so

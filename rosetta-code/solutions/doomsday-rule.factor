@@ -10,7 +10,7 @@
 ! Algorithm
 ! 
 ! The formula is calculated assuming that Sunday is 0, Monday 1, and so
-! forth with Saturday 7, and
+! forth up to Saturday 6, and
 ! 
 !    doomsday = (Tuesday(or 2) + 5(y mod 4) + 4(y mod 100) + 6(y mod 400)) % 7
 ! 

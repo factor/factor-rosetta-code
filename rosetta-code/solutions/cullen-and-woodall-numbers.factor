@@ -22,7 +22,7 @@
 ! 
 ! -   Write procedures to find Cullen numbers and Woodall numbers.
 ! 
-! -   Use those procedures to find and show here, on this page the first
+! -   Use those procedures to find and show here, on this page, the first
 !     20 of each.
 ! 
 ! Stretch

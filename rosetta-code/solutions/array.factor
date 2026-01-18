@@ -130,13 +130,13 @@
 ! will need to construct their array in ROM, copy it to RAM, and alter the
 ! copy.
 ! 
-! Example using 6502 Assembly: <lang 6502asm>ArrayRAM equ $00
+! Example using 6502 Assembly:
 ! 
-! the beginning of an array, stored in zero page RAM
+!     ArrayRAM equ $00
+!     ;the beginning of an array, stored in zero page RAM
 ! 
-! ArrayROM: db 0,5,10,15,20,25,30,35,40,45,50
-! 
-! on Commodore 64 (for example) these values can be modified at runtime, but on the NES they are read-only.
+!     ArrayROM: db 0,5,10,15,20,25,30,35,40,45,50
+!     ;on Commodore 64 (for example) these values can be modified at runtime, but on the NES they are read-only.
 ! 
 ! Indexing
 ! 
@@ -147,23 +147,22 @@
 ! constitutes an "element," "row," or "column" of the array is entirely
 ! decided by the programmer. Arrays in assembly are always zero-indexed.
 ! 
-! Example using 68000 Assembly: <lang 68000devpac>LEA myArray,A0 ;loading
-! a labeled array name like this loads the address of the zeroth element
-! MOVE.W #4*5*1,D1 ;five elements per row, so to get the 4th row we
-! multiply the row number by the elements per row,
+! Example using 68000 Assembly:
 ! 
-!                   ;times the number of bytes per element
+!     LEA myArray,A0     ;loading a labeled array name like this loads the address of the zeroth element
+!     MOVE.W #4*5*1,D1   ;five elements per row, so to get the 4th row we multiply the row number by the elements per row,
+!                        ;times the number of bytes per element
+!     LEA (A0,D1),A0     ;offset A0 by the row number
+!     LEA (2*1,A0),A0    ;column number times the number of bytes per element (the times 1s aren't needed but it's here for clarity)
+!     MOVE.B (A0),D0     ;load decimal 52 into D0
 ! 
-! LEA (A0,D1),A0 ;offset A0 by the row number LEA (2*1,A0),A0 ;column
-! number times the number of bytes per element (the times 1s aren't needed
-! but it's here for clarity) MOVE.B (A0),D0 ;load decimal 52 into D0
-! 
-! myArray: DC.B 10,11,12,13,14 ;typing the array in rows like this is only
-! for the viewer's convenience - it means nothing to the CPU. DC.B
-! 20,21,22,23,24 ;all 25 entries could have been on one line in the same
-! order and it wouldn't change how they are stored. DC.B 30,31,32,33,34
-! DC.B 40,41,42,43,44 DC.B 50,51,52,53,54 myArray_End: ;this label exists
-! to mark the end of the array.
+!     myArray:
+!     DC.B 10,11,12,13,14   ;typing the array in rows like this is only for the viewer's convenience - it means nothing to the CPU.
+!     DC.B 20,21,22,23,24   ;all 25 entries could have been on one line in the same order and it wouldn't change how they are stored.
+!     DC.B 30,31,32,33,34   
+!     DC.B 40,41,42,43,44
+!     DC.B 50,51,52,53,54
+!     myArray_End: ;this label exists to mark the end of the array.
 ! 
 ! It is much easier to work with arrays in assembly if all rows are the
 ! same length. The best way to deal with a ragged or jagged array, such as
@@ -174,22 +173,32 @@
 ! adding extra null bytes to the ends until all rows are the same length,
 ! but for many data types it's better to construct an array of pointers.
 ! 
-! <lang 68000devpac>main:
+!     main:
+!     ;goal: Print "Orange" to stdout
+!     LEA Strings,A0
+!     LEA (4,A0),A0   ;this is NOT a dereference operation, it merely adds 4 to A0. 
+!     MOVE.L (A0),A0  ;now we dereference the pointer so that we have the address of "Orange" in A0.
 ! 
-! goal: Print "Orange" to stdout
+!     ;If we did MOVE.B (A0),D0 now, we'd load the "O" in "Orange" into D0.
 ! 
-! LEA Strings,A0 LEA (4,A0),A0 ;this is NOT a dereference operation, it
-! merely adds 4 to A0. MOVE.L (A0),A0 ;now we dereference the pointer so
-! that we have the address of "Orange" in A0.
+!     JSR PrintString ;or whatever you use to write to stdout
+!     RTS             ;return
 ! 
-! If we did MOVE.B (A0),D0 now, we'd load the "O" in "Orange" into D0.
 ! 
-! JSR PrintString ;or whatever you use to write to stdout RTS ;return
+!     Strings:
+!     DC.L AppleAddress
+!     DC.L OrangeAddress
+!     DC.L GrapeAddress
 ! 
-! Strings: DC.L AppleAddress DC.L OrangeAddress DC.L GrapeAddress
-! 
-! AppleAddress: DC.B "Apple",0 even OrangeAddress: DC.B "Orange",0 even
-! GrapeAddress: DC.B "Grape",0 even
+!     AppleAddress:
+!     DC.B "Apple",0
+!     even
+!     OrangeAddress:
+!     DC.B "Orange",0
+!     even
+!     GrapeAddress:
+!     DC.B "Grape",0
+!     even
 ! 
 ! In assembly, there is nothing stopping your program from indexing an
 ! array out of bounds! The computer doesn't have an understanding of where
@@ -202,37 +211,42 @@
 ! from reading memory that is outside of the program that is trying to
 ! index the array. Older CPUs don't have this sort of protection, and
 ! indexing out of bounds will read whatever is stored in memory at that
-! location, which is why it falls into the realm of undefined behavior-
-! the result entirely depends on how the code in your program is arranged.
+! location, which is why it falls into the realm of undefined behavior—the
+! result entirely depends on how the code in your program is arranged.
 ! 
 ! Iteration
 ! 
 ! Iteration over the elements of an array is fairly straightforward.
 ! 
-! Example using 68000 Assembly: <lang 68000devpac>LEA myArray,A0 loop:
-! MOVE.B (A0)+,D0
+! Example using 68000 Assembly:
 ! 
-! As is, this example code will inevitably index out of bounds.
-! In practice there will be some way to end the loop, typically a byte count or a null terminator.
+!     LEA myArray,A0
+!     loop:
+!     MOVE.B (A0)+,D0
+!     ; As is, this example code will inevitably index out of bounds. 
+!     ; In practice there will be some way to end the loop, typically a byte count or a null terminator.
+!     JMP loop
 ! 
-! JMP loop
+! Example using z80 Assembly:
 ! 
-! Example using z80 Assembly: ld hl,myArray ;load the address of myArray
-! into hl ld de,userRam ;load the address of work RAM into de ld
-! bc,myArrayEnd-myArray ;assembler directive that auto-calculates the
-! array size using labels placed at the beginning and end. ldir ;copy the
-! entire contents of the array to work RAM
+!     ld hl,myArray ;load the address of myArray into hl
+!     ld de,userRam ;load the address of work RAM into de
+!     ld bc,myArrayEnd-myArray ;assembler directive that auto-calculates the array size using labels placed at the beginning and end.
+!     ldir ;copy the entire contents of the array to work RAM
 ! 
 ! Skip-Counting
 ! 
 ! Skipping elements can be easily done with a "dummy read," whereby an
 ! auto-incrementing/decrementing addressing mode is used solely for
 ! updating the pointer, or by incrementing/decrementing a loop counter
-! multiple times per loop. Example using 8086 Assembly: iterate: movsb
-! ;store [ds:si] into [es:di], increment both pointers, and decrement cx.
-! lodsb ;dummy read to increment the pointer and decrement cx. The value
-! loaded into AL gets discarded. inc di ;increment destination index jcxz
-! exitloop ;exit loop if cx equals zero. jmp iterate
+! multiple times per loop. Example using 8086 Assembly:
+! 
+!     iterate:
+!     movsb              ;store [ds:si] into [es:di], increment both pointers, and decrement cx.
+!     lodsb              ;dummy read to increment the pointer and decrement cx. The value loaded into AL gets discarded.
+!     inc di             ;increment destination index
+!     jcxz exitloop      ;exit loop if cx equals zero.
+!     jmp iterate
 ! 
 ! Implementation of a reverse array slice such as a[100:0:-2] example for
 ! Python is much more difficult. First of all, computers cannot implicitly
@@ -246,28 +260,21 @@
 ! Element Access
 ! 
 ! Access of an individual element of an array depends on the language.
-! ;6502 Assembly lda $2000,x ;load the xth element of the array beginning
-! at memory address $2000 lda $3022,y ;load the yth element of the array
-! beginning at memory address $3022 lda ($20),y ;load the yth element of
-! the array whose pointer is stored at consecutive memory addresses $0020
-! and $0021
 ! 
-! 68000 Assembly
+!     ;6502 Assembly
+!     lda $2000,x ;load the xth element of the array beginning at memory address $2000
+!     lda $3022,y ;load the yth element of the array beginning at memory address $3022
+!     lda ($20),y ;load the yth element of the array whose pointer is stored at consecutive memory addresses $0020 and $0021
 ! 
-! move.b (4,A0,D1),D0 ;load into D0 the (4+D1.W)th element of the array
-! whose beginning address is stored in A0.
+!     ;68000 Assembly
+!     move.b (4,A0,D1),D0 ;load into D0 the (4+D1.W)th element of the array whose beginning address is stored in A0.
 ! 
-! 8086 Assembly
+!     ;8086 Assembly
+!     mov ax,[bx+di] ;load the BXth element of the array whose beginning is stored in DI, into AX.
+!                    ;alternatively, load the DIth element of the array whose beginning is stored in BX, into AX.
 ! 
-! mov ax,[bx+di] ;load the BXth element of the array whose beginning is
-! stored in DI, into AX.
-! 
-!               ;alternatively, load the DIth element of the array whose beginning is stored in BX, into AX.
-! 
-! ARM Assembly
-! 
-! ldr r0,[r1,#4] ;load the 1st (zero-indexed) element of the array whose
-! pointer to its 0th element is stored in r1, into r0.
+!     ;ARM Assembly
+!     ldr r0,[r1,#4] ;load the 1st (zero-indexed) element of the array whose pointer to its 0th element is stored in r1, into r0.
 ! 
 ! Encoding an Array's End
 ! 
@@ -287,16 +294,20 @@
 ! where the entries represent non-ASCII data, this causes problems where
 ! you have a datum that just so happens to equal the terminator.
 ! 
-! Example using 8086 Assembly: PrintString:
+! Example using 8086 Assembly:
 ! 
-! input: [DS:SI] = string pointer
+!     PrintString:
+!     ; input: [DS:SI] = string pointer
+!     mov al,[ds:si] 
+!     jz Terminated  ;we've reached the terminator
+!     inc si
+!     call PrintChar ;call to hardware-specific printing routine
+!     jmp PrintString
+!     Terminated:
+!     ret
 ! 
-! mov al,[ds:si] jz Terminated ;we've reached the terminator inc si call
-! PrintChar ;call to hardware-specific printing routine jmp PrintString
-! Terminated: ret
-! 
-! HelloText: db "Hello World",0 ;a value in quotes is its ASCII
-! equivalent, anything else is a numeric value.
+!     HelloText:             
+!     db "Hello World",0 ;a value in quotes is its ASCII equivalent, anything else is a numeric value.
 ! 
 ! In cases like this, high-level languages often implement escape
 ! characters which when encountered in a string, result in a branch to a
@@ -315,28 +326,32 @@
 ! The first instance of the null terminator gets printed as-is rather than
 ! used to end the routine.
 ! 
-! Example using 8086 Assembly: PrintString:
+! Example using 8086 Assembly:
 ! 
-! modified to use the \ as an escape character.
-! input: [DS:SI] = string pointer
+!     PrintString:
+!     ; modified to use the \ as an escape character.
+!     ; input: [DS:SI] = string pointer
+!     mov al,[ds:si]
+!     inc si
+!     cmp al,5Ch      ;ascii for backslash, this is the escape character
+!                     ;notice that the check for the escape character happens before the check for the terminator.
+!     jz EscapeNextChar
+!     cmp al,0h       ;check the terminator
+!     jz Terminated   ;we've reached the terminator
+!     call PrintChar  ;call to hardware-specific printing routine
+!     jmp PrintString
 ! 
-! mov al,[ds:si] inc si cmp al,5Ch ;ascii for backslash, this is the
-! escape character
+!     EscapeNextChar:
+!     mov al,[ds:si]  ;perform an additional read, except this read doesn't compare the fetched character to anything.
+!     inc si
+!     call PrintChar  ;print that character as-is
+!     jmp PrintString ;go back to the loop's beginning, skipping the terminator check entirely.
 ! 
-!                ;notice that the check for the escape character happens before the check for the terminator.
+!     Terminated:
+!     ret
 ! 
-! jz EscapeNextChar cmp al,0h ;check the terminator jz Terminated ;we've
-! reached the terminator call PrintChar ;call to hardware-specific
-! printing routine jmp PrintString
-! 
-! EscapeNextChar: mov al,[ds:si] ;perform an additional read, except this
-! read doesn't compare the fetched character to anything. inc si call
-! PrintChar ;print that character as-is jmp PrintString ;go back to the
-! loop's beginning, skipping the terminator check entirely.
-! 
-! Terminated: ret
-! 
-! HelloText: db "Hello World\",0,13,10,0
+!     HelloText:             
+!     db "Hello World\",0,13,10,0
 ! 
 ! End Label
 ! 
@@ -356,17 +371,22 @@
 ! that are of known length prior to assembling. In other words, you cannot
 ! make the array larger at runtime.
 ! 
-! Example using 68000 Assembly: <lang 68000devpac>main: LEA myArray,a0
-! MOVE.W #(MyArray_End-MyArray)-1,D7 ;the minus 1 corrects for DBRA, the
-! subtraction of the two labels gives us the total byte count
+! Example using 68000 Assembly:
 ! 
-! for .W or .L sized data you may need to right-shift D7 by 1 or 2 respectively, depending on what you're doing
+!     main:
+!     LEA myArray,a0
+!     MOVE.W #(MyArray_End-MyArray)-1,D7 ;the minus 1 corrects for DBRA, the subtraction of the two labels gives us the total byte count
+!     ;for .W or .L sized data you may need to right-shift D7 by 1 or 2 respectively, depending on what you're doing
+!     loop:
+!     MOVE.B (A0)+,D0
+!     JSR PrintChar    ;or whatever your implementation uses to write to stdout.
+!     DBRA D7,loop
+!     RTS              ;exit program
 ! 
-! loop: MOVE.B (A0)+,D0 JSR PrintChar ;or whatever your implementation
-! uses to write to stdout. DBRA D7,loop RTS ;exit program
-! 
-! MyArray: DC.B "Hello World" MyArray_End: EVEN ;to get the correct byte
-! count, you'll need the EVEN directive AFTER the end label.
+!     MyArray:
+!     DC.B "Hello World"
+!     MyArray_End:
+!     EVEN   ;to get the correct byte count, you'll need the EVEN directive AFTER the end label.
 ! 
 ! Size Value
 ! 
@@ -383,11 +403,12 @@
 ! 
 ! Example using 68000 Assembly:
 ! 
-! <lang 68000devpac>MyArray: DC.W 3,5 ;three rows, five columns
-! 
-! it would have also been sufficient to have "DC.W 15" instead of "DC.W 3,5".
-! 
-! DC.B 1,2,3,4,5 DC.B 6,7,8,9,10 DC.B 11,12,13,14,15
+!     MyArray:
+!     DC.W 3,5    ;three rows, five columns
+!     ;it would have also been sufficient to have "DC.W 15" instead of "DC.W 3,5".
+!     DC.B 1,2,3,4,5
+!     DC.B 6,7,8,9,10
+!     DC.B 11,12,13,14,15
 ! 
 ! ATS
 ! 
