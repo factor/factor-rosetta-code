@@ -2,6 +2,14 @@
 ! 
 ! Compute the sum and product of an array of integers.
 ! 
+! Related task:
+! 
+! -   Array
+! -   Arrays
+! -   Vector
+! -   Dot product
+! -   Vector products
+! 
 ! Category:Iteration
 
 1 5 1 <range> [ sum . ] [ product . ] bi

@@ -21,6 +21,7 @@
 ! Related task
 ! 
 ! -   -   Matrix multiplication
+!     -   Determinant and permanent
 ! 
 ! See also
 ! 

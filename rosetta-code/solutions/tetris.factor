@@ -10,5 +10,19 @@
 ! -   a rotation key
 ! -   a preview piece
 ! -   full set of 7 kinds of shapes (ITOSZJL)
+! 
+! Optional features
+! 
+! -   soft drop key (accelerates the falling of the current piece but not
+!     locking at once)
+! -   two rotation keys, one for clockwise and another for
+!     counter-clockwise
+! -   more preview pieces shown as a next queue
+! -   more features: randomizer / rotation system / DAS / colors /
+!     difficulty levels / score / hold, do it if you wish.
+! -   keep the code reasonably terse, for example: consider using a
+!     7*4*4*4 read-only array for piece shapes and rotations, instead of
+!     "switch"/"if" between the 7 pieces that take half of space of your
+!     code.
 
 

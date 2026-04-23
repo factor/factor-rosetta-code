@@ -1,3 +1,19 @@
+! Related tasks:
+! 
+! -   Arrays
+! -   Vector
+!     -   Dot product
+!     -   Vector products
+! -   Matrices
+! -   Bivector
+! -   Antivector
+! -   Tensor
+! -   Quaternion
+! -   Rotor
+! -   Motor
+! -   Sedenion
+! -   Octonion
+! 
 ! Task
 ! 
 ! Implement a Vector class (or a set of functions) that models a Physical

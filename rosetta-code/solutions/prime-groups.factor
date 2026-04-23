@@ -12,7 +12,7 @@
 ! 
 ! The expected output is:
 ! 
-!     rot
+!     rto
 !     Not found.
 !     ecj
 !     Not found.

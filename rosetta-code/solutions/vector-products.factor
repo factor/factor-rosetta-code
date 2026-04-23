@@ -1,5 +1,33 @@
+! Related tasks:
+! 
+! -   Arrays
+! -   Vector
+!     -   Dot product
+!     -   Vector products
+!         -   A starting page on Wolfram MathWorld is .
+!         -   Wikipedia dot product.
+!         -   Wikipedia cross product.
+!         -   Wikipedia triple product.
+!         -   Wikipedia hodge star operator
+!         -   Wikipedia inner product space
+!         -   Wikipedia outer product
+!         -   Wikipedia interior product
+!         -   Wikipedia exterior product
+!         -   Wikipedia wedge product
+!         -   Wikipedia curry product
+!         -   Wikipedia pfaffian product
+! -   Matrices
+! -   Bivector
+! -   Antivector
+! -   Tensor
+! -   Quaternion
+! -   Rotor
+! -   Motor
+! -   Sedenion
+! -   Octonion
+! 
 ! A vector is defined as having three dimensions as being represented by
-! an ordered collection of three numbers: (X, Y, Z).
+! an ordered collection of n numbers: i.e. for n=3 : (X, Y, Z).
 ! 
 ! If you imagine a graph with the x and y axis being at right angles to
 ! each other and having a third, z axis coming out of the page, then a
@@ -57,18 +85,6 @@
 ! 6.  Compute and display: a x b
 ! 7.  Compute and display: a • (b x c), the scalar triple product.
 ! 8.  Compute and display: a x (b x c), the vector triple product.
-! 
-! References:
-! 
-! -   A starting page on Wolfram MathWorld is .
-! -   Wikipedia dot product.
-! -   Wikipedia cross product.
-! -   Wikipedia triple product.
-! 
-! Related tasks:
-! 
-! -   Dot product
-! -   Quaternion type
 
 USING: arrays io locals math prettyprint sequences ;
 

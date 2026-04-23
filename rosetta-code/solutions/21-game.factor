@@ -8,6 +8,8 @@
 ! 
 ! Players alternate supplying a number to be added to the runningtotal.
 ! 
+! This game is a variant of Nim.
+! 
 ! Task:
 ! 
 ! Write a computer program that will:
@@ -21,6 +23,10 @@
 !     -   issue a notification when there is a winner, and
 !     -   determine who goes first (maybe a random or user choice, or can
 !         be specified when the game begins).
+! 
+! Related tasks:
+! 
+! -   -   Nim game
 ! 
 ! Category:Puzzles Category:Games
 

@@ -1,9 +1,21 @@
-! This task is about arrays.
+! Related tasks:
 ! 
-! For hashes or associative arrays, please see Creating an Associative
-! Array.
-! 
-! For a definition and in-depth discussion of what an array is, see Array.
+! -   Arrays
+!     -   Array
+!     -   Sum and product of an array
+!     -   Collections
+!     -   Creating an Associative Array
+!     -   Two-dimensional array (runtime)
+! -   Vector
+! -   Matrices
+! -   Bivector
+! -   Antivector
+! -   Tensor
+! -   Quaternion
+! -   Rotor
+! -   Motor
+! -   Sedenion
+! -   Octonion
 ! 
 ! Task:
 ! 
@@ -17,18 +29,9 @@
 ! 
 ! Please merge code in from these obsolete tasks:
 ! 
-! -   -   Creating an Array
-!     -   Assigning Values to an Array
-!     -   Retrieving an Element of an Array
-! 
-! Related tasks:
-! 
-! -   Array
-! -   Vector
-! -   Sum and product of an array
-! -   Collections
-! -   Creating an Associative Array
-! -   Two-dimensional array (runtime)
+! -   Creating an Array
+! -   Assigning Values to an Array
+! -   Retrieving an Element of an Array
 ! 
 ! Category:Simple
 

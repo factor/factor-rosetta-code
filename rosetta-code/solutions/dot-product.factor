@@ -18,9 +18,10 @@
 !     -   multiply corresponding terms from each vector
 !     -   sum the products (to produce the answer)
 ! 
-! Related task:
+! Related tasks:
 ! 
-! -   Vector products
+! -   Arrays, Vector, Dot product, Vector products, Matrices, Bivector,
+!     Antivector, Tensor, Quaternion, Rotor, Motor, Sedenion, Octonion
 
 USING: kernel math.vectors sequences ;
 

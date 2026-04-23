@@ -16,9 +16,8 @@
 ! -   Built-in versus libraries names.
 ! 
 ! If possible, indicate where the naming conventions are implicit,
-! explicit, mandatory or discretionary. Any tools that enforced the the
-! naming conventions. Any cases where the naming convention as commonly
-! violated.
+! explicit, mandatory or discretionary. Any tools that enforced the naming
+! conventions. Any cases where the naming convention is commonly violated.
 ! 
 ! If possible, indicate where the convention is used to hint at other
 ! issues. For example the C standard library uses a prefix of "_" to
