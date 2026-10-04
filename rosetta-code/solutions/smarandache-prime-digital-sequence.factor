@@ -6,13 +6,15 @@
 ! 
 ! Task
 ! 
-! -   Show the first 25 SPDS primes.
-! -   Show the hundredth SPDS prime.
+! - Show the first 25 SPDS primes.
+! - Show the hundredth SPDS prime.
 ! 
-! See also:
+! See also
 ! 
-! -   OEIS A019546: Primes whose digits are primes.
-! -   https://www.scribd.com/document/214851583/On-the-Smarandache-prime-digital-subsequence-sequences
+!     
+! 
+! - OEIS A019546: Primes whose digits are primes.
+! - https://www.scribd.com/document/214851583/On-the-Smarandache-prime-digital-subsequence-sequences
 
 USING: combinators.short-circuit io lists lists.lazy math
 math.parser math.primes prettyprint sequences ;

@@ -17,15 +17,15 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first 100 elements of the sequence.
-! -   Find and display the position and value of the first element greater
-!     than or equal to 1000.
+! - Find and display the first 100 elements of the sequence.
+! - Find and display the position and value of the first element greater
+!   than or equal to 1000.
 ! 
 ! Stretch
 ! 
-! -   Find and display the position and value of the first element greater
-!     than or equal to 2000, 3000 ... 10,000.
-! -   Plot a graph of the first 10,000 elements of the sequence.
+! - Find and display the position and value of the first element greater
+!   than or equal to 2000, 3000 ... 10,000.
+! - Plot a graph of the first 10,000 elements of the sequence.
 ! 
 ! See also
 ! * OEIS:A342585 - Inventory sequence

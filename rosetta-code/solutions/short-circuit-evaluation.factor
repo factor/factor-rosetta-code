@@ -24,7 +24,9 @@
 ! soon as the result is known, so-called short-circuit evaluation of
 ! boolean expressions
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create two functions named a and b, that take and return the same
 ! boolean value.

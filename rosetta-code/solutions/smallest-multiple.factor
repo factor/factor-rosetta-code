@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Task description is taken from Project Euler
 ! 
@@ -12,7 +14,7 @@
 ! 
 ! Related
 ! 
-! -   Least common multiple
+! - Least common multiple
 
 USING: math.functions math.ranges prettyprint sequences ;
 

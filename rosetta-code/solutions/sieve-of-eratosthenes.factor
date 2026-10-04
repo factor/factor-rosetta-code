@@ -1,7 +1,9 @@
 ! The Sieve of Eratosthenes is a simple algorithm that finds the prime
 ! numbers up to a given integer.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement the Sieve of Eratosthenes algorithm, with the only allowed
 ! optimization that the outer loop can stop at the square root of the
@@ -16,23 +18,27 @@
 ! If there's an easy way to add such a wheel based optimization, implement
 ! it as an alternative version.
 ! 
-! Note:
+! Note
 ! 
-! -   It is important that the sieve algorithm be the actual algorithm
-!     used to find prime numbers for the task.
+!     
 ! 
-! Related tasks:
+! - It is important that the sieve algorithm be the actual algorithm used
+!   to find prime numbers for the task.
 ! 
-! -   Emirp primes
-! -   count in factors
-! -   prime decomposition
-! -   factors of an integer
-! -   extensible prime generator
-! -   primality by trial division
-! -   factors of a Mersenne number
-! -   trial factoring of a Mersenne number
-! -   partition an integer X into N primes
-! -   sequence of primes by Trial Division
+! Related tasks
+! 
+!     
+! 
+! - Emirp primes
+! - count in factors
+! - prime decomposition
+! - factors of an integer
+! - extensible prime generator
+! - primality by trial division
+! - factors of a Mersenne number
+! - trial factoring of a Mersenne number
+! - partition an integer X into N primes
+! - sequence of primes by Trial Division
 
 USING: bit-arrays io kernel locals math math.functions
 math.ranges prettyprint sequences ;

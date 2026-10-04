@@ -28,8 +28,8 @@
 ! 
 ! Task
 ! 
-! -   Find and show at least the first 10 deceptive numbers; composite
-!     numbers n that evenly divide the repunit R_(n-1)
+! - Find and show at least the first 10 deceptive numbers; composite
+!   numbers n that evenly divide the repunit R_(n-1)
 ! 
 ! See also
 ! 

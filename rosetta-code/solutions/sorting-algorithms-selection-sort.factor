@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Sort an array (or list) of elements using the Selection sort algorithm.
 ! 
@@ -17,12 +19,14 @@
 ! 
 ! No other sorting algorithm has less data movement.
 ! 
-! References:
+! References
 ! 
-! -   Rosetta Code: O (complexity).
-! -   Wikipedia: Selection sort.
-! -   Wikipedia: https://en.wikipedia.org/wiki/Big_O_notation Big O
-!     notation.
+!     
+! 
+! - Rosetta Code: O (complexity).
+! - Wikipedia: Selection sort.
+! - Wikipedia: https://en.wikipedia.org/wiki/Big_O_notation Big O
+!   notation.
 ! 
 ! Category:Sorting
 

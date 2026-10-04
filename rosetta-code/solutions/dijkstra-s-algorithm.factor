@@ -10,7 +10,9 @@
 ! path with lowest cost (i.e. the shortest path) between that vertex and
 ! every other vertex.
 ! 
-! For instance:
+! For instance
+! 
+!     
 ! 
 ! If the vertices of the graph represent cities and edge path costs
 ! represent driving distances between pairs of cities connected by a
@@ -20,23 +22,27 @@
 ! As a result, the shortest path first is widely used in network routing
 ! protocols, most notably:
 ! 
-! -   -   IS-IS (Intermediate System to Intermediate System) and
-!     -   OSPF (Open Shortest Path First).
+! - - IS-IS (Intermediate System to Intermediate System) and
+!   - OSPF (Open Shortest Path First).
 ! 
-! Important note:
+! Important note
+! 
+!     
 ! 
 ! The inputs to Dijkstra's algorithm are a directed and weighted graph
 ! consisting of 2 or more nodes, generally represented by:
 ! 
-! -   -   an adjacency matrix or list, and
-!     -   a start node.
+! - - an adjacency matrix or list, and
+!   - a start node.
 ! 
 ! A destination node is not specified.
 ! 
 ! The output is a set of edges depicting the shortest path to each
 ! destination node.
 ! 
-! An example, starting with:
+! An example, starting with
+! 
+!     
 ! 
 !                                              a──►b,  cost=7,   lastNode=a  
 !                                              a──►c,  cost=9,   lastNode=a 
@@ -79,7 +85,9 @@
 !                                              a──►c
 !                                              a──►b ]   
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Implement a version of Dijkstra's algorithm that outputs a set of
 !     edges depicting the shortest path to each reachable node from an
@@ -114,7 +122,7 @@
 ! 
 ! See also
 ! 
-! -   Dijkstra's Algorithm vs. A* Search vs. Concurrent Dijkstra's
-!     Algorithm (youtube)
+! - Dijkstra's Algorithm vs. A* Search vs. Concurrent Dijkstra's Algorithm
+!   (youtube)
 
 

@@ -11,11 +11,11 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first 18 Disarium numbers.
+! - Find and display the first 18 Disarium numbers.
 ! 
 ! Stretch
 ! 
-! -   Find and display all 20 Disarium numbers.
+! - Find and display all 20 Disarium numbers.
 ! 
 ! See also
 ! 

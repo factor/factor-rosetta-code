@@ -1,21 +1,23 @@
-! Related tasks:
+! Related tasks
 ! 
-! -   Arrays
-! -   Vector
-! -   Matrices
-! -   Bivector
-! -   Antivector
-! -   Tensor
-! -   Quaternion
-!     -   Quaternions
-!     -   On Infinitesimal rotation matrix relationship to skew-symmetric
-!         matrices
-!     -   rigidgeometricalgebra.org/Quaternion
-!     -   On Quaternions
-! -   Rotor
-! -   Motor
-! -   Sedenion
-! -   Octonion
+!     
+! 
+! - Arrays
+! - Vector
+! - Matrices
+! - Bivector
+! - Antivector
+! - Tensor
+! - Quaternion
+!   - Quaternions
+!   - On Infinitesimal rotation matrix relationship to skew-symmetric
+!     matrices
+!   - rigidgeometricalgebra.org/Quaternion
+!   - On Quaternions
+! - Rotor
+! - Motor
+! - Sedenion
+! - Octonion
 ! 
 ! Quaternions are an extension of the idea of complex numbers.
 ! 
@@ -35,8 +37,8 @@
 ! 
 ! In the quaternion numbering system:
 ! 
-! -   -    i∙i = j∙j = k∙k = i∙j∙k = -1, or more simply,
-!     -    ii = jj = kk = ijk = -1.
+! - -  i∙i = j∙j = k∙k = i∙j∙k = -1, or more simply,
+!   -  ii = jj = kk = ijk = -1.
 ! 
 ! The order of multiplication is important, as, in general, for two
 ! quaternions:
@@ -52,7 +54,9 @@
 ! 
 ! So the example above would be written as (1, 2, 3, 4)
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given the three quaternions and their components:
 ! 

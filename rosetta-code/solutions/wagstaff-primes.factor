@@ -29,7 +29,7 @@
 ! 
 ! References
 ! 
-! -   Wikipedia - Wagstaff prime
-! -   OEIS:A000979 - Wagstaff primes
+! - Wikipedia - Wagstaff prime
+! - OEIS:A000979 - Wagstaff primes
 
 

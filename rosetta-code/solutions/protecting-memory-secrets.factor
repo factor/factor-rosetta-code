@@ -36,16 +36,17 @@
 ! completion of a transaction, completion of a process, removal of plain
 ! text after encryption, etc.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! The basic task is:
 ! 
-! -   read a secret into memory
-! -   write or display the secret
-! -   securely erase or destroy the secret
-! -   In all cases you will want to be careful of temporary variables,
-!     system calls, and other things that could leave plain-text
-!     artifacts.
+! - read a secret into memory
+! - write or display the secret
+! - securely erase or destroy the secret
+! - In all cases you will want to be careful of temporary variables,
+!   system calls, and other things that could leave plain-text artifacts.
 ! 
 ! How you accomplish this will depend on your language and your knowledge
 ! of its memory management:
@@ -96,7 +97,9 @@
 ! APIs, etc. will be important to any developer needing to use this
 ! technique to comply with a standard.
 ! 
-! References:
+! References
+! 
+!     
 ! 
 ! If anyone has examples of similar regulations or standards please add
 ! them below or on the talk page.
@@ -104,26 +107,25 @@
 ! PCI Point-to-Point-Encryption (P2PE) Standard (v3.1) PCI P2PE Standard
 ! see requirements 2A-2.3 & 2B-1.5
 ! 
-! -   has two types of secrets called PAN (Primary Account Number) and SAD
-!     (Sensitive Authentication Data)
-! -   don't keep secrets in working memory any longer than strictly
-!     necessary
-! -   developers should have secure coding training for their language
-!     that includes managing sensitive data in memory
+! - has two types of secrets called PAN (Primary Account Number) and SAD
+!   (Sensitive Authentication Data)
+! - don't keep secrets in working memory any longer than strictly
+!   necessary
+! - developers should have secure coding training for their language that
+!   includes managing sensitive data in memory
 ! 
 ! PCI Secure Software Standard (v1.2) PCI Secure Software Standard see
 ! requirements 1.1 & 3.5
 ! 
-! -   has a broader definition of secrets or sensitive information
-! -   implement methods to render transient sensitive data irretrievable
-!     and to confirm that sensitive data is unrecoverable after the
-!     process is complete even if it is only stored temporarily in program
-!     memory / variables during operation of the software
-! -   requires knowledge of any platform or implementation level issues
-!     that complicate the erasure of transient sensitive data and to
-!     confirm that methods have been implemented to minimize the risk
-!     posed by these complications (methods may be external to your
-!     language).
+! - has a broader definition of secrets or sensitive information
+! - implement methods to render transient sensitive data irretrievable and
+!   to confirm that sensitive data is unrecoverable after the process is
+!   complete even if it is only stored temporarily in program memory /
+!   variables during operation of the software
+! - requires knowledge of any platform or implementation level issues that
+!   complicate the erasure of transient sensitive data and to confirm that
+!   methods have been implemented to minimize the risk posed by these
+!   complications (methods may be external to your language).
 ! 
 ! See also Reddit discussion of the issue
 

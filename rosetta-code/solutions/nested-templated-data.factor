@@ -13,7 +13,9 @@
 ! of the language and to hierarchically traverse the template to generate
 ! the output.
 ! 
-! Task Detail:
+! Task Detail
+! 
+!     
 ! 
 ! Given the following input template t and list of payloads p:
 ! 
@@ -36,7 +38,9 @@
 ! 
 ! 1. Generate the output for the above template, t.
 ! 
-! Optional Extended tasks:
+! Optional Extended tasks
+! 
+!     
 ! 
 ! 2. Show which payloads remain unused.
 ! 

@@ -24,36 +24,41 @@
 !      or
 !    S1(n, k) = S1(n - 1, k - 1) - (n - 1) * S1(n - 1, k) # For signed
 ! 
-! Task:
+! Task
 ! 
-! -   -   Write a routine (function, procedure, whatever) to find Stirling
-!         numbers of the first kind. There are several methods to generate
-!         Stirling numbers of the first kind. You are free to choose the
-!         most appropriate for your language. If your language has a
-!         built-in, or easily, publicly available library implementation,
-!         it is acceptable to use that.
+!     
 ! 
-! -   -   Using the routine, generate and show here, on this page, a table
-!         (or triangle) showing the Stirling numbers of the first kind,
-!         S1(n, k), up to S1(12, 12). it is optional to show the row /
-!         column for n == 0 and k == 0. It is optional to show places
-!         where S1(n, k) == 0 (when k > n). You may choose to show signed
-!         or unsigned Stirling numbers of the first kind, just make a note
-!         of which was chosen.
+! - - Write a routine (function, procedure, whatever) to find Stirling
+!     numbers of the first kind. There are several methods to generate
+!     Stirling numbers of the first kind. You are free to choose the most
+!     appropriate for your language. If your language has a built-in, or
+!     easily, publicly available library implementation, it is acceptable
+!     to use that.
 ! 
-! -   -   If your language supports large integers, find and show here, on
-!         this page, the maximum value of S1(n, k) where n == 100.
+! - - Using the routine, generate and show here, on this page, a table (or
+!     triangle) showing the Stirling numbers of the first kind, S1(n, k),
+!     up to S1(12, 12). it is optional to show the row / column for n == 0
+!     and k == 0. It is optional to show places where S1(n, k) == 0 (when
+!     k > n). You may choose to show signed or unsigned Stirling numbers
+!     of the first kind, just make a note of which was chosen.
 ! 
-! See also:
+! - - If your language supports large integers, find and show here, on
+!     this page, the maximum value of S1(n, k) where n == 100.
 ! 
-! -   -   Wikipedia - Stirling numbers of the first kind
-!     -   OEIS:A008275 - Signed Stirling numbers of the first kind
-!     -   OEIS:A130534 - Unsigned Stirling numbers of the first kind
+! See also
 ! 
-! Related Tasks:
+!     
 ! 
-! -   -   Stirling numbers of the second kind
-!     -   Lah numbers
+! - - Wikipedia - Stirling numbers of the first kind
+!   - OEIS:A008275 - Signed Stirling numbers of the first kind
+!   - OEIS:A130534 - Unsigned Stirling numbers of the first kind
+! 
+! Related Tasks
+! 
+!     
+! 
+! - - Stirling numbers of the second kind
+!   - Lah numbers
 
 USING: arrays assocs formatting io kernel math math.polynomials
 math.ranges prettyprint sequences ;

@@ -7,23 +7,23 @@
 ! 
 ! E.G.
 ! 
-! -   3 × 3 (9) is a brilliant number.
-! -   2 × 7 (14) is a brilliant number.
-! -   113 × 691 (78083) is a brilliant number.
-! -   2 × 31 (62) is semiprime, but is not a brilliant number (different
-!     number of digits in the two factors).
+! - 3 × 3 (9) is a brilliant number.
+! - 2 × 7 (14) is a brilliant number.
+! - 113 × 691 (78083) is a brilliant number.
+! - 2 × 31 (62) is semiprime, but is not a brilliant number (different
+!   number of digits in the two factors).
 ! 
 ! Task
 ! 
-! -   Find and display the first 100 brilliant numbers.
-! -   For the orders of magnitude 1 through 6, find and show the first
-!     brilliant number greater than or equal to the order of magnitude,
-!     and, its position in the series (or the count of brilliant numbers
-!     up to that point).
+! - Find and display the first 100 brilliant numbers.
+! - For the orders of magnitude 1 through 6, find and show the first
+!   brilliant number greater than or equal to the order of magnitude, and,
+!   its position in the series (or the count of brilliant numbers up to
+!   that point).
 ! 
 ! Stretch
 ! 
-! -   Continue for larger orders of magnitude.
+! - Continue for larger orders of magnitude.
 ! 
 ! See also
 ! * Numbers Aplenty - Brilliant numbers

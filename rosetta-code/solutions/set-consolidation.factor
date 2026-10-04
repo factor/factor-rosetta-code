@@ -2,10 +2,10 @@
 ! result of applying consolidation to those sets is a set of sets whose
 ! contents is:
 ! 
-! -   The two input sets if no common item exists between the two input
-!     sets of items.
-! -   The single set that is the union of the two input sets if they share
-!     a common item.
+! - The two input sets if no common item exists between the two input sets
+!   of items.
+! - The single set that is the union of the two input sets if they share a
+!   common item.
 ! 
 ! Given N sets of items where N>2 then the result is the same as
 ! repeatedly replacing all combinations of two sets by their consolidation
@@ -40,8 +40,8 @@
 ! 
 ! See also
 ! 
-! -   Connected component (graph theory)
-! -   Range consolidation
+! - Connected component (graph theory)
+! - Range consolidation
 
 USING: arrays kernel sequences sets ;
 

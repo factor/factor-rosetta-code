@@ -1,10 +1,12 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given a list of arbitrarily many strings, show how to:
 ! 
-! -   test if they are all lexically equal
-! -   test if every string is lexically less than the one after it (i.e.
-!     whether the list is in strict ascending order)
+! - test if they are all lexically equal
+! - test if every string is lexically less than the one after it (i.e.
+!   whether the list is in strict ascending order)
 ! 
 ! Each of those two tests should result in a single true or false value,
 ! which could be used as the condition of an if statement or similar.

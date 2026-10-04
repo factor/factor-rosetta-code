@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create and display the sequence of binary digits for a given
 ! non-negative integer.

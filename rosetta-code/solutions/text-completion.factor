@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that takes in a user inputted word and prints out
 ! possible words that are valid in the English dictionary. Please state
@@ -6,7 +8,9 @@
 ! show the similarity of the inputted word and outcome as a percentage.
 ! Any algorithm can be used to accomplish this task.
 ! 
-! Resources:
+! Resources
+! 
+!     
 ! 
 ! Github Repo
 ! 
@@ -24,7 +28,9 @@
 ! 
 ! Dice Coefficient Wiki
 ! 
-! Possible Output:
+! Possible Output
+! 
+!     
 ! 
 !     Input word: 
 !     complition

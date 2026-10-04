@@ -1,6 +1,8 @@
 ! Most years have 52 weeks, some have 53, according to ISO8601.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function which determines if a given year is long (53 weeks) or
 ! not, and demonstrate it.

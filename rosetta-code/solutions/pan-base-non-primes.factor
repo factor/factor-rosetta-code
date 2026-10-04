@@ -49,13 +49,13 @@
 ! 
 ! Task
 ! 
-! -   Find and display, here on this page, the first 40 pan-base non-prime
-!     "base 10" numeric strings.
-! -   Find and display, here on this page, the first 20 odd pan-base
-!     non-prime "base 10" numeric strings.
-! -   Find and display the count of pan-base non-prime "base 10" numeric
-!     strings up to at least the numeric string "1000".
-! -   What percentage of them are odd / even?
+! - Find and display, here on this page, the first 40 pan-base non-prime
+!   "base 10" numeric strings.
+! - Find and display, here on this page, the first 20 odd pan-base
+!   non-prime "base 10" numeric strings.
+! - Find and display the count of pan-base non-prime "base 10" numeric
+!   strings up to at least the numeric string "1000".
+! - What percentage of them are odd / even?
 ! 
 ! See also
 ! 

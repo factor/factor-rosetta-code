@@ -4,9 +4,11 @@
 ! of the aforementioned polynomial is 10x+6, represented by [6, 10]. Test
 ! cases: 5, -3x+4, 5x²+6x-1, x³-2x²+3x-4, -x⁴-x³+x+1
 ! 
-! Related task:
+! Related task
 ! 
-! -   -   Polynomial long division
+!     
+! 
+! - - Polynomial long division
 
 USING: generalizations kernel math.polynomials prettyprint ;
 

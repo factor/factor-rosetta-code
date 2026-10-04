@@ -35,10 +35,10 @@
 ! 
 ! Task
 ! 
-! -   Find and show the first 50 Achilles numbers.
-! -   Find and show at least the first 20 strong Achilles numbers.
-! -   For at least 2 through 5, show the count of Achilles numbers with
-!     that many digits.
+! - Find and show the first 50 Achilles numbers.
+! - Find and show at least the first 20 strong Achilles numbers.
+! - For at least 2 through 5, show the count of Achilles numbers with that
+!   many digits.
 ! 
 ! See also
 ! 

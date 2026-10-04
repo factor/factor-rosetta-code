@@ -16,8 +16,8 @@
 ! 
 ! Where:
 ! 
-! -   m is the number of matching characters;
-! -   t is half the number of transpositions.
+! - m is the number of matching characters;
+! - t is half the number of transpositions.
 ! 
 ! Two characters from s₁ and s₂ respectively, are considered matching only
 ! if they are the same and not farther apart than
@@ -32,10 +32,10 @@
 ! 
 ! Given the strings s₁ DWAYNE and s₂ DUANE we find:
 ! 
-! -   m = 4
-! -   |s₁| = 6
-! -   |s₂| = 5
-! -   t = 0
+! - m = 4
+! - |s₁| = 6
+! - |s₂| = 5
+! - t = 0
 ! 
 ! We find a Jaro score of:
 ! 
@@ -46,13 +46,13 @@
 ! Implement the Jaro algorithm and show the similarity scores for each of
 ! the following pairs:
 ! 
-! -   ("MARTHA", "MARHTA")
-! -   ("DIXON", "DICKSONX")
-! -   ("JELLYFISH", "SMELLYFISH")
+! - ("MARTHA", "MARHTA")
+! - ("DIXON", "DICKSONX")
+! - ("JELLYFISH", "SMELLYFISH")
 ! 
 ! See also
 ! 
-! -   Jaro–Winkler distance on Wikipedia.
+! - Jaro–Winkler distance on Wikipedia.
 
 USING: formatting fry generalizations kernel locals make math
 math.order sequences sequences.extras ;

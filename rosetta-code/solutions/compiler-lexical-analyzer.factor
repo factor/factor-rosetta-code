@@ -32,9 +32,9 @@
 ! | Op_assign || assignment || = |- | Op_and || logical and || && |- |
 ! Op_or || logical or || ¦¦ |}
 ! 
-! -   The - token should always be interpreted as Op_subtract by the
-!     lexer. Turning some Op_subtract into Op_negate will be the job of
-!     the syntax analyzer, which is not part of this task.
+! - The - token should always be interpreted as Op_subtract by the lexer.
+!   Turning some Op_subtract into Op_negate will be the job of the syntax
+!   analyzer, which is not part of this task.
 ! 
 ! Symbols
 ! 
@@ -70,7 +70,7 @@
 ! Identifier | identifier | one or more letter/number/underscore
 ! characters, but not starting with a number | [_a-zA-Z][_a-zA-Z0-9]* | as
 ! is |- | Integer | integer literal | one or more digits | [0-9]+ | as is,
-! interpreted as a number |- | Integer | char literal | exactly one
+! interpreted as a number |- | Character | char literal | exactly one
 ! character (anything except newline or single quote) or one of the
 ! allowed escape sequences, enclosed by single quotes |
 ! '([^'\n]|\\n|\\\\)' | the ASCII code point number of the character, e.g.
@@ -79,14 +79,13 @@
 ! quotes | "[^"\n]*" | the characters without the double quotes and with
 ! escape sequences converted |}
 ! 
-! -   For char and string literals, the \n escape sequence is supported to
-!     represent a new-line character.
-! -   For char and string literals, to represent a backslash, use \\.
-! -   No other special sequences are supported. This means that:
-!     -   Char literals cannot represent a single quote character (value
-!         39).
-!     -   String literals cannot represent strings containing double quote
-!         characters.
+! - For char and string literals, the \n escape sequence is supported to
+!   represent a new-line character.
+! - For char and string literals, to represent a backslash, use \\.
+! - No other special sequences are supported. This means that:
+!   - Char literals cannot represent a single quote character (value 39).
+!   - String literals cannot represent strings containing double quote
+!     characters.
 ! 
 ! Zero-width tokens
 ! 
@@ -99,22 +98,20 @@
 ! 
 ! White space
 ! 
-! -   Zero or more whitespace characters, or comments enclosed in
-!     /* ... */, are allowed between any two tokens, with the exceptions
-!     noted below.
-! -   "Longest token matching" is used to resolve conflicts (e.g., in
-!     order to match <= as a single token rather than the two tokens < and
-!     =).
-! -   Whitespace is required between two tokens that have an alphanumeric
-!     character or underscore at the edge.
-!     -   This means: keywords, identifiers, and integer literals.
-!     -   e.g. ifprint is recognized as an identifier, instead of the
-!         keywords if and print.
-!     -   e.g. 42fred is invalid, and neither recognized as a number nor
-!         an identifier.
-! -   Whitespace is not allowed inside of tokens (except for chars and
-!     strings where they are part of the value).
-!     -   e.g. & & is invalid, and not interpreted as the && operator.
+! - Zero or more whitespace characters, or comments enclosed in /* ... */,
+!   are allowed between any two tokens, with the exceptions noted below.
+! - "Longest token matching" is used to resolve conflicts (e.g., in order
+!   to match <= as a single token rather than the two tokens < and =).
+! - Whitespace is required between two tokens that have an alphanumeric
+!   character or underscore at the edge.
+!   - This means: keywords, identifiers, and integer literals.
+!   - e.g. ifprint is recognized as an identifier, instead of the keywords
+!     if and print.
+!   - e.g. 42fred is invalid, and neither recognized as a number nor an
+!     identifier.
+! - Whitespace is not allowed inside of tokens (except for chars and
+!   strings where they are part of the value).
+!   - e.g. & & is invalid, and not interpreted as the && operator.
 ! 
 ! For example, the following two program fragments are equivalent, and
 ! should produce the same token stream except for the line and column
@@ -127,7 +124,7 @@
 !         count = count + 1 ; /* number of primes found so far */
 !     }
 ! 
-! -   if(p){print(n," ");count=count+1;}
+! - if(p){print(n," ");count=count+1;}
 ! 
 ! Complete list of token names
 ! 
@@ -321,9 +318,9 @@
 ! 
 ! Related Tasks
 ! 
-! -   Syntax Analyzer task
-! -   Code Generator task
-! -   Virtual Machine Interpreter task
-! -   AST Interpreter task
+! - Syntax Analyzer task
+! - Code Generator task
+! - Virtual Machine Interpreter task
+! - AST Interpreter task
 
 

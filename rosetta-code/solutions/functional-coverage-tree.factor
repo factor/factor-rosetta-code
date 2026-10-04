@@ -7,7 +7,9 @@
 ! This task uses a sub-set of the calculations sometimes used in tracking
 ! functional coverage but uses a more familiar(?) scenario.
 ! 
-! Task Description:
+! Task Description
+! 
+!     
 ! 
 ! The head of the clean-up crews for "The Men in a very dark shade of grey
 ! when viewed at night" has been tasked with managing the cleansing of two
@@ -116,7 +118,9 @@
 !                 wine_cellar         |        |1         |
 !                 cinema              |        |0.75      |
 ! 
-! Calculation:
+! Calculation
+! 
+!     
 ! 
 ! The coverage of a node in the tree is calculated as the weighted average
 ! of the coverage of its children evaluated bottom-upwards in the tree.
@@ -126,7 +130,9 @@
 ! manner that visually shows the hierarchy, weights and coverage of all
 ! nodes.
 ! 
-! Extra Credit:
+! Extra Credit
+! 
+!     
 ! 
 ! After calculating the coverage for all nodes, one can also calculate the
 ! additional/delta top level coverage that would occur if any (sub)task

@@ -20,7 +20,9 @@
 ! https://rosettacode.org/wiki/Category:Binary_Lambda_Calculus which links
 ! to more detailed descriptions of the language.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Simulate the universal lambda machine Or in other words, write a BLC
 ! interpreter. Support either bit-mode or byte-mode, or preferably both
@@ -32,14 +34,14 @@
 ! 
 ! For bit-mode, one should reproduce the BLC Rosetta Code solutions of
 ! 
-! -   https://rosettacode.org/wiki/Quine#Binary_Lambda_Calculus
-! -   https://rosettacode.org/wiki/Sieve_of_Eratosthenes#Binary_Lambda_Calculus
-!     (
+! - https://rosettacode.org/wiki/Quine#Binary_Lambda_Calculus
+! - https://rosettacode.org/wiki/Sieve_of_Eratosthenes#Binary_Lambda_Calculus
+!   (
 ! 
 ! producing as much output as possible before running out of stack/heap
 ! space).
 ! 
-! -   https://rosettacode.org/wiki/100_doors#Binary_Lambda_Calculus
+! - https://rosettacode.org/wiki/100_doors#Binary_Lambda_Calculus
 ! 
 ! Also, the 342 bit program
 ! 
@@ -51,8 +53,8 @@
 ! 
 ! For byte-mode, one should reproduce the BLC Rosetta Code solutions of
 ! 
-! -   https://rosettacode.org/wiki/Hilbert_curve#Binary_Lambda_Calculus
-! -   https://rosettacode.org/wiki/Execute_Brain****#Binary_Lambda_Calculus
+! - https://rosettacode.org/wiki/Hilbert_curve#Binary_Lambda_Calculus
+! - https://rosettacode.org/wiki/Execute_Brain****#Binary_Lambda_Calculus
 ! 
 ! When run on the 186-byte binary file
 ! https://www.ioccc.org/2012/tromp/tromp/symbolic.Blc followed by input

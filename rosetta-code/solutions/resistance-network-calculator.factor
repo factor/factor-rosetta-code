@@ -2,12 +2,12 @@
 ! 
 ! Calculate the resistance of any resistor network.
 ! 
-! -   The network is stated with a string.
-! -   The resistors are separated by a vertical dash.
-! -   Each resistor has
-!     -   a starting node
-!     -   an ending node
-!     -   a resistance
+! - The network is stated with a string.
+! - The resistors are separated by a vertical dash.
+! - Each resistor has
+!   - a starting node
+!   - an ending node
+!   - a resistance
 ! 
 ! Background
 ! 

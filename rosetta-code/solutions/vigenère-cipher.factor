@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a Vigenère cypher, both encryption and decryption.
 ! 
@@ -8,11 +10,13 @@
 ! (If your program handles non-alphabetic characters in another way, make
 ! a note of it.)
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Caesar cipher
-! -   Rot-13
-! -   Substitution Cipher
+!     
+! 
+! - Caesar cipher
+! - Rot-13
+! - Substitution Cipher
 ! 
 ! Category:String manipulation
 

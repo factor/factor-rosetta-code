@@ -10,12 +10,14 @@
 ! 
 ! Optionally, show the number of additive primes.
 ! 
-! Also see:
+! Also see
 ! 
-! -   -   the OEIS entry: A046704 additive primes.
-!     -   the prime-numbers entry: additive primes.
-!     -   the geeks for geeks entry: additive prime number.
-!     -   the prime-numbers fandom: additive primes.
+!     
+! 
+! - - the OEIS entry: A046704 additive primes.
+!   - the prime-numbers entry: additive primes.
+!   - the geeks for geeks entry: additive prime number.
+!   - the prime-numbers fandom: additive primes.
 
 USING: formatting grouping io kernel math math.primes
 prettyprint sequences ;

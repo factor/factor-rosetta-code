@@ -24,14 +24,16 @@
 ! 
 ! The digital root may be calculated in bases other than 10.
 ! 
-! See:
+! See
 ! 
-! -   Casting out nines for this wiki's use of this procedure.
-! -   Digital root/Multiplicative digital root
-! -   Sum digits of an integer
-! -   Digital root sequence on OEIS
-! -   Additive persistence sequence on OEIS
-! -   Iterated digits squaring
+!     
+! 
+! - Casting out nines for this wiki's use of this procedure.
+! - Digital root/Multiplicative digital root
+! - Sum digits of an integer
+! - Digital root sequence on OEIS
+! - Additive persistence sequence on OEIS
+! - Iterated digits squaring
 
 USING: arrays formatting kernel math math.text.utils sequences ;
 IN: rosetta-code.digital-root

@@ -4,7 +4,9 @@
 ! order of the elements and order of the partitions are non-significant.
 ! E.G.: {a b} is the same as {b a} and {a} {b} is the same as {b} {a}.
 ! 
-! So:
+! So
+! 
+!     
 ! 
 !     B₀ = 1 trivially. There is only one way to partition a set with zero
 !     elements. { }
@@ -25,7 +27,9 @@
 ! though, and you are free to choose the best / most appropriate for your
 ! case.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a routine (function, generator, whatever) to generate the Bell
 ! number sequence and call the routine to show here, on this page at least
@@ -35,10 +39,12 @@
 ! If you do use the Bell triangle method to generate the numbers, also
 ! show the first ten rows of the Bell triangle.
 ! 
-! See also:
+! See also
 ! 
-! -   -   OEIS:A000110 Bell or exponential numbers
-!     -   OEIS:A011971 Aitken's array
+!     
+! 
+! - - OEIS:A000110 Bell or exponential numbers
+!   - OEIS:A011971 Aitken's array
 
 USING: formatting io kernel math math.matrices sequences vectors ;
 

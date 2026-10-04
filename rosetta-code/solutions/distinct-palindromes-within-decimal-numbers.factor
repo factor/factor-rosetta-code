@@ -2,7 +2,9 @@
 ! representation of n. Note that for the purpose of the initial function,
 ! a single digit will be considered a palindrome.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Find all the palindromes including single digits in the integers
 !     from 100 to 125, inclusive.
@@ -13,10 +15,12 @@
 !  123456832098769, 12345679432098769, 1234567905432098769, 123456790165432098769,
 !  83071934127905179083, 1320267947849490361205695
 ! 
-! Also see:
+! Also see
 ! 
-! -   -   OEIS entry: A262188 (Task 1).
-!     -   OEIS entry: A151997 (Task 2).
+!     
+! 
+! - - OEIS entry: A262188 (Task 1).
+!   - OEIS entry: A151997 (Task 2).
 ! 
 ! Palindrome_detection
 ! Longest_palindromic_substrings

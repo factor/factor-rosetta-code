@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Display bars of color, moving up and down across the screen for
 ! horizontal raster bars, or left and right across the screen for vertical

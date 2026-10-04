@@ -1,25 +1,27 @@
-! Related tasks:
+! Related tasks
 ! 
-! -   Arrays
-! -   Vector
-! -   Matrices
-!     -   Determinant and permanent
-!         -   Laplace expansion O(n!)
-!         -   Leibniz fomula Ω(n! ⋅ n)
-!         -   Bareiss algorithm O(n³)
-!         -   LU-decomposition O(n³)
-!         -   Strassen algorithm O(n^(2.807))
-!         -   Coppersmith-Winograd algorithm O(n^(2.376))
-!         -   Le Gall algorithm
-!         -   Bird's algorithm
-! -   Bivector
-! -   Antivector
-! -   Tensor
-! -   Quaternion
-! -   Rotor
-! -   Motor
-! -   Sedenion
-! -   Octonion
+!     
+! 
+! - Arrays
+! - Vector
+! - Matrices
+!   - Determinant and permanent
+!     - Laplace expansion O(n!)
+!     - Leibniz fomula Ω(n! ⋅ n)
+!     - Bareiss algorithm O(n³)
+!     - LU-decomposition O(n³)
+!     - Strassen algorithm O(n^(2.807))
+!     - Coppersmith-Winograd algorithm O(n^(2.376))
+!     - Le Gall algorithm
+!     - Bird's algorithm
+! - Bivector
+! - Antivector
+! - Tensor
+! - Quaternion
+! - Rotor
+! - Motor
+! - Sedenion
+! - Octonion
 ! 
 ! For a given matrix, return the determinant and the permanent of the
 ! matrix. For a matrix of orthonormal basis vectors, return the
@@ -43,10 +45,10 @@
 ! 
 ! C.f.
 ! 
-! -   Computational complexity of matrix multiplication
-! -   Richard Bird Pearls
-! -   Funkcionálne programovanie
-! -   Permutations by swapping
+! - Computational complexity of matrix multiplication
+! - Richard Bird Pearls
+! - Funkcionálne programovanie
+! - Permutations by swapping
 
 USING: fry kernel math.combinatorics math.matrices sequences ;
 

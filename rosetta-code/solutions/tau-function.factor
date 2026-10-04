@@ -6,7 +6,7 @@
 ! 
 ! Related task
 ! 
-! -   Tau number
+! - Tau number
 ! 
 ! Category:Mathematics
 

@@ -12,14 +12,26 @@
 ! The Y combinator is the simplest of the class of such functions, called
 ! fixed-point combinators.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Define the stateless Y combinator and use it to compute factorials and
 ! Fibonacci numbers from other stateless functions or lambda expressions.
 ! 
-! Cf:
+! Cf
 ! 
-! -   Jim Weirich: Adventures in Functional Programming
+!     
+! 
+! - Jim Weirich: Adventures in Functional Programming
+! 
+! Related tasks
+! 
+!     
+! 
+! - Anonymous recursion
+! - Variadic fixed-point combinator
+! - Mutual recursion
 ! 
 ! Category:Recursion
 

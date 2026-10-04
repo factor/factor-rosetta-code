@@ -6,7 +6,9 @@
 ! special meaning from the symbol, enabling it to be used as a normal
 ! character, or sequence of characters when this can be done.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! List the special characters and show escape sequences in the language.
 

@@ -9,6 +9,6 @@
 ! 
 ! References
 ! 
-! -   Codepen demo.
+! - Codepen demo.
 
 

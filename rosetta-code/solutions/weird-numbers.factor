@@ -8,29 +8,35 @@
 ! 
 ! For example:
 ! 
-! -   12 is not a weird number.
-!     -   It is abundant; its proper divisors 1, 2, 3, 4, 6 sum to 16
-!         (which is > 12),
-!     -   but it is semiperfect, e.g.: 6 + 4 + 2 == 12.
-! -   70 is a weird number.
-!     -   It is abundant; its proper divisors 1, 2, 5, 7, 10, 14, 35 sum
-!         to 74 (which is > 70),
-!     -   and there is no subset of proper divisors that sum to 70.
+! - 12 is not a weird number.
+!   - It is abundant; its proper divisors 1, 2, 3, 4, 6 sum to 16 (which
+!     is > 12),
+!   - but it is semiperfect, e.g.: 6 + 4 + 2 == 12.
+! - 70 is a weird number.
+!   - It is abundant; its proper divisors 1, 2, 5, 7, 10, 14, 35 sum to 74
+!     (which is > 70),
+!   - and there is no subset of proper divisors that sum to 70.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find and display, here on this page, the first 25 weird numbers.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Abundant, deficient and perfect number classifications
-!     -   Proper divisors
+!     
 ! 
-! See also:
+! - - Abundant, deficient and perfect number classifications
+!   - Proper divisors
 ! 
-! -   -   OEIS: A006037 weird numbers
-!     -   Wikipedia: weird number
-!     -   MathWorld: weird number
+! See also
+! 
+!     
+! 
+! - - OEIS: A006037 weird numbers
+!   - Wikipedia: weird number
+!   - MathWorld: weird number
 
 USING: combinators.short-circuit io kernel lists lists.lazy
 locals math math.primes.factors prettyprint sequences ;

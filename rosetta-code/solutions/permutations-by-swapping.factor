@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Generate permutations of n items in which successive permutations differ
 ! from each other by the swapping of any two items.
@@ -17,16 +19,20 @@
 ! permutations where adjacent items are swapped, but from this discussion
 ! adjacency is not a requirement.
 ! 
-! References:
+! References
 ! 
-! -   Steinhaus–Johnson–Trotter algorithm
-! -   Johnson-Trotter Algorithm Listing All Permutations
-! -   Heap's algorithm
-! -   1 Tintinnalogia
+!     
 ! 
-! Related tasks:
+! - Steinhaus–Johnson–Trotter algorithm
+! - Johnson-Trotter Algorithm Listing All Permutations
+! - Heap's algorithm
+! - 1 Tintinnalogia
 ! 
-! -   Matrix arithmetic
-! -   Gray code
+! Related tasks
+! 
+!     
+! 
+! - Matrix arithmetic
+! - Gray code
 
 

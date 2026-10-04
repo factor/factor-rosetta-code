@@ -5,7 +5,9 @@
 ! The goal is for homophones to be encoded to the same representation so
 ! that they can be matched despite minor differences in spelling.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement the original NYSIIS algorithm, shown in Wikipedia, rather than
 ! any other subsequent modification.
@@ -29,6 +31,6 @@
 ! 
 ! See also
 ! 
-! -   Soundex
+! - Soundex
 
 

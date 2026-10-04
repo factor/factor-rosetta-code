@@ -22,50 +22,47 @@
 ! 
 ! 1.  Input Representation:
 ! 
-! -   The graph is represented as a list of edges, where each edge is a
-!     tuple of two vertices (e.g., `('a', 'b')` indicates an undirected
-!     edge between vertices `'a'` and `'b'`).
+! - The graph is represented as a list of edges, where each edge is a
+!   tuple of two vertices (e.g., `('a', 'b')` indicates an undirected edge
+!   between vertices `'a'` and `'b'`).
 ! 
 ! 1.  Graph Construction:
 ! 
-! -   Convert the list of edges into an adjacency list using a
-!     `HashMap<String, HashSet>`. Each key in the hashmap represents a
-!     vertex, and its corresponding hash set contains all adjacent
-!     vertices (neighbors).
+! - Convert the list of edges into an adjacency list using a
+!   `HashMap<String, HashSet>`. Each key in the hashmap represents a
+!   vertex, and its corresponding hash set contains all adjacent vertices
+!   (neighbors).
 ! 
 ! 1.  Bron-Kerbosch Algorithm Implementation:
 ! 
-! -   Sets Used:
-!     -   R (Current Clique):'' A set representing the current clique
-!         being constructed.
-!     -   P (Potential Candidates):A set of vertices that can be added
-!         toR'' to form a larger clique.
-!     -   X (Excluded Vertices):'' A set of vertices that have already
-!         been processed and should not be reconsidered for the current
-!         clique.
+! - Sets Used:
+!   - R (Current Clique):'' A set representing the current clique being
+!     constructed.
+!   - P (Potential Candidates):A set of vertices that can be added toR''
+!     to form a larger clique.
+!   - X (Excluded Vertices):'' A set of vertices that have already been
+!     processed and should not be reconsidered for the current clique.
 ! 
-! -   Algorithm Steps:
-!     -   If both P and X are empty, and R contains more than two
-!         vertices, R is a maximal clique and is added to the list of
-!         cliques.
-!     -   Otherwise, select a pivot vertex from the union of P and X that
-!         has the maximum number of neighbors. This pivot helps minimize
-!         the number of recursive calls.
-!     -   Iterate over all vertices in P that are **not** neighbors of the
-!         pivot. For each such vertex:
-!         -   Add the vertex to R.
-!         -   Update P and X to include only those vertices that are
-!             neighbors of the added vertex.
-!         -   Recursively call the Bron-Kerbosch function with the updated
-!             sets.
-!         -   After recursion, move the vertex from P to X to mark it as
-!             processed.
+! - Algorithm Steps:
+!   - If both P and X are empty, and R contains more than two vertices, R
+!     is a maximal clique and is added to the list of cliques.
+!   - Otherwise, select a pivot vertex from the union of P and X that has
+!     the maximum number of neighbors. This pivot helps minimize the
+!     number of recursive calls.
+!   - Iterate over all vertices in P that are **not** neighbors of the
+!     pivot. For each such vertex:
+!     - Add the vertex to R.
+!     - Update P and X to include only those vertices that are neighbors
+!       of the added vertex.
+!     - Recursively call the Bron-Kerbosch function with the updated sets.
+!     - After recursion, move the vertex from P to X to mark it as
+!       processed.
 ! 
 ! 1.  Output:
 ! 
-! -   After executing the algorithm, the program prints all maximal
-!     cliques with more than two vertices. Each clique is displayed as a
-!     comma-separated list of its constituent vertices.
+! - After executing the algorithm, the program prints all maximal cliques
+!   with more than two vertices. Each clique is displayed as a
+!   comma-separated list of its constituent vertices.
 ! 
 ! Example
 ! 

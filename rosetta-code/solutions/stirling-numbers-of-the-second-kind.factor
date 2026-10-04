@@ -9,34 +9,40 @@
 !    S2(n, n) = 1
 !    S2(n + 1, k) = k * S2(n, k) + S2(n, k - 1)
 ! 
-! Task:
+! Task
 ! 
-! -   -   Write a routine (function, procedure, whatever) to find Stirling
-!         numbers of the second kind. There are several methods to
-!         generate Stirling numbers of the second kind. You are free to
-!         choose the most appropriate for your language. If your language
-!         has a built-in, or easily, publicly available library
-!         implementation, it is acceptable to use that.
+!     
 ! 
-! -   -   Using the routine, generate and show here, on this page, a table
-!         (or triangle) showing the Stirling numbers of the second kind,
-!         S2(n, k), up to S2(12, 12). it is optional to show the row /
-!         column for n == 0 and k == 0. It is optional to show places
-!         where S2(n, k) == 0 (when k > n).
+! - - Write a routine (function, procedure, whatever) to find Stirling
+!     numbers of the second kind. There are several methods to generate
+!     Stirling numbers of the second kind. You are free to choose the most
+!     appropriate for your language. If your language has a built-in, or
+!     easily, publicly available library implementation, it is acceptable
+!     to use that.
 ! 
-! -   -   If your language supports large integers, find and show here, on
-!         this page, the maximum value of S2(n, k) where n == 100.
+! - - Using the routine, generate and show here, on this page, a table (or
+!     triangle) showing the Stirling numbers of the second kind, S2(n, k),
+!     up to S2(12, 12). it is optional to show the row / column for n == 0
+!     and k == 0. It is optional to show places where S2(n, k) == 0 (when
+!     k > n).
 ! 
-! See also:
+! - - If your language supports large integers, find and show here, on
+!     this page, the maximum value of S2(n, k) where n == 100.
 ! 
-! -   -   Wikipedia - Stirling numbers of the second kind
-!     -   OEIS:A008277 - Stirling numbers of the second kind
+! See also
 ! 
-! Related Tasks:
+!     
 ! 
-! -   -   Stirling numbers of the first kind
-!     -   Bell numbers
-!     -   Lah numbers
+! - - Wikipedia - Stirling numbers of the second kind
+!   - OEIS:A008277 - Stirling numbers of the second kind
+! 
+! Related Tasks
+! 
+!     
+! 
+! - - Stirling numbers of the first kind
+!   - Bell numbers
+!   - Lah numbers
 
 USING: combinators.short-circuit formatting io kernel math
 math.extras prettyprint sequences ;

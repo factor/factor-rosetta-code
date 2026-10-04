@@ -18,10 +18,12 @@
 ! 
 ! $$\pi = 3 + \cfrac{1}{6 + \cfrac{9}{6 + \cfrac{25}{6 + \ddots}}}$$
 ! 
-! See also:
+! See also
 ! 
-! -   -   Continued fraction/Arithmetic for tasks that do arithmetic over
-!         continued fractions.
+!     
+! 
+! - - Continued fraction/Arithmetic for tasks that do arithmetic over
+!     continued fractions.
 
 USING: arrays combinators io kernel locals math math.functions
   math.ranges prettyprint sequences ;

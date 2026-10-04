@@ -60,21 +60,25 @@
 ! Reflected this would become .1101 or
 ! 1 × 2⁻¹ + 1 × 2⁻² + 0 × 2⁻³ + 1 × 2⁻⁴
 ! 
-! Task description:
+! Task description
 ! 
-! -   Create a function/method/routine that given n, generates the n'th
-!     term of the van der Corput sequence in base 2.
-! -   Use the function to compute and display the first ten members of the
-!     sequence. (The first member of the sequence is for n=0).
+!     
 ! 
-! -   As a stretch goal/extra credit, compute and show members of the
-!     sequence for bases other than 2.
+! - Create a function/method/routine that given n, generates the n'th term
+!   of the van der Corput sequence in base 2.
+! - Use the function to compute and display the first ten members of the
+!   sequence. (The first member of the sequence is for n=0).
 ! 
-! See also:
+! - As a stretch goal/extra credit, compute and show members of the
+!   sequence for bases other than 2.
 ! 
-! -   The Basic Low Discrepancy Sequences
-! -   Non-decimal radices/Convert
-! -   Van der Corput sequence
+! See also
+! 
+!     
+! 
+! - The Basic Low Discrepancy Sequences
+! - Non-decimal radices/Convert
+! - Van der Corput sequence
 
 USING: formatting fry io kernel math math.functions math.parser
 math.ranges sequences ;

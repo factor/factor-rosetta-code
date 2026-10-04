@@ -2,7 +2,9 @@
 ! at specific memory locations, like I/O registers, hardware interrupt
 ! vectors etc.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how language objects can be allocated at a specific machine
 ! addresses.
@@ -14,12 +16,12 @@
 ! 
 ! For example:
 ! 
-! -   -   create an integer object
-!     -   print the machine address of the object
-!     -   take the address of the object and create another integer object
-!         at this address
-!     -   print the value of this object to verify that it is same as one
-!         of the origin
-!     -   change the value of the origin and verify it again
+! - - create an integer object
+!   - print the machine address of the object
+!   - take the address of the object and create another integer object at
+!     this address
+!   - print the value of this object to verify that it is same as one of
+!     the origin
+!   - change the value of the origin and verify it again
 
 

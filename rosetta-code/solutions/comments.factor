@@ -1,17 +1,23 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show all ways to include text in a language source file that's
 ! completely ignored by the compiler or interpreter.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Documentation
-! -   Here_document
+!     
 ! 
-! See also:
+! - Documentation
+! - Here_document
 ! 
-! -   Wikipedia
-! -   xkcd (Humor: hand gesture denoting // for "commenting out" people.)
+! See also
+! 
+!     
+! 
+! - Wikipedia
+! - xkcd (Humor: hand gesture denoting // for "commenting out" people.)
 ! 
 ! Category:Initialization
 

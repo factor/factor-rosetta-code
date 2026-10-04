@@ -4,10 +4,10 @@
 ! 
 ! Assume that my casino:
 ! 
-! -   uses a single deck,
-! -   does not allow Double after split,
-! -   pays out 3 to 2 for Blackjack, and
-! -   uses these rules.
+! - uses a single deck,
+! - does not allow Double after split,
+! - pays out 3 to 2 for Blackjack, and
+! - uses these rules.
 ! 
 ! Begin by assuming the player's dealt hand contains no aces and is not a
 ! pair. Create functions which given the players dealt cards and the
@@ -30,10 +30,10 @@
 ! strategy defined by the tables you have created, answer the following
 ! questions:
 ! 
-! -   How many days can I expect to win/lose?
-! -   What can I expect to be my biggest win?
-! -   What can I expect to be my biggest loss?
-! -   What can I expect to win/lose over the year?
+! - How many days can I expect to win/lose?
+! - What can I expect to be my biggest win?
+! - What can I expect to be my biggest loss?
+! - What can I expect to win/lose over the year?
 ! 
 ! Category:Games
 

@@ -1,4 +1,6 @@
-! Goal:
+! Goal
+! 
+!     
 ! 
 ! Convert UPC bar codes to decimal.
 ! 
@@ -12,7 +14,9 @@
 ! physical UPC bar codes to ASCII (with spaces and # characters
 ! representing the presence or absence of ink).
 ! 
-! Sample input:
+! Sample input
+! 
+!     
 ! 
 ! Below, we have a representation of ten different UPC-A bar codes read by
 ! our imaginary bar code reader:
@@ -31,7 +35,9 @@
 ! Some of these were entered upside down, and one entry has a timing
 ! error.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement code to find the corresponding decimal representation of each,
 ! rejecting the error.
@@ -39,7 +45,9 @@
 ! Extra credit for handling the rows entered upside down (the other option
 ! is to reject them).
 ! 
-! Notes:
+! Notes
+! 
+!     
 ! 
 ! Each digit is represented by 7 bits:
 ! 
@@ -65,23 +73,27 @@
 ! negated -- 1s and 0s are flipped -- on the right hand side of the bar
 ! code.
 ! 
-! The UPC-A bar code structure:
+! The UPC-A bar code structure
 ! 
-! -   -   It begins with at least 9 spaces (which our imaginary bar code
-!         reader unfortunately doesn't always reproduce properly),
-!     -   then has a # # sequence marking the start of the sequence,
-!     -   then has the six "left hand" digits,
-!     -   then has a # # sequence in the middle,
-!     -   then has the six "right hand digits",
-!     -   then has another # # (end sequence), and finally,
-!     -   then ends with nine trailing spaces (which might be eaten by
-!         wiki edits, and in any event, were not quite captured correctly
-!         by our imaginary bar code reader).
+!     
+! 
+! - - It begins with at least 9 spaces (which our imaginary bar code
+!     reader unfortunately doesn't always reproduce properly),
+!   - then has a # # sequence marking the start of the sequence,
+!   - then has the six "left hand" digits,
+!   - then has a # # sequence in the middle,
+!   - then has the six "right hand digits",
+!   - then has another # # (end sequence), and finally,
+!   - then ends with nine trailing spaces (which might be eaten by wiki
+!     edits, and in any event, were not quite captured correctly by our
+!     imaginary bar code reader).
 ! 
 ! Finally, the last digit is a checksum digit which may be used to help
 ! detect errors.
 ! 
-! Verification:
+! Verification
+! 
+!     
 ! 
 ! Multiply each digit in the represented 12 digit sequence by the
 ! corresponding number in (3,1,3,1,3,1,3,1,3,1,3,1) and add the products.

@@ -19,15 +19,17 @@
 ! it is not known whether all juggler sequences after that will eventually
 ! reach 1.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Compute and show here the following statistics for juggler sequences
 ! with an initial term of a[n] where n is between 20 and 39 inclusive:
 ! 
-! -   l[n] - the number of terms needed to reach 1.
-! -   h[n] - the maximum value reached in that sequence.
-! -   i[n] - the index of the term (starting from 0) at which the maximum
-!     is (first) reached.
+! - l[n] - the number of terms needed to reach 1.
+! - h[n] - the maximum value reached in that sequence.
+! - i[n] - the index of the term (starting from 0) at which the maximum is
+!   (first) reached.
 ! 
 ! If your language supports big integers with an integer square root
 ! function, also compute and show here the same statistics for as many as
@@ -42,21 +44,25 @@
 ! However, as h[n] for most of these numbers is thousands or millions of
 ! digits long, show instead of h[n]:
 ! 
-! -   d[n] - the number of digits in h[n]
+! - d[n] - the number of digits in h[n]
 ! 
 ! The results can be (partially) verified against the table here.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Hailstone sequence
-! -   Yellowstone sequence
-! -   Isqrt_(integer_square_root)_of_X
+!     
 ! 
-! See also:
+! - Hailstone sequence
+! - Yellowstone sequence
+! - Isqrt_(integer_square_root)_of_X
 ! 
-! -   oeis:A007320 Number of steps needed for Juggler sequence started at
-!     n to reach 1
-! -   oeis:A094716 Largest value in the Juggler sequence started at n
+! See also
+! 
+!     
+! 
+! - oeis:A007320 Number of steps needed for Juggler sequence started at n
+!   to reach 1
+! - oeis:A094716 Largest value in the Juggler sequence started at n
 
 USING: combinators formatting generalizations io kernel math
 math.extras math.functions.integer-logs math.order math.ranges

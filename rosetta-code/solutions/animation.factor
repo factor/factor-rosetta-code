@@ -4,7 +4,9 @@
 ! the display while still remaining responsive to the user. This task
 ! demonstrates this.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a window containing the string "Hello World!" (the trailing space
 ! is significant).

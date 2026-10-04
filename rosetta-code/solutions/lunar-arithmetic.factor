@@ -41,22 +41,21 @@
 ! 
 ! Use those routines (operators) to perform the following:
 ! 
-! -   Lunar addition and lunar multiplication of the number groups: (976,
-!     348), (23, 321), (232, 35), (123, 32192, 415, 8)
-! -   Using lunar arithmetic, find the first twenty distinct even numbers.
-!     n + n ≠ 2 × n and n + n = n. The even numbers are numbers of the
-!     form 2 × n.
-! -   Using lunar arithmetic, find the first twenty square numbers. n × n
-! -   Using lunar arithmetic, find the first twenty factorial numbers.
-!     n! = 1 × 2 × ⋯ × n
+! - Lunar addition and lunar multiplication of the number groups: (976,
+!   348), (23, 321), (232, 35), (123, 32192, 415, 8)
+! - Using lunar arithmetic, find the first twenty distinct even numbers.
+!   n + n ≠ 2 × n and n + n = n. The even numbers are numbers of the form
+!   2 × n.
+! - Using lunar arithmetic, find the first twenty square numbers. n × n
+! - Using lunar arithmetic, find the first twenty factorial numbers.
+!   n! = 1 × 2 × ⋯ × n
 ! 
 ! Stretch
 ! 
 ! The lunar squares sequence is not monotonic. Squared values are not
 ! strictly increasing as the numbers grow larger.
 ! 
-! -   Find the first number whose lunar square is smaller than the
-!     previous.
+! - Find the first number whose lunar square is smaller than the previous.
 ! 
 ! See also
 !     OEIS A087019 - Lunar squares

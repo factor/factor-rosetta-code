@@ -8,31 +8,39 @@
 ! excluded. Only numbers ≥ 100 will be considered for this Rosetta Code
 ! task.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! 187 is a gapful number because it is evenly divisible by the number 17
 ! which is formed by the first and last decimal digits of 187.
 ! 
 ! About 7.46% of positive integers are gapful.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Generate and show all sets of numbers (below) on one line
-!         (horizontally) with a title, here on this page
-!     -   Show the first 30 gapful numbers
-!     -   Show the first 15 gapful numbers ≥ 1,000,000
-!     -   Show the first 10 gapful numbers ≥ 1,000,000,000
+!     
 ! 
-! Related tasks:
+! - - Generate and show all sets of numbers (below) on one line
+!     (horizontally) with a title, here on this page
+!   - Show the first 30 gapful numbers
+!   - Show the first 15 gapful numbers ≥ 1,000,000
+!   - Show the first 10 gapful numbers ≥ 1,000,000,000
 ! 
-! -   -   Harshad or Niven series.
-!     -   palindromic gapful numbers.
-!     -   largest number divisible by its digits.
+! Related tasks
 ! 
-! Also see:
+!     
 ! 
-! -   -   The OEIS entry: A108343 gapful numbers.
-!     -   numbersaplenty gapful numbers
+! - - Harshad or Niven series.
+!   - palindromic gapful numbers.
+!   - largest number divisible by its digits.
+! 
+! Also see
+! 
+!     
+! 
+! - - The OEIS entry: A108343 gapful numbers.
+!   - numbersaplenty gapful numbers
 
 USING: formatting kernel lists lists.lazy math math.functions
 math.text.utils sequences ;

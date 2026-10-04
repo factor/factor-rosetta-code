@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show one or more idiomatic ways of generating the Cartesian product of
 ! two arbitrary lists in your language.

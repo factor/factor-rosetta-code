@@ -6,18 +6,19 @@
 ! trigonometry, the law of haversines, relating the sides and angles of
 ! spherical "triangles".
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a great-circle distance function, or use a library function,
 ! to show the great-circle distance between:
 ! 
-! -   Nashville International Airport (BNA) in Nashville, TN, USA, which
-!     is:
+! - Nashville International Airport (BNA) in Nashville, TN, USA, which is:
 ! 
 !    N 36°7.2',   W 86°40.2'     (36.12,   -86.67)           -and-
 ! 
-! -   Los Angeles International Airport (LAX) in Los Angeles, CA, USA,
-!     which is:
+! - Los Angeles International Airport (LAX) in Los Angeles, CA, USA, which
+!   is:
 ! 
 !    N 33°56.4',  W 118°24.0'    (33.94,  -118.40)   
 ! 

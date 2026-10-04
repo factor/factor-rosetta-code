@@ -50,33 +50,33 @@
 ! 
 ! Applications
 ! 
-! -   Computer graphics and computational geometry
-! -   GIS systems for map overlay operations
-! -   CAD/CAM systems for determining part intersections
-! -   Image processing for masking operations
+! - Computer graphics and computational geometry
+! - GIS systems for map overlay operations
+! - CAD/CAM systems for determining part intersections
+! - Image processing for masking operations
 ! 
 ! Advantages
 ! 
-! -   Works with both convex and non-convex polygons
-! -   Can handle complex polygon intersections resulting in multiple
-!     output polygons
-! -   Preserves the original geometric information better than
-!     rasterization-based approaches
+! - Works with both convex and non-convex polygons
+! - Can handle complex polygon intersections resulting in multiple output
+!   polygons
+! - Preserves the original geometric information better than
+!   rasterization-based approaches
 ! 
 ! Limitations
 ! 
-! -   More complex to implement than simpler algorithms like
-!     Sutherland-Hodgman
-! -   Requires careful handling of special cases (e.g., when polygons
-!     share edges or vertices)
-! -   The time complexity is O(n × m) where n and m are the number of
-!     vertices in the subject and clip polygons respectively
+! - More complex to implement than simpler algorithms like
+!   Sutherland-Hodgman
+! - Requires careful handling of special cases (e.g., when polygons share
+!   edges or vertices)
+! - The time complexity is O(n × m) where n and m are the number of
+!   vertices in the subject and clip polygons respectively
 ! 
 ! Related algorithms
 ! 
-! -   Sutherland-Hodgman polygon clipping (for convex clip polygons)
-! -   Greiner-Hormann clipping algorithm (an extension with improved
-!     numerical robustness)
-! -   Vatti clipping algorithm (handles self-intersecting polygons)
+! - Sutherland-Hodgman polygon clipping (for convex clip polygons)
+! - Greiner-Hormann clipping algorithm (an extension with improved
+!   numerical robustness)
+! - Vatti clipping algorithm (handles self-intersecting polygons)
 
 

@@ -1,10 +1,14 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Reverse the order of all tokens in each of a number of strings and
 ! display the result; the order of characters within a token should not be
 ! modified.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! Hey you, Bub! would be shown reversed as: Bub! you, Hey
 ! 
@@ -44,7 +48,7 @@
 ! 
 ! Cf.
 ! 
-! -   Phrase reversals
+! - Phrase reversals
 
 USING: io sequences splitting ;
 IN: rosetta-code.reverse-words

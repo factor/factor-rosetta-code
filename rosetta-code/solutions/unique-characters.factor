@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given a list of strings, find characters appearing only in one string
 ! and once only.

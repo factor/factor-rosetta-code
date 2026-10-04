@@ -15,6 +15,6 @@
 ! 
 ! Reference
 ! 
-! -   Wikipedia: ASCII
+! - Wikipedia: ASCII
 
 

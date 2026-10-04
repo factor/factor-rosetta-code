@@ -17,23 +17,23 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first 20 shuffle groups.
-! -   Find and display the index and value of the first shuffle group with
-!     more than 4 witnesses.
-! -   Display the breakdown of shuffle group magnitudes up to that point.
-!     (How many have only 1 witness? How many have two? Etc.)
+! - Find and display the first 20 shuffle groups.
+! - Find and display the index and value of the first shuffle group with
+!   more than 4 witnesses.
+! - Display the breakdown of shuffle group magnitudes up to that point.
+!   (How many have only 1 witness? How many have two? Etc.)
 ! 
 ! Stretch
 ! 
-! -   Find and display the the index and value of the first shuffle group
-!     with exactly 3 witnesses.
-! -   Display the breakdown of shuffle group magnitudes up to that point.
+! - Find and display the the index and value of the first shuffle group
+!   with exactly 3 witnesses.
+! - Display the breakdown of shuffle group magnitudes up to that point.
 ! 
 ! Stretch harder
 ! 
-! -   Find and display the the index and value of the first shuffle group
-!     with exactly 4 witnesses.
-! -   Display the breakdown of shuffle group magnitudes up to that point.
+! - Find and display the the index and value of the first shuffle group
+!   with exactly 4 witnesses.
+! - Display the breakdown of shuffle group magnitudes up to that point.
 ! 
 ! Shuffle groups is adapted from a programming problem from the perl
 ! weekly challenge #350

@@ -7,13 +7,13 @@
 ! 
 ! See also
 ! 
-! -   -   OEIS:A073916
+! - - OEIS:A073916
 ! 
 ! Related tasks
 ! 
-! -   -   Sequence: smallest number greater than previous term with
-!         exactly n divisors
-!     -   Sequence: smallest number with exactly n divisors
+! - - Sequence: smallest number greater than previous term with exactly n
+!     divisors
+!   - Sequence: smallest number with exactly n divisors
 
 USING: combinators formatting fry kernel lists lists.lazy
 lists.lazy.examples literals math math.functions math.primes

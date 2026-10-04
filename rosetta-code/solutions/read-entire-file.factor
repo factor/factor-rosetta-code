@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Load the entire contents of some text file as a single string variable.
 ! 

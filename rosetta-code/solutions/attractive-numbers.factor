@@ -1,19 +1,25 @@
 ! A number is an attractive number if the number of its prime factors
 ! (whether distinct or not) is also prime.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! The number 20, whose prime decomposition is 2 × 2 × 5, is an attractive
 ! number because the number of its prime factors (3) is also prime.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show sequence items up to 120.
 ! 
-! Reference:
+! Reference
 ! 
-! -   -   The OEIS entry: A063989: Numbers with a prime number of prime
-!         divisors.
+!     
+! 
+! - - The OEIS entry: A063989: Numbers with a prime number of prime
+!     divisors.
 
 USING: formatting grouping io math.primes math.primes.factors
 math.ranges sequences ;

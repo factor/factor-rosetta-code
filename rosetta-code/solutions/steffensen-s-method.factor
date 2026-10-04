@@ -154,6 +154,6 @@
 ! 
 ! See also
 ! 
-! -   Bézier curves/Intersections
+! - Bézier curves/Intersections
 
 

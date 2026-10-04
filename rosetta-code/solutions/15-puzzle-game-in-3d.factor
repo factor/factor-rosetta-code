@@ -10,10 +10,10 @@
 ! 
 ! References
 ! 
-! -   Article: Wikipedia 15 puzzle.
-! -   Video: 15 Puzzle Game in 3D for the Ring entry.
+! - Article: Wikipedia 15 puzzle.
+! - Video: 15 Puzzle Game in 3D for the Ring entry.
 ! 
-! -   Necessary files: Files for 15 Puzzle Game in 3D as used by the Ring
-!     entry.
+! - Necessary files: Files for 15 Puzzle Game in 3D as used by the Ring
+!   entry.
 
 

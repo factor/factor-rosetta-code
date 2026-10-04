@@ -1,15 +1,17 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function or program which:
 ! 
-! -   takes a positive integer representing a duration in seconds as input
-!     (e.g., 100), and
-! -   returns a string which shows the same duration decomposed into:
-!     -   -   weeks,
-!         -   days,
-!         -   hours,
-!         -   minutes, and
-!         -   seconds.
+! - takes a positive integer representing a duration in seconds as input
+!   (e.g., 100), and
+! - returns a string which shows the same duration decomposed into:
+!   - - weeks,
+!     - days,
+!     - hours,
+!     - minutes, and
+!     - seconds.
 ! 
 ! This is detailed below (e.g., "2 hr, 59 sec").
 ! 

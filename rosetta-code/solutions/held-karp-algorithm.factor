@@ -6,7 +6,8 @@
 ! exponential time, which is considerably more efficient than a
 ! brute-force search for small to moderately sized inputs.
 ! 
-! Problem Statement: Traveling Salesperson Problem
+! Problem Statement
+!     Traveling Salesperson Problem
 ! 
 ! Given a set of n cities and a matrix C where C_(ij) represents the cost
 ! (or distance) of traveling from city i to city j, the Traveling

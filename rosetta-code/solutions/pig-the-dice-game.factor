@@ -12,13 +12,17 @@
 ! and becomes safe from the effects of throwing a 1 (one). The player's
 ! turn finishes with play passing to the next player.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a program to score for, and simulate dice throws for, a
 ! two-person game.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Pig the dice game/Player
+!     
+! 
+! - Pig the dice game/Player
 
 

@@ -35,7 +35,9 @@
 ! 
 !     s1 + s2 = 70 which ends in zero which means that 49927398716 passes the Luhn test
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function/method/procedure/subroutine that will validate a number
 ! with the Luhn test, and
@@ -47,10 +49,12 @@
 !    1234567812345678
 !    1234567812345670
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   SEDOL
-! -   ISIN
+!     
+! 
+! - SEDOL
+! - ISIN
 
 USING: kernel math math.parser math.order math.ranges sequences ;
 IN: luhn

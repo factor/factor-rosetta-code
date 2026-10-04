@@ -2,7 +2,9 @@
 ! function organized as a table where each row gives one combination of
 ! input values and the corresponding value of the function.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Input a Boolean function from the user as a string then calculate
 !     and print a formatted truth table for the given function.
@@ -14,15 +16,19 @@
 !     variables in the function.
 ! 2.  Either reverse-polish or infix notation expressions are allowed.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Boolean values
-! -   Ternary logic
+!     
 ! 
-! See also:
+! - Boolean values
+! - Ternary logic
 ! 
-! -   Wolfram MathWorld entry on truth tables.
-! -   some "truth table" examples from Google.
+! See also
+! 
+!     
+! 
+! - Wolfram MathWorld entry on truth tables.
+! - some "truth table" examples from Google.
 
 USING: arrays combinators eval formatting io kernel listener
 math.combinatorics prettyprint qw sequences splitting

@@ -15,15 +15,17 @@
 ! 
 ! Concept also discussed on LtU and Patents.com.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate History variable support:
 ! 
-! -   enable history variable support (if needed)
-! -   define a history variable
-! -   assign three values
-! -   non-destructively display the history
-! -   recall the three values.
+! - enable history variable support (if needed)
+! - define a history variable
+! - assign three values
+! - non-destructively display the history
+! - recall the three values.
 ! 
 ! For extra points, if the language of choice does not support history
 ! variables, demonstrate how this might be implemented.

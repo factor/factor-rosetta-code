@@ -7,35 +7,45 @@
 ! that the probability of any particular Latin square of size n being
 ! produced is non-zero.
 ! 
-! Example n=4 randomised Latin square:
+! Example n=4 randomised Latin square
+! 
+!     
 ! 
 !     0 2 3 1
 !     2 1 0 3
 !     3 0 1 2
 !     1 3 2 0
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Create a function/routine/procedure/method/... that given n
 !     generates a randomised Latin square of size n.
 ! 2.  Use the function to generate and show here, two randomly generated
 !     squares of size 5.
 ! 
-! Note:
+! Note
+! 
+!     
 ! 
 ! Strict uniformity in the random generation is a hard problem and not a
 ! requirement of the task.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Latin Squares in reduced form/Randomizing using Jacobson and
-!     Matthews’ Technique
-! -   Latin Squares in reduced form
+!     
 ! 
-! Reference:
+! - Latin Squares in reduced form/Randomizing using Jacobson and Matthews’
+!   Technique
+! - Latin Squares in reduced form
 ! 
-! -   Wikipedia: Latin square
-! -   OEIS: A002860
+! Reference
+! 
+!     
+! 
+! - Wikipedia: Latin square
+! - OEIS: A002860
 
 USING: arrays combinators.extras fry io kernel math.matrices
 prettyprint random sequences sets ;

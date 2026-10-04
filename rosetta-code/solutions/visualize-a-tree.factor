@@ -5,13 +5,15 @@
 ! 
 ! There are many ways to represent trees to a reader, such as:
 ! 
-! -   -   indented text (à la unix tree command)
-!     -   nested HTML tables
-!     -   hierarchical GUI widgets
-!     -   2D or 3D images
-!     -   etc.
+! - - indented text (à la unix tree command)
+!   - nested HTML tables
+!   - hierarchical GUI widgets
+!   - 2D or 3D images
+!   - etc.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program to produce a visual representation of some tree.
 ! 

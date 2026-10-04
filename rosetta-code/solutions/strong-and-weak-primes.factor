@@ -1,36 +1,42 @@
-! Definitions (as per number theory):
+! Definitions (as per number theory)
 ! 
-! -   -   The prime(p) is the 'p''^(th) prime.
-!         -   -   prime(1) is 2
-!             -   prime(4) is 7
-!     -   A strong prime is when prime(p) is > [prime(p-1) + prime(p+1)] ÷
-!         2
-!     -   A weak prime is when prime(p) is < [prime(p-1) + prime(p+1)] ÷ 2
+!     
+! 
+! - - The prime(p) is the 'p''^(th) prime.
+!     - - prime(1) is 2
+!       - prime(4) is 7
+!   - A strong prime is when prime(p) is > [prime(p-1) + prime(p+1)] ÷ 2
+!   - A weak prime is when prime(p) is < [prime(p-1) + prime(p+1)] ÷ 2
 ! 
 ! Note that the definition for strong primes is different when used in the
 ! context of cryptography.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Find and display (on one line) the first 36 strong primes.
-!     -   Find and display the count of the strong primes below 1,000,000.
-!     -   Find and display the count of the strong primes below
-!         10,000,000.
-!     -   Find and display (on one line) the first 37 weak primes.
-!     -   Find and display the count of the weak primes below 1,000,000.
-!     -   Find and display the count of the weak primes below 10,000,000.
-!     -   (Optional) display the counts and "below numbers" with commas.
+!     
+! 
+! - - Find and display (on one line) the first 36 strong primes.
+!   - Find and display the count of the strong primes below 1,000,000.
+!   - Find and display the count of the strong primes below 10,000,000.
+!   - Find and display (on one line) the first 37 weak primes.
+!   - Find and display the count of the weak primes below 1,000,000.
+!   - Find and display the count of the weak primes below 10,000,000.
+!   - (Optional) display the counts and "below numbers" with commas.
 ! 
 ! Show all output here.
 ! 
-! Related Task:
+! Related Task
 ! 
-! -   -   Safe primes and unsafe primes.
+!     
 ! 
-! Also see:
+! - - Safe primes and unsafe primes.
 ! 
-! -   -   The OEIS article A051634: strong primes.
-!     -   The OEIS article A051635: weak primes.
+! Also see
+! 
+!     
+! 
+! - - The OEIS article A051634: strong primes.
+!   - The OEIS article A051635: weak primes.
 
 USING: formatting grouping kernel math math.primes sequences
 tools.memory.private ;

@@ -1,10 +1,14 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given an integer n, return 1──►n (inclusive) in lexicographical order.
 ! 
 ! Show all output here on this page.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! Given 13,
 ! 

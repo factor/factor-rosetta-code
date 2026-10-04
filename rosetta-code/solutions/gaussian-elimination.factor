@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Solve Ax=b using Gaussian elimination then backwards substitution.
 ! 
@@ -8,8 +10,10 @@
 ! 
 ! To improve accuracy, please use partial pivoting and scaling.
 ! 
-! See also:
+! See also
 ! 
-! -   -   the Wikipedia entry: Gaussian elimination
+!     
+! 
+! - - the Wikipedia entry: Gaussian elimination
 
 

@@ -19,7 +19,9 @@
 ! that the pile of coconuts divides equally amongst the sailors with no
 ! remainder. (Nothing for the monkey in the morning.)
 ! 
-! The task:
+! The task
+! 
+!     
 ! 
 ! 1.  Calculate the minimum possible size of the initial pile of coconuts
 !     collected during the first day.
@@ -33,25 +35,31 @@
 !     piles instead of five of course).
 ! 4.  Show your answers here.
 ! 
-! Extra credit (optional):
+! Extra credit (optional)
 ! 
-! -   Give some indication of the number of coconuts each sailor hides
-!     during the night.
+!     
 ! 
-! Note:
+! - Give some indication of the number of coconuts each sailor hides
+!   during the night.
 ! 
-! -   Of course the tale is told in a world where the collection of any
-!     amount of coconuts in a day and multiple divisions of the pile, etc
-!     can occur in time fitting the story line, so as not to affect the
-!     mathematics.
-! -   The tale is also told in a version where the monkey also gets a
-!     coconut in the morning. This is not that tale!
+! Note
 ! 
-! C.f:
+!     
 ! 
-! -   Monkeys and Coconuts - Numberphile (Video) Analytical solution.
-! -   A002021: Pile of coconuts problem The On-Line Encyclopedia of
-!     Integer Sequences. (Although some of its references may use the
-!     alternate form of the tale).
+! - Of course the tale is told in a world where the collection of any
+!   amount of coconuts in a day and multiple divisions of the pile, etc
+!   can occur in time fitting the story line, so as not to affect the
+!   mathematics.
+! - The tale is also told in a version where the monkey also gets a
+!   coconut in the morning. This is not that tale!
+! 
+! C.f
+! 
+!     
+! 
+! - Monkeys and Coconuts - Numberphile (Video) Analytical solution.
+! - A002021: Pile of coconuts problem The On-Line Encyclopedia of Integer
+!   Sequences. (Although some of its references may use the alternate form
+!   of the tale).
 
 

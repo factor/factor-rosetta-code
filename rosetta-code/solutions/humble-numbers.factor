@@ -12,24 +12,29 @@
 ! 
 !            where     i, j, k, m ≥ 0 
 ! 
-! Task:
+! Task
 ! 
-! -   -   show the first 50 humble numbers (in a horizontal list)
-!     -   show the number of humble numbers that have x decimal digits for
-!         all x's up to n (inclusive).
-!     -   show (as many as feasible or reasonable for above) on separate
-!         lines
-!     -   show all output here on this page
+!     
 ! 
-! Related tasks:
+! - - show the first 50 humble numbers (in a horizontal list)
+!   - show the number of humble numbers that have x decimal digits for all
+!     x's up to n (inclusive).
+!   - show (as many as feasible or reasonable for above) on separate lines
+!   - show all output here on this page
 ! 
-! -   -   Hamming numbers
+! Related tasks
 ! 
-! References:
+!     
 ! 
-! -   -   Wikipedia: Smooth numbers, see the 2^(nd) paragraph.
-!     -   OEIS A002473: humble numbers
-!     -   University of Ulm, The first 5842 terms of humble numbers
+! - - Hamming numbers
+! 
+! References
+! 
+!     
+! 
+! - - Wikipedia: Smooth numbers, see the 2^(nd) paragraph.
+!   - OEIS A002473: humble numbers
+!   - University of Ulm, The first 5842 terms of humble numbers
 
 USING: accessors assocs combinators deques dlists formatting fry
 generalizations io kernel make math math.functions math.order

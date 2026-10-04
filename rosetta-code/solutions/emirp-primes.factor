@@ -3,11 +3,13 @@
 ! 
 ! (This rules out palindromic primes.)
 ! 
-! Task:
+! Task
 ! 
-! -   -   show the first twenty emirps
-!     -   show all emirps between 7,700 and 8,000
-!     -   show the 10,000^(th) emirp
+!     
+! 
+! - - show the first twenty emirps
+!   - show all emirps between 7,700 and 8,000
+!   - show the 10,000^(th) emirp
 ! 
 ! In each list, the numbers should be in order.
 ! 
@@ -18,12 +20,14 @@
 ! The specific method of how to determine if a range or if specific values
 ! are to be shown will be left to the programmer.
 ! 
-! See also:
+! See also
 ! 
-! -   Wikipedia, Emirp.
-! -   The Prime Pages, emirp.
-! -   Wolfram MathWorld™, Emirp.
-! -   The On‑Line Encyclopedia of Integer Sequences, emirps (A6567).
+!     
+! 
+! - Wikipedia, Emirp.
+! - The Prime Pages, emirp.
+! - Wolfram MathWorld™, Emirp.
+! - The On‑Line Encyclopedia of Integer Sequences, emirps (A6567).
 
 USING: io kernel lists lists.lazy math.extras math.parser
     math.primes sequences ;

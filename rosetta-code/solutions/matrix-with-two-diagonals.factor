@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Draw a square matrix which has 1's on both diagonals but 0's elsewhere.
 ! 
@@ -6,8 +8,8 @@
 ! 
 ! See also
 ! 
-! -   Four sides of square
-! -   Mosaic matrix
+! - Four sides of square
+! - Mosaic matrix
 
 USING: io kernel math math.matrices prettyprint ;
 

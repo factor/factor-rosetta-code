@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a generator of prime numbers, in order, that will automatically
 ! adjust to accommodate the generation of any reasonably high prime.
@@ -17,10 +19,10 @@
 ! 
 ! The routine should be used to:
 ! 
-! -   Show the first twenty primes.
-! -   Show the primes between 100 and 150.
-! -   Show the number of primes between 7,700 and 8,000.
-! -   Show the 10,000th prime.
+! - Show the first twenty primes.
+! - Show the primes between 100 and 150.
+! - Show the number of primes between 7,700 and 8,000.
+! - Show the 10,000th prime.
 ! 
 ! Show output on this page.
 ! 
@@ -39,9 +41,11 @@
 ! Note 3:The task is written so it may be useful in solving the task Emirp
 ! primes as well as others (depending on its efficiency).
 ! 
-! Reference:
+! Reference
 ! 
-! -   Prime Numbers. Website with large count of primes.
+!     
+! 
+! - Prime Numbers. Website with large count of primes.
 
 USING: io math.primes prettyprint sequences ;
 

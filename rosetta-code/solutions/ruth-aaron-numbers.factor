@@ -17,17 +17,17 @@
 ! 
 ! Task
 ! 
-! -   Find and show, here on this page, the first 30 Ruth-Aaron numbers
-!     (factors).
+! - Find and show, here on this page, the first 30 Ruth-Aaron numbers
+!   (factors).
 ! 
-! -   Find and show, here on this page, the first 30 Ruth-Aaron numbers
-!     (divisors).
+! - Find and show, here on this page, the first 30 Ruth-Aaron numbers
+!   (divisors).
 ! 
 ! Stretch
 ! 
-! -   Find and show the first Ruth-Aaron triple (factors).
+! - Find and show the first Ruth-Aaron triple (factors).
 ! 
-! -   Find and show the first Ruth-Aaron triple (divisors).
+! - Find and show the first Ruth-Aaron triple (divisors).
 ! 
 ! See also
 ! 

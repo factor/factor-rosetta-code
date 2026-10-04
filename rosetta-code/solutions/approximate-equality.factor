@@ -7,7 +7,9 @@
 ! calculations may appear by about the 8th significant digit in base 10
 ! arithmetic.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a function which returns true if two floating point numbers are
 ! approximately equal.

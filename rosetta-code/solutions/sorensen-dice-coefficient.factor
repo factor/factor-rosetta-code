@@ -52,13 +52,13 @@
 ! 
 ! Task
 ! 
-! -   Use the list of Rosetta Code task and draft task names as your
-!     "dictionary" to search.
-! -   Using that dictionary, search for the mangled task names:
-!     'Primordial primes', 'Sunkist-Giuliani formula', 'Sieve of
-!     Euripides', 'Chowder numbers'.
-! -   Show the search term and the coefficient / match for the five
-!     closest, most similar matches.
+! - Use the list of Rosetta Code task and draft task names as your
+!   "dictionary" to search.
+! - Using that dictionary, search for the mangled task names: 'Primordial
+!   primes', 'Sunkist-Giuliani formula', 'Sieve of Euripides', 'Chowder
+!   numbers'.
+! - Show the search term and the coefficient / match for the five closest,
+!   most similar matches.
 ! 
 ! How you get the task names is peripheral to the task. You can web-scrape
 ! them or download them to a file, whatever.

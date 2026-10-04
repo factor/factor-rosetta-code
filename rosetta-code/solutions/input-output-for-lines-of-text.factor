@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! The first line contains the number of lines to follow, followed by that
 ! number of lines of text on STDIN.
@@ -6,7 +8,9 @@
 ! Write to STDOUT each line of input by passing it to a method as an
 ! intermediate step. The code should demonstrate these 3 things.
 ! 
-! Sample input with corresponding output:
+! Sample input with corresponding output
+! 
+!     
 ! 
 ! Input
 ! 
@@ -21,10 +25,12 @@
 !     hello world
 !     Pack my Box with 5 dozen liquor jugs
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Input/Output for Pairs of Numbers
-! -   File/Input and Output
+!     
+! 
+! - Input/Output for Pairs of Numbers
+! - File/Input and Output
 
 USING: io kernel strings ;
 IN: input-output

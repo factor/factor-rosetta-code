@@ -44,7 +44,9 @@
 ! the speed of the orbiting object in cartesian coordinates, those two
 ! vectors constituting the so-called orbital state vectors.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how to perform this conversion from orbital elements to orbital
 ! state vectors in your programming language.

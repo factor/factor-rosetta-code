@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Using the dictionary unixdict.txt, find words which odd letters are
 ! consonants and even letters are vowels or vice versa.

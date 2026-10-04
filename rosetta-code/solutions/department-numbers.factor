@@ -1,9 +1,9 @@
 ! There is a highly organized city that has decided to assign a number to
 ! each of their departments:
 ! 
-! -   -   police department
-!     -   sanitation department
-!     -   fire department
+! - - police department
+!   - sanitation department
+!   - fire department
 ! 
 ! Each department can have a number between 1 and 7 (inclusive).
 ! 
@@ -13,7 +13,9 @@
 ! The Chief of the Police doesn't like odd numbers and wants to have an
 ! even number for his department.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a computer program which outputs all valid combinations.
 ! 

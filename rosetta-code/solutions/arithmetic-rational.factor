@@ -1,9 +1,13 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a reasonably complete implementation of rational arithmetic in
 ! the particular language using the idioms of the language.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! Define a new type called frac with binary operator "//" of two integers
 ! that returns a structure made up of the numerator and the denominator
@@ -23,10 +27,12 @@
 ! Finally test the operators: Use the new type frac to find all perfect
 ! numbers less than 2¹⁹ by summing the reciprocal of the factors.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Perfect Numbers
-! -   Check Machin-like formulas
+!     
+! 
+! - Perfect Numbers
+! - Check Machin-like formulas
 ! 
 ! Category:Arithmetic
 

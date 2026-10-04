@@ -15,7 +15,9 @@
 ! {This Rosetta Code task was inspired by a newly introduced (as of around
 ! November 2019) PL/I BIF: collapse.}
 ! 
-! Examples:
+! Examples
+! 
+!     
 ! 
 ! In the following character string:
 ! 
@@ -37,7 +39,9 @@
 ! 
 !  headmistreship 
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a subroutine/function/procedure/routine··· to locate repeated
 ! characters and collapse (delete) them from the character string. The
@@ -45,10 +49,10 @@
 ! 
 ! Show all output here, on this page:
 ! 
-! -   -   the original string and its length
-!     -   the resultant string and its length
-!     -   the above strings should be "bracketed" with <<< and >>> (to
-!         delineate blanks)
+! - - the original string and its length
+!   - the resultant string and its length
+!   - the above strings should be "bracketed" with <<< and >>> (to
+!     delineate blanks)
 ! 
 ! * «««Guillemets may be used instead for "bracketing" for the more artistic programmers, shown used here»»»
 ! 

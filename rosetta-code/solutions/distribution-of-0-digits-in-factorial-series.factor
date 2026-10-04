@@ -1,6 +1,8 @@
 ! Large Factorials and the Distribution of '0' in base 10 digits.
 ! 
-! About the task:
+! About the task
+! 
+!     
 ! 
 ! We can see that some features of factorial numbers (the series of
 ! numbers 1!, 2!, 3!, ...) come about because such numbers are the product
@@ -26,7 +28,9 @@
 ! number of terminating zeros in n! increases only in proportion to n,
 ! whereas the number of digits of n! in base 10 increases exponentially.
 ! 
-! The task:
+! The task
+! 
+!     
 ! 
 ! Create a function to calculate the mean of the proportions of 0 digits
 ! out of the total digits found in each factorial product from 1! to N!.
@@ -45,7 +49,9 @@
 ! series of each of the factorials from 1 to 100, 1 to 1000, and 1 to
 ! 10000.
 ! 
-! Stretch task:
+! Stretch task
+! 
+!     
 ! 
 ! Find the N in 10000 < N < 50000 where the mean of the proportions of 0
 ! digits in the factorial products from 1 to N permanently falls below

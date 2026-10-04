@@ -20,9 +20,11 @@
 ! 
 ! And report the kosaraju strongly connected component for each node.
 ! 
-! References:
+! References
 ! 
-! -   The article on Wikipedia.
+!     
+! 
+! - The article on Wikipedia.
 ! 
 ! Category:Algorithm
 

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Generate a sequence of primes by means of trial division.
 ! 
@@ -18,16 +20,18 @@
 ! Primality by trial division page (i.e., add yours there if it isn't
 ! there already).
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   count in factors
-! -   prime decomposition
-! -   factors of an integer
-! -   Sieve of Eratosthenes
-! -   primality by trial division
-! -   factors of a Mersenne number
-! -   trial factoring of a Mersenne number
-! -   partition an integer X into N primes
+!     
+! 
+! - count in factors
+! - prime decomposition
+! - factors of an integer
+! - Sieve of Eratosthenes
+! - primality by trial division
+! - factors of a Mersenne number
+! - trial factoring of a Mersenne number
+! - partition an integer X into N primes
 
 USING: combinators kernel lists lists.lazy math math.functions
 math.ranges prettyprint sequences ;

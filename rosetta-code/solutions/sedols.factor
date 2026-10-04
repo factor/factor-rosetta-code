@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! For each number list of 6-digit SEDOLs, calculate and append the
 ! checksum digit.
@@ -31,15 +33,19 @@
 !     B0YBKT7
 !     B000300
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Check each input is correctly formed, especially with respect to valid
 ! characters allowed in a SEDOL string.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Luhn test
-! -   ISIN
+!     
+! 
+! - Luhn test
+! - ISIN
 
 USING: combinators combinators.short-circuit formatting io kernel
 math math.parser regexp sequences unicode ;

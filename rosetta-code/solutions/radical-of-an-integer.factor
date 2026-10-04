@@ -30,12 +30,12 @@
 ! 
 ! Related tasks
 ! 
-! -   Square-free integers
-! -   Almost prime
+! - Square-free integers
+! - Almost prime
 ! 
 ! References
 ! 
-! -   Wikipedia article Radical of an integer
-! -   OEIS sequence A007947: Largest square free number dividing n
+! - Wikipedia article Radical of an integer
+! - OEIS sequence A007947: Largest square free number dividing n
 
 

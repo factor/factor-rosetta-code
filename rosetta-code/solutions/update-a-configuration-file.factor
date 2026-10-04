@@ -27,12 +27,12 @@
 ! 
 ! The task is to manipulate the configuration file as follows:
 ! 
-! -   Disable the needspeeling option (using a semicolon prefix)
-! -   Enable the seedsremoved option by removing the semicolon and any
-!     leading whitespace
-! -   Change the numberofbananas parameter to 1024
-! -   Enable (or create if it does not exist in the file) a parameter for
-!     numberofstrawberries with a value of 62000
+! - Disable the needspeeling option (using a semicolon prefix)
+! - Enable the seedsremoved option by removing the semicolon and any
+!   leading whitespace
+! - Change the numberofbananas parameter to 1024
+! - Enable (or create if it does not exist in the file) a parameter for
+!   numberofstrawberries with a value of 62000
 ! 
 ! Note that configuration option names are not case sensitive. This means
 ! that changes should be effected, regardless of the case.
@@ -67,6 +67,6 @@
 ! 
 ! Related tasks
 ! 
-! -   Read a configuration file
+! - Read a configuration file
 
 

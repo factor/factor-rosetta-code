@@ -57,16 +57,16 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first 30 triangular numbers (r = 2).
-! -   Find and display the first 30 tetrahedral numbers (r = 3).
-! -   Find and display the first 30 pentatopic numbers (r = 4).
-! -   Find and display the first 30 12-simplex numbers (r = 12).
-! -   Find and display the triangular root, the tetrahedral root, and the
-!     pentatopic root for the integers:
-!     -   7140
-!     -   21408696
-!     -   26728085384
-!     -   14545501785001
+! - Find and display the first 30 triangular numbers (r = 2).
+! - Find and display the first 30 tetrahedral numbers (r = 3).
+! - Find and display the first 30 pentatopic numbers (r = 4).
+! - Find and display the first 30 12-simplex numbers (r = 12).
+! - Find and display the triangular root, the tetrahedral root, and the
+!   pentatopic root for the integers:
+!   - 7140
+!   - 21408696
+!   - 26728085384
+!   - 14545501785001
 ! 
 ! See also
 ! * Wikipedia: Triangular numbers

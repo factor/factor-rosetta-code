@@ -1,14 +1,16 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate a language's methods of:
 ! 
-! -   -   variable declaration
-!     -   initialization
-!     -   assignment
-!     -   datatypes
-!     -   scope
-!     -   referencing, and
-!     -   other variable related facilities
+! - - variable declaration
+!   - initialization
+!   - assignment
+!   - datatypes
+!   - scope
+!   - referencing, and
+!   - other variable related facilities
 ! 
 ! Category:Simple
 

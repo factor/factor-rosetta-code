@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how a foreign language function can be called from the language.
 ! 
@@ -9,18 +11,21 @@
 ! language means. Do not forget to free the result of strdup (allocated in
 ! the heap).
 ! 
-! Notes:
+! Notes
 ! 
-! -   It is not mandated if the C run-time library is to be loaded
-!     statically or dynamically. You are free to use either way.
-! -   C++ and C solutions can take some other language to communicate
-!     with.
-! -   It is not mandatory to use strdup, especially if the foreign
-!     function interface being demonstrated makes that uninformative.
+!     
 ! 
-! See also:
+! - It is not mandated if the C run-time library is to be loaded
+!   statically or dynamically. You are free to use either way.
+! - C++ and C solutions can take some other language to communicate with.
+! - It is not mandatory to use strdup, especially if the foreign function
+!   interface being demonstrated makes that uninformative.
 ! 
-! -   Use another language to call a function
+! See also
+! 
+!     
+! 
+! - Use another language to call a function
 
 FUNCTION: char* strdup ( c-string s ) ;
 

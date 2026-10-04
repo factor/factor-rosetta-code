@@ -34,6 +34,6 @@
 ! 
 ! Related tasks
 ! 
-! -   Free polyominoes enumeration
+! - Free polyominoes enumeration
 
 

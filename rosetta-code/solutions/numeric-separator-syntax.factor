@@ -1,16 +1,20 @@
 ! Several programming languages allow separators in numerals in order to
 ! group digits together.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show the numeric separator syntax and describe its specification.
 ! 
-! E.G.:
+! E.G.
 ! 
-! -   -   What separators are eligible?
-!     -   Can there be multiple consecutive separators?
-!     -   What position can a separator be in?
-!     -   Etc.
+!     
+! 
+! - - What separators are eligible?
+!   - Can there be multiple consecutive separators?
+!   - What position can a separator be in?
+!   - Etc.
 
 USE: prettyprint
 

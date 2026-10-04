@@ -25,7 +25,7 @@
 ! 
 ! See also
 ! 
-! -   s-Run on Wolfram mathworld.
+! - s-Run on Wolfram mathworld.
 
 USING: formatting fry io kernel math math.ranges math.statistics
 random sequences ;

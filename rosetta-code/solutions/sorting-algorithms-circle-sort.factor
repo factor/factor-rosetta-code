@@ -47,8 +47,10 @@
 !  }
 !  while circlesort (0, sizeof(array)-1, 0)
 ! 
-! See also:
+! See also
 ! 
-! -   For more information on Circle sorting, see Sourceforge.
+!     
+! 
+! - For more information on Circle sorting, see Sourceforge.
 
 

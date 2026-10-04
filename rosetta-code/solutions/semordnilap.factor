@@ -6,10 +6,11 @@
 ! Task
 ! 
 ! This task does not consider semordnilap phrases, only single words.
-! Using only words from this list, report the total number of unique
-! semordnilap pairs, and print 5 examples. Two matching semordnilaps, such
-! as lager and regal, should be counted as one unique pair. (Note that the
-! word "semordnilap" is not in the above dictionary.)
+! Using only words from the unixdict.txt word list (here is a copy),
+! report the total number of unique semordnilap pairs, and print 5
+! examples. Two matching semordnilaps, such as lager and regal, should be
+! counted as one unique pair. (Note that the word "semordnilap" is not in
+! the above dictionary.)
 
 USING: assocs combinators.short-circuit formatting
 io.encodings.utf8 io.files kernel literals locals make

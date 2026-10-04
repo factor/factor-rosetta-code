@@ -181,12 +181,16 @@
 ! 
 ! |}
 ! 
-! Answer:
+! Answer
+! 
+!     
 ! 
 ! So 580 divided by 34 using the Egyptian method is 17 remainder (578 -
 ! 580) or 2.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! The task is to create a function that does Egyptian division. The
 ! function should
@@ -194,18 +198,22 @@
 ! two, and
 ! another of doublings.
 ! 
-! -   Functions should be clear interpretations of the algorithm.
-! -   Use the function to divide 580 by 34 and show the answer here, on
-!     this page.
+! - Functions should be clear interpretations of the algorithm.
+! - Use the function to divide 580 by 34 and show the answer here, on this
+!   page.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Egyptian fractions
-!     -   Ethiopian multiplication
+!     
 ! 
-! References:
+! - - Egyptian fractions
+!   - Ethiopian multiplication
 ! 
-! -   -   Egyptian Number System
+! References
+! 
+!     
+! 
+! - - Egyptian Number System
 
 USING: assocs combinators formatting kernel make math sequences ;
 IN: rosetta-code.egyptian-division

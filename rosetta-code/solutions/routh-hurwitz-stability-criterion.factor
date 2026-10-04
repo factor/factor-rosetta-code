@@ -65,27 +65,25 @@
 ! useful in the design of control systems where stability is a primary
 ! concern. The criterion can be applied to:
 ! 
-! -   Checking stability of closed-loop systems
-! -   Determining the range of gain values for which a system remains
-!     stable
-! -   Analyzing the effect of parameter variations on system stability
+! - Checking stability of closed-loop systems
+! - Determining the range of gain values for which a system remains stable
+! - Analyzing the effect of parameter variations on system stability
 ! 
 ! Limitations
 ! 
-! -   The criterion only applies to linear time-invariant systems
-! -   It does not provide information about transient response or
-!     performance
-! -   For high-order systems, the calculations can become cumbersome
-! -   The method only determines absolute stability, not relative
-!     stability
+! - The criterion only applies to linear time-invariant systems
+! - It does not provide information about transient response or
+!   performance
+! - For high-order systems, the calculations can become cumbersome
+! - The method only determines absolute stability, not relative stability
 ! 
 ! Related techniques
 ! 
 ! Other methods for stability analysis include:
 ! 
-! -   Nyquist stability criterion
-! -   Bode plot analysis
-! -   Root locus method
-! -   Lyapunov stability theory
+! - Nyquist stability criterion
+! - Bode plot analysis
+! - Root locus method
+! - Lyapunov stability theory
 
 

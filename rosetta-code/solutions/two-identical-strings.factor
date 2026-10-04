@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find and display (here on this page) positive integers, n, whose base 2
 ! representation is the concatenation of two identical binary strings,

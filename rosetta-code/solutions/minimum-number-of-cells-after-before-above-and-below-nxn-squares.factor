@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find and show on this page the minimum number of cells after, before,
 ! above and below N×N squares, where N = 10.

@@ -1,11 +1,15 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find primes n (in base ten) whose first and last decimal digit is 3, and
 ! where n < 4,000.
 ! 
 ! Show all output here on this page.
 ! 
-! Stretch goal:
+! Stretch goal
+! 
+!     
 ! 
 ! Find and show only the number of these types of primes that are <
 ! 1,000,000.

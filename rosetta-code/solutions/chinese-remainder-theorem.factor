@@ -16,7 +16,9 @@
 ! Furthermore, all solutions x of this system are congruent modulo the
 ! product, N = n₁n₂…n_(k).
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program to solve a system of linear congruences by applying the
 ! Chinese Remainder Theorem.

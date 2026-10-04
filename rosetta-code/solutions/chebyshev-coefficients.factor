@@ -1,7 +1,9 @@
 ! Chebyshev coefficients are the basis of polynomial approximations of
 ! functions.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program to generate Chebyshev coefficients.
 ! 

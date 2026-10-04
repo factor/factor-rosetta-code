@@ -36,7 +36,7 @@
 ! 
 ! Reference
 ! 
-! -   Wikipedia: Heterogram
+! - Wikipedia: Heterogram
 ! 
 ! Category: String manipulation Category:Strings
 

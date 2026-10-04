@@ -1,7 +1,9 @@
 ! There be many a land lubber that knows naught of the pirate ways and
 ! gives direction by degree! They know not how to box the compass!
 ! 
-! Task description:
+! Task description
+! 
+!     
 ! 
 ! 1.  Create a function that takes a heading in degrees and returns the
 !     correct 32-point compass heading.
@@ -16,7 +18,7 @@
 ! 
 ! Notes;
 ! 
-! -   The headings and indices can be calculated from this pseudocode:
+! - The headings and indices can be calculated from this pseudocode:
 ! 
 !     for i in 0..32 inclusive:
 !         heading = i * 11.25
@@ -26,8 +28,8 @@
 !         end
 !         index = ( i mod 32) + 1
 ! 
-! -   The column of indices can be thought of as an enumeration of the
-!     thirty two cardinal points (see talk page)..
+! - The column of indices can be thought of as an enumeration of the
+!   thirty two cardinal points (see talk page)..
 
 USING: formatting kernel math sequences ;
 

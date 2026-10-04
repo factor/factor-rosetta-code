@@ -21,7 +21,9 @@
 ! Use primarily bit operations, such as and, or, and bit shifting. Avoid
 ! additions, multiplications and especially avoid divisions.
 ! 
-! Two implementations:
+! Two implementations
+! 
+!     
 ! 
 ! 1.  For the host word size on the host platform, implement the routine
 !     "efficiently" in without looping or recursion.
@@ -29,7 +31,9 @@
 !     generally - maybe as a template, and maybe with looping - so that
 !     any bits width for a binary type can be accommodated.
 ! 
-! Test cases:
+! Test cases
+! 
+!     
 ! 
 ! 1.  For the host machine word size: Use the powers of 42 up to host's
 !     the "natural" word size to calculate the index of the first and last
@@ -39,21 +43,25 @@
 !     first and last set bit.
 ! 3.  Output bit indexes in LSB 0 bit numbering.
 ! 
-! Additionally:
+! Additionally
+! 
+!     
 ! 
 ! In a particular language, there maybe (at least) two alternative
 ! approaches of calculating the required values:
 ! 
-! -   Using an external library.
-! -   Using a built-in library.
+! - Using an external library.
+! - Using a built-in library.
 ! 
 ! If any of these approaches are available, then also note the library or
 ! built-in name.
 ! 
-! See also:
+! See also
 ! 
-! -   Find the log base 2 of an N-bit integer in O(lg(N)) operations
-! -   80386 Instruction Set - BSF -- Bit Scan Forward
+!     
+! 
+! - Find the log base 2 of an N-bit integer in O(lg(N)) operations
+! - 80386 Instruction Set - BSF -- Bit Scan Forward
 ! 
 ! Category:Radices
 

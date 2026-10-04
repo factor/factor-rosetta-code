@@ -62,15 +62,17 @@
 ! by solving the above examples. Extra credit for other interesting
 ! examples.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   A* search algorithm
-! -   Solve a Holy Knight's tour
-! -   Knight's tour
-! -   N-queens problem
-! -   Solve a Hidato puzzle
-! -   Solve a Holy Knight's tour
-! -   Solve a Hopido puzzle
-! -   Solve the no connection puzzle
+!     
+! 
+! - A* search algorithm
+! - Solve a Holy Knight's tour
+! - Knight's tour
+! - N-queens problem
+! - Solve a Hidato puzzle
+! - Solve a Holy Knight's tour
+! - Solve a Hopido puzzle
+! - Solve the no connection puzzle
 
 

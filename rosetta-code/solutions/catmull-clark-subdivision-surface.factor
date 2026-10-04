@@ -34,13 +34,13 @@
 ! 
 ! Then each face is replaced by new faces made with the new points,
 ! 
-! -   for a triangle face (a,b,c):
+! - for a triangle face (a,b,c):
 ! 
 !    (a, edge_point_(ab), face_point_(abc), edge_point_(ca))
 !    (b, edge_point_(bc), face_point_(abc), edge_point_(ab))
 !    (c, edge_point_(ca), face_point_(abc), edge_point_(bc))
 ! 
-! -   for a quad face (a,b,c,d):
+! - for a quad face (a,b,c,d):
 ! 
 !    (a, edge_point_(ab), face_point_(abcd), edge_point_(da))
 !    (b, edge_point_(bc), face_point_(abcd), edge_point_(ab))
@@ -49,10 +49,10 @@
 ! 
 ! When there is a hole, we can detect it as follows:
 ! 
-! -   an edge is the border of a hole if it belongs to only one face,
-! -   a point is on the border of a hole if n_(faces) != n_(edges) with
-!     n_(faces) the number of faces the point belongs to, and n_(edges)
-!     the number of edges a point belongs to.
+! - an edge is the border of a hole if it belongs to only one face,
+! - a point is on the border of a hole if n_(faces) != n_(edges) with
+!   n_(faces) the number of faces the point belongs to, and n_(edges) the
+!   number of edges a point belongs to.
 ! 
 ! On the border of a hole the subdivision occurs as follows:
 ! 

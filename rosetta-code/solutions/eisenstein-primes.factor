@@ -21,13 +21,13 @@
 ! 
 ! Task
 ! 
-! -   Find, and show here as their complex number values, the first 100
-!     (by norm order) Eisenstein primes nearest 0.
+! - Find, and show here as their complex number values, the first 100 (by
+!   norm order) Eisenstein primes nearest 0.
 ! 
 ! Stretch
 ! 
-! -   Plot in the complex plane at least the first 2000 such numbers
-!     (again, as found with norm closest to 0).
+! - Plot in the complex plane at least the first 2000 such numbers (again,
+!   as found with norm closest to 0).
 ! 
 ! See also
 ! * https://en.wikipedia.org/wiki/Eisenstein_integer Wikipedia entry for Eisenstein_integer

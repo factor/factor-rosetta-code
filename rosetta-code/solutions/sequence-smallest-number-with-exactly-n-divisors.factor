@@ -5,15 +5,19 @@
 ! 
 ! Show here, on this page, at least the first 15 terms of the sequence.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Sequence: smallest number greater than previous term with
-!         exactly n divisors
-!     -   Sequence: nth number with exactly n divisors‎‎
+!     
 ! 
-! See also:
+! - - Sequence: smallest number greater than previous term with exactly n
+!     divisors
+!   - Sequence: nth number with exactly n divisors‎‎
 ! 
-! -   -   OEIS:A005179
+! See also
+! 
+!     
+! 
+! - - OEIS:A005179
 
 USING: fry kernel lists lists.lazy math math.primes.factors
 prettyprint sequences ;

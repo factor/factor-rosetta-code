@@ -2,7 +2,9 @@
 ! international identifier for a financial security such as a stock or
 ! bond.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function or program that takes a string as input, and checks
 ! whether it is a valid ISIN.
@@ -12,7 +14,9 @@
 ! 
 ! Demonstrate that your code passes the test-cases listed below.
 ! 
-! Details:
+! Details
+! 
+!     
 ! 
 ! The format of an ISIN is as follows:
 ! 
@@ -38,11 +42,13 @@
 ! here ─── you can just call the existing function from that task. (Add a
 ! comment stating if you did this.)
 ! 
-! Test cases:
+! Test cases
 ! 
 !     
 ! 
-!         {| class="wikitable"
+!         
+! 
+!             {| class="wikitable"
 ! 
 ! ! ISIN ! Validity ! Comment |- | US0378331005 || valid || |- |
 ! US0373831005 || not valid || The transposition typo is caught by the
@@ -58,12 +64,14 @@
 ! 
 ! Related task:
 ! 
-! -   Luhn test of credit card numbers
+! - Luhn test of credit card numbers
 ! 
-! Also see:
+! Also see
 ! 
-! -   Interactive online ISIN validator
-! -   Wikipedia article: International Securities Identification Number
+!     
+! 
+! - Interactive online ISIN validator
+! - Wikipedia article: International Securities Identification Number
 
 USING: combinators.short-circuit.smart formatting kernel luhn
 math math.parser qw sequences strings unicode ;

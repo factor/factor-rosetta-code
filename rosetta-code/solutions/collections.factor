@@ -3,7 +3,9 @@
 ! In statically-typed languages, the values are typically of a common data
 ! type.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a collection, and add a few values to it.
 ! 

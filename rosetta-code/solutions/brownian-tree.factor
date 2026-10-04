@@ -1,6 +1,8 @@
 ! [|right]
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Generate and draw a Brownian Tree.
 ! 

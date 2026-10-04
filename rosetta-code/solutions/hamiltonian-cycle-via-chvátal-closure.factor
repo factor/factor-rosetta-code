@@ -1,4 +1,5 @@
-! Problem: Hamiltonian Cycle via Chvátal Closure
+! Problem
+!     Hamiltonian Cycle via Chvátal Closure
 ! 
 ! Instance: A simple undirected graph G = (V, E) with |V| = n.
 ! 
@@ -7,10 +8,10 @@
 ! 
 ! Definitions
 ! 
-! -   Degree deg_G(v): number of neighbors of v in G.
-! -   Closure cl(G): the graph obtained by repeatedly adding an edge
-!     between any two non‐adjacent vertices u,v whenever deg_G(u) +
-!     deg_G(v) ≥ n until no further edges can be added.
+! - Degree deg_G(v): number of neighbors of v in G.
+! - Closure cl(G): the graph obtained by repeatedly adding an edge between
+!   any two non‐adjacent vertices u,v whenever deg_G(u) + deg_G(v) ≥ n
+!   until no further edges can be added.
 ! 
 ! Algorithm (Chvátal’s Closure Test)
 ! 
@@ -29,6 +30,6 @@
 ! 
 ! Reference
 ! 
-! -   Bondy–Chvátal theorem
+! - Bondy–Chvátal theorem
 
 

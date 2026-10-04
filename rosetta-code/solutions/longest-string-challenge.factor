@@ -1,4 +1,6 @@
-! Background:
+! Background
+! 
+!     
 ! 
 ! This "longest string challenge" is inspired by a problem that used to be
 ! given to students learning Icon. Students were expected to try to solve
@@ -59,7 +61,9 @@
 ! 4.  Do not re-read the input file. Avoid using files as a replacement
 !     for lists (this restriction became apparent in the discussion).
 ! 
-! Intent of restrictions:
+! Intent of restrictions
+! 
+!     
 ! 
 ! Because of the variety of languages on Rosetta Code and the wide variety
 ! of concepts used in them, there needs to be a bit of clarification and
@@ -80,28 +84,28 @@
 ! 
 ! Now having said that, the restrictions require some elaboration.
 ! 
-! -   In general, the restrictions are meant to avoid the explicit use of
-!     these features.
-! -   "No comparison operators may be used" - At some level there must be
-!     some test that allows the solution to get at the length and
-!     determine if one string is longer. Comparison operators, in
-!     particular any less/greater comparison should be avoided.
-!     Representing the length of any string as a number should also be
-!     avoided. Various approaches allow for detecting the end of a string.
-!     Some of these involve implicitly using equal/not-equal; however,
-!     explicitly using equal/not-equal should be acceptable.
-! -   "No arithmetic operations" - Again, at some level something may have
-!     to advance through the string. Often there are ways a language can
-!     do this implicitly advance a cursor or pointer without explicitly
-!     using a +, - , ++, --, add, subtract, etc.
-! -   The datatype restrictions are amongst the most difficult to
-!     reinterpret. In the language of the original challenge strings are
-!     atomic datatypes and structured datatypes like lists are quite
-!     distinct and have many different operations that apply to them. This
-!     becomes a bit fuzzier with languages with a different programming
-!     paradigm. The intent would be to avoid using an easy structure to
-!     accumulate the longest strings and spit them out. There will be some
-!     natural reinterpretation here.
+! - In general, the restrictions are meant to avoid the explicit use of
+!   these features.
+! - "No comparison operators may be used" - At some level there must be
+!   some test that allows the solution to get at the length and determine
+!   if one string is longer. Comparison operators, in particular any
+!   less/greater comparison should be avoided. Representing the length of
+!   any string as a number should also be avoided. Various approaches
+!   allow for detecting the end of a string. Some of these involve
+!   implicitly using equal/not-equal; however, explicitly using
+!   equal/not-equal should be acceptable.
+! - "No arithmetic operations" - Again, at some level something may have
+!   to advance through the string. Often there are ways a language can do
+!   this implicitly advance a cursor or pointer without explicitly using a
+!   +, - , ++, --, add, subtract, etc.
+! - The datatype restrictions are amongst the most difficult to
+!   reinterpret. In the language of the original challenge strings are
+!   atomic datatypes and structured datatypes like lists are quite
+!   distinct and have many different operations that apply to them. This
+!   becomes a bit fuzzier with languages with a different programming
+!   paradigm. The intent would be to avoid using an easy structure to
+!   accumulate the longest strings and spit them out. There will be some
+!   natural reinterpretation here.
 ! 
 ! To make this a bit more concrete, here are a couple of specific
 ! examples: In C, a string is an array of chars, so using a couple of
@@ -115,13 +119,13 @@
 ! Explain your reasoning. You may want to open a discussion on the talk
 ! page as well.
 ! 
-! -   The added "No rereading" restriction is for practical reasons,
-!     re-reading stdin should be broken. I haven't outright banned the use
-!     of other files but I've discouraged them as it is basically another
-!     form of a list. Somewhere there may be a language that just sings
-!     when doing file manipulation and where that makes sense; however,
-!     for most there should be a way to accomplish without resorting to an
-!     externality.
+! - The added "No rereading" restriction is for practical reasons,
+!   re-reading stdin should be broken. I haven't outright banned the use
+!   of other files but I've discouraged them as it is basically another
+!   form of a list. Somewhere there may be a language that just sings when
+!   doing file manipulation and where that makes sense; however, for most
+!   there should be a way to accomplish without resorting to an
+!   externality.
 ! 
 ! At the end of the day for the implementer this should be a bit of fun.
 ! As an implementer you represent the expertise in your language, the

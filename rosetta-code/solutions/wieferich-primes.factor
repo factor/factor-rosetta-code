@@ -6,11 +6,11 @@
 ! 
 ! Task
 ! 
-! -   Write a routine (function procedure, whatever) to find Wieferich
-!     primes.
+! - Write a routine (function procedure, whatever) to find Wieferich
+!   primes.
 ! 
-! -   Use that routine to identify and display all of the Wieferich primes
-!     less than 5000.
+! - Use that routine to identify and display all of the Wieferich primes
+!   less than 5000.
 ! 
 ! See also
 ! 

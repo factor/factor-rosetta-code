@@ -5,20 +5,26 @@
 ! The transform in many cases acts to give frequently repeated input
 ! symbols lower indices which is useful in some compression algorithms.
 ! 
-! Encoding algorithm:
+! Encoding algorithm
+! 
+!     
 ! 
 !         for each symbol of the input sequence:
 !             output the index of the symbol in the symbol table
 !             move that symbol to the front of the symbol table
 ! 
-! Decoding algorithm:
+! Decoding algorithm
+! 
+!     
 ! 
 !         # Using the same starting symbol table
 !         for each index of the input sequence:
 !             output the symbol at that index of the symbol table
 !             move that symbol to the front of the symbol table
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! Encoding the string of character symbols 'broood' using a symbol table
 ! of the lowercase characters a-to-z
@@ -49,14 +55,15 @@
 ! 'orbacdefghijklmnpqstuvwxyz' |- | 1 17 15 0 0 5 | broood |
 ! 'orbacdefghijklmnpqstuvwxyz' |}
 ! 
-! Task:
+! Task
 ! 
-! -   -   Encode and decode the following three strings of characters
-!         using the symbol table of the lowercase characters a-to-z as
-!         above.
-!     -   Show the strings and their encoding here.
-!     -   Add a check to ensure that the decoded string is the same as the
-!         original.
+!     
+! 
+! - - Encode and decode the following three strings of characters using
+!     the symbol table of the lowercase characters a-to-z as above.
+!   - Show the strings and their encoding here.
+!   - Add a check to ensure that the decoded string is the same as the
+!     original.
 ! 
 ! The strings are:
 ! 

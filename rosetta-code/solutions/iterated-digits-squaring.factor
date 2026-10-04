@@ -11,7 +11,10 @@
 !     >>> [iterate(x) for x in xrange(1, 20)]
 !     [1, 89, 89, 89, 89, 89, 1, 89, 89, 1, 89, 89, 1, 89, 89, 89, 89, 89, 1]
 ! 
-! Task:
+! Task
+! 
+!     
+! 
 !     Count how many number chains for integers 1 <= n < 100_000_000 end
 !     with a value 89.
 ! 
@@ -25,12 +28,14 @@
 ! 
 ! For a quick algorithm for this task see the talk page
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Combinations with repetitions
-! -   Digital root
-! -   Digital root/Multiplicative digital root
-! -   Happy numbers
+!     
+! 
+! - Combinations with repetitions
+! - Digital root
+! - Digital root/Multiplicative digital root
+! - Happy numbers
 
 USING: kernel math math.ranges math.text.utils memoize
 prettyprint sequences tools.time ;

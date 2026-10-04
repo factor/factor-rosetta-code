@@ -1,9 +1,13 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement the Kronecker product of two matrices (arbitrary sized)
 ! resulting in a block matrix.
 ! 
-! Test cases:
+! Test cases
+! 
+!     
 ! 
 ! Show results for each of the following two samples:
 ! 
@@ -35,9 +39,11 @@
 ! See implementations and results below in JavaScript and PARI/GP
 ! languages.
 ! 
-! Related task:
+! Related task
 ! 
-! -    Kronecker product based fractals.
+!     
+! 
+! -  Kronecker product based fractals.
 
 USING: kernel math.matrices.extras prettyprint ;
 

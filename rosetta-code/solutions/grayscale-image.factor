@@ -1,7 +1,9 @@
 ! Many image processing algorithms are defined for grayscale (or else
 ! monochromatic) images.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Extend the data storage type defined on this page to support grayscale
 ! images.

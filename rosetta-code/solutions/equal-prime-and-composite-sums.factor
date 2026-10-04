@@ -17,9 +17,9 @@
 ! 
 ! Task
 ! 
-! -   Find and display the indices (n, m) and value of at least the first
-!     6 terms of the sequence of numbers that are both the sum of the
-!     first n primes and the first m composites.
+! - Find and display the indices (n, m) and value of at least the first 6
+!   terms of the sequence of numbers that are both the sum of the first n
+!   primes and the first m composites.
 ! 
 ! See also
 ! 

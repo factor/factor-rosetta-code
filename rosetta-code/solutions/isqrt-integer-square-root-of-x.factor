@@ -14,9 +14,9 @@
 ! An alternative method for finding the Isqrt of a number is to calculate:
 ! floor( sqrt(X) )
 ! 
-! -   -   where sqrt is the square root function for non─negative real
-!         numbers, and
-!     -   where floor is the floor function for real numbers.
+! - - where sqrt is the square root function for non─negative real
+!     numbers, and
+!   - where floor is the floor function for real numbers.
 ! 
 ! If the hardware supports the computation of (real) square roots, the
 ! above method might be a faster method for small numbers that don't have
@@ -25,7 +25,9 @@
 ! However, floating point arithmetic is limited in the number of (binary
 ! or decimal) digits that it can support.
 ! 
-! Pseudo─code using quadratic residue:
+! Pseudo─code using quadratic residue
+! 
+!     
 ! 
 ! For this task, the integer square root of a non─negative number will be
 ! computed using a version of quadratic residue, which has the advantage
@@ -83,15 +85,17 @@
 ! Isqrt( 9)  is   3               Isqrt(69)  is  8                Isqrt(144)  is  12
 ! Isqrt(10)  is   3               Isqrt(70)  is  8                Isqrt(145)  is  12
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Compute and show all output here (on this page) for:
 ! 
-! -   -   the Isqrt of the integers from 0 ───► 65 (inclusive), shown in a
-!         horizontal format.
-!     -   the Isqrt of the odd powers from 7¹ ───► 773 (inclusive), shown
-!         in a vertical format.
-!     -   use commas in the displaying of larger numbers.
+! - - the Isqrt of the integers from 0 ───► 65 (inclusive), shown in a
+!     horizontal format.
+!   - the Isqrt of the odd powers from 7¹ ───► 773 (inclusive), shown in a
+!     vertical format.
+!   - use commas in the displaying of larger numbers.
 ! 
 ! You can show more numbers for the 2^(nd) requirement if the displays
 ! fits on one screen on Rosetta Code.
@@ -99,11 +103,13 @@
 ! If your computer programming language only supports smaller integers,
 ! show what you can.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   sequence of non-squares
-!     -   integer roots
-!     -   square root by hand
+!     
+! 
+! - - sequence of non-squares
+!   - integer roots
+!   - square root by hand
 
 USING: formatting io kernel locals math math.functions
 math.ranges prettyprint sequences tools.memory.private ;

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a rot-13 function (or procedure, class, subroutine, or other
 ! "callable" object as appropriate to your programming environment).
@@ -36,11 +38,13 @@
 ! preserve case, and pass all non-alphabetic characters in the input
 ! stream through without alteration.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Caesar cipher
-! -   Substitution Cipher
-! -   Vigenère Cipher/Cryptanalysis
+!     
+! 
+! - Caesar cipher
+! - Substitution Cipher
+! - Vigenère Cipher/Cryptanalysis
 ! 
 ! Category:String_manipulation
 

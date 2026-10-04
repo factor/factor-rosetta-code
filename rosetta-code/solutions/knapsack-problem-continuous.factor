@@ -22,19 +22,25 @@
 ! style="background-color: rgb(255, 204, 255);" | Knapsack || <=15 kg || ?
 ! |}
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show which items the thief carries in his knapsack so that their total
 ! weight does not exceed 15 kg, and their total value is maximized.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Knapsack problem/Bounded
-! -   Knapsack problem/Unbounded
-! -   Knapsack problem/0-1
+!     
 ! 
-! See also:
+! - Knapsack problem/Bounded
+! - Knapsack problem/Unbounded
+! - Knapsack problem/0-1
 ! 
-! -   Wikipedia article: continuous knapsack.
+! See also
+! 
+!     
+! 
+! - Wikipedia article: continuous knapsack.
 
 

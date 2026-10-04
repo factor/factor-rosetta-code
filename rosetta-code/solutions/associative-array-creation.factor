@@ -1,12 +1,14 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! The goal is to create an associative array (also known as a dictionary,
 ! map, or hash).
 ! 
 ! Related tasks:
 ! 
-! -   Associative arrays/Iteration
-! -   Hash from two arrays
+! - Associative arrays/Iteration
+! - Hash from two arrays
 ! 
 ! Category:Data Structures
 

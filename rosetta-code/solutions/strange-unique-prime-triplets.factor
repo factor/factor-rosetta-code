@@ -1,12 +1,14 @@
 ! Primes n, m, and p are strange unique primes if n, m, and p are unique
 ! and their sum n+m+p is also prime. Assume n < m < p.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Find all triplets of strange unique primes in which n, m, and p
-!         are all less than 30.
-!     -   (stretch goal) Show the count (only) of all the triplets of
-!         strange unique primes in which n,m,andp are all less than 1,000.
+!     
+! 
+! - - Find all triplets of strange unique primes in which n, m, and p are
+!     all less than 30.
+!   - (stretch goal) Show the count (only) of all the triplets of strange
+!     unique primes in which n,m,andp are all less than 1,000.
 
 USING: formatting io kernel math math.combinatorics math.primes
 sequences tools.memory.private ;

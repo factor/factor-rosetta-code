@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a variable with a user-defined name.
 ! 
@@ -7,6 +9,6 @@
 ! 
 ! See also
 ! 
-! -   Eval in environment is a similar task.
+! - Eval in environment is a similar task.
 
 42 readln set

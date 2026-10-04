@@ -1,19 +1,21 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Display a series of vertical color bars across the width of the display.
 ! 
 ! The color bars should either use:
 ! 
-! -   -   the system palette, or
-!     -   the sequence of colors:
-!         -   -   black
-!             -   red
-!             -   green
-!             -   blue
-!             -   magenta
-!             -   cyan
-!             -   yellow
-!             -   white
+! - - the system palette, or
+!   - the sequence of colors:
+!     - - black
+!       - red
+!       - green
+!       - blue
+!       - magenta
+!       - cyan
+!       - yellow
+!       - white
 
 USING: accessors colors.constants kernel math sequences ui
 ui.gadgets ui.gadgets.tracks ui.pens.solid ;

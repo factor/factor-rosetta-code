@@ -11,10 +11,10 @@
 ! with the standard Bitcoin alphabet — which uses an alphabet of the
 ! characters 0 .. 9, A ..Z, a .. z, but without the four characters:
 ! 
-! -   -   O the uppercase letter "oh",
-!     -   I the uppercase letter "eye",
-!     -   l the lowercase letter "ell", and
-!     -   0 the digit zero.
+! - - O the uppercase letter "oh",
+!   - I the uppercase letter "eye",
+!   - l the lowercase letter "ell", and
+!   - 0 the digit zero.
 ! 
 ! The reference algorithm is at the Bitcoin's Base58Check page.
 ! 

@@ -3,7 +3,9 @@
 ! 
 ! or, equivalently, the sum of proper divisors (or aliquot sum) s(n) > n.
 ! 
-! E.G.:
+! E.G.
+! 
+!     
 ! 
 ! 12 is abundant, it has the proper divisors 1, 2, 3, 4 & 6 which sum to
 ! 16 ( > 12 or n);
@@ -18,20 +20,22 @@
 ! 
 ! Task
 ! 
-! -   Find and display here: at least the first 25 abundant odd numbers
-!     and either their proper divisor sum or sigma sum.
-! -   Find and display here: the one thousandth abundant odd number and
-!     either its proper divisor sum or sigma sum.
-! -   Find and display here: the first abundant odd number greater than
-!     one billion (10⁹) and either its proper divisor sum or sigma sum.
+! - Find and display here: at least the first 25 abundant odd numbers and
+!   either their proper divisor sum or sigma sum.
+! - Find and display here: the one thousandth abundant odd number and
+!   either its proper divisor sum or sigma sum.
+! - Find and display here: the first abundant odd number greater than one
+!   billion (10⁹) and either its proper divisor sum or sigma sum.
 ! 
-! References:
+! References
 ! 
-! -   -   OEIS:A005231: Odd abundant numbers (odd numbers n whose sum of
-!         divisors exceeds 2n)
-!     -   American Journal of Mathematics, Vol. 35, No. 4 (Oct., 1913),
-!         pp. 413-422 - Finiteness of the Odd Perfect and Primitive
-!         Abundant Numbers with n Distinct Prime Factors (LE Dickson)
+!     
+! 
+! - - OEIS:A005231: Odd abundant numbers (odd numbers n whose sum of
+!     divisors exceeds 2n)
+!   - American Journal of Mathematics, Vol. 35, No. 4 (Oct., 1913), pp.
+!     413-422 - Finiteness of the Odd Perfect and Primitive Abundant
+!     Numbers with n Distinct Prime Factors (LE Dickson)
 
 USING: arrays formatting io kernel lists lists.lazy math
 math.primes.factors sequences tools.memory.private ;

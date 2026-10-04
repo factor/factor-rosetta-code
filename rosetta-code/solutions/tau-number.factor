@@ -9,7 +9,7 @@
 ! 
 ! Related task
 ! 
-! -   Tau function
+! - Tau function
 ! 
 ! Category:Mathematics
 

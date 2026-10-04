@@ -1,7 +1,9 @@
 ! A sparkline is a graph of successive values laid out horizontally where
 ! the height of the line is proportional to the values in succession.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Use the following series of Unicode characters to create a program that
 ! takes a series of numbers separated by one or more whitespace or comma
@@ -20,14 +22,16 @@
 ! 
 !     (note the mix of separators in this second case)!
 ! 
-! Notes:
+! Notes
 ! 
-! -   A space is not part of the generated sparkline.
-! -   The sparkline may be accompanied by simple statistics of the data
-!     such as its range.
-! -   A suggestion emerging in later discussion (see Discussion page) is
-!     that the bounds between bins should ideally be set to yield the
-!     following results for two particular edge cases:
+!     
+! 
+! - A space is not part of the generated sparkline.
+! - The sparkline may be accompanied by simple statistics of the data such
+!   as its range.
+! - A suggestion emerging in later discussion (see Discussion page) is
+!   that the bounds between bins should ideally be set to yield the
+!   following results for two particular edge cases:
 ! 
 !     
 ! 
@@ -43,8 +47,8 @@
 ! 
 !         It may be helpful to include these cases in output tests.
 ! 
-! -   You may find that the unicode sparklines on this page are rendered
-!     less noisily by Google Chrome than by Firefox or Safari.
+! - You may find that the unicode sparklines on this page are rendered
+!   less noisily by Google Chrome than by Firefox or Safari.
 
 USING: formatting kernel math math.order math.parser
 math.statistics sequences splitting ;

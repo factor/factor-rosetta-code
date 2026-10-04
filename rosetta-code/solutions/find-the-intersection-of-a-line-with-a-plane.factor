@@ -1,7 +1,9 @@
 ! Finding the intersection of an infinite ray with a plane in 3D is an
 ! important topic in collision detection.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find the point of intersection for the infinite ray with direction
 ! (0,-1,-1) passing through position (0,0,10) with the infinite plane with

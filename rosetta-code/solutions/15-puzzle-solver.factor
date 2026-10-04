@@ -12,7 +12,6 @@
 !      1  2  3  4
 !      5  6  7  8
 !      9 10 11 12
-!     13 14 15  0
 ! 
 ! The output must show the moves' directions, like so: left, left, left,
 ! down, right... and so on.
@@ -35,9 +34,11 @@
 !       3  7  2  5
 !       4  8  6  1
 ! 
-! Related Task:
+! Related Task
 ! 
-! -   15 puzzle game
-! -   A* search algorithm
+!     
+! 
+! - 15 puzzle game
+! - A* search algorithm
 
 

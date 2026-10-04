@@ -1,7 +1,9 @@
 ! Even today, with proportional fonts and complex layouts, there are still
 ! cases where you need to wrap text at a specified column.
 ! 
-! Basic task:
+! Basic task
+! 
+!     
 ! 
 ! The basic task is to wrap a paragraph of text in a simple way in your
 ! language.
@@ -13,7 +15,9 @@
 ! Show your routine working on a sample of text at two different wrap
 ! columns.
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Wrap text using a more sophisticated algorithm such as the Knuth and
 ! Plass TeX algorithm. If your language provides this, you get easy extra

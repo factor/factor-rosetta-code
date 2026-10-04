@@ -4,12 +4,12 @@
 ! 
 ! hexdump's canonical format displays, on each line:
 ! 
-! -   a byte offset in hexadecimal,
-! -   up to 16 bytes in hexadecimal, separated by spaces, with an extra
-!     space between the 8th and 9th byte,
-! -   the same 16 bytes interpreted as ASCII characters, with non-printing
-!     and non-ascii characters replaced with a dot (.), surrounded by
-!     pipes (|).
+! - a byte offset in hexadecimal,
+! - up to 16 bytes in hexadecimal, separated by spaces, with an extra
+!   space between the 8th and 9th byte,
+! - the same 16 bytes interpreted as ASCII characters, with non-printing
+!   and non-ascii characters replaced with a dot (.), surrounded by pipes
+!   (|).
 ! 
 ! The last line of output shows a final byte count, also in hexadecimal.
 ! 
@@ -30,9 +30,9 @@
 ! 
 ! Implement a hexdump-like program that:
 ! 
-! -   outputs in the canonical format,
-! -   takes an optional offset in bytes from which to start,
-! -   takes an optional length in bytes after which it will stop.
+! - outputs in the canonical format,
+! - takes an optional offset in bytes from which to start,
+! - takes an optional length in bytes after which it will stop.
 ! 
 ! Demonstrate your implementation by showing the canonical hex dump of the
 ! example above, plus any other examples you find useful.

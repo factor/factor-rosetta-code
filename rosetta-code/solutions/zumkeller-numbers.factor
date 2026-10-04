@@ -26,29 +26,34 @@
 ! restriction that the abundance (A(n) = sigma(n) - 2n), must be even:
 ! A(n) mod 2 == 0
 ! 
-! Task:
+! Task
 ! 
-! -   -   Write a routine (function, procedure, whatever) to find
-!         Zumkeller numbers.
-!     -   Use the routine to find and display here, on this page, the
-!         first 220 Zumkeller numbers.
-!     -   Use the routine to find and display here, on this page, the
-!         first 40 odd Zumkeller numbers.
-!     -   Optional, stretch goal: Use the routine to find and display
-!         here, on this page, the first 40 odd Zumkeller numbers that
-!         don't end with 5.
+!     
 ! 
-! See Also:
+! - - Write a routine (function, procedure, whatever) to find Zumkeller
+!     numbers.
+!   - Use the routine to find and display here, on this page, the first
+!     220 Zumkeller numbers.
+!   - Use the routine to find and display here, on this page, the first 40
+!     odd Zumkeller numbers.
+!   - Optional, stretch goal: Use the routine to find and display here, on
+!     this page, the first 40 odd Zumkeller numbers that don't end with 5.
 ! 
-! -   -   OEIS:A083207 - Zumkeller numbers to get an impression of
-!         different partitions OEIS:A083206 Zumkeller partitions
-!     -   OEIS:A174865 - Odd Zumkeller numbers
+! See Also
 ! 
-! Related Tasks:
+!     
 ! 
-! -   -   Abundant odd numbers
-!     -   Abundant, deficient and perfect number classifications
-!     -   Proper divisors , Factors of an integer
+! - - OEIS:A083207 - Zumkeller numbers to get an impression of different
+!     partitions OEIS:A083206 Zumkeller partitions
+!   - OEIS:A174865 - Odd Zumkeller numbers
+! 
+! Related Tasks
+! 
+!     
+! 
+! - - Abundant odd numbers
+!   - Abundant, deficient and perfect number classifications
+!   - Proper divisors , Factors of an integer
 
 USING: combinators grouping io kernel lists lists.lazy math
 math.primes.factors memoize prettyprint sequences ;

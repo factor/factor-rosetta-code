@@ -28,7 +28,9 @@
 !  (P C)
 !  (Z M)
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function that takes a string (word) and determines whether the
 ! word can be spelled with the given collection of blocks.
@@ -42,7 +44,9 @@
 ! ::# Show the output on this page for the following 7 words in the
 ! following example
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 !         >>> can_make_word("A")
 !         True

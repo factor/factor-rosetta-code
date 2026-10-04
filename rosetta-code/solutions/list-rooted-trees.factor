@@ -35,7 +35,9 @@
 ! forms a subtree. The outermost bag is the tree root. Number of
 ! configurations for given n is given by OEIS A81.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that, when given n, enumerates all ways of nesting n
 ! bags. You can use the parentheses notation above, or any tree

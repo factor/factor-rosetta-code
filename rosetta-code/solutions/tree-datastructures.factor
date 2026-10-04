@@ -28,7 +28,9 @@
 !     2 code
 !     ...
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Create/use a nest datastructure format and textual representation
 !     for arbitrary trees.
@@ -43,13 +45,15 @@
 ! 6.  transform the indent format to final nest format and show it.
 ! 7.  Compare initial and final nest formats which should be the same.
 ! 
-! Note:
+! Note
 ! 
-! -   It's all about showing aspects of the contrasting datastructures as
-!     they hold the tree.
-! -   Comparing nested datastructures is secondary - saving formatted
-!     output as a string then a string compare would suffice for this
-!     task, if its easier.
+!     
+! 
+! - It's all about showing aspects of the contrasting datastructures as
+!   they hold the tree.
+! - Comparing nested datastructures is secondary - saving formatted output
+!   as a string then a string compare would suffice for this task, if its
+!   easier.
 ! 
 ! Show all output on this page.
 

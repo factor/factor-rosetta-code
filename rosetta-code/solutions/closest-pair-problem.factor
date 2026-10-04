@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Provide a function to find the closest two points among a set of given
 ! points in two dimensions, i.e. to solve the Closest pair of points
@@ -60,13 +62,15 @@
 !   return closest, closestPair
 ! endif
 ! 
-! References and further readings:
+! References and further readings
 ! 
-! -   Closest pair of points problem
-! -   Closest Pair (McGill)
-! -   Closest Pair (UCSB)
-! -   Closest pair (WUStL)
-! -   Closest pair (IUPUI)
+!     
+! 
+! - Closest pair of points problem
+! - Closest Pair (McGill)
+! - Closest Pair (UCSB)
+! - Closest pair (WUStL)
+! - Closest pair (IUPUI)
 ! 
 ! Category:Geometry
 

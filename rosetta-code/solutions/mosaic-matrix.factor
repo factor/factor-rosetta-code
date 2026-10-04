@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Draw a 'mosaic' matrix which, for the purposes of this task, is a square
 ! matrix which has 1's in alternate cells (both horizontally and
@@ -13,8 +15,8 @@
 ! 
 ! See also
 ! 
-! -   Four sides of square
-! -   Matrix with two diagonals
+! - Four sides of square
+! - Matrix with two diagonals
 
 USING: accessors colors kernel math math.matrices ui
 ui.gadgets.grid-lines ui.gadgets.grids ui.gadgets.labels

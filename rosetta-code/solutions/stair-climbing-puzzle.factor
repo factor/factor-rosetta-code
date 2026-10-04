@@ -25,12 +25,12 @@
 ! 
 ! Inductive proof that step_up() steps up one step, if it terminates:
 ! 
-! -   Base case (if the step() call returns true): it stepped up one step.
-!     QED
-! -   Inductive case (if the step() call returns false): Assume that
-!     recursive calls to step_up() step up one step. It stepped down one
-!     step (because step() returned false), but now we step up two steps
-!     using two step_up() calls. QED
+! - Base case (if the step() call returns true): it stepped up one step.
+!   QED
+! - Inductive case (if the step() call returns false): Assume that
+!   recursive calls to step_up() step up one step. It stepped down one
+!   step (because step() returned false), but now we step up two steps
+!   using two step_up() calls. QED
 ! 
 ! The second (tail) recursion above can be turned into an iteration, as
 ! follows:

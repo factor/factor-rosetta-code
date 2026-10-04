@@ -2,13 +2,17 @@
 ! binary representation, a balanced ternary integer is in base 3, and each
 ! digit can have the values 1, 0, or −1.
 ! 
-! Examples:
+! Examples
+! 
+!     
 ! 
 ! Decimal 11 = 3² + 3¹ − 3⁰, thus it can be written as "++−"
 ! 
 ! Decimal 6 = 3² − 3¹ + 0 × 3⁰, thus it can be written as "+−0"
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement balanced ternary representation of integers with the
 ! following:
@@ -30,9 +34,9 @@
 ! Test case With balanced ternaries a from string "+−0++0+", b from native
 ! integer −436, c "+−++−":
 ! 
-! -   write out a, b and c in decimal notation;
-! -   calculate a × (b − c), write out the result in both ternary and
-!     decimal notations.
+! - write out a, b and c in decimal notation;
+! - calculate a × (b − c), write out the result in both ternary and
+!   decimal notations.
 ! 
 ! Note: The pages generalised floating point addition and generalised
 ! floating point multiplication have code implementing arbitrary precision

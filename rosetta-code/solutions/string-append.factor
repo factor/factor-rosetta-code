@@ -2,7 +2,9 @@
 ! languages also provide a convenient way to append in-place to an
 ! existing string variable without referring to the variable twice.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a string variable equal to any text value.
 ! 

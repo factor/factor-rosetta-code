@@ -1,18 +1,20 @@
 ! Given a zero or positive integer, the task is to generate the next
 ! largest integer with the same digits^(*1).
 ! 
-! -   Numbers will not be padded to the left with zeroes.
-! -   Use all given digits, with their given multiplicity. (If a digit
-!     appears twice in the input number, it should appear twice in the
-!     result).
-! -   If there is no next highest integer return zero.
+! - Numbers will not be padded to the left with zeroes.
+! - Use all given digits, with their given multiplicity. (If a digit
+!   appears twice in the input number, it should appear twice in the
+!   result).
+! - If there is no next highest integer return zero.
 ! 
 !     ^(*1) Alternatively phrased as: "Find the smallest integer larger
 !     than the (positive or zero) integer N
 ! 
 !         which can be obtained by reordering the (base ten) digits of N".
 ! 
-! Algorithm 1:
+! Algorithm 1
+! 
+!     
 ! 
 ! 1.  Generate all the permutations of the digits and sort into numeric
 !     order.
@@ -22,7 +24,9 @@
 ! The above could prove slow and memory hungry for numbers with large
 ! numbers of digits, but should be easy to reason about its correctness.
 ! 
-! Algorithm 2:
+! Algorithm 2
+! 
+!     
 ! 
 ! 1.  Scan right-to-left through the digits of the number until you find a
 !     digit with a larger digit somewhere to the right of it.
@@ -51,23 +55,27 @@
 ! results from both algorithms for random numbers generated from a range
 ! that the first algorithm can handle.
 ! 
-! Task requirements:
+! Task requirements
+! 
+!     
 ! 
 ! Calculate the next highest integer from the digits of the following
 ! numbers:
 ! 
-! -   -   0
-!     -   9
-!     -   12
-!     -   21
-!     -   12453
-!     -   738440
-!     -   45072010
-!     -   95322020
+! - - 0
+!   - 9
+!   - 12
+!   - 21
+!   - 12453
+!   - 738440
+!   - 45072010
+!   - 95322020
 ! 
-! Optional stretch goal:
+! Optional stretch goal
 ! 
-! -   -   9589776899767587796600
+!     
+! 
+! - - 9589776899767587796600
 
 USING: formatting grouping kernel math math.combinatorics
 math.parser sequences ;

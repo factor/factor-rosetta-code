@@ -5,14 +5,14 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first thirty penta-power prime seeds. (Or as
-!     many as are reasonably supported by your languages math capability
-!     if it is less.)
+! - Find and display the first thirty penta-power prime seeds. (Or as many
+!   as are reasonably supported by your languages math capability if it is
+!   less.)
 ! 
 ! Stretch
 ! 
-! -   Find and display the position and value of first with a value
-!     greater than ten million.
+! - Find and display the position and value of first with a value greater
+!   than ten million.
 ! 
 ! See also
 ! *Task: Quad-power prime seeds

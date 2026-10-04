@@ -3,11 +3,11 @@
 ! 
 ! Task
 ! 
-! -   Find and show here, on this page, the first ten elements of the
-!     sequence.
+! - Find and show here, on this page, the first ten elements of the
+!   sequence.
 ! 
 ! Stretch
 ! 
-! -   Find and show the next ten elements.
+! - Find and show the next ten elements.
 
 

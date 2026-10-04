@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program where the program chooses a number between 1 and 10.
 ! 
@@ -11,12 +13,14 @@
 ! A conditional loop may be used to repeat the guessing until the user is
 ! correct.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Bulls and cows
-! -   Bulls and cows/Player
-! -   Guess the number/With Feedback
-! -   Mastermind
+!     
+! 
+! - Bulls and cows
+! - Bulls and cows/Player
+! - Guess the number/With Feedback
+! - Mastermind
 ! 
 ! Category: Conditional loops Category:Randomness
 

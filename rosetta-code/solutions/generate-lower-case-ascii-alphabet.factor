@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Generate an array, list, lazy sequence, or even an indexable string of
 ! all the lower case ASCII characters, from a to z. If the standard

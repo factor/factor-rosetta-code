@@ -1,4 +1,6 @@
-! Task:a(1) = 1; for n > 1, a(n) = largest proper divisor of n, where n < 101.
+! Task
+!     a(1) = 1; for n > 1, a(n) = largest proper divisor of n, where n <
+!     101.
 
 USING: grouping kernel math math.bitwise math.functions
 math.ranges prettyprint sequences ;

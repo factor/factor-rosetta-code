@@ -27,9 +27,11 @@
 ! The faithless amongst you may compare the results with those generated
 ! by The sieve of Eratosthenes.
 ! 
-! References:
+! References
 ! 
-! -   The article on Wikipedia.
+!     
+! 
+! - The article on Wikipedia.
 ! 
 ! Comment on the Sundaram Sieve
 ! 

@@ -29,20 +29,19 @@
 ! 
 ! Task
 ! 
-! -   Write (a) procedure(s) to identify, or generate Vile and Dopey
-!     numbers.
-! -   Use that procedure to produce and display the first 25 Vile numbers.
-! -   Use that procedure to produce and display the first 25 Dopey
-!     numbers.
-! -   For 2^1 through 2^10, find and display the counts of Vile and Dopey
-!     numbers.
+! - Write (a) procedure(s) to identify, or generate Vile and Dopey
+!   numbers.
+! - Use that procedure to produce and display the first 25 Vile numbers.
+! - Use that procedure to produce and display the first 25 Dopey numbers.
+! - For 2^1 through 2^10, find and display the counts of Vile and Dopey
+!   numbers.
 ! 
 ! See also
 ! 
-! -   OEIS: A003159 - Numbers whose binary representation ends in an even
-!     number of zeros.
-! -   OEIS: A036554 - Numbers whose binary representation ends in an odd
-!     number of zeros.
-! -   Task: Population count Also known as Evil and Odious numbers.
+! - OEIS: A003159 - Numbers whose binary representation ends in an even
+!   number of zeros.
+! - OEIS: A036554 - Numbers whose binary representation ends in an odd
+!   number of zeros.
+! - Task: Population count Also known as Evil and Odious numbers.
 
 

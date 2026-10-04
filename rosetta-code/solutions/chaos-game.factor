@@ -17,6 +17,6 @@
 ! 
 ! See also
 ! 
-! -   The Game of Chaos
+! - The Game of Chaos
 
 

@@ -27,15 +27,16 @@
 ! 
 ! Extra credits are available for other interesting designs.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   A* search algorithm
-! -   Solve a Holy Knight's tour
-! -   Knight's tour
-! -   N-queens problem
-! -   Solve a Hidato puzzle
-! -   Solve a Holy Knight's tour
-! -   Solve a Numbrix puzzle
-! -   Solve the no connection puzzle
+!     
+! 
+! - A* search algorithm
+! - Solve a Holy Knight's tour
+! - Knight's tour
+! - N-queens problem
+! - Solve a Hidato puzzle
+! - Solve a Numbrix puzzle
+! - Solve the no connection puzzle
 
 

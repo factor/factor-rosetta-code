@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that displays twin primes under 10.000.000 whose sum is
 ! a square number.

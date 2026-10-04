@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-! Using unixdict.txt, find all hex words with 4 letters or more.
+! Using Unixdict.txt, find all hex words with 4 letters or more.
 ! 
 ! Convert each such word to its decimal equivalent and compute its base 10
 ! digital root.

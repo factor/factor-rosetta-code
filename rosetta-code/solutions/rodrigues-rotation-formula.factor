@@ -5,7 +5,7 @@
 ! 
 ! Reference
 ! 
-! -   Wikipedia: Rodrigues' rotation formula
+! - Wikipedia: Rodrigues' rotation formula
 
 USING: grouping kernel math math.functions math.matrices
 math.vectors prettyprint sequences sequences.generalizations ;

@@ -6,18 +6,22 @@
 ! very important for outputting data in a format the end user can
 ! understand.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Use your language's built-in BCD functions, OR create your own
 ! conversion function, that converts an addition of hexadecimal numbers to
 ! binary-coded decimal. You should get the following results with these
 ! test cases:
 ! 
-! -   0x19 + 1 = 0x20
-! -   0x30 - 1 = 0x29
-! -   0x99 + 1 = 0x100
+! - 0x19 + 1 = 0x20
+! - 0x30 - 1 = 0x29
+! - 0x99 + 1 = 0x100
 ! 
-! Bonus Points:
+! Bonus Points
+! 
+!     
 ! 
 ! Demonstrate the above test cases in both "packed BCD" (two digits per
 ! byte) and "unpacked BCD" (one digit per byte).

@@ -38,7 +38,7 @@
 ! 
 ! References
 ! 
-! -   Wikipedia article : Undulating number
-! -   OEIS sequence A046075: Non-trivial undulants
+! - Wikipedia article : Undulating number
+! - OEIS sequence A046075: Non-trivial undulants
 
 

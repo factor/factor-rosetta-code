@@ -20,9 +20,9 @@
 ! 
 ! Related tasks
 ! 
-! -   Day of the week
-! -   Five weekends
-! -   Last Friday of each month
+! - Day of the week
+! - Five weekends
+! - Last Friday of each month
 
 USING: calendar calendar.format command-line io kernel math math.parser
 sequences ;

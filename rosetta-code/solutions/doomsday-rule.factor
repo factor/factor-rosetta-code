@@ -42,21 +42,21 @@
 ! 
 ! Given the following dates:
 ! 
-! -   1800-01-06 (January 6, 1800)
-! -   1875-03-29 (March 29, 1875)
-! -   1915-12-07 (December 7, 1915)
-! -   1970-12-23 (December 23, 1970)
-! -   2043-05-14 (May 14, 2043)
-! -   2077-02-12 (February 12, 2077)
-! -   2101-04-02 (April 2, 2101)
+! - 1800-01-06 (January 6, 1800)
+! - 1875-03-29 (March 29, 1875)
+! - 1915-12-07 (December 7, 1915)
+! - 1970-12-23 (December 23, 1970)
+! - 2043-05-14 (May 14, 2043)
+! - 2077-02-12 (February 12, 2077)
+! - 2101-04-02 (April 2, 2101)
 ! 
 ! Use Conway's Doomsday rule to calculate the day of the week for each
 ! date.
 ! 
 ! see also
 ! 
-! -   Doomsday rule
-! -   Tomorrow is the Day After Doomsday (p.28)
+! - Doomsday rule
+! - Tomorrow is the Day After Doomsday (p.28)
 ! 
 ! Category:Date and time
 

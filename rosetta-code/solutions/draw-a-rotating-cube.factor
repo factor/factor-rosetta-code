@@ -9,7 +9,7 @@
 ! 
 ! Related tasks
 ! 
-! -   Draw a cuboid
-! -   write language name in 3D ASCII
+! - Draw a cuboid
+! - write language name in 3D ASCII
 
 

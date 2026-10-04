@@ -19,7 +19,9 @@
 ! 
 !          4 + 9 + 36 = 49
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! For positive integers up 2,200 (inclusive), for all values of a, b, c,
 ! and d,
@@ -28,13 +30,18 @@
 ! 
 ! Show the values of d on one line of output (optionally with a title).
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Euler's sum of powers conjecture.
-! -   Pythagorean triples.
+!     
 ! 
-! Reference:
+! - Euler's sum of powers conjecture.
+! - Pythagorean triples.
 ! 
-! -   -   the Wikipedia article: Pythagorean quadruple.
+! Reference
+! 
+!     
+! 
+! - - the Wikipedia article: Pythagorean quadruple.
+!   - the Wikipedia article: Legendre's three-square theorem.
 
 

@@ -3,9 +3,9 @@
 ! 
 ! The solution should demonstrate how to obtain the following results:
 ! 
-! -   String with first character removed
-! -   String with last character removed
-! -   String with both the first and last characters removed
+! - String with first character removed
+! - String with last character removed
+! - String with both the first and last characters removed
 ! 
 ! If the program uses UTF-8 or UTF-16, it must work on any valid Unicode
 ! code point, whether in the Basic Multilingual Plane or above it.

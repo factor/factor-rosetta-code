@@ -3,7 +3,9 @@
 ! A Galton device Sir Francis Galton's device is also known as a bean
 ! machine, a Galton Board, or a quincunx.
 ! 
-! Description of operation:
+! Description of operation
+! 
+!     
 ! 
 ! In a Galton box, there are a set of pins arranged in a triangular
 ! pattern. A number of balls are dropped so that they fall in line with
@@ -17,21 +19,25 @@
 ! curve. Overlaying Pascal's triangle onto the pins shows the number of
 ! different paths that can be taken to get to each bin.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Generate an animated simulation of a Galton device.
 ! 
-! Task requirements:
+! Task requirements
 ! 
-! -   -   The box should have at least 5 pins on the bottom row.
-!     -   A solution can use graphics or ASCII animation.
-!     -   Provide a sample of the output/display such as a screenshot.
-!     -   There can be one or more balls in flight at the same time.
-!     -   If multiple balls are in flight, ensure they don't interfere
-!         with each other.
-!     -   A solution should allow users to specify the number of balls, or
-!         it should run until full or a preset limit.
-!     -   Optionally, display the number of balls.
+!     
+! 
+! - - The box should have at least 5 pins on the bottom row.
+!   - A solution can use graphics or ASCII animation.
+!   - Provide a sample of the output/display such as a screenshot.
+!   - There can be one or more balls in flight at the same time.
+!   - If multiple balls are in flight, ensure they don't interfere with
+!     each other.
+!   - A solution should allow users to specify the number of balls, or it
+!     should run until full or a preset limit.
+!   - Optionally, display the number of balls.
 ! 
 ! Category:Randomness
 

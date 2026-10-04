@@ -10,7 +10,9 @@
 !     returns successive members of a collection, in order).
 ! 3.  The syntax has parts corresponding to that of set-builder notation.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a list comprehension that builds the list of all Pythagorean
 ! triples with elements between 1 and n.

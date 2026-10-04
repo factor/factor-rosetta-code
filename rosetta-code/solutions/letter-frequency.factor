@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Open a text file and count the occurrences of each letter.
 ! 

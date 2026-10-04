@@ -1,7 +1,9 @@
 ! An alternade is a word whose alternating letters themselves form two
 ! words.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! The word lounge contains the word lug (lounge) and the word one
 ! (lounge).
@@ -12,14 +14,18 @@
 ! for example, the word board is an alternade made up of the words bad
 ! (board) and or (board).
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Print out every alternade in unixdict.txt whose length is 6 or greater,
 ! also showing both the words that make up the alternade.
 ! 
-! See also:
+! See also
 ! 
-! -   -   Wikipedia entry: Alternade
+!     
+! 
+! - - Wikipedia entry: Alternade
 
 USING: formatting io.encodings.ascii io.files kernel literals
 math sequences sequences.extras sets strings ;

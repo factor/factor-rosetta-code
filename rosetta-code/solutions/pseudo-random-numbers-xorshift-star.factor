@@ -1,4 +1,6 @@
-! Some definitions to help in the explanation:
+! Some definitions to help in the explanation
+! 
+!     
 ! 
 !     Floor operation
 ! 
@@ -42,7 +44,9 @@
 ! 
 !             E.g Binary 00110101 ^ Binary 00110011 == Binary 00000110
 ! 
-! [https://en.wikipedia.org/wiki/Xorshift#xorshift*| Xorshift_star] Generator (pseudo-code):
+! [https://en.wikipedia.org/wiki/Xorshift#xorshift*| Xorshift_star] Generator (pseudo-code)
+! 
+!     
 ! 
 !    /* Let u64 denote an unsigned 64 bit integer type. */
 !    /* Let u32 denote an unsigned 32 bit integer type. */
@@ -82,18 +86,20 @@
 !    print(random_gen.next_int())   /* 1993361440 */
 !    print(random_gen.next_int())   /* 3809424708 */
 ! 
-! Task:
+! Task
 ! 
-! -   Generate a class/set of functions that generates pseudo-random
+!     
+! 
+! - Generate a class/set of functions that generates pseudo-random
 ! 
 ! numbers as shown above.
 ! 
-! -   Show that the first five integers genrated with the seed 1234567
+! - Show that the first five integers genrated with the seed 1234567
 ! 
 ! are as shown above
 ! 
-! -   Show that for an initial seed of 987654321, the counts of 100_000
-!     repetitions of
+! - Show that for an initial seed of 987654321, the counts of 100_000
+!   repetitions of
 ! 
 !    floor(random_gen.next_float() * 5)
 ! 
@@ -101,7 +107,7 @@
 ! 
 !    0: 20103, 1: 19922, 2: 19937, 3: 20031, 4: 20007
 ! 
-! -   Show your output here, on this page.
+! - Show your output here, on this page.
 
 USING: accessors kernel literals math math.statistics
 prettyprint sequences ;

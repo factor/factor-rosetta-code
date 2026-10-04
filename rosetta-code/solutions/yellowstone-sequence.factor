@@ -14,7 +14,9 @@
 ! from what its authors felt was a spiking, geyser like appearance of a
 ! plot of the sequence.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! a(4) is 4 because 4 is the smallest number following 1, 2, 3 in the
 ! sequence that is relatively prime to the entry before it (3), and is not
@@ -27,16 +29,20 @@
 !     Demonstrate how to plot, with x = n and y coordinate a(n), the first
 !     100 Yellowstone numbers.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Greatest common divisor.
-!     -   Plot coordinate pairs.
-!     -   EKG sequence convergence
+!     
 ! 
-! See also:
+! - - Greatest common divisor.
+!   - Plot coordinate pairs.
+!   - EKG sequence convergence
 ! 
-! -   -   The OEIS entry: A098550 The Yellowstone permutation.
-!     -   Applegate et al, 2015: The Yellowstone Permutation 1.
+! See also
+! 
+!     
+! 
+! - - The OEIS entry: A098550 The Yellowstone permutation.
+!   - Applegate et al, 2015: The Yellowstone Permutation 1.
 ! 
 ! Category:Prime Numbers
 

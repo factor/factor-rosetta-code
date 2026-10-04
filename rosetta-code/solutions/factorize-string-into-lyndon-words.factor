@@ -16,16 +16,16 @@
 ! 
 ! Some basic properties:
 ! 
-! -   The only Lyndon word that ends with 0 is 0.
-! -   Proof. If s0 is a Lyndon word, and s is not empty, then s0 < 0s. If
-!     s contains 1 somewhere, then s0 > 0s. Therefore s has only 0. But
-!     then s0 = 0s, contradiction.
-! -   The lexicographic order is a total order on the Lyndon words.
-! -   Proof. For, the only way for two different strings s, s' to have the
-!     same lexicographic ordering is for one of them to pad to the other.
-!     We can assume that s00...0 = s'. If that is so, then s00...0 is a
-!     Lyndon word that ends with 0, so it is just 0, and so s is a Lyndon
-!     word that is also empty, contradiction.
+! - The only Lyndon word that ends with 0 is 0.
+! - Proof. If s0 is a Lyndon word, and s is not empty, then s0 < 0s. If s
+!   contains 1 somewhere, then s0 > 0s. Therefore s has only 0. But then
+!   s0 = 0s, contradiction.
+! - The lexicographic order is a total order on the Lyndon words.
+! - Proof. For, the only way for two different strings s, s' to have the
+!   same lexicographic ordering is for one of them to pad to the other. We
+!   can assume that s00...0 = s'. If that is so, then s00...0 is a Lyndon
+!   word that ends with 0, so it is just 0, and so s is a Lyndon word that
+!   is also empty, contradiction.
 ! 
 ! The Chen–Fox–Lyndon theorem states that any string is uniquely
 ! factorizable into a sequence of Lyndon words non-decreasing in

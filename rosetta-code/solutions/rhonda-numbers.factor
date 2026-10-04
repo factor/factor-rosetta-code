@@ -19,13 +19,13 @@
 ! 
 ! Task
 ! 
-! -   For the non-prime bases b from 2 through 16 , find and display here,
-!     on this page, at least the first 10 Rhonda numbers to base b.
-!     Display the found numbers at least in base 10.
+! - For the non-prime bases b from 2 through 16 , find and display here,
+!   on this page, at least the first 10 Rhonda numbers to base b. Display
+!   the found numbers at least in base 10.
 ! 
 ! Stretch
 ! 
-! -   Extend out to base 36.
+! - Extend out to base 36.
 ! 
 ! See also
 ! 

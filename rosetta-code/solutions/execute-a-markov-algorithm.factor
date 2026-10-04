@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create an interpreter for a Markov Algorithm.
 ! 
@@ -20,7 +22,9 @@
 ! 
 ! Use the following tests on entries:
 ! 
-! Ruleset 1:
+! Ruleset 1
+! 
+!     
 ! 
 !     # This rules file is extracted from Wikipedia:
 !     # http://en.wikipedia.org/wiki/Markov_Algorithm
@@ -39,7 +43,9 @@
 ! 
 !     I bought a bag of apples from my brother.
 ! 
-! Ruleset 2:
+! Ruleset 2
+! 
+!     
 ! 
 ! A test of the terminating rule
 ! 
@@ -59,7 +65,9 @@
 ! 
 !     I bought a bag of apples from T shop.
 ! 
-! Ruleset 3:
+! Ruleset 3
+! 
+!     
 ! 
 ! This tests for correct substitution order and may trap simple regexp
 ! based replacement routines if special regexp characters are not escaped.
@@ -84,7 +92,9 @@
 ! 
 !     I bought a bag of apples with my money from T shop.
 ! 
-! Ruleset 4:
+! Ruleset 4
+! 
+!     
 ! 
 ! This tests for correct order of scanning of rules, and may trap
 ! replacement routines that scan in the wrong order. It implements a
@@ -128,7 +138,9 @@
 ! 
 !     11111111111111111111
 ! 
-! Ruleset 5:
+! Ruleset 5
+! 
+!     
 ! 
 ! A simple Turing machine, implementing a three-state busy beaver.
 ! 

@@ -26,13 +26,13 @@
 ! 
 ! Task
 ! 
-! -   Generate the first 15 rows of Bernoulli's triangle using whatever
-!     method is most convenient in your language.
+! - Generate the first 15 rows of Bernoulli's triangle using whatever
+!   method is most convenient in your language.
 ! 
 ! See also
 ! 
-! -   Wikipedia: Bernoulli's triangle
-! -   Related task: Pascal's_triangle
+! - Wikipedia: Bernoulli's triangle
+! - Related task: Pascal's_triangle
 
 USING: kernel math math.combinatorics namespaces prettyprint
 prettyprint.config ranges sequences ;

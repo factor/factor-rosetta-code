@@ -1,10 +1,6 @@
 ! []
 ! 
-! |right
-! 
 ! []
-! 
-! |right
 ! 
 ! Solve the eight queens puzzle.
 ! 
@@ -12,16 +8,18 @@
 ! 
 ! For the number of solutions for small values of N, see OEIS: A000170.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   A* search algorithm
-! -   Solve a Hidato puzzle
-! -   Solve a Holy Knight's tour
-! -   Knight's tour
-! -   Peaceful chess queen armies
-! -   Solve a Hopido puzzle
-! -   Solve a Numbrix puzzle
-! -   Solve the no connection puzzle
+!     
+! 
+! - A* search algorithm
+! - Solve a Hidato puzzle
+! - Solve a Holy Knight's tour
+! - Knight's tour
+! - Peaceful chess queen armies
+! - Solve a Hopido puzzle
+! - Solve a Numbrix puzzle
+! - Solve the no connection puzzle
 
 USING: kernel sequences math math.combinatorics formatting io locals ;
 IN: queens

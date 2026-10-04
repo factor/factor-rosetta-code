@@ -90,11 +90,11 @@
 ! 
 ! Related Tasks
 ! 
-! -   Lexical Analyzer task
-! -   Syntax Analyzer task
-! -   Code Generator task
-! -   Virtual Machine Interpreter task
-! -   AST Interpreter task
+! - Lexical Analyzer task
+! - Syntax Analyzer task
+! - Code Generator task
+! - Virtual Machine Interpreter task
+! - AST Interpreter task
 ! 
 ! __TOC__
 

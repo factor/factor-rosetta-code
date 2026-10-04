@@ -1,7 +1,9 @@
 ! Most programming languages have a built-in implementation of
 ! exponentiation.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Re-implement integer exponentiation for both int^(int) and float^(int)
 ! as both a procedure, and an operator (if your language supports operator
@@ -11,11 +13,13 @@
 ! overloaded form should be provided for both int^(int) and float^(int)
 ! variants.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Exponentiation order
-! -   arbitrary-precision integers (included)
-! -   Exponentiation with infix operators in (or operating on) the base
+!     
+! 
+! - Exponentiation order
+! - arbitrary-precision integers (included)
+! - Exponentiation with infix operators in (or operating on) the base
 ! 
 ! Category:Arithmetic
 

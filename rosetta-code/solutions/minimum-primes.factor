@@ -1,10 +1,12 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given three lists:
 ! 
-! -   Numbers1 = [5,45,23,21,67]
-! -   Numbers2 = [43,22,78,46,38]
-! -   Numbers3 = [9,98,12,54,53]
+! - Numbers1 = [5,45,23,21,67]
+! - Numbers2 = [43,22,78,46,38]
+! - Numbers3 = [9,98,12,54,53]
 ! 
 ! then:
 ! 

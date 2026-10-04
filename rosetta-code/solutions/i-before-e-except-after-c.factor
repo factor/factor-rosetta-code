@@ -1,7 +1,9 @@
 ! The phrase "I before E, except after C" is a widely known mnemonic which
 ! is supposed to help when spelling English words.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Using the word list from
 ! https://web.archive.org/web/20240920144647if_/http://wiki.puzzlers.org/pub/wordlists/unixdict.txt,
@@ -19,7 +21,9 @@
 ! than two times the number of words having the opposite feature (where
 ! feature is 'ie' or 'ei' preceded or not by 'c' as appropriate).
 ! 
-! Stretch goal:
+! Stretch goal
+! 
+!     
 ! 
 ! As a stretch goal use the entries from the table of Word Frequencies in
 ! Written and Spoken English: based on the British National Corpus,
@@ -29,12 +33,14 @@
 ! 
 ! Show your output here as well as your program.
 ! 
-! cf.:
+! cf.
 ! 
-! -   Schools to rethink 'i before e' - BBC news, 20 June 2009
-! -   I Before E Except After C - QI Series 8 Ep 14, (humorous)
-! -   Companion website for the book: "Word Frequencies in Written and
-!     Spoken English: based on the British National Corpus".
+!     
+! 
+! - Schools to rethink 'i before e' - BBC news, 20 June 2009
+! - I Before E Except After C - QI Series 8 Ep 14, (humorous)
+! - Companion website for the book: "Word Frequencies in Written and
+!   Spoken English: based on the British National Corpus".
 
 USING: combinators formatting generalizations io.encodings.utf8
 io.files kernel literals math prettyprint regexp sequences ;

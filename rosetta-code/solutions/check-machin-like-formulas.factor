@@ -1,7 +1,9 @@
 ! Machin-like formulas are useful for efficiently computing numerical
 ! approximations for π
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Verify the following Machin-like formulas are correct by calculating the
 ! value of tan (right hand side) for each equation using exact arithmetic

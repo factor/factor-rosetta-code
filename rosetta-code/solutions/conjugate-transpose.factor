@@ -12,30 +12,34 @@
 ! 
 ! In the next list, M must also be a square matrix.
 ! 
-! -   A Hermitian matrix equals its own conjugate transpose: M^(H) = M.
-! -   A normal matrix is commutative in multiplication with its conjugate
-!     transpose: M^(H)M = MM^(H).
-! -   A unitary matrix has its inverse equal to its conjugate transpose:
-!     M^(H) = M⁻¹.
+! - A Hermitian matrix equals its own conjugate transpose: M^(H) = M.
+! - A normal matrix is commutative in multiplication with its conjugate
+!   transpose: M^(H)M = MM^(H).
+! - A unitary matrix has its inverse equal to its conjugate transpose:
+!   M^(H) = M⁻¹.
 ! 
 ! This is true iff M^(H)M = I_(n) and iff MM^(H) = I_(n), where I_(n) is the identity matrix.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given some matrix of complex numbers, find its conjugate transpose.
 ! 
 ! Also determine if the matrix is a:
 ! 
-! -   -   Hermitian matrix,
-!     -   normal matrix, or
-!     -   unitary matrix.
+! - - Hermitian matrix,
+!   - normal matrix, or
+!   - unitary matrix.
 ! 
-! See also:
+! See also
 ! 
-! -   MathWorld entry: conjugate transpose
-! -   MathWorld entry: Hermitian matrix
-! -   MathWorld entry: normal matrix
-! -   MathWorld entry: unitary matrix
+!     
+! 
+! - MathWorld entry: conjugate transpose
+! - MathWorld entry: Hermitian matrix
+! - MathWorld entry: normal matrix
+! - MathWorld entry: unitary matrix
 ! 
 ! Category:Matrices
 

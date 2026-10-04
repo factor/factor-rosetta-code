@@ -21,7 +21,9 @@
 ! Write code that accepts a value of kelvin, converts it to values of the
 ! three other scales, and prints the result.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 !     K  21.00
 ! 

@@ -70,7 +70,7 @@
 ! 
 ! Reference
 ! 
-! -   Wikipedia: Greek alphabet
+! - Wikipedia: Greek alphabet
 ! 
 ! Category: String manipulation Category:Simple Category:Strings
 

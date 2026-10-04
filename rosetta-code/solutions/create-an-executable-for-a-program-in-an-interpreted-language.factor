@@ -20,7 +20,7 @@
 ! 
 ! Note: This task is about creating a compiled executable. Some operating
 ! systems allow a script to start with e.g. "#!" and the name of the
-! interpreter to run it. This is not what is reuired, as this would mean
+! interpreter to run it. This is not what is required, as this would mean
 ! shipping the source.
 ! 
 ! One method of doing this would be to create a program in a language for

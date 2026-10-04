@@ -1,23 +1,27 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how to use the following math constants and functions in your
 ! language (if not available, note it):
 ! 
-! -   -   e (base of the natural logarithm)
-!     -   π
-!     -   square root
-!     -   logarithm (any base allowed)
-!     -   exponential (e^(x) )
-!     -   absolute value (a.k.a. "magnitude")
-!     -   floor (largest integer less than or equal to this number--not
-!         the same as truncate or int)
-!     -   ceiling (smallest integer not less than this number--not the
-!         same as round up)
-!     -   power (x^(y) )
+! - - e (base of the natural logarithm)
+!   - π
+!   - square root
+!   - logarithm (any base allowed)
+!   - exponential (e^(x) )
+!   - absolute value (a.k.a. "magnitude")
+!   - floor (largest integer less than or equal to this number--not the
+!     same as truncate or int)
+!   - ceiling (smallest integer not less than this number--not the same as
+!     round up)
+!   - power (x^(y) )
 ! 
-! Related task:
+! Related task
 ! 
-! -   Trigonometric Functions
+!     
+! 
+! - Trigonometric Functions
 ! 
 ! Category:Arithmetic operations Category:Simple
 

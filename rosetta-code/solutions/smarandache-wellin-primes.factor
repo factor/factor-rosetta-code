@@ -20,9 +20,9 @@
 ! 
 ! Task
 ! 
-! -   Find and show the first three S-W numbers which are prime.
+! - Find and show the first three S-W numbers which are prime.
 ! 
-! -   Find and show the first three Derived S-W numbers which are prime.
+! - Find and show the first three Derived S-W numbers which are prime.
 ! 
 ! Stretch (requires 'big integer' support)
 ! 
@@ -38,8 +38,8 @@
 ! 
 ! References
 ! 
-! -   Wikipedia: Smarandache-Wellin number
-! -   OEIS:A019518 - Smarandache-Wellin numbers
-! -   OEIS:A069151 - Smarandache-Wellin primes
+! - Wikipedia: Smarandache-Wellin number
+! - OEIS:A019518 - Smarandache-Wellin numbers
+! - OEIS:A069151 - Smarandache-Wellin primes
 
 

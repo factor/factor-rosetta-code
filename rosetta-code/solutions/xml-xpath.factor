@@ -1,9 +1,9 @@
 ! Perform the following three XPath queries on the XML Document below:
 ! 
-! -   //item[1]: Retrieve the first "item" element
-! -   //price/text(): Perform an action on each "price" element (print it
-!     out)
-! -   //name: Get an array of all the "name" elements
+! - //item[1]: Retrieve the first "item" element
+! - //price/text(): Perform an action on each "price" element (print it
+!   out)
+! - //name: Get an array of all the "name" elements
 ! 
 ! XML Document:
 ! 

@@ -7,10 +7,10 @@
 ! 
 ! For example, 2020 is a four-digit self describing number:
 ! 
-! -   position 0 has value 2 and there are two 0s in the number;
-! -   position 1 has value 0 and there are no 1s in the number;
-! -   position 2 has value 2 and there are two 2s;
-! -   position 3 has value 0 and there are zero 3s.
+! - position 0 has value 2 and there are two 0s in the number;
+! - position 1 has value 0 and there are no 1s in the number;
+! - position 2 has value 2 and there are two 2s;
+! - position 3 has value 0 and there are zero 3s.
 ! 
 ! Self-describing numbers < 100.000.000 are: 1210, 2020, 21200, 3211000,
 ! 42101000.
@@ -22,13 +22,15 @@
 ! 2.  As an optional stretch goal - generate and display the set of
 !     self-describing numbers.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Fours is the number of letters in the ...
-! -   Look-and-say sequence
-! -   Number names
-! -   Self-referential sequence
-! -   Spelling of ordinal numbers
+!     
+! 
+! - Fours is the number of letters in the ...
+! - Look-and-say sequence
+! - Number names
+! - Self-referential sequence
+! - Spelling of ordinal numbers
 
 USING: kernel math.parser prettyprint sequences ;
 IN: rosetta-code.self-describing-numbers

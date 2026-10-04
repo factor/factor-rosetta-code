@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function which tests if infinity is supported for floating point
 ! numbers (this step should be omitted for languages where the language
@@ -9,9 +11,11 @@
 ! For languages with several floating point types, use the type of the
 ! literal constant 1.5 as floating point type.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Extreme floating point values
+!     
+! 
+! - Extreme floating point values
 ! 
 ! Category:Discrete math
 

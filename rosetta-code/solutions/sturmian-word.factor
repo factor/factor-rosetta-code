@@ -3,21 +3,20 @@
 ! picture. [Example Sturmian word when x = 0.618..., the golden ratio.]
 ! The Sturmian word can be computed thus as an algorithm:
 ! 
-! -   If x > 1, then it is the inverse of the Sturmian word for 1/x. So we
-!     have reduced to the case of 0 < x ≤ 1.
-! -   Iterate over floor(1x), floor(2x), floor(3x), …
-! -   If kx is an integer, then the program terminates. Else, if
-!     floor((k − 1)x) = floor(kx), then the program outputs 0, else, it
-!     outputs 10.
+! - If x > 1, then it is the inverse of the Sturmian word for 1/x. So we
+!   have reduced to the case of 0 < x ≤ 1.
+! - Iterate over floor(1x), floor(2x), floor(3x), …
+! - If kx is an integer, then the program terminates. Else, if
+!   floor((k − 1)x) = floor(kx), then the program outputs 0, else, it
+!   outputs 10.
 ! 
 ! The problem:
 ! 
-! -   Given a positive rational number $\frac mn$, specified by two
-!     positive integers m, n, output its entire Sturmian word.
-! -   Given a quadratic real number $\frac{b\sqrt{a} + m}{n} > 0$,
-!     specified by integers a, b, m, n, where a is not a perfect square,
-!     output the first k letters of Sturmian words when given a positive
-!     number k.
+! - Given a positive rational number $\frac mn$, specified by two positive
+!   integers m, n, output its entire Sturmian word.
+! - Given a quadratic real number $\frac{b\sqrt{a} + m}{n} > 0$, specified
+!   by integers a, b, m, n, where a is not a perfect square, output the
+!   first k letters of Sturmian words when given a positive number k.
 ! 
 ! (If the programming language can represent infinite data structures,
 ! then that works too.)
@@ -31,9 +30,9 @@
 ! 
 ! The key difficulty is accurately calculating $floor(k\sqrt a)$ for large
 ! k. Floating point arithmetic would lose precision. One can either do
-! this simply by directly searching for some integer a′ such that
-! a′² ≤ k²a < (a′ + 1)², or by more trickly methods, such as the continued
-! fraction approach.
+! this simply by directly searching for some integer a^(′) such that
+! a^(′)² ≤ k²a < (a^(′) + 1)², or by more trickly methods, such as the
+! continued fraction approach.
 ! 
 ! First calculate the continued fraction convergents to $\sqrt a$. Let
 ! $\frac mn$ be a convergent to $\sqrt a$, such that n ≥ k, then since the

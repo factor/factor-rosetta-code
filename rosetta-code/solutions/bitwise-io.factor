@@ -19,9 +19,9 @@
 ! variable length bits sequences, while LZW (see LZW compression) use
 ! fixed or variable words nine (or more) bits long.
 ! 
-! -   Limits in the maximum number of bits that can be written/read in a
-!     single read/write operation are allowed.
-! -   Errors handling is not mandatory
+! - Limits in the maximum number of bits that can be written/read in a
+!   single read/write operation are allowed.
+! - Errors handling is not mandatory
 ! 
 ! Category:Bitwise operations
 

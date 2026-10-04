@@ -2,7 +2,9 @@
 ! telecommunication in existence. It has been in use for more than 175
 ! years — longer than any other electronic encoding system.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Send a string as audible Morse code to an audio device (e.g., the PC
 ! speaker).

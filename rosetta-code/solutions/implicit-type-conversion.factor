@@ -12,7 +12,9 @@
 ! another, using a function or some other mechanism (e.g. an explicit
 ! cast).
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate various type conversions and give an example of an implicit
 ! type conversion path from the smallest possible variable size to the

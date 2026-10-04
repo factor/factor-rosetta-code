@@ -7,10 +7,10 @@
 ! 
 ! Each Farey sequence:
 ! 
-! -   -   starts with the value 0 (zero), denoted by the fraction
-!         $\frac{0}{1}$
-!     -   ends with the value 1 (unity), denoted by the fraction
-!         $\frac{1}{1}$.
+! - - starts with the value 0 (zero), denoted by the fraction
+!     $\frac{0}{1}$
+!   - ends with the value 1 (unity), denoted by the fraction
+!     $\frac{1}{1}$.
 ! 
 ! The Farey sequences of orders 1 to 5 are:
 ! 
@@ -44,12 +44,12 @@
 ! 
 ! Task
 ! 
-! -   Compute and show the Farey sequence for orders 1 through 11
-!     (inclusive).
-! -   Compute and display the number of fractions in the Farey sequence
-!     for order 100 through 1,000 (inclusive) by hundreds.
-! -   Show the fractions as n/d (using the solidus [or slash] to separate
-!     the numerator from the denominator).
+! - Compute and show the Farey sequence for orders 1 through 11
+!   (inclusive).
+! - Compute and display the number of fractions in the Farey sequence for
+!   order 100 through 1,000 (inclusive) by hundreds.
+! - Show the fractions as n/d (using the solidus [or slash] to separate
+!   the numerator from the denominator).
 ! 
 ! The length (the number of fractions) of a Farey sequence asymptotically
 ! approaches:
@@ -58,14 +58,15 @@
 ! 
 !          3 × n² ÷ π²
 ! 
-! See also:
+! See also
 ! 
-! -   OEIS sequence A006842 numerators of Farey series of order 1, 2, ···
-! -   OEIS sequence A006843 denominators of Farey series of order 1, 2,
-!     ···
-! -   OEIS sequence A005728 number of fractions in Farey series of order n
-! -   MathWorld entry Farey sequence
-! -   Wikipedia entry Farey sequence
+!     
+! 
+! - OEIS sequence A006842 numerators of Farey series of order 1, 2, ···
+! - OEIS sequence A006843 denominators of Farey series of order 1, 2, ···
+! - OEIS sequence A005728 number of fractions in Farey series of order n
+! - MathWorld entry Farey sequence
+! - Wikipedia entry Farey sequence
 
 USING: formatting io kernel math math.primes.factors math.ranges
 locals prettyprint sequences sequences.extras sets tools.time ;

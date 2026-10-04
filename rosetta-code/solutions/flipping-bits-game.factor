@@ -1,4 +1,6 @@
-! The game:
+! The game
+! 
+!     
 ! 
 ! Given an N×N square array of zeroes or ones in an initial configuration,
 ! and a target configuration of zeroes and ones.
@@ -10,7 +12,9 @@
 ! In an inversion. any 1 becomes 0, and any 0 becomes 1 for that whole row
 ! or column.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a program to score for the Flipping bits game.
 ! 

@@ -14,11 +14,11 @@
 ! 
 ! The algorithm uses this linear congruential generator from Microsoft C:
 ! 
-! -   state_(n + 1) ≡ 214013 × state_(n) + 2531011 (mod  2³¹)
-! -   rand_(n) = state_(n) ÷ 2¹⁶
-! -   rand_(n) is in range 0 to 32767.
-! -   Rosetta Code has another task, linear congruential generator, with
-!     code for this RNG in several languages.
+! - state_(n + 1) ≡ 214013 × state_(n) + 2531011 (mod  2³¹)
+! - rand_(n) = state_(n) ÷ 2¹⁶
+! - rand_(n) is in range 0 to 32767.
+! - Rosetta Code has another task, linear congruential generator, with
+!   code for this RNG in several languages.
 ! 
 ! The algorithm follows:
 ! 
@@ -29,12 +29,12 @@
 !     array indexes are 0 to 51, with Ace of Clubs at 0, and King of
 !     Spades at 51.
 ! 3.  Until the array is empty:
-!     -   Choose a random card at index ≡ next random number (mod array
-!         length).
-!     -   Swap this random card with the last card of the array.
-!     -   Remove this random card from the array. (Array length goes down
-!         by 1.)
-!     -   Deal this random card.
+!     - Choose a random card at index ≡ next random number (mod array
+!       length).
+!     - Swap this random card with the last card of the array.
+!     - Remove this random card from the array. (Array length goes down by
+!       1.)
+!     - Deal this random card.
 ! 4.  Deal all 52 cards, face up, across 8 columns. The first 8 cards go
 !     in 8 columns, the next 8 cards go on the first 8 cards, and so on.
 ! 
@@ -83,11 +83,11 @@
 ! 
 ! Related tasks:
 ! 
-! -   Playing cards
-! -   Card shuffles
-! -   War Card_Game
-! -   Poker hand_analyser
-! -   Go Fish
+! - Playing cards
+! - Card shuffles
+! - War Card_Game
+! - Poker hand_analyser
+! - Go Fish
 
 USING: formatting grouping io kernel literals make math
 math.functions namespaces qw sequences sequences.extras ;

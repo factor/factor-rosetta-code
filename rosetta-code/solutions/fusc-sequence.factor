@@ -1,50 +1,59 @@
-! Definitions:
+! Definitions
+! 
+!     
 ! 
 ! The fusc integer sequence is defined as:
 ! 
-! -   -   fusc(0) = 0
-!     -   fusc(1) = 1
-!     -   for n>1, the n^(th) term is defined as:
-!         -   -   if n is even; fusc(n) = fusc(n/2)
-!             -   if n is odd; fusc(n) = fusc((n-1)/2) + fusc((n+1)/2)
+! - - fusc(0) = 0
+!   - fusc(1) = 1
+!   - for n>1, the n^(th) term is defined as:
+!     - - if n is even; fusc(n) = fusc(n/2)
+!       - if n is odd; fusc(n) = fusc((n-1)/2) + fusc((n+1)/2)
 ! 
 ! Note that MathWorld's definition starts with unity, not zero. This task
 ! will be using the OEIS' version (above).
 ! 
-! An observation:
+! An observation
 ! 
-! -   -   fusc(A) = fusc(B)
+!     
+! 
+! - - fusc(A) = fusc(B)
 ! 
 ! where A is some non-negative integer expressed in binary, and where B is
 ! the binary value of A reversed.
 ! 
 ! Fusc numbers are also known as:
 ! 
-! -   -   fusc function (named by Dijkstra, 1982)
-!     -   Stern's Diatomic series (although it starts with unity, not
-!         zero)
-!     -   Stern-Brocot sequence (although it starts with unity, not zero)
+! - - fusc function (named by Dijkstra, 1982)
+!   - Stern's Diatomic series (although it starts with unity, not zero)
+!   - Stern-Brocot sequence (although it starts with unity, not zero)
 ! 
-! Task:
+! Task
 ! 
-! -   -   show the first 61 fusc numbers (starting at zero) in a
-!         horizontal format.
-!     -   show the fusc number (and its index) whose length is greater
-!         than any previous fusc number length.
-!         -   -   (the length is the number of decimal digits when the
-!                 fusc number is expressed in base ten.)
-!     -   show all numbers with commas (if appropriate).
-!     -   show all output here.
+!     
 ! 
-! Related task:
+! - - show the first 61 fusc numbers (starting at zero) in a horizontal
+!     format.
+!   - show the fusc number (and its index) whose length is greater than
+!     any previous fusc number length.
+!     - - (the length is the number of decimal digits when the fusc number
+!         is expressed in base ten.)
+!   - show all numbers with commas (if appropriate).
+!   - show all output here.
 ! 
-! -   -   Stern-Brocot sequence
-!     -   Calkin-Wilf sequence.
+! Related task
 ! 
-! Also see:
+!     
 ! 
-! -   -   the MathWorld entry: Stern's Diatomic Series.
-!     -   the OEIS entry: A2487.
+! - - Stern-Brocot sequence
+!   - Calkin-Wilf sequence.
+! 
+! Also see
+! 
+!     
+! 
+! - - the MathWorld entry: Stern's Diatomic Series.
+!   - the OEIS entry: A2487.
 
 USING: arrays assocs formatting io kernel make math math.parser
 math.ranges namespaces prettyprint sequences

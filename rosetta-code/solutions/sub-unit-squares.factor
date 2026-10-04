@@ -16,7 +16,7 @@
 ! 
 ! Task
 ! 
-! -   Find and display at least the first five sub-unit squares.
+! - Find and display at least the first five sub-unit squares.
 ! 
 ! See also
 ! * OEIS:A061844 - Squares that remain squares if you decrease every digit by 1

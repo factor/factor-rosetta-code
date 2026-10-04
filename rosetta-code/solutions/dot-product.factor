@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a function/use an in-built function, to compute the dot product,
 ! also known as the scalar product of two vectors.
@@ -14,14 +16,16 @@
 ! 
 ! If implementing the dot product of two vectors directly:
 ! 
-! -   -   each vector must be the same length
-!     -   multiply corresponding terms from each vector
-!     -   sum the products (to produce the answer)
+! - - each vector must be the same length
+!   - multiply corresponding terms from each vector
+!   - sum the products (to produce the answer)
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Arrays, Vector, Dot product, Vector products, Matrices, Bivector,
-!     Antivector, Tensor, Quaternion, Rotor, Motor, Sedenion, Octonion
+!     
+! 
+! - Arrays, Vector, Dot product, Vector products, Matrices, Bivector,
+!   Antivector, Tensor, Quaternion, Rotor, Motor, Sedenion, Octonion
 
 USING: kernel math.vectors sequences ;
 

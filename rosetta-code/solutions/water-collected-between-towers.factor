@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! In a two-dimensional world, we begin with any bar-chart (or row of
 ! close-packed 'towers', each of unit width), and then it rains,
@@ -34,12 +36,11 @@
 ! 
 ! See, also:
 ! 
-! -   Four Solutions to a Trivial Problem – a Google Tech Talk by Guy
-!     Steele
-! -   Water collected between towers on Stack Overflow, from which the
-!     example above is taken)
-! -   An interesting Haskell solution, using the Tardis monad, by Phil
-!     Freeman in a Github gist.
+! - Four Solutions to a Trivial Problem – a Google Tech Talk by Guy Steele
+! - Water collected between towers on Stack Overflow, from which the
+!   example above is taken)
+! - An interesting Haskell solution, using the Tardis monad, by Phil
+!   Freeman in a Github gist.
 
 USING: formatting kernel math.statistics math.vectors sequences ;
 

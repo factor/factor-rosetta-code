@@ -13,12 +13,12 @@
 ! 
 ! Task
 ! 
-! -   Find and show the first 50 Generalized Curzon numbers for even base
-!     integers from 2 through 10.
+! - Find and show the first 50 Generalized Curzon numbers for even base
+!   integers from 2 through 10.
 ! 
 ! Stretch
 ! 
-! -   Find and show the one thousandth.
+! - Find and show the one thousandth.
 ! 
 ! See also
 ! 

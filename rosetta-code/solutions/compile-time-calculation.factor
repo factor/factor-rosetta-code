@@ -1,6 +1,8 @@
 ! Some programming languages allow calculation of values at compile time.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Calculate 10! (ten factorial) at compile time.
 ! 

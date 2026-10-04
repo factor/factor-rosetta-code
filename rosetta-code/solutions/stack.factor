@@ -5,16 +5,16 @@
 ! 
 ! The basic stack operations are:
 ! 
-! -   push stores a new element onto the stack top;
-! -   pop returns the last pushed stack element, while removing it from
-!     the stack;
-! -   empty tests if the stack contains no elements.
+! - push stores a new element onto the stack top;
+! - pop returns the last pushed stack element, while removing it from the
+!   stack;
+! - empty tests if the stack contains no elements.
 ! 
 ! Sometimes the last pushed stack element is made accessible for immutable
 ! access (for read) or mutable access (for write):
 ! 
-! -   top (sometimes called peek to keep with the p theme) returns the
-!     topmost element without modifying the stack.
+! - top (sometimes called peek to keep with the p theme) returns the
+!   topmost element without modifying the stack.
 ! 
 ! Stacks allow a very simple hardware implementation.
 ! 
@@ -36,7 +36,9 @@
 ! recursive descent parsers), and machine learning (e.g. based on tree
 ! traversal) have a natural representation in terms of stacks.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a stack supporting the basic operations: push, pop, empty.
 ! 

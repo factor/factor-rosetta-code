@@ -4,10 +4,10 @@
 ! The first term is 1. Subsequent terms are found by applying the
 ! following rule:
 ! 
-! -   If the previous term was even, then halve it.
+! - If the previous term was even, then halve it.
 ! 
-! -   If the previous term was odd, then add the smallest prime number
-!     that has not yet been added.
+! - If the previous term was odd, then add the smallest prime number that
+!   has not yet been added.
 ! 
 ! 1 is odd and so the second term is: 1 + 2 = 3, because 2 is the smallest
 ! prime not yet added.
@@ -37,9 +37,9 @@
 ! By the time the 100 millionth term is reached, which number(s) under
 ! 250:
 ! 
-! -   Have not yet occurred in the sequence.
+! - Have not yet occurred in the sequence.
 ! 
-! -   Have occurred the most times and their number of occurrences.
+! - Have occurred the most times and their number of occurrences.
 ! 
 ! Extreme stretch
 ! 
@@ -50,6 +50,6 @@
 ! 
 ! References
 ! 
-! -   OEIS sequence A350877: The Sisyphus sequence
+! - OEIS sequence A350877: The Sisyphus sequence
 
 

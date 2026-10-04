@@ -10,7 +10,9 @@
 !     the eight 32-bit encryption key elements, and uses the replacement
 !     table (8x16 matrix of 4-bit values), and returns encrypted block.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement the main step of this encryption algorithm.
 

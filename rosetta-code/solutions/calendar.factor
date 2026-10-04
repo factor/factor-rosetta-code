@@ -2,11 +2,10 @@
 ! the calendar by generating a calendar for the year 1969, on a device of
 ! the time. Choose one of the following devices:
 ! 
-! -   A line printer with a width of 132 characters.
-! -   An IBM 3278 model 4 terminal (80×43 display with accented
-!     characters). Target formatting the months of the year to fit nicely
-!     across the 80 character width screen. Restrict number of lines in
-!     test output to 43.
+! - A line printer with a width of 132 characters.
+! - An IBM 3278 model 4 terminal (80×43 display with accented characters).
+!   Target formatting the months of the year to fit nicely across the 80
+!   character width screen. Restrict number of lines in test output to 43.
 ! 
 ! (Ideally, the program will generate well-formatted calendars for any
 ! page width from 20 characters up.)
@@ -26,14 +25,18 @@
 ! For economy of size, do not actually include Snoopy generation in either
 ! the code or the output, instead just output a place-holder.
 ! 
-! See Also:
+! See Also
 ! 
-! -   -   Snoopy calendar 1969-2025 Marcel van der Veer - The deck is
-!         credited as being one of the first FOSS programs.
+!     
 ! 
-! Related task:
+! - - Snoopy calendar 1969-2025 Marcel van der Veer - The deck is credited
+!     as being one of the first FOSS programs.
 ! 
-! -   -   Five weekends
+! Related task
+! 
+!     
+! 
+! - - Five weekends
 ! 
 ! Category:Scala examples needing attention
 

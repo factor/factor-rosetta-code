@@ -21,11 +21,11 @@
 ! 
 ! Note:
 ! 
-! -   Asking for/receiving user comparisons is a part of the task.
-! -   Code inputs should not assume an ordering.
-! -   The seven colours can form twenty-one different pairs.
-! -   A routine that does not ask the user "too many" comparison questions
-!     should be used.
+! - Asking for/receiving user comparisons is a part of the task.
+! - Code inputs should not assume an ordering.
+! - The seven colours can form twenty-one different pairs.
+! - A routine that does not ask the user "too many" comparison questions
+!   should be used.
 ! 
 ! Category:Sorting
 

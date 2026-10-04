@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create an enumeration of constants with and without explicit values.
 

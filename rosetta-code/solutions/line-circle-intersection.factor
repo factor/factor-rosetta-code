@@ -6,12 +6,12 @@
 ! Implement a method (function, procedure etc.) in your language which
 ! takes as parameters:
 ! 
-! -   the starting point of a line;
-! -   the point where the line ends;
-! -   the center point of a circle;
-! -   the circle's radius; and
-! -   whether the line is a segment or extends to infinity beyond the
-!     above points.
+! - the starting point of a line;
+! - the point where the line ends;
+! - the center point of a circle;
+! - the circle's radius; and
+! - whether the line is a segment or extends to infinity beyond the above
+!   points.
 ! 
 ! The method should return the intersection points (if any) of the circle
 ! and the line.
@@ -27,7 +27,7 @@
 ! 
 ! References
 ! 
-! -   See Math Stack Exchange for development of the formulae needed.
-! -   See Wolfram for the formulae needed.
+! - See Math Stack Exchange for development of the formulae needed.
+! - See Wolfram for the formulae needed.
 
 

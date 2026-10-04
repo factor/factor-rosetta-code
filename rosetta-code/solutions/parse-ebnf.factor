@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that can parse a grammar in Extended Backus–Naur Form
 ! (EBNF), and then parse something else according to the grammar.

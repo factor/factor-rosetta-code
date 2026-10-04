@@ -8,25 +8,31 @@
 !    if   P(n) == n   then  n  is classed as  perfect    (OEIS A000396).
 !    if   P(n) > n   then  n  is classed as  abundant   (OEIS A005101).
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! 6 has proper divisors of 1, 2, and 3.
 ! 
 ! 1 + 2 + 3 = 6, so 6 is classed as a perfect number.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Calculate how many of the integers 1 to 20,000 (inclusive) are in each
 ! of the three classes.
 ! 
 ! Show the results here.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Aliquot sequence classifications. (The whole series from which this
-!     task is a subset.)
-! -   Proper divisors
-! -   Amicable pairs
+!     
+! 
+! - Aliquot sequence classifications. (The whole series from which this
+!   task is a subset.)
+! - Proper divisors
+! - Amicable pairs
 
 
 USING: fry math.primes.factors math.ranges ;

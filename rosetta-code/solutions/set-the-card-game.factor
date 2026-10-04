@@ -30,17 +30,20 @@
 ! because two of the cards are green and one is purple, so the colours are
 ! neither all the same nor all different.
 ! 
-! task:
+! task
 ! 
-! -   -   Create a representation of a pack of Set cards, shuffle it,
-!         select a specified number of cards from the pack and list them
-!         in the output.
+!     
 ! 
-! -   -   Identify the sets in the selected cards and list them.
+! - - Create a representation of a pack of Set cards, shuffle it, select a
+!     specified number of cards from the pack and list them in the output.
 ! 
-! Also see:
+! - - Identify the sets in the selected cards and list them.
 ! 
-! -   -   The Wikipedia article, Set (card game)
+! Also see
+! 
+!     
+! 
+! - - The Wikipedia article, Set (card game)
 
 USING: grouping io kernel literals math.combinatorics
 prettyprint qw random sequences sequences.product sets ;

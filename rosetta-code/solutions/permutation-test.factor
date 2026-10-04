@@ -18,22 +18,21 @@
 ! a permutation test to judge whether the treatment had a significantly
 ! stronger effect than the placebo.
 ! 
-! -   Do this by considering every possible alternative assignment from
-!     the same pool of volunteers to a treatment group of size n and a
-!     control group of size m (i.e., the same group sizes used in the
-!     actual experiment but with the group members chosen differently),
-!     while assuming that each volunteer's effect remains constant
-!     regardless.
-! -   Note that the number of alternatives will be the binomial
-!     coefficient $\tbinom{n+m}{n}$.
-! -   Compute the mean effect for each group and the difference in means
-!     between the groups in every case by subtracting the mean of the
-!     control group from the mean of the treatment group.
-! -   Report the percentage of alternative groupings for which the
-!     difference in means is less or equal to the actual experimentally
-!     observed difference in means, and the percentage for which it is
-!     greater.
-! -   Note that they should sum to 100%.
+! - Do this by considering every possible alternative assignment from the
+!   same pool of volunteers to a treatment group of size n and a control
+!   group of size m (i.e., the same group sizes used in the actual
+!   experiment but with the group members chosen differently), while
+!   assuming that each volunteer's effect remains constant regardless.
+! - Note that the number of alternatives will be the binomial coefficient
+!   $\tbinom{n+m}{n}$.
+! - Compute the mean effect for each group and the difference in means
+!   between the groups in every case by subtracting the mean of the
+!   control group from the mean of the treatment group.
+! - Report the percentage of alternative groupings for which the
+!   difference in means is less or equal to the actual experimentally
+!   observed difference in means, and the percentage for which it is
+!   greater.
+! - Note that they should sum to 100%.
 ! 
 ! Extremely dissimilar values are evidence of an effect not entirely due
 ! to chance, but your program need not draw any conclusions.

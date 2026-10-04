@@ -8,7 +8,9 @@
 ! subfactorial of n, sometimes written as !n. There are various ways to
 ! calculate !n.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Create a named function/method/subroutine/... to generate
 !     derangements of the integers 0..n-1, (or 1..n if you prefer).
@@ -18,15 +20,19 @@
 ! 4.  Print and show a table of the counted number of derangements of n
 !     vs. the calculated !n for n from 0..9 inclusive.
 ! 
-! Optional stretch goal:
+! Optional stretch goal
 ! 
-! -   Calculate !20
+!     
 ! 
-! Related tasks:
+! - Calculate !20
 ! 
-! -   Anagrams/Deranged anagrams
-! -   Best shuffle
-! -   Left_factorials
+! Related tasks
+! 
+!     
+! 
+! - Anagrams/Deranged anagrams
+! - Best shuffle
+! - Left_factorials
 
 USING: combinators formatting io kernel math math.combinatorics
 prettyprint sequences ;

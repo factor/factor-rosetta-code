@@ -4,7 +4,9 @@
 ! 
 !            A² + B² - 2ABcos(γ) = C² 
 ! 
-! Specific angles:
+! Specific angles
+! 
+!     
 ! 
 ! For an angle of of 90º this becomes the more familiar "Pythagoras
 ! equation":
@@ -19,31 +21,37 @@
 ! 
 !            A² + B² + AB = C²      
 ! 
-! Task:
+! Task
 ! 
-! -   Find all integer solutions (in order) to the three specific cases,
-!     distinguishing between each angle being considered.
-! -   Restrain all sides to the integers 1..13 inclusive.
-! -   Show how many results there are for each of the three angles
-!     mentioned above.
-! -   Display results on this page.
+!     
+! 
+! - Find all integer solutions (in order) to the three specific cases,
+!   distinguishing between each angle being considered.
+! - Restrain all sides to the integers 1..13 inclusive.
+! - Show how many results there are for each of the three angles mentioned
+!   above.
+! - Display results on this page.
 ! 
 ! Note: Triangles with the same length sides but different order are to be
 ! treated as the same.
 ! 
-! Optional Extra credit:
+! Optional Extra credit
 ! 
-! -   How many 60° integer triples are there for sides in the range
-!     1..10_000 where the sides are not all of the same length.
+!     
+! 
+! - How many 60° integer triples are there for sides in the range
+!   1..10_000 where the sides are not all of the same length.
 ! 
 ! Related Task
 ! 
-! -   Pythagorean triples
+! - Pythagorean triples
 ! 
-! See also:
+! See also
 ! 
-! -   Visualising Pythagoras: ultimate proofs and crazy contortions
-!     Mathlogger Video
+!     
+! 
+! - Visualising Pythagoras: ultimate proofs and crazy contortions
+!   Mathlogger Video
 
 USING: backtrack formatting kernel locals math math.ranges
 sequences sets sorting ;

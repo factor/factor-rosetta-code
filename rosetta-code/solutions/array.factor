@@ -50,33 +50,31 @@
 ! 
 ! Common operations defined on arrays include:
 ! 
-! -   Indexing: accessing an array element by its indices. (There is a one
-!     to one mapping between an index and its corresponding element).
-!     While the cost of indexing is O(1) on typical current machines, the
-!     cost of indexing an element adjacent to a recently accessed element
-!     is much faster than indexing an arbitrary random element of a large
-!     array.
-! -   Slicing: producing a subarray by putting some constraint on the
-!     indices. For example, PL/1 provides extracting of a row or a column
-!     of an array. In Ada any range of the index can be used in order to
-!     extract a subarray from a single-dimensional array. In Python slices
-!     can extract any contiguous subset of an array and extended slice
-!     notation can extract elements in reversed order and/or by traversing
-!     in a given "stride" --- for example a[100:0:-2] would return every
-!     odd element from 100 to the beginning of the list: a[99], a[97], ...
-!     a[1].
-! -   Iteration over the array's elements. Some languages make this a
-!     universal or implicit operation, some languages have a foreach loop
-!     construct for array iteration, in others this must be done with
-!     conventional looping and arithmetic.
-! -   Iteration over the indices of an associative or sparse array.
-! -   Querying the bounds of array indices (determining the maximum
-!     element index of offset)
-! -   Querying the indices of an associative array (determining if the
-!     collection contains a value for any given key).
-! -   Operations on indices (next, previous, range etc)
-! -   Sorting the contents of the array to satisfy some relationship.
-! -   Searching an array for the location(s) of some value(s)
+! - Indexing: accessing an array element by its indices. (There is a one
+!   to one mapping between an index and its corresponding element). While
+!   the cost of indexing is O(1) on typical current machines, the cost of
+!   indexing an element adjacent to a recently accessed element is much
+!   faster than indexing an arbitrary random element of a large array.
+! - Slicing: producing a subarray by putting some constraint on the
+!   indices. For example, PL/1 provides extracting of a row or a column of
+!   an array. In Ada any range of the index can be used in order to
+!   extract a subarray from a single-dimensional array. In Python slices
+!   can extract any contiguous subset of an array and extended slice
+!   notation can extract elements in reversed order and/or by traversing
+!   in a given "stride" --- for example a[100:0:-2] would return every odd
+!   element from 100 to the beginning of the list: a[99], a[97], ... a[1].
+! - Iteration over the array's elements. Some languages make this a
+!   universal or implicit operation, some languages have a foreach loop
+!   construct for array iteration, in others this must be done with
+!   conventional looping and arithmetic.
+! - Iteration over the indices of an associative or sparse array.
+! - Querying the bounds of array indices (determining the maximum element
+!   index of offset)
+! - Querying the indices of an associative array (determining if the
+!   collection contains a value for any given key).
+! - Operations on indices (next, previous, range etc)
+! - Sorting the contents of the array to satisfy some relationship.
+! - Searching an array for the location(s) of some value(s)
 ! 
 ! Array programming languages provide operations applied to entire arrays,
 ! so programs in such languages often do not bother using index references
@@ -115,7 +113,7 @@
 ! 
 ! Examples
 ! 
-! -   letter frequency
+! - letter frequency
 ! 
 ! Assembly
 ! 

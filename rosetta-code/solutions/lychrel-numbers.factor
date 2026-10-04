@@ -9,7 +9,9 @@
 ! The above recurrence relation when applied to most starting numbers n =
 ! 1, 2, ... terminates in a palindrome quite quickly.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! If n₀ = 12 we get
 ! 
@@ -36,7 +38,9 @@
 ! existence of Lychrel numbers in base 10 is unproven, but there are known
 ! Lychrel numbers in binary and hexadecimal.
 ! 
-! Seed and related Lychrel numbers:
+! Seed and related Lychrel numbers
+! 
+!     
 ! 
 ! Any integer produced in the sequence of a Lychrel number is also a
 ! Lychrel number.
@@ -68,25 +72,28 @@
 ! palindromes but have integers in their sequence seen as part of the
 ! sequence generated from a lower Lychrel number.
 ! 
-! Task:
+! Task
 ! 
-! -   Find the number of seed Lychrel number candidates and related
-!     numbers for n in the range 1..10000 inclusive. (With that iteration
-!     limit of 500).
-! -   Print the number of seed Lychrels found; the actual seed Lychrels;
-!     and just the number of relateds found.
-! -   Print any seed Lychrel or related number that is itself a
-!     palindrome.
+!     
+! 
+! - Find the number of seed Lychrel number candidates and related numbers
+!   for n in the range 1..10000 inclusive. (With that iteration limit of
+!   500).
+! - Print the number of seed Lychrels found; the actual seed Lychrels; and
+!   just the number of relateds found.
+! - Print any seed Lychrel or related number that is itself a palindrome.
 ! 
 ! Show all output here.
 ! 
-! References:
+! References
 ! 
-! -   What's special about 196? Numberphile video.
-! -   A023108 Positive integers which apparently never result in a
-!     palindrome under repeated applications of the function f(x) = x + (x
-!     with digits reversed).
-! -   Status of the 196 conjecture? Mathoverflow.
+!     
+! 
+! - What's special about 196? Numberphile video.
+! - A023108 Positive integers which apparently never result in a
+!   palindrome under repeated applications of the function f(x) = x + (x
+!   with digits reversed).
+! - Status of the 196 conjecture? Mathoverflow.
 ! 
 ! Category:Palindromes
 

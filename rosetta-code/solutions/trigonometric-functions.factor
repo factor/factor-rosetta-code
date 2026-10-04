@@ -1,12 +1,14 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! If your language has a library or built-in functions for trigonometry,
 ! show examples of:
 ! 
-! -   -   sine
-!     -   cosine
-!     -   tangent
-!     -   inverses (of the above)
+! - - sine
+!   - cosine
+!   - tangent
+!   - inverses (of the above)
 ! 
 ! using the same angle in radians and degrees.
 ! 

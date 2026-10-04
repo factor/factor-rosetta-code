@@ -5,7 +5,9 @@
 ! passed in so far to that accumulator (including the initial value passed
 ! when the accumulator was created).
 ! 
-! Rules:
+! Rules
+! 
+!     
 ! 
 ! The detailed rules are at http://paulgraham.com/accgensub.html and are
 ! reproduced here for simplicity (with additions in small italic text).
@@ -47,7 +49,9 @@
 !     accumulator function returned by foo(3); it's not part of the task
 !     at all.)
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a function that implements the described rules.
 ! 

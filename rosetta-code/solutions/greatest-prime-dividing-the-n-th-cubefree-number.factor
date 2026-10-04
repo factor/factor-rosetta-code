@@ -28,10 +28,10 @@
 ! 
 ! Reference
 ! 
-! -   OEIS sequence: A370833: a(n) is the greatest prime dividing the n-th
-!     cubefree number, for n >= 2; a(1)=1.
-! -   [https://cp-algorithms.com/combinatorics/inclusion-exclusion.html#:~:text=The%20inclusion%2Dexclusion%20principle%20is,individual%20sets%20with%20their%20union
-!     The number of integers in a given interval which are multiple of at
-!     least one of the given numbers]
+! - OEIS sequence: A370833: a(n) is the greatest prime dividing the n-th
+!   cubefree number, for n >= 2; a(1)=1.
+! - [https://cp-algorithms.com/combinatorics/inclusion-exclusion.html#:~:text=The%20inclusion%2Dexclusion%20principle%20is,individual%20sets%20with%20their%20union
+!   The number of integers in a given interval which are multiple of at
+!   least one of the given numbers]
 
 

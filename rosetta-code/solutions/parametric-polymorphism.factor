@@ -4,7 +4,9 @@
 ! implicitly replace the type variables with concrete types when
 ! necessary.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a small example for a type declaration that is parametric over
 ! another type, together with a short bit of code (and its type signature)

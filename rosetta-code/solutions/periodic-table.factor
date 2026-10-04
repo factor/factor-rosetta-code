@@ -1,9 +1,13 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Display the row and column in the periodic table of the given atomic
 ! number.
 ! 
-! The periodic table:
+! The periodic table
+! 
+!     
 ! 
 ! Let us consider the following periodic table representation.
 ! 
@@ -33,14 +37,14 @@
 ! 
 ! Example test cases;
 ! 
-! -   1 -> 1 1
-! -   2 -> 1 18
-! -   29 -> 4 11
-! -   42 -> 5 6
-! -   57 -> 8 4
-! -   58 -> 8 5
-! -   72 -> 6 4
-! -   89 -> 9 4
+! - 1 -> 1 1
+! - 2 -> 1 18
+! - 29 -> 4 11
+! - 42 -> 5 6
+! - 57 -> 8 4
+! - 58 -> 8 5
+! - 72 -> 6 4
+! - 89 -> 9 4
 ! 
 ! Details;
 ! 
@@ -53,10 +57,12 @@
 ! 
 ! The atomic number is at least 1, at most 118.
 ! 
-! See also:
+! See also
 ! 
-! -   the periodic table
-! -   This task was an idea from CompSciFact
-! -   The periodic table in ascii that was used as template
+!     
+! 
+! - the periodic table
+! - This task was an idea from CompSciFact
+! - The periodic table in ascii that was used as template
 
 

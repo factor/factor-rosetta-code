@@ -16,7 +16,9 @@
 ! 
 ! lex < while.t > while.lex
 ! 
-! Run one of the Syntax analyzer solutions:
+! Run one of the Syntax analyzer solutions
+! 
+!     
 ! 
 ! parse < while.lex > while.ast
 ! 
@@ -26,87 +28,46 @@
 ! 
 ! Run as:  lex < while.t | parse | gen
 ! 
-! +----------------+----------------+----------------+----------------+
-! | Input to lex   | Output from    | Output from    | Output from    |
-! |                | lex, input to  | parse          | gen, input to  |
-! |                | parse          |                | VM             |
-! +================+================+================+================+
-! |     count = 1; |         1      |     Sequence   |     Datasize   |
-! |     while      |    1   Identif |     Sequence   | : 1 Strings: 2 |
-! | (count < 10) { | ier      count |     ;          |                |
-! |         print  |         1      |     Assign     |   "count is: " |
-! | ("count is: ", |  7   Op_assign |     Ident      |     "\n"       |
-! |  count, "\n"); |         1      | ifier    count |                |
-! |         coun   |   9   Integer  |     I          |      0 push  1 |
-! | t = count + 1; |              1 | nteger       1 |                |
-! |     }          |         1      |     While      |    5 store [0] |
-! |                | 10   Semicolon |     Less       |                |
-! |                |                |     Ident      |   10 fetch [0] |
-! |                |     2      1   | ifier    count |                |
-! |                |  Keyword_while |     In         |    15 push  10 |
-! |                |         2      | teger       10 |       20 lt    |
-! |                |  7   LeftParen |     Sequence   |       21       |
-! |                |         2      |     Sequence   | jz     (43) 65 |
-! |                |    8   Identif |     ;          |                |
-! |                | ier      count |     Sequence   |     26 push  0 |
-! |                |         2      |     Sequence   |       31 prts  |
-! |                |   14   Op_less |     Sequence   |                |
-! |                |         2      |     ;          |   32 fetch [0] |
-! |                |  16   Integer  |     Prts       |       37 prti  |
-! |                |             10 |                |                |
-! |                |                |   String       |     38 push  1 |
-! |                |        2     1 |   "count is: " |       43 prts  |
-! |                | 8   RightParen |     ;          |                |
-! |                |         2      |     Prti       |   44 fetch [0] |
-! |                | 20   LeftBrace |     Ident      |                |
-! |                |                | ifier    count |     49 push  1 |
-! |                |     3      5   |     ;          |       54 add   |
-! |                |  Keyword_print |     Prts       |                |
-! |                |         3      |     Stri       |   55 store [0] |
-! |                | 10   LeftParen | ng        "\n" |       60 j     |
-! |                |                |     ;          | mp    (-51) 10 |
-! |                |    3     11    |     Assign     |       65 halt  |
-! |                | String         |     Ident      |                |
-! |                |   "count is: " | ifier    count |                |
-! |                |         3      |     Add        |                |
-! |                |     23   Comma |     Ident      |                |
-! |                |         3      | ifier    count |                |
-! |                |   25   Identif |     I          |                |
-! |                | ier      count | nteger       1 |                |
-! |                |         3      |                |                |
-! |                |     30   Comma |                |                |
-! |                |         3      |                |                |
-! |                |    32   String |                |                |
-! |                |           "\n" |                |                |
-! |                |                |                |                |
-! |                |        3     3 |                |                |
-! |                | 6   RightParen |                |                |
-! |                |         3      |                |                |
-! |                | 37   Semicolon |                |                |
-! |                |         4      |                |                |
-! |                |    5   Identif |                |                |
-! |                | ier      count |                |                |
-! |                |         4      |                |                |
-! |                | 11   Op_assign |                |                |
-! |                |         4      |                |                |
-! |                |   13   Identif |                |                |
-! |                | ier      count |                |                |
-! |                |         4      |                |                |
-! |                |    19   Op_add |                |                |
-! |                |         4      |                |                |
-! |                |  21   Integer  |                |                |
-! |                |              1 |                |                |
-! |                |         4      |                |                |
-! |                | 22   Semicolon |                |                |
-! |                |                |                |                |
-! |                |        5       |                |                |
-! |                | 1   RightBrace |                |                |
-! |                |                |                |                |
-! |                |      6      1  |                |                |
-! |                |   End_of_input |                |                |
-! +----------------+----------------+----------------+----------------+
+! +-------------------------------------------+-------------------------------------------------+--------------------------------+----------------------------+
+! | Input to lex                              | Output from lex, input to parse                 | Output from parse              | Output from gen, input to  |
+! |                                           |                                                 |                                | VM                         |
+! +===========================================+=================================================+================================+============================+
+! |     count = 1;                            |         1      1   Identifier      count        |     Sequence                   |     Datasize: 1 Strings: 2 |
+! |     while (count < 10) {                  |         1      7   Op_assign                    |     Sequence                   |     "count is: "           |
+! |         print("count is: ", count, "\n"); |         1      9   Integer              1       |     ;                          |     "\n"                   |
+! |         count = count + 1;                |         1     10   Semicolon                    |     Assign                     |        0 push  1           |
+! |     }                                     |         2      1   Keyword_while                |     Identifier    count        |        5 store [0]         |
+! |                                           |         2      7   LeftParen                    |     Integer       1            |       10 fetch [0]         |
+! |                                           |         2      8   Identifier      count        |     While                      |       15 push  10          |
+! |                                           |         2     14   Op_less                      |     Less                       |       20 lt                |
+! |                                           |         2     16   Integer             10       |     Identifier    count        |       21 jz     (43) 65    |
+! |                                           |         2     18   RightParen                   |     Integer       10           |       26 push  0           |
+! |                                           |         2     20   LeftBrace                    |     Sequence                   |       31 prts              |
+! |                                           |         3      5   Keyword_print                |     Sequence                   |       32 fetch [0]         |
+! |                                           |         3     10   LeftParen                    |     ;                          |       37 prti              |
+! |                                           |         3     11   String          "count is: " |     Sequence                   |       38 push  1           |
+! |                                           |         3     23   Comma                        |     Sequence                   |       43 prts              |
+! |                                           |         3     25   Identifier      count        |     Sequence                   |       44 fetch [0]         |
+! |                                           |         3     30   Comma                        |     ;                          |       49 push  1           |
+! |                                           |         3     32   String          "\n"         |     Prts                       |       54 add               |
+! |                                           |         3     36   RightParen                   |     String        "count is: " |       55 store [0]         |
+! |                                           |         3     37   Semicolon                    |     ;                          |       60 jmp    (-51) 10   |
+! |                                           |         4      5   Identifier      count        |     Prti                       |       65 halt              |
+! |                                           |         4     11   Op_assign                    |     Identifier    count        |                            |
+! |                                           |         4     13   Identifier      count        |     ;                          |                            |
+! |                                           |         4     19   Op_add                       |     Prts                       |                            |
+! |                                           |         4     21   Integer              1       |     String        "\n"         |                            |
+! |                                           |         4     22   Semicolon                    |     ;                          |                            |
+! |                                           |         5      1   RightBrace                   |     Assign                     |                            |
+! |                                           |         6      1   End_of_input                 |     Identifier    count        |                            |
+! |                                           |                                                 |     Add                        |                            |
+! |                                           |                                                 |     Identifier    count        |                            |
+! |                                           |                                                 |     Integer       1            |                            |
+! +-------------------------------------------+-------------------------------------------------+--------------------------------+----------------------------+
 ! 
-! Input format:
+! Input format
+! 
+!     
 ! 
 ! As shown in the table, above, the output from the syntax analyzer is a
 ! flattened AST.
@@ -140,27 +101,33 @@
 ! 
 ! Output format - refer to the table above
 ! 
-! -   The first line is the header: Size of data, and number of constant
-!     strings.
-!     -   size of data is the number of 32-bit unique variables used. In
-!         this example, one variable, count
-!     -   number of constant strings is just that - how many there are
-! -   After that, the constant strings
-! -   Finally, the assembly code
+! - The first line is the header: Size of data, and number of constant
+!   strings.
+!   - size of data is the number of 32-bit unique variables used. In this
+!     example, one variable, count
+!   - number of constant strings is just that - how many there are
+! - After that, the constant strings
+! - Finally, the assembly code
 ! 
-! Registers:
+! Registers
 ! 
-! -   sp: the stack pointer - points to the next top of stack. The stack
-!     is a 32-bit integer array.
+!     
 ! 
-! -   pc: the program counter - points to the current instruction to be
-!     performed. The code is an array of bytes.
+! - sp: the stack pointer - points to the next top of stack. The stack is
+!   a 32-bit integer array.
 ! 
-! Data:
+! - pc: the program counter - points to the current instruction to be
+!   performed. The code is an array of bytes.
+! 
+! Data
+! 
+!     
 ! 
 ! 32-bit integers and strings
 ! 
-! Instructions:
+! Instructions
+! 
+!     
 ! 
 ! Each instruction is one byte. The following instructions also have a
 ! 32-bit integer operand:
@@ -240,10 +207,10 @@
 ! 
 ! Related Tasks
 ! 
-! -   Lexical Analyzer task
-! -   Syntax Analyzer task
-! -   Virtual Machine Interpreter task
-! -   AST Interpreter task
+! - Lexical Analyzer task
+! - Syntax Analyzer task
+! - Virtual Machine Interpreter task
+! - AST Interpreter task
 ! 
 ! __TOC__
 

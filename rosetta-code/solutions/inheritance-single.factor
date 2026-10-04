@@ -12,9 +12,9 @@
 ! 
 ! Usually inherited properties are:
 ! 
-! -   -   methods
-!     -   components
-!     -   parts of the representation
+! - - methods
+!   - components
+!   - parts of the representation
 ! 
 ! The class of the new type is a subclass of the classes rooted in the
 ! parent types.
@@ -28,8 +28,8 @@
 ! 
 ! Inheritance is
 ! 
-! -   -   single, when only one parent is allowed
-!     -    multiple, otherwise
+! - - single, when only one parent is allowed
+!   -  multiple, otherwise
 ! 
 ! Some single inheritance languages usually allow multiple inheritance for
 ! certain abstract types, interfaces in particular.
@@ -44,7 +44,9 @@
 ! 
 ! With single inheritance it becomes a tree.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show a tree of types which inherit from each other.
 ! 

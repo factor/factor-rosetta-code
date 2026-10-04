@@ -6,13 +6,17 @@
 ! contestor has no opponent (AKA as a "bye"). The number of rounds is N in
 ! that case.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that prints out a tournament schedule for 12
 ! participants (represented by numbers 1 to 12).
 ! 
-! See also:
+! See also
 ! 
-! -   -   Wikipedia - Round-robin tournament
+!     
+! 
+! - - Wikipedia - Round-robin tournament
 
 

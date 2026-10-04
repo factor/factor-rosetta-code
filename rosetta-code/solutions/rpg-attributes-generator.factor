@@ -15,13 +15,15 @@
 ! To ensure generated characters don't put players at a disadvantage, the
 ! following requirements must be satisfied:
 ! 
-! -   The total of all character attributes must be at least 75.
-! -   At least two of the attributes must be at least 15.
+! - The total of all character attributes must be at least 75.
+! - At least two of the attributes must be at least 15.
 ! 
 ! However, this can require a lot of manual dice rolling. A programatic
 ! solution would be much faster.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that:
 ! 
@@ -30,9 +32,9 @@
 ! 3.  Generates a total of 6 values this way.
 ! 4.  Displays the total, and all 6 values once finished.
 ! 
-! -   The order in which each value was generated must be preserved.
-! -   The total of all 6 values must be at least 75.
-! -   At least 2 of the values must be 15 or more.
+! - The order in which each value was generated must be preserved.
+! - The total of all 6 values must be at least 75.
+! - At least 2 of the values must be 15 or more.
 ! 
 ! Category:Simple
 

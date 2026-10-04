@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Produce a zig-zag array.
 ! 
@@ -19,15 +21,19 @@
 !      9 11 17 20 22
 !     10 18 19 23 24
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Spiral matrix
-! -   Identity matrix
-! -   Ulam spiral (for primes)
+!     
 ! 
-! See also:
+! - Spiral matrix
+! - Identity matrix
+! - Ulam spiral (for primes)
 ! 
-! -   Wiktionary entry: anti-diagonals
+! See also
+! 
+!     
+! 
+! - Wiktionary entry: anti-diagonals
 
 USING: columns fry kernel make math math.ranges prettyprint
 sequences sequences.cords sequences.extras ;

@@ -10,23 +10,29 @@
 ! reciprocals provides the closest possible underestimate of 1 by any
 ! k-term Egyptian fraction.
 ! 
-! Task:
+! Task
 ! 
-! -   Write a routine (function, procedure, generator, whatever) to
-!     calculate Sylvester's sequence.
-! -   Use that routine to show the values of the first 10 elements in the
-!     sequence.
-! -   Show the sum of the reciprocals of the first 10 elements on the
-!     sequence, ideally as an exact fraction.
+!     
 ! 
-! Related tasks:
+! - Write a routine (function, procedure, generator, whatever) to
+!   calculate Sylvester's sequence.
+! - Use that routine to show the values of the first 10 elements in the
+!   sequence.
+! - Show the sum of the reciprocals of the first 10 elements on the
+!   sequence, ideally as an exact fraction.
 ! 
-! -   Egyptian fractions
-! -   Harmonic series
+! Related tasks
 ! 
-! See also:
+!     
 ! 
-! -   OEIS A000058 - Sylvester's sequence
+! - Egyptian fractions
+! - Harmonic series
+! 
+! See also
+! 
+!     
+! 
+! - OEIS A000058 - Sylvester's sequence
 
 USING: io kernel lists lists.lazy math prettyprint ;
 

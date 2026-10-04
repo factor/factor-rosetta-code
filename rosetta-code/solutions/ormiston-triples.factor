@@ -10,20 +10,20 @@
 ! 
 ! Task
 ! 
-! -   Find and show the smallest member of the first 25 Ormiston triples.
+! - Find and show the smallest member of the first 25 Ormiston triples.
 ! 
-! -   Find and show the count of Ormiston triples up to one billion.
+! - Find and show the count of Ormiston triples up to one billion.
 ! 
 ! Stretch
 ! 
-! -   Find and show the count of Ormiston triples up to ten billion.
+! - Find and show the count of Ormiston triples up to ten billion.
 ! 
 ! Reference
 ! 
-! -   OEIS:A075093 - Smallest member of Ormiston prime triple
+! - OEIS:A075093 - Smallest member of Ormiston prime triple
 ! 
 ! Related task
 ! 
-! -   Ormiston pairs
+! - Ormiston pairs
 
 

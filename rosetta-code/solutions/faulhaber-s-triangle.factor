@@ -20,16 +20,18 @@
 ! 
 ! Task
 ! 
-! -   -   show the first 10 rows of Faulhaber's triangle.
-!     -   using the 18th row of Faulhaber's triangle, compute the sum:
-!         $\sum_{k=1}^{1000} k^{17}$ (extra credit).
+! - - show the first 10 rows of Faulhaber's triangle.
+!   - using the 18th row of Faulhaber's triangle, compute the sum:
+!     $\sum_{k=1}^{1000} k^{17}$ (extra credit).
 ! 
-! See also:
+! See also
 ! 
-! -   Bernoulli numbers
-! -   Evaluate binomial coefficients
-! -   Faulhaber's formula (Wikipedia)
-! -   Faulhaber's triangle (PDF)
+!     
+! 
+! - Bernoulli numbers
+! - Evaluate binomial coefficients
+! - Faulhaber's formula (Wikipedia)
+! - Faulhaber's triangle (PDF)
 
 USING: kernel math math.combinatorics math.extras math.functions
 math.ranges prettyprint sequences ;

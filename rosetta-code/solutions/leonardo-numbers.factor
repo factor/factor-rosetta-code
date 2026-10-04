@@ -23,29 +23,35 @@
 ! 
 !    1 1 3 5 9 15 25 41 67 109 177 287 465 753 1219 1973 3193 5167 8361 ···
 ! 
-! Task:
+! Task
 ! 
-! -   -   show the 1^(st) 25 Leonardo numbers, starting at L(0).
-!     -   allow the first two Leonardo numbers to be specified [for L(0)
-!         and L(1)].
-!     -   allow the add number to be specified (1 is the default).
-!     -   show the 1^(st) 25 Leonardo numbers, specifying 0 and 1 for L(0)
-!         and L(1), and 0 for the add number.
+!     
+! 
+! - - show the 1^(st) 25 Leonardo numbers, starting at L(0).
+!   - allow the first two Leonardo numbers to be specified [for L(0) and
+!     L(1)].
+!   - allow the add number to be specified (1 is the default).
+!   - show the 1^(st) 25 Leonardo numbers, specifying 0 and 1 for L(0) and
+!     L(1), and 0 for the add number.
 ! 
 ! (The last task requirement will produce the Fibonacci numbers.)
 ! 
 ! Show all output here on this page.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Fibonacci number
-! -   Fibonacci n-step number sequences
+!     
 ! 
-! See also:
+! - Fibonacci number
+! - Fibonacci n-step number sequences
 ! 
-! -   Wikipedia, Leonardo numbers
-! -   Wikipedia, Fibonacci numbers
-! -   OEIS Leonardo numbers
+! See also
+! 
+!     
+! 
+! - Wikipedia, Leonardo numbers
+! - Wikipedia, Fibonacci numbers
+! - OEIS Leonardo numbers
 ! 
 ! Category:Classic CS problems and programs
 

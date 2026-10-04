@@ -1,4 +1,6 @@
-! Definitions:
+! Definitions
+! 
+!     
 ! 
 ! As used here, all unprimeable numbers (positive integers) are always
 ! expressed in base ten.
@@ -19,7 +21,9 @@
 ! All one─ and two─digit numbers can be turned into primes by changing a
 ! single decimal digit.
 ! 
-! Examples:
+! Examples
+! 
+!     
 ! 
 ! 190 isn't unprimeable, because by changing the zero digit into a three
 ! yields 193, which is a prime.
@@ -33,25 +37,29 @@
 ! (zero), which then the leading zero can be removed, and then treated as
 ! if the "new" number is 89.
 ! 
-! Task:
+! Task
 ! 
-! -   -   show the first 35 unprimeable numbers (horizontally, on one
-!         line, preferably with a title)
-!     -   show the 600^(th) unprimeable number
-!     -   (optional) show the lowest unprimeable number ending in a
-!         specific decimal digit (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
-!     -   (optional) use commas in the numbers where appropriate
+!     
+! 
+! - - show the first 35 unprimeable numbers (horizontally, on one line,
+!     preferably with a title)
+!   - show the 600^(th) unprimeable number
+!   - (optional) show the lowest unprimeable number ending in a specific
+!     decimal digit (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+!   - (optional) use commas in the numbers where appropriate
 ! 
 ! Show all output here, on this page.
 ! 
-! Also see:
+! Also see
 ! 
-! -   -   the OEIS entry: A118118 (unprimeable)
-!     -   with some useful counts to compare unprimeable number
-!     -   the Wiktionary entry (reference from below): (arithmetic
-!         definition) unprimeable
-!     -   from the Adam Spencer book (page 200): Adam Spencer's World of
-!         Numbers (Xoum Publishing)
+!     
+! 
+! - - the OEIS entry: A118118 (unprimeable)
+!   - with some useful counts to compare unprimeable number
+!   - the Wiktionary entry (reference from below): (arithmetic definition)
+!     unprimeable
+!   - from the Adam Spencer book (page 200): Adam Spencer's World of
+!     Numbers (Xoum Publishing)
 
 USING: assocs formatting io kernel lists lists.lazy
 lists.lazy.examples math math.functions math.primes math.ranges

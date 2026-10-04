@@ -5,7 +5,9 @@
 ! so that the program behaves in a well-defined manner upon receipt of a
 ! signal.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Provide a program that displays an integer on each line of output at the
 ! rate of about one per half second. Upon receipt of the SIGINT signal

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a boolean function which takes in a string and tells whether it
 ! is a numeric string (floating point and negative numbers included) in

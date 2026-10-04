@@ -52,8 +52,8 @@
 ! gamma.
 ! ;Task:
 ! 
-! -   Calculate and show the values of the χ2(x; k) for k = 1 through 5
-!     inclusive and x integer from 0 and through 10 inclusive.
+! - Calculate and show the values of the χ2(x; k) for k = 1 through 5
+!   inclusive and x integer from 0 and through 10 inclusive.
 ! 
 ! * Create a function to calculate the cumulative probability function for
 ! the χ2 distribution. This will need to be reasonably accurate (at least
@@ -79,15 +79,19 @@
 ! 3 from the previous task.
 ! ; Stretch task:
 ! 
-! -   Show how you could make a plot of the curves for the probability
-!     distribution function χ2(x; k) for k = 0, 1, 2, and 3.
+! - Show how you could make a plot of the curves for the probability
+!   distribution function χ2(x; k) for k = 0, 1, 2, and 3.
 ! 
-! Related Tasks:
+! Related Tasks
 ! 
-! -   Statistics/Basic
-! -   Statistics/Normal_distribution
+!     
 ! 
-! See also:
+! - Statistics/Basic
+! - Statistics/Normal_distribution
+! 
+! See also
+! 
+!     
 ! 
 ! https://en.wikipedia.org/wiki/Chi-squared_test Chi Squared Test
 ! https://www.itl.nist.gov/div898/handbook/eda/section3/eda3666.htm NIST

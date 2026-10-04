@@ -1,13 +1,15 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Strip control codes and extended characters from a string.
 ! 
 ! The solution should demonstrate how to achieve each of the following
 ! results:
 ! 
-! -   -   a string with control codes stripped (but extended characters
-!         not stripped)
-!     -   a string with control codes and extended characters stripped
+! - - a string with control codes stripped (but extended characters not
+!     stripped)
+!   - a string with control codes and extended characters stripped
 ! 
 ! In ASCII, the control codes have decimal codes 0 through to 31 and 127.
 ! 

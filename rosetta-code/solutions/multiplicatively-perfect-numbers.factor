@@ -22,10 +22,12 @@
 ! 
 ! Related (and near duplicate) task
 ! 
-! -   Semiprime
+! - Semiprime
 ! 
-! See also:
+! See also
 ! 
-! -   The OEIS sequence: A007422: Multiplicatively perfect numbers
+!     
+! 
+! - The OEIS sequence: A007422: Multiplicatively perfect numbers
 
 

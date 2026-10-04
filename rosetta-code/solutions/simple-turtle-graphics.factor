@@ -7,20 +7,21 @@
 ! 
 ! []
 ! 
-! Task:
+! Task
 ! 
-! -   -   Create a function (or subroutine) that uses turtle graphics to
-!         draw a house of a specified size as depicted. Optionally make it
-!         lovely by adding details such as, for example, doors and
-!         windows.
+!     
 ! 
-! -   -   Create a function (or subroutine) that takes a list (array,
-!         vector) of non-negative numbers and draws a bar chart from them,
-!         scaled to fit exactly in a square of a specified size. The
-!         enclosing square need not be drawn.
+! - - Create a function (or subroutine) that uses turtle graphics to draw
+!     a house of a specified size as depicted. Optionally make it lovely
+!     by adding details such as, for example, doors and windows.
 ! 
-! -   -   Both functions should return the turtle to the location it was
-!         at and facing in the same direction as it was immediately before
-!         the function was executed.
+! - - Create a function (or subroutine) that takes a list (array, vector)
+!     of non-negative numbers and draws a bar chart from them, scaled to
+!     fit exactly in a square of a specified size. The enclosing square
+!     need not be drawn.
+! 
+! - - Both functions should return the turtle to the location it was at
+!     and facing in the same direction as it was immediately before the
+!     function was executed.
 
 

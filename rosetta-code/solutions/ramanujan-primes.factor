@@ -18,11 +18,13 @@
 ! 
 ! *: Find and show the 10,000th Ramanujan prime number.
 ! 
-! See also:
+! See also
 ! 
-! -   -   The pi prime function, not to be confused with the
-!         transcendental number π
-!     -   The OEIS entry: OEIS entry
-!     -   The Wikipedia entry: Ramanujan_prime.
+!     
+! 
+! - - The pi prime function, not to be confused with the transcendental
+!     number π
+!   - The OEIS entry: OEIS entry
+!   - The Wikipedia entry: Ramanujan_prime.
 
 

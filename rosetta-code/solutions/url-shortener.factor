@@ -5,10 +5,10 @@
 ! A simple URL shortener with no special rules is very simple and consists
 ! of 2 endpoints:
 ! 
-! -   One to generate a short version of a URL given a long version of a
-!     URL.
-! -   One to handle a call to the short version of a URL and redirect the
-!     user to the long (original) version of the URL.
+! - One to generate a short version of a URL given a long version of a
+!   URL.
+! - One to handle a call to the short version of a URL and redirect the
+!   user to the long (original) version of the URL.
 ! 
 ! Create a simple URL shortening API with the following endpoints:
 ! 
@@ -44,9 +44,9 @@
 ! 
 ! Rules:
 ! 
-! -   Store the short -> long mappings in any way you like. In-memory is
-!     fine.
-! -   There are no auth requirements. Your API can be completely open.
+! - Store the short -> long mappings in any way you like. In-memory is
+!   fine.
+! - There are no auth requirements. Your API can be completely open.
 ! 
 ! Category:Networking and Web Interaction
 

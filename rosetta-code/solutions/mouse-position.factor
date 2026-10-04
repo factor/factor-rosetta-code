@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Get the current location of the mouse cursor relative to the active
 ! window.

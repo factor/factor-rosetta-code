@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a window and draw a pixel in it, subject to the following:
 ! 

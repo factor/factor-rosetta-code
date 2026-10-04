@@ -1,8 +1,8 @@
 ! This task has three parts:
 ! 
-! -   Connect to a MySQL database (connect_db)
-! -   Create user/password records in the following table (create_user)
-! -   Authenticate login requests against the table (authenticate_user)
+! - Connect to a MySQL database (connect_db)
+! - Create user/password records in the following table (create_user)
+! - Authenticate login requests against the table (authenticate_user)
 ! 
 ! This is the table definition:
 ! 

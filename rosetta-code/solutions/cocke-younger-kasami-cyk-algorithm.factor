@@ -36,10 +36,10 @@
 ! 
 ! The table is filled bottom-up:
 ! 
-! -   For substrings of length 1 (l = 1): For each position i from 1 to n,
-!     add non-terminal A to T[i, i] if there is a production A → w_(i).
+! - For substrings of length 1 (l = 1): For each position i from 1 to n,
+!   add non-terminal A to T[i, i] if there is a production A → w_(i).
 ! 
-! -   For substring lengths l = 2  to  n:
+! - For substring lengths l = 2  to  n:
 ! 
 !  For each starting position i from 1 to n - l + 1, let j = i + l - 1.  
 !  For each possible split point k from i to j-1:  
@@ -74,10 +74,10 @@
 ! 
 ! Complexity
 ! 
-! -   Time: O(n³|G|), where |G| is the size of the grammar (number of
-!     productions). Since |G| is constant for a fixed grammar, typically
-!     stated as O(n³).
-! -   Space: O(n²).
+! - Time: O(n³|G|), where |G| is the size of the grammar (number of
+!   productions). Since |G| is constant for a fixed grammar, typically
+!   stated as O(n³).
+! - Space: O(n²).
 ! 
 ! Extensions
 ! 
@@ -94,12 +94,12 @@
 ! 
 ! Grammar Rules
 ! 
-! -   NP → Det Nom
-! -   Nom → AP Nom | book | orange | man
-! -   AP → Adv A | heavy | orange | tall
-! -   Det → a
-! -   Adv → very | extremely
-! -   A → heavy | orange | tall | muscular
+! - NP → Det Nom
+! - Nom → AP Nom | book | orange | man
+! - AP → Adv A | heavy | orange | tall
+! - Det → a
+! - Adv → very | extremely
+! - A → heavy | orange | tall | muscular
 ! 
 ! (Note: This grammar allows recursive adjective phrases, e.g., "very
 ! heavy orange".)

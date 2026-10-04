@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Shuffle the characters of a string in such a way that as many of the
 ! character values are in a different position as possible.
@@ -14,11 +16,15 @@
 ! The score gives the number of positions whose character value did not
 ! change.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! tree, eetr, (0)
 ! 
-! Test cases:
+! Test cases
+! 
+!     
 ! 
 ! abracadabra
 ! seesaw
@@ -29,8 +35,8 @@
 ! 
 ! Related tasks
 ! 
-! -   Anagrams/Deranged anagrams
-! -   Permutations/Derangements
+! - Anagrams/Deranged anagrams
+! - Permutations/Derangements
 
 
 USING: arrays combinators.short-circuit formatting kernel random

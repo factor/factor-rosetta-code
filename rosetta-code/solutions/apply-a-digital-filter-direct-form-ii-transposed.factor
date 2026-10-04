@@ -4,7 +4,9 @@
 ! finite impulse response (FIR) filters, as well as being more numerically
 ! stable than other forms. [1]
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Filter a signal using an order 3 low-pass Butterworth filter. The
 ! coefficients for the filter are a=[1.00000000, -2.77555756e-16,
@@ -18,7 +20,9 @@
 ! 0.400833448236, -0.2085993586, -0.172842103641, -0.134316096293,
 ! 0.0259303398477, 0.490105989562, 0.549391221511, 0.9047198589]
 ! 
-! See also:
+! See also
+! 
+!     
 ! 
 ! https://en.wikipedia.org/wiki/Butterworth_filter Wikipedia on
 ! Butterworth filters

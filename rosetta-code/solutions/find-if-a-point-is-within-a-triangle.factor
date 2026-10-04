@@ -1,31 +1,36 @@
 ! Find if a point is within a triangle.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Assume points are on a plane defined by (x, y) real number
-!         coordinates.
+!     
 ! 
-! -   -   Given a point P(x, y) and a triangle formed by points A, B, and
-!         C, determine if P is within triangle ABC.
+! - - Assume points are on a plane defined by (x, y) real number
+!     coordinates.
 ! 
-! -   -   You may use any algorithm.
+! - - Given a point P(x, y) and a triangle formed by points A, B, and C,
+!     determine if P is within triangle ABC.
 ! 
-! -   -   Bonus: explain why the algorithm you chose works.
+! - - You may use any algorithm.
 ! 
-! Related tasks:
+! - - Bonus: explain why the algorithm you chose works.
 ! 
-! -   Determine_if_two_triangles_overlap
+! Related tasks
 ! 
-! Also see:
+!     
 ! 
-! -   -   Discussion of several methods.
-!         http://totologic.blogspot.com/2014/01/accurate-point-in-triangle-test.html
-!     -   Determine if a point is in a polygon
-!         https://en.wikipedia.org/wiki/Point_in_polygon
-!     -   Triangle based coordinate systems
-!         https://en.wikipedia.org/wiki/Barycentric_coordinate_system
-!     -   Wolfram entry
-!         https://mathworld.wolfram.com/TriangleInterior.html
+! - Determine_if_two_triangles_overlap
+! 
+! Also see
+! 
+!     
+! 
+! - - Discussion of several methods.
+!     http://totologic.blogspot.com/2014/01/accurate-point-in-triangle-test.html
+!   - Determine if a point is in a polygon
+!     https://en.wikipedia.org/wiki/Point_in_polygon
+!   - Triangle based coordinate systems
+!     https://en.wikipedia.org/wiki/Barycentric_coordinate_system
+!   - Wolfram entry https://mathworld.wolfram.com/TriangleInterior.html
 ! 
 ! Category:Geometry Category:Collision detection
 

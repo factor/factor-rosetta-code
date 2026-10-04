@@ -1,11 +1,11 @@
 ! []
 ! 
-! |right
-! 
 ! This organic chemistry task is essentially to implement a tree
 ! enumeration algorithm.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Enumerate, without repetitions and in order of increasing size, all
 ! possible paraffin molecules (also known as alkanes).
@@ -33,14 +33,16 @@
 ! what seem at first to be different molecules may in fact turn out to be
 ! different orientations of the same molecule.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! With n = 3 there is only one way of linking the carbons despite the
 ! different orientations the molecule can be drawn; and with n = 4 there
 ! are two configurations:
 ! 
-! -   -   a straight chain: (CH₃)(CH₂)(CH₂)(CH₃)
-!     -   a branched chain: (CH₃)(CH(CH₃))(CH₃)
+! - - a straight chain: (CH₃)(CH₂)(CH₂)(CH₃)
+!   - a branched chain: (CH₃)(CH(CH₃))(CH₃)
 ! 
 ! Due to bond rotations, it doesn't matter which direction the branch
 ! points in.
@@ -70,7 +72,9 @@
 ! 36797588, 93839412, 240215803, 617105614, 1590507121, 4111846763,
 ! 10660307791, 27711253769, ...
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Show the paraffins in some way.
 ! 
@@ -111,22 +115,24 @@
 !                                                                            │
 !                                                                            H
 ! 
-! Links:
+! Links
 ! 
-! -   A paper that explains the problem and its solution in a functional
-!     language:
+!     
+! 
+! - A paper that explains the problem and its solution in a functional
+!   language:
 ! 
 ! http://www.cs.wright.edu/~tkprasad/courses/cs776/paraffins-turner.pdf
 ! 
-! -   A Haskell implementation:
+! - A Haskell implementation:
 ! 
 ! https://github.com/ghc/nofib/blob/master/imaginary/paraffins/Main.hs
 ! 
-! -   A Scheme implementation:
+! - A Scheme implementation:
 ! 
 ! http://www.ccs.neu.edu/home/will/Twobit/src/paraffins.scm
 ! 
-! -   A Fortress implementation: (this site has been closed)
+! - A Fortress implementation: (this site has been closed)
 ! 
 ! http://java.net/projects/projectfortress/sources/sources/content/ProjectFortress/demos/turnersParaffins0.fss?rev=3005
 

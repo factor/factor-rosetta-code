@@ -85,10 +85,10 @@
 ! 
 ! Reference
 ! 
-! -   RFC 6901 - JSON Pointer Internet Standards Track document
+! - RFC 6901 - JSON Pointer Internet Standards Track document
 ! 
 ! Related tasks
 ! 
-! -   JSON
+! - JSON
 
 

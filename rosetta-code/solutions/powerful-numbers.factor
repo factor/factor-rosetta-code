@@ -14,32 +14,31 @@
 ! Write a function that generates all the k-powerful numbers less than or
 ! equal to n.
 ! 
-! -   For k = 2..10, generate the set of k-powerful numbers <= 10^k and
-!     show the first 5 and the last 5 terms, along with the length of the
-!     set.
+! - For k = 2..10, generate the set of k-powerful numbers <= 10^k and show
+!   the first 5 and the last 5 terms, along with the length of the set.
 ! 
 ! Write a function that counts the number of k-powerful numbers less than
 ! or equal to n. (optional)
 ! 
-! -   For k = 2..10, show the number of k-powerful numbers less than or
-!     equal to 10^j, for 0 <= j < k+10.
+! - For k = 2..10, show the number of k-powerful numbers less than or
+!   equal to 10^j, for 0 <= j < k+10.
 ! 
 ! See also
 ! 
-! -   Wikipedia, Powerful number
+! - Wikipedia, Powerful number
 ! 
-! -   OEIS A001694: 2-powerful numbers
+! - OEIS A001694: 2-powerful numbers
 ! 
-! -   OEIS A036966: 3-powerful numbers
+! - OEIS A036966: 3-powerful numbers
 ! 
-! -   OEIS A036967: 4-powerful numbers
+! - OEIS A036967: 4-powerful numbers
 ! 
-! -   OEIS A069492: 5-powerful numbers
+! - OEIS A069492: 5-powerful numbers
 ! 
-! -   OEIS A069493: 6-powerful numbers
+! - OEIS A069493: 6-powerful numbers
 ! 
-! -   OEIS A062762: number of powerful numbers <= 2^n
+! - OEIS A062762: number of powerful numbers <= 2^n
 ! 
-! -   OEIS A118896: number of powerful numbers <= 10^n
+! - OEIS A118896: number of powerful numbers <= 10^n
 
 

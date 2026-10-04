@@ -1,6 +1,8 @@
 ! S-Expressions are one convenient way to parse and store data.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a simple reader and writer for S-Expressions that handles quoted
 ! and unquoted strings, integers and floats.
@@ -39,7 +41,9 @@
 ! () don't need to be quoted in the resulting S-Expression, but as a
 ! simplification, any string may be quoted.
 ! 
-! Extra Credit:
+! Extra Credit
+! 
+!     
 ! 
 ! Let the writer produce pretty printed output with indenting and
 ! line-breaks.

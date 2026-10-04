@@ -35,7 +35,9 @@
 ! Each row n (starting with row 0 at the top) shows the coefficients of
 ! the binomial expansion of (x + y)^(n).
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function that prints out the first n rows of the triangle (with
 ! f(1) yielding the row consisting of only the element 1).
@@ -45,9 +47,11 @@
 ! 
 ! Behavior for n ≤ 0 does not need to be uniform, but should be noted.
 ! 
-! See also:
+! See also
 ! 
-! -   Evaluate binomial coefficients
+!     
+! 
+! - Evaluate binomial coefficients
 
 USING: grouping kernel math sequences ;
 

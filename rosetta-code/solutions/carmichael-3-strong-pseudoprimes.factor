@@ -8,7 +8,9 @@
 ! based on Carmichael numbers, as suggested in Notes by G.J.O Jameson
 ! March 2010.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find Carmichael numbers of the form:
 ! 
@@ -20,7 +22,9 @@
 ! 
 ! (See page 7 of Notes by G.J.O Jameson March 2010 for solutions.)
 ! 
-! Pseudocode:
+! Pseudocode
+! 
+!     
 ! 
 ! For a given Prime₁
 ! 

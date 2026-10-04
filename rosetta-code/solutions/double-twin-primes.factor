@@ -14,7 +14,7 @@
 ! 
 ! See also
 ! 
-! -   -   OEIS:A007530
-!     -   Wikipedia:Prime_k-tuple
+! - - OEIS:A007530
+!   - Wikipedia:Prime_k-tuple
 
 

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Numbers n such that the three numbers n-1, n+3, and n+5 are all prime,
 ! where n < 6,000.

@@ -2,14 +2,18 @@
 ! OEIS) are the natural numbers with more factors than any smaller than
 ! itself.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Generate and show here, the first twenty anti-primes.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Factors of an integer
-!     -   Sieve of Eratosthenes
+!     
+! 
+! - - Factors of an integer
+!   - Sieve of Eratosthenes
 ! 
 ! Category:Prime Numbers
 

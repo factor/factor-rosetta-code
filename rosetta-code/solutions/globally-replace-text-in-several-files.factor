@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Replace every occurring instance of a piece of text in a group of text
 ! files with another one.

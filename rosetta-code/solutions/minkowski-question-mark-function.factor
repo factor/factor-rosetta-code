@@ -14,24 +14,26 @@
 ! The question-mark function is continuous and monotonically increasing,
 ! so it has an inverse.
 ! 
-! -   Produce a function for . Be careful: rational numbers have two
-!     possible continued fraction representations:
-!     -   -   and
+! - Produce a function for . Be careful: rational numbers have two
+!   possible continued fraction representations:
+!   - - and
 ! 
-!         -   
-! -   Choose one of the above that will give a binary expansion ending
-!     with a 1.
-! -   Produce the inverse function
-! -   Verify that = 5/3, where is the Greek golden ratio.
-! -   Verify that = (√13 - 7)/6
-! -   Verify that the two functions are inverses of each other by showing
-!     that = and = for of your choice
+!     - 
+! - Choose one of the above that will give a binary expansion ending with
+!   a 1.
+! - Produce the inverse function
+! - Verify that = 5/3, where is the Greek golden ratio.
+! - Verify that = (√13 - 7)/6
+! - Verify that the two functions are inverses of each other by showing
+!   that = and = for of your choice
 ! 
 ! Don't worry about precision error in the last few digits.
 ! 
-! See also:
+! See also
 ! 
-! -   Wikipedia entry: Minkowski's question-mark function
+!     
+! 
+! - Wikipedia entry: Minkowski's question-mark function
 
 USING: formatting kernel make math math.constants
 math.continued-fractions math.functions math.parser

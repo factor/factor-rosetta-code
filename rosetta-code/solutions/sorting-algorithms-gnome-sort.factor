@@ -22,7 +22,9 @@
 !         endif
 !     done
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement the Gnome sort in your language to sort an array (or list) of
 ! numbers.

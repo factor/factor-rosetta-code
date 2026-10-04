@@ -35,19 +35,19 @@
 ! For the task we need to set four variables according to the
 ! configuration entries as follows:
 ! 
-! -   fullname = Foo Barber
-! -   favouritefruit = banana
-! -   needspeeling = true
-! -   seedsremoved = false
+! - fullname = Foo Barber
+! - favouritefruit = banana
+! - needspeeling = true
+! - seedsremoved = false
 ! 
 ! We also have an option that contains multiple parameters. These may be
 ! stored in an array.
 ! 
-! -   otherfamily(1) = Rhu Barber
-! -   otherfamily(2) = Harry Barber
+! - otherfamily(1) = Rhu Barber
+! - otherfamily(2) = Harry Barber
 ! 
 ! Related tasks
 ! 
-! -   Update a configuration file
+! - Update a configuration file
 
 

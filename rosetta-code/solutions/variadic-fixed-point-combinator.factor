@@ -6,7 +6,9 @@
 ! i-th function out of n given functions:
 ! fix_(i, n)f₁…f_(n) = f_(i)(fix_(1, n)f₁…f_(n))…(fix_(n, n)f₁…f_(n))
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Your task is to implement a variadic fixed-point combinator fix^(*) that
 ! finds and returns the fixed points of all given functions:
@@ -22,15 +24,19 @@
 ! Also try to come up with examples where fix^(*) could actually be
 ! somewhat useful.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Y combinator
-! -   Variadic function
+!     
 ! 
-! See also:
+! - Y combinator
+! - Variadic function
+! - Mutual recursion
 ! 
-! -   Mayer Goldberg: A Variadic Extension of Curry’s Fixed-Point
-!     Combinator
+! See also
+! 
+!     
+! 
+! - Mayer Goldberg: A Variadic Extension of Curry’s Fixed-Point Combinator
 ! 
 ! Category:Recursion
 

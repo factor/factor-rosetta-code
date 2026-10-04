@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a file called "output.txt", and place in it the contents of the
 ! file "input.txt", via an intermediate variable.

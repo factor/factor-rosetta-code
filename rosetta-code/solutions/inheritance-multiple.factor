@@ -4,7 +4,9 @@
 ! Some languages allow multiple inheritance for arbitrary classes, others
 ! restrict it to interfaces, some don't allow it at all.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write two classes (or interfaces) Camera and MobilePhone, then write a
 ! class CameraPhone which is both a Camera and a MobilePhone.

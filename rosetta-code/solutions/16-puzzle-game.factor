@@ -20,7 +20,9 @@
 ! The Easy puzzle target is 3 moves, for the Hard puzzle it is 12 moves
 ! (or less!). Can it be that simple?
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create 16 Puzzle Game.
 ! 
@@ -28,9 +30,11 @@
 ! 
 ! Video: 16 Puzzle Game
 ! 
-! Related task:
+! Related task
 ! 
-! -   -   15 Puzzle Game
+!     
+! 
+! - - 15 Puzzle Game
 ! 
 ! Category:Puzzles Category:Games
 

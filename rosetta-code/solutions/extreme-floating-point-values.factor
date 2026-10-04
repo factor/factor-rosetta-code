@@ -12,16 +12,20 @@
 ! If your language can directly enter these extreme floating point values
 ! then show it.
 ! 
-! See also:
+! See also
 ! 
-! -   What Every Computer Scientist Should Know About Floating-Point
-!     Arithmetic
+!     
 ! 
-! Related tasks:
+! - What Every Computer Scientist Should Know About Floating-Point
+!   Arithmetic
 ! 
-! -   Infinity
-! -   Detect division by zero
-! -   Literals/Floating point
+! Related tasks
+! 
+!     
+! 
+! - Infinity
+! - Detect division by zero
+! - Literals/Floating point
 
 -0.             . ! -0.0  literal negative zero
  0. neg         . ! -0.0  neg works with floating point zeros

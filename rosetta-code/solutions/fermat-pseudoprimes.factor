@@ -17,12 +17,12 @@
 ! 
 ! For base integers a of 1 through 20:
 ! 
-! -   Find the count of pseudoprimes up to and including 12,000.
-! -   Show the first 20 pseudoprimes.
+! - Find the count of pseudoprimes up to and including 12,000.
+! - Show the first 20 pseudoprimes.
 ! 
 ! Stretch
 ! 
-! -   Extend the count threshold out to 25,000, 50,000 or higher.
+! - Extend the count threshold out to 25,000, 50,000 or higher.
 ! 
 ! See also
 ! 

@@ -8,10 +8,10 @@
 ! state has been reached through an asynchronous activity. The source of
 ! the event can be:
 ! 
-! -   internal, from another task, programmatically;
-! -   external, from the hardware, such as user input, timer, etc.
-!     Signaling an event from the hardware is accomplished by means of
-!     hardware interrupts.
+! - internal, from another task, programmatically;
+! - external, from the hardware, such as user input, timer, etc. Signaling
+!   an event from the hardware is accomplished by means of hardware
+!   interrupts.
 ! 
 ! Event is a low-level synchronization mechanism. It neither identify the
 ! state that caused it signaled, nor the source of, nor who is the subject

@@ -37,23 +37,26 @@
 ! be first isolated and shown preceding the Egyptian unit fractions, and
 ! be surrounded by square brackets [n].
 ! 
-! Task requirements:
+! Task requirements
 ! 
-! -   show the Egyptian fractions for: $\tfrac{43}{48}$ and
-!     $\tfrac{5}{121}$ and $\tfrac{2014}{59}$
-! -   for all proper fractions, $\tfrac{a}{b}$ where a and b are positive
-!     one-or two-digit (decimal) integers, find and show an Egyptian
-!     fraction that has:
-!     -   -   the largest number of terms,
-!         -   the largest denominator.
-! -   for all one-, two-, and three-digit integers, find and show (as
-!     above). {extra credit}
+!     
 ! 
-! Also see:
+! - show the Egyptian fractions for: $\tfrac{43}{48}$ and $\tfrac{5}{121}$
+!   and $\tfrac{2014}{59}$
+! - for all proper fractions, $\tfrac{a}{b}$ where a and b are positive
+!   one-or two-digit (decimal) integers, find and show an Egyptian
+!   fraction that has:
+!   - - the largest number of terms,
+!     - the largest denominator.
+! - for all one-, two-, and three-digit integers, find and show (as
+!   above). {extra credit}
 ! 
-! -   Wolfram MathWorld™ entry: Egyptian fraction
-! -   Numberphile YouTube video: Egyptian Fractions and the Greedy
-!     Algorithm
+! Also see
+! 
+!     
+! 
+! - Wolfram MathWorld™ entry: Egyptian fraction
+! - Numberphile YouTube video: Egyptian Fractions and the Greedy Algorithm
 
 USING: backtrack formatting fry kernel locals make math
 math.functions math.ranges sequences ;

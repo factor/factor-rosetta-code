@@ -14,6 +14,6 @@
 ! 
 ! Reference
 ! 
-! -   Gosper's Hack explained
+! - Gosper's Hack explained
 
 

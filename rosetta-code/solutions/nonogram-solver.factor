@@ -61,14 +61,13 @@
 ! 
 ! Related tasks
 ! 
-! -   Nonoblock.
+! - Nonoblock.
 ! 
 ! See also
 ! 
-! -   Arc Consistency Algorithm
-! -   http://www.haskell.org/haskellwiki/99_questions/Solutions/98
-!     (Haskell)
-! -   http://twanvl.nl/blog/haskell/Nonograms (Haskell)
-! -   http://picolisp.com/5000/!wiki?99p98 (PicoLisp)
+! - Arc Consistency Algorithm
+! - http://www.haskell.org/haskellwiki/99_questions/Solutions/98 (Haskell)
+! - http://twanvl.nl/blog/haskell/Nonograms (Haskell)
+! - http://picolisp.com/5000/!wiki?99p98 (PicoLisp)
 
 

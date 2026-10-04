@@ -22,16 +22,16 @@
 ! 
 ! Suggestions for improvement
 ! 
-! -   Estimating the error in the estimate to help ensure the estimate is
-!     accurate to 4 decimal places.
-! -   Converging to the n^(th) solution using a root finding method, as
-!     opposed to using an extensive search.
-! -   Kudos (κῦδος) for finding the solution by proof (in a programming
-!     language) rather than by construction and simulation.
+! - Estimating the error in the estimate to help ensure the estimate is
+!   accurate to 4 decimal places.
+! - Converging to the n^(th) solution using a root finding method, as
+!   opposed to using an extensive search.
+! - Kudos (κῦδος) for finding the solution by proof (in a programming
+!   language) rather than by construction and simulation.
 ! 
 ! See also
 ! 
-! -   Wolfram entry:
+! - Wolfram entry:
 ! 
 ! Category:Probability and statistics Category:Discrete math
 

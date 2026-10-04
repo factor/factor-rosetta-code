@@ -12,15 +12,15 @@
 ! 
 ! Please discuss this issue at {{TALKPAGENAME}}.
 ! 
-! -   From 29 March 2011, this task required that: "The comment marker and
-!     any whitespace at the beginning or ends of the resultant line should
-!     be removed. A line without comments should be trimmed of any leading
-!     or trailing whitespace before being produced as a result." The task
-!     had 28 languages, which did not all meet this new requirement.
-! -   From 28 March 2011, this task required that: "Whitespace before the
-!     comment marker should be removed."
-! -   From 30 October 2010, this task did not specify whether or not to
-!     remove whitespace.
+! - From 29 March 2011, this task required that: "The comment marker and
+!   any whitespace at the beginning or ends of the resultant line should
+!   be removed. A line without comments should be trimmed of any leading
+!   or trailing whitespace before being produced as a result." The task
+!   had 28 languages, which did not all meet this new requirement.
+! - From 28 March 2011, this task required that: "Whitespace before the
+!   comment marker should be removed."
+! - From 30 October 2010, this task did not specify whether or not to
+!   remove whitespace.
 ! 
 ! The following examples will be truncated to either "apples, pears " or
 ! "apples, pears".

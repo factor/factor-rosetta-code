@@ -6,7 +6,8 @@
 !     Search for the last used punctuation in a sentence, and determine
 !     its type according to its punctuation.
 ! 
-! Output one of these letters: "E" (Exclamation!), "Q" (Question?), "S" (Serious.), "N" (Neutral).
+! Output one of these letters
+!     "E" (Exclamation!), "Q" (Question?), "S" (Serious.), "N" (Neutral).
 ! 
 ! Extra
 !     Make your code able to determine multiple sentences.

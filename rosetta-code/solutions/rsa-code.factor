@@ -47,19 +47,19 @@
 ! 
 ! Summary of the task requirements:
 ! 
-! -   Encrypt and Decrypt a short message or two using RSA with a
-!     demonstration key.
-! -   Implement RSA do not call a library.
-! -   Encode and decode the message using any reversible method of your
-!     choice (ASCII or a=1,..,z=26 are equally fine).
-! -   Either support blocking or give an error if the message would
-!     require blocking)
-! -   Demonstrate that your solution could support real keys by using a
-!     non-trivial key that requires large integer support (built-in or
-!     libraries). There is no need to include library code but it must be
-!     referenced unless it is built into the language. The following keys
-!     will be meet this requirement;however, they are NOT long enough to
-!     be considered secure:
+! - Encrypt and Decrypt a short message or two using RSA with a
+!   demonstration key.
+! - Implement RSA do not call a library.
+! - Encode and decode the message using any reversible method of your
+!   choice (ASCII or a=1,..,z=26 are equally fine).
+! - Either support blocking or give an error if the message would require
+!   blocking)
+! - Demonstrate that your solution could support real keys by using a
+!   non-trivial key that requires large integer support (built-in or
+!   libraries). There is no need to include library code but it must be
+!   referenced unless it is built into the language. The following keys
+!   will be meet this requirement;however, they are NOT long enough to be
+!   considered secure:
 ! 
 !     
 ! 
@@ -67,9 +67,9 @@
 !         e = 65537
 !         d = 5617843187844953170308463622230283376298685
 ! 
-! -   Messages can be hard-coded into the program, there is no need for
-!     elaborate input coding.
-! -   Demonstrate that your implementation works by showing plaintext,
-!     intermediate results, encrypted text, and decrypted text.
+! - Messages can be hard-coded into the program, there is no need for
+!   elaborate input coding.
+! - Demonstrate that your implementation works by showing plaintext,
+!   intermediate results, encrypted text, and decrypted text.
 
 

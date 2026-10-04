@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program or a script that returns the date of the last Fridays of
 ! each month of a given year.
@@ -24,9 +26,9 @@
 ! 
 ! Related tasks
 ! 
-! -   Five weekends
-! -   Day of the week
-! -   Find the last Sunday of each month
+! - Five weekends
+! - Day of the week
+! - Find the last Sunday of each month
 ! 
 ! Category:Date and time
 

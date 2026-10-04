@@ -2,7 +2,9 @@
 ! unnecessary copies of files around, which can use considerable disk
 ! space and create confusion.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a program which, given a minimum size and a folder/directory,
 ! will find all files of at least size bytes with duplicate contents under

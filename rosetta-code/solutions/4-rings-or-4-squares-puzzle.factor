@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Replace a, b, c, d, e, f, and
 ! 
@@ -26,22 +28,23 @@
 ! 
 ! Show all output here.
 ! 
-! -   -   Show all solutions for each letter being unique with
+! - - Show all solutions for each letter being unique with
 ! 
 !         LOW=1     HIGH=7
 ! 
-! -   -   Show all solutions for each letter being unique with
+! - - Show all solutions for each letter being unique with
 ! 
 !         LOW=3     HIGH=9
 ! 
-! -   -   Show only the number of solutions when each letter can be
-!         non-unique
+! - - Show only the number of solutions when each letter can be non-unique
 ! 
 !         LOW=0     HIGH=9
 ! 
-! Related task:
+! Related task
 ! 
-! -   Solve the no connection puzzle
+!     
+! 
+! - Solve the no connection puzzle
 ! 
 ! Category:Games Category:Puzzles
 

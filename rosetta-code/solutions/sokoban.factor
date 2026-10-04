@@ -5,13 +5,13 @@
 ! 
 ! Sokoban levels are usually stored as a character array where
 ! 
-! -   space is an empty square
-! -   # is a wall
-! -   @ is the player
-! -   $ is a box
-! -   . is a goal
-! -   + is the player on a goal
-! -   * is a box on a goal
+! - space is an empty square
+! - # is a wall
+! - @ is the player
+! - $ is a box
+! - . is a goal
+! - + is the player on a goal
+! - * is a box on a goal
 ! 
 !     #######
 !     #     #

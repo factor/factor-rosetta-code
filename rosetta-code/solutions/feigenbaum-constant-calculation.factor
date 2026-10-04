@@ -1,10 +1,14 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Calculate the Feigenbaum constant.
 ! 
-! See:
+! See
 ! 
-! -   -   Details in the Wikipedia article: Feigenbaum constant.
+!     
+! 
+! - - Details in the Wikipedia article: Feigenbaum constant.
 
 USING: formatting io locals math math.ranges sequences ;
 

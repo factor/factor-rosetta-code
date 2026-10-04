@@ -177,7 +177,9 @@
 ! multiplying the cycles in all the notations mentioned above as well as
 ! the order and signature of the result.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Notes:
 ! 

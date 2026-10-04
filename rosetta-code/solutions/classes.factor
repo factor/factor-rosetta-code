@@ -19,12 +19,12 @@
 ! further generalization of is the operation with arguments and/or results
 ! from different classes.
 ! 
-! -   single-dispatch languages are those that allow only one argument or
-!     result to control the dispatch. Usually it is the first parameter,
-!     often hidden, so that a prefix notation x.f() is used instead of
-!     mathematical f(x).
-! -   multiple-dispatch languages allow many arguments and/or results to
-!     control the dispatch.
+! - single-dispatch languages are those that allow only one argument or
+!   result to control the dispatch. Usually it is the first parameter,
+!   often hidden, so that a prefix notation x.f() is used instead of
+!   mathematical f(x).
+! - multiple-dispatch languages allow many arguments and/or results to
+!   control the dispatch.
 ! 
 ! A polymorphic value has a type tag indicating its specific type from the
 ! class and the corresponding specific value of that type. This type is
@@ -38,7 +38,9 @@
 ! Ada). When class T and T are equivalent, there is no way to distinguish
 ! polymorphic and specific values.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a basic class with a method, a constructor, an instance variable
 ! and how to instantiate it.

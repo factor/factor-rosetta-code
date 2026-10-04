@@ -1,14 +1,18 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Compute the sum and product of an array of integers.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Array
-! -   Arrays
-! -   Vector
-! -   Dot product
-! -   Vector products
+!     
+! 
+! - Array
+! - Arrays
+! - Vector
+! - Dot product
+! - Vector products
 ! 
 ! Category:Iteration
 

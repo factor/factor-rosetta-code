@@ -29,20 +29,22 @@
 ! characters of each subsequence appear in order, so that (abcbdab,
 ! abdcaba) -> abdcabdab. In this task, (abcbdab, abdcaba) -> abcbdabdcaba.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Given N non-identical strings of characters A, C, G, and T
-!         representing N DNA sequences, find the shortest DNA sequence
-!         containing all N sequences.
+!     
 ! 
-! -   -   Handle cases where two sequences are identical or one sequence
-!         is entirely contained in another.
+! - - Given N non-identical strings of characters A, C, G, and T
+!     representing N DNA sequences, find the shortest DNA sequence
+!     containing all N sequences.
 ! 
-! -   -   Print the resulting sequence along with its size (its base
-!         count) and a count of each base in the sequence.
+! - - Handle cases where two sequences are identical or one sequence is
+!     entirely contained in another.
 ! 
-! -   -   Find the shortest common superstring for the following four
-!         examples:
+! - - Print the resulting sequence along with its size (its base count)
+!     and a count of each base in the sequence.
+! 
+! - - Find the shortest common superstring for the following four
+!     examples:
 ! 
 !     
 ! 
@@ -66,10 +68,12 @@
 ! "CTATGTTCTTATGAAATGGATGTTCTGAGTTGGTCAGTCCCAATGTGCGGGGTTTCTTTTAGTACGTCGGGAGTGGTATTATA",
 ! "TCTCTTAAACTCCTGCTAAATGCTCGTGCTTTCCAATTATGTAAGCGTTCCGAGACGGGGTGGTCGATTCTGAGGACAAAGGTCAAGA")
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Bioinformatics base count.
-!     -   Bioinformatics sequence mutation.
+!     
+! 
+! - - Bioinformatics base count.
+!   - Bioinformatics sequence mutation.
 ! 
 ! Category:Bioinfomatics Category:Strings
 

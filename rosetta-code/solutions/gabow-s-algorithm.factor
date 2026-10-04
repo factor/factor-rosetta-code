@@ -18,29 +18,28 @@
 ! 
 ! Input
 ! 
-! -   A directed graph G represented as an adjacency list, where:
-!     -   V is the number of vertices (non-negative integer).
-!     -   Edges are provided as pairs (v, w), indicating a directed edge
-!         from vertex v to vertex w.
-! -   The vertices are integers in the range [0, V-1].
+! - A directed graph G represented as an adjacency list, where:
+!   - V is the number of vertices (non-negative integer).
+!   - Edges are provided as pairs (v, w), indicating a directed edge from
+!     vertex v to vertex w.
+! - The vertices are integers in the range [0, V-1].
 ! 
 ! Output
 ! 
-! -   The total number of strongly connected components in the digraph.
-! -   An assignment of each vertex to a unique component identifier (an
-!     integer ≥ 0).
-! -   A mechanism to check if two vertices v and w are strongly connected
-!     (i.e., belong to the same SCC).
-! -   The ability to retrieve the component ID of any vertex v.
+! - The total number of strongly connected components in the digraph.
+! - An assignment of each vertex to a unique component identifier (an
+!   integer ≥ 0).
+! - A mechanism to check if two vertices v and w are strongly connected
+!   (i.e., belong to the same SCC).
+! - The ability to retrieve the component ID of any vertex v.
 ! 
 ! Constraints
 ! 
-! -   V ≥ 0 (the graph can be empty).
-! -   Edges (v, w) must satisfy 0 ≤ v, w < V.
-! -   The graph may contain cycles, self-loops, or parallel edges (though
-!     parallel edges are effectively ignored in this implementation as
-!     duplicates in adjacency lists are allowed but not explicitly
-!     handled).
+! - V ≥ 0 (the graph can be empty).
+! - Edges (v, w) must satisfy 0 ≤ v, w < V.
+! - The graph may contain cycles, self-loops, or parallel edges (though
+!   parallel edges are effectively ignored in this implementation as
+!   duplicates in adjacency lists are allowed but not explicitly handled).
 ! 
 ! Example
 ! 
@@ -50,10 +49,10 @@
 ! (9, 11), (8, 9), (10, 12), (0, 5), (5, 4), (3, 5), (6, 4), (6, 9), (7, 6), 
 ! (7, 8), (8, 7), (5, 3), (0, 6)
 ! 
-! -   Compute the SCCs.
-! -   Determine how many SCCs exist.
-! -   List the vertices in each SCC.
-! -   Check if specific pairs of vertices (e.g., 0 and 3, 0 and 7) are
-!     strongly connected.
+! - Compute the SCCs.
+! - Determine how many SCCs exist.
+! - List the vertices in each SCC.
+! - Check if specific pairs of vertices (e.g., 0 and 3, 0 and 7) are
+!   strongly connected.
 
 

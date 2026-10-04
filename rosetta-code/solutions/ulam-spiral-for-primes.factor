@@ -91,17 +91,19 @@
 ! You should demonstrate the generator by showing at Ulam prime spiral
 ! large enough to (almost) fill your terminal screen.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Spiral matrix
-! -   Zig-zag matrix
-! -   Identity matrix
-! -   Sequence of primes by Trial Division
+!     
+! 
+! - Spiral matrix
+! - Zig-zag matrix
+! - Identity matrix
+! - Sequence of primes by Trial Division
 ! 
 ! See also
 ! 
-! -   Wikipedia entry: Ulam spiral
-! -   MathWorld™ entry: Prime Spiral
+! - Wikipedia entry: Ulam spiral
+! - MathWorld™ entry: Prime Spiral
 
 USING: arrays grouping kernel math math.combinatorics
 math.matrices math.primes math.ranges math.statistics

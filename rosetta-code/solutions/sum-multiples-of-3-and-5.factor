@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! The objective is to write a function that finds the sum of all positive
 ! multiples of 3 or 5 below n.

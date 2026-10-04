@@ -4,7 +4,9 @@
 ! priority element first. That is, the items are (conceptually) stored in
 ! the queue in priority order instead of in insertion order.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a priority queue. The queue must support at least two operations:
 ! 

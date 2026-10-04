@@ -10,9 +10,9 @@
 ! The machine's memory consists of an array of signed integers. These
 ! integers may be interpreted in three ways:
 ! 
-! -   -   simple numeric values
-!     -   memory addresses
-!     -   characters for input or output
+! - - simple numeric values
+!   - memory addresses
+!   - characters for input or output
 ! 
 ! Any reasonable word size that accommodates all three of the above uses
 ! is fine.

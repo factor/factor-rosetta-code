@@ -24,6 +24,6 @@
 ! 
 ! See also
 ! 
-! -   B-splines
+! - B-splines
 
 

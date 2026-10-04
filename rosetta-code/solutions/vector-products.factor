@@ -1,30 +1,32 @@
-! Related tasks:
+! Related tasks
 ! 
-! -   Arrays
-! -   Vector
-!     -   Dot product
-!     -   Vector products
-!         -   A starting page on Wolfram MathWorld is .
-!         -   Wikipedia dot product.
-!         -   Wikipedia cross product.
-!         -   Wikipedia triple product.
-!         -   Wikipedia hodge star operator
-!         -   Wikipedia inner product space
-!         -   Wikipedia outer product
-!         -   Wikipedia interior product
-!         -   Wikipedia exterior product
-!         -   Wikipedia wedge product
-!         -   Wikipedia curry product
-!         -   Wikipedia pfaffian product
-! -   Matrices
-! -   Bivector
-! -   Antivector
-! -   Tensor
-! -   Quaternion
-! -   Rotor
-! -   Motor
-! -   Sedenion
-! -   Octonion
+!     
+! 
+! - Arrays
+! - Vector
+!   - Dot product
+!   - Vector products
+!     - A starting page on Wolfram MathWorld is .
+!     - Wikipedia dot product.
+!     - Wikipedia cross product.
+!     - Wikipedia triple product.
+!     - Wikipedia hodge star operator
+!     - Wikipedia inner product space
+!     - Wikipedia outer product
+!     - Wikipedia interior product
+!     - Wikipedia exterior product
+!     - Wikipedia wedge product
+!     - Wikipedia curry product
+!     - Wikipedia pfaffian product
+! - Matrices
+! - Bivector
+! - Antivector
+! - Tensor
+! - Quaternion
+! - Rotor
+! - Motor
+! - Sedenion
+! - Octonion
 ! 
 ! A vector is defined as having three dimensions as being represented by
 ! an ordered collection of n numbers: i.e. for n=3 : (X, Y, Z).
@@ -42,31 +44,33 @@
 ! 
 ! then the following common vector products are defined:
 ! 
-! -   The dot product (a scalar quantity)
+! - The dot product (a scalar quantity)
 ! 
 !     
 ! 
 !          A • B = a₁b₁ + a₂b₂ + a₃b₃
 ! 
-! -   The cross product (a vector quantity)
+! - The cross product (a vector quantity)
 ! 
 !     
 ! 
 !          A x B = (a₂b₃ - a₃b₂, a₃b₁ - a₁b₃, a₁b₂ - a₂b₁)
 ! 
-! -   The scalar triple product (a scalar quantity)
+! - The scalar triple product (a scalar quantity)
 ! 
 !     
 ! 
 !          A • (B x C)
 ! 
-! -   The vector triple product (a vector quantity)
+! - The vector triple product (a vector quantity)
 ! 
 !     
 ! 
 !          A x (B x C)
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given the three vectors:
 ! 

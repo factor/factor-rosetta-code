@@ -1,8 +1,8 @@
 ! Mathematically,
 ! 
-! -   the integers Z are included in the rational numbers Q,
-! -   which are included in the real numbers R,
-! -   which can be generalized to the complex numbers C.
+! - the integers Z are included in the rational numbers Q,
+! - which are included in the real numbers R,
+! - which can be generalized to the complex numbers C.
 ! 
 ! This means that each of those larger sets, and the data types used to
 ! represent them, include some integers.
@@ -21,12 +21,36 @@
 ! 
 ! In other words:
 ! 
-!   Set                             Common representation   C++ type        Considered an integer...
-!   ------------------------------- ----------------------- --------------- ------------------------------------------------------------------------------------------------
-!   rational numbers Q              fraction                std::ratio      ...if its denominator is 1 (in reduced form)
-!   real numbers Z (approximated)   fixed-point                             ...if it has no non-zero digits after the decimal point
-!                                   floating-point          float, double   ...if the number of significant decimal places of its mantissa isn't greater than its exponent
-!   complex numbers C               pair of real numbers    std::complex    ...if its real part is considered an integer and its imaginary part is zero
+! +-----------------+-----------------+---------------+-----------------+
+! | Set             | Common          | C++ type      | Considered an   |
+! |                 | representation  |               | integer...      |
+! +=================+=================+===============+=================+
+! | rational        | fraction        | std::ratio    | ...if its       |
+! | numbers Q       |                 |               | denominator is  |
+! |                 |                 |               | 1 (in reduced   |
+! |                 |                 |               | form)           |
+! +-----------------+-----------------+---------------+-----------------+
+! | real numbers Z  | fixed-point     |               | ...if it has no |
+! | (approximated)  |                 |               | non-zero digits |
+! |                 |                 |               | after the       |
+! |                 |                 |               | decimal point   |
+! |                 +-----------------+---------------+-----------------+
+! |                 | floating-point  | float, double | ...if the       |
+! |                 |                 |               | number of       |
+! |                 |                 |               | significant     |
+! |                 |                 |               | decimal places  |
+! |                 |                 |               | of its mantissa |
+! |                 |                 |               | isn't greater   |
+! |                 |                 |               | than its        |
+! |                 |                 |               | exponent        |
+! +-----------------+-----------------+---------------+-----------------+
+! | complex numbers | pair of real    | std::complex  | ...if its real  |
+! | C               | numbers         |               | part is         |
+! |                 |                 |               | considered an   |
+! |                 |                 |               | integer and its |
+! |                 |                 |               | imaginary part  |
+! |                 |                 |               | is zero         |
+! +-----------------+-----------------+---------------+-----------------+
 ! 
 ! Optionally, make your code accept a tolerance parameter for fuzzy
 ! testing. The tolerance is the maximum amount by which the number may
@@ -37,18 +61,50 @@
 ! errors from previous calculations. For example, a float value of
 ! 0.9999999998 might actually be intended to represent the integer 1.
 ! 
-!   Input                        Output
-!   ---------------- ----------- --------
-!   Type             Value       exact
-!   decimal          25.000000   true
-!                    24.999999   false
-!                    25.000100   false
-!   floating-point   -2.1e120    true
-!                    -5e-2       false
-!                    NaN         false
-!                    Inf         false
-!   complex          5.0+0.0i    true
-!                    5-5i        false
+! +----------------------------+-----------------------------+----------------+
+! | Input                      | Output                      | Comment        |
+! +================+===========+=======+=====================+================+
+! | Type           | Value     | exact | tolerance = 0.00001 |                |
+! +----------------+-----------+-------+---------------------+----------------+
+! | decimal        | 25.000000 | true                        |                |
+! |                +-----------+-------+---------------------+----------------+
+! |                | 24.999999 | false | true                |                |
+! |                +-----------+-------+---------------------+----------------+
+! |                | 25.000100 | false                       |                |
+! +----------------+-----------+-----------------------------+----------------+
+! | floating-point | -2.1e120  | true                        | This one is    |
+! |                |           |                             | tricky,        |
+! |                |           |                             | because in     |
+! |                |           |                             | most languages |
+! |                |           |                             | it is too      |
+! |                |           |                             | large to fit   |
+! |                |           |                             | into a native  |
+! |                |           |                             | integer type.  |
+! |                |           |                             | It is,         |
+! |                |           |                             | nonetheless,   |
+! |                |           |                             | mathematically |
+! |                |           |                             | an integer,    |
+! |                |           |                             | and your code  |
+! |                |           |                             | should         |
+! |                |           |                             | identify it as |
+! |                |           |                             | such.          |
+! |                +-----------+-----------------------------+----------------+
+! |                | -5e-2     | false                       |                |
+! |                +-----------+-----------------------------+----------------+
+! |                | NaN       | false                       |                |
+! |                +-----------+-----------------------------+----------------+
+! |                | Inf       | false                       | This one is    |
+! |                |           |                             | debatable. If  |
+! |                |           |                             | your code      |
+! |                |           |                             | considers it   |
+! |                |           |                             | an integer,    |
+! |                |           |                             | that's okay    |
+! |                |           |                             | too.           |
+! +----------------+-----------+-----------------------------+----------------+
+! | complex        | 5.0+0.0i  | true                        |                |
+! |                +-----------+-----------------------------+----------------+
+! |                | 5-5i      | false                       |                |
+! +----------------+-----------+-----------------------------+----------------+
 ! 
 ! (The types and notations shown in these tables are merely examples – you
 ! should use the native data types and number literals of your programming

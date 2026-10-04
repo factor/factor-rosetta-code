@@ -1,19 +1,20 @@
 ! A set is a collection of elements, without duplicates and without order.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show each of these set operations:
 ! 
-! -   Set creation
-! -   Test m ∈ S -- "m is an element in set S"
-! -   A ∪ B -- union; a set of all elements either in set A or in set B.
-! -   A ∩ B -- intersection; a set of all elements in both set A and set
-!     B.
-! -   A ∖ B -- difference; a set of all elements in set A, except those in
-!     set B.
-! -   A ⊆ B -- subset; true if every element in set A is also in set B.
-! -   A = B -- equality; true if every element of set A is in set B and
-!     vice versa.
+! - Set creation
+! - Test m ∈ S -- "m is an element in set S"
+! - A ∪ B -- union; a set of all elements either in set A or in set B.
+! - A ∩ B -- intersection; a set of all elements in both set A and set B.
+! - A ∖ B -- difference; a set of all elements in set A, except those in
+!   set B.
+! - A ⊆ B -- subset; true if every element in set A is also in set B.
+! - A = B -- equality; true if every element of set A is in set B and vice
+!   versa.
 ! 
 ! As an option, show some other set operations.
 ! 

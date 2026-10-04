@@ -18,14 +18,14 @@
 ! For this task we'll follow JSON string semantics, defined in Section 7
 ! of RFC 8259. In summary:
 ! 
-! -   Allowed two-character escapes are \\, \", \/, \b, \f, \n, \r, \t.
-! -   ", \ and control characters (U+0000 through U+001F) must be escaped.
-! -   Any "character" in the Basic Multilingual Plane may be escaped with
-!     a \uXXXX sequence, where XXXX are hexadecimal digits encoding the
-!     character's code point
-! -   Characters outside the Basic Multilingual Plane may be escaped with
-!     a \uXXXX\uXXXX sequence, where XXXX are hexadecimal digits encoding
-!     the code point using UTF-16.
+! - Allowed two-character escapes are \\, \", \/, \b, \f, \n, \r, \t.
+! - ", \ and control characters (U+0000 through U+001F) must be escaped.
+! - Any "character" in the Basic Multilingual Plane may be escaped with a
+!   \uXXXX sequence, where XXXX are hexadecimal digits encoding the
+!   character's code point
+! - Characters outside the Basic Multilingual Plane may be escaped with a
+!   \uXXXX\uXXXX sequence, where XXXX are hexadecimal digits encoding the
+!   code point using UTF-16.
 ! 
 ! Although not required by RFC 8259, we'll treat strings containing
 ! invalid \u escape sequences (those that can't be decoded to a Unicode
@@ -58,8 +58,8 @@
 ! 
 ! Related tasks
 ! 
-! -   Literals/String
-! -   Special characters
-! -   UTF-8 encode and decode
+! - Literals/String
+! - Special characters
+! - UTF-8 encode and decode
 
 

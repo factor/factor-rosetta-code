@@ -26,7 +26,9 @@
 !              display (' sum= ' ||  sum);                    /*display strings to term.*/
 !              display ('prod= ' || prod);                    /*   "       "     "   "  */
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Simulate/translate the above PL/I program snippet as best as possible in
 ! your language, with particular emphasis on the do loop construct.
@@ -68,23 +70,25 @@
 !           In the example above, the clause:                 -seven  to +seven  by x  
 !           will cause the variable   J   to have to following values  (in this order):  -7  -2   3  
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Loop over multiple arrays simultaneously
-! -   Loops/Break
-! -   Loops/Continue
-! -   Loops/Do-while
-! -   Loops/Downward for
-! -   Loops/For
-! -   Loops/For with a specified step
-! -   Loops/Foreach
-! -   Loops/Increment loop index within loop body
-! -   Loops/Infinite
-! -   Loops/N plus one half
-! -   Loops/Nested
-! -   Loops/While
-! -   Loops/with multiple ranges
-! -   Loops/Wrong ranges
+!     
+! 
+! - Loop over multiple arrays simultaneously
+! - Loops/Break
+! - Loops/Continue
+! - Loops/Do-while
+! - Loops/Downward for
+! - Loops/For
+! - Loops/For with a specified step
+! - Loops/Foreach
+! - Loops/Increment loop index within loop body
+! - Loops/Infinite
+! - Loops/N plus one half
+! - Loops/Nested
+! - Loops/While
+! - Loops/with multiple ranges
+! - Loops/Wrong ranges
 ! 
 ! Category:Loop modifiers Category:Conditional loops Category:Simple
 

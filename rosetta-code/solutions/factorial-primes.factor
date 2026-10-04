@@ -38,10 +38,10 @@
 ! 
 ! Reference
 ! 
-! -   OEIS:A088054 - Factorial primes
+! - OEIS:A088054 - Factorial primes
 ! 
 ! Related task
 ! 
-! -   Sequence of primorial primes
+! - Sequence of primorial primes
 
 

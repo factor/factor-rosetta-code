@@ -12,7 +12,9 @@
 ! It can be shown that such an inverse exists if and only if a and m are
 ! coprime, but we will ignore this for this task.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Either by implementing the algorithm, by using a dedicated library or by
 ! using a built-in function in your language, compute the modular inverse

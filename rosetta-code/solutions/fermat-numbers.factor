@@ -12,25 +12,29 @@
 ! numbers have been completely factored, though many have been partially
 ! factored.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Write a routine (function, procedure, whatever) to generate
-!         Fermat numbers.
+!     
 ! 
-! -   -   Use the routine to find and display here, on this page, the
-!         first 10 Fermat numbers - F₀ through F₉.
+! - - Write a routine (function, procedure, whatever) to generate Fermat
+!     numbers.
 ! 
-! -   -   Find and display here, on this page, the prime factors of as
-!         many Fermat numbers as you have patience for. (Or as many as can
-!         be found in five minutes or less of processing time). Note: if
-!         you make it past F₁₁, there may be money, and certainly will be
-!         acclaim in it for you.
+! - - Use the routine to find and display here, on this page, the first 10
+!     Fermat numbers - F₀ through F₉.
 ! 
-! See also:
+! - - Find and display here, on this page, the prime factors of as many
+!     Fermat numbers as you have patience for. (Or as many as can be found
+!     in five minutes or less of processing time). Note: if you make it
+!     past F₁₁, there may be money, and certainly will be acclaim in it
+!     for you.
 ! 
-! -   -   Wikipedia - Fermat numbers
-!     -   OEIS:A000215 - Fermat numbers
-!     -   OEIS:A019434 - Fermat primes
+! See also
+! 
+!     
+! 
+! - - Wikipedia - Fermat numbers
+!   - OEIS:A000215 - Fermat numbers
+!   - OEIS:A019434 - Fermat primes
 
 USING: formatting io kernel lists lists.lazy math math.functions
 math.primes.factors sequences ;

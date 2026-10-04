@@ -30,6 +30,6 @@
 ! 
 ! See also
 ! 
-! -   OEIS: A001422 Numbers which are not the sum of distinct squares
+! - OEIS: A001422 Numbers which are not the sum of distinct squares
 
 

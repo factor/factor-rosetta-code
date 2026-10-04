@@ -1,15 +1,15 @@
 ! Chowla numbers are also known as:
 ! 
-! -   -   Chowla's function
-!     -   chowla numbers
-!     -   the chowla function
-!     -   the chowla number
-!     -   the chowla sequence
+! - - Chowla's function
+!   - chowla numbers
+!   - the chowla function
+!   - the chowla number
+!   - the chowla sequence
 ! 
 ! The chowla number of n is (as defined by Chowla's function):
 ! 
-! -   -   the sum of the divisors of n excluding unity and n
-!     -   where n is a positive integer
+! - - the sum of the divisors of n excluding unity and n
+!   - where n is a positive integer
 ! 
 ! The sequence is named after Sarvadaman D. S. Chowla, (22 October 1907
 ! ──► 10 December 1995),
@@ -21,7 +21,9 @@
 ! 
 !    "Mathematics is the queen of the sciences ─ and number theory is the queen of mathematics".
 ! 
-! Definitions:
+! Definitions
+! 
+!     
 ! 
 ! Chowla numbers can also be expressed as:
 ! 
@@ -39,37 +41,42 @@
 !    if  chowla(n) =  n - 1,  and n > 1,  then   n   is a perfect number
 !     
 ! 
-! Task:
+! Task
 ! 
-! -   -   create a chowla function that returns the chowla number for a
-!         positive integer n
-!     -   Find and display (1 per line) for the 1^(st) 37 integers:
-!         -   -   the integer (the index)
-!             -   the chowla number for that integer
-!     -   For finding primes, use the chowla function to find values of
-!         zero
-!     -   Find and display the count of the primes up to 100
-!     -   Find and display the count of the primes up to 1,000
-!     -   Find and display the count of the primes up to 10,000
-!     -   Find and display the count of the primes up to 100,000
-!     -   Find and display the count of the primes up to 1,000,000
-!     -   Find and display the count of the primes up to 10,000,000
-!     -   For finding perfect numbers, use the chowla function to find
-!         values of n - 1
-!     -   Find and display all perfect numbers up to 35,000,000
-!     -   use commas within appropriate numbers
-!     -   show all output here
+!     
 ! 
-! Related tasks:
+! - - create a chowla function that returns the chowla number for a
+!     positive integer n
+!   - Find and display (1 per line) for the 1^(st) 37 integers:
+!     - - the integer (the index)
+!       - the chowla number for that integer
+!   - For finding primes, use the chowla function to find values of zero
+!   - Find and display the count of the primes up to 100
+!   - Find and display the count of the primes up to 1,000
+!   - Find and display the count of the primes up to 10,000
+!   - Find and display the count of the primes up to 100,000
+!   - Find and display the count of the primes up to 1,000,000
+!   - Find and display the count of the primes up to 10,000,000
+!   - For finding perfect numbers, use the chowla function to find values
+!     of n - 1
+!   - Find and display all perfect numbers up to 35,000,000
+!   - use commas within appropriate numbers
+!   - show all output here
 ! 
-! -   -    totient function
-!     -    perfect numbers
-!     -   Proper divisors
-!     -   Sieve of Eratosthenes
+! Related tasks
 ! 
-! See also:
+!     
 ! 
-! -   -   the OEIS entry for A48050 Chowla's function.
+! - -  totient function
+!   -  perfect numbers
+!   - Proper divisors
+!   - Sieve of Eratosthenes
+! 
+! See also
+! 
+!     
+! 
+! - - the OEIS entry for A48050 Chowla's function.
 
 USING: formatting fry grouping.extras io kernel math
 math.primes.factors math.ranges math.statistics sequences

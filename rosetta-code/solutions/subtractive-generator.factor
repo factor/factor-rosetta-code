@@ -4,7 +4,7 @@
 ! 
 ! The formula is
 ! 
-! -   r_(n) = r_((n − i)) − r_((n − j)) (mod  m)
+! - r_(n) = r_((n − i)) − r_((n − j)) (mod  m)
 ! 
 ! for some fixed values of i, j and m, all positive integers. Supposing
 ! that i > j, then the state of this generator is the list of the previous
@@ -33,11 +33,11 @@
 ! The choice of i and j affects the period of the generator. A popular
 ! choice is i = 55 and j = 24, so the formula is
 ! 
-! -   r_(n) = r_((n − 55)) − r_((n − 24)) (mod  m)
+! - r_(n) = r_((n − 55)) − r_((n − 24)) (mod  m)
 ! 
 ! The subtractive generator from xpat2 uses
 ! 
-! -   r_(n) = r_((n − 55)) − r_((n − 24)) (mod  10⁹)
+! - r_(n) = r_((n − 55)) − r_((n − 24)) (mod  10⁹)
 ! 
 ! The implementation is by J. Bentley and comes from
 ! program_tools/universal.c of the DIMACS (netflow) archive at Rutgers
@@ -53,9 +53,9 @@
 !     s_(n) = s_((n − 2)) − s_((n − 1)) (mod  10⁹).
 ! 4.  Reorder these 55 values so r₀ = s₃₄, r₁ = s₁₃, r₂ = s₄₇, ...,
 !     r_(n) = s_((34 * (n + 1) (mod  55))).
-!     -   This is the same order as s₀ = r₅₄, s₁ = r₃₃, s₂ = r₁₂, ...,
-!         s_(n) = r_(((34 * n) − 1 (mod  55))).
-!     -   This rearrangement exploits how 34 and 55 are relatively prime.
+!     - This is the same order as s₀ = r₅₄, s₁ = r₃₃, s₂ = r₁₂, ...,
+!       s_(n) = r_(((34 * n) − 1 (mod  55))).
+!     - This rearrangement exploits how 34 and 55 are relatively prime.
 ! 5.  Compute the next 165 values r₅₅ to r₂₁₉. Store the last 55 values.
 ! 
 ! This generator yields the sequence r₂₂₀, r₂₂₁, r₂₂₂ and so on. For

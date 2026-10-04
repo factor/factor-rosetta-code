@@ -55,8 +55,10 @@
 ! 1.  Dijkstra's algorithm
 ! 2.  Floyd-Warshall algorithm
 ! 
-! See also:
+! See also
 ! 
-! -   Back from the Klondike.
+!     
+! 
+! - Back from the Klondike.
 
 

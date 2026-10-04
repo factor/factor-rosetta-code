@@ -15,9 +15,9 @@
 ! 
 ! The algorithm uses the following scoring system:
 ! 
-! -   +s for a match between two characters.
-! -   −d for a mismatch (substitution).
-! -   −g for a gap (insertion or deletion).
+! - +s for a match between two characters.
+! - −d for a mismatch (substitution).
+! - −g for a gap (insertion or deletion).
 ! 
 ! Dynamic Programming Matrix
 ! 
@@ -50,9 +50,9 @@
 ! 
 ! The output of the algorithm includes:
 ! 
-! -   The highest alignment score.
-! -   The aligned substrings of A and B.
-! -   The alignment path in the dynamic programming matrix.
+! - The highest alignment score.
+! - The aligned substrings of A and B.
+! - The alignment path in the dynamic programming matrix.
 ! 
 ! Example
 ! 

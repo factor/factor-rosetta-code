@@ -6,7 +6,9 @@
 !     Form   F_Word³  as  F_Word²   concatenated with  F_Word¹   i.e.:  01
 !     Form   F_Word_(n)  as  F_Word_(n-1)  concatenated with  F_word_(n-2)
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Perform the above steps for n = 37.
 ! 
@@ -17,14 +19,16 @@
 ! 
 ! Instead, create a table for F_Words 1 to 37 which shows:
 ! 
-! -   -   The number of characters in the word
-!     -   The word's Entropy
+! - - The number of characters in the word
+!   - The word's Entropy
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Fibonacci word/fractal
-! -   Entropy
-! -   Entropy/Narcissist
+!     
+! 
+! - Fibonacci word/fractal
+! - Entropy
+! - Entropy/Narcissist
 
 USING: assocs combinators formatting kernel math math.functions
 math.ranges math.statistics namespaces pair-rocket sequences ;

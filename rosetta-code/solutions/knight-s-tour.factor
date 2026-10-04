@@ -1,7 +1,5 @@
 ! []
 ! 
-! |right
-! 
 ! Task
 ! 
 ! Problem: you have a standard 8x8 chessboard, empty but for a single
@@ -26,12 +24,12 @@
 ! 
 ! Related tasks
 ! 
-! -   A* search algorithm
-! -   N-queens problem
-! -   Solve a Hidato puzzle
-! -   Solve a Holy Knight's tour
-! -   Solve a Hopido puzzle
-! -   Solve a Numbrix puzzle
-! -   Solve the no connection puzzle
+! - A* search algorithm
+! - N-queens problem
+! - Solve a Hidato puzzle
+! - Solve a Holy Knight's tour
+! - Solve a Hopido puzzle
+! - Solve a Numbrix puzzle
+! - Solve the no connection puzzle
 
 

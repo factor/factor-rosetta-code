@@ -27,20 +27,20 @@
 ! 
 ! Task
 ! 
-! -   Write a general routine (function, procedure, whatever) to find the
-!     Zsigmondy number sequence given a set of radices.
-! -   Use that routine to generate the first several elements, (at least
-!     10), for the following radix sets.
-!     -   (2,1)
-!     -   (3,1)
-!     -   (4,1)
-!     -   (5,1)
-!     -   (6,1)
-!     -   (7,1)
-!     -   (3,2)
-!     -   (5,3)
-!     -   (7,3)
-!     -   (7,5)
+! - Write a general routine (function, procedure, whatever) to find the
+!   Zsigmondy number sequence given a set of radices.
+! - Use that routine to generate the first several elements, (at least
+!   10), for the following radix sets.
+!   - (2,1)
+!   - (3,1)
+!   - (4,1)
+!   - (5,1)
+!   - (6,1)
+!   - (7,1)
+!   - (3,2)
+!   - (5,3)
+!   - (7,3)
+!   - (7,5)
 ! 
 ! See also
 ! * OEIS:A064078 - Zsigmondy numbers for a = 2, b = 1

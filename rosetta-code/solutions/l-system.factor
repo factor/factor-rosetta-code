@@ -7,11 +7,11 @@
 ! 
 ! An L-system consists of:
 ! 
-! -   -   An alphabet of symbols
-!     -   An initial string, known as the axiom
-!     -   A set of rewriting rules, in he form A → B, where A is a single
-!         symbol and B is a string. The B string can contain zero, one or
-!         multiple symbols, including A.
+! - - An alphabet of symbols
+!   - An initial string, known as the axiom
+!   - A set of rewriting rules, in he form A → B, where A is a single
+!     symbol and B is a string. The B string can contain zero, one or
+!     multiple symbols, including A.
 ! 
 ! Computation
 ! 
@@ -34,8 +34,8 @@
 ! 
 ! Rules:
 ! 
-! -   -   I → M (An immature rabbit will be a mature one in the next step)
-!     -   M → MI (A mature rabbit will procreate a bunny in the next step)
+! - - I → M (An immature rabbit will be a mature one in the next step)
+!   - M → MI (A mature rabbit will procreate a bunny in the next step)
 ! 
 ! Axiom: I (Let us start with a immature rabbit)
 ! 
@@ -74,19 +74,18 @@
 ! 
 ! The inputs of the solution must be:
 ! 
-! -   -   The axiom
-!     -   The rewritig rules, in a data structure natural to your
-!         language, it could be, for example, an array of pairs of strings
-!         (S, R) where S is the symbol and R is the :rewriting of the
-!         symbol
-!     -   The number of steps to perform
-!     -   The set of operations associated to each symbol of the resulting
-!         string, in a natural structure of your language, it could be,
-!         for example, an array of pairs (S, O) where S is a symbol and O
-!         is a structure that denotes delayed functionallity, such as
-!         anonymous functions, callbacks, pointers to functions, names of
-!         functions that can be invoked at run time with EVAL, lambda
-!         expressions, etc. (list is not exhaustive)
+! - - The axiom
+!   - The rewritig rules, in a data structure natural to your language, it
+!     could be, for example, an array of pairs of strings (S, R) where S
+!     is the symbol and R is the :rewriting of the symbol
+!   - The number of steps to perform
+!   - The set of operations associated to each symbol of the resulting
+!     string, in a natural structure of your language, it could be, for
+!     example, an array of pairs (S, O) where S is a symbol and O is a
+!     structure that denotes delayed functionallity, such as anonymous
+!     functions, callbacks, pointers to functions, names of functions that
+!     can be invoked at run time with EVAL, lambda expressions, etc. (list
+!     is not exhaustive)
 ! 
 ! It is highly recommended for the solution to be absracted enought to let
 ! the inputs to be given separated from the solution, this is, the
@@ -113,6 +112,6 @@
 ! 
 ! References
 ! 
-! -   -   Wikipedia: L-system
+! - - Wikipedia: L-system
 
 

@@ -26,9 +26,11 @@
 !  while swapped; // if no elements have been swapped, 
 !                 // then the list is sorted
 ! 
-! Related task:
+! Related task
 ! 
-! -   -   cocktail sort with shifting bounds
+!     
+! 
+! - - cocktail sort with shifting bounds
 ! 
 ! Category:Sorting
 

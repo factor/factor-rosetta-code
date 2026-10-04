@@ -36,9 +36,9 @@
 ! 
 ! 1.  Use the function to compute the means of these lists of angles (in
 !     degrees):
-!     -   [350, 10]
-!     -   [90, 180, 270, 360]
-!     -   [10, 20, 30]
+!     - [350, 10]
+!     - [90, 180, 270, 360]
+!     - [10, 20, 30]
 ! 2.  Show your output here.
 ! 
 ! Category:Geometry

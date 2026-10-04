@@ -4,17 +4,17 @@
 ! 
 ! The encoding steps are:
 ! 
-! -   take the X and Y coordinates of the given public point, and
-!     concatenate them in order to have a 64 byte-longed string ;
-! -   add one byte prefix equal to 4 (it is a convention for this way of
-!     encoding a public point) ;
-! -   compute the SHA-256 of this string ;
-! -   compute the RIPEMD-160 of this SHA-256 digest ;
-! -   compute the checksum of the concatenation of the version number
-!     digit (a single zero byte) and this RIPEMD-160 digest, as described
-!     in bitcoin/address validation ;
-! -   Base-58 encode (see below) the concatenation of the version number
-!     (zero in this case), the ripemd digest and the checksum
+! - take the X and Y coordinates of the given public point, and
+!   concatenate them in order to have a 64 byte-longed string ;
+! - add one byte prefix equal to 4 (it is a convention for this way of
+!   encoding a public point) ;
+! - compute the SHA-256 of this string ;
+! - compute the RIPEMD-160 of this SHA-256 digest ;
+! - compute the checksum of the concatenation of the version number digit
+!   (a single zero byte) and this RIPEMD-160 digest, as described in
+!   bitcoin/address validation ;
+! - Base-58 encode (see below) the concatenation of the version number
+!   (zero in this case), the ripemd digest and the checksum
 ! 
 ! The base-58 encoding is based on an alphabet of alphanumeric characters
 ! (numbers, upper case and lower case, in that order) but without the four

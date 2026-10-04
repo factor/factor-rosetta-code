@@ -10,9 +10,9 @@
 ! always found it painful to come up with a proper name, and see some
 ! disadvantages:
 ! 
-! -   -   You have to think up a name, which then pollutes the namespace
-!     -   Function is created which is called from nowhere else
-!     -   The program flow in the source code is interrupted
+! - - You have to think up a name, which then pollutes the namespace
+!   - Function is created which is called from nowhere else
+!   - The program flow in the source code is interrupted
 ! 
 ! Some languages allow you to embed recursion directly in-place. This
 ! might work via a label, a local gosub instruction, or some special
@@ -20,15 +20,19 @@
 ! 
 ! Anonymous recursion can also be accomplished using the Y combinator.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! If possible, demonstrate this by writing the recursive version of the
 ! fibonacci function (see Fibonacci sequence) which checks for a negative
 ! argument before doing the actual recursion.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Y combinator
+!     
+! 
+! - - Y combinator
 
 USING: kernel math ;
 IN: rosettacode.fibonacci.ar

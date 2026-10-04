@@ -60,8 +60,8 @@
 ! 
 ! References
 ! 
-! -   OEIS: A046760 - Wasteful numbers
-! -   OEIS: A046758 - Equidigital numbers
-! -   OEIS: A046759 - Economical numbers
+! - OEIS: A046760 - Wasteful numbers
+! - OEIS: A046758 - Equidigital numbers
+! - OEIS: A046759 - Economical numbers
 
 

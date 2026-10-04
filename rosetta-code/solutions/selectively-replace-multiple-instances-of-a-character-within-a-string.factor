@@ -5,12 +5,12 @@
 ! 
 ! Given the string: "abracadabra", replace programatically:
 ! 
-! -   the first 'a' with 'A'
-! -   the second 'a' with 'B'
-! -   the fourth 'a' with 'C'
-! -   the fifth 'a' with 'D'
-! -   the first 'b' with 'E'
-! -   the second 'r' with 'F'
+! - the first 'a' with 'A'
+! - the second 'a' with 'B'
+! - the fourth 'a' with 'C'
+! - the fifth 'a' with 'D'
+! - the first 'b' with 'E'
+! - the second 'r' with 'F'
 ! 
 ! Note that there is no replacement for the third 'a', second 'b' or first
 ! 'r'.

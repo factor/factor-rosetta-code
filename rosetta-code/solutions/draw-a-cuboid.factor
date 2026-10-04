@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Draw a cuboid with relative dimensions of 2 × 3 × 4.
 ! 
@@ -11,10 +13,10 @@
 ! 
 ! Related tasks
 ! 
-! -   draw a sphere
-! -   draw a rotating cube
-! -   write language name in 3D ASCII
-! -   draw a Deathstar
+! - draw a sphere
+! - draw a rotating cube
+! - write language name in 3D ASCII
+! - draw a Deathstar
 ! 
 ! Category:3D
 

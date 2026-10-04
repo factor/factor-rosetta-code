@@ -1,18 +1,15 @@
 ! []
 ! 
-! |right
+! The Dutch national flag is composed of three colored bands in the order:
 ! 
-! The Dutch national flag is composed of three coloured bands in the
-! order:
-! 
-! -   -   red (top)
-!     -   then white, and
-!     -   lastly blue (at the bottom).
+! - - red (top)
+!   - then white, and
+!   - lastly blue (bottom).
 ! 
 ! The problem posed by Edsger Dijkstra is:
 ! 
 !     Given a number of red, blue and white balls in random order, arrange
-!     them in the order of the colours in the Dutch national flag.
+!     them in the order of the colors in the Dutch national flag.
 ! 
 ! When the problem was first posed, Dijkstra then went on to successively
 ! refine a solution, minimising the number of swaps and the number of
@@ -26,12 +23,14 @@
 ! 2.  Sort the balls in a way idiomatic to your language.
 ! 3.  Check the sorted balls are in the order of the Dutch national flag.
 ! 
-! C.f.:
+! C.f.
 ! 
-! -   Dutch national flag problem
-! -   [https://www.google.co.uk/search?rlz=1C1DSGK_enGB472GB472&sugexp=chrome,mod=8&sourceid=chrome&ie=UTF-8&q=Dutch+national+flag+problem#hl=en&rlz=1C1DSGK_enGB472GB472&sclient=psy-ab&q=Probabilistic+analysis+of+algorithms+for+the+Dutch+national+flag+problem&oq=Probabilistic+analysis+of+algorithms+for+the+Dutch+national+flag+problem&gs_l=serp.3...60754.61818.1.62736.1.1.0.0.0.0.72.72.1.1.0...0.0.Pw3RGungndU&psj=1&bav=on.2,or.r_gc.r_pw.r_cp.r_qf.,cf.osb&fp=c33d18147f5082cc&biw=1395&bih=951
-!     Probabilistic analysis of algorithms for the Dutch national flag
-!     problem] by Wei-Mei Chen. (pdf)
+!     
+! 
+! - Dutch national flag problem
+! - [https://www.google.co.uk/search?rlz=1C1DSGK_enGB472GB472&sugexp=chrome,mod=8&sourceid=chrome&ie=UTF-8&q=Dutch+national+flag+problem#hl=en&rlz=1C1DSGK_enGB472GB472&sclient=psy-ab&q=Probabilistic+analysis+of+algorithms+for+the+Dutch+national+flag+problem&oq=Probabilistic+analysis+of+algorithms+for+the+Dutch+national+flag+problem&gs_l=serp.3...60754.61818.1.62736.1.1.0.0.0.0.72.72.1.1.0...0.0.Pw3RGungndU&psj=1&bav=on.2,or.r_gc.r_pw.r_cp.r_qf.,cf.osb&fp=c33d18147f5082cc&biw=1395&bih=951
+!   Probabilistic analysis of algorithms for the Dutch national flag
+!   problem] by Wei-Mei Chen. (pdf)
 
 USING: combinators grouping kernel math prettyprint random
 sequences ;

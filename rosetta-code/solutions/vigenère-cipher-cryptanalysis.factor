@@ -25,14 +25,14 @@
 ! 
 ! Specifics for this task:
 ! 
-! -   Take only the ciphertext as input. You can assume it's all
-!     capitalized and has no punctuation, but it might have whitespace.
-! -   Assume the plaintext is written in English.
-! -   Find and output the key.
-! -   Use that key to decrypt and output the original plaintext.
-!     Maintaining the whitespace from the ciphertext is optional.
-! -   The algorithm doesn't have to be perfect (which may not be possible)
-!     but it should work when given enough ciphertext. The example above
-!     is fairly long, and should be plenty for any algorithm.
+! - Take only the ciphertext as input. You can assume it's all capitalized
+!   and has no punctuation, but it might have whitespace.
+! - Assume the plaintext is written in English.
+! - Find and output the key.
+! - Use that key to decrypt and output the original plaintext. Maintaining
+!   the whitespace from the ciphertext is optional.
+! - The algorithm doesn't have to be perfect (which may not be possible)
+!   but it should work when given enough ciphertext. The example above is
+!   fairly long, and should be plenty for any algorithm.
 
 

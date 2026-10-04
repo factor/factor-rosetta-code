@@ -13,7 +13,9 @@
 ! Of the three missing numbers at the base of the pyramid, the middle one
 ! is the sum of the other two (that is, Y = X + Z).
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program to find a solution to this puzzle.
 

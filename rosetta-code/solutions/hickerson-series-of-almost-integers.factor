@@ -12,7 +12,9 @@
 ! Assume that an "almost integer" has either a nine or a zero as its first
 ! digit after the decimal point of its decimal string representation
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Calculate all values of the function checking and stating which are
 ! "almost integers".

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Encode a string using an MD5 algorithm. The algorithm can be found on
 ! Wikipedia.

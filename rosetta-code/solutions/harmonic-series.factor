@@ -15,21 +15,21 @@
 ! 
 ! Task
 ! 
-! -   Write a function (routine, procedure, whatever it may be called in
-!     your language) to generate harmonic numbers.
-! -   Use that procedure to show the values of the first 20 harmonic
-!     numbers.
-! -   Find and show the position in the series of the first value greater
-!     than the integers 1 through 5
+! - Write a function (routine, procedure, whatever it may be called in
+!   your language) to generate harmonic numbers.
+! - Use that procedure to show the values of the first 20 harmonic
+!   numbers.
+! - Find and show the position in the series of the first value greater
+!   than the integers 1 through 5
 ! 
 ! Stretch
 ! 
-! -   Find and show the position in the series of the first value greater
-!     than the integers 6 through 10
+! - Find and show the position in the series of the first value greater
+!   than the integers 6 through 10
 ! 
 ! Related
 ! 
-! -   Egyptian fractions
+! - Egyptian fractions
 
 USING: formatting grouping io kernel lists lists.lazy math
 math.functions math.ranges math.statistics math.text.english

@@ -22,15 +22,17 @@
 ! class environment and act according to the environment variable values
 ! stored within.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Build a dozen environments, and a single piece of code to be run
 ! repeatedly in each of these environments.
 ! 
 ! Each environment contains the bindings for two variables:
 ! 
-! -   -   a value in the Hailstone sequence, and
-!     -   a count which is incremented until the value drops to 1.
+! - - a value in the Hailstone sequence, and
+!   - a count which is incremented until the value drops to 1.
 ! 
 ! The initial hailstone values are 1 through 12, and the count in each
 ! environment is zero.

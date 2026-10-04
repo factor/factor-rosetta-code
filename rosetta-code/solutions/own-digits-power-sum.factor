@@ -17,8 +17,10 @@
 ! Optionally, do the same for N = 9 which may take a while for interpreted
 ! languages.
 ! 
-! Related:
+! Related
 ! 
-! -   Narcissistic_decimal_number
+!     
+! 
+! - Narcissistic_decimal_number
 
 

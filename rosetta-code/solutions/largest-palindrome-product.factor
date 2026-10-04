@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Task description is taken from Project Euler
 ! (https://projecteuler.net/problem=4)
@@ -9,12 +11,16 @@
 ! Find the largest palindrome made from the product of two 3-digit
 ! numbers.
 ! 
-! Stretch Goal:
+! Stretch Goal
+! 
+!     
 ! 
 ! Find the largest palindrome made from the product of two n-digit
 ! numbers, where n ranges from 4 to 7.
 ! 
-! Extended Stretch Goal:
+! Extended Stretch Goal
+! 
+!     
 ! 
 ! Find the largest palindrome made from the product of two n-digit
 ! numbers, where n ranges beyond 7,

@@ -1,6 +1,8 @@
 ! [Illustration of FIFO behavior]
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a queue data structure and demonstrate its operations.
 ! 
@@ -8,9 +10,9 @@
 ! 
 ! Operations:
 ! 
-! -   -   push (aka enqueue) - add element
-!     -   pop (aka dequeue) - pop first element
-!     -   empty - return truth value when empty
+! - - push (aka enqueue) - add element
+!   - pop (aka dequeue) - pop first element
+!   - empty - return truth value when empty
 
 USING: combinators deques dlists kernel prettyprint ;
 IN: rosetta-code.queue-usage

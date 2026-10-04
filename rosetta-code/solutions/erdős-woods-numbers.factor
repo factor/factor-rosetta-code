@@ -13,8 +13,8 @@
 ! if k is an E-W number for some integer a, then one can find an infinite
 ! number of other a's using the formula a(jq + 1) where:
 ! 
-! -   q is the product of all odd prime factors of a + k; and
-! -   j is any positive integer.
+! - q is the product of all odd prime factors of a + k; and
+! - j is any positive integer.
 ! 
 ! Example
 ! 
@@ -22,8 +22,8 @@
 ! a is 2184. This is because in the sequence 2184 to 2200 inclusive, the
 ! prime factors of the endpoints are:
 ! 
-! -   2³ x 3 x 7 x 13 = 2184
-! -   2³ x 5² x 11 = 2200
+! - 2³ x 3 x 7 x 13 = 2184
+! - 2³ x 5² x 11 = 2200
 ! 
 ! and, if you check all the numbers between them, you will find that they
 ! all have a prime factor in common with at least one of the endpoints
@@ -48,9 +48,8 @@
 ! 
 ! References
 ! 
-! -   OEIS sequence A059756: Erdős–Woods numbers.
-! -   OEIS sequence A059757: Smallest values of a for a given E-W number
-!     k.
-! -   Planet Math: Erdős–Woods numbers.
+! - OEIS sequence A059756: Erdős–Woods numbers.
+! - OEIS sequence A059757: Smallest values of a for a given E-W number k.
+! - Planet Math: Erdős–Woods numbers.
 
 

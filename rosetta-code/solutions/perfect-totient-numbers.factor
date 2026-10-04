@@ -1,13 +1,17 @@
 ! Generate and show here, the first twenty Perfect totient numbers.
 ! 
-! Related task:
+! Related task
 ! 
-! -   -   Totient function
+!     
 ! 
-! Also see:
+! - - Totient function
 ! 
-! -   -   the OEIS entry for perfect totient numbers.
-!     -   mrob list of the first 54
+! Also see
+! 
+!     
+! 
+! - - the OEIS entry for perfect totient numbers.
+!   - mrob list of the first 54
 
 USING: formatting kernel lists lists.lazy math
 math.primes.factors ;

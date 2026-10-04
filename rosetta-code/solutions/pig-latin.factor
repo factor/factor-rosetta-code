@@ -9,11 +9,11 @@
 ! 
 ! Examples
 ! 
-! -   pig
+! - pig
 ! 
 ! igpay
 ! 
-! -   hello
+! - hello
 ! 
 ! ellohay
 

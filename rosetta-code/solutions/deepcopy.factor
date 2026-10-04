@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate how to copy data structures containing complex heterogeneous
 ! and cyclic semantics.
@@ -12,15 +14,15 @@
 ! 
 ! The task should show:
 ! 
-! -   Relevant semantics of structures, such as their homogeneous or
-!     heterogeneous properties, or containment of (self- or
-!     mutual-reference) cycles.
+! - Relevant semantics of structures, such as their homogeneous or
+!   heterogeneous properties, or containment of (self- or
+!   mutual-reference) cycles.
 ! 
-! -   Any limitations of the method.
+! - Any limitations of the method.
 ! 
-! -   That the structure and its copy are different.
+! - That the structure and its copy are different.
 ! 
-! -   Suitable links to external documentation for common libraries.
+! - Suitable links to external documentation for common libraries.
 
 USING: accessors arrays io kernel named-tuples prettyprint
 sequences sequences.deep ;

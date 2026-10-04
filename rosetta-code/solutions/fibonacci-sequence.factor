@@ -5,7 +5,9 @@
 !       F¹ = 1 
 !       F_(n) = F_(n-1) + F_(n-2) , if n > 1 
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function to generate the n^(th) Fibonacci number.
 ! 
@@ -24,19 +26,23 @@
 ! 
 ! Support for negative n in the solution is optional.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Fibonacci n-step number sequences
-! -   Leonardo numbers
+!     
 ! 
-! References:
+! - Fibonacci n-step number sequences
+! - Leonardo numbers
 ! 
-! -   Wikipedia, Fibonacci number
-! -   Wikipedia, Lucas number
-! -   MathWorld, Fibonacci Number
-! -   Some identities for r-Fibonacci numbers
-! -   OEIS Fibonacci numbers
-! -   OEIS Lucas numbers
+! References
+! 
+!     
+! 
+! - Wikipedia, Fibonacci number
+! - Wikipedia, Lucas number
+! - MathWorld, Fibonacci Number
+! - Some identities for r-Fibonacci numbers
+! - OEIS Fibonacci numbers
+! - OEIS Lucas numbers
 ! 
 ! Category:Recursion Category:Memoization Category:Classic CS problems and
 ! programs

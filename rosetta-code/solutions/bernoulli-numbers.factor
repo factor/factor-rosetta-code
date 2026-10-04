@@ -10,15 +10,15 @@
 ! 
 ! Task
 ! 
-! -   -   show the Bernoulli numbers B₀ through B₆₀.
-!     -   suppress the output of values which are equal to zero. (Other
-!         than B₁, all odd Bernoulli numbers have a value of zero.)
-!     -   express the Bernoulli numbers as fractions (most are improper
-!         fractions).
-!     -   the fractions should be reduced.
-!     -   index each number in some way so that it can be discerned which
-!         Bernoulli number is being displayed.
-!     -   align the solidi (/) if used (extra credit).
+! - - show the Bernoulli numbers B₀ through B₆₀.
+!   - suppress the output of values which are equal to zero. (Other than
+!     B₁, all odd Bernoulli numbers have a value of zero.)
+!   - express the Bernoulli numbers as fractions (most are improper
+!     fractions).
+!   - the fractions should be reduced.
+!   - index each number in some way so that it can be discerned which
+!     Bernoulli number is being displayed.
+!   - align the solidi (/) if used (extra credit).
 ! 
 ! An algorithm
 ! 
@@ -33,13 +33,13 @@
 ! 
 ! See also
 ! 
-! -   Sequence A027641 Numerator of Bernoulli number B_n on The On-Line
-!     Encyclopedia of Integer Sequences.
-! -   Sequence A027642 Denominator of Bernoulli number B_n on The On-Line
-!     Encyclopedia of Integer Sequences.
-! -   Entry Bernoulli number on The Eric Weisstein's World of Mathematics
-!     (TM).
-! -   Luschny's The Bernoulli Manifesto for a discussion on B₁ = -½ versus
-!     +½.
+! - Sequence A027641 Numerator of Bernoulli number B_n on The On-Line
+!   Encyclopedia of Integer Sequences.
+! - Sequence A027642 Denominator of Bernoulli number B_n on The On-Line
+!   Encyclopedia of Integer Sequences.
+! - Entry Bernoulli number on The Eric Weisstein's World of Mathematics
+!   (TM).
+! - Luschny's The Bernoulli Manifesto for a discussion on B₁ = -½ versus
+!   +½.
 
 

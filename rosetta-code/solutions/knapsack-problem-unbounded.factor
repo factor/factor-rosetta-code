@@ -63,21 +63,27 @@
 ! He can only take whole units of any item, but there is much more of any
 ! item than he could ever carry
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how many of each item does he take to maximize the value of items
 ! he is carrying away with him.
 ! 
-! Note:
+! Note
 ! 
-! -   There are four solutions that maximize the value taken. Only one
-!     need be given.
+!     
 ! 
-! Related tasks:
+! - There are four solutions that maximize the value taken. Only one need
+!   be given.
 ! 
-! -   Knapsack problem/Bounded
-! -   Knapsack problem/Continuous
-! -   Knapsack problem/0-1
+! Related tasks
+! 
+!     
+! 
+! - Knapsack problem/Bounded
+! - Knapsack problem/Continuous
+! - Knapsack problem/0-1
 
 USING: accessors combinators kernel locals math math.order
 math.vectors sequences sequences.product combinators.short-circuit ;

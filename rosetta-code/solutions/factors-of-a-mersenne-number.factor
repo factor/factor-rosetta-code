@@ -43,24 +43,30 @@
 ! For example, M₄=15 yields no factors using these techniques, but factors
 ! into 3 and 5, neither of which fit 2kP+1.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Using the above method find a factor of 2⁹²⁹-1 (aka M929)
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   count in factors
-! -   prime decomposition
-! -   factors of an integer
-! -   Sieve of Eratosthenes
-! -   primality by trial division
-! -   trial factoring of a Mersenne number
-! -   partition an integer X into N primes
-! -   sequence of primes by Trial Division
+!     
 ! 
-! See also:
+! - count in factors
+! - prime decomposition
+! - factors of an integer
+! - Sieve of Eratosthenes
+! - primality by trial division
+! - trial factoring of a Mersenne number
+! - partition an integer X into N primes
+! - sequence of primes by Trial Division
 ! 
-! -   Computers in 1948: 2¹²⁷ - 1
+! See also
+! 
+!     
+! 
+! - Computers in 1948: 2¹²⁷ - 1
 ! 
 !    (Note:  This video is no longer available because the YouTube account associated with this video has been terminated.)
 ! 

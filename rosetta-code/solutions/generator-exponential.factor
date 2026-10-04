@@ -10,28 +10,31 @@
 ! infinite, and where it is possible to construct the next value of the
 ! sequence with only minimal state.
 ! 
-! Task:
+! Task
 ! 
-! -   Create a function that returns a generation of the m'th powers of
-!     the positive integers starting from zero, in order, and without
-!     obvious or simple upper limit. (Any upper limit to the generator
-!     should not be stated in the source but should be down to factors
-!     such as the languages natural integer size limit or computational
-!     time/size).
-! -   Use it to create a generator of:
-!     -   -   Squares.
-!         -   Cubes.
-! -   Create a new generator that filters all cubes from the generator of
-!     squares.
-! -   Drop the first 20 values from this last generator of filtered
-!     results, and then show the next 10 values.
+!     
+! 
+! - Create a function that returns a generation of the m'th powers of the
+!   positive integers starting from zero, in order, and without obvious or
+!   simple upper limit. (Any upper limit to the generator should not be
+!   stated in the source but should be down to factors such as the
+!   languages natural integer size limit or computational time/size).
+! - Use it to create a generator of:
+!   - - Squares.
+!     - Cubes.
+! - Create a new generator that filters all cubes from the generator of
+!   squares.
+! - Drop the first 20 values from this last generator of filtered results,
+!   and then show the next 10 values.
 ! 
 ! Note that this task requires the use of generators in the calculation of
 ! the result.
 ! 
-! Also see:
+! Also see
 ! 
-! -   Generator
+!     
+! 
+! - Generator
 ! 
 ! Category:Non parametric generators Category:Stateful transactions
 

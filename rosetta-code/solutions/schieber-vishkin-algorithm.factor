@@ -15,9 +15,9 @@
 ! 
 ! w ∈ Ancestors(u) ∩ Ancestors(v)
 ! 
-! and for any other node w′ in the intersection:
+! and for any other node w^(′) in the intersection:
 ! 
-! depth(w′) ≤ depth(w).
+! depth(w^(′)) ≤ depth(w).
 ! 
 ! Input
 ! 

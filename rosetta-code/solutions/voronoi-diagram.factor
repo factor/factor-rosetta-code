@@ -3,7 +3,9 @@
 ! Each Voronoi site s also has a Voronoi cell consisting of all points
 ! closest to s.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate how to generate and display a Voroni diagram.
 ! 

@@ -13,7 +13,7 @@
 ! 
 ! See also
 ! 
-! -   Bitmap/Bézier curves/Quadratic
-! -   Steffensen's method
+! - Bitmap/Bézier curves/Quadratic
+! - Steffensen's method
 
 

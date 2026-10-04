@@ -33,18 +33,17 @@
 ! 
 ! Optionally:
 ! 
-! -   For faster long multiplication use Karatsuba algorithm.
-! -   Using the Karatsuba algorithm, spread the computation across
-!     multiple CPUs.
+! - For faster long multiplication use Karatsuba algorithm.
+! - Using the Karatsuba algorithm, spread the computation across multiple
+!   CPUs.
 ! 
 ! Test case 1 - With balanced ternaries a from string "+-0++0+.+-0++0+", b
 ! from native real -436.436, c "+-++-.+-++-":
 ! 
-! -   write out a, b and c in decimal notation.
-! -   calculate a × (b − c), write out the result in both ternary and
-!     decimal notations.
-! -   In the above limit the precision to 81 ternary digits after the
-!     point.
+! - write out a, b and c in decimal notation.
+! - calculate a × (b − c), write out the result in both ternary and
+!   decimal notations.
+! - In the above limit the precision to 81 ternary digits after the point.
 ! 
 ! Test case 2 - Generate a multiplication table of balanced ternaries
 ! where the rows of the table are for a 1st factor of 1 to 27, and the
@@ -56,7 +55,7 @@
 ! If it is not possible to implement code in syntax of the specific
 ! language then:
 ! 
-! -   note the reason.
-! -   perform the test case using a built-in or external library.
+! - note the reason.
+! - perform the test case using a built-in or external library.
 
 

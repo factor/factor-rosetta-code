@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find and display the sum of elements that are below the main diagonal of
 ! a matrix.

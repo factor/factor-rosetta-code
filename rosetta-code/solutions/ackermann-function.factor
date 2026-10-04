@@ -13,14 +13,18 @@
 ! 
 ! Its arguments are never negative and it always terminates.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function which returns the value of A(m, n). Arbitrary precision
 ! is preferred (since the function grows so quickly), but not required.
 ! 
-! See also:
+! See also
 ! 
-! -   Conway chained arrow notation for the Ackermann function.
+!     
+! 
+! - Conway chained arrow notation for the Ackermann function.
 ! 
 ! Category:Memoization Category:Classic CS problems and programs
 

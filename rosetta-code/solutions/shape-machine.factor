@@ -10,7 +10,7 @@
 ! 
 ! See Also
 ! 
-! -   Esolangs.org page
+! - Esolangs.org page
 ! 
 ! Category:Simple
 

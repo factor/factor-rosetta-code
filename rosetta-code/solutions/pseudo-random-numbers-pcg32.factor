@@ -1,4 +1,6 @@
-! Some definitions to help in the explanation:
+! Some definitions to help in the explanation
+! 
+!     
 ! 
 !     Floor operation
 ! 
@@ -49,7 +51,9 @@
 ! 
 !             E.g Binary 00110101 | Binary 00110011 == Binary 00110111
 ! 
-! [https://www.pcg-random.org/download.html#minimal-c-implementation| PCG32] Generator (pseudo-code):
+! [https://www.pcg-random.org/download.html#minimal-c-implementation| PCG32] Generator (pseudo-code)
+! 
+!     
 ! 
 ! PCG32 has two unsigned 64-bit integers of internal state:
 ! 
@@ -79,18 +83,20 @@
 ! some languages as a general higher-order `unfold` function, dual to
 ! `fold` or `reduce`.
 ! 
-! Task:
+! Task
 ! 
-! -   Generate a class/set of functions that generates pseudo-random
+!     
+! 
+! - Generate a class/set of functions that generates pseudo-random
 ! 
 ! numbers using the above.
 ! 
-! -   Show that the first five integers generated with the seed 42, 54
+! - Show that the first five integers generated with the seed 42, 54
 ! 
 ! are: 2707161783 2068313097 3122475824 2211639955 3215226955
 ! 
-! -   Show that for an initial seed of 987654321, 1 the counts of 100_000
-!     repetitions of
+! - Show that for an initial seed of 987654321, 1 the counts of 100_000
+!   repetitions of
 ! 
 !    floor(random_gen.next_float() * 5)
 ! 
@@ -98,7 +104,7 @@
 ! 
 !    0: 20049, 1: 20022, 2: 20115, 3: 19809, 4: 20005
 ! 
-! -   Show your output here, on this page.
+! - Show your output here, on this page.
 
 USING: accessors kernel locals math math.bitwise math.statistics
 prettyprint sequences ;

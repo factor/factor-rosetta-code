@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Split a (character) string into comma (plus a blank) delimited strings
 ! based on a change of character (left to right).

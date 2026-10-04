@@ -1,15 +1,14 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Display a substring:
 ! 
-! -   -   starting from n characters in and of m length;
-!     -   starting from '''n''' characters in, up to the end of the
-!         string;
-!     -   whole string minus the last character;
-!     -   starting from a known character within the string and of m
-!         length;
-!     -   starting from a known substring within the string and of m
-!         length.
+! - - starting from n characters in and of m length;
+!   - starting from '''n''' characters in, up to the end of the string;
+!   - whole string minus the last character;
+!   - starting from a known character within the string and of m length;
+!   - starting from a known substring within the string and of m length.
 ! 
 ! If the program uses UTF-8 or UTF-16, it must work on any valid Unicode
 ! code point, whether in the Basic Multilingual Plane or above it.

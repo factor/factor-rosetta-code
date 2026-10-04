@@ -36,10 +36,10 @@
 ! 
 ! Task
 ! 
-! -   Implement the CORDIC algorithm, using only the 4 arithmetic
-!     operations and right shifts in the main loop if possible.
-! -   Use your implementation to calculate the cosine of the following
-!     angles, expressed in radians: -9, 0, 1.5 and 6
+! - Implement the CORDIC algorithm, using only the 4 arithmetic operations
+!   and right shifts in the main loop if possible.
+! - Use your implementation to calculate the cosine of the following
+!   angles, expressed in radians: -9, 0, 1.5 and 6
 ! 
 ! See also
 ! 

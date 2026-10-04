@@ -1,25 +1,28 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Validate the check digit of an ISBN-13 code:
 ! 
-! -   -   Multiply every other digit by 3.
-!     -   Add these numbers and the other digits.
-!     -   Take the remainder of this number after division by 10.
-!     -   If it is 0, the ISBN-13 check digit is correct.
+! - - Multiply every other digit by 3.
+!   - Add these numbers and the other digits.
+!   - Take the remainder of this number after division by 10.
+!   - If it is 0, the ISBN-13 check digit is correct.
 ! 
 ! You might use the following codes for testing:
 ! 
-! -   -   978-0596528126 (good)
-!     -   978-0596528120 (bad)
-!     -   978-1788399081 (good)
-!     -   978-1788399083 (bad)
+! - - 978-0596528126 (good)
+!   - 978-0596528120 (bad)
+!   - 978-1788399081 (good)
+!   - 978-1788399083 (bad)
 ! 
 ! Show output here, on this page
 ! 
-! See also:
+! See also
 ! 
-! -   -   for details: 13-digit ISBN method of validation. (installs
-!         cookies.)
+!     
+! 
+! - - for details: 13-digit ISBN method of validation. (installs cookies.)
 
 USING: combinators.short-circuit formatting kernel math
 math.functions math.parser math.vectors qw sequences

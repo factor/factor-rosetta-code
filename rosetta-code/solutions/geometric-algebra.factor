@@ -71,14 +71,14 @@
 ! 
 ! To summarize, to solve this task you will:
 ! 
-! -   define the inner product of two vectors : x ⋅ y = (xy + yx)/2.
-! -   define the function e
-! -   verify the orthonormality e_(i) ⋅ e_(j) = δ_(i, j) for i, j in
-!     {0, 1, 2, 3, 4}.
-! -   create a function returning a random multivector
-! -   create a function returning a random vector
-! -   verify the axioms for three rarndom multivectors a, b, c and a
-!     random vector x.
+! - define the inner product of two vectors : x ⋅ y = (xy + yx)/2.
+! - define the function e
+! - verify the orthonormality e_(i) ⋅ e_(j) = δ_(i, j) for i, j in
+!   {0, 1, 2, 3, 4}.
+! - create a function returning a random multivector
+! - create a function returning a random vector
+! - verify the axioms for three rarndom multivectors a, b, c and a random
+!   vector x.
 ! 
 ! Optionally, you will repeat the last step a large number of times, in
 ! order to increase confidence in the result.

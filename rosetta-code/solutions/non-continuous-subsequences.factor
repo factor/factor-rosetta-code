@@ -14,18 +14,22 @@
 ! 
 ! Task: Find all non-continuous subsequences for a given sequence.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! For the sequence 1,2,3,4, there are five non-continuous subsequences,
 ! namely:
 ! 
-! -   -   1,3
-!     -   1,4
-!     -   2,4
-!     -   1,3,4
-!     -   1,2,4
+! - - 1,3
+!   - 1,4
+!   - 2,4
+!   - 1,3,4
+!   - 1,2,4
 ! 
-! Goal:
+! Goal
+! 
+!     
 ! 
 ! There are different ways to calculate those subsequences.
 ! 

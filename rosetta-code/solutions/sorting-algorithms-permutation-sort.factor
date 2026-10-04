@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a permutation sort, which proceeds by generating the possible
 ! permutations of the input array/list until discovering the sorted one.

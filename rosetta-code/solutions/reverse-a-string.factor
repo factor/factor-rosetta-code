@@ -1,10 +1,14 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Take a string and reverse it.
 ! 
 ! For example, "asdf" becomes "fdsa".
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Preserve Unicode combining characters.
 ! 

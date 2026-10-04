@@ -8,7 +8,9 @@
 ! 
 ! (Where abs returns the absolute value)
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function/method/routine to use the the Shoelace formula to
 ! calculate the area of the polygon described by the ordered points:

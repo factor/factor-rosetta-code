@@ -17,19 +17,19 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first 10 terms of the sequence. (Or as many as
-!     reasonably supported by your language if it is less.) For any values
-!     with more than 40 digits, show the first and last 20 digits and the
-!     overall digit count.
+! - Find and display the first 10 terms of the sequence. (Or as many as
+!   reasonably supported by your language if it is less.) For any values
+!   with more than 40 digits, show the first and last 20 digits and the
+!   overall digit count.
 ! 
 ! If any of the tests for primality used in your program are probabilistic
 ! please so indicate.
 ! 
 ! Stretch
 ! 
-! -   Find and display the next 5 terms of the sequence. (Or as many as
-!     you have the patience for.) Show only the first and last 20 digits
-!     and the overall digit count.
+! - Find and display the next 5 terms of the sequence. (Or as many as you
+!   have the patience for.) Show only the first and last 20 digits and the
+!   overall digit count.
 ! 
 ! See also
 ! * OEIS:A075442 - Slowest-growing sequence of primes whose reciprocals sum to 1

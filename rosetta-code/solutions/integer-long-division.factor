@@ -16,12 +16,16 @@
 ! produce a leading number of digits in the quotient, but have no effect
 ! on the period.
 ! 
-! References:
+! References
 ! 
-! -   Wikipedia: Long Division
+!     
 ! 
-! Related:
+! - Wikipedia: Long Division
 ! 
-! -   Long primes
+! Related
+! 
+!     
+! 
+! - Long primes
 
 

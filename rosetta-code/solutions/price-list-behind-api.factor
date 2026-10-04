@@ -8,7 +8,9 @@
 ! Assume that for the purposes of testing, you have access to the actual
 ! number of priced items to split.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Write functions to randomly generate around 100K prices and provide
 !     the get_prange_count and get_max_price API calls.

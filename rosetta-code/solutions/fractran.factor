@@ -7,10 +7,10 @@
 ! 
 ! The program is run by updating the integer n as follows:
 ! 
-! -   for the first fraction, f_(i), in the list for which nf_(i) is an
-!     integer, replace n with nf_(i) ;
-! -   repeat this rule until no fraction in the list produces an integer
-!     when multiplied by n, then halt.
+! - for the first fraction, f_(i), in the list for which nf_(i) is an
+!   integer, replace n with nf_(i) ;
+! - repeat this rule until no fraction in the list produces an integer
+!   when multiplied by n, then halt.
 ! 
 ! Conway gave a program for primes in FRACTRAN:
 ! 
@@ -31,7 +31,9 @@
 ! 
 ! which are the prime powers of 2.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that reads a list of fractions in a natural format from
 ! the keyboard or from a string, to parse it into a sequence of fractions
@@ -39,25 +41,30 @@
 ! integer, writing the result at each step. It is also required that the
 ! number of steps is limited (by a parameter easy to find).
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Use this program to derive the first 20 or so prime numbers.
 ! 
-! See also:
+! See also
+! 
+!     
 ! 
 ! For more on how to program FRACTRAN as a universal programming language,
 ! see:
 ! 
-! -   J. H. Conway (1987). Fractran: A Simple Universal Programming
-!     Language for Arithmetic. In: Open Problems in Communication and
-!     Computation, pages 4–26. Springer.
+! - J. H. Conway (1987). Fractran: A Simple Universal Programming Language
+!   for Arithmetic. In: Open Problems in Communication and Computation,
+!   pages 4–26. Springer.
 ! 
-! -   J. H. Conway (2010). "FRACTRAN: A simple universal programming
-!     language for arithmetic". In Jeffrey C. Lagarias. The Ultimate
-!     Challenge: the 3x+1 problem. American Mathematical Society. pp.
-!     249–264. ISBN 978-0-8218-4940-8. Zbl 1216.68068.
+! - J. H. Conway (2010). "FRACTRAN: A simple universal programming
+!   language for arithmetic". In Jeffrey C. Lagarias. The Ultimate
+!   Challenge: the 3x+1 problem. American Mathematical Society. pp.
+!   249–264. ISBN 978-0-8218-4940-8. Zbl 1216.68068.
 ! 
-! -   Number Pathology: Fractran by Mark C. Chu-Carroll; October 27, 2006.
+! - Prime Number Pathology: Fractran by Mark C. Chu-Carroll; October 27,
+!   2006.
 
 USING: io kernel math math.functions math.parser multiline
 prettyprint sequences splitting ;

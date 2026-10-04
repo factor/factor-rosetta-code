@@ -1,4 +1,6 @@
-! Rationale:
+! Rationale
+! 
+!     
 ! 
 ! While similar to both Bulls and cows and Mastermind, Wordle is a notable
 ! variation, having experienced a viral surge in popularity, and reverse
@@ -18,7 +20,9 @@
 !   appears multiple times in the answer; otherwise, excess repeating
 !   letters will be colored gray.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a function or procedure that takes two strings; the answer
 ! string, and the guess string, and returns a string, list, dynamic array

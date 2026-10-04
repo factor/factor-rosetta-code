@@ -10,16 +10,18 @@
 ! 
 ! Task
 ! 
-! -   Find and display here, on this page, the first perfect square in
-!     base N, with N significant unique digits when expressed in base N,
-!     for each of base 2 through 12. Display each number in the base N for
-!     which it was calculated.
+! - Find and display here, on this page, the first perfect square in base
+!   N, with N significant unique digits when expressed in base N, for each
+!   of base 2 through 12. Display each number in the base N for which it
+!   was calculated.
 ! 
-! -   (optional) Do the same for bases 13 through 16.
+! - (optional) Do the same for bases 13 through 16.
 ! 
-! -   (stretch goal) Continue on for bases 17 - ?? (Big Integer math)
+! - (stretch goal) Continue on for bases 17 - ?? (Big Integer math)
 ! 
-! See also:
+! See also
+! 
+!     
 ! 
 ! * OEIS A260182: smallest square that is pandigital in base n.
 ! 

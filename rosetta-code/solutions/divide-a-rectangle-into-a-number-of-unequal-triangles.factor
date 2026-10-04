@@ -8,8 +8,8 @@
 ! The number should not have an upper bound however, so that many
 ! triangles can be generated.
 ! 
-! -   Explain, or refer to the algorithm employed.
-! -   Give a sample of sets of triangles produced from running the
-!     algorithm, on this page.
+! - Explain, or refer to the algorithm employed.
+! - Give a sample of sets of triangles produced from running the
+!   algorithm, on this page.
 
 

@@ -17,29 +17,27 @@
 ! 
 ! Task
 ! 
-! -   Create a function fs( f, s ) that takes a function, f( n ), of one
-!     value and a sequence of values s.
+! - Create a function fs( f, s ) that takes a function, f( n ), of one
+!   value and a sequence of values s.
 ! 
 ! Function fs should return an ordered sequence of the result of applying function f to every value of s in turn.
 ! 
-! -   Create function f1 that takes a value and returns it multiplied by
-!     2.
-! -   Create function f2 that takes a value and returns it squared.
+! - Create function f1 that takes a value and returns it multiplied by 2.
+! - Create function f2 that takes a value and returns it squared.
 ! 
-! -   Partially apply f1 to fs to form function fsf1( s )
-! -   Partially apply f2 to fs to form function fsf2( s )
+! - Partially apply f1 to fs to form function fsf1( s )
+! - Partially apply f2 to fs to form function fsf2( s )
 ! 
-! -   Test fsf1 and fsf2 by evaluating them with s being the sequence of
-!     integers from 0 to 3 inclusive and then the sequence of even
-!     integers from 2 to 8 inclusive.
+! - Test fsf1 and fsf2 by evaluating them with s being the sequence of
+!   integers from 0 to 3 inclusive and then the sequence of even integers
+!   from 2 to 8 inclusive.
 ! 
 ! Notes
 ! 
-! -   In partially applying the functions f1 or f2 to fs, there should be
-!     no explicit mention of any other parameters to fs, although
-!     introspection of fs within the partial applicator to find its
-!     parameters is allowed.
-! -   This task is more about how results are generated rather than just
-!     getting results.
+! - In partially applying the functions f1 or f2 to fs, there should be no
+!   explicit mention of any other parameters to fs, although introspection
+!   of fs within the partial applicator to find its parameters is allowed.
+! - This task is more about how results are generated rather than just
+!   getting results.
 
 

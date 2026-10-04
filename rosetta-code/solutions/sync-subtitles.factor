@@ -7,8 +7,8 @@
 ! Make a program that takes the "movie.srt" file, and synchronizes the
 ! subtitles "n" seconds.
 ! 
-! -   Try to fast-forward the subtitles by 9 seconds.
-! -   Try rolling back the subtitles by 9 seconds.
+! - Try to fast-forward the subtitles by 9 seconds.
+! - Try rolling back the subtitles by 9 seconds.
 ! 
 ! Take the excerpt from the following subtitles file as an example:
 ! 
@@ -66,6 +66,6 @@
 ! 
 ! References
 ! 
-! -   -   Wikipedia: SubRip
+! - - Wikipedia: SubRip
 
 

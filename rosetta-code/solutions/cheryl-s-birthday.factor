@@ -20,15 +20,17 @@
 ! Write a computer program to deduce, by successive elimination, Cheryl's
 ! birthday.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Sum and Product Puzzle
+!     
+! 
+! - Sum and Product Puzzle
 ! 
 ! References
 ! 
-! -   Wikipedia article of the same name.
-! -   [https://en.wikipedia.org/wiki/Tuple_relational_calculus, Tuple
-!     Relational Calculus]
+! - Wikipedia article of the same name.
+! - [https://en.wikipedia.org/wiki/Tuple_relational_calculus, Tuple
+!   Relational Calculus]
 
 USING: assocs calendar.english fry io kernel prettyprint
 sequences sets.extras ;

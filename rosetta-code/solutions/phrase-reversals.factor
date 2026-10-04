@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given a string of space separated words containing the following phrase:
 ! 

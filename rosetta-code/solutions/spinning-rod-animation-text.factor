@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! An animation with the following frames in the following order (if
 ! certain characters aren't available or can't be used correctly in the
@@ -6,10 +8,10 @@
 ! frames) must animate with a delay of 0.25 seconds between each frame,
 ! with the previous frame being cleared before the next frame appears:
 ! 
-! -   -   |
-!     -   /
-!     -   - or ─
-!     -   \
+! - - |
+!   - /
+!   - - or ─
+!   - \
 ! 
 ! A stand-alone version that loops and/or a version that doesn't loop can
 ! be made. These examples can also be converted into a system used in game
@@ -37,33 +39,32 @@
 ! ** Dots - Option A requires ping / pong enabled script. Option B just
 ! adds the elements in the center.
 ! 
-! -   -   '.', '..', '...'
-!     -   '.', '..', '...', '..'
-! -   -   Pipe - This has the uniform sideways pipe instead of a hyphen to
-!         prevent non-uniform sizing.
-!         -   '|', '/', '─', '\'
-!     -   Stars - Option A requires ping / pong enabled script. Option B
-!         just adds the elements from the center.
-!         -   '⁎', '⁑', '⁂'
-!         -   '⁎', '⁑', '⁂', '⁑'
-!     -   Clock - These need to be ordered. I haven't done this yet as the
-!         application I was testing the system in doesn't support these
-!         wingdings / icons. But this would look quite nice and you could
-!         set it up to go forward, or backward during an undo process,
-!         etc..
-!         -   '🕛', '🕧', '🕐', '🕜', '🕑', '🕝', '🕒', '🕞', '🕓', '🕟',
-!             '🕔', '🕠', '🕕', '🕖', '🕗', '🕘', '🕙', '🕚', '🕡', '🕢',
-!             '🕣', '🕤', '🕥', '🕦'
-!     -   Arrows:
-!         -   '⬍', '⬈', '➞', '⬊', '⬍', '⬋', '⬅', '⬉'
-!     -   Bird - This looks decent but may be missing something.
-!         -   '︷', '︵', '︹', '︺', '︶', '︸'
-!         -   '︷', '︵', '︹', '︺', '︶', '︸', '︶', '︺', '︹', '︵'
-!     -   Plants - This isn't quite complete
-!         -   '☘', '❀', '❁'
-!         -   '☘', '❀', '❁', '❀'
-!     -   Eclipse - From Raku Throbber post author
-!         -   '🌑', '🌒', '🌓', '🌔', '🌕', '🌖', '🌗', '🌘'
+! - - '.', '..', '...'
+!   - '.', '..', '...', '..'
+! - - Pipe - This has the uniform sideways pipe instead of a hyphen to
+!     prevent non-uniform sizing.
+!     - '|', '/', '─', '\'
+!   - Stars - Option A requires ping / pong enabled script. Option B just
+!     adds the elements from the center.
+!     - '⁎', '⁑', '⁂'
+!     - '⁎', '⁑', '⁂', '⁑'
+!   - Clock - These need to be ordered. I haven't done this yet as the
+!     application I was testing the system in doesn't support these
+!     wingdings / icons. But this would look quite nice and you could set
+!     it up to go forward, or backward during an undo process, etc..
+!     - '🕛', '🕧', '🕐', '🕜', '🕑', '🕝', '🕒', '🕞', '🕓', '🕟', '🕔',
+!       '🕠', '🕕', '🕖', '🕗', '🕘', '🕙', '🕚', '🕡', '🕢', '🕣', '🕤',
+!       '🕥', '🕦'
+!   - Arrows:
+!     - '⬍', '⬈', '➞', '⬊', '⬍', '⬋', '⬅', '⬉'
+!   - Bird - This looks decent but may be missing something.
+!     - '︷', '︵', '︹', '︺', '︶', '︸'
+!     - '︷', '︵', '︹', '︺', '︶', '︸', '︶', '︺', '︹', '︵'
+!   - Plants - This isn't quite complete
+!     - '☘', '❀', '❁'
+!     - '☘', '❀', '❁', '❀'
+!   - Eclipse - From Raku Throbber post author
+!     - '🌑', '🌒', '🌓', '🌔', '🌕', '🌖', '🌗', '🌘'
 
 USING: calendar combinators.extras formatting io sequences
 threads ;

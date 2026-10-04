@@ -24,7 +24,9 @@
 ! 
 ! This will exclude, for example, triangle 6, 8, 10.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Create a named function/method/procedure/... that implements Hero's
 !     formula.

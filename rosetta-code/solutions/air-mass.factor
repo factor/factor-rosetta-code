@@ -14,18 +14,20 @@
 ! 
 ! For this task you can assume:
 ! 
-! -   -   The density of Earth's atmosphere is proportional to exp(-a/8500
-!         metres)
-!     -   The Earth is a perfect sphere of radius 6371 km.
+! - - The density of Earth's atmosphere is proportional to exp(-a/8500
+!     metres)
+!   - The Earth is a perfect sphere of radius 6371 km.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Write a function that calculates the air mass for an observer at
-!         a given altitude a above sea level and zenith angle z.
-!     -   Show the air mass for zenith angles 0 to 90 in steps of 5
-!         degrees for an observer at sea level.
-!     -   Do the same for the NASA SOFIA infrared telescope, which has a
-!         cruising altitude of 13,700 meters (about 8.3 miles),
+!     
+! 
+! - - Write a function that calculates the air mass for an observer at a
+!     given altitude a above sea level and zenith angle z.
+!   - Show the air mass for zenith angles 0 to 90 in steps of 5 degrees
+!     for an observer at sea level.
+!   - Do the same for the NASA SOFIA infrared telescope, which has a
+!     cruising altitude of 13,700 meters (about 8.3 miles),
 ! 
 !     
 ! 

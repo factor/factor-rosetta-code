@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Choose popular date libraries used by your language and show the epoch
 ! those libraries use.
@@ -11,9 +13,11 @@
 ! 
 ! For consistency's sake, show the date in UTC time where possible.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Date format
+!     
+! 
+! - Date format
 
 USING: calendar calendar.format io ;
 

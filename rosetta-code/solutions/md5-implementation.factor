@@ -4,23 +4,23 @@
 ! algorithm refer to MD5 on Wikipedia or the MD5 definition in IETF RFC
 ! (1321).
 ! 
-! -   The implementation needs to implement the key functionality namely
-!     producing a correct message digest for an input string. It is not
-!     necessary to mimic all of the calling modes such as adding to a
-!     digest one block at a time over subsequent calls.
-! -   In addition to coding and verifying your implementation, note any
-!     challenges your language presented implementing the solution,
-!     implementation choices made, or limitations of your solution.
-! -   Solutions on this page should implement MD5 directly and NOT use
-!     built in (MD5) functions, call outs to operating system calls or
-!     library routines written in other languages as is common in the
-!     original MD5 task.
-! -   The following are acceptable:
-!     -   An original implementation from the specification, reference
-!         implementation, or pseudo-code
-!     -   A translation of a correct implementation from another language
-!     -   A library routine in the same language; however, the source must
-!         be included here.
+! - The implementation needs to implement the key functionality namely
+!   producing a correct message digest for an input string. It is not
+!   necessary to mimic all of the calling modes such as adding to a digest
+!   one block at a time over subsequent calls.
+! - In addition to coding and verifying your implementation, note any
+!   challenges your language presented implementing the solution,
+!   implementation choices made, or limitations of your solution.
+! - Solutions on this page should implement MD5 directly and NOT use built
+!   in (MD5) functions, call outs to operating system calls or library
+!   routines written in other languages as is common in the original MD5
+!   task.
+! - The following are acceptable:
+!   - An original implementation from the specification, reference
+!     implementation, or pseudo-code
+!   - A translation of a correct implementation from another language
+!   - A library routine in the same language; however, the source must be
+!     included here.
 ! 
 ! The solutions shown here will provide practical illustrations of bit
 ! manipulation, unsigned integers, working with little-endian data.

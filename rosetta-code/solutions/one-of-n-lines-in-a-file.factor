@@ -1,27 +1,29 @@
 ! A method of choosing a line randomly from a file:
 ! 
-! -   -   Without reading the file more than once
-!     -   When substantial parts of the file cannot be held in memory
-!     -   Without knowing how many lines are in the file
+! - - Without reading the file more than once
+!   - When substantial parts of the file cannot be held in memory
+!   - Without knowing how many lines are in the file
 ! 
 ! Is to:
 ! 
-! -   -   keep the first line of the file as a possible choice, then
-!     -   Read the second line of the file if possible and make it the
-!         possible choice if a uniform random value between zero and one
-!         is less than 1/2.
-!     -   Read the third line of the file if possible and make it the
-!         possible choice if a uniform random value between zero and one
-!         is less than 1/3.
-!     -   ...
-!     -   Read the Nth line of the file if possible and make it the
-!         possible choice if a uniform random value between zero and one
-!         is less than 1/N
+! - - keep the first line of the file as a possible choice, then
+!   - Read the second line of the file if possible and make it the
+!     possible choice if a uniform random value between zero and one is
+!     less than 1/2.
+!   - Read the third line of the file if possible and make it the possible
+!     choice if a uniform random value between zero and one is less than
+!     1/3.
+!   - ...
+!   - Read the Nth line of the file if possible and make it the possible
+!     choice if a uniform random value between zero and one is less than
+!     1/N
 ! 
-! -   -   Return the computed possible choice when no further lines exist
-!         in the file.
+! - - Return the computed possible choice when no further lines exist in
+!     the file.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Create a function/method/routine called one_of_n that given n, the
 !     number of actual lines in a file, follows the algorithm above to

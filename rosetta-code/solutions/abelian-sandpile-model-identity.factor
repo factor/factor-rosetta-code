@@ -46,28 +46,32 @@
 ! Note: The order in which cells are toppled does not affect the final
 ! result.
 ! 
-! Task:
+! Task
 ! 
-! -   Create a class or datastructure and functions to represent and
-!     operate on sandpiles.
-! -   Confirm the result of the avalanche of topplings shown above
-! -   Confirm that s1 + s2 == s2 + s1 # Show the stable results
-! -   If s3 is the sandpile with number 3 in every grid area, and s3_id is
-!     the following sandpile:
+!     
+! 
+! - Create a class or datastructure and functions to represent and operate
+!   on sandpiles.
+! - Confirm the result of the avalanche of topplings shown above
+! - Confirm that s1 + s2 == s2 + s1 # Show the stable results
+! - If s3 is the sandpile with number 3 in every grid area, and s3_id is
+!   the following sandpile:
 ! 
 !         2 1 2  
 !         1 0 1  
 !         2 1 2
 ! 
-! -   Show that s3 + s3_id == s3
-! -   Show that s3_id + s3_id == s3_id
+! - Show that s3 + s3_id == s3
+! - Show that s3_id + s3_id == s3_id
 ! 
 ! Show confirming output here, with your examples.
 ! 
-! References:
+! References
 ! 
-! -   https://www.youtube.com/watch?v=1MtEUErz7Gg
-! -   https://en.wikipedia.org/wiki/Abelian_sandpile_model
+!     
+! 
+! - https://www.youtube.com/watch?v=1MtEUErz7Gg
+! - https://en.wikipedia.org/wiki/Abelian_sandpile_model
 
 USING: arrays grouping io kernel math math.vectors prettyprint
 qw sequences ;

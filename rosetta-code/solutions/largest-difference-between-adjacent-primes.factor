@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find and show on this page the largest difference between adjacent
 ! primes under 1,000,000.

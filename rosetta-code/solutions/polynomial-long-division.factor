@@ -34,12 +34,10 @@
 ! element of the vectorA with "the same index". The vectors in the
 ! pseudocode are zero-based.
 ! 
-! -   Error handling (for allocations or for wrong inputs) is not
-!     mandatory.
-! -   Conventions can be different; in particular, note that if the first
-!     coefficient in the vector is the highest power of x for the
-!     polynomial represented by the vector, then the algorithm becomes
-!     simpler.
+! - Error handling (for allocations or for wrong inputs) is not mandatory.
+! - Conventions can be different; in particular, note that if the first
+!   coefficient in the vector is the highest power of x for the polynomial
+!   represented by the vector, then the algorithm becomes simpler.
 ! 
 ! Example for clarification
 ! 
@@ -101,9 +99,11 @@
 ! q:   -27  -9  1   →  x² - 9x - 27
 ! r:  -123   0  0   →          -123
 ! 
-! Related task:
+! Related task
 ! 
-! -   -   Polynomial derivative
+!     
+! 
+! - - Polynomial derivative
 
 USE: math.polynomials
 

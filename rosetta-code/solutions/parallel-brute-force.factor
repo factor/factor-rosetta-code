@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find, through brute force, the five-letter passwords corresponding with
 ! the following SHA-256 hashes:

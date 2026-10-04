@@ -69,17 +69,17 @@
 ! by constructing and solving such a system of equations represented by
 ! the above matrix A for h given f and g.
 ! 
-! -   The function should work for G of arbitrary length (i.e., not hard
-!     coded or constant) and F of any length up to that of G. Note that
-!     |H| will be given by |G| − |F| + 1.
-! -   There may be more equations than unknowns. If convenient, use a
-!     function from a library that finds the best fitting solution to an
-!     overdetermined system of linear equations (as in the Multiple
-!     regression task). Otherwise, prune the set of equations as needed
-!     and solve as in the Reduced row echelon form task.
-! -   Test your solution on the following data. Be sure to verify both
-!     that deconv(g, f) = h and deconv(g, h) = f and display the results
-!     in a human readable form.
+! - The function should work for G of arbitrary length (i.e., not hard
+!   coded or constant) and F of any length up to that of G. Note that |H|
+!   will be given by |G|−|F|+1.
+! - There may be more equations than unknowns. If convenient, use a
+!   function from a library that finds the best fitting solution to an
+!   overdetermined system of linear equations (as in the Multiple
+!   regression task). Otherwise, prune the set of equations as needed and
+!   solve as in the Reduced row echelon form task.
+! - Test your solution on the following data. Be sure to verify both that
+!   deconv(g, f) = h and deconv(g, h) = f and display the results in a
+!   human readable form.
 ! 
 ! h = [-8,-9,-3,-1,-6,7]
 ! 

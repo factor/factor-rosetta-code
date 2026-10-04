@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find solutions to the sum to one hundred puzzle.
 ! 
@@ -16,13 +18,13 @@
 ! 
 ! Show all output here.
 ! 
-! -   -   Show all solutions that sum to 100
-!     -   Show the sum that has the maximum number of solutions (from zero
-!         to infinity^(‡))
-!     -   Show the lowest positive sum that can't be expressed (has no
-!         solutions), using the rules for this task
-!     -   Show the ten highest numbers that can be expressed using the
-!         rules for this task (extra credit)
+! - - Show all solutions that sum to 100
+!   - Show the sum that has the maximum number of solutions (from zero to
+!     infinity^(‡))
+!   - Show the lowest positive sum that can't be expressed (has no
+!     solutions), using the rules for this task
+!   - Show the ten highest numbers that can be expressed using the rules
+!     for this task (extra credit)
 ! 
 ! ^(‡) (where infinity would be a relatively small 123,456,789)
 ! 

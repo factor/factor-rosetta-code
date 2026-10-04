@@ -19,9 +19,11 @@
 !     huge data set is very expensive, such as with EEPROMs like Flash
 !     memory where each write reduces the lifespan of the memory.
 ! 
-! See also:
+! See also
 ! 
-! -   Youtube Visualization and audibilization of Cycle Sort algorithm.
+!     
+! 
+! - Youtube Visualization and audibilization of Cycle Sort algorithm.
 ! 
 ! Category:Sorting
 

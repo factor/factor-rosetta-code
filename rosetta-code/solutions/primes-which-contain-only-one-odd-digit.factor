@@ -3,7 +3,9 @@
 ! Show on this page those primes under 1,000 which when expressed in
 ! decimal contain only one odd digit.
 ! 
-! Stretch goal:
+! Stretch goal
+! 
+!     
 ! 
 ! Show on this page only the count of those primes under 1,000,000 which
 ! when expressed in decimal contain only one odd digit.

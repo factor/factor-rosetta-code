@@ -7,7 +7,9 @@
 !             Otherwise:
 !     C:          The next term is how far back this last term occured previously.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! Using A:
 ! 
@@ -47,7 +49,9 @@
 ! 
 ! ...
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Create a function/procedure/method/subroutine/... to generate the
 !     Van Eck sequence of numbers.
@@ -57,11 +61,13 @@
 ! 
 ! :# Terms 991 - to - 1000 of the sequence.
 ! 
-! References:
+! References
 ! 
-! -   Don't Know (the Van Eck Sequence) - Numberphile video.
-! -   Wikipedia Article: Van Eck's Sequence.
-! -    OEIS sequence: A181391.
+!     
+! 
+! - Don't Know (the Van Eck Sequence) - Numberphile video.
+! - Wikipedia Article: Van Eck's Sequence.
+! -  OEIS sequence: A181391.
 
 USING: assocs fry kernel make math namespaces prettyprint
 sequences ;

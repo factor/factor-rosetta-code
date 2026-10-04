@@ -34,7 +34,9 @@
 ! satisfying 𝜌3 = 𝜌 + 1, whose real solution is known as the plastic ratio
 ! and equals 1:1.3247.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create and display a Harriss Spiral in your language.
 

@@ -3,45 +3,45 @@
 ! 
 ! It should accept three input parameters:
 ! 
-! -   -   The string
-!     -   The separator character
-!     -   The escape character
+! - - The string
+!   - The separator character
+!   - The escape character
 ! 
 ! It should output a list of strings.
 ! 
 ! Rules for splitting:
 ! 
-! -   The fields that were separated by the separators, become the
-!     elements of the output list.
-! -   Empty fields should be preserved, even at the start and end.
+! - The fields that were separated by the separators, become the elements
+!   of the output list.
+! - Empty fields should be preserved, even at the start and end.
 ! 
 ! Rules for escaping:
 ! 
-! -   "Escaped" means preceded by an occurrence of the escape character
-!     that is not already escaped itself.
-! -   When the escape character precedes a character that has no special
-!     meaning, it still counts as an escape (but does not do anything
-!     special).
-! -   Each occurrence of the escape character that was used to escape
-!     something, should not become part of the output.
+! - "Escaped" means preceded by an occurrence of the escape character that
+!   is not already escaped itself.
+! - When the escape character precedes a character that has no special
+!   meaning, it still counts as an escape (but does not do anything
+!   special).
+! - Each occurrence of the escape character that was used to escape
+!   something, should not become part of the output.
 ! 
 ! Demonstrate that your function satisfies the following test-case:
 ! 
-! +----------------------------------------------+----------------------+
-! | Input                                        | Output               |
-! +==============================================+======================+
-! | +--------------+-------+--------------+      | +------------------+ |
-! | | string:      |       | th           |      | |     one|uno      | |
-! | |              |       | ree^^^^|four |      | +------------------+ |
-! | |              |       | ^^^|^cuatro| |      | |                  | |
-! | +--------------+-------+--------------+      | +------------------+ |
-! | | separator    |     | |              |      | |     three^^      | |
-! | | character:   |       |              |      | +------------------+ |
-! | +--------------+-------+--------------+      | |     four^|cuatro | |
-! | | escape       |     ^ |              |      | +------------------+ |
-! | | character:   |       |              |      | |                  | |
-! | +--------------+-------+--------------+      | +------------------+ |
-! +----------------------------------------------+----------------------+
+! +---------------------------------------------------------------+----------------------+
+! | Input                                                         | Output               |
+! +===============================================================+======================+
+! | +----------------------+-------+----------------------------+ | +------------------+ |
+! | | string:              |       | three^^^^|four^^^|^cuatro| | | |     one|uno      | |
+! | +----------------------+-------+----------------------------+ | +------------------+ |
+! | | separator character: |     | |                            | | |                  | |
+! | +----------------------+-------+----------------------------+ | +------------------+ |
+! | | escape character:    |     ^ |                            | | |     three^^      | |
+! | +----------------------+-------+----------------------------+ | +------------------+ |
+! |                                                               | |     four^|cuatro | |
+! |                                                               | +------------------+ |
+! |                                                               | |                  | |
+! |                                                               | +------------------+ |
+! +---------------------------------------------------------------+----------------------+
 ! 
 ! (Print the output list in any format you like, as long as it is it easy
 ! to see what the fields are.)

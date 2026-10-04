@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find and display here on this page, the longest sequence of consecutive
 ! prime numbers where the differences between the primes are strictly

@@ -1,6 +1,8 @@
 ! Substitution Cipher Implementation - File Encryption/Decryption
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Encrypt an input/source file by replacing every upper/lower case
 ! alphabets of the source file with another predetermined upper/lower case
@@ -11,15 +13,19 @@
 ! This type of Encryption/Decryption scheme is often called a Substitution
 ! Cipher.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Caesar cipher
-! -   Rot-13
-! -   Vigenère Cipher/Cryptanalysis
+!     
 ! 
-! See also:
+! - Caesar cipher
+! - Rot-13
+! - Vigenère Cipher/Cryptanalysis
 ! 
-! -   Wikipedia: Substitution cipher
+! See also
+! 
+!     
+! 
+! - Wikipedia: Substitution cipher
 ! 
 ! Category:String manipulation
 

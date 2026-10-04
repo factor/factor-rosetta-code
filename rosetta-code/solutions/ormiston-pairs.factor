@@ -5,13 +5,13 @@
 ! 
 ! Task
 ! 
-! -   Find and show the first 30 Ormiston pairs.
+! - Find and show the first 30 Ormiston pairs.
 ! 
-! -   Find and show the count of Ormiston pairs up to one million.
+! - Find and show the count of Ormiston pairs up to one million.
 ! 
 ! Stretch
 ! 
-! -   Find and show the count of Ormiston pairs up to ten million.
+! - Find and show the count of Ormiston pairs up to ten million.
 ! 
 ! See also
 ! 

@@ -37,15 +37,15 @@
 ! However, you shouldn't parse it from JSON, but rather represent it
 ! natively in your programming language.
 ! 
-! -   The top-level data structure should be an ordered collection (i.e. a
-!     list, array, vector, or similar).
-! -   Each element in this list should be an associative collection that
-!     maps from keys to values (i.e. a struct, object, hash map,
-!     dictionary, or similar).
-! -   Each of them has two entries: One string value with key "name", and
-!     one numeric value with key "population".
-! -   You may rely on the list being sorted by population count, as long
-!     as you explain this to readers.
+! - The top-level data structure should be an ordered collection (i.e. a
+!   list, array, vector, or similar).
+! - Each element in this list should be an associative collection that
+!   maps from keys to values (i.e. a struct, object, hash map, dictionary,
+!   or similar).
+! - Each of them has two entries: One string value with key "name", and
+!   one numeric value with key "population".
+! - You may rely on the list being sorted by population count, as long as
+!   you explain this to readers.
 ! 
 ! If any of that is impossible or unreasonable in your programming
 ! language, then feel free to deviate, as long as you explain your reasons
@@ -71,7 +71,7 @@
 ! If this is not the approach which would be most natural or idiomatic in
 ! your language, explain why, and show what is.
 ! 
-! -   Search a list
+! - Search a list
 
 USING: accessors io kernel math prettyprint sequences ;
 IN: rosetta-code.search-list

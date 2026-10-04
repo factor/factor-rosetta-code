@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function that takes two logical (boolean) values, and outputs
 ! the result of "and" and "or" on both arguments as well as "not" on the

@@ -28,7 +28,9 @@
 ! As n grows larger, the series should converge to 6 but small amounts of
 ! error will cause it to approach 100.
 ! 
-! Task 1:
+! Task 1
+! 
+!     
 ! 
 ! Display the values of the sequence where n = 3, 4, 5, 6, 7, 8, 20, 30,
 ! 50 & 100 to at least 16 decimal places.
@@ -44,7 +46,9 @@
 !         n = 50     6.0001758466271871889456140207471954695237
 !         n = 100    6.000000019319477929104086803403585715024350675436952458072592750856521767230266
 ! 
-! Task 2:
+! Task 2
+! 
+!     
 ! 
 ! The Chaotic Bank Society is offering a new investment account to their
 ! customers.
@@ -57,12 +61,12 @@
 ! 
 ! So ...
 ! 
-! -   -   after 1 year, your balance will be multiplied by 1 and $1 will
-!         be removed for service charges.
-!     -   after 2 years your balance will be doubled and $1 removed.
-!     -   after 3 years your balance will be tripled and $1 removed.
-!     -    ...
-!     -   after 10 years, multiplied by 10 and $1 removed, and so on.
+! - - after 1 year, your balance will be multiplied by 1 and $1 will be
+!     removed for service charges.
+!   - after 2 years your balance will be doubled and $1 removed.
+!   - after 3 years your balance will be tripled and $1 removed.
+!   -  ...
+!   - after 10 years, multiplied by 10 and $1 removed, and so on.
 ! 
 ! What will your balance be after 25 years?
 ! 
@@ -70,7 +74,9 @@
 !    Balance = (Balance * year) - 1 for 25 years
 !    Balance after 25 years: $0.0399387296732302
 ! 
-! Task 3, extra credit:
+! Task 3, extra credit
+! 
+!     
 ! 
 ! Siegfried Rump's example. Consider the following function, designed by
 ! Siegfried Rump in 1988.
@@ -87,7 +93,7 @@
 ! 
 ! See also;
 ! 
-! -   Floating-Point Arithmetic Section 1.3.2 Difficult problems.
+! - Floating-Point Arithmetic Section 1.3.2 Difficult problems.
 
 USING: formatting fry io kernel locals math math.functions
 math.ranges sequences ;

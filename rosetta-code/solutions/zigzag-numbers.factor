@@ -28,7 +28,9 @@
 ! Sets of order 0 or 1 are defined to have exactly one zigzag permutation,
 ! so A(0) = A(1) = 1.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function that generates all zigzag permutations of the set {1,
 ! ..., n} and a function that returns the number of zigzag permutations of
@@ -36,7 +38,9 @@
 ! 
 ! Show your results for the above using n from 1 to 5 and m from 1 to 30.
 ! 
-! References:
+! References
+! 
+!     
 ! 
 ! Wikipedia entry on Alternating Permutation
 ! OEIS sequence A000111: Euler zigzag numbers

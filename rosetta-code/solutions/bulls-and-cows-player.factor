@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a player of the Bulls and Cows game, rather than a scorer. The
 ! player should give intermediate answers that respect the scores to
@@ -12,11 +14,13 @@
 ! Either you guess correctly or run out of numbers to guess, which
 ! indicates a problem with the scoring.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Bulls and cows
-! -   Guess the number
-! -   Guess the number/With Feedback (Player)
+!     
+! 
+! - Bulls and cows
+! - Guess the number
+! - Guess the number/With Feedback (Player)
 
 USING: arrays combinators.short-circuit formatting fry io kernel
 math math.combinatorics math.functions math.order math.parser

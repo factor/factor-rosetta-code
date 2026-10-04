@@ -28,8 +28,8 @@
 ! 
 ! Reference
 ! 
-! -   Converting Between Gray and Binary Codes. It includes step-by-step
-!     animations.
+! - Converting Between Gray and Binary Codes. It includes step-by-step
+!   animations.
 
 USING: math.ranges locals ;
 IN: rosetta-gray

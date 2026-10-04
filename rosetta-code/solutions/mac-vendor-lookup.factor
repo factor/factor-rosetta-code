@@ -4,7 +4,9 @@
 ! A common task a network administrator may come across is being able to
 ! identify a network device's manufacturer when given only a MAC address.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Interface with one (or numerous) APIs that exist on the internet and
 ! retrieve the device manufacturer based on a supplied MAC address.

@@ -70,17 +70,17 @@
 ! 
 ! Subtasks
 ! 
-! -   Experimental Verification of the NKT Law: Interpolating the Masses
-!     of 8 Planets Using NASA Data as of 30–31/12/2024
+! - Experimental Verification of the NKT Law: Interpolating the Masses of
+!   8 Planets Using NASA Data as of 30–31/12/2024
 ! 
-! -   Experimental Verification of the NKTg Law Using NASA Neptune Data
-!     (2023–2024)
+! - Experimental Verification of the NKTg Law Using NASA Neptune Data
+!   (2023–2024)
 ! 
-! -   Experimental Verification of the NKTg Law Using NASA Mercury Data in
-!     2025
+! - Experimental Verification of the NKTg Law Using NASA Mercury Data in
+!   2025
 ! 
-! -   Experimental Verification of the NKTg Law in Earth Orbit Based on
-!     NASA’s 2025 Earth Dataset
+! - Experimental Verification of the NKTg Law in Earth Orbit Based on
+!   NASA’s 2025 Earth Dataset
 ! 
 !     with Ada.Text_IO;         use Ada.Text_IO;
 !     with Ada.Float_Text_IO;   use Ada.Float_Text_IO;

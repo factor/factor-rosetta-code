@@ -6,16 +6,15 @@
 ! case the experiment begins with the funnel positioned directly over the
 ! target.
 ! 
-! -   Rule 1: The funnel remains directly above the target.
-! -   Rule 2: Adjust the funnel position by shifting the target to
-!     compensate after each drop. E.g. If the last drop missed 1 cm east,
-!     move the funnel 1 cm to the west of its current position.
-! -   Rule 3: As rule 2, but first move the funnel back over the target,
-!     before making the adjustment. E.g. If the funnel is 2 cm north, and
-!     the marble lands 3 cm north, move the funnel 3 cm south of the
-!     target.
-! -   Rule 4: The funnel is moved directly over the last place a marble
-!     landed.
+! - Rule 1: The funnel remains directly above the target.
+! - Rule 2: Adjust the funnel position by shifting the target to
+!   compensate after each drop. E.g. If the last drop missed 1 cm east,
+!   move the funnel 1 cm to the west of its current position.
+! - Rule 3: As rule 2, but first move the funnel back over the target,
+!   before making the adjustment. E.g. If the funnel is 2 cm north, and
+!   the marble lands 3 cm north, move the funnel 3 cm south of the target.
+! - Rule 4: The funnel is moved directly over the last place a marble
+!   landed.
 ! 
 ! Apply the four rules to the set of 50 pseudorandom displacements
 ! provided (e.g in the Racket solution) for the dxs and dys. Output:
@@ -34,10 +33,12 @@
 ! 
 ! Stretch goal 2: Show scatter plots of all four results.
 ! 
-! Further information:
+! Further information
 ! 
-! -   Further explanation and interpretation
-! -   Video demonstration of the funnel experiment at the Mayo Clinic.
+!     
+! 
+! - Further explanation and interpretation
+! - Video demonstration of the funnel experiment at the Mayo Clinic.
 
 USING: combinators formatting generalizations grouping.extras io
 kernel math math.statistics sequences ;

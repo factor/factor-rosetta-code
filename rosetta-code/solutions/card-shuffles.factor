@@ -38,11 +38,11 @@
 ! 
 ! Related tasks:
 ! 
-! -   Playing cards
-! -   Deal cards_for_FreeCell
-! -   War Card_Game
-! -   Poker hand_analyser
-! -   Go Fish
+! - Playing cards
+! - Deal cards_for_FreeCell
+! - War Card_Game
+! - Poker hand_analyser
+! - Go Fish
 ! 
 ! Category:Games
 

@@ -17,6 +17,6 @@
 ! 
 ! Related task
 ! 
-! -   Singleton
+! - Singleton
 
 

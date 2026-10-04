@@ -1,12 +1,14 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a binary tree where each node carries an integer, and
 ! implement:
 ! 
-! -   -   pre-order,
-!     -   in-order,
-!     -   post-order, and
-!     -   level-order traversal.
+! - - pre-order,
+!   - in-order,
+!   - post-order, and
+!   - level-order traversal.
 ! 
 ! Use those traversals to output the following tree:
 ! 
@@ -27,9 +29,11 @@
 ! postorder:   7 4 5 2 8 9 6 3 1
 ! level-order: 1 2 3 4 5 6 7 8 9
 ! 
-! See also:
+! See also
 ! 
-! -   Wikipedia article: Tree traversal.
+!     
+! 
+! - Wikipedia article: Tree traversal.
 ! 
 ! Category:Recursion
 

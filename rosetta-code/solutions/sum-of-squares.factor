@@ -1,12 +1,16 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program to find the sum of squares of a numeric vector.
 ! 
 ! The program should work on a zero-length vector (with an answer of 0).
 ! 
-! Related task:
+! Related task
 ! 
-! -   Mean
+!     
+! 
+! - Mean
 
 USE: math sequences ;
 

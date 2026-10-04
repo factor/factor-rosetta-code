@@ -36,7 +36,9 @@
 ! m white queens on an n-by-n square grid, (the board), so that no queen
 ! attacks another of a different colour.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Create a routine to represent two-colour queens on a 2-D board.
 !     (Alternating black/white background colours, Unicode chess pieces
@@ -44,12 +46,25 @@
 !     discretion).
 ! 2.  Create a routine to generate at least one solution to placing m
 !     equal numbers of black and white queens on an n square board.
-! 3.  Display here results for the m=4, n=5 case.
+! 3.  Display here results for the m=4, n=5 and m=9, n=8 cases.
 ! 
-! References:
+! Stretch
 ! 
-! -   Peaceably Coexisting Armies of Queens (Pdf) by Robert A. Bosch.
-!     Optima, the Mathematical Programming Socity newsletter, issue 62.
-! -   A250000 OEIS
+!     
+! 
+! 1.  Use your routine to show that there is no solution for the m=10, n=8
+!     case.
+! 2.  Starting with the <m=9, n=9> case, increment the number of queens m
+!     until you reach the point where there is no solution for a 9 square
+!     board. This may take a long time for scripting or other interpreted
+!     languages (see talk page).
+! 
+! References
+! 
+!     
+! 
+! - Peaceably Coexisting Armies of Queens (Pdf) by Robert A. Bosch.
+!   Optima, the Mathematical Programming Socity newsletter, issue 62.
+! - A250000 OEIS
 
 

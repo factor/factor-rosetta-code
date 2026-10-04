@@ -7,36 +7,38 @@
 ! identity for ⊕ is -Inf (the max of any number with -infinity is that
 ! number), and the identity for ⊗ is 0.
 ! 
-! Task:
+! Task
 ! 
-! -   Define functions or, if the language supports the symbols as
-!     operators, operators for ⊕ and ⊗ that fit the above description. If
-!     the language does not support ⊕ and ⊗ as operators but allows
-!     overloading operators for a new object type, you may instead
-!     overload + and * for a new min tropical albrbraic type. If you
-!     cannot overload operators in the language used, define ordinary
-!     functions for the purpose.
+!     
+! 
+! - Define functions or, if the language supports the symbols as
+!   operators, operators for ⊕ and ⊗ that fit the above description. If
+!   the language does not support ⊕ and ⊗ as operators but allows
+!   overloading operators for a new object type, you may instead
+!   overload + and * for a new min tropical albrbraic type. If you cannot
+!   overload operators in the language used, define ordinary functions for
+!   the purpose.
 ! 
 ! Show that 2 ⊗ -2 is 0, -0.001 ⊕ -Inf is -0.001, 0 ⊗ -Inf is -Inf, 1.5 ⊕
 ! -1 is 1.5, and -0.5 ⊗ 0 is -0.5.
 ! 
-! -   Define exponentiation as serial ⊗, and in general that a to the
-!     power of b is a * b, where a is a real number and b must be a
-!     positive integer. Use either ↑ or similar up arrow or the carat ^,
-!     as an exponentiation operator if this can be used to overload such
-!     "exponentiation" in the language being used. Calculate 5 ↑ 7 using
-!     this definition.
+! - Define exponentiation as serial ⊗, and in general that a to the power
+!   of b is a * b, where a is a real number and b must be a positive
+!   integer. Use either ↑ or similar up arrow or the carat ^, as an
+!   exponentiation operator if this can be used to overload such
+!   "exponentiation" in the language being used. Calculate 5 ↑ 7 using
+!   this definition.
 ! 
-! -   Max tropical algebra is distributive, so that
+! - Max tropical algebra is distributive, so that
 ! 
 !   a ⊗ (b ⊕ c) equals a ⊗ b ⊕ b ⊗ c, 
 ! 
 ! where ⊗ has precedence over ⊕. Demonstrate that 5 ⊗ (8 ⊕ 7) equals 5 ⊗ 8
 ! ⊕ 5 ⊗ 7.
 ! 
-! -   If the language used does not support operator overloading, you may
-!     use ordinary function names such as tropicalAdd(x, y) and
-!     tropicalMul(x, y).
+! - If the language used does not support operator overloading, you may
+!   use ordinary function names such as tropicalAdd(x, y) and
+!   tropicalMul(x, y).
 ! 
 ! See also
 ! 

@@ -1,20 +1,24 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Calculate the dates of:
 ! 
-! -   -   Easter
-!     -   Ascension Thursday
-!     -   Pentecost
-!     -   Trinity Sunday
-!     -   Corpus Christi feast (for Catholic)
-!     -   All Saints' Sunday (for Orthodox)
+! - - Easter
+!   - Ascension Thursday
+!   - Pentecost
+!   - Trinity Sunday
+!   - Corpus Christi feast (for Catholic)
+!   - All Saints' Sunday (for Orthodox)
 ! 
 ! As an example, calculate for the first year of each century from;
 ! 
-! -   -   years 400 to 2100 CE and for
-!     -   years 2010 to 2020 CE.
+! - - years 400 to 2100 CE and for
+!   - years 2010 to 2020 CE.
 ! 
-! Note:
+! Note
+! 
+!     
 ! 
 ! From the year 325 CE on, Easter Sunday has been defined as the first
 ! Sunday after the first full moon on or after the day of the March
@@ -66,7 +70,9 @@
 ! 27th. Corpus Christi is a purely Catholic date that has no Orthodox
 ! version.
 ! 
-! Test values of Easter dates:
+! Test values of Easter dates
+! 
+!     
 ! 
 !   Year   Orthodox   Catholic   Calendar
 !   ------ ---------- ---------- ----------
@@ -75,6 +81,8 @@
 !   1200   09 Apr     —          Jul.
 !   2000   30 Apr     23 Apr     Gr.
 !   2020   19 Apr     12 Apr     Gr.
+! 
+! Category:Mathematics Category:Date and time
 
 USING: calendar formatting io kernel locals math math.ranges
 sequences ;

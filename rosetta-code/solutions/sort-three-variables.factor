@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Sort (the values of) three variables (X, Y, and Z) that contain any
 ! value (numbers and/or literals).

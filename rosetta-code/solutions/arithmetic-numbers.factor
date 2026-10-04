@@ -33,9 +33,9 @@
 ! 
 ! References
 ! 
-! -   Wikipedia: Arithmetic number
-! -   OEIS:A003601 - Numbers n such that the average of the divisors of n
-!     is an integer
+! - Wikipedia: Arithmetic number
+! - OEIS:A003601 - Numbers n such that the average of the divisors of n is
+!   an integer
 
 USING: combinators formatting grouping io kernel lists
 lists.lazy math math.functions math.primes math.primes.factors

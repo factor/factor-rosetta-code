@@ -38,9 +38,11 @@
 ! The important requirement is the placement of whitespace and
 ! non-whitespace characters.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Sierpinski triangle
+!     
+! 
+! - Sierpinski triangle
 
 USING: kernel math math.matrices prettyprint ;
 

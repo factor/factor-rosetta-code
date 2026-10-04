@@ -3,7 +3,9 @@
 ! 
 ! The algorithm is named after H. Michael Damm.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Verify the checksum, stored as last digit of an input.
 

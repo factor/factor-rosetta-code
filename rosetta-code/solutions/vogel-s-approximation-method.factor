@@ -5,19 +5,19 @@
 ! urgently. Being imaginative chaps, they have called them “A”, “B”, “C”,
 ! “D”, and “E”. They estimate that:
 ! 
-! -   A will require 30 hours of work,
-! -   B will require 20 hours of work,
-! -   C will require 70 hours of work,
-! -   D will require 30 hours of work, and
-! -   E will require 60 hours of work.
+! - A will require 30 hours of work,
+! - B will require 20 hours of work,
+! - C will require 70 hours of work,
+! - D will require 30 hours of work, and
+! - E will require 60 hours of work.
 ! 
 ! They have identified 4 contractors willing to do the work, called “W”,
 ! “X”, “Y”, and “Z”.
 ! 
-! -   W has 50 hours available to commit to working,
-! -   X has 60 hours available,
-! -   Y has 50 hours available, and
-! -   Z has 50 hours available.
+! - W has 50 hours available to commit to working,
+! - X has 60 hours available,
+! - Y has 50 hours available, and
+! - Z has 50 hours available.
 ! 
 ! The cost per hour for each contractor for each task is summarized by the
 ! following table:
@@ -93,6 +93,6 @@
 ! 
 ! Cf.
 ! 
-! -   Transportation problem
+! - Transportation problem
 
 

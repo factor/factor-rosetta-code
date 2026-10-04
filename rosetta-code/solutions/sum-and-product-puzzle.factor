@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Solve the "Impossible Puzzle":
 ! 
@@ -16,12 +18,12 @@
 ! 
 ! Terminology:
 ! 
-! -   "sum decomposition" of a number = Any pair of positive integers
-!     (A, B) so that A+B equals the number. Here, with the additional
-!     constraint 2 ≤ A < B.
-! -   "product decomposition" of a number = Any pair of positive integers
-!     (A, B) so that A*B equals the number. Here, with the additional
-!     constraint 2 ≤ A < B.
+! - "sum decomposition" of a number = Any pair of positive integers (A, B)
+!   so that A+B equals the number. Here, with the additional constraint
+!   2 ≤ A < B.
+! - "product decomposition" of a number = Any pair of positive integers
+!   (A, B) so that A*B equals the number. Here, with the additional
+!   constraint 2 ≤ A < B.
 ! 
 ! Your program can solve the puzzle by considering all possible pairs
 ! (X, Y) in the range 2 ≤ X < Y ≤ 98, and then successively eliminating
@@ -31,7 +33,7 @@
 ! See the Python example for an implementation that uses this approach
 ! with a few optimizations.
 ! 
-! -   Wikipedia: Sum and Product Puzzle
+! - Wikipedia: Sum and Product Puzzle
 
 USING: combinators.short-circuit fry kernel literals math
 math.ranges memoize prettyprint sequences sets tools.time ;

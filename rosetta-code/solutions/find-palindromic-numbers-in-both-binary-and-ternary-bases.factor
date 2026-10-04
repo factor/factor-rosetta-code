@@ -1,21 +1,23 @@
-! Task:
+! Task
 ! 
-! -   Find and show (in decimal) the first six numbers (non-negative
-!     integers) that are palindromes in both:
-!     -   -   base 2
-!         -   base 3
-! -   Display 0 (zero) as the first number found, even though some other
-!     definitions ignore it.
-! -   Optionally, show the decimal number found in its binary and ternary
-!     form.
-! -   Show all output here.
+!     
+! 
+! - Find and show (in decimal) the first six numbers (non-negative
+!   integers) that are palindromes in both:
+!   - - base 2
+!     - base 3
+! - Display 0 (zero) as the first number found, even though some other
+!   definitions ignore it.
+! - Optionally, show the decimal number found in its binary and ternary
+!   form.
+! - Show all output here.
 ! 
 ! It's permissible to assume the first two numbers and simply list them.
 ! 
 ! See also
 ! 
-! -   Sequence A60792, numbers that are palindromic in bases 2 and 3 on
-!     The On-Line Encyclopedia of Integer Sequences.
+! - Sequence A60792, numbers that are palindromic in bases 2 and 3 on The
+!   On-Line Encyclopedia of Integer Sequences.
 ! 
 ! Category:Palindromes
 

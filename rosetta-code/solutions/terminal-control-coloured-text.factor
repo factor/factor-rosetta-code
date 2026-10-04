@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Display a word in various colours on the terminal.
 ! 
@@ -7,9 +9,9 @@
 ! 
 ! Optionally demonstrate:
 ! 
-! -   How the system should determine if the terminal supports colour
-! -   Setting of the background colour
-! -   How to cause blinking or flashing (if supported by the terminal)
+! - How the system should determine if the terminal supports colour
+! - Setting of the background colour
+! - How to cause blinking or flashing (if supported by the terminal)
 ! 
 ! Category:Terminal control
 

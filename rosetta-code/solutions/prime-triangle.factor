@@ -7,6 +7,6 @@
 ! 
 ! See also
 ! 
-! -   -   OEIS:A036440
+! - - OEIS:A036440
 
 

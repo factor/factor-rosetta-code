@@ -18,22 +18,21 @@
 ! 
 ! Task
 ! 
-! -   Find the first 19 circular primes.
+! - Find the first 19 circular primes.
 ! 
-! -   If your language has access to arbitrary precision integer
-!     arithmetic, given that they are all repunits, find the next 4
-!     circular primes.
+! - If your language has access to arbitrary precision integer arithmetic,
+!   given that they are all repunits, find the next 4 circular primes.
 ! 
-! -   (Stretch) Determine which of the following repunits are probably
-!     circular primes: R(5003), R(9887), R(15073), R(25031), R(35317) and
-!     R(49081). The larger ones may take a long time to process so just do
-!     as many as you reasonably can.
+! - (Stretch) Determine which of the following repunits are probably
+!   circular primes: R(5003), R(9887), R(15073), R(25031), R(35317) and
+!   R(49081). The larger ones may take a long time to process so just do
+!   as many as you reasonably can.
 ! 
 ! See also
 ! 
-! -   Wikipedia article - Circular primes.
-! -   Wikipedia article - Repunit.
-! -   OEIS sequence A016114 - Circular primes.
+! - Wikipedia article - Circular primes.
+! - Wikipedia article - Repunit.
+! - OEIS sequence A016114 - Circular primes.
 
 USING: combinators.short-circuit formatting io kernel lists
 lists.lazy math math.combinatorics math.functions math.parser

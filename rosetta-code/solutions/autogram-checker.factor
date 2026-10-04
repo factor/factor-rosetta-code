@@ -70,21 +70,21 @@
 ! 
 ! Assumptions
 ! 
-! -   Ignore capitalization.
+! - Ignore capitalization.
 ! 
-! -   Never count spaces or full stops.
+! - Never count spaces or full stops.
 ! 
 ! If it helps you may also make the following simplifying assumptions:
 ! 
-! -   No sentence will be such that there are more than 99 instances of
-!     any countable character.
+! - No sentence will be such that there are more than 99 instances of any
+!   countable character.
 ! 
-! -   If punctuation is to be allowed for, only commas, hyphens,
-!     apostrophes and exclamation marks need be counted.
+! - If punctuation is to be allowed for, only commas, hyphens, apostrophes
+!   and exclamation marks need be counted.
 ! 
 ! Reference
 ! 
-! -   Wikipedia: Autogram
+! - Wikipedia: Autogram
 ! 
 ! Category: String manipulation Category:Strings
 

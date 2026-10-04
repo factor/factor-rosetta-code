@@ -48,11 +48,11 @@
 ! 
 ! Applications
 ! 
-! -   Error Correction: Used in decoding Reed–Solomon codes and BCH codes.
-! -   Cryptography: Analyzes the linear complexity of sequences in stream
-!     ciphers to assess security.
-! -   Sequence Analysis: Identifies patterns in sequences for signal
-!     processing and data compression.
+! - Error Correction: Used in decoding Reed–Solomon codes and BCH codes.
+! - Cryptography: Analyzes the linear complexity of sequences in stream
+!   ciphers to assess security.
+! - Sequence Analysis: Identifies patterns in sequences for signal
+!   processing and data compression.
 ! 
 ! Example
 ! 

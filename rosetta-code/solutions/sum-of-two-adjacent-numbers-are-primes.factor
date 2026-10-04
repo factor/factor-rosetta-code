@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show on this page the first 20 prime sums of two consecutive integers.
 ! 

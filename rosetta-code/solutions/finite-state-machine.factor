@@ -39,15 +39,19 @@
 ! 
 !     refunding -> ready
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a finite state machine which handles both explicit and
 ! implicit transitions. Then demonstrate an example which models some
 ! real-world process.
 ! 
-! See also:
+! See also
 ! 
-! -   Computers Without Memory (Finite State Automata), A Computerphile
-!     Video.
+!     
+! 
+! - Computers Without Memory (Finite State Automata), A Computerphile
+!   Video.
 
 

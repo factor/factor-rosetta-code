@@ -5,19 +5,19 @@
 ! There are 81 cards in a deck. Each card contains a unique variation of
 ! the following four features: color, symbol, number and shading.
 ! 
-! -   there are three colors:
+! - there are three colors:
 ! 
 ! red, green, purple
 ! 
-! -   there are three symbols:
+! - there are three symbols:
 ! 
 ! oval, squiggle, diamond
 ! 
-! -   there is a number of symbols on the card:
+! - there is a number of symbols on the card:
 ! 
 ! one, two, three
 ! 
-! -   there are three shadings:
+! - there are three shadings:
 ! 
 ! solid, open, striped
 ! 

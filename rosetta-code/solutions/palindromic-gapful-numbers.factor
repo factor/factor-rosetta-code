@@ -10,44 +10,53 @@
 ! 
 ! (Evenly divisible here means divisible with no remainder.)
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! 1037 is a gapful number because it is evenly divisible by the number 17
 ! which is formed by the first and last decimal digits of 1037.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Show (nine sets) the first 20 palindromic gapful numbers that
-!         end with:
-!         -   -   the digit 1
-!             -   the digit 2
-!             -   the digit 3
-!             -   the digit 4
-!             -   the digit 5
-!             -   the digit 6
-!             -   the digit 7
-!             -   the digit 8
-!             -   the digit 9
-!     -   Show (nine sets, like above) of palindromic gapful numbers:
-!         -   -   the last 15 palindromic gapful numbers (out of 100)
-!             -   the last 10 palindromic gapful numbers (out of 1,000)
-!                 {optional}
+!     
+! 
+! - - Show (nine sets) the first 20 palindromic gapful numbers that end
+!     with:
+!     - - the digit 1
+!       - the digit 2
+!       - the digit 3
+!       - the digit 4
+!       - the digit 5
+!       - the digit 6
+!       - the digit 7
+!       - the digit 8
+!       - the digit 9
+!   - Show (nine sets, like above) of palindromic gapful numbers:
+!     - - the last 15 palindromic gapful numbers (out of 100)
+!       - the last 10 palindromic gapful numbers (out of 1,000) {optional}
 ! 
 ! For other ways of expressing the (above) requirements, see the
 ! discussion page.
 ! 
-! Note:
+! Note
+! 
+!     
 ! 
 ! All palindromic gapful numbers are divisible by eleven.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   palindrome detection.
-!     -   gapful numbers.
+!     
 ! 
-! Also see:
+! - - palindrome detection.
+!   - gapful numbers.
 ! 
-! -   -   The OEIS entry: A108343 gapful numbers.
+! Also see
+! 
+!     
+! 
+! - - The OEIS entry: A108343 gapful numbers.
 ! 
 ! Category:Palindromes
 

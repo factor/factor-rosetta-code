@@ -5,7 +5,9 @@
 !     number in the first sequence, this new sequence is the same as the
 !     first sequence.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! This is not a Kolakoski sequence:
 ! 
@@ -25,7 +27,9 @@
 ! The original sequence is different from its RLE in this case. It would
 ! be the same for a true Kolakoski sequence.
 ! 
-! Creating a Kolakoski sequence:
+! Creating a Kolakoski sequence
+! 
+!     
 ! 
 ! Lets start with the two numbers (1, 2) that we will cycle through; i.e.
 ! they will be used in this order:
@@ -68,7 +72,9 @@
 ! beginning of the original sequence. The generation algorithm ensures
 ! that this will always be the case.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Create a routine/proceedure/function/... that given an initial
 !     ordered list/array/tuple etc of the natural numbers (1, 2), returns

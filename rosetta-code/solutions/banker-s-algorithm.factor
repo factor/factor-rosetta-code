@@ -5,7 +5,9 @@
 ! deadlock conditions for all other pending activities, before deciding
 ! whether allocation should be allowed to continue.
 ! 
-! Example input:
+! Example input
+! 
+!     
 ! 
 ! Assuming that the system distinguishes between four types of resources,
 ! (A, B, C and D), the following is an example of how those resources

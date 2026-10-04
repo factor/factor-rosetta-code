@@ -1,6 +1,8 @@
 ! Merge and aggregate datasets
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Merge and aggregate two datasets as provided in .csv files into a new
 ! resulting dataset.
@@ -11,7 +13,9 @@
 ! Use the most common libraries only when built-in functionality is not
 ! sufficient.
 ! 
-! Note:
+! Note
+! 
+!     
 ! 
 ! Either load the data from the .csv files or create the required data
 ! structures hard-coded.
@@ -55,17 +59,21 @@
 !     | 4004       |  Wirth   | 2020-11-05 |  15.4      | 7.70      |
 !     | 5005       |  Kurtz   |            |            |           |
 ! 
-! Note:
+! Note
+! 
+!     
 ! 
 ! This task is aimed in particular at programming languages that are used
 ! in data science and data processing, such as F#, Python, R, SPSS, MATLAB
 ! etc.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   CSV data manipulation
-! -   CSV to HTML translation
-! -   Read entire file
-! -   Read a file line by line
+!     
+! 
+! - CSV data manipulation
+! - CSV to HTML translation
+! - Read entire file
+! - Read a file line by line
 
 

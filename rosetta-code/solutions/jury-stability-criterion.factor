@@ -26,9 +26,9 @@
 ! Before applying the main criterion, the polynomial must satisfy these
 ! necessary (but not sufficient) conditions:
 ! 
-! -   P(1) > 0
-! -   P(−1) > 0 if n is even, or P(−1) < 0 if n is odd
-! -   |a_(n)| < a₀
+! - P(1) > 0
+! - P(−1) > 0 if n is even, or P(−1) < 0 if n is odd
+! - |a_(n)| < a₀
 ! 
 ! Jury Array Construction
 ! 
@@ -47,8 +47,8 @@
 ! 
 ! where:
 ! 
-! -   $b_i = \begin{vmatrix} a_0 & a_n \\ a_n & a_0 \end{vmatrix} - \begin{vmatrix} a_0 & a_i \\ a_n & a_{n-i} \end{vmatrix} = a_0 a_0 - a_n a_n - (a_0 a_{n-i} - a_n a_i)$
-! -   $c_i = \begin{vmatrix} b_0 & b_{n-1} \\ b_{n-1} & b_0 \end{vmatrix} - \begin{vmatrix} b_0 & b_i \\ b_{n-1} & b_{n-1-i} \end{vmatrix}$
+! - $b_i = \begin{vmatrix} a_0 & a_n \\ a_n & a_0 \end{vmatrix} - \begin{vmatrix} a_0 & a_i \\ a_n & a_{n-i} \end{vmatrix} = a_0 a_0 - a_n a_n - (a_0 a_{n-i} - a_n a_i)$
+! - $c_i = \begin{vmatrix} b_0 & b_{n-1} \\ b_{n-1} & b_0 \end{vmatrix} - \begin{vmatrix} b_0 & b_i \\ b_{n-1} & b_{n-1-i} \end{vmatrix}$
 ! 
 ! This process continues, with each new row having one fewer element,
 ! until a row with just one element is reached.
@@ -65,23 +65,23 @@
 ! 
 ! The Jury stability criterion is widely used in:
 ! 
-! -   Digital control systems analysis
-! -   Digital filter design
-! -   Stability analysis of discrete-time systems
-! -   Analysis of numerical methods for solving differential equations
+! - Digital control systems analysis
+! - Digital filter design
+! - Stability analysis of discrete-time systems
+! - Analysis of numerical methods for solving differential equations
 ! 
 ! Advantages
 ! 
-! -   Avoids the need to explicitly compute polynomial roots
-! -   Provides a systematic algebraic procedure
-! -   Well-suited for computer implementation
+! - Avoids the need to explicitly compute polynomial roots
+! - Provides a systematic algebraic procedure
+! - Well-suited for computer implementation
 ! 
 ! Limitations
 ! 
-! -   Computational complexity increases rapidly with polynomial order
-! -   Numerical issues may arise with high-order polynomials
-! -   Alternative stability tests (like Schur-Cohn) may be preferable in
-!     some cases
+! - Computational complexity increases rapidly with polynomial order
+! - Numerical issues may arise with high-order polynomials
+! - Alternative stability tests (like Schur-Cohn) may be preferable in
+!   some cases
 ! 
 ! Example
 ! 
@@ -89,8 +89,8 @@
 ! P(z) = z² + a₁z + a₂, the Jury stability criterion yields the following
 ! conditions for stability:
 ! 
-! -   P(1) = 1 + a₁ + a₂ > 0
-! -   P(−1) = 1 − a₁ + a₂ > 0
-! -   |a₂| < 1
+! - P(1) = 1 + a₁ + a₂ > 0
+! - P(−1) = 1 − a₁ + a₂ > 0
+! - |a₂| < 1
 
 

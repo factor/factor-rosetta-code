@@ -3,7 +3,9 @@
 ! must have the property that when added, there is no subsequence that
 ! will sum to a prime number.
 ! 
-! Note:
+! Note
+! 
+!     
 ! 
 ! for the purposes of this task, "lexicographically later" means "greater
 ! than" - see the Mathematical discussion of ordering link below.
@@ -25,19 +27,19 @@
 ! There are variations of this sequence that have some further
 ! constraints.
 ! 
-! -   Same premise except that each added integer must also be odd.
-! -   Same premise except that each added integer must also be even.
+! - Same premise except that each added integer must also be odd.
+! - Same premise except that each added integer must also be even.
 ! 
 ! Task
 ! 
 ! Find the first eight elements of each variation, starting with 1, where
 ! each added element is:
 ! 
-! -   Lexicographically later, and yields no non-prime subsequence sum.
-! -   Lexicographically later, yields no non-prime subsequence sum, and is
-!     odd.
-! -   Lexicographically later, yields no non-prime subsequence sum, and is
-!     even.
+! - Lexicographically later, and yields no non-prime subsequence sum.
+! - Lexicographically later, yields no non-prime subsequence sum, and is
+!   odd.
+! - Lexicographically later, yields no non-prime subsequence sum, and is
+!   even.
 ! 
 ! Stretch
 ! 

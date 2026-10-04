@@ -3,7 +3,9 @@
 ! distributed random number generator, one can derive normally distributed
 ! random numbers from a uniform generator.
 ! 
-! The task:
+! The task
+! 
+!     
 ! 
 ! 1.  Take a uniform random number generator and create a large (you
 !     decide how large) set of numbers that follow a normal (Gaussian)
@@ -12,9 +14,11 @@
 ! 2.  Mention any native language support for the generation of normally
 !     distributed random numbers.
 ! 
-! Reference:
+! Reference
 ! 
-! -   You may refer to code in Statistics/Basic if available.
+!     
+! 
+! - You may refer to code in Statistics/Basic if available.
 
 USING: assocs formatting kernel math math.functions
 math.statistics random sequences sorting ;

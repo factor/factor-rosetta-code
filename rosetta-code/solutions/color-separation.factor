@@ -42,14 +42,14 @@
 ! The CMYK model adds a black layer to the CMY model. There are several
 ! reasons for this, including:
 ! 
-! -   In practice, mixing 100% cyan, magenta, and yellow ink on paper
-!     (intended to get black) does not fully absorb all the colors,
-!     whereas "pure" black ink does.
-! -   For various types of paper —i.e. standard office paper—, printing
-!     darker areas require more cyan, magenta, and yellow ink, making the
-!     paper damp.
-! -   In darker or blacker areas, it is less expensive to use a single ink
-!     than three, or to use less of the other inks.
+! - In practice, mixing 100% cyan, magenta, and yellow ink on paper
+!   (intended to get black) does not fully absorb all the colors, whereas
+!   "pure" black ink does.
+! - For various types of paper —i.e. standard office paper—, printing
+!   darker areas require more cyan, magenta, and yellow ink, making the
+!   paper damp.
+! - In darker or blacker areas, it is less expensive to use a single ink
+!   than three, or to use less of the other inks.
 ! 
 ! Warning
 ! 
@@ -72,15 +72,15 @@
 ! For educational and entertainment purposes, write programs, scripts,
 ! functions, procedures, etc. to do the following:
 ! 
-! -   Given an image, create three images, one for each color separated in
-!     the RGB model.
-! -   Given an image, create three images, one for each color separated in
-!     the CMY model.
-! -   Given an image, create four images, one for each color separated in
-!     the CMYK model. It is not required to implement ICC profiles. Note:
-!     there is not a unique algorithm to convert from RGB to CMYK, several
-!     algorithms have been developed according to special optimizations,
-!     you can use whatever you like. The simplest one is called "rough" or
-!     "naive", see this, page 23.
+! - Given an image, create three images, one for each color separated in
+!   the RGB model.
+! - Given an image, create three images, one for each color separated in
+!   the CMY model.
+! - Given an image, create four images, one for each color separated in
+!   the CMYK model. It is not required to implement ICC profiles. Note:
+!   there is not a unique algorithm to convert from RGB to CMYK, several
+!   algorithms have been developed according to special optimizations, you
+!   can use whatever you like. The simplest one is called "rough" or
+!   "naive", see this, page 23.
 
 

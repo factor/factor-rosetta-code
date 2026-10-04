@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show the first 30 positive integers which are squares but not cubes of
 ! such integers.

@@ -17,7 +17,9 @@
 !         y  ASCII decimal code is:  121 
 !         z  ASCII decimal code is:  122 
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show here on this page every prime word in unixdict.txt.
 

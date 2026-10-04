@@ -18,8 +18,8 @@
 ! 
 ! Related tasks are:
 ! 
-! -   Pythagorean quadruples.
-! -   Pythagorean triples.
+! - Pythagorean quadruples.
+! - Pythagorean triples.
 
 USING: arrays backtrack kernel literals math.functions
 math.ranges prettyprint sequences ;

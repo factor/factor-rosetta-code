@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function to detect a divide by zero error without checking if
 ! the denominator is zero.

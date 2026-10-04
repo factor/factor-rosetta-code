@@ -2,12 +2,14 @@
 ! without recursively invoking a compiler or interpreter or otherwise
 ! metaprogramming:
 ! 
-! -   Create new functions from preexisting functions at run-time
-! -   Store functions in collections
-! -   Use functions as arguments to other functions
-! -   Use functions as return values of other functions
+! - Create new functions from preexisting functions at run-time
+! - Store functions in collections
+! - Use functions as arguments to other functions
+! - Use functions as return values of other functions
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program to create an ordered collection A of functions of a real
 ! number. At least one function should be built-in and at least one should
@@ -21,7 +23,9 @@
 ! (A solution need not actually call the collections "A" and "B". These
 ! names are only used in the preceding paragraph for clarity.)
 ! 
-! Related task:
+! Related task
+! 
+!     
 ! 
 ! First-class Numbers
 

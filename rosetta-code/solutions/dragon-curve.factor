@@ -1,10 +1,6 @@
 ! []
 ! 
-! |right
-! 
 ! []
-! 
-! |right
 ! 
 ! Create and display a dragon curve fractal.
 ! 
@@ -16,9 +12,9 @@
 ! Here are some brief notes the algorithms used and how they might suit
 ! various languages.
 ! 
-! -   Recursively a right curling dragon is a right dragon followed by a
-!     left dragon, at 90-degree angle. And a left dragon is a left
-!     followed by a right.
+! - Recursively a right curling dragon is a right dragon followed by a
+!   left dragon, at 90-degree angle. And a left dragon is a left followed
+!   by a right.
 ! 
 !     *---R----*     expands to     *       *
 !                                    \     /
@@ -35,12 +31,12 @@
 !     The co-routines dcl and dcr in various examples do this recursively
 !     to a desired expansion level.
 ! 
-! -   The curl direction right or left can be a parameter instead of two
-!     separate routines.
+! - The curl direction right or left can be a parameter instead of two
+!   separate routines.
 ! 
-! -   Recursively, a curl direction can be eliminated by noting the dragon
-!     consists of two copies of itself drawn towards a central point at
-!     45-degrees.
+! - Recursively, a curl direction can be eliminated by noting the dragon
+!   consists of two copies of itself drawn towards a central point at
+!   45-degrees.
 ! 
 !     *------->*   becomes    *       *     Recursive copies drawn
 !                              \     /      from the ends towards
@@ -54,8 +50,8 @@
 !     which is not very good for a plotter or for drawing progressively on
 !     screen.
 ! 
-! -   Successive approximation repeatedly re-writes each straight line as
-!     two new segments at a right angle,
+! - Successive approximation repeatedly re-writes each straight line as
+!   two new segments at a right angle,
 ! 
 !                            *       
 !     *-----*   becomes     / \      bend to left
@@ -76,9 +72,9 @@
 !     The effect of the splitting is a kind of bottom-up version of the
 !     recursions. See the Asymptote example for code doing this.
 ! 
-! -   Iteratively the curve always turns 90-degrees left or right at each
-!     point. The direction of the turn is given by the bit above the
-!     lowest 1-bit of n. Some bit-twiddling can extract that efficiently.
+! - Iteratively the curve always turns 90-degrees left or right at each
+!   point. The direction of the turn is given by the bit above the lowest
+!   1-bit of n. Some bit-twiddling can extract that efficiently.
 ! 
 !     n = 1010110000
 !             ^
@@ -99,12 +95,12 @@
 !     Going by turns suits turtle graphics such as Logo or a plotter
 !     drawing with a pen and current direction.
 ! 
-! -   If a language doesn't maintain a "current direction" for drawing
-!     then you can always keep that separately and apply turns by
-!     bit-above-lowest-1.
+! - If a language doesn't maintain a "current direction" for drawing then
+!   you can always keep that separately and apply turns by
+!   bit-above-lowest-1.
 ! 
-! -   Absolute direction to move at point n can be calculated by the
-!     number of bit-transitions in n.
+! - Absolute direction to move at point n can be calculated by the number
+!   of bit-transitions in n.
 ! 
 !     n = 11 00 1111 0 1
 !           ^  ^    ^ ^     4 places where change bit value
@@ -114,15 +110,15 @@
 !     RIGHTSHIFT 1)" since such a shift and xor leaves a single 1 bit at
 !     each position where two adjacent bits differ.
 ! 
-! -   Absolute X,Y coordinates of a point n can be calculated in complex
-!     numbers by some powers (i+1)^k and add/subtract/rotate. This is done
-!     in the gnuplot code. This might suit things similar to Gnuplot which
-!     want to calculate each point independently.
+! - Absolute X,Y coordinates of a point n can be calculated in complex
+!   numbers by some powers (i+1)^k and add/subtract/rotate. This is done
+!   in the gnuplot code. This might suit things similar to Gnuplot which
+!   want to calculate each point independently.
 ! 
-! -   Predicate test for whether a given X,Y point or segment is on the
-!     curve can be done. This might suit line-by-line output rather than
-!     building an entire image before printing. See M4 for an example of
-!     this.
+! - Predicate test for whether a given X,Y point or segment is on the
+!   curve can be done. This might suit line-by-line output rather than
+!   building an entire image before printing. See M4 for an example of
+!   this.
 ! 
 !     A predicate works by dividing out complex number i+1 until reaching
 !     the origin, so it takes roughly a bit at a time from X and Y is thus
@@ -137,8 +133,8 @@
 !     bits of n the segment number, so can note those bits to calculate n
 !     and limit to an arbitrary desired length or sub-section.
 ! 
-! -   As a Lindenmayer system of expansions. The simplest is two symbols F
-!     and S both straight lines, as used by the PGF code.
+! - As a Lindenmayer system of expansions. The simplest is two symbols F
+!   and S both straight lines, as used by the PGF code.
 ! 
 !     Axiom F, angle 90 degrees
 !     F -> F+S

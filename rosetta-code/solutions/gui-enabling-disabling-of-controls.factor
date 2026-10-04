@@ -3,7 +3,9 @@
 ! guidance to the user, and prohibit (inter)actions which are
 ! inappropriate in the current state of the application.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Similar to the task GUI component interaction, write a program that
 ! presents a form with three components to the user:

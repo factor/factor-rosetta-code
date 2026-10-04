@@ -24,7 +24,9 @@
 ! Updated link (June 2021):
 ! https://www.joenord.com/triangle-peg-board-game-solutions-to-amaze-your-friends/
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Print a solution to solve the puzzle leaving one peg not implemented
 ! variations.

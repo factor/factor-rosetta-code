@@ -40,7 +40,9 @@
 ! 
 !      E. The probability is the same for all cases.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Run a repeated simulation of each of the above scenario, calculating
 !     the percentage of suicide with a randomization of the four spinning,
@@ -51,7 +53,9 @@
 !     correct program should produce results close enough to those to
 !     allow a correct response to the interview question.
 ! 
-! Reference:
+! Reference
+! 
+!     
 ! 
 ! Youtube video on the Russian 1895 Nagant revolver
 ! https://www.youtube.com/watch?v=Dh1mojMaEtM

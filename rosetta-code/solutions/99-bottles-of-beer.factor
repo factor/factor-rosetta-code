@@ -1,11 +1,17 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Display the complete lyrics for the song: 99 Bottles of Beer on the
 ! Wall.
 ! 
-! The beer song:
+! The beer song
+! 
+!     
 ! 
 ! The lyrics follow this form:
+! 
+!   
 ! 
 !       
 ! 
@@ -28,12 +34,14 @@
 ! As with any puzzle, try to do it in as creative/concise/comical a way as
 ! possible (simple, obvious solutions allowed, too).
 ! 
-! See also:
+! See also
 ! 
-! -   http://99-bottles-of-beer.net/
-! -   :Category:99_Bottles_of_Beer
-! -   :Category:Programming language families
-! -   Wikipedia 99 bottles of beer
+!     
+! 
+! - http://99-bottles-of-beer.net/
+! - :Category:99_Bottles_of_Beer
+! - :Category:Programming language families
+! - Wikipedia 99 bottles of beer
 
 
 USE: math.parser

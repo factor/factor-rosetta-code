@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find adjacent primes under 1,000,000 whose difference (> 36) is a square
 ! integer.

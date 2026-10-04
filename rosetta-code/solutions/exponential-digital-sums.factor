@@ -22,9 +22,9 @@
 ! 
 ! Task
 ! 
-! -   Find and show the first twenty integers (with their exponents), that
-!     satisfy this condition.
-! -   Find and show at least the first ten integers with their exponents,
-!     that satisfy this condition in three or more ways.
+! - Find and show the first twenty integers (with their exponents), that
+!   satisfy this condition.
+! - Find and show at least the first ten integers with their exponents,
+!   that satisfy this condition in three or more ways.
 
 

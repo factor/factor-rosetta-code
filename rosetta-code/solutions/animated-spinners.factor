@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create and display five spinners. One spinner in the middle and four
 ! spinners surrounding it. Each spinner is created by drawing radius lines
@@ -8,7 +10,9 @@
 ! you should be able to create. A fast animation will fill in more radial
 ! lines with a pleasing appearance.
 ! 
-! Stretch goal:
+! Stretch goal
+! 
+!     
 ! 
 ! Extra credit for offsetting the spinners with mouse movement.
 ! 

@@ -1,4 +1,6 @@
-! Introduction:
+! Introduction
+! 
+!     
 ! 
 ! When formatting a page for display, Mediawiki allows the page to include
 ! bold and italic text by placing the bold/italic text within paired
@@ -13,7 +15,9 @@
 ! not currently supported by Pygments. A few languages on Rosetta Code are
 ! currently using schemes like this.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! The task is to write a syntax highlighter that given a source in your
 ! language will output a wiki formatted version of the source with the
@@ -24,15 +28,17 @@
 ! 
 ! Additionally, translate the following characters:
 ! 
-! -   single-quote (') to &apos;
-! -   ampersand (&) to &amp;
-! -   less-than (<) to &lt;
-! -   greater-than (>) to &gt;
+! - single-quote (') to &apos;
+! - ampersand (&) to &amp;
+! - less-than (<) to &lt;
+! - greater-than (>) to &gt;
 ! 
 ! If your language doesn't have keywords/reserved words or comments, use
 ! your judgement on what to highlight in bold or italic : )
 ! 
-! Presenting your source:
+! Presenting your source
+! 
+!     
 ! 
 ! Instead of showing your source within syntaxhighlight tags and having a
 ! separate output block, just show the source that would be output from
@@ -40,7 +46,9 @@
 ! 
 ! I.e., don't use syntaxhighlight tags.
 ! 
-! See also:
+! See also
+! 
+!     
 ! 
 ! https://www.mediawiki.org/wiki/Help:Formatting
 

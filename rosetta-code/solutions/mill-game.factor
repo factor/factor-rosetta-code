@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create an implementation of the classic Mill game.
 ! 
@@ -18,9 +20,11 @@
 ! While moving your pieces, you can use tactics and strategy to block your
 ! opponent from building his own "mill".
 ! 
-! References:
+! References
 ! 
-! -   Article: wikipedia Nine men's morris
-! -   Article: Play on-line
+!     
+! 
+! - Article: wikipedia Nine men's morris
+! - Article: Play on-line
 
 

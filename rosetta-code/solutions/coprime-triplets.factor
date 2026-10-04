@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Starting from the sequence a(1)=1 and a(2)=2 find the next smallest
 ! number which is coprime to the last two predecessors and has not yet

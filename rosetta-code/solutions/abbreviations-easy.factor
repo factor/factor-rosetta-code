@@ -13,47 +13,48 @@
 ! 
 ! Notes concerning the above command table:
 ! 
-! -   -   it can be thought of as one long literal string (with blanks at
-!         end-of-lines)
-!     -   it may have superfluous blanks
-!     -   it may be in any case (lower/upper/mixed)
-!     -   the order of the words in the command table must be preserved as
-!         shown
-!     -   the user input(s) may be in any case (upper/lower/mixed)
-!     -   commands will be restricted to the Latin alphabet (A ──► Z, a
-!         ──► z)
-!     -   A valid abbreviation is a word that has:
-!         -   at least the minimum length of the number of capital letters
-!             of the word in the command table
-!         -   compares equal (regardless of case) to the leading
-!             characters of the word in the command table
-!         -   a length not longer than the word in the command table
-!             -   ALT, aLt, ALTE, and ALTER are all abbreviations of ALTer
-!             -   AL, ALF, ALTERS, TER, and A aren't valid abbreviations
-!                 of ALTer
-!             -   The number of capital letters in ALTer indicates that
-!                 any abbreviation for ALTer must be at least three
-!                 letters
-!             -   Any word longer than five characters can't be an
-!                 abbreviation for ALTer
-!             -   o, ov, oVe, over, overL, overla are all acceptable
-!                 abbreviations for Overlay
-!     -   if there isn't any lowercase letters in the word in the command
-!         table, then there isn't an abbreviation permitted
+! - - it can be thought of as one long literal string (with blanks at
+!     end-of-lines)
+!   - it may have superfluous blanks
+!   - it may be in any case (lower/upper/mixed)
+!   - the order of the words in the command table must be preserved as
+!     shown
+!   - the user input(s) may be in any case (upper/lower/mixed)
+!   - commands will be restricted to the Latin alphabet (A ──► Z, a ──► z)
+!   - A valid abbreviation is a word that has:
+!     - at least the minimum length of the number of capital letters of
+!       the word in the command table
+!     - compares equal (regardless of case) to the leading characters of
+!       the word in the command table
+!     - a length not longer than the word in the command table
+!       - ALT, aLt, ALTE, and ALTER are all abbreviations of ALTer
+!       - AL, ALF, ALTERS, TER, and A aren't valid abbreviations of ALTer
+!       - The number of capital letters in ALTer indicates that any
+!         abbreviation for ALTer must be at least three letters
+!       - Any word longer than five characters can't be an abbreviation
+!         for ALTer
+!       - o, ov, oVe, over, overL, overla are all acceptable abbreviations
+!         for Overlay
+!   - if there isn't any lowercase letters in the word in the command
+!     table, then there isn't an abbreviation permitted
 ! 
-! Task:
+! Task
 ! 
-! -   -   The command table needn't be verified/validated.
-!     -   Write a function to validate if the user "words" (given as
-!         input) are valid (in the command table).
-!     -   If the word is valid, then return the full uppercase version of
-!         that "word".
-!     -   If the word isn't valid, then return the lowercase string:
-!         *error* (7 characters).
-!     -   A blank input (or a null input) should return a null string.
-!     -   Show all output here.
+!     
 ! 
-! An example test case to be used for this task:
+! - - The command table needn't be verified/validated.
+!   - Write a function to validate if the user "words" (given as input)
+!     are valid (in the command table).
+!   - If the word is valid, then return the full uppercase version of that
+!     "word".
+!   - If the word isn't valid, then return the lowercase string: *error*
+!     (7 characters).
+!   - A blank input (or a null input) should return a null string.
+!   - Show all output here.
+! 
+! An example test case to be used for this task
+! 
+!     
 ! 
 ! For a user string of:
 ! 

@@ -8,7 +8,7 @@
 ! 
 ! See also
 ! 
-! -   Number names — the reverse operation.
+! - Number names — the reverse operation.
 
 USING: arrays formatting grouping kernel math math.functions
 math.parser multiline peg peg.ebnf sequences sequences.deep ;

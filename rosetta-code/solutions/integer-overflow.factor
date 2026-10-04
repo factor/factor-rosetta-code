@@ -12,13 +12,17 @@
 ! This allows high performance and is the main reason to support machine
 ! level integers.
 ! 
-! Definition:
+! Definition
+! 
+!     
 ! 
 ! An integer overflow happens when the result of a computation does not
 ! fit into the fixed size integer. The result can be too small or too big
 ! to be representable in the fixed size integer.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! When a language has fixed size integer types, create a program that does
 ! arithmetic computations for the fixed size integers of the language.
@@ -74,21 +78,21 @@
 ! 9223372036854775807 - 18446744073709551615 | -9223372036854775808 |- |
 ! 4294967296 * 4294967296 | 18446744073709551616 |}
 ! 
-! Notes:
+! Notes
 ! 
-! -   -   When the integer overflow does trigger an exception show how the
-!         exception is caught.
-!     -   When the integer overflow produces some value, print it.
-!     -   It should be explicitly noted when an integer overflow is not
-!         recognized, the program continues with wrong results.
-!     -   This should be done for signed and unsigned integers of various
-!         sizes supported by the computer programming language.
-!     -   When a language has no fixed size integer type, or when no
-!         integer overflow can occur for other reasons, this should be
-!         noted.
-!     -   It is okay to mention, when a language supports unlimited
-!         precision integers, but this task is NOT the place to
-!         demonstrate the
+!     
+! 
+! - - When the integer overflow does trigger an exception show how the
+!     exception is caught.
+!   - When the integer overflow produces some value, print it.
+!   - It should be explicitly noted when an integer overflow is not
+!     recognized, the program continues with wrong results.
+!   - This should be done for signed and unsigned integers of various
+!     sizes supported by the computer programming language.
+!   - When a language has no fixed size integer type, or when no integer
+!     overflow can occur for other reasons, this should be noted.
+!   - It is okay to mention, when a language supports unlimited precision
+!     integers, but this task is NOT the place to demonstrate the
 ! 
 ! capabilities of unlimited precision integers.
 

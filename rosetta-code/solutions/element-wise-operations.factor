@@ -1,20 +1,22 @@
 ! This task is similar to:
 ! 
-! -   -   Matrix multiplication
-!     -   Matrix transposition
+! - - Matrix multiplication
+!   - Matrix transposition
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement basic element-wise matrix-matrix and scalar-matrix operations,
 ! which can be referred to in other, higher-order tasks.
 ! 
 ! Implement:
 ! 
-! -   -   addition
-!     -   subtraction
-!     -   multiplication
-!     -   division
-!     -   exponentiation
+! - - addition
+!   - subtraction
+!   - multiplication
+!   - division
+!   - exponentiation
 ! 
 ! Extend the task if necessary to include additional basic operations,
 ! which should not require their own specialised task.

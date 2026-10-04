@@ -12,7 +12,9 @@
 !     P-LACE
 !     PALACE
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function that shows the alignment of two strings for the
 ! corresponding levenshtein distance.

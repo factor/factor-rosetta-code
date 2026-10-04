@@ -1,9 +1,11 @@
 ! Sort an array of numbers (of any convenient size) into ascending order
 ! using Patience sorting.
 ! 
-! Related task:
+! Related task
 ! 
-! -   -   Longest increasing subsequence
+!     
+! 
+! - - Longest increasing subsequence
 ! 
 ! Category:Sorting
 

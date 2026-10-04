@@ -21,7 +21,9 @@
 ! the neighborhood of the cell are in the state “electron head” |- |
 ! conductor | conductor | otherwise |}
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a program that reads a Wireworld program from a file and displays
 ! an animation of the processing. Here is a sample description file (using

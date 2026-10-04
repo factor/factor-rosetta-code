@@ -9,7 +9,7 @@
 ! Return the largest index to a needle that has multiple occurrences in
 ! the haystack.
 ! 
-! -   Search a list of records
+! - Search a list of records
 
 : find-index ( seq elt -- i )
     '[ _ = ] find drop [ "Not found" throw ] unless* ; inline

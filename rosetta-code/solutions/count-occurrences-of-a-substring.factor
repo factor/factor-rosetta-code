@@ -1,12 +1,14 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a function, or show a built-in function, to count the number of
 ! non-overlapping occurrences of a substring inside a string.
 ! 
 ! The function should take two arguments:
 ! 
-! -   -   the first argument being the string to search, and
-!     -   the second a substring to be searched for.
+! - - the first argument being the string to search, and
+!   - the second a substring to be searched for.
 ! 
 ! It should return an integer count.
 ! 

@@ -45,29 +45,30 @@
 ! the limit is greater than (say) 4,000 bytes or so, it needn't be
 ! mentioned here.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Write a computer program (by whatever name) to contain a list of
-!         the known elements.
-!     -   The program should eventually contain a long literal of words
-!         (the elements).
-!     -   The literal should show how one could create a long list of
-!         blank-delineated words.
-!     -   The "final" (stored) list should only have a single blank
-!         between elements.
-!     -   Try to use the most idiomatic approach(es) in creating the final
-!         list.
-!     -   Use continuation if possible, and/or show alternatives (possibly
-!         using concatenation).
-!     -   Use a program comment to explain what the continuation character
-!         is if it isn't obvious.
-!     -   The program should contain a variable that has the date of the
-!         last update/revision.
-!     -   The program, when run, should display with verbiage:
-!         -   -   The last update/revision date (and should be
-!                 unambiguous).
-!             -   The number of chemical elements in the list.
-!             -   The name of the highest (last) element name.
+!     
+! 
+! - - Write a computer program (by whatever name) to contain a list of the
+!     known elements.
+!   - The program should eventually contain a long literal of words (the
+!     elements).
+!   - The literal should show how one could create a long list of
+!     blank-delineated words.
+!   - The "final" (stored) list should only have a single blank between
+!     elements.
+!   - Try to use the most idiomatic approach(es) in creating the final
+!     list.
+!   - Use continuation if possible, and/or show alternatives (possibly
+!     using concatenation).
+!   - Use a program comment to explain what the continuation character is
+!     if it isn't obvious.
+!   - The program should contain a variable that has the date of the last
+!     update/revision.
+!   - The program, when run, should display with verbiage:
+!     - - The last update/revision date (and should be unambiguous).
+!       - The number of chemical elements in the list.
+!       - The name of the highest (last) element name.
 ! 
 ! Show all output here, on this page.
 

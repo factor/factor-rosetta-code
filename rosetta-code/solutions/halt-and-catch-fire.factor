@@ -10,11 +10,11 @@
 ! 
 ! References
 ! 
-! -   Wikipedia: Halt and Catch Fire
+! - Wikipedia: Halt and Catch Fire
 ! 
 ! Related Tasks
 ! 
-! -   Program termination
+! - Program termination
 ! 
 ! Category:Simple
 

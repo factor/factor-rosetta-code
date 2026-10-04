@@ -6,7 +6,9 @@
 ! 
 !     0.0 ≤ p ≤ 1.0
 ! 
-! The task:
+! The task
+! 
+!     
 ! 
 ! Simulate creating the array of cells with probability p and then testing
 ! if there is a route through adjacent filled cells from any on row 0 to

@@ -21,6 +21,6 @@
 ! 
 ! See also
 ! 
-! -   Metallic ratios
+! - Metallic ratios
 
 

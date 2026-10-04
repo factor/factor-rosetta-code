@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given a jumbled list of the numbers 1 to 9 that are definitely not in
 ! ascending order.
@@ -14,11 +16,13 @@
 ! 
 ! Note: Assume the player's input does not need extra validation.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Sorting algorithms/Pancake sort
-! -   Pancake sorting.
-! -   Topswops
+!     
+! 
+! - Sorting algorithms/Pancake sort
+! - Pancake sorting.
+! - Topswops
 ! 
 ! Category:Puzzles
 

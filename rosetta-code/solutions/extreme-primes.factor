@@ -16,9 +16,9 @@
 ! 
 ! Related (and near duplicate) tasks
 ! 
-! -   Prime numbers p for which the sum of primes less than or equal to p
-!     is prime
-! -   Summarize primes
+! - Prime numbers p for which the sum of primes less than or equal to p is
+!   prime
+! - Summarize primes
 ! 
 ! Reference
 ! 

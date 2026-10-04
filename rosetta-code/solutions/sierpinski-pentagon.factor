@@ -4,6 +4,6 @@
 ! 
 ! See also
 ! 
-! -   Sierpinski pentagon
+! - Sierpinski pentagon
 
 

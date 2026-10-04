@@ -23,26 +23,30 @@
 ! A,B,C || A,B |- | L-System Start/Axiom. || A || A |- | L-System Rules.
 ! || A->B,B->C,C->AB || A->B,B->AB |}
 ! 
-! Task:
+! Task
 ! 
-! -   Write a function/method/subroutine to compute successive members of
-!     the Padovan series using the recurrence relation.
-! -   Write a function/method/subroutine to compute successive members of
-!     the Padovan series using the floor function.
-! -   Show the first twenty terms of the sequence.
-! -   Confirm that the recurrence and floor based functions give the same
-!     results for 64 terms,
-! -   Write a function/method/... using the L-system to generate
-!     successive strings.
-! -   Show the first 10 strings produced from the L-system
-! -   Confirm that the length of the first 32 strings produced is the
-!     Padovan sequence.
+!     
+! 
+! - Write a function/method/subroutine to compute successive members of
+!   the Padovan series using the recurrence relation.
+! - Write a function/method/subroutine to compute successive members of
+!   the Padovan series using the floor function.
+! - Show the first twenty terms of the sequence.
+! - Confirm that the recurrence and floor based functions give the same
+!   results for 64 terms,
+! - Write a function/method/... using the L-system to generate successive
+!   strings.
+! - Show the first 10 strings produced from the L-system
+! - Confirm that the length of the first 32 strings produced is the
+!   Padovan sequence.
 ! 
 ! Show output here, on this page.
 ! 
-! Ref:
+! Ref
 ! 
-! -   The Plastic Ratio - Numberphile video.
+!     
+! 
+! - The Plastic Ratio - Numberphile video.
 
 USING: L-system accessors io kernel make math math.functions
 memoize prettyprint qw sequences ;

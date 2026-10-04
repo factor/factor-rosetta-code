@@ -1,12 +1,16 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Invoke an object method where the name of the method to be invoked can
 ! be generated at run time.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Respond to an unknown method call.
-! -   Runtime evaluation
+!     
+! 
+! - Respond to an unknown method call.
+! - Runtime evaluation
 
 USING: accessors kernel math prettyprint sequences words ;
 IN: rosetta-code.unknown-method-call

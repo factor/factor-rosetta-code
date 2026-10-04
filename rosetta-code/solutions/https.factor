@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Send a GET request to obtain the resource located at the URL
 ! "https://www.w3.org/", then print it to the console.

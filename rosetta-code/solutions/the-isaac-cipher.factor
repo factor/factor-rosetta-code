@@ -13,7 +13,9 @@
 ! deserves a lot more attention than it has hitherto received and it would
 ! be salutary to see it more universally implemented.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Translate ISAAC's reference C or Pascal code into your language of
 ! choice.

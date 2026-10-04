@@ -46,9 +46,9 @@
 ! The Kirkpatrick–Seidel algorithm is used in various applications of
 ! computational geometry, including:
 ! 
-! -   Geographic Information Systems (GIS)
-! -   Computer graphics
-! -   Pattern recognition
-! -   Robotics and motion planning
+! - Geographic Information Systems (GIS)
+! - Computer graphics
+! - Pattern recognition
+! - Robotics and motion planning
 
 

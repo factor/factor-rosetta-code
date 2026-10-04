@@ -1,39 +1,39 @@
 ! This task is an aggregation of lesser-known factorials that nevertheless
 ! have some mathematical use.
 ! 
-! +-----------------------+---------+---------------------+------------------+
-! | Name                  | Formula | Example calculation | Links            |
-! +=======================+=========+=====================+==================+
-! | Superfactorial        |         |                     | -   Wikipedia    |
-! |                       |         |                     | -   OEIS:A000178 |
-! +-----------------------+---------+---------------------+------------------+
-! | Hyperfactorial        |         |                     | -   Wikipedia    |
-! |                       |         |                     | -   OEIS:A002109 |
-! +-----------------------+---------+---------------------+------------------+
-! | Alternating factorial |         |                     | -   Wikipedia    |
-! |                       |         |                     | -   OEIS:A005165 |
-! +-----------------------+---------+---------------------+------------------+
-! | Exponential factorial |         |                     | -   Wikipedia    |
-! |                       |         |                     | -   OEIS:A049384 |
-! +-----------------------+---------+---------------------+------------------+
+! +---------------------+---------+---------------------+----------------+
+! | Name                | Formula | Example calculation | Links          |
+! +=====================+=========+=====================+================+
+! | Superfactorial      |         |                     | - Wikipedia    |
+! |                     |         |                     | - OEIS:A000178 |
+! +---------------------+---------+---------------------+----------------+
+! | Hyperfactorial      |         |                     | - Wikipedia    |
+! |                     |         |                     | - OEIS:A002109 |
+! +---------------------+---------+---------------------+----------------+
+! | Alternating         |         |                     | - Wikipedia    |
+! | factorial           |         |                     | - OEIS:A005165 |
+! +---------------------+---------+---------------------+----------------+
+! | Exponential         |         |                     | - Wikipedia    |
+! | factorial           |         |                     | - OEIS:A049384 |
+! +---------------------+---------+---------------------+----------------+
 ! 
 ! : Special factorials
 ! 
 ! Task
 ! 
-! -   Write a function/procedure/routine for each of the factorials in the
-!     table above.
-! -   Show sf(n), H(n), and af(n) where 0 ≤ n ≤ 9. Only show as many
-!     numbers as the data types in your language can handle. Bignums are
-!     welcome, but not required.
-! -   Show 0$, 1$, 2$, 3$, and 4$.
-! -   Show the number of digits in 5$. (Optional)
-! -   Write a function/procedure/routine to find the inverse factorial
-!     (sometimes called reverse factorial). That is, if , then . This
-!     function is simply undefined for most inputs.
-! -   Use the inverse factorial function to show the inverse factorials of
-!     1, 2, 6, 24, 120, 720, 5040, 40320, 362880, and 3628800.
-! -   Show rf(119). The result should be undefined.
+! - Write a function/procedure/routine for each of the factorials in the
+!   table above.
+! - Show sf(n), H(n), and af(n) where 0 ≤ n ≤ 9. Only show as many numbers
+!   as the data types in your language can handle. Bignums are welcome,
+!   but not required.
+! - Show 0$, 1$, 2$, 3$, and 4$.
+! - Show the number of digits in 5$. (Optional)
+! - Write a function/procedure/routine to find the inverse factorial
+!   (sometimes called reverse factorial). That is, if , then . This
+!   function is simply undefined for most inputs.
+! - Use the inverse factorial function to show the inverse factorials of
+!   1, 2, 6, 24, 120, 720, 5040, 40320, 362880, and 3628800.
+! - Show rf(119). The result should be undefined.
 ! 
 ! Notes
 !     Since the factorial inverse of 1 is both 0 and 1, your function
@@ -42,12 +42,12 @@
 ! 
 ! See also
 ! 
-! -   Factorial
-! -   Factorions
-! -   Left factorials
-! -   Multifactorial
-! -   Primorial numbers
-! -   Stirling numbers of the first kind
+! - Factorial
+! - Factorions
+! - Left factorials
+! - Multifactorial
+! - Primorial numbers
+! - Stirling numbers of the first kind
 
 USING: formatting io kernel math math.factorials math.functions
 math.parser math.ranges prettyprint sequences sequences.extras ;

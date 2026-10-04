@@ -16,20 +16,26 @@
 !         Those numbers for which this process end in 1 are happy numbers,
 !         while those numbers that do not end in 1 are unhappy numbers.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find and print the first 8 happy numbers.
 ! 
 ! Display an example of your output here on this page.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Iterated digits squaring
+!     
 ! 
-! See also:
+! - Iterated digits squaring
 ! 
-! -   The OEIS entry: The happy numbers: A007770
-! -   The OEIS entry: The unhappy numbers; A031177
+! See also
+! 
+!     
+! 
+! - The OEIS entry: The happy numbers: A007770
+! - The OEIS entry: The unhappy numbers; A031177
 
 USING: combinators kernel make math sequences ;
 

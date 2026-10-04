@@ -1,48 +1,55 @@
 ! The totient function is also known as:
 ! 
-! -   -   Euler's totient function
-!     -   Euler's phi totient function
-!     -   phi totient function
-!     -    Φ function (uppercase Greek phi)
-!     -    φ function (lowercase Greek phi)
+! - - Euler's totient function
+!   - Euler's phi totient function
+!   - phi totient function
+!   -  Φ function (uppercase Greek phi)
+!   -  φ function (lowercase Greek phi)
 ! 
-! Definitions (as per number theory):
+! Definitions (as per number theory)
+! 
+!     
 ! 
 ! The totient function:
 ! 
-! -   -   counts the integers up to a given positive integer n that are
-!         relatively prime to n
-!     -   counts the integers k in the range 1 ≤ k ≤ n for which the
-!         greatest common divisor gcd(n,k) is equal to 1
-!     -   counts numbers ≤ n and prime to n
+! - - counts the integers up to a given positive integer n that are
+!     relatively prime to n
+!   - counts the integers k in the range 1 ≤ k ≤ n for which the greatest
+!     common divisor gcd(n,k) is equal to 1
+!   - counts numbers ≤ n and prime to n
 ! 
 ! If the totient number (for N) is one less than N, then N is prime.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a totient function and:
 ! 
-! -   -   Find and display (1 per line) for the 1^(st) 25 integers:
-!         -   -   the integer (the index)
-!             -   the totient number for that integer
-!             -   indicate if that integer is prime
-!     -   Find and display the count of the primes up to 100
-!     -   Find and display the count of the primes up to 1,000
-!     -   Find and display the count of the primes up to 10,000
-!     -   Find and display the count of the primes up to 100,000
-!         (optional)
+! - - Find and display (1 per line) for the 1^(st) 25 integers:
+!     - - the integer (the index)
+!       - the totient number for that integer
+!       - indicate if that integer is prime
+!   - Find and display the count of the primes up to 100
+!   - Find and display the count of the primes up to 1,000
+!   - Find and display the count of the primes up to 10,000
+!   - Find and display the count of the primes up to 100,000 (optional)
 ! 
 ! Show all output here.
 ! 
-! Related task:
+! Related task
 ! 
-! -   -   Perfect totient numbers
+!     
 ! 
-! Also see:
+! - - Perfect totient numbers
 ! 
-! -   -   Wikipedia: Euler's totient function.
-!     -   MathWorld: totient function.
-!     -   OEIS: Euler totient function phi(n).
+! Also see
+! 
+!     
+! 
+! - - Wikipedia: Euler's totient function.
+!   - MathWorld: totient function.
+!   - OEIS: Euler totient function phi(n).
 
 USING: combinators formatting io kernel math math.primes.factors
 math.ranges sequences ;

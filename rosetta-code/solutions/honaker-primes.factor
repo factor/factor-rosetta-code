@@ -10,15 +10,15 @@
 ! 
 ! Task
 ! 
-! -   Write a routine (procedure, function, filter, whatever it may be
-!     called in your language) to identify Honaker primes.
-! -   Use that routine to find the first fifty Honaker primes and display
-!     the position and value for each.
+! - Write a routine (procedure, function, filter, whatever it may be
+!   called in your language) to identify Honaker primes.
+! - Use that routine to find the first fifty Honaker primes and display
+!   the position and value for each.
 ! 
 ! Stretch
 ! 
-! -   Find and display the ten thousandth Honaker prime (position and
-!     value).
+! - Find and display the ten thousandth Honaker prime (position and
+!   value).
 ! 
 ! See also
 ! * OEIS:A033548 - Honaker primes

@@ -1,23 +1,29 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that solves the odd word problem with the restrictions
 ! given below.
 ! 
-! Description:
+! Description
+! 
+!     
 ! 
 ! You are promised an input stream consisting of English letters and
 ! punctuations.
 ! 
 ! It is guaranteed that:
 ! 
-! -   the words (sequence of consecutive letters) are delimited by one and
-!     only one punctuation,
-! -   the stream will begin with a word,
-! -   the words will be at least one letter long, and
-! -   a full stop (a period, [.]) appears after, and only after, the last
-!     word.
+! - the words (sequence of consecutive letters) are delimited by one and
+!   only one punctuation,
+! - the stream will begin with a word,
+! - the words will be at least one letter long, and
+! - a full stop (a period, [.]) appears after, and only after, the last
+!   word.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! A stream with six words:
 ! 
@@ -45,7 +51,9 @@
 !     co-routines, etc., even if their use implies the storage of multiple
 !     characters.
 ! 
-! Test cases:
+! Test cases
+! 
+!     
 ! 
 ! Work on both the "life" example given above, and also the text:
 ! 

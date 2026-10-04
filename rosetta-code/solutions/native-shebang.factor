@@ -1,6 +1,8 @@
 ! In short: Use the specimen language (native) for "scripting".
 ! 
-! Example: If your language is "foo", then the test case of "echo.foo" runs in a terminal as "./echo.foo Hello, world!".
+! Example
+!     If your language is "foo", then the test case of "echo.foo" runs in
+!     a terminal as "./echo.foo Hello, world!".
 ! 
 ! In long: Create a program (in the specimen language) that will
 ! automatically compile a test case (of the same specimen language) to a
@@ -40,32 +42,32 @@
 ! 
 ! Other small innovations required of this Native shebang task:
 ! 
-! -   Cache the executable in some appropriate place in a path, dependant
-!     on available write permissions.
-! -   Generate a new cached executable only when the source has been
-!     touched.
-! -   If a cached is available, then run this instead of regenerating a
-!     new executable.
+! - Cache the executable in some appropriate place in a path, dependant on
+!   available write permissions.
+! - Generate a new cached executable only when the source has been
+!   touched.
+! - If a cached is available, then run this instead of regenerating a new
+!   executable.
 ! 
 ! Difficulties:
 ! 
-! -   Naturally, some languages are not compiled. These languages are
-!     forced to use shebang executables from another language, eg
-!     "#!/usr/bin/env python" uses the C binaries /usr/bin/env and
-!     /usr/bin/python. If this is the case, then simply document the
-!     details of the case.
-! -   In a perfect world, the test file (e.g. echo.c) would still be a
-!     valid program, and would compile without error using the native
-!     compiler (e.g. gcc for text.c). The problem is that "#!" is
-!     syntactically incorrect on many languages, but in others it can be
-!     parsed as a comment.
-! -   The "test binary" should be exec-ed and hence retain the original
-!     Process identifier.
+! - Naturally, some languages are not compiled. These languages are forced
+!   to use shebang executables from another language, eg
+!   "#!/usr/bin/env python" uses the C binaries /usr/bin/env and
+!   /usr/bin/python. If this is the case, then simply document the details
+!   of the case.
+! - In a perfect world, the test file (e.g. echo.c) would still be a valid
+!   program, and would compile without error using the native compiler
+!   (e.g. gcc for text.c). The problem is that "#!" is syntactically
+!   incorrect on many languages, but in others it can be parsed as a
+!   comment.
+! - The "test binary" should be exec-ed and hence retain the original
+!   Process identifier.
 ! 
 ! Test case:
 ! 
-! -   Create a simple "script file" (in the same native language) called
-!     "echo" then use the "script" to output "Hello, world!"
+! - Create a simple "script file" (in the same native language) called
+!   "echo" then use the "script" to output "Hello, world!"
 ! 
 ! Category:Programming environment operations
 

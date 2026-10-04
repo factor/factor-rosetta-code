@@ -14,7 +14,9 @@
 ! newlines were not required (and could not even be encoded in some
 ! systems).
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program to read 80 column fixed length records (no newline
 ! terminators (but newline characters allowed in the data)) and then write
@@ -33,7 +35,9 @@
 ! of the large players in day to day financial transactions know all about
 ! fixed length records and the expression logical record length.
 ! 
-! Sample data:
+! Sample data
+! 
+!     
 ! 
 ! To create the sample input file, use an editor that supports fixed
 ! length records or use a conversion utility. For instance, most GNU/Linux

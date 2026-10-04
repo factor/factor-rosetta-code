@@ -17,7 +17,7 @@
 ! 
 ! Related task
 ! 
-! -   -   Primality by Wilson's theorem
+! - - Primality by Wilson's theorem
 
 USING: formatting infix io kernel literals math math.functions
 math.primes math.ranges prettyprint sequences sequences.extras ;

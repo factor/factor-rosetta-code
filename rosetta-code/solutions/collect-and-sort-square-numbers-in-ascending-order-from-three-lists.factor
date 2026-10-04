@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Collect and sort square numbers in ascending order from three lists.
 ! 

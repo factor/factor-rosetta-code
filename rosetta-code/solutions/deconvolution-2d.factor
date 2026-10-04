@@ -22,22 +22,21 @@
 ! etc.) deconv to perform deconvolution (i.e., the inverse of convolution)
 ! by solving for h given f and g. (See Deconvolution/1D for details.)
 ! 
-! -   The function should work for g of arbitrary length in each dimension
-!     (i.e., not hard coded or constant) and f of any length up to that of
-!     g in the corresponding dimension.
-! -   The deconv function will need to be parameterized by the dimension d
-!     unless the dimension can be inferred from the data structures
-!     representing g and f.
-! -   There may be more equations than unknowns. If convenient, use a
-!     function from a library that finds the best fitting solution to an
-!     overdetermined system of linear equations (as in the Multiple
-!     regression task). Otherwise, prune the set of equations as needed
-!     and solve as in the Reduced row echelon form task.
-! -   Debug your solution using this test data, of which a portion is
-!     shown below. Be sure to verify both that the deconvolution of g with
-!     f is h and that the deconvolution of g with h is f. Display the
-!     results in a human readable form for the three dimensional case
-!     only.
+! - The function should work for g of arbitrary length in each dimension
+!   (i.e., not hard coded or constant) and f of any length up to that of g
+!   in the corresponding dimension.
+! - The deconv function will need to be parameterized by the dimension d
+!   unless the dimension can be inferred from the data structures
+!   representing g and f.
+! - There may be more equations than unknowns. If convenient, use a
+!   function from a library that finds the best fitting solution to an
+!   overdetermined system of linear equations (as in the Multiple
+!   regression task). Otherwise, prune the set of equations as needed and
+!   solve as in the Reduced row echelon form task.
+! - Debug your solution using this test data, of which a portion is shown
+!   below. Be sure to verify both that the deconvolution of g with f is h
+!   and that the deconvolution of g with h is f. Display the results in a
+!   human readable form for the three dimensional case only.
 ! 
 ! dimension 1:
 ! 

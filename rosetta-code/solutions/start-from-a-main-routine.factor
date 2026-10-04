@@ -4,7 +4,9 @@
 ! main procedure to run instead. Data driven or event driven languages may
 ! also require similar trickery to force a startup procedure to run.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate the steps involved in causing the application to run a main
 ! procedure, rather than an event driven window at startup.

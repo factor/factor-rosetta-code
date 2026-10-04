@@ -17,9 +17,11 @@
 !     zayin   1/11.0
 !     heth    1759/27720 # adjusted so that probabilities add to 1
 ! 
-! Related task:
+! Related task
 ! 
-! -   Random number generator (device)
+!     
+! 
+! - Random number generator (device)
 
 USING: arrays assocs combinators.random io kernel macros math
 math.statistics prettyprint quotations sequences sorting formatting ;

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a Caesar cipher, both encoding and decoding.
 ! 
@@ -20,11 +22,13 @@
 ! 
 ! Also, Rot-13 is identical to Caesar cipher with key 13.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Rot-13
-! -   Substitution Cipher
-! -   Vigenère Cipher/Cryptanalysis
+!     
+! 
+! - Rot-13
+! - Substitution Cipher
+! - Vigenère Cipher/Cryptanalysis
 ! 
 ! Category:String manipulation
 

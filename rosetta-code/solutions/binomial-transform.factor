@@ -28,11 +28,11 @@
 ! 
 ! Task
 ! 
-! -   Implement both a forward, and inverse binomial transform routine.
-! -   Use those routines to compute the forward binomial transform, the
-!     inverse binomial transform, and the inverse of the forward transform
-!     (should return original sequence) of a few representative sequences.
-! -   Show at least the first 15 values in each sequence.
+! - Implement both a forward, and inverse binomial transform routine.
+! - Use those routines to compute the forward binomial transform, the
+!   inverse binomial transform, and the inverse of the forward transform
+!   (should return original sequence) of a few representative sequences.
+! - Show at least the first 15 values in each sequence.
 ! 
 !     You may generate the sequences, or may choose to just hard code the
 !     values.

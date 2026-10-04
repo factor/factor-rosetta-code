@@ -27,7 +27,9 @@
 ! converges most quickly is 22. It goes stable after the first element.
 ! (The next element is 22, which has been seen before.)
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find all the positive integer seed values under 1000000, for the above
 ! convergent self-referential sequence, that takes the largest number of
@@ -63,17 +65,21 @@
 !     19281716151413427110
 !     19182716152413228110
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Fours is the number of letters in the ...
-! -   Look-and-say sequence
-! -   Number names
-! -   Self-describing numbers
-! -   Spelling of ordinal numbers
+!     
 ! 
-! Also see:
+! - Fours is the number of letters in the ...
+! - Look-and-say sequence
+! - Number names
+! - Self-describing numbers
+! - Spelling of ordinal numbers
 ! 
-! -   The On-Line Encyclopedia of Integer Sequences.
+! Also see
+! 
+!     
+! 
+! - The On-Line Encyclopedia of Integer Sequences.
 
 USING: assocs grouping io kernel math math.combinatorics
 math.functions math.ranges math.statistics math.text.utils

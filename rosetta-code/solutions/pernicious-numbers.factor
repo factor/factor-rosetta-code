@@ -13,17 +13,17 @@
 ! 
 ! Task
 ! 
-! -   display the first 25 pernicious numbers (in decimal).
-! -   display all pernicious numbers between 888,888,877 and 888,888,888
-!     (inclusive).
-! -   display each list of integers on one line (which may or may not
-!     include a title).
+! - display the first 25 pernicious numbers (in decimal).
+! - display all pernicious numbers between 888,888,877 and 888,888,888
+!   (inclusive).
+! - display each list of integers on one line (which may or may not
+!   include a title).
 ! 
 ! See also
 ! 
-! -   Sequence A052294 pernicious numbers on The On-Line Encyclopedia of
-!     Integer Sequences.
-! -   Rosetta Code entry population count, evil numbers, odious numbers.
+! - Sequence A052294 pernicious numbers on The On-Line Encyclopedia of
+!   Integer Sequences.
+! - Rosetta Code entry population count, evil numbers, odious numbers.
 
 USING: lists lists.lazy math.bitwise math.primes math.ranges
 prettyprint sequences ;

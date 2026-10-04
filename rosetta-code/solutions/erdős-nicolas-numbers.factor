@@ -34,6 +34,6 @@
 ! 
 ! Reference
 ! 
-! -   OEIS:A194472 - Erdős–Nicolas numbers
+! - OEIS:A194472 - Erdős–Nicolas numbers
 
 

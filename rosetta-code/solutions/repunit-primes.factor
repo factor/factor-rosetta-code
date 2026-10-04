@@ -31,12 +31,12 @@
 ! 
 ! Task
 ! 
-! -   For bases 2 through 16, Find and show, here on this page, the
-!     repunit primes as digit counts, up to a limit of 1000.
+! - For bases 2 through 16, Find and show, here on this page, the repunit
+!   primes as digit counts, up to a limit of 1000.
 ! 
 ! Stretch
 ! 
-! -   Increase the limit to 2700 (or as high as you have patience for.)
+! - Increase the limit to 2700 (or as high as you have patience for.)
 ! 
 ! See also
 ! 

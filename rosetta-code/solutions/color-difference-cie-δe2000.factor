@@ -1,5 +1,3 @@
-! The CIE ΔE2000 color difference formula
-! 
 ! The ΔE2000 color difference formula has become a widely used industry
 ! standard for evaluating the distance between two colors in the CIE 1976
 ! color space. It improves on the ΔE₉₄, its predecessor, by incorporating
@@ -31,10 +29,16 @@
 !   88.0   -124.0   56.0     97.0   62.0     -28.0    63.9449872676
 !   98.0   75.7     11.0     3.0    -62.0    11.0     126.5088270078
 ! 
-! -   L1 and L2 nominally ranges from 0 (white) to 100 (black)
-! -   a1 and a2 are unbounded and commonly clamped to the range of -128
-!     (green) to 127 (red)
-! -   b1 and b2 are unbounded and commonly clamped to the range of -128
-!     (blue) to 127 (yellow)
+! - L1 and L2 nominally ranges from 0 (white) to 100 (black)
+! - a1 and a2 are unbounded and commonly clamped to the range of -128
+!   (green) to 127 (red)
+! - b1 and b2 are unbounded and commonly clamped to the range of -128
+!   (blue) to 127 (yellow)
+! 
+! References
+! 
+! 1. The CIEDE2000 Color-Difference Formula: Implementation Notes, Supplementary Test Data, and Mathematical Observations
+! 
+! 2. ciede2000 color matching implementations on GitHub
 
 

@@ -11,11 +11,13 @@
 !     TCCTAAATTTGAATGGCAAACACAAATAAGATTTAGCAATTCGTGTAGAC
 !     GACCGGGGACTTGCATGATGGGAGCAGCTTTGTTAAACTACGAACGTAAT
 ! 
-! Task:
+! Task
 ! 
-! -   -   "Pretty print" the sequence followed by a summary of the counts
-!         of each of the bases: (A, C, G, and T) in the sequence
-!     -   print the total count of each base in the string.
+!     
+! 
+! - - "Pretty print" the sequence followed by a summary of the counts of
+!     each of the bases: (A, C, G, and T) in the sequence
+!   - print the total count of each base in the string.
 
 USING: assocs formatting grouping io kernel literals math
 math.statistics prettyprint qw sequences sorting ;

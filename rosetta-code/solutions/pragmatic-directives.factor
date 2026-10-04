@@ -2,7 +2,9 @@
 ! allowing support for operational variances within the program code
 ! (possibly by the loading of specific or alternative modules).
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! List any pragmatic directives supported by the language, and demonstrate
 ! how to activate and deactivate the pragmatic directives and to describe

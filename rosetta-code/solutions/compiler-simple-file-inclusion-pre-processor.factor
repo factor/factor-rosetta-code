@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Introduction
 ! 
@@ -69,17 +71,17 @@
 ! 
 ! Notes
 ! 
-! -   implementors: The Task is about implementing a pre-processor for
-!     your language, not just describing it's features. Just as the task
-!     Calculating the value of e is not about using your language's
-!     in-built exp function but showing how e could be calculated, this is
-!     about showing how file inclusion could be implemented - even if the
-!     compiler/interpreter you are using already has such a facility.
-! -   the pre-processors on this page are supplied as-is, with no
-!     warranty - use at your own peril : )
+! - implementors: The Task is about implementing a pre-processor for your
+!   language, not just describing it's features. Just as the task
+!   Calculating the value of e is not about using your language's in-built
+!   exp function but showing how e could be calculated, this is about
+!   showing how file inclusion could be implemented - even if the
+!   compiler/interpreter you are using already has such a facility.
+! - the pre-processors on this page are supplied as-is, with no warranty -
+!   use at your own peril : )
 ! 
 ! See Also
 ! 
-! -   include a file
+! - include a file
 
 

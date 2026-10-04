@@ -10,7 +10,9 @@
 ! 2²⁴⁰³⁶⁵⁸³-1 is a Mersenne prime, claimed to also be a self number. Extra
 ! credit to anyone proving it.
 ! 
-! See also:
+! See also
+! 
+!     
 ! 
 ! *OEIS: A003052 - Self numbers or Colombian numbers
 ! *Wikipedia: Self numbers

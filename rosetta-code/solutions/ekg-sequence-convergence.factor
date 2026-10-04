@@ -1,9 +1,9 @@
 ! The sequence is from the natural numbers and is defined by:
 ! 
-! -   a(1) = 1;
-! -   a(2) = Start = 2;
-! -   for n > 2, a(n) shares at least one prime factor with a(n-1) and is
-!     the smallest such natural number not already used.
+! - a(1) = 1;
+! - a(2) = Start = 2;
+! - for n > 2, a(n) shares at least one prime factor with a(n-1) and is
+!   the smallest such natural number not already used.
 ! 
 ! The sequence is called the EKG sequence (after its visual similarity to
 ! an electrocardiogram when graphed).
@@ -12,10 +12,9 @@
 ! natural number larger than one. For the purposes of this task let us
 ! call:
 ! 
-! -   The sequence described above , starting 1, 2, ... the EKG(2)
-!     sequence;
-! -   the sequence starting 1, 3, ... the EKG(3) sequence;
-! -   ... the sequence starting 1, N, ... the EKG(N) sequence.
+! - The sequence described above , starting 1, 2, ... the EKG(2) sequence;
+! - the sequence starting 1, 3, ... the EKG(3) sequence;
+! - ... the sequence starting 1, N, ... the EKG(N) sequence.
 ! 
 ! Convergence
 ! 
@@ -28,7 +27,9 @@
 ! EKG(N1) and EKG(N2) are said to to have converged at and after
 ! generation a(c) if state_of(EKG(N1).a(c)) == state_of(EKG(N2).a(c)).
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Calculate and show here the first 10 members of EKG(2).
 ! 2.  Calculate and show here the first 10 members of EKG(5).
@@ -38,15 +39,19 @@
 ! 6.  Calculate and show here at which term EKG(5) and EKG(7) converge
 !     (stretch goal).
 ! 
-! Related Tasks:
+! Related Tasks
+! 
+!     
 ! 
 ! 1.  Greatest common divisor
 ! 2.  Sieve of Eratosthenes
 ! 3.  Yellowstone sequence
 ! 
-! Reference:
+! Reference
 ! 
-! -   The EKG Sequence and the Tree of Numbers. (Video).
+!     
+! 
+! - The EKG Sequence and the Tree of Numbers. (Video).
 
 USING: combinators.short-circuit formatting fry io kernel lists
 lists.lazy math math.statistics prettyprint sequences

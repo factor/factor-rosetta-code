@@ -63,9 +63,9 @@
 ! routine, etc. to sort a list of words by length (the key function),
 ! using the decorate-sort-undecorate idiom.
 ! 
-! -   Bonus 1. If your solution can accept the key function as a callback.
-! -   Bonus 2. If your solution is also a "Schwartzian transform", this
-!     is, it does not use named temporary lists/arrays.
+! - Bonus 1. If your solution can accept the key function as a callback.
+! - Bonus 2. If your solution is also a "Schwartzian transform", this is,
+!   it does not use named temporary lists/arrays.
 ! 
 ! You can, at your choice, show two solutions, the first using
 ! intermediate named lists/arrays, and the second one not using them (a
@@ -74,7 +74,7 @@
 ! 
 ! References
 ! 
-! -   -   Wikipedia: Schwartzian transform
+! - - Wikipedia: Schwartzian transform
 ! 
 ! Category:Sorting
 

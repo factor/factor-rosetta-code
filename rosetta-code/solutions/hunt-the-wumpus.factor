@@ -13,9 +13,9 @@
 ! 
 ! In the cave there are:
 ! 
-! -   One Wumpus
-! -   Two giant bats
-! -   Two bottomless pits
+! - One Wumpus
+! - Two giant bats
+! - Two bottomless pits
 ! 
 ! If the player enters a room with the Wumpus, he is eaten by it and the
 ! game is lost.
@@ -32,9 +32,9 @@
 ! Whenever the player enters a room, he "senses" what happens in adjacent
 ! rooms. The messages are:
 ! 
-! -   Nearby Wumpus: "You smell something terrible nearby."
-! -   Nearby bat: "You hear a rustling."
-! -   Nearby pit: "You feel a cold wind blowing from a nearby cavern."
+! - Nearby Wumpus: "You smell something terrible nearby."
+! - Nearby bat: "You hear a rustling."
+! - Nearby pit: "You feel a cold wind blowing from a nearby cavern."
 ! 
 ! When the player shoots, he wins the game if he is shooting in the room
 ! with the Wumpus. If he shoots into another room, the Wumpus has a 75% of

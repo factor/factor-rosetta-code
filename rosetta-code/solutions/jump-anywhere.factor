@@ -12,18 +12,20 @@
 ! jumps across function calls, or long jumps to anywhere within a program.
 ! Anywhere means not only to the tops of functions!
 ! 
-! -   Some languages can go to any global label in a program.
-! -   Some languages can break multiple function calls, also known as
-!     unwinding the call stack.
-! -   Some languages can save a continuation. The program can later
-!     continue from the same place. So you can jump anywhere, but only if
-!     you have a previous visit there (to save the continuation).
+! - Some languages can go to any global label in a program.
+! - Some languages can break multiple function calls, also known as
+!   unwinding the call stack.
+! - Some languages can save a continuation. The program can later continue
+!   from the same place. So you can jump anywhere, but only if you have a
+!   previous visit there (to save the continuation).
 ! 
 ! These jumps are not all alike. A simple goto never touches the call
 ! stack. A continuation saves the call stack, so you can continue a
 ! function call after it ends.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Use your language to demonstrate the various types of jumps that it
 ! supports.

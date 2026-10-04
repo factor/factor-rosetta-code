@@ -32,8 +32,8 @@
 ! 
 ! ;Task:
 ! 
-! -   Show all 48 ordered sequences for each of the two methods for n =
-!     48, which is the first non-trivial factor-perfect number.
+! - Show all 48 ordered sequences for each of the two methods for n = 48,
+!   which is the first non-trivial factor-perfect number.
 ! 
 ! According to the paper listed below by P. Erdos, the number of these
 ! sequences is
@@ -46,12 +46,12 @@
 ! that F(1)=0 (where the number of factorizations of 1 must be 1 for it to
 ! be included in the sequence of factor-perfect numbers).
 ! 
-! -   Write a program to calculate and show the first 7 numbers of the
-!     factor-perfect numbers.
+! - Write a program to calculate and show the first 7 numbers of the
+!   factor-perfect numbers.
 ! 
 ! ;Stretch task:
 ! 
-! -   Calculate and show more of the subsequent numbers in the sequence.
+! - Calculate and show more of the subsequent numbers in the sequence.
 ! 
 ! ; see also:
 ! 

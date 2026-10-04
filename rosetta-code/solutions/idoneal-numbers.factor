@@ -13,12 +13,12 @@
 ! 
 ! Task
 ! 
-! -   Find and display at least the first 50 idoneal numbers (between 1
-!     and 255).
+! - Find and display at least the first 50 idoneal numbers (between 1 and
+!   255).
 ! 
 ! Stretch
 ! 
-! -   Find and display all 65 known idoneal numbers.
+! - Find and display all 65 known idoneal numbers.
 ! 
 ! See also
 ! * Wikipedia: Idoneal numbers

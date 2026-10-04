@@ -4,15 +4,17 @@
 ! These two factors are called the fangs, and must have the following
 ! properties:
 ! 
-! -   -   they each contain half the number of the decimal digits of the
-!         original number
-!     -   together they consist of exactly the same decimal digits as the
-!         original number
-!     -   at most one of them has a trailing zero
+! - - they each contain half the number of the decimal digits of the
+!     original number
+!   - together they consist of exactly the same decimal digits as the
+!     original number
+!   - at most one of them has a trailing zero
 ! 
 ! An example of a vampire number and its fangs: 1260 : (21, 60)
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Print the first 25 vampire numbers and their fangs.
 ! 2.  Check if the following numbers are vampire numbers and, if so, print
@@ -22,11 +24,13 @@
 ! 
 ! Note that a vampire number can have more than one pair of fangs.
 ! 
-! See also:
+! See also
 ! 
-! -   numberphile.com.
-! -   vampire search algorithm
-! -   vampire numbers on OEIS
+!     
+! 
+! - numberphile.com.
+! - vampire search algorithm
+! - vampire numbers on OEIS
 
 USING: combinators.short-circuit fry io kernel lists lists.lazy math
 math.combinatorics math.functions math.primes.factors math.statistics

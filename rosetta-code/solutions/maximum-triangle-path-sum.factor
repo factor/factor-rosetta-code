@@ -14,7 +14,9 @@
 ! the top to the bottom row of the triangle. In the little example above
 ! it's 321.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find the maximum total in the triangle below:
 ! 

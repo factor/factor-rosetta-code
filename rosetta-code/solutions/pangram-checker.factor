@@ -3,15 +3,19 @@
 ! 
 ! For example: The quick brown fox jumps over the lazy dog.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function or method to check a sentence to see if it is a pangram
 ! (or not) and show its use.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   determine if a string has all the same characters
-!     -   determine if a string has all unique characters
+!     
+! 
+! - - determine if a string has all the same characters
+!   - determine if a string has all unique characters
 ! 
 ! Category:String manipulation
 

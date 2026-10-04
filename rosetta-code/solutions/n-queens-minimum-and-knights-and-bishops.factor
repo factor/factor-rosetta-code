@@ -7,10 +7,12 @@
 ! Knights required to fulfill the above requirement. For N=8 print out a
 ! possible solution for Queens and Bishops.
 ! 
-! Links:
+! Links
 ! 
-! -   OEIS Independent domination number for queens
-! -   OEIS Independent domination number for knights
-! -   ScienceDirect | minimum dominating set of queens - ways to do it.
+!     
+! 
+! - OEIS Independent domination number for queens
+! - OEIS Independent domination number for knights
+! - ScienceDirect | minimum dominating set of queens - ways to do it.
 
 

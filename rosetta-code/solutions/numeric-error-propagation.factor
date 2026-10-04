@@ -7,18 +7,18 @@
 ! 
 ! :;Addition/Subtraction
 ! 
-! -   -   If f = a ± c, or f = c ± a then σ_(f) = σ_(a)
-!     -   If f = a ± b then σ_(f)² = σ_(a)² + σ_(b)²
+! - - If f = a ± c, or f = c ± a then σ_(f) = σ_(a)
+!   - If f = a ± b then σ_(f)² = σ_(a)² + σ_(b)²
 ! 
 ! :;Multiplication/Division
 ! 
-! -   -   If f = ca or f = ac then σ_(f) = |cσ_(a)|
-!     -   If f = ab or f = a / b then σ_(f)² = f²( (σ_(a) / a)² + (σ_(b) /
-!         b)²)
+! - - If f = ca or f = ac then σ_(f) = |cσ_(a)|
+!   - If f = ab or f = a / b then σ_(f)² = f²( (σ_(a) / a)² + (σ_(b) /
+!     b)²)
 ! 
 ! :;Exponentiation
 ! 
-! -   -   If f = a^(c) then σ_(f) = |fc(σ_(a) / a)|
+! - - If f = a^(c) then σ_(f) = |fc(σ_(a) / a)|
 ! 
 ! Caution:
 ! 
@@ -30,7 +30,9 @@
 !         be applied to a*a for example. See the talk page for some of the
 !         implications of this issue.
 ! 
-! Task details:
+! Task details
+! 
+!     
 ! 
 ! 1.  Add an uncertain number type to your language that can support
 !     addition, subtraction, multiplication, division, and exponentiation
@@ -48,14 +50,18 @@
 ! 
 ! 1.  Print and display both d and its error.
 ! 
-! References:
+! References
 ! 
-! -   A Guide to Error Propagation B. Keeney, 2005.
-! -   Propagation of uncertainty Wikipedia.
+!     
 ! 
-! Related task:
+! - A Guide to Error Propagation B. Keeney, 2005.
+! - Propagation of uncertainty Wikipedia.
 ! 
-! -   Quaternion type
+! Related task
+! 
+!     
+! 
+! - Quaternion type
 
 USING: accessors arrays fry kernel locals math math.functions
 multi-methods parser prettyprint prettyprint.custom sequences ;

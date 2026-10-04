@@ -47,16 +47,19 @@
 ! trillion nodes. This algorithm may solve simple 15 puzzles (but there
 ! are not many of those).
 ! 
-! See also:
+! See also
 ! 
-! -   Wikipedia webpage: A* search algorithm.
-! -   An introduction to: Breadth First Search |> Dijkstra’s Algorithm |>
-!     A*
+!     
 ! 
-! Related tasks:
+! - Wikipedia webpage: A* search algorithm.
+! - An introduction to: Breadth First Search |> Dijkstra’s Algorithm |> A*
 ! 
-! -   15 puzzle solver
-! -   Dijkstra's algorithm
-! -   Knapsack problem/0-1
+! Related tasks
+! 
+!     
+! 
+! - 15 puzzle solver
+! - Dijkstra's algorithm
+! - Knapsack problem/0-1
 
 

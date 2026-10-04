@@ -29,6 +29,6 @@
 ! 
 ! See also
 ! 
-! -   Floyd-Warshall Algorithm - step by step guide (youtube)
+! - Floyd-Warshall Algorithm - step by step guide (youtube)
 
 

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a routine to perform a bitwise AND, OR, and XOR on two integers, a
 ! bitwise NOT on the first integer, a left shift, right shift, right

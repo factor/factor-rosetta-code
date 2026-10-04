@@ -14,19 +14,21 @@
 !         endif
 !     endwhile
 ! 
-! Task:
+! Task
 ! 
-! -   Create a modifier function that generates a 'V' shaped probability
-!     of number generation using something like, for example:
+!     
+! 
+! - Create a modifier function that generates a 'V' shaped probability of
+!   number generation using something like, for example:
 ! 
 !                       modifier(x)  =  2*(0.5 - x)  if x < 0.5  else 2*(x - 0.5) 
 ! 
-! -   Create a generator of random numbers with probabilities modified by
-!     the above function.
-! -   Generate >= 10,000 random numbers subject to the probability
-!     modification.
-! -   Output a textual histogram with from 11 to 21 bins showing the
-!     distribution of the random numbers generated.
+! - Create a generator of random numbers with probabilities modified by
+!   the above function.
+! - Generate >= 10,000 random numbers subject to the probability
+!   modification.
+! - Output a textual histogram with from 11 to 21 bins showing the
+!   distribution of the random numbers generated.
 ! 
 ! Show your output here, on this page.
 

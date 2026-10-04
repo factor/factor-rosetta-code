@@ -1,6 +1,8 @@
 ! Comma quibbling is a task originally set by Eric Lippert in his blog.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function to generate a string output which is the concatenation
 ! of input words from a list/sequence where:
@@ -20,10 +22,10 @@
 ! Test your function with the following series of inputs showing your
 ! output here on this page:
 ! 
-! -   [] # (No input words).
-! -   ["ABC"]
-! -   ["ABC", "DEF"]
-! -   ["ABC", "DEF", "G", "H"]
+! - [] # (No input words).
+! - ["ABC"]
+! - ["ABC", "DEF"]
+! - ["ABC", "DEF", "G", "H"]
 ! 
 ! Note: Assume words are non-empty strings of uppercase characters for
 ! this task.

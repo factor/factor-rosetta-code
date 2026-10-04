@@ -37,14 +37,18 @@
 ! !style="width:100pt"|Consumer 2 !style="width:100pt"|Consumer 3 |-
 ! !Supplier 1 | 20 kg | - | 5 kg |- !Supplier 2 | - | 30 kg | 5 kg |}
 ! 
-! See also:
+! See also
 ! 
-! -   The Transportation Problem
-! -   [https://www.youtube.com/watch?v=BI1SsbDg0vQ&list=PLlCWmLrQuBh1yHhpDfULpRGoTuLgeDB4X|
-!     Transportation model - Concepts (youtube)]
+!     
 ! 
-! Related tasks:
+! - The Transportation Problem
+! - [https://www.youtube.com/watch?v=BI1SsbDg0vQ&list=PLlCWmLrQuBh1yHhpDfULpRGoTuLgeDB4X|
+!   Transportation model - Concepts (youtube)]
 ! 
-! -   Vogel's approximation method
+! Related tasks
+! 
+!     
+! 
+! - Vogel's approximation method
 
 

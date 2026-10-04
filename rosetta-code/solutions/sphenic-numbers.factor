@@ -42,13 +42,13 @@
 ! 
 ! References
 ! 
-! -   Wikipedia: Sphenic number
-! -   OEIS:A007304 - Sphenic numbers
-! -   OEIS:A165936 - Sphenic triplets (in effect)
+! - Wikipedia: Sphenic number
+! - OEIS:A007304 - Sphenic numbers
+! - OEIS:A165936 - Sphenic triplets (in effect)
 ! 
 ! Related tasks
 ! 
-! -   Almost prime
-! -   Square-free integers
+! - Almost prime
+! - Square-free integers
 
 

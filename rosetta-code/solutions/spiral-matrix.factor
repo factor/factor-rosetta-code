@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Produce a spiral array.
 ! 
@@ -16,11 +18,13 @@
 !     13 22 21 20  7
 !     12 11 10  9  8
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Zig-zag matrix
-! -   Identity_matrix
-! -   Ulam_spiral_(for_primes)
+!     
+! 
+! - Zig-zag matrix
+! - Identity_matrix
+! - Ulam_spiral_(for_primes)
 
 USING: arrays grouping io kernel math math.combinatorics
 math.ranges math.statistics prettyprint sequences

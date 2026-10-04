@@ -1,7 +1,9 @@
 ! Most programming languages have a built-in implementation of
 ! exponentiation for integers and reals only.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate how to implement matrix exponentiation as an operator.
 

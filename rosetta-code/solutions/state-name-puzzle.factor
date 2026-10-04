@@ -19,17 +19,21 @@
 ! A second challenge in the form of a set of fictitious new states was
 ! also presented.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program to solve the challenge using both the original list of
 ! states and the fictitious list.
 ! 
-! Caveats:
+! Caveats
 ! 
-! -   case and spacing aren't significant - just letters (harmonize case)
-! -   don't expect the names to be in any order - such as being sorted
-! -   don't rely on names to be unique (eliminate duplicates - meaning if
-!     Iowa appears twice you can only use it once)
+!     
+! 
+! - case and spacing aren't significant - just letters (harmonize case)
+! - don't expect the names to be in any order - such as being sorted
+! - don't rely on names to be unique (eliminate duplicates - meaning if
+!   Iowa appears twice you can only use it once)
 ! 
 ! Comma separated list of state names used in the original puzzle:
 ! 

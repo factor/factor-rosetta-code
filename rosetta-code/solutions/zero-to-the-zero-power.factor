@@ -3,7 +3,9 @@
 ! 
 ! when raising zero to the zeroth power: 0⁰
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show the results of raising zero to the zeroth power.
 ! 
@@ -20,13 +22,15 @@
 ! And of course use any symbols or notation that is supported in your
 ! computer programming language for exponentiation.
 ! 
-! See also:
+! See also
 ! 
-! -   The Wiki entry: Zero to the power of zero.
-! -   The Wiki entry: Zero to the power of zero: History.
-! -   The MathWorld™ entry: exponent laws.
-!     -   Also, in the above MathWorld™ entry, see formula (9): x⁰ = 1.
-! -   The OEIS entry: The special case of zero to the zeroth power
+!     
+! 
+! - The Wiki entry: Zero to the power of zero.
+! - The Wiki entry: Zero to the power of zero: History.
+! - The MathWorld™ entry: exponent laws.
+!   - Also, in the above MathWorld™ entry, see formula (9): x⁰ = 1.
+! - The OEIS entry: The special case of zero to the zeroth power
 ! 
 ! Category:Simple
 

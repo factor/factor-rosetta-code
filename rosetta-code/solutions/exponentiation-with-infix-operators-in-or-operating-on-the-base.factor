@@ -16,7 +16,9 @@
 ! This task will deal with the case where there is some form of an infix
 ! operator operating in (or operating on) the base.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! A negative five raised to the 3^(rd) power could be specified as:
 ! 
@@ -27,24 +29,25 @@
 ! (Not all computer programming languages have an exponential operator
 ! and/or support these syntax expression(s).
 ! 
-! Task:
+! Task
 ! 
-! -   -   compute and display exponentiation with a possible infix
-!         operator, whether specified and/or implied/inferred.
-!     -   Raise the following numbers (integer or real):
-!         -   -   -5 and
-!             -   +5
-!     -   to the following powers:
-!         -   -   2^(nd) and
-!             -   3^(rd)
-!     -   using the following expressions (if applicable in your
-!         language):
-!         -   -   -x**p
-!             -   -(x)**p
-!             -   (-x)**p
-!             -   -(x**p)
-!     -   Show here (on this page) the four (or more) types of symbolic
-!         expressions for each number and power.
+!     
+! 
+! - - compute and display exponentiation with a possible infix operator,
+!     whether specified and/or implied/inferred.
+!   - Raise the following numbers (integer or real):
+!     - - -5 and
+!       - +5
+!   - to the following powers:
+!     - - 2^(nd) and
+!       - 3^(rd)
+!   - using the following expressions (if applicable in your language):
+!     - - -x**p
+!       - -(x)**p
+!       - (-x)**p
+!       - -(x**p)
+!   - Show here (on this page) the four (or more) types of symbolic
+!     expressions for each number and power.
 ! 
 ! Try to present the results in the same format/manner as the other
 ! programming entries to make any differences apparent.
@@ -52,17 +55,21 @@
 ! The variables may be of any type(s) that is/are applicable in your
 ! language.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Exponentiation order
-! -   Exponentiation operator
-! -   Arbitrary-precision integers (included)
-! -   Parsing/RPN to infix conversion
-! -   Operator precedence
+!     
 ! 
-! References:
+! - Exponentiation order
+! - Exponentiation operator
+! - Arbitrary-precision integers (included)
+! - Parsing/RPN to infix conversion
+! - Operator precedence
 ! 
-! -   Wikipedia: Order of operations in Programming languages
+! References
+! 
+!     
+! 
+! - Wikipedia: Order of operations in Programming languages
 
 USING: infix locals prettyprint sequences
 sequences.generalizations sequences.repeating ;

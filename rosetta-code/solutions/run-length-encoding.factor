@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given a string containing uppercase characters (A-Z), compress repeated
 ! 'runs' of the same character by storing the length of that run, and
@@ -7,9 +9,13 @@
 ! The output can be anything, as long as you can recreate the input with
 ! it.
 ! 
-! Example:
+! Example
+! 
+!     
+! 
 !     Input:
 !     WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWBWWWWWWWWWWWWWW
+! 
 !     Output: 12W1B12W3B24W1B14W
 ! 
 ! Note: the encoding step in the above example is the same as a step of

@@ -1,13 +1,15 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate how to strip leading and trailing whitespace from a string.
 ! 
 ! The solution should demonstrate how to achieve the following three
 ! results:
 ! 
-! -   String with leading whitespace removed
-! -   String with trailing whitespace removed
-! -   String with both leading and trailing whitespace removed
+! - String with leading whitespace removed
+! - String with trailing whitespace removed
+! - String with both leading and trailing whitespace removed
 ! 
 ! For the purposes of this task whitespace includes non printable
 ! characters such as the space character, the tab character, and other

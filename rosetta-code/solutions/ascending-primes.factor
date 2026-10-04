@@ -11,13 +11,15 @@
 ! See also
 ! * OEIS:A052015 - Primes with distinct digits in ascending order
 ! 
-! Related:
+! Related
 ! 
-! -   Primes with digits in nondecreasing order (infinite series allowing
-!     duplicate digits, whereas this isn't and doesn't)
-! -   Pandigital prime (whereas this is the smallest, with gaps in the
-!     used digits being permitted)
-! -   Descending primes
+!     
+! 
+! - Primes with digits in nondecreasing order (infinite series allowing
+!   duplicate digits, whereas this isn't and doesn't)
+! - Pandigital prime (whereas this is the smallest, with gaps in the used
+!   digits being permitted)
+! - Descending primes
 
 USING: grouping math math.combinatorics math.functions
 math.primes math.ranges prettyprint sequences sequences.extras ;

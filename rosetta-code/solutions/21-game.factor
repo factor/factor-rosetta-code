@@ -10,23 +10,27 @@
 ! 
 ! This game is a variant of Nim.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a computer program that will:
 ! 
-! -   -   do the prompting (or provide a button menu),
-!     -   check for errors and display appropriate error messages,
-!     -   do the additions (add a chosen number to the runningtotal),
-!     -   display the runningtotal,
-!     -   provide a mechanism for the player to quit/exit/halt/stop/close
-!         the program,
-!     -   issue a notification when there is a winner, and
-!     -   determine who goes first (maybe a random or user choice, or can
-!         be specified when the game begins).
+! - - do the prompting (or provide a button menu),
+!   - check for errors and display appropriate error messages,
+!   - do the additions (add a chosen number to the runningtotal),
+!   - display the runningtotal,
+!   - provide a mechanism for the player to quit/exit/halt/stop/close the
+!     program,
+!   - issue a notification when there is a winner, and
+!   - determine who goes first (maybe a random or user choice, or can be
+!     specified when the game begins).
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Nim game
+!     
+! 
+! - - Nim game
 ! 
 ! Category:Puzzles Category:Games
 

@@ -17,22 +17,22 @@
 ! 
 ! The problem can be formalized as:
 ! 
-! -   Input: A text T and a set of patterns P = {P₁, P₂, ..., Pₖ}.
-! -   Output: All pairs (i, j) such that Pᵢ matches T starting at position
-!     j (i.e., T[j:j+|Pᵢ|] = Pᵢ).
+! - Input: A text T and a set of patterns P = {P₁, P₂, ..., Pₖ}.
+! - Output: All pairs (i, j) such that Pᵢ matches T starting at position j
+!   (i.e., T[j:j+|Pᵢ|] = Pᵢ).
 ! 
 ! Performance
 ! 
 ! The Aho–Corasick algorithm is highly efficient:
 ! 
-! -   Preprocessing Time: Constructing the trie takes O(m) time, where m
-!     is the total length of all patterns. Computing failure and output
-!     links also takes O(m) using a breadth-first search on the trie.
-! -   Search Time: Scanning the text takes O(n + z) time, where n is the
-!     length of the text and z is the total number of pattern occurrences
-!     (matches reported).
-! -   Space Complexity: The trie and automaton require O(m) space to store
-!     nodes, transitions, and links.
+! - Preprocessing Time: Constructing the trie takes O(m) time, where m is
+!   the total length of all patterns. Computing failure and output links
+!   also takes O(m) using a breadth-first search on the trie.
+! - Search Time: Scanning the text takes O(n + z) time, where n is the
+!   length of the text and z is the total number of pattern occurrences
+!   (matches reported).
+! - Space Complexity: The trie and automaton require O(m) space to store
+!   nodes, transitions, and links.
 ! 
 ! Thus, the total time complexity is O(m + n + z), which is optimal for
 ! reporting all matches in a single pass.
@@ -41,11 +41,18 @@
 ! 
 ! The Aho–Corasick algorithm is used in:
 ! 
-! -   Full-text search systems to find multiple keywords in documents.
-! -   Intrusion detection systems to match signatures of malicious
-!     patterns in network traffic.
-! -   Bioinformatics for searching DNA sequences for multiple motifs.
-! -   Data compression and natural language processing for pattern-based
-!     analysis.
+! - Full-text search systems to find multiple keywords in documents.
+! - Intrusion detection systems to match signatures of malicious patterns
+!   in network traffic.
+! - Bioinformatics for searching DNA sequences for multiple motifs.
+! - Data compression and natural language processing for pattern-based
+!   analysis.
+! 
+! The task
+! 
+! Using the text abaaabaa and the dictionary {a aa abaa abaaa bb} produce
+! output which shows the starting position of each string in the text.
+! Optionally, the algorithm claims to be efficient, demonstrate this on
+! long texts and large dictionaries.
 
 

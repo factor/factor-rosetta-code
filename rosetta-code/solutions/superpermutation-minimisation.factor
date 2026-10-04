@@ -28,14 +28,15 @@
 ! be NP complete, although the minimal strings for small values of N have
 ! been found by brute -force searches.
 ! 
-! Reference:
+! Reference
 ! 
-! -   The Minimal Superpermutation Problem. by Nathaniel Johnston.
-! -   oeis A180632 gives 0-5 as 0, 1, 3, 9, 33, 153. 6 is thought to be
-!     872.
-! -   Superpermutations - Numberphile. A video
-! -   Superpermutations: the maths problem solved by 4chan - Standupmaths.
-!     A video of recent (2018) mathematical progress.
-! -   New Superpermutations Discovered! Standupmaths & Numberphile.
+!     
+! 
+! - The Minimal Superpermutation Problem. by Nathaniel Johnston.
+! - oeis A180632 gives 0-5 as 0, 1, 3, 9, 33, 153. 6 is thought to be 872.
+! - Superpermutations - Numberphile. A video
+! - Superpermutations: the maths problem solved by 4chan - Standupmaths. A
+!   video of recent (2018) mathematical progress.
+! - New Superpermutations Discovered! Standupmaths & Numberphile.
 
 

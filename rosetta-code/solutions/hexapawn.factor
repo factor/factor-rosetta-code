@@ -11,13 +11,13 @@
 ! 
 ! Extras:
 ! 
-! -   Make the board size variable. The player should decide it
-! -   It would be cool to have a trainer, so you don’t need to keep
-!     playing until the computer learns it
+! - Make the board size variable. The player should decide it
+! - It would be cool to have a trainer, so you don’t need to keep playing
+!   until the computer learns it
 ! 
 ! See also
 ! 
-! -   [https://www.youtube.com/watch?v=c7oc3EemqQk| ATARI ST Hexapawn
-!     19xxErictronics (youtube)]
+! - [https://www.youtube.com/watch?v=c7oc3EemqQk| ATARI ST Hexapawn
+!   19xxErictronics (youtube)]
 
 

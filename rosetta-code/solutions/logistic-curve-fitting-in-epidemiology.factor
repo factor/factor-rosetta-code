@@ -39,10 +39,10 @@
 ! 
 ! Where:
 ! 
-! -   -    r is the rate of growth of the infection in the population.
-!     -    K is the world population, about 7.8 billion.
-!     -    n₀ is 27, the number of cases found in China at the start of
-!         the pandemic.
+! - -  r is the rate of growth of the infection in the population.
+!   -  K is the world population, about 7.8 billion.
+!   -  n₀ is 27, the number of cases found in China at the start of the
+!     pandemic.
 ! 
 ! The R0 of an infection (different from r above) is a measure of how many
 ! new individuals will become infected for every individual currently
@@ -59,13 +59,15 @@
 ! 
 !         R0 ≈ e^(12r) 
 ! 
-! Task:
+! Task
 ! 
-! -   Demonstrate code that finds a least-squares fits of the curve to the
-!     data.
-! -   Show the calculated r for the logistic curve.
-! -   Show the final R0 parameter you calculate from the logistic curve r
-!     value parameter.
+!     
+! 
+! - Demonstrate code that finds a least-squares fits of the curve to the
+!   data.
+! - Show the calculated r for the logistic curve.
+! - Show the final R0 parameter you calculate from the logistic curve r
+!   value parameter.
 ! 
 ! See also
 ! 

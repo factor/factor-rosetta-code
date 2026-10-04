@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a program that takes a decimal floating point number and displays
 ! its binary representation and vice versa: takes a floating point binary

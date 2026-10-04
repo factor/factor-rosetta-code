@@ -4,7 +4,9 @@
 ! if 2^(p) − 1 divides S(p − 1) where S(n + 1) = (S(n))² − 2, and
 ! S(1) = 4.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Calculate all Mersenne primes up to the implementation's maximum
 ! precision, or the 47^(th) Mersenne prime (whichever comes first).

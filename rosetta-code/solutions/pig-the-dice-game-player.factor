@@ -1,19 +1,23 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a dice simulator and scorer of Pig the dice game and add to it
 ! the ability to play the game to at least one strategy.
 ! 
-! -   State here the play strategies involved.
-! -   Show play during a game here.
+! - State here the play strategies involved.
+! - Show play during a game here.
 ! 
 ! As a stretch goal:
 ! 
-! -   Simulate playing the game a number of times with two players of
-!     given strategies and report here summary statistics such as, but not
-!     restricted to, the influence of going first or which strategy seems
-!     stronger.
+! - Simulate playing the game a number of times with two players of given
+!   strategies and report here summary statistics such as, but not
+!   restricted to, the influence of going first or which strategy seems
+!   stronger.
 ! 
-! Game Rules:
+! Game Rules
+! 
+!     
 ! 
 ! The game of Pig is a multiplayer game played with a single six-sided
 ! die. The object of the game is to reach 100 points or more. Play is
@@ -31,9 +35,9 @@
 ! 
 ! References
 ! 
-! -   Pig (dice)
-! -   The Math of Being a Pig and Pigs (extra) - Numberphile videos
-!     featuring Ben Sparks.
+! - Pig (dice)
+! - The Math of Being a Pig and Pigs (extra) - Numberphile videos
+!   featuring Ben Sparks.
 ! 
 ! Category:Games
 

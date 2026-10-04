@@ -1,9 +1,13 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Present numbers using the Mayan numbering system (displaying the Mayan
 ! numerals in a cartouche).
 ! 
-! Mayan numbers:
+! Mayan numbers
+! 
+!     
 ! 
 ! Normally, Mayan numbers are written vertically (top─to─bottom) with the
 ! most significant numeral at the top (in the sense that decimal numbers
@@ -12,7 +16,9 @@
 ! familiarity and readability, and to conserve screen space (when showing
 ! the output) on this task page.
 ! 
-! Mayan numerals:
+! Mayan numerals
+! 
+!     
 ! 
 ! Mayan numerals (a base─20 "digit" or glyph) are written in two
 ! orientations, this task will be using the "vertical" format (as
@@ -33,19 +39,25 @@
 ! don't support them at this time, this Rosetta Code task will be
 ! constructing the glyphs with "simple" characters and/or ASCII art.
 ! 
-! The "zero" glyph:
+! The "zero" glyph
+! 
+!     
 ! 
 ! The Mayan numbering system has the concept of zero, and should be shown
 ! by a glyph that represents an upside─down (sea) shell, or an egg. The
 ! Greek letter theta (Θ) can be used (which more─or─less, looks like an
 ! egg). A commercial at symbol (@) could make a poor substitute.
 ! 
-! Mayan glyphs (constructed):
+! Mayan glyphs (constructed)
+! 
+!     
 ! 
 ! The Mayan numbering system is a https://en.wikipedia.org/wiki/Vigesimal
 ! vigesimal (base 20) positional numeral system.
 ! 
-! The Mayan numerals (and some random numbers) shown in the vertical format would be shown as:
+! The Mayan numerals (and some random numbers) shown in the vertical format would be shown as
+! 
+!     
 ! 
 !       ╔════╗                      ╔════╗                            ╔════╦════╗
 !       ║    ║                      ║    ║                            ║    ║    ║
@@ -119,29 +131,32 @@
 ! 
 ! Other forms of cartouches (boxes) can be used for this task.
 ! 
-! Task requirements:
+! Task requirements
 ! 
-! -   -   convert the following decimal numbers to Mayan numbers:
-!         -   -   4,005
-!             -   8,017
-!             -   326,205
-!             -   886,205
-!     -   show a unique
-!         interesting/pretty/unusual/intriguing/odd/amusing/weird Mayan
-!         number
-!     -   show all output here
+!     
 ! 
-! Related tasks:
+! - - convert the following decimal numbers to Mayan numbers:
+!     - - 4,005
+!       - 8,017
+!       - 326,205
+!       - 886,205
+!   - show a unique
+!     interesting/pretty/unusual/intriguing/odd/amusing/weird Mayan number
+!   - show all output here
 ! 
-! -   -   Roman numerals/Encode ─── convert numeric values into Roman
-!         numerals
-!     -   Roman numerals/Decode ─── convert Roman numerals into Arabic
-!         numbers
+! Related tasks
 ! 
-! See also:
+!     
 ! 
-! -   -   The Wikipedia entry: https://en.wikipedia.org/wiki/Maya_numerals
-!         Mayan numerals
+! - - Roman numerals/Encode ─── convert numeric values into Roman numerals
+!   - Roman numerals/Decode ─── convert Roman numerals into Arabic numbers
+! 
+! See also
+! 
+!     
+! 
+! - - The Wikipedia entry: https://en.wikipedia.org/wiki/Maya_numerals
+!     Mayan numerals
 
 USING: arrays formatting io kernel make math math.extras
 sequences ;

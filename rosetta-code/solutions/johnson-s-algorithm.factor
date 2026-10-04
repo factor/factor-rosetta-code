@@ -10,24 +10,24 @@
 ! 
 ! ;Input
 ! 
-! -   A directed graph G = (V, E) where V is the set of vertices and E is
-!     the set of edges
-! -   A weight function w : E → ℝ that assigns a real-valued weight to
-!     each edge
-! -   The graph may contain negative-weight edges but must not contain any
-!     negative-weight cycles
+! - A directed graph G = (V, E) where V is the set of vertices and E is
+!   the set of edges
+! - A weight function w : E → ℝ that assigns a real-valued weight to each
+!   edge
+! - The graph may contain negative-weight edges but must not contain any
+!   negative-weight cycles
 ! 
 ! ;Output
 ! 
-! -   A |V| × |V| matrix D where D[i, j] contains the weight of the
-!     shortest path from vertex i to vertex j
-! -   If no path exists from i to j, D[i, j] = ∞
+! - A |V|×|V| matrix D where D[i, j] contains the weight of the shortest
+!   path from vertex i to vertex j
+! - If no path exists from i to j, D[i, j] = ∞
 ! 
 ! ;Constraints
 ! 
-! -   The graph must not contain any negative-weight cycles
-! -   Time complexity: O(V²log V + VE)
-! -   Space complexity: O(V²)
+! - The graph must not contain any negative-weight cycles
+! - Time complexity: O(V²log V + VE)
+! - Space complexity: O(V²)
 ! 
 ! Key Insight
 ! 
@@ -41,11 +41,11 @@
 ! 
 ! Johnson's algorithm is particularly useful in:
 ! 
-! -   Sparse graphs where |E| is much smaller than |V|²
-! -   Network routing optimization
-! -   Traffic flow analysis
-! -   Resource allocation problems
-! -   Any context requiring all-pairs shortest paths in a sparse graph
-!     with potential negative edges
+! - Sparse graphs where |E| is much smaller than |V|²
+! - Network routing optimization
+! - Traffic flow analysis
+! - Resource allocation problems
+! - Any context requiring all-pairs shortest paths in a sparse graph with
+!   potential negative edges
 
 

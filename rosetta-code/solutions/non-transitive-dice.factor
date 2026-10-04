@@ -19,7 +19,9 @@
 ! lose, or break-even against Y can be shown as: X > Y, X < Y, or X = Y
 ! respectively.
 ! 
-! Example 1:
+! Example 1
+! 
+!     
 ! 
 ! If X is the three sided die with 1, 3, 6 on its faces and Y has 2, 3, 4
 ! on its faces then the equal possibility outcomes from throwing both, and
@@ -42,7 +44,9 @@
 ! Both die will have the same statistical probability of winning,
 ! i.e.their comparison can be written as X = Y
 ! 
-! Transitivity:
+! Transitivity
+! 
+!     
 ! 
 ! In mathematics transitivity are rules like:
 ! 
@@ -67,22 +71,27 @@
 ! 
 ! To be non-transitive.
 ! 
-! Notes:
+! Notes
 ! 
-! -   The order of numbers on the faces of a die is not relevant. For
-!     example, three faced die described with face numbers of 1, 2, 3 or
-!     2, 1, 3 or any other permutation are equivalent. For the purposes of
-!     the task show only the permutation in lowest-first sorted order i.e.
-!     1, 2, 3 (and remove any of its perms).
-! -   A die can have more than one instance of the same number on its
-!     faces, e.g. 2, 3, 3, 4
-! -   Rotations: Any rotation of non-transitive dice from an answer is
-!     also an answer. You may optionally compute and show only one of each
-!     such rotation sets, ideally the first when sorted in a natural way.
-!     If this option is used then prominently state in the output that
-!     rotations of results are also solutions.
+!     
 ! 
-! Task:
+! - The order of numbers on the faces of a die is not relevant. For
+!   example, three faced die described with face numbers of 1, 2, 3 or 2,
+!   1, 3 or any other permutation are equivalent. For the purposes of the
+!   task show only the permutation in lowest-first sorted order i.e. 1, 2,
+!   3 (and remove any of its perms).
+! - A die can have more than one instance of the same number on its faces,
+!   e.g. 2, 3, 3, 4
+! - Rotations: Any rotation of non-transitive dice from an answer is also
+!   an answer. You may optionally compute and show only one of each such
+!   rotation sets, ideally the first when sorted in a natural way. If this
+!   option is used then prominently state in the output that rotations of
+!   results are also solutions.
+! 
+! Task
+! 
+!     
+! 
 ! ====
 ! 
 ! Find all the ordered lists of three non-transitive dice S, T, U of the
@@ -94,17 +103,21 @@
 ! testing all possible permutations, (permutations are ordered), of three
 ! dice for non-transitivity.
 ! 
-! Optional stretch goal:
+! Optional stretch goal
+! 
+!     
 ! 
 ! Find lists of four non-transitive dice selected from the same possible
 ! dice from the non-stretch goal.
 ! 
 ! Show the results here, on this page.
 ! 
-! References:
+! References
 ! 
-! -   The Most Powerful Dice - Numberphile Video.
-! -   Nontransitive dice - Wikipedia.
+!     
+! 
+! - The Most Powerful Dice - Numberphile Video.
+! - Nontransitive dice - Wikipedia.
 
 USING: grouping io kernel math math.combinatorics math.ranges
 prettyprint sequences ;

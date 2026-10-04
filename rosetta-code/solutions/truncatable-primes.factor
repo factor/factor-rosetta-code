@@ -1,7 +1,9 @@
 ! A truncatable prime is a prime number that when you successively remove
 ! digits from one end of the prime, you are left with a new prime number.
 ! 
-! Examples:
+! Examples
+! 
+!     
 ! 
 ! The number 997 is called a left-truncatable prime as the numbers 997,
 ! 97, and 7 are all prime.
@@ -11,18 +13,24 @@
 ! 
 ! No zeroes are allowed in truncatable primes.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! The task is to find the largest left-truncatable and right-truncatable
 ! primes less than one million (base 10 is implied).
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Find largest left truncatable prime in a given base
-! -   Sieve of Eratosthenes
+!     
 ! 
-! See also:
+! - Find largest left truncatable prime in a given base
+! - Sieve of Eratosthenes
 ! 
-! -   Truncatable Prime from MathWorld.]
+! See also
+! 
+!     
+! 
+! - Truncatable Prime from MathWorld.]
 
 

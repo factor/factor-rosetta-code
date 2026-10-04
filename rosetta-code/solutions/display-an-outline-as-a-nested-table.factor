@@ -1,14 +1,30 @@
-!   ---------------------------------------
-!   Display an outline as a nested table.
-!   Parse the outline to a tree,
-!   measuring the indent of each line,
-!   |
-!   ---------------------------------------
+! +-----------+-------------+---------+----------+-----------+---------+---------+
+! | Display an outline as a nested table.                                        |
+! +-----------------------------------+----------------------+-------------------+
+! | Parse the outline to a tree,      | count the leaves     | and write out a   |
+! |                                   | descending from each | table with        |
+! |                                   | node,                | 'colspan' values  |
+! +-----------+-------------+---------+----------+-----------+---------+---------+
+! | measuring | translating | and     | defining | and the   | either  | or as   |
+! | the       | the         | padding | the      | width of  | as a    | HTML.   |
+! | indent of | indentation | the     | width of | a parent  | wiki    |         |
+! | each      | to a nested | tree to | a leaf   | node as a | table,  |         |
+! | line,     | structure,  | even    | as 1,    | sum.      |         |         |
+! |           |             | depth.  |          |           |         |         |
+! +-----------+-------------+---------+----------+-----------+---------+---------+
+! | |         | |           | |       | |        | (The sum  | |       | |       |
+! |           |             |         |          | of the    |         |         |
+! |           |             |         |          | widths of |         |         |
+! |           |             |         |          | its       |         |         |
+! |           |             |         |          | children) |         |         |
+! +-----------+-------------+---------+----------+-----------+---------+---------+
 ! 
 ! The graphic representation of outlines is a staple of mind-mapping and
 ! the planning of papers, reports, and speeches.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given a outline with at least 3 levels of indentation, for example:
 ! 
@@ -57,13 +73,17 @@
 !     |  | 
 !     |}
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Use background color to distinguish the main stages of your outline, so
 ! that the subtree of each node at level two is consistently colored, and
 ! the edges between adjacent subtrees are immediately revealed.
 ! 
-! Output:
+! Output
+! 
+!     
 ! 
 ! Display your nested table on this page.
 

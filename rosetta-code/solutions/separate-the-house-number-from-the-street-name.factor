@@ -7,7 +7,9 @@
 ! liberators. The street names have the numbers 40 and 45 indicating the
 ! years of war between 1940 and 1945.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write code that correctly separates the house number from the street
 ! name and presents them both. No static data must be shown, only

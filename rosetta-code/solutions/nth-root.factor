@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement the algorithm to compute the principal n^(th) root $\sqrt[n]A$
 ! of a positive real number A, as explained at the Wikipedia page.

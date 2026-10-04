@@ -11,8 +11,8 @@
 ! blocked until completion. For the caller a call to the entry point is
 ! indivisible. Internally it consists of:
 ! 
-! -   Waiting for the callee ready to accept the rendezvous;
-! -   Engaging the rendezvous (servicing the entry point).
+! - Waiting for the callee ready to accept the rendezvous;
+! - Engaging the rendezvous (servicing the entry point).
 ! 
 ! The caller may limit the waiting time to the callee to accept the
 ! rendezvous. I.e. a rendezvous request can be aborted if not yet accepted
@@ -23,8 +23,8 @@
 ! 
 ! The callee task may accept several rendezvous requests:
 ! 
-! -   Rendezvous to the same entry point from different tasks;
-! -   Rendezvous to different entry points.
+! - Rendezvous to the same entry point from different tasks;
+! - Rendezvous to different entry points.
 ! 
 ! The callee accepts one rendezvous at a time.
 ! 

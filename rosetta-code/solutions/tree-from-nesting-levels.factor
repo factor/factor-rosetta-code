@@ -2,9 +2,9 @@
 ! nesting levels, e.g. [1, 2, 4], generate a tree formed from nested lists
 ! of those nesting level integers where:
 ! 
-! -   Every int appears, in order, at its depth of nesting.
-! -   If the next level int is greater than the previous then it appears
-!     in a sub-list of the list containing the previous item
+! - Every int appears, in order, at its depth of nesting.
+! - If the next level int is greater than the previous then it appears in
+!   a sub-list of the list containing the previous item
 ! 
 ! The generated tree data structure should ideally be in a languages
 ! nested list format that can be used for further calculations rather than
@@ -20,15 +20,17 @@
 ! 
 ! Similarly [3, 1, 3, 1] should generate [[[3]], 1, [[3]], 1]
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Generate and show here the results for the following inputs:
 ! 
-! -   -   []
-!     -   [1, 2, 4]
-!     -   [3, 1, 3, 1]
-!     -   [1, 2, 3, 1]
-!     -   [3, 2, 1, 3]
-!     -   [3, 3, 3, 1, 1, 3, 3, 3]
+! - - []
+!   - [1, 2, 4]
+!   - [3, 1, 3, 1]
+!   - [1, 2, 3, 1]
+!   - [3, 2, 1, 3]
+!   - [3, 3, 3, 1, 1, 3, 3, 3]
 
 

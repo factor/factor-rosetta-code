@@ -6,7 +6,9 @@
 ! For present purposes, authors may assume that the data fields contain no
 ! commas, backslashes, or quotation marks.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Read a CSV file, change some values and save the changes back to a file.
 ! 
@@ -20,15 +22,17 @@
 ! 
 ! Suggestions
 ! 
-! -   
+! - 
 ! 
 ! Show how to add a column, headed 'SUM', of the sums of the rows.
 ! 
 ! If possible, illustrate the use of built-in or standard functions,
 ! methods, or libraries, that handle generic CSV files.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Convert_CSV_records_to_TSV
+!     
+! 
+! - Convert_CSV_records_to_TSV
 
 

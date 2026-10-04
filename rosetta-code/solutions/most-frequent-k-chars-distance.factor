@@ -72,7 +72,9 @@
 !     int function MostFreqKSDF(string s1, string s2, int k, int n)
 !         return n - MFKsimilarity(s1, s2, k)
 ! 
-! Worked Examples:
+! Worked Examples
+! 
+!     
 ! 
 ! The original paper gives several worked examples, including these two:
 ! 

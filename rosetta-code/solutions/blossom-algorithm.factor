@@ -4,7 +4,8 @@
 !     general graphs by extending the augmenting path concept to handle
 !     odd cycles.
 ! 
-! Core Idea: Shrinking Blossoms
+! Core Idea
+!     Shrinking Blossoms
 !     The key insight of the Blossom algorithm is to identify an odd cycle
 !     (a blossom) when encountered during the search for an augmenting
 !     path. When a blossom is detected, the algorithm contracts or shrinks
@@ -21,7 +22,8 @@
 !     original graph is repeated until no more augmenting paths are found,
 !     at which point the current matching is maximum.
 ! 
-! Problem: Maximum Matching in General Graphs
+! Problem
+!     Maximum Matching in General Graphs
 !     The problem addressed by the Blossom algorithm is finding a Maximum
 !     matching|maximum matching in a Graph (discrete mathematics)|general
 !     graph. Unlike Bipartite graph|bipartite graphs, general graphs can
@@ -44,7 +46,8 @@
 !     The objective of the maximum matching problem is to find a matching
 !     M such that |M| is maximized.
 ! 
-! Challenge in General Graphs: Odd Cycles
+! Challenge in General Graphs
+!     Odd Cycles
 !     For Bipartite graph|bipartite graphs, efficient algorithms exist
 !     (e.g., Hopcroft-Karp algorithm) that rely on finding Augmenting
 !     path|augmenting paths. An augmenting path with respect to a matching

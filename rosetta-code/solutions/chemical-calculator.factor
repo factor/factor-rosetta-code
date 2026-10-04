@@ -2,25 +2,25 @@
 ! 
 ! Introduction
 ! 
-! -   A molecule consists of atoms. E.g. water, H2O, has two hydrogen
-!     atoms and one oxygen atom
-! -   The mass of H2O is 1.008 * 2 + 15.999 = 18.015
-! -   An atom name consists of one upper-case letter followed by zero, one
-!     or two lower-case letters.
-!     -   H (hydrogen)
-!     -   He (helium)
-!     -   Uue (ununennium)
-! -   The number of atoms is stated behind the atom or atom group
-! -   An atom group is specified using parenthesis. E.g. butyric acid,
-!     (CH3)2CHCOOH, has two CH3 groups
-! -   A group may contain other groups, e.g. COOH(C(CH3)2)3CH3
+! - A molecule consists of atoms. E.g. water, H2O, has two hydrogen atoms
+!   and one oxygen atom
+! - The mass of H2O is 1.008 * 2 + 15.999 = 18.015
+! - An atom name consists of one upper-case letter followed by zero, one
+!   or two lower-case letters.
+!   - H (hydrogen)
+!   - He (helium)
+!   - Uue (ununennium)
+! - The number of atoms is stated behind the atom or atom group
+! - An atom group is specified using parenthesis. E.g. butyric acid,
+!   (CH3)2CHCOOH, has two CH3 groups
+! - A group may contain other groups, e.g. COOH(C(CH3)2)3CH3
 ! 
 ! Background
 ! 
-! -   The mass is dimensionless, it is relative to ¹/₁₂ of Carbon-12
-! -   Carbon-12 has exactly 6 protons, 6 electrons, and 6 neutrons
-! -   One mole of H₂O has the mass 18.015 grams
-! -   One mole is defined as exactly 6.02214076×10²³ particles
+! - The mass is dimensionless, it is relative to ¹/₁₂ of Carbon-12
+! - Carbon-12 has exactly 6 protons, 6 electrons, and 6 neutrons
+! - One mole of H₂O has the mass 18.015 grams
+! - One mole is defined as exactly 6.02214076×10²³ particles
 ! 
 ! The above number is known as the Avogadro constant, which is named by
 ! the International Bureau of Weights and Measures (IBPM);
@@ -136,7 +136,9 @@
 !       Ubn,  299
 !       Uue,  315
 ! 
-! Examples:
+! Examples
+! 
+!     
 ! 
 !     assert   1.008 == molar_mass('H')                  # hydrogen
 !     assert   2.016 == molar_mass('H2')                 # hydrogen gas
@@ -150,9 +152,11 @@
 !     assert 386.664 == molar_mass('C27H46O')            # cholesterol
 !     assert 315     == molar_mass('Uue')                # ununennium
 ! 
-! Reference:
+! Reference
 ! 
-! -   -   Wikipedia article: Molecular mass
+!     
+! 
+! - - Wikipedia article: Molecular mass
 
 USING: assocs compiler.units definitions grouping infix.parser
 infix.private kernel math.functions math.parser multiline

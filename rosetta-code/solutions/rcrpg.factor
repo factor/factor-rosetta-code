@@ -1,7 +1,7 @@
-! -   room-based navigation in three integer dimensions (x,y,z)
-! -   player inventory
-! -   three types of item: sledge, gold and ladder
-! -   a goal coordinate
+! - room-based navigation in three integer dimensions (x,y,z)
+! - player inventory
+! - three types of item: sledge, gold and ladder
+! - a goal coordinate
 ! 
 ! Use of the sledge should be required to create a passage between rooms.
 ! The ladder should be present in a room (but not held by the player), in

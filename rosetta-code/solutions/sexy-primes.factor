@@ -28,20 +28,22 @@
 ! because 5 and 6 are relatively prime. Thus, the only possible sexy prime
 ! quintuplet is (5 11 17 23 29)
 ! 
-! Task:
+! Task
 ! 
-! -   -   For each of pairs, triplets, quadruplets and quintuplets, Find
-!         and display the count of each group type of sexy primes less
-!         than one million thirty-five (1,000,035).
-!     -   Display at most the last 5, less than one million thirty-five,
-!         of each sexy prime group type.
-!     -   Find and display the count of the unsexy primes less than one
-!         million thirty-five.
-!     -   Find and display the last 10 unsexy primes less than one million
-!         thirty-five.
-!     -   Note that 1000033 SHOULD NOT be counted in the pair count. It is
-!         sexy, but not in a pair within the limit. However, it also
-!         SHOULD NOT be listed in the unsexy primes since it is sexy.
+!     
+! 
+! - - For each of pairs, triplets, quadruplets and quintuplets, Find and
+!     display the count of each group type of sexy primes less than one
+!     million thirty-five (1,000,035).
+!   - Display at most the last 5, less than one million thirty-five, of
+!     each sexy prime group type.
+!   - Find and display the count of the unsexy primes less than one
+!     million thirty-five.
+!   - Find and display the last 10 unsexy primes less than one million
+!     thirty-five.
+!   - Note that 1000033 SHOULD NOT be counted in the pair count. It is
+!     sexy, but not in a pair within the limit. However, it also SHOULD
+!     NOT be listed in the unsexy primes since it is sexy.
 
 USING: combinators.short-circuit fry interpolate io kernel
 literals locals make math math.primes math.ranges prettyprint qw

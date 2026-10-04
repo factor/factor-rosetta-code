@@ -3,14 +3,14 @@
 ! The NKTg Law describes the variation of an object’s inertia using the
 ! function: NKTg = f(x, v, m), where:
 ! 
-! -   x: position
-! -   v: velocity
-! -   m: mass
+! - x: position
+! - v: velocity
+! - m: mass
 ! 
 ! The two central quantities of the law are:
 ! 
-! -   NKTg₁ = x × p (position–momentum interaction)
-! -   NKTg₂ = (dm/dt) × p (mass variation–momentum interaction)
+! - NKTg₁ = x × p (position–momentum interaction)
+! - NKTg₂ = (dm/dt) × p (mass variation–momentum interaction)
 ! 
 ! Where p = m × v, and dm/dt is the rate of mass loss over time.
 ! 
@@ -21,31 +21,31 @@
 ! 
 ! 2. Research Objectives
 ! 
-! -   Verify the predictive ability of the NKTg Law on planetary motion.
-! -   Identify trends in Neptune’s position, velocity, and mass in 2024.
-! -   Compare simulation results with NASA’s observed stable data trends.
+! - Verify the predictive ability of the NKTg Law on planetary motion.
+! - Identify trends in Neptune’s position, velocity, and mass in 2024.
+! - Compare simulation results with NASA’s observed stable data trends.
 ! 
 ! 3. Data
 ! 
 ! Neptune's Position, Velocity, and Mass in 2023 (NASA Published Data – Actual)
 ! 
-!   Date       x (km, 8 digits)   v (km/s, 8 digits)   m (kg, 8 digits)   p = m·v (kg·m/s)   dm/dt (kg/s)   NKTg₁ = x·p (NKTm)   NKTg₂ = (dm/dt)·p (NKTm)   NKTg = √(NKTg₁² + NKTg₂²) (NKTm)
-!   ---------- ------------------ -------------------- ------------------ ------------------ -------------- -------------------- -------------------------- ----------------------------------
-!   20230101   4498396440         5.43                 1.02430000×10²⁶    5.56449900×10²⁶    –0.00002000    2.503×10³⁶           –1.113×10²²                2.503×10³⁶
-!   20230401   4503443661         5.43                 1.02429980×10²⁶    5.56449800×10²⁶    –0.00002000    2.507×10³⁶           –1.113×10²²                2.507×10³⁶
-!   20230701   4553946490         5.43                 1.02429960×10²⁶    5.56449700×10²⁶    –0.00002000    2.532×10³⁶           –1.113×10²²                2.532×10³⁶
-!   20231001   4503443661         5.43                 1.02429940×10²⁶    5.56449600×10²⁶    –0.00002000    2.507×10³⁶           –1.113×10²²                2.507×10³⁶
-!   20231231   4498396440         5.43                 1.02429920×10²⁶    5.56449500×10²⁶    –0.00002000    2.503×10³⁶           –1.113×10²²                2.503×10³⁶
+!   Date       x (km, 8 digits)   v (km/s, 8 digits)   m (kg, 8 digits) ! p = m·v (kg·m/s)   dm/dt (kg/s) ! NKTg₁ = x·p (NKTm) ! NKTg₂ = (dm/dt)·p (NKTm) ! NKTg = √(NKTg₁² + NKTg₂²) (NKTm)
+!   ---------- ------------------ -------------------- ------------------------------------- -------------------------------------------------------------------------------------------------
+!   20230101   4498396440         5.43                 1.02430000×10²⁶                       5.56449900×10²⁶
+!   20230401   4503443661         5.43                 1.02429980×10²⁶                       5.56449800×10²⁶
+!   20230701   4553946490         5.43                 1.02429960×10²⁶                       5.56449700×10²⁶
+!   20231001   4503443661         5.43                 1.02429940×10²⁶                       5.56449600×10²⁶
+!   20231231   4498396440         5.43                 1.02429920×10²⁶                       5.56449500×10²⁶
 ! 
 ! Neptune's Position, Velocity, and Mass in 2024 (Simulated by NKTg Law)
 ! 
-!   Date       x (km, 8 digits)   v (km/s, 8 digits)   m (kg, 8 digits)   p = m·v (kg·m/s)   dm/dt (kg/s)   NKTg₁ = x·p (NKTm)   NKTg₂ = (dm/dt)·p (NKTm)   NKTg = √(NKTg₁² + NKTg₂²) (NKTm)
-!   ---------- ------------------ -------------------- ------------------ ------------------ -------------- -------------------- -------------------------- ----------------------------------
-!   20240101   4498396440         5.43                 1.02429900×10²⁶    5.56448857×10²⁶    –0.00002000    2.503×10³⁶           –1.113×10²²                2.503×10³⁶
-!   20240401   4503443661         5.43                 1.02429880×10²⁶    5.56448752×10²⁶    –0.00002000    2.507×10³⁶           –1.113×10²²                2.507×10³⁶
-!   20240701   4553946490         5.43                 1.02429860×10²⁶    5.56448647×10²⁶    –0.00002000    2.532×10³⁶           –1.113×10²²                2.532×10³⁶
-!   20241001   4503443661         5.43                 1.02429840×10²⁶    5.56448542×10²⁶    –0.00002000    2.507×10³⁶           –1.113×10²²                2.507×10³⁶
-!   20241231   4498396440         5.43                 1.02429820×10²⁶    5.56448437×10²⁶    –0.00002000    2.503×10³⁶           –1.113×10²²                2.503×10³⁶
+!   Date       x (km, 8 digits)   v (km/s, 8 digits)   m (kg, 8 digits) ! p = m·v (kg·m/s)   dm/dt (kg/s) ! NKTg₁ = x·p (NKTm) ! NKTg₂ = (dm/dt)·p (NKTm) ! NKTg = √(NKTg₁² + NKTg₂²) (NKTm)
+!   ---------- ------------------ -------------------- ------------------------------------- -------------------------------------------------------------------------------------------------
+!   20240101   4498396440         5.43                 1.02429900×10²⁶                       5.56448857×10²⁶
+!   20240401   4503443661         5.43                 1.02429880×10²⁶                       5.56448752×10²⁶
+!   20240701   4553946490         5.43                 1.02429860×10²⁶                       5.56448647×10²⁶
+!   20241001   4503443661         5.43                 1.02429840×10²⁶                       5.56448542×10²⁶
+!   20241231   4498396440         5.43                 1.02429820×10²⁶                       5.56448437×10²⁶
 ! 
 ! Neptune's Position, Velocity, and Mass in 2024 (NASA Published Data – Actual)
 ! 
@@ -122,6 +122,6 @@
 ! 
 ! See also
 ! 
-! -   NKTgLaw – Main task overview
+! - NKTgLaw – Main task overview
 
 

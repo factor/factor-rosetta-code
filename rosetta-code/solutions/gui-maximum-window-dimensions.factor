@@ -13,9 +13,13 @@
 ! The values calculated should represent the usable desktop area of a
 ! window maximized to fit the the screen.
 ! 
-! Considerations:
+! Considerations
 ! 
-! --- Multiple Monitors:
+!     
+! 
+! --- Multiple Monitors
+! 
+!     
 ! 
 ! For multiple monitors, the values calculated should represent the size
 ! of the usable display area on the monitor which is related to the task

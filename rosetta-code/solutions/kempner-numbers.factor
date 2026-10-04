@@ -18,16 +18,16 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first fifty Kempner numbers S(1) through S(50).
+! - Find and display the first fifty Kempner numbers S(1) through S(50).
 ! 
 ! Stretch
 ! 
-! -   Find and display the Kempner numbers S(n) for the range
-!     n = 77135679311..77135679321
+! - Find and display the Kempner numbers S(n) for the range
+!   n = 77135679311..77135679321
 ! 
 ! See also
 ! 
-! -   OEIS A002034 - Kempner numbers: smallest positive integer m such
-!     that n divides m!.
+! - OEIS A002034 - Kempner numbers: smallest positive integer m such that
+!   n divides m!.
 
 

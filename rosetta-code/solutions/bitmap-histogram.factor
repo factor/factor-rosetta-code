@@ -11,13 +11,13 @@
 ! use it to convert an image into black and white art. The method works as
 ! follows:
 ! 
-! -   Convert image to grayscale;
-! -   Compute the histogram
-! -   Find the median: defined as the luminance such that the image has an
-!     approximately equal number of pixels with lesser and greater
-!     luminance.
-! -   Replace each pixel of luminance lesser than the median to black, and
-!     others to white.
+! - Convert image to grayscale;
+! - Compute the histogram
+! - Find the median: defined as the luminance such that the image has an
+!   approximately equal number of pixels with lesser and greater
+!   luminance.
+! - Replace each pixel of luminance lesser than the median to black, and
+!   others to white.
 ! 
 ! Use read/write ppm file, and grayscale image solutions.
 

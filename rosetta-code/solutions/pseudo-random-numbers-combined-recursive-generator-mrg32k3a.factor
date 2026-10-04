@@ -1,4 +1,6 @@
-! MRG32k3a Combined recursive generator (pseudo-code):
+! MRG32k3a Combined recursive generator (pseudo-code)
+! 
+!     
 ! 
 !    /* Constants */
 !    /* First generator */
@@ -49,15 +51,15 @@
 ! 
 ! Task
 ! 
-! -   Generate a class/set of functions that generates pseudo-random
+! - Generate a class/set of functions that generates pseudo-random
 ! 
 ! numbers as shown above.
 ! 
-! -   Show that the first five integers generated with the seed `1234567`
+! - Show that the first five integers generated with the seed `1234567`
 ! 
 ! are as shown above
 ! 
-! -   Show that for an initial seed of '987654321' the counts of 100_000
+! - Show that for an initial seed of '987654321' the counts of 100_000
 ! 
 ! repetitions of
 ! 
@@ -67,7 +69,7 @@
 ! 
 !    0: 20002, 1: 20060, 2: 19948, 3: 20059, 4: 19931
 ! 
-! -   Show your output here, on this page.
+! - Show your output here, on this page.
 
 USING: arrays kernel math math.order math.statistics
 math.vectors prettyprint sequences ;

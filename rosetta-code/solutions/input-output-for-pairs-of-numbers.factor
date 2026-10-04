@@ -3,7 +3,9 @@
 ! space on separate lines from STDIN, output the sum of each pair to
 ! STDOUT.
 ! 
-! Sample input with corresponding output:
+! Sample input with corresponding output
+! 
+!     
 ! 
 ! Input
 ! 

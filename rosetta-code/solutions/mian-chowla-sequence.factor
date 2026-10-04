@@ -18,12 +18,14 @@
 ! 
 ! is distinct, for all i and j less than or equal to n.
 ! 
-! The Task:
+! The Task
 ! 
-! -   -   Find and display, here, on this page the first 30 terms of the
-!         Mian–Chowla sequence.
-!     -   Find and display, here, on this page the 91st through 100th
-!         terms of the Mian–Chowla sequence.
+!     
+! 
+! - - Find and display, here, on this page the first 30 terms of the
+!     Mian–Chowla sequence.
+!   - Find and display, here, on this page the 91st through 100th terms of
+!     the Mian–Chowla sequence.
 ! 
 ! Demonstrating working through the first few terms longhand:
 ! 
@@ -73,9 +75,11 @@
 ! 
 ! And so on...
 ! 
-! See also:
+! See also
 ! 
-! -   -   OEIS:A005282 Mian-Chowla sequence
+!     
+! 
+! - - OEIS:A005282 Mian-Chowla sequence
 
 USING: fry hash-sets io kernel math prettyprint sequences sets ;
 

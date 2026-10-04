@@ -32,25 +32,29 @@
 ! simple abstract algorithm is based on an ordered set, and there is
 ! plenty of scope for different implementations.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program/subprogram that uses the Sieve of Pritchard algorithm to
 ! find all primes up to a specified limit. Show the result of running it
 ! with a limit of 150.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Sieve of Eratosthenes
-! -   Emirp primes
-! -   count in factors
-! -   prime decomposition
-! -   factors of an integer
-! -   extensible prime generator
-! -   primality by trial division
-! -   factors of a Mersenne number
-! -   trial factoring of a Mersenne number
-! -   partition an integer X into N primes
-! -   sequence of primes by Trial Division
+!     
+! 
+! - Sieve of Eratosthenes
+! - Emirp primes
+! - count in factors
+! - prime decomposition
+! - factors of an integer
+! - extensible prime generator
+! - primality by trial division
+! - factors of a Mersenne number
+! - trial factoring of a Mersenne number
+! - partition an integer X into N primes
+! - sequence of primes by Trial Division
 ! 
 ! Category:Simple
 

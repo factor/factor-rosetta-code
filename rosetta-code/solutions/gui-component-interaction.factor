@@ -4,18 +4,20 @@
 ! 
 ! Typically, the following is needed:
 ! 
-! -   put values into input fields under program control
-! -   read and check input from the user
-! -   pop up dialogs to query the user for further information
+! - put values into input fields under program control
+! - read and check input from the user
+! - pop up dialogs to query the user for further information
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! For a minimal "application", write a program that presents a form with
 ! three components to the user:
 ! 
-! -   -   a numeric input field ("Value")
-!     -   a button ("increment")
-!     -   a button ("random")
+! - - a numeric input field ("Value")
+!   - a button ("increment")
+!   - a button ("random")
 ! 
 ! The field is initialized to zero.
 ! 

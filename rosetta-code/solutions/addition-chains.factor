@@ -19,14 +19,14 @@
 ! 
 ! References
 ! 
-! -   OEIS sequences A079301, A079302. 1
-! -   Richard K. Guy - Unsolved problems in Number Theory - C6 - Addition
-!     chains.
+! - OEIS sequences A079301, A079302. 1
+! - Richard K. Guy - Unsolved problems in Number Theory - C6 - Addition
+!   chains.
 ! 
 ! Example
 ! 
-! -   minimal chain length l(19) = 6
-! -   brauer-chains(19) : count = 31 Ex: ( 1 2 3 4 8 11 19)
-! -   non-brauer-chains(19) : count = 2 Ex: ( 1 2 3 6 7 12 19)
+! - minimal chain length l(19) = 6
+! - brauer-chains(19) : count = 31 Ex: ( 1 2 3 4 8 11 19)
+! - non-brauer-chains(19) : count = 2 Ex: ( 1 2 3 6 7 12 19)
 
 

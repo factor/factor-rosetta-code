@@ -6,9 +6,14 @@
 ! That is, items in N are taken from M without replacement, then the
 ! corresponding positions in M' are filled by successive items from N.
 ! 
-! For example:
+! For example
+! 
+!     
+! 
 !     if M is 'the cat sat on the mat'
+! 
 !     And N is 'mat cat'
+! 
 !     Then the result M' is 'the mat sat on the cat'.
 ! 
 ! The words not in N are left in their original positions.
@@ -16,8 +21,12 @@
 ! If there are duplications then only the first instances in M up to as
 ! many as are mentioned in N are potentially re-ordered.
 ! 
-! For example:
+! For example
+! 
+!     
+! 
 !     M = 'A B C A B C A B C'
+! 
 !     N = 'C A C A'
 ! 
 ! Is ordered as:
@@ -34,9 +43,11 @@
 !     Data M: 'A B'                    Order N: 'B A'    
 !     Data M: 'A B B A'                Order N: 'B A'
 ! 
-! Cf:
+! Cf
 ! 
-! -   Sort disjoint sublist
+!     
+! 
+! - Sort disjoint sublist
 ! 
 ! Category:Sorting
 

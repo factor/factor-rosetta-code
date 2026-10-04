@@ -1,3 +1,6 @@
+! Determine the Chinese zodiac sign and related associations for a given
+! year.
+! 
 ! In the Chinese calendar, years are identified using two lists of labels,
 ! one of length 10 – the "celestial" (or "heavenly") "stems" – and one of
 ! length 12 – the "terrestrial" (or "earthly") "branches". The labels do
@@ -33,35 +36,41 @@
 ! yin/yang aspect doesn't change; consecutive Years of the Snake will
 ! cycle through the five elements, but will always be yin.
 ! 
-! Task: Create a subroutine or program that will return or output the animal, yin/yang association, and element for the lunisolar year that begins in a given CE year.
+! Task
+!     Create a subroutine or program that will return or output the
+!     animal, yin/yang association, and element for the lunisolar year
+!     that begins in a given CE year.
 ! 
 ! You may optionally provide more information in the form of the year's
 ! numerical position within the 60-year cycle and/or its actual Chinese
 ! stem-branch name (in Han characters or Pinyin transliteration).
 ! 
-! Requisite information:
+! Requisite information
 ! 
-! -   The animal cycle runs in this order: Rat, Ox, Tiger, Rabbit, Dragon,
-!     Snake, Horse, Goat, Monkey, Rooster, Dog, Pig.
-! -   The element cycle runs in this order: Wood, Fire, Earth, Metal,
-!     Water.
-! -   Each element gets two consecutive years; a yang followed by a yin.
-! -   The first year (Wood Rat, yang) of the current 60-year cycle began
-!     in 1984 CE.
+!     
+! 
+! - The animal cycle runs in this order: Rat, Ox, Tiger, Rabbit, Dragon,
+!   Snake, Horse, Goat, Monkey, Rooster, Dog, Pig.
+! - The element cycle runs in this order: Wood, Fire, Earth, Metal, Water.
+! - Each element gets two consecutive years; a yang followed by a yin.
+! - The first year (Wood Rat, yang) of the current 60-year cycle began in
+!   1984 CE.
 ! 
 ! The lunisolar year beginning in 2025 CE - which, as already noted, is
 ! the year of the Wood Snake (yin) - is the 42nd of the current cycle.
 ! 
-! Information for optional task:
+! Information for optional task
 ! 
-! -   The ten celestial stems are 甲 jiă, 乙 yĭ, 丙 bĭng, 丁 dīng, 戊 wù,
-!     己 jĭ, 庚 gēng, 辛 xīn, 壬 rén, and 癸 gŭi. With the ASCII version
-!     of Pinyin tones, the names are written "jia3", "yi3", "bing3",
-!     "ding1", "wu4", "ji3", "geng1", "xin1", "ren2", and "gui3".
-! -   The twelve terrestrial branches are 子 zĭ, 丑 chŏu, 寅 yín, 卯 măo,
-!     辰 chén, 巳 sì, 午 wŭ, 未 wèi, 申 shēn, 酉 yŏu, 戌 xū, 亥 hài. In
-!     ASCII Pinyin, those are "zi3", "chou3", "yin2", "mao3", "chen2",
-!     "si4", "wu3", "wei4", "shen1", "you3", "xu1", and "hai4".
+!     
+! 
+! - The ten celestial stems are 甲 jiă, 乙 yĭ, 丙 bĭng, 丁 dīng, 戊 wù, 己
+!   jĭ, 庚 gēng, 辛 xīn, 壬 rén, and 癸 gŭi. With the ASCII version of
+!   Pinyin tones, the names are written "jia3", "yi3", "bing3", "ding1",
+!   "wu4", "ji3", "geng1", "xin1", "ren2", and "gui3".
+! - The twelve terrestrial branches are 子 zĭ, 丑 chŏu, 寅 yín, 卯 măo, 辰
+!   chén, 巳 sì, 午 wŭ, 未 wèi, 申 shēn, 酉 yŏu, 戌 xū, 亥 hài. In ASCII
+!   Pinyin, those are "zi3", "chou3", "yin2", "mao3", "chen2", "si4",
+!   "wu3", "wei4", "shen1", "you3", "xu1", and "hai4".
 ! 
 ! Therefore 1984 was 甲子 (jiă-zĭ, or jia3-zi3), while 2025 is 乙巳 (yĭ-sì
 ! or yi3-si4).

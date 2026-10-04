@@ -32,10 +32,10 @@
 ! some fixed precision floating point number system then state this and
 ! try this alternative task using floating point numbers:
 ! 
-! -   Follow the same steps as for the main task description above but for
-!     the numbers a, b, c use the floating-point values
-!     1.0, epsilon, -epsilon respectively where epsilon is determined by
-!     its final value after the following:
+! - Follow the same steps as for the main task description above but for
+!   the numbers a, b, c use the floating-point values
+!   1.0, epsilon, -epsilon respectively where epsilon is determined by its
+!   final value after the following:
 ! 
 !     epsilon = 1.0
 !     while 1.0 + epsilon != 1.0:
@@ -50,16 +50,18 @@
 ! Kahan_summation#Python:_Arbitrary_precision_Decimal which uses ideas
 ! from the floating point case above.
 ! 
-! In general:
+! In general
 ! 
-! -   Show all output on this page.
-! -   If the floating point calculations are used then answers may depend
-!     on the hardware platform or compiler/interpreter tool-chain used for
-!     a language.
-! -   Slight deviations from the task description should be explained and
-!     the the subsequent difference in output explained.
-! -   All examples should have constants chosen to clearly show the
-!     benefit of Kahan summing!
+!     
+! 
+! - Show all output on this page.
+! - If the floating point calculations are used then answers may depend on
+!   the hardware platform or compiler/interpreter tool-chain used for a
+!   language.
+! - Slight deviations from the task description should be explained and
+!   the the subsequent difference in output explained.
+! - All examples should have constants chosen to clearly show the benefit
+!   of Kahan summing!
 
 USING: io kernel literals math math.extras prettyprint sequences ;
 

@@ -1,7 +1,5 @@
 ! []
 ! 
-! |right
-! 
 ! Suppose you're on a game show and you're given the choice of three
 ! doors.
 ! 
@@ -54,12 +52,11 @@
 ! 
 ! References:
 ! 
-! -   -   Stefan Krauss, X. T. Wang, "The psychology of the Monty Hall
-!         problem: Discovering psychological mechanisms for solving a
-!         tenacious brain teaser.", Journal of Experimental Psychology:
-!         General, Vol 132(1), Mar 2003, 3-22 DOI:
-!         10.1037/0096-3445.132.1.3
-!     -   A YouTube video: Monty Hall Problem - Numberphile.
+! - - Stefan Krauss, X. T. Wang, "The psychology of the Monty Hall
+!     problem: Discovering psychological mechanisms for solving a
+!     tenacious brain teaser.", Journal of Experimental Psychology:
+!     General, Vol 132(1), Mar 2003, 3-22 DOI: 10.1037/0096-3445.132.1.3
+!   - A YouTube video: Monty Hall Problem - Numberphile.
 ! 
 ! Category:Games Category:Probability and statistics
 

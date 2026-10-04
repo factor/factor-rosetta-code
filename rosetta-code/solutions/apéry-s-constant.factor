@@ -35,9 +35,15 @@
 ! Task
 ! 
 ! * Show the value of Apéry's constant calculated at least three different ways.
-! :# Show the value of at least the first 1000 terms of ζ(3) by direct summing of reciprocal cubes, truncated to 100 decimal digits.
-! :# Show the value of the first 158 terms of Markov / Apéry representation truncated to 100 decimal digits.
-! :# Show the value of the first 20 terms of Wedeniwski representation truncated to 100 decimal digits.
+! 
+! :# Show the value of at least the first 1000 terms of ζ(3) by direct
+! summing of reciprocal cubes, truncated to 100 decimal digits.
+! 
+! ;:# Show the value of the first 158 terms of Markov / Apéry
+! representation truncated to 100 decimal digits.
+! 
+! ;:# Show the value of the first 20 terms of Wedeniwski representation
+! truncated to 100 decimal digits.
 ! 
 ! See also
 ! * Wikipedia: Apéry's constant

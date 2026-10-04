@@ -47,85 +47,66 @@
 ! 
 ! lex < while.t > while.lex
 ! 
-! Run one of the Syntax analyzer solutions:
+! Run one of the Syntax analyzer solutions
+! 
+!     
 ! 
 ! parse < while.lex > while.ast
 ! 
-! The following table shows the input to lex, lex output, and the AST produced by the parser:
+! The following table shows the input to lex, lex output, and the AST produced by the parser
 ! 
-! +----------------------+----------------------+----------------------+
-! | Input to lex         | Output from lex,     | Output from parse    |
-! |                      | input to parse       |                      |
-! +======================+======================+======================+
-! |     count = 1;       |         1      1 I   |     Sequence         |
-! |                      | dentifier      count |     Sequence         |
-! | while (count < 10) { |                      |     ;                |
-! |                      |   1      7 Op_assign |     Assign           |
-! |        print("count  |         1      9 I   |                      |
-! | is: ", count, "\n"); | nteger             1 |  Identifier    count |
-! |                      |                      |     Integer       1  |
-! |   count = count + 1; |   1     10 Semicolon |     While            |
-! |      }               |         2            |     Less             |
-! |                      |      1 Keyword_while |                      |
-! |                      |                      |  Identifier    count |
-! |                      |   2      7 LeftParen |     Integer       10 |
-! |                      |         2      8 I   |     Sequence         |
-! |                      | dentifier      count |     Sequence         |
-! |                      |                      |     ;                |
-! |                      |     2     14 Op_less |     Sequence         |
-! |                      |         2     16 I   |     Sequence         |
-! |                      | nteger            10 |     Sequence         |
-! |                      |                      |     ;                |
-! |                      |  2     18 RightParen |     Prts             |
-! |                      |                      |     String           |
-! |                      |   2     20 LeftBrace |         "count is: " |
-! |                      |         3            |     ;                |
-! |                      |      5 Keyword_print |     Prti             |
-! |                      |                      |                      |
-! |                      |   3     10 LeftParen |  Identifier    count |
-! |                      |                      |     ;                |
-! |                      |    3     11 String   |     Prts             |
-! |                      |         "count is: " |                      |
-! |                      |                      |   String        "\n" |
-! |                      |       3     23 Comma |     ;                |
-! |                      |         3     25 I   |     Assign           |
-! |                      | dentifier      count |                      |
-! |                      |                      |  Identifier    count |
-! |                      |       3     30 Comma |     Add              |
-! |                      |         3     32     |                      |
-! |                      | String          "\n" |  Identifier    count |
-! |                      |                      |     Integer       1  |
-! |                      |  3     36 RightParen |                      |
-! |                      |                      |                      |
-! |                      |   3     37 Semicolon |                      |
-! |                      |         4      5 I   |                      |
-! |                      | dentifier      count |                      |
-! |                      |                      |                      |
-! |                      |   4     11 Op_assign |                      |
-! |                      |         4     13 I   |                      |
-! |                      | dentifier      count |                      |
-! |                      |                      |                      |
-! |                      |      4     19 Op_add |                      |
-! |                      |         4     21 I   |                      |
-! |                      | nteger             1 |                      |
-! |                      |                      |                      |
-! |                      |   4     22 Semicolon |                      |
-! |                      |                      |                      |
-! |                      |  5      1 RightBrace |                      |
-! |                      |         6            |                      |
-! |                      |       1 End_of_input |                      |
-! +----------------------+----------------------+----------------------+
+!     
+! 
+! +--------------------------------------------+-----------------------------------------------+--------------------------------+
+! | Input to lex                               | Output from lex, input to parse               | Output from parse              |
+! +============================================+===============================================+================================+
+! |     count = 1;                             |         1      1 Identifier      count        |     Sequence                   |
+! |      while (count < 10) {                  |         1      7 Op_assign                    |     Sequence                   |
+! |          print("count is: ", count, "\n"); |         1      9 Integer             1        |     ;                          |
+! |          count = count + 1;                |         1     10 Semicolon                    |     Assign                     |
+! |      }                                     |         2      1 Keyword_while                |     Identifier    count        |
+! |                                            |         2      7 LeftParen                    |     Integer       1            |
+! |                                            |         2      8 Identifier      count        |     While                      |
+! |                                            |         2     14 Op_less                      |     Less                       |
+! |                                            |         2     16 Integer            10        |     Identifier    count        |
+! |                                            |         2     18 RightParen                   |     Integer       10           |
+! |                                            |         2     20 LeftBrace                    |     Sequence                   |
+! |                                            |         3      5 Keyword_print                |     Sequence                   |
+! |                                            |         3     10 LeftParen                    |     ;                          |
+! |                                            |         3     11 String          "count is: " |     Sequence                   |
+! |                                            |         3     23 Comma                        |     Sequence                   |
+! |                                            |         3     25 Identifier      count        |     Sequence                   |
+! |                                            |         3     30 Comma                        |     ;                          |
+! |                                            |         3     32 String          "\n"         |     Prts                       |
+! |                                            |         3     36 RightParen                   |     String        "count is: " |
+! |                                            |         3     37 Semicolon                    |     ;                          |
+! |                                            |         4      5 Identifier      count        |     Prti                       |
+! |                                            |         4     11 Op_assign                    |     Identifier    count        |
+! |                                            |         4     13 Identifier      count        |     ;                          |
+! |                                            |         4     19 Op_add                       |     Prts                       |
+! |                                            |         4     21 Integer             1        |     String        "\n"         |
+! |                                            |         4     22 Semicolon                    |     ;                          |
+! |                                            |         5      1 RightBrace                   |     Assign                     |
+! |                                            |         6      1 End_of_input                 |     Identifier    count        |
+! |                                            |                                               |     Add                        |
+! |                                            |                                               |     Identifier    count        |
+! |                                            |                                               |     Integer       1            |
+! +--------------------------------------------+-----------------------------------------------+--------------------------------+
 ! 
 ! Specifications
 ! 
-! List of node type names:
+! List of node type names
+! 
+!     
 ! 
 !     Identifier String Integer Sequence If Prtc Prts Prti While Assign Negate Not Multiply Divide Mod
 !     Add Subtract Less LessEqual Greater GreaterEqual Equal NotEqual And Or
 ! 
 ! In the text below, Null/Empty nodes are represented by ";".
 ! 
-! Non-terminal (internal) nodes:
+! Non-terminal (internal) nodes
+! 
+!     
 ! 
 ! For Operators, the following nodes should be created:
 ! 
@@ -342,7 +323,9 @@
 !         until tok is end-of-file
 !         return t
 ! 
-! Once the AST is built, it should be output in a flattened format. This can be as simple as the following:
+! Once the AST is built, it should be output in a flattened format. This can be as simple as the following
+! 
+!     
 ! 
 !     def prt_ast(t)
 !         if t == NULL
@@ -356,7 +339,9 @@
 !                 prt_ast(t.left)
 !                 prt_ast(t.right)
 ! 
-! If the AST is correctly built, loading it into a subsequent program should be as simple as:
+! If the AST is correctly built, loading it into a subsequent program should be as simple as
+! 
+!     
 ! 
 !     def load_ast()
 !         line = readline()
@@ -383,205 +368,108 @@
 ! Finally, the AST can also be tested by running it against one of the AST
 ! Interpreter solutions.
 ! 
-! Test program, assuming this is in a file called prime.t: lex <prime.t | parse
+! Test program, assuming this is in a file called prime.t
+!     lex <prime.t | parse
 ! 
-! +----------------------+----------------------+----------------------+
-! | Input to lex         | Output from lex,     | Output from parse    |
-! |                      | input to parse       |                      |
-! +======================+======================+======================+
-! |     /*               |         4      1 I   |     Sequence         |
-! |      Simple pr       | dentifier      count |     Sequence         |
-! | ime number generator |                      |     Sequence         |
-! |      */              |   4      7 Op_assign |     Sequence         |
-! |     count = 1;       |         4      9 I   |     Sequence         |
-! |     n = 1;           | nteger             1 |     ;                |
-! |     limit = 100;     |                      |     Assign           |
-! |                      |   4     10 Semicolon |                      |
-! |  while (n < limit) { |         5            |  Identifier    count |
-! |         k=3;         |  1 Identifier      n |     Integer       1  |
-! |         p=1;         |                      |     Assign           |
-! |         n=n+2;       |   5      3 Op_assign |     Identifier    n  |
-! |         while        |         5      5 I   |     Integer       1  |
-! |  ((k*k<=n) && (p)) { | nteger             1 |     Assign           |
-! |                      |                      |                      |
-! |          p=n/k*k!=n; |   5      6 Semicolon |  Identifier    limit |
-! |             k=k+2;   |         6      1 I   |                      |
-! |         }            | dentifier      limit |    Integer       100 |
-! |         if (p) {     |                      |     While            |
-! |             prin     |   6      7 Op_assign |     Less             |
-! | t(n, " is prime\n"); |         6      9 I   |     Identifier    n  |
-! |                      | nteger           100 |                      |
-! |   count = count + 1; |                      |  Identifier    limit |
-! |         }            |   6     12 Semicolon |     Sequence         |
-! |     }                |         7            |     Sequence         |
-! |     pri              |      1 Keyword_while |     Sequence         |
-! | nt("Total primes fou |                      |     Sequence         |
-! | nd: ", count, "\n"); |   7      7 LeftParen |     Sequence         |
-! |                      |         7            |     ;                |
-! |                      |  8 Identifier      n |     Assign           |
-! |                      |                      |     Identifier    k  |
-! |                      |     7     10 Op_less |     Integer       3  |
-! |                      |         7     12 I   |     Assign           |
-! |                      | dentifier      limit |     Identifier    p  |
-! |                      |                      |     Integer       1  |
-! |                      |  7     17 RightParen |     Assign           |
-! |                      |                      |     Identifier    n  |
-! |                      |   7     19 LeftBrace |     Add              |
-! |                      |         8            |     Identifier    n  |
-! |                      |  5 Identifier      k |     Integer       2  |
-! |                      |                      |     While            |
-! |                      |   8      6 Op_assign |     And              |
-! |                      |         8      7 I   |     LessEqual        |
-! |                      | nteger             3 |     Multiply         |
-! |                      |                      |     Identifier    k  |
-! |                      |   8      8 Semicolon |     Identifier    k  |
-! |                      |         9            |     Identifier    n  |
-! |                      |  5 Identifier      p |     Identifier    p  |
-! |                      |                      |     Sequence         |
-! |                      |   9      6 Op_assign |     Sequence         |
-! |                      |         9      7 I   |     ;                |
-! |                      | nteger             1 |     Assign           |
-! |                      |                      |     Identifier    p  |
-! |                      |   9      8 Semicolon |     NotEqual         |
-! |                      |        10            |     Multiply         |
-! |                      |  5 Identifier      n |     Divide           |
-! |                      |                      |     Identifier    n  |
-! |                      |  10      6 Op_assign |     Identifier    k  |
-! |                      |        10            |     Identifier    k  |
-! |                      |  7 Identifier      n |     Identifier    n  |
-! |                      |                      |     Assign           |
-! |                      |     10      8 Op_add |     Identifier    k  |
-! |                      |        10      9 I   |     Add              |
-! |                      | nteger             2 |     Identifier    k  |
-! |                      |                      |     Integer       2  |
-! |                      |  10     10 Semicolon |     If               |
-! |                      |        11            |     Identifier    p  |
-! |                      |      5 Keyword_while |     If               |
-! |                      |                      |     Sequence         |
-! |                      |  11     11 LeftParen |     Sequence         |
-! |                      |                      |     ;                |
-! |                      |  11     12 LeftParen |     Sequence         |
-! |                      |        11            |     Sequence         |
-! |                      | 13 Identifier      k |     ;                |
-! |                      |        1             |     Prti             |
-! |                      | 1     14 Op_multiply |     Identifier    n  |
-! |                      |        11            |     ;                |
-! |                      | 15 Identifier      k |     Prts             |
-! |                      |        11            |     String           |
-! |                      |      16 Op_lessequal |        " is prime\n" |
-! |                      |        11            |     ;                |
-! |                      | 18 Identifier      n |     Assign           |
-! |                      |                      |                      |
-! |                      | 11     19 RightParen |  Identifier    count |
-! |                      |                      |     Add              |
-! |                      |     11     21 Op_and |                      |
-! |                      |                      |  Identifier    count |
-! |                      |  11     24 LeftParen |     Integer       1  |
-! |                      |        11            |     ;                |
-! |                      | 25 Identifier      p |     Sequence         |
-! |                      |                      |     Sequence         |
-! |                      | 11     26 RightParen |     Sequence         |
-! |                      |                      |     ;                |
-! |                      | 11     27 RightParen |     Prts             |
-! |                      |                      |     String        "T |
-! |                      |  11     29 LeftBrace | otal primes found: " |
-! |                      |        12            |     ;                |
-! |                      |  9 Identifier      p |     Prti             |
-! |                      |                      |                      |
-! |                      |  12     10 Op_assign |  Identifier    count |
-! |                      |        12            |     ;                |
-! |                      | 11 Identifier      n |     Prts             |
-! |                      |                      |                      |
-! |                      |  12     12 Op_divide |   String        "\n" |
-! |                      |        12            |     ;                |
-! |                      | 13 Identifier      k |                      |
-! |                      |        1             |                      |
-! |                      | 2     14 Op_multiply |                      |
-! |                      |        12            |                      |
-! |                      | 15 Identifier      k |                      |
-! |                      |        1             |                      |
-! |                      | 2     16 Op_notequal |                      |
-! |                      |        12            |                      |
-! |                      | 18 Identifier      n |                      |
-! |                      |                      |                      |
-! |                      |  12     19 Semicolon |                      |
-! |                      |        13            |                      |
-! |                      |  9 Identifier      k |                      |
-! |                      |                      |                      |
-! |                      |  13     10 Op_assign |                      |
-! |                      |        13            |                      |
-! |                      | 11 Identifier      k |                      |
-! |                      |                      |                      |
-! |                      |     13     12 Op_add |                      |
-! |                      |        13     13 I   |                      |
-! |                      | nteger             2 |                      |
-! |                      |                      |                      |
-! |                      |  13     14 Semicolon |                      |
-! |                      |                      |                      |
-! |                      | 14      5 RightBrace |                      |
-! |                      |                      |                      |
-! |                      | 15      5 Keyword_if |                      |
-! |                      |                      |                      |
-! |                      |  15      8 LeftParen |                      |
-! |                      |        15            |                      |
-! |                      |  9 Identifier      p |                      |
-! |                      |                      |                      |
-! |                      | 15     10 RightParen |                      |
-! |                      |                      |                      |
-! |                      |  15     12 LeftBrace |                      |
-! |                      |        16            |                      |
-! |                      |      9 Keyword_print |                      |
-! |                      |                      |                      |
-! |                      |  16     14 LeftParen |                      |
-! |                      |        16            |                      |
-! |                      | 15 Identifier      n |                      |
-! |                      |                      |                      |
-! |                      |      16     16 Comma |                      |
-! |                      |                      |                      |
-! |                      |  16     18 String    |                      |
-! |                      |        " is prime\n" |                      |
-! |                      |                      |                      |
-! |                      | 16     31 RightParen |                      |
-! |                      |                      |                      |
-! |                      |  16     32 Semicolon |                      |
-! |                      |        17      9 I   |                      |
-! |                      | dentifier      count |                      |
-! |                      |                      |                      |
-! |                      |  17     15 Op_assign |                      |
-! |                      |        17     17 I   |                      |
-! |                      | dentifier      count |                      |
-! |                      |                      |                      |
-! |                      |     17     23 Op_add |                      |
-! |                      |        17     25 I   |                      |
-! |                      | nteger             1 |                      |
-! |                      |                      |                      |
-! |                      |  17     26 Semicolon |                      |
-! |                      |                      |                      |
-! |                      | 18      5 RightBrace |                      |
-! |                      |                      |                      |
-! |                      | 19      1 RightBrace |                      |
-! |                      |        20            |                      |
-! |                      |      1 Keyword_print |                      |
-! |                      |                      |                      |
-! |                      |  20      6 LeftParen |                      |
-! |                      |        20            |                      |
-! |                      | 7 String          "T |                      |
-! |                      | otal primes found: " |                      |
-! |                      |                      |                      |
-! |                      |      20     29 Comma |                      |
-! |                      |        20     31 I   |                      |
-! |                      | dentifier      count |                      |
-! |                      |                      |                      |
-! |                      |      20     36 Comma |                      |
-! |                      |        20     38     |                      |
-! |                      | String          "\n" |                      |
-! |                      |                      |                      |
-! |                      | 20     42 RightParen |                      |
-! |                      |                      |                      |
-! |                      |  20     43 Semicolon |                      |
-! |                      |        21            |                      |
-! |                      |       1 End_of_input |                      |
-! +----------------------+----------------------+----------------------+
+! +-------------------------------------------------+---------------------------------------------------------+------------------------------------------+
+! | Input to lex                                    | Output from lex, input to parse                         | Output from parse                        |
+! +=================================================+=========================================================+==========================================+
+! |     /*                                          |         4      1 Identifier      count                  |     Sequence                             |
+! |      Simple prime number generator              |         4      7 Op_assign                              |     Sequence                             |
+! |      */                                         |         4      9 Integer             1                  |     Sequence                             |
+! |     count = 1;                                  |         4     10 Semicolon                              |     Sequence                             |
+! |     n = 1;                                      |         5      1 Identifier      n                      |     Sequence                             |
+! |     limit = 100;                                |         5      3 Op_assign                              |     ;                                    |
+! |     while (n < limit) {                         |         5      5 Integer             1                  |     Assign                               |
+! |         k=3;                                    |         5      6 Semicolon                              |     Identifier    count                  |
+! |         p=1;                                    |         6      1 Identifier      limit                  |     Integer       1                      |
+! |         n=n+2;                                  |         6      7 Op_assign                              |     Assign                               |
+! |         while ((k*k<=n) && (p)) {               |         6      9 Integer           100                  |     Identifier    n                      |
+! |             p=n/k*k!=n;                         |         6     12 Semicolon                              |     Integer       1                      |
+! |             k=k+2;                              |         7      1 Keyword_while                          |     Assign                               |
+! |         }                                       |         7      7 LeftParen                              |     Identifier    limit                  |
+! |         if (p) {                                |         7      8 Identifier      n                      |     Integer       100                    |
+! |             print(n, " is prime\n");            |         7     10 Op_less                                |     While                                |
+! |             count = count + 1;                  |         7     12 Identifier      limit                  |     Less                                 |
+! |         }                                       |         7     17 RightParen                             |     Identifier    n                      |
+! |     }                                           |         7     19 LeftBrace                              |     Identifier    limit                  |
+! |     print("Total primes found: ", count, "\n"); |         8      5 Identifier      k                      |     Sequence                             |
+! |                                                 |         8      6 Op_assign                              |     Sequence                             |
+! |                                                 |         8      7 Integer             3                  |     Sequence                             |
+! |                                                 |         8      8 Semicolon                              |     Sequence                             |
+! |                                                 |         9      5 Identifier      p                      |     Sequence                             |
+! |                                                 |         9      6 Op_assign                              |     ;                                    |
+! |                                                 |         9      7 Integer             1                  |     Assign                               |
+! |                                                 |         9      8 Semicolon                              |     Identifier    k                      |
+! |                                                 |        10      5 Identifier      n                      |     Integer       3                      |
+! |                                                 |        10      6 Op_assign                              |     Assign                               |
+! |                                                 |        10      7 Identifier      n                      |     Identifier    p                      |
+! |                                                 |        10      8 Op_add                                 |     Integer       1                      |
+! |                                                 |        10      9 Integer             2                  |     Assign                               |
+! |                                                 |        10     10 Semicolon                              |     Identifier    n                      |
+! |                                                 |        11      5 Keyword_while                          |     Add                                  |
+! |                                                 |        11     11 LeftParen                              |     Identifier    n                      |
+! |                                                 |        11     12 LeftParen                              |     Integer       2                      |
+! |                                                 |        11     13 Identifier      k                      |     While                                |
+! |                                                 |        11     14 Op_multiply                            |     And                                  |
+! |                                                 |        11     15 Identifier      k                      |     LessEqual                            |
+! |                                                 |        11     16 Op_lessequal                           |     Multiply                             |
+! |                                                 |        11     18 Identifier      n                      |     Identifier    k                      |
+! |                                                 |        11     19 RightParen                             |     Identifier    k                      |
+! |                                                 |        11     21 Op_and                                 |     Identifier    n                      |
+! |                                                 |        11     24 LeftParen                              |     Identifier    p                      |
+! |                                                 |        11     25 Identifier      p                      |     Sequence                             |
+! |                                                 |        11     26 RightParen                             |     Sequence                             |
+! |                                                 |        11     27 RightParen                             |     ;                                    |
+! |                                                 |        11     29 LeftBrace                              |     Assign                               |
+! |                                                 |        12      9 Identifier      p                      |     Identifier    p                      |
+! |                                                 |        12     10 Op_assign                              |     NotEqual                             |
+! |                                                 |        12     11 Identifier      n                      |     Multiply                             |
+! |                                                 |        12     12 Op_divide                              |     Divide                               |
+! |                                                 |        12     13 Identifier      k                      |     Identifier    n                      |
+! |                                                 |        12     14 Op_multiply                            |     Identifier    k                      |
+! |                                                 |        12     15 Identifier      k                      |     Identifier    k                      |
+! |                                                 |        12     16 Op_notequal                            |     Identifier    n                      |
+! |                                                 |        12     18 Identifier      n                      |     Assign                               |
+! |                                                 |        12     19 Semicolon                              |     Identifier    k                      |
+! |                                                 |        13      9 Identifier      k                      |     Add                                  |
+! |                                                 |        13     10 Op_assign                              |     Identifier    k                      |
+! |                                                 |        13     11 Identifier      k                      |     Integer       2                      |
+! |                                                 |        13     12 Op_add                                 |     If                                   |
+! |                                                 |        13     13 Integer             2                  |     Identifier    p                      |
+! |                                                 |        13     14 Semicolon                              |     If                                   |
+! |                                                 |        14      5 RightBrace                             |     Sequence                             |
+! |                                                 |        15      5 Keyword_if                             |     Sequence                             |
+! |                                                 |        15      8 LeftParen                              |     ;                                    |
+! |                                                 |        15      9 Identifier      p                      |     Sequence                             |
+! |                                                 |        15     10 RightParen                             |     Sequence                             |
+! |                                                 |        15     12 LeftBrace                              |     ;                                    |
+! |                                                 |        16      9 Keyword_print                          |     Prti                                 |
+! |                                                 |        16     14 LeftParen                              |     Identifier    n                      |
+! |                                                 |        16     15 Identifier      n                      |     ;                                    |
+! |                                                 |        16     16 Comma                                  |     Prts                                 |
+! |                                                 |        16     18 String          " is prime\n"          |     String        " is prime\n"          |
+! |                                                 |        16     31 RightParen                             |     ;                                    |
+! |                                                 |        16     32 Semicolon                              |     Assign                               |
+! |                                                 |        17      9 Identifier      count                  |     Identifier    count                  |
+! |                                                 |        17     15 Op_assign                              |     Add                                  |
+! |                                                 |        17     17 Identifier      count                  |     Identifier    count                  |
+! |                                                 |        17     23 Op_add                                 |     Integer       1                      |
+! |                                                 |        17     25 Integer             1                  |     ;                                    |
+! |                                                 |        17     26 Semicolon                              |     Sequence                             |
+! |                                                 |        18      5 RightBrace                             |     Sequence                             |
+! |                                                 |        19      1 RightBrace                             |     Sequence                             |
+! |                                                 |        20      1 Keyword_print                          |     ;                                    |
+! |                                                 |        20      6 LeftParen                              |     Prts                                 |
+! |                                                 |        20      7 String          "Total primes found: " |     String        "Total primes found: " |
+! |                                                 |        20     29 Comma                                  |     ;                                    |
+! |                                                 |        20     31 Identifier      count                  |     Prti                                 |
+! |                                                 |        20     36 Comma                                  |     Identifier    count                  |
+! |                                                 |        20     38 String          "\n"                   |     ;                                    |
+! |                                                 |        20     42 RightParen                             |     Prts                                 |
+! |                                                 |        20     43 Semicolon                              |     String        "\n"                   |
+! |                                                 |        21      1 End_of_input                           |     ;                                    |
+! +-------------------------------------------------+---------------------------------------------------------+------------------------------------------+
 ! 
 ! Additional examples
 ! 
@@ -592,10 +480,10 @@
 ! 
 ! Related Tasks
 ! 
-! -   Lexical Analyzer task
-! -   Code Generator task
-! -   Virtual Machine Interpreter task
-! -   AST Interpreter task
+! - Lexical Analyzer task
+! - Code Generator task
+! - Virtual Machine Interpreter task
+! - AST Interpreter task
 ! 
 ! __TOC__
 

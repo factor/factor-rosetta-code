@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how to compute the reduced row echelon form (a.k.a. row canonical
 ! form) of a matrix.

@@ -6,7 +6,9 @@
 ! Take the AST output from the Syntax analyzer task, and interpret it as
 ! appropriate. Refer to the Syntax analyzer task for details of the AST.
 ! 
-! Loading the AST from the syntax analyzer is as simple as (pseudo code):
+! Loading the AST from the syntax analyzer is as simple as (pseudo code)
+! 
+!     
 ! 
 !     def load_ast()
 !         line = readline()
@@ -30,7 +32,9 @@
 !         right = load_ast()
 !         return make_node(node_type, left, right)
 ! 
-! The interpreter algorithm is relatively simple:
+! The interpreter algorithm is relatively simple
+! 
+!     
 ! 
 !     interp(x)
 !         if x == NULL return NULL
@@ -84,36 +88,36 @@
 ! 
 ! Test program
 ! 
-! +-------------------------------------+-------------------------------+
-! | prime.t                             | lex <prime.t | parse | interp |
-! +=====================================+===============================+
-! |     /*                              |     3 is prime                |
-! |      Simple prime number generator  |     5 is prime                |
-! |      */                             |     7 is prime                |
-! |     count = 1;                      |     11 is prime               |
-! |     n = 1;                          |     13 is prime               |
-! |     limit = 100;                    |     17 is prime               |
-! |     while (n < limit) {             |     19 is prime               |
-! |         k=3;                        |     23 is prime               |
-! |         p=1;                        |     29 is prime               |
-! |         n=n+2;                      |     31 is prime               |
-! |         while ((k*k<=n) && (p)) {   |     37 is prime               |
-! |             p=n/k*k!=n;             |     41 is prime               |
-! |             k=k+2;                  |     43 is prime               |
-! |         }                           |     47 is prime               |
-! |         if (p) {                    |     53 is prime               |
-! |                                     |     59 is prime               |
-! |            print(n, " is prime\n"); |     61 is prime               |
-! |             count = count + 1;      |     67 is prime               |
-! |         }                           |     71 is prime               |
-! |     }                               |     73 is prime               |
-! |     print("To                       |     79 is prime               |
-! | tal primes found: ", count, "\n");  |     83 is prime               |
-! |                                     |     89 is prime               |
-! |                                     |     97 is prime               |
-! |                                     |     101 is prime              |
-! |                                     |     Total primes found: 26    |
-! +-------------------------------------+-------------------------------+
+! +--------------------------------------------------+-------------------------------+
+! | prime.t                                          | lex <prime.t | parse | interp |
+! +==================================================+===============================+
+! |     /*                                           |     3 is prime                |
+! |      Simple prime number generator               |     5 is prime                |
+! |      */                                          |     7 is prime                |
+! |     count = 1;                                   |     11 is prime               |
+! |     n = 1;                                       |     13 is prime               |
+! |     limit = 100;                                 |     17 is prime               |
+! |     while (n < limit) {                          |     19 is prime               |
+! |         k=3;                                     |     23 is prime               |
+! |         p=1;                                     |     29 is prime               |
+! |         n=n+2;                                   |     31 is prime               |
+! |         while ((k*k<=n) && (p)) {                |     37 is prime               |
+! |             p=n/k*k!=n;                          |     41 is prime               |
+! |             k=k+2;                               |     43 is prime               |
+! |         }                                        |     47 is prime               |
+! |         if (p) {                                 |     53 is prime               |
+! |             print(n, " is prime\n");             |     59 is prime               |
+! |             count = count + 1;                   |     61 is prime               |
+! |         }                                        |     67 is prime               |
+! |     }                                            |     71 is prime               |
+! |     print("Total primes found: ", count, "\n");  |     73 is prime               |
+! |                                                  |     79 is prime               |
+! |                                                  |     83 is prime               |
+! |                                                  |     89 is prime               |
+! |                                                  |     97 is prime               |
+! |                                                  |     101 is prime              |
+! |                                                  |     Total primes found: 26    |
+! +--------------------------------------------------+-------------------------------+
 ! 
 ! Additional examples
 ! 
@@ -124,10 +128,10 @@
 ! 
 ! Related Tasks
 ! 
-! -   Lexical Analyzer task
-! -   Syntax Analyzer task
-! -   Code Generator task
-! -   Virtual Machine Interpreter task
+! - Lexical Analyzer task
+! - Syntax Analyzer task
+! - Code Generator task
+! - Virtual Machine Interpreter task
 ! 
 ! __TOC__
 

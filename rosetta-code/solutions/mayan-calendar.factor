@@ -194,16 +194,16 @@
 ! 
 ! Excerpts taken from, and recommended reading:
 ! 
-! -   From the website of the Foundation for the Advancement of
-!     Meso-America Studies, Inc.
+! - From the website of the Foundation for the Advancement of Meso-America
+!   Studies, Inc.
 ! 
 ! Pitts, Mark. The complete Writing in Maya Glyphs Book 2 – Maya Numbers
 ! and the Maya Calendar. 2009. Accessed 2019-01-19.
 ! http://www.famsi.org/research/pitts/MayaGlyphsBook2.pdf
 ! 
-! -   wikipedia: Maya calendar
+! - wikipedia: Maya calendar
 ! 
-! -   wikipedia: Mesoamerican Long Count calendar
+! - wikipedia: Mesoamerican Long Count calendar
 ! 
 ! The Task:
 ! 

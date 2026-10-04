@@ -20,11 +20,11 @@
 ! 
 ! Related task
 ! 
-! -   -   Matrix multiplication
-!     -   Determinant and permanent
+! - - Matrix multiplication
+!   - Determinant and permanent
 ! 
 ! See also
 ! 
-! -   -   Wikipedia article
+! - - Wikipedia article
 
 

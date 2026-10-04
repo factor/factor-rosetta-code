@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Expand the range description:
 ! 
@@ -7,9 +9,11 @@
 ! Note that the second element above, is the range from minus 3 to minus
 ! 1.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Range extraction
+!     
+! 
+! - Range extraction
 
 USING: kernel math.parser math.ranges prettyprint regexp
 sequences sequences.extras splitting ;

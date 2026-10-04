@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Read a file one character at a time, as opposed to reading the entire
 ! file at once.
@@ -11,8 +13,10 @@
 ! encoded wide characters, returning whole characters for each consecutive
 ! read.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Read a file line by line
+!     
+! 
+! - Read a file line by line
 
 

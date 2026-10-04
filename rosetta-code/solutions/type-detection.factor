@@ -1,7 +1,9 @@
 ! This draft task needs a purpose, a description and some way to tell
 ! whether examples satisfy or do not satisfy it.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show a function/procedure that processes a block of text by printing it.
 ! 

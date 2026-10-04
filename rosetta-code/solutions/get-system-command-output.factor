@@ -5,7 +5,7 @@
 ! 
 ! Related task
 ! 
-! -    Execute a system command
+! -  Execute a system command
 
 USING: io.encodings.utf8 io.launcher ;
 "echo hello" utf8 [ contents ] with-process-reader .

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find positive integers n which count of divisors is prime, but not equal
 ! to 2, where n < 1,000.

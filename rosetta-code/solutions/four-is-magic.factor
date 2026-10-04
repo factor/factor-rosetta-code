@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a subroutine, function, whatever it may be called in your
 ! language, that takes an integer number and returns an English text
@@ -35,38 +37,36 @@
 !      Eight is five, five is four, four is magic.
 !      Nine is four, four is magic.
 ! 
-! Some task guidelines:
+! Some task guidelines
 ! 
-! -   -   You may assume the input will only contain integer numbers.
-!     -   Cardinal numbers between 20 and 100 may use either hyphens or
-!         spaces as word separators but they must use a word separator.
-!         (23 is twenty three or twenty-three not twentythree.)
-!     -   Cardinal number conversions should follow the English short
-!         scale. (billion is 1e9, trillion is 1e12, etc.)
-!     -   Cardinal numbers should not include commas. (20140 is twenty
-!         thousand one hundred forty not twenty thousand, one hundred
-!         forty.)
-!     -   When converted to a string, 100 should be one hundred, not a
-!         hundred or hundred, 1000 should be one thousand, not a thousand
-!         or thousand.
-!     -   When converted to a string, there should be no and in the
-!         cardinal string. 130 should be one hundred thirty not one
-!         hundred and thirty.
-!     -   When counting characters, count all of the characters in the
-!         cardinal number including spaces and hyphens. One hundred
-!         fifty-one should be 21 not 18.
-!     -   The output should follow the format "N is K, K is M, M is ...
-!         four is magic." (unless the input is 4, in which case the output
-!         should simply be "four is magic.")
-!     -   The output can either be the return value from the function, or
-!         be displayed from within the function.
-!     -   You are encouraged, though not mandated to use proper sentence
-!         capitalization.
-!     -   You may optionally support negative numbers. -7 is negative
-!         seven.
-!     -   Show the output here for a small representative sample of
-!         values, at least 5 but no more than 25. You are free to choose
-!         which which numbers to use for output demonstration.
+!     
+! 
+! - - You may assume the input will only contain integer numbers.
+!   - Cardinal numbers between 20 and 100 may use either hyphens or spaces
+!     as word separators but they must use a word separator. (23 is twenty
+!     three or twenty-three not twentythree.)
+!   - Cardinal number conversions should follow the English short scale.
+!     (billion is 1e9, trillion is 1e12, etc.)
+!   - Cardinal numbers should not include commas. (20140 is twenty
+!     thousand one hundred forty not twenty thousand, one hundred forty.)
+!   - When converted to a string, 100 should be one hundred, not a hundred
+!     or hundred, 1000 should be one thousand, not a thousand or thousand.
+!   - When converted to a string, there should be no and in the cardinal
+!     string. 130 should be one hundred thirty not one hundred and thirty.
+!   - When counting characters, count all of the characters in the
+!     cardinal number including spaces and hyphens. One hundred fifty-one
+!     should be 21 not 18.
+!   - The output should follow the format "N is K, K is M, M is ... four
+!     is magic." (unless the input is 4, in which case the output should
+!     simply be "four is magic.")
+!   - The output can either be the return value from the function, or be
+!     displayed from within the function.
+!   - You are encouraged, though not mandated to use proper sentence
+!     capitalization.
+!   - You may optionally support negative numbers. -7 is negative seven.
+!   - Show the output here for a small representative sample of values, at
+!     least 5 but no more than 25. You are free to choose which which
+!     numbers to use for output demonstration.
 ! 
 ! You can choose to use a library, (module, external routine, whatever) to
 ! do the cardinal conversions as long as the code is easily and freely
@@ -80,15 +80,17 @@
 ! Four is magic is a popular code-golf task. This is not code golf. Write
 ! legible, idiomatic and well formatted code.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Four is the number of_letters in the ...
-!     -   Look-and-say sequence
-!     -   Number names
-!     -   Self-describing numbers
-!     -   Summarize and say sequence
-!     -   Spelling of ordinal numbers
-!     -   De Bruijn sequences
+!     
+! 
+! - - Four is the number of_letters in the ...
+!   - Look-and-say sequence
+!   - Number names
+!   - Self-describing numbers
+!   - Summarize and say sequence
+!   - Spelling of ordinal numbers
+!   - De Bruijn sequences
 
 USING: ascii formatting io kernel make math.text.english regexp
 sequences ;

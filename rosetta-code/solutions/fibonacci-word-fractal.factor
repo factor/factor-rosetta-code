@@ -1,7 +1,5 @@
 ! []
 ! 
-! |right
-! 
 ! The Fibonacci word may be represented as a fractal as described here:
 ! 
 ! (Clicking on the above website (hal.archives-ouvertes.fr) will leave a
@@ -15,7 +13,9 @@
 !         Turn right if n is odd
 !     next n and iterate until end of F_word
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create and display a fractal similar to Fig 1.
 ! 

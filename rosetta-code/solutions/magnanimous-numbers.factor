@@ -4,12 +4,11 @@
 ! 
 ! E.G.
 ! 
-! -   -   6425 is a magnanimous number. 6 + 425 == 431 which is prime;
-!         64 + 25 == 89 which is prime; 642 + 5 == 647 which is prime.
+! - - 6425 is a magnanimous number. 6 + 425 == 431 which is prime; 64 + 25
+!     == 89 which is prime; 642 + 5 == 647 which is prime.
 ! 
-! -   -   3538 is not a magnanimous number. 3 + 538 == 541 which is prime;
-!         35 + 38 == 73 which is prime; but 353 + 8 == 361 which is not
-!         prime.
+! - - 3538 is not a magnanimous number. 3 + 538 == 541 which is prime;
+!     35 + 38 == 73 which is prime; but 353 + 8 == 361 which is not prime.
 ! 
 ! Traditionally the single digit numbers 0 through 9 are included as
 ! magnanimous numbers as there is no place in the number where you can add
@@ -24,17 +23,17 @@
 ! 
 ! Task
 ! 
-! -   -   Write a routine (procedure, function, whatever) to find
-!         magnanimous numbers.
+! - - Write a routine (procedure, function, whatever) to find magnanimous
+!     numbers.
 ! 
-! -   -   Use that function to find and display, here on this page the
-!         first 45 magnanimous numbers.
+! - - Use that function to find and display, here on this page the first
+!     45 magnanimous numbers.
 ! 
-! -   -   Use that function to find and display, here on this page the
-!         241st through 250th magnanimous numbers.
+! - - Use that function to find and display, here on this page the 241st
+!     through 250th magnanimous numbers.
 ! 
-! -   -   Stretch: Use that function to find and display, here on this
-!         page the 391st through 400th magnanimous numbers
+! - - Stretch: Use that function to find and display, here on this page
+!     the 391st through 400th magnanimous numbers
 ! 
 ! See also
 ! 

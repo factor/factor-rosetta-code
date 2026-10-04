@@ -11,12 +11,16 @@
 ! Each triple forms the length of the sides of a right triangle, whose
 ! perimeter is P = a + b + c.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! The task is to determine how many Pythagorean triples there are with a
 ! perimeter no larger than 100 and the number of these that are primitive.
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Deal with large values. Can your program handle a maximum perimeter of
 ! 1,000,000? What about 10,000,000? 100,000,000?
@@ -25,11 +29,13 @@
 ! language is compared to others; you need a proper algorithm to solve
 ! them in a timely manner.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Euler's sum of powers conjecture
-! -   List comprehensions
-! -   Pythagorean quadruples
+!     
+! 
+! - Euler's sum of powers conjecture
+! - List comprehensions
+! - Pythagorean quadruples
 
 USING: accessors arrays formatting kernel literals math
 math.functions math.matrices math.ranges sequences ;

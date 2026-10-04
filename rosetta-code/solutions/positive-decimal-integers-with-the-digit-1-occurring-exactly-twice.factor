@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find positive decimal integers n in which the digit 1 occurs exactly
 ! twice, where n < 1,000.

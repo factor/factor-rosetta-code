@@ -1,5 +1,10 @@
-! Euler Project #284:
-! Task:
+! Euler Project #284
+! 
+!     
+! 
+! Task
+! 
+!     
 ! 
 ! The 3-digit number 376 in the decimal numbering system is an example of
 ! numbers with the special property that its square ends with the same

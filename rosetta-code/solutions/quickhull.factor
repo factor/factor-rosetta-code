@@ -13,14 +13,14 @@
 ! 
 ! Input
 ! 
-! -   A set of points
-!     (S = {(x₁, y₁, z₁), (x₂, y₂, z₂), …, (x_(n), y_(n), z_(n))} in 3D
-!     space, where each point is represented by its coordinates
-!     (x_(i), y_(i), z_(i)).
+! - A set of points
+!   (S = {(x₁, y₁, z₁), (x₂, y₂, z₂), …, (x_(n), y_(n), z_(n))} in 3D
+!   space, where each point is represented by its coordinates
+!   (x_(i), y_(i), z_(i)).
 ! 
 ! Output
 ! 
-! -   The surface area of the convex hull of the given set of points.
+! - The surface area of the convex hull of the given set of points.
 ! 
 ! Algorithm Overview (for 3D)
 ! 
@@ -39,19 +39,18 @@
 ! 3. Recursively Build the Hull: While there are faces with points
 ! outside:
 ! 
-! -   Select a face that has points outside.
-! -   Find the point farthest from the plane of this face. This point is
-!     guaranteed to be on the convex hull.
-! -   Identify all faces that are "visible" from this farthest point. A
-!     face is visible if the point is on the "outside" of the face's
-!     plane.
-! -   Remove the visible faces and the points associated with them (those
-!     previously outside those faces).
-! -   Create new triangular faces by connecting the farthest point to the
-!     edges of the horizon. The horizon is the boundary of the visible
-!     faces on the existing hull.
-! -   For each new face, determine which of the previously outside points
-!     are now outside the plane of this new face.
+! - Select a face that has points outside.
+! - Find the point farthest from the plane of this face. This point is
+!   guaranteed to be on the convex hull.
+! - Identify all faces that are "visible" from this farthest point. A face
+!   is visible if the point is on the "outside" of the face's plane.
+! - Remove the visible faces and the points associated with them (those
+!   previously outside those faces).
+! - Create new triangular faces by connecting the farthest point to the
+!   edges of the horizon. The horizon is the boundary of the visible faces
+!   on the existing hull.
+! - For each new face, determine which of the previously outside points
+!   are now outside the plane of this new face.
 ! 
 ! 4. Termination: The process terminates when no faces have points outside
 ! their respective planes.
@@ -64,15 +63,15 @@
 ! 
 ! Applications
 ! 
-! -   Collision Detection: Used in computer graphics and game development
-!     to simplify bounding shapes for efficient collision checks.
-! -   Shape Analysis: Helps in analyzing the shape and extent of 3D
-!     datasets, useful in fields like medical imaging and scientific
-!     simulations.
-! -   Path Planning: Assists in robotics and 3D mapping for navigating
-!     complex environments by defining the outer boundaries of obstacles.
-! -   Data Visualization: Simplifies the representation of complex 3D data
-!     by outlining their extremities.
+! - Collision Detection: Used in computer graphics and game development to
+!   simplify bounding shapes for efficient collision checks.
+! - Shape Analysis: Helps in analyzing the shape and extent of 3D
+!   datasets, useful in fields like medical imaging and scientific
+!   simulations.
+! - Path Planning: Assists in robotics and 3D mapping for navigating
+!   complex environments by defining the outer boundaries of obstacles.
+! - Data Visualization: Simplifies the representation of complex 3D data
+!   by outlining their extremities.
 ! 
 ! Task
 ! 

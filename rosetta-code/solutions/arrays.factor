@@ -1,23 +1,27 @@
-! Related tasks:
+! Related tasks
 ! 
-! -   Arrays
-!     -   Array
-!     -   Sum and product of an array
-!     -   Collections
-!     -   Creating an Associative Array
-!     -   Two-dimensional array (runtime)
-! -   Vector
-! -   Matrices
-! -   Bivector
-! -   Antivector
-! -   Tensor
-! -   Quaternion
-! -   Rotor
-! -   Motor
-! -   Sedenion
-! -   Octonion
+!     
 ! 
-! Task:
+! - Arrays
+!   - Array
+!   - Sum and product of an array
+!   - Collections
+!   - Creating an Associative Array
+!   - Two-dimensional array (runtime)
+! - Vector
+! - Matrices
+! - Bivector
+! - Antivector
+! - Tensor
+! - Quaternion
+! - Rotor
+! - Motor
+! - Sedenion
+! - Octonion
+! 
+! Task
+! 
+!     
 ! 
 ! Show basic array syntax in your language.
 ! 
@@ -29,9 +33,9 @@
 ! 
 ! Please merge code in from these obsolete tasks:
 ! 
-! -   Creating an Array
-! -   Assigning Values to an Array
-! -   Retrieving an Element of an Array
+! - Creating an Array
+! - Assigning Values to an Array
+! - Retrieving an Element of an Array
 ! 
 ! Category:Simple
 

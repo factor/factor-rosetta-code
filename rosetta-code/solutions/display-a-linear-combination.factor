@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Display a finite linear combination in an infinite vector basis
 ! (e₁, e₂, …).
@@ -13,20 +15,20 @@
 ! 
 ! The output must comply to the following rules:
 ! 
-! -   don't show null terms, unless the whole combination is null.
+! - don't show null terms, unless the whole combination is null.
 ! 
 !     
 ! 
 !         e(1) is fine, e(1) + 0*e(3) or e(1) + 0 is wrong.
 ! 
-! -   don't show scalars when they are equal to one or minus one.
+! - don't show scalars when they are equal to one or minus one.
 ! 
 !     
 ! 
 !         e(3) is fine, 1*e(3) is wrong.
 ! 
-! -   don't prefix by a minus sign if it follows a preceding term. Instead
-!     you use subtraction.
+! - don't prefix by a minus sign if it follows a preceding term. Instead
+!   you use subtraction.
 ! 
 !     
 ! 

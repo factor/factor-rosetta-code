@@ -9,35 +9,31 @@
 ! You can use the following pseudocode, which includes Lyness's
 ! modifications 1, 2, and 3.
 ! 
-! +----------------------------------------------------------------------+
-! | ; Lyness's Adaptive Simpson's Rule, Modifications 1, 2, 3            |
-! | procedure simpson_rule(f, a, fa, b, fb)                              |
-! |     m := (a + b) / 2                                                 |
-! |     fm := f(m)                                                       |
-! |     h := b - a                                                       |
-! |     return multiple [m, fm, (h / 6) * (fa + 4*fm + fb)]              |
-! |                                                                      |
-! | pr                                                                   |
-! | ocedure recursive_simpson(f, a, fa, b, fb, tol, whole, m, fm, depth) |
-! |     lm, flm, left  := simpson_rule(f, a, fa, m, fm)                  |
-! |     rm, frm, right := simpson_rule(f, m, fm, b, fb)                  |
-! |     delta := left + right - whole                                    |
-! |     tol' := tol / 2                                                  |
-! |     if depth <= 0 or tol' == tol or abs(delta) <= 15 * tol:          |
-! |         return left + right + (delta / 15)                           |
-! |     else:                                                            |
-! |         return r                                                     |
-! | ecursive_simpson(f, a, fa, m, fm, tol', left , lm, flm, depth - 1) + |
-! |                                                                      |
-! |  recursive_simpson(f, m, fm, b, fb, tol', right, rm, frm, depth - 1) |
-! |                                                                      |
-! | procedure quad_asr(f, a, b, tol, depth)                              |
-! |    fa := f(a)                                                        |
-! |    fb := f(b)                                                        |
-! |    m, fm, whole := simpson_rule(f, a, fa, b, fb)                     |
-! |                                                                      |
-! |  return recursive_simpson(f, a, fa, b, fb, tol, whole, m, fm, depth) |
-! +----------------------------------------------------------------------+
+! +--------------------------------------------------------------------------------------+
+! | ; Lyness's Adaptive Simpson's Rule, Modifications 1, 2, 3                            |
+! | procedure simpson_rule(f, a, fa, b, fb)                                              |
+! |     m := (a + b) / 2                                                                 |
+! |     fm := f(m)                                                                       |
+! |     h := b - a                                                                       |
+! |     return multiple [m, fm, (h / 6) * (fa + 4*fm + fb)]                              |
+! |                                                                                      |
+! | procedure recursive_simpson(f, a, fa, b, fb, tol, whole, m, fm, depth)               |
+! |     lm, flm, left  := simpson_rule(f, a, fa, m, fm)                                  |
+! |     rm, frm, right := simpson_rule(f, m, fm, b, fb)                                  |
+! |     delta := left + right - whole                                                    |
+! |     tol' := tol / 2                                                                  |
+! |     if depth <= 0 or tol' == tol or abs(delta) <= 15 * tol:                          |
+! |         return left + right + (delta / 15)                                           |
+! |     else:                                                                            |
+! |         return recursive_simpson(f, a, fa, m, fm, tol', left , lm, flm, depth - 1) + |
+! |                recursive_simpson(f, m, fm, b, fb, tol', right, rm, frm, depth - 1)   |
+! |                                                                                      |
+! | procedure quad_asr(f, a, b, tol, depth)                                              |
+! |    fa := f(a)                                                                        |
+! |    fb := f(b)                                                                        |
+! |    m, fm, whole := simpson_rule(f, a, fa, b, fb)                                     |
+! |    return recursive_simpson(f, a, fa, b, fb, tol, whole, m, fm, depth)               |
+! +--------------------------------------------------------------------------------------+
 ! 
 ! : Pseudocode: Simpson's method, adaptive
 

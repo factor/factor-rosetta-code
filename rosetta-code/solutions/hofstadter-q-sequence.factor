@@ -11,19 +11,21 @@
 ! sequence to find the two numbers to sum to make the next term of the
 ! sequence.
 ! 
-! Task:
+! Task
 ! 
-! -   Confirm and display that the first ten terms of the sequence are: 1,
-!     1, 2, 3, 3, 4, 5, 5, 6, and 6
-! -   Confirm and display that the 1000^(th) term is: 502
+!     
+! 
+! - Confirm and display that the first ten terms of the sequence are: 1,
+!   1, 2, 3, 3, 4, 5, 5, 6, and 6
+! - Confirm and display that the 1000^(th) term is: 502
 ! 
 ! Optional extra credit
 ! 
-! -   Count and display how many times a member of the sequence is less
-!     than its preceding term for terms up to and including the
-!     100,000^(th) term.
-! -   Ensure that the extra credit solution safely handles being initially
-!     asked for an n^(th) term where n is large.
+! - Count and display how many times a member of the sequence is less than
+!   its preceding term for terms up to and including the 100,000^(th)
+!   term.
+! - Ensure that the extra credit solution safely handles being initially
+!   asked for an n^(th) term where n is large.
 ! 
 ! (This point is to ensure that caching and/or recursion limits, if it is
 ! a concern, is correctly handled).

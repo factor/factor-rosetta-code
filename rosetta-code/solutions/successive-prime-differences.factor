@@ -23,11 +23,13 @@
 ! the order of the values given, (differences of 4, 2 would give different
 ! groups entirely).
 ! 
-! Task:
+! Task
 ! 
-! -   In each case use a list of primes less than 1_000_000
-! -   For the following Differences show the first and last group, as well
-!     as the number of groups found:
+!     
+! 
+! - In each case use a list of primes less than 1_000_000
+! - For the following Differences show the first and last group, as well
+!   as the number of groups found:
 ! 
 ! :# Differences of 2.
 ! 
@@ -41,7 +43,7 @@
 ! 
 ! :# Differences of 6, 4, 2.
 ! 
-! -   Show output here.
+! - Show output here.
 ! 
 ! Note: Generation of a list of primes is a secondary aspect of the task.
 ! Use of a built in function, well known library, or importing/use of

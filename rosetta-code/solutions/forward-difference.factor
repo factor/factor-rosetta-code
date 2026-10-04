@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Provide code that produces a list of numbers which is the n^(th) order
 ! forward difference, given a non-negative integer (specifying the order)
@@ -37,11 +39,13 @@
 ! 
 ! For a more formal description, see the related Mathworld article.
 ! 
-! Algorithmic options:
+! Algorithmic options
 ! 
-! -   Iterate through all previous forward differences and re-calculate a
-!     new array each time.
-! -   Use this formula (from Wikipedia):
+!     
+! 
+! - Iterate through all previous forward differences and re-calculate a
+!   new array each time.
+! - Use this formula (from Wikipedia):
 ! 
 !     
 ! 

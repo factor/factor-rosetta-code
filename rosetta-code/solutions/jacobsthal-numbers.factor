@@ -28,10 +28,10 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first 30 Jacobsthal numbers
-! -   Find and display the first 30 Jacobsthal-Lucas numbers
-! -   Find and display the first 20 Jacobsthal oblong numbers
-! -   Find and display at least the first 10 Jacobsthal primes
+! - Find and display the first 30 Jacobsthal numbers
+! - Find and display the first 30 Jacobsthal-Lucas numbers
+! - Find and display the first 20 Jacobsthal oblong numbers
+! - Find and display at least the first 10 Jacobsthal primes
 ! 
 ! See also
 ! * Wikipedia: Jacobsthal number

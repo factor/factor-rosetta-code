@@ -1,16 +1,18 @@
 ! Bulls and Cows is an old game played with pencil and paper that was
 ! later implemented using computers.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a four digit random number from the digits 1 to 9, without
 ! duplication.
 ! 
 ! The program should:
 ! 
-! -   -   ask for guesses to this number
-!     -   reject guesses that are malformed
-!     -   print the score for the guess
+! - - ask for guesses to this number
+!   - reject guesses that are malformed
+!   - print the score for the guess
 ! 
 ! The score is computed as:
 ! 
@@ -23,12 +25,14 @@
 !     also appears in the randomly chosen number, but in the wrong
 !     position.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Bulls and cows/Player
-! -   Guess the number
-! -   Guess the number/With Feedback
-! -   Mastermind
+!     
+! 
+! - Bulls and cows/Player
+! - Guess the number
+! - Guess the number/With Feedback
+! - Mastermind
 ! 
 ! Category:Puzzles Category:Games
 

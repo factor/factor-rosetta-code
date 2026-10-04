@@ -5,7 +5,9 @@
 ! The numerical rank of a competitor can be assigned in several different
 ! ways.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! The following scores are accrued for all competitors of a competition
 ! (in best-first order):

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Calculate the Shannon entropy H of a given input string.
 ! 
@@ -69,10 +71,12 @@
 ! perfectly efficient. This can be solved for H₂*N to (arguably) get the
 ! number of bits of information that a physical entropy represents.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Fibonacci_word
-!     -   Entropy/Narcissist
+!     
+! 
+! - - Fibonacci_word
+!   - Entropy/Narcissist
 
 USING: assocs kernel math math.functions math.statistics
 prettyprint sequences ;

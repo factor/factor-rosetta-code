@@ -58,14 +58,14 @@
 ! Apply SA to the travelling salesman problem, using the following set of
 ! parameters/functions :
 ! 
-! -   kT = 1 (Multiplication by kT is a placeholder, representing
-!     computing temperature as a function of 1-k/kmax):
-! -   temperature (k, kmax) = kT * (1 - k/kmax)
-! -   neighbour (s) : Pick a random city u > 0 . Pick a random neighbour
-!     city v > 0 of u , among u's 8 (max) neighbours on the grid. Swap u
-!     and v in s . This gives the new state s_next.
-! -   kmax = 1000_000
-! -   s0 = a random permutation
+! - kT = 1 (Multiplication by kT is a placeholder, representing computing
+!   temperature as a function of 1-k/kmax):
+! - temperature (k, kmax) = kT * (1 - k/kmax)
+! - neighbour (s) : Pick a random city u > 0 . Pick a random neighbour
+!   city v > 0 of u , among u's 8 (max) neighbours on the grid. Swap u and
+!   v in s . This gives the new state s_next.
+! - kmax = 1000_000
+! - s0 = a random permutation
 ! 
 ! For k = 0 to kmax by step kmax/10 , display k, T, E(s). Display the
 ! final state s_final, and E(s_final).

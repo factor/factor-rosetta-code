@@ -18,7 +18,9 @@
 ! 
 !     8B 44 24 04 03 44 24 08 C3
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! If different than 32-bit x86, specify the target architecture of the
 ! machine code for your example. It may be helpful to also include an
@@ -26,12 +28,12 @@
 ! understand what is being executed. Then, implement the following in your
 ! favorite programming language:
 ! 
-! -   Poke the necessary opcodes into a memory location.
-! -   Provide a means to pass two values to the machine code.
-! -   Execute the machine code with the following arguments: unsigned-byte
-!     argument of value 7; unsigned-byte argument of value 12; The result
-!     would be 19.
-! -   Perform any clean up actions that are appropriate for your chosen
-!     language (free the pointer or memory allocations, etc.)
+! - Poke the necessary opcodes into a memory location.
+! - Provide a means to pass two values to the machine code.
+! - Execute the machine code with the following arguments: unsigned-byte
+!   argument of value 7; unsigned-byte argument of value 12; The result
+!   would be 19.
+! - Perform any clean up actions that are appropriate for your chosen
+!   language (free the pointer or memory allocations, etc.)
 
 

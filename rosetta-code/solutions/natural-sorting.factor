@@ -30,19 +30,21 @@
 ! 
 ! Task Description
 ! 
-! -   Implement the first four of the eight given features in a natural
-!     sorting routine/function/method...
-! -   Test each feature implemented separately with an ordered list of
-!     test strings from the Sample inputs section below, and make sure
-!     your naturally sorted output is in the same order as other language
-!     outputs such as Python.
-! -   Print and display your output.
-! -   For extra credit implement more than the first four.
+! - Implement the first four of the eight given features in a natural
+!   sorting routine/function/method...
+! - Test each feature implemented separately with an ordered list of test
+!   strings from the Sample inputs section below, and make sure your
+!   naturally sorted output is in the same order as other language outputs
+!   such as Python.
+! - Print and display your output.
+! - For extra credit implement more than the first four.
 ! 
 ! Note: it is not necessary to have individual control of which features
 ! are active in the natural sorting routine at any time.
 ! 
-! Sample input:
+! Sample input
+! 
+!     
 ! 
 !     &bull; Ignoring leading spaces.                       Text strings:   ['ignore leading spaces:  2-2',
 !                                                                       'ignore leading spaces:  2-1', 

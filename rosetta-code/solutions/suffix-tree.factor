@@ -2,14 +2,14 @@
 ! 
 ! Given a string S of length n, its suffix tree is a tree T such that:
 ! 
-! -   T has exactly n leaves numbered from 1 to n.
-! -   Except for the root, every internal node has at least two children.
-! -   Each edge of T is labelled with a non-empty substring of S.
-! -   No two edges starting out of a node can have string labels beginning
-!     with the same character.
-! -   The string obtained by concatenating all the string labels found on
-!     the path from the root to leaf i spells out suffix S[i..n], for i
-!     from 1 to n.
+! - T has exactly n leaves numbered from 1 to n.
+! - Except for the root, every internal node has at least two children.
+! - Each edge of T is labelled with a non-empty substring of S.
+! - No two edges starting out of a node can have string labels beginning
+!   with the same character.
+! - The string obtained by concatenating all the string labels found on
+!   the path from the root to leaf i spells out suffix S[i..n], for i from
+!   1 to n.
 ! 
 ! Such a tree does not exist for all strings. To ensure existence, a
 ! character that is not found in S must be appended at its end. The

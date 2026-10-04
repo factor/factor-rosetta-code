@@ -28,7 +28,7 @@
 ! 
 ! Cf.
 ! 
-! -   Order disjoint list items
+! - Order disjoint list items
 ! 
 ! Category:Sorting
 

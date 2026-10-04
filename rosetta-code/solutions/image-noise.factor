@@ -1,7 +1,9 @@
 ! Generate a random black and white 320x240 image continuously, showing
 ! FPS (frames per second).
 ! 
-! A sample image: [|center|sample]
+! A sample image
+! 
+!     []
 ! 
 ! Category:Raster graphics operations
 

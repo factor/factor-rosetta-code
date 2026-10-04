@@ -32,7 +32,7 @@
 ! 
 ! Reference
 ! 
-! -   Wikipedia article - Geohash.
+! - Wikipedia article - Geohash.
 
 USING: formatting generalizations geohash io kernel sequences ;
 

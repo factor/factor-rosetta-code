@@ -6,7 +6,9 @@
 ! 
 ! The classic such physical system is a simple gravity pendulum.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a simple physical model of a pendulum and animate it.
 ! 

@@ -9,17 +9,17 @@
 ! Because of this, the following fractions cannot be obtained (reliably)
 ! unless the language has some way of representing repeating decimals:
 ! 
-! -   67 / 74 = 0.9(054) = 0.9054054...
-! -   14 / 27 = 0.(518) = 0.518518...
+! - 67 / 74 = 0.9(054) = 0.9054054...
+! - 14 / 27 = 0.(518) = 0.518518...
 ! 
 ! Acceptable output:
 ! 
-! -   0.9054054 → 4527027 / 5000000
-! -   0.518518 → 259259 / 500000
+! - 0.9054054 → 4527027 / 5000000
+! - 0.518518 → 259259 / 500000
 ! 
 ! Finite decimals are of course no problem:
 ! 
-! -   0.75 → 3 / 4
+! - 0.75 → 3 / 4
 
 USING: kernel math.floating-point prettyprint ;
 

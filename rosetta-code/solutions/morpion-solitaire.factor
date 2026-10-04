@@ -33,16 +33,16 @@
 !     ...X..X...
 !     ...XXXX...
 ! 
-! -   A move is made by adding one point anywhere that creates a new line
-!     of 5 points (without spaces) and drawing a line through them. (Moves
-!     are commonly marked with the number of the move for visual clarity.
-!     Creating a record of the game in game notation is a better way to
-!     validate a game.)
-! -   Any two lines not running in the same direction may cross.
-! -   Any two lines running in the same direction are allowed to touch at
-!     the ends but not overlap (i.e. share at most a single point).
-! -   The game ends when you run out of legal moves. (The game score is
-!     the number of legal moves played.)
+! - A move is made by adding one point anywhere that creates a new line of
+!   5 points (without spaces) and drawing a line through them. (Moves are
+!   commonly marked with the number of the move for visual clarity.
+!   Creating a record of the game in game notation is a better way to
+!   validate a game.)
+! - Any two lines not running in the same direction may cross.
+! - Any two lines running in the same direction are allowed to touch at
+!   the ends but not overlap (i.e. share at most a single point).
+! - The game ends when you run out of legal moves. (The game score is the
+!   number of legal moves played.)
 ! 
 ! The rules to morpion solitaire are here.
 ! 
@@ -50,13 +50,13 @@
 ! 
 ! A short history of the 5T game:
 ! 
-! -   170 - Bruneau, by hand in 1976
-! -   117 and 122 - Juillé in 1995 and 1999
-! -   143 - Zimmer in 2003
-! -   144 - Cazenave in 2007
-! -   172 - Rosin in 2010
-! -   171 and 172 - Tishchenko in 2011
-! -   177 and 178 - Rosin in 2011
+! - 170 - Bruneau, by hand in 1976
+! - 117 and 122 - Juillé in 1995 and 1999
+! - 143 - Zimmer in 2003
+! - 144 - Cazenave in 2007
+! - 172 - Rosin in 2010
+! - 171 and 172 - Tishchenko in 2011
+! - 177 and 178 - Rosin in 2011
 ! 
 ! For an up to date list of Morpion 5T Records see here. The shortest game
 ! possible is 20 moves.

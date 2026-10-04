@@ -4,16 +4,18 @@
 ! 
 ! 1.  Set m to n and i to 0.
 ! 2.  While m has more than one digit:
-!     -   Find a replacement m as the multiplication of the digits of the
-!         current value of m.
-!     -   Increment i.
+!     - Find a replacement m as the multiplication of the digits of the
+!       current value of m.
+!     - Increment i.
 ! 3.  Return i (= MP) and m (= MDR)
 ! 
-! Task:
+! Task
 ! 
-! -   Tabulate the MP and MDR of the numbers 123321, 7739, 893, 899998
-! -   Tabulate MDR versus the first five numbers having that MDR,
-!     something like:
+!     
+! 
+! - Tabulate the MP and MDR of the numbers 123321, 7739, 893, 899998
+! - Tabulate MDR versus the first five numbers having that MDR, something
+!   like:
 ! 
 !     MDR: [n0..n4]
 !     ===  ========
@@ -30,7 +32,9 @@
 ! 
 ! Show all output on this page.
 ! 
-! Similar:
+! Similar
+! 
+!     
 ! 
 ! The Product of decimal digits of n page was redirected here, and had the
 ! following description
@@ -40,12 +44,14 @@
 ! The three existing entries for Phix, REXX, and Ring have been moved
 ! here, under ===Similar=== headings, feel free to match or ignore them.
 ! 
-! References:
+! References
 ! 
-! -   Multiplicative Digital Root on Wolfram Mathworld.
-! -   Multiplicative digital root on The On-Line Encyclopedia of Integer
-!     Sequences.
-! -   What's special about 277777788888899? - Numberphile video
+!     
+! 
+! - Multiplicative Digital Root on Wolfram Mathworld.
+! - Multiplicative digital root on The On-Line Encyclopedia of Integer
+!   Sequences.
+! - What's special about 277777788888899? - Numberphile video
 
 USING: arrays formatting fry io kernel lists lists.lazy math
 math.text.utils prettyprint sequences ;

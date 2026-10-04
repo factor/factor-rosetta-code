@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given a set of positive integers, write a function to order the integers
 ! in such a way that the concatenation of the numbers forms the largest
@@ -7,10 +9,12 @@
 ! Use the following two sets of integers as tests and show your program
 ! output here.
 ! 
-! -   -   {1, 34, 3, 98, 9, 76, 45, 4}
-!     -   {54, 546, 548, 60}
+! - - {1, 34, 3, 98, 9, 76, 45, 4}
+!   - {54, 546, 548, 60}
 ! 
-! Possible algorithms:
+! Possible algorithms
+! 
+!     
 ! 
 ! 1.  A solution could be found by trying all combinations and return the
 !     best.
@@ -22,11 +26,13 @@
 !     size by repeating the digits then sort using these repeated integers
 !     as a sort key.
 ! 
-! See also:
+! See also
 ! 
-! -   Algorithms: What is the most efficient way to arrange the given
-!     numbers to form the biggest number?
-! -   Constructing the largest number possible by rearranging a list
+!     
+! 
+! - Algorithms: What is the most efficient way to arrange the given
+!   numbers to form the biggest number?
+! - Constructing the largest number possible by rearranging a list
 
 USING: assocs io kernel math qw sequences sorting ;
 IN: rosetta-code.largest-int

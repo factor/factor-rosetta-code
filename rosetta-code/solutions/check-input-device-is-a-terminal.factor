@@ -1,10 +1,14 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate how to check whether the input device is a terminal or not.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Check output device is a terminal
+!     
+! 
+! - Check output device is a terminal
 ! 
 ! Category:Terminal control Category:Hardware Category:Initialization
 

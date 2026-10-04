@@ -8,7 +8,9 @@
 ! Suffixation: the addition of a metric or "binary" metric suffix to a
 ! number, with/without rounding.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function(s) to append (if possible) a metric or a "binary"
 ! metric suffix to a number (displayed in decimal).
@@ -17,40 +19,41 @@
 ! the number when the number of digits past the decimal point are to be
 ! used).
 ! 
-! Task requirements:
+! Task requirements
 ! 
-! -   -   write a function (or functions) to add (if possible) a suffix to
-!         a number
-!     -   the function(s) should be able to express the number (possibly
-!         with a suffix) in as many decimal digits as specified
-!     -   the sign should be preserved (if present)
-!     -   the number may have commas within the number (the commas need
-!         not be preserved)
-!     -   the number may have a decimal point and/or an exponent as in:
-!         -123.7e-01
-!     -   the suffix that might be appended should be in uppercase;
-!         however, the i should be in lowercase
-!     -   support:
-!         -   -   the metric suffixes: K M G T P E Z Y X W V U
-!             -   the binary metric suffixes: Ki Mi Gi Ti Pi Ei Zi Yi Xi
-!                 Wi Vi Ui
-!             -   the (full name) suffix: googol (lowercase) (equal to
-!                 1e100) (optional)
-!             -   a number of decimal digits past the decimal point (with
-!                 rounding). The default is to display all significant
-!                 digits
-!     -   validation of the (supplied/specified) arguments is optional but
-!         recommended
-!     -   display (with identifying text):
-!         -   -   the original number (with identifying text)
-!             -   the number of digits past the decimal point being used
-!                 (or none, if not specified)
-!             -   the type of suffix being used (metric or "binary"
-!                 metric)
-!             -   the (new) number with the appropriate (if any) suffix
-!             -   all output here on this page
+!     
 ! 
-! Metric suffixes to be supported (whether or not they're officially sanctioned):
+! - - write a function (or functions) to add (if possible) a suffix to a
+!     number
+!   - the function(s) should be able to express the number (possibly with
+!     a suffix) in as many decimal digits as specified
+!   - the sign should be preserved (if present)
+!   - the number may have commas within the number (the commas need not be
+!     preserved)
+!   - the number may have a decimal point and/or an exponent as in:
+!     -123.7e-01
+!   - the suffix that might be appended should be in uppercase; however,
+!     the i should be in lowercase
+!   - support:
+!     - - the metric suffixes: K M G T P E Z Y X W V U
+!       - the binary metric suffixes: Ki Mi Gi Ti Pi Ei Zi Yi Xi Wi Vi Ui
+!       - the (full name) suffix: googol (lowercase) (equal to 1e100)
+!         (optional)
+!       - a number of decimal digits past the decimal point (with
+!         rounding). The default is to display all significant digits
+!   - validation of the (supplied/specified) arguments is optional but
+!     recommended
+!   - display (with identifying text):
+!     - - the original number (with identifying text)
+!       - the number of digits past the decimal point being used (or none,
+!         if not specified)
+!       - the type of suffix being used (metric or "binary" metric)
+!       - the (new) number with the appropriate (if any) suffix
+!       - all output here on this page
+! 
+! Metric suffixes to be supported (whether or not they're officially sanctioned)
+! 
+!     
 ! 
 !      K     multiply the number by  10^3              kilo      (1,000)
 !      M     multiply the number by  10^6              mega      (1,000,000)
@@ -65,7 +68,9 @@
 !      V     multiply the number by  10^33             vendeka   (1,000,000,000,000,000,000,000,000,000,000,000)
 !      U     multiply the number by  10^36             udekta    (1,000,000,000,000,000,000,000,000,000,000,000,000)
 ! 
-! "Binary" suffixes to be supported (whether or not they're officially sanctioned):
+! "Binary" suffixes to be supported (whether or not they're officially sanctioned)
+! 
+!     
 ! 
 !      Ki    multiply the number by  2^10              kibi      (1,024)
 !      Mi    multiply the number by  2^20              mebi      (1,048,576)
@@ -80,7 +85,9 @@
 !      Vi    multiply the number by  2^110             vebi      (1,298,074,214,633,706,907,132,624,082,305,024)
 !      Ui    multiply the number by  2^120             uebi      (1,329,227,995,784,915,872,903,807,060,280,344,576)
 ! 
-! For instance, with this pseudo─code:
+! For instance, with this pseudo─code
+! 
+!     
 ! 
 !                                  /* 1st arg: the number to be transformed.*/
 !                                  /* 2nd arg: # digits past the dec. point.*/
@@ -115,7 +122,9 @@
 !      win= 415Ti
 !      big= 16Mi
 ! 
-! Use these test cases:
+! Use these test cases
+! 
+!     
 ! 
 !                87,654,321
 !               -998,877,665,544,332,211,000      3

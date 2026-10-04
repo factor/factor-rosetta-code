@@ -1,25 +1,28 @@
-! Definitions:
+! Definitions
 ! 
-! -   -   Untouchable numbers are also known as nonaliquot numbers.
+!     
 ! 
-! -   -   An untouchable number is a positive integer that cannot be
-!         expressed as the sum of all the proper divisors of any positive
-!         integer. (From Wikipedia)
+! - - Untouchable numbers are also known as nonaliquot numbers.
 ! 
-! -   -   The sum of all the proper divisors is also known as the aliquot
-!         sum.
+! - - An untouchable number is a positive integer that cannot be expressed
+!     as the sum of all the proper divisors of any positive integer. (From
+!     Wikipedia)
 ! 
-! -   -   An untouchable are those numbers that are not in the image of
-!         the aliquot sum function. (From Wikipedia)
+! - - The sum of all the proper divisors is also known as the aliquot sum.
 ! 
-! -   -   Untouchable numbers: impossible values for the sum of all
-!         aliquot parts function. (From OEIS: The On-line Encyclopedia of
-!         Integer Sequences®)
+! - - An untouchable are those numbers that are not in the image of the
+!     aliquot sum function. (From Wikipedia)
 ! 
-! -   -   An untouchable number is a positive integer that is not the sum
-!         of the proper divisors of any number. (From MathWorld™)
+! - - Untouchable numbers: impossible values for the sum of all aliquot
+!     parts function. (From OEIS: The On-line Encyclopedia of Integer
+!     Sequences®)
 ! 
-! Observations and conjectures:
+! - - An untouchable number is a positive integer that is not the sum of
+!     the proper divisors of any number. (From MathWorld™)
+! 
+! Observations and conjectures
+! 
+!     
 ! 
 ! All untouchable numbers > 5 are composite numbers.
 ! 
@@ -45,27 +48,29 @@
 ! 
 ! According to Chen & Zhao, their natural density is at least d > 0.06.
 ! 
-! Task:
+! Task
 ! 
-! -   -   show (in a grid format) all untouchable numbers ≤ 2,000.
-!     -   show (for the above) the count of untouchable numbers.
-!     -   show the count of untouchable numbers from unity up to
-!         (inclusive):
-!         -   -   10
-!             -   100
-!             -   1,000
-!             -   10,000
-!             -   100,000
-!             -   ... or as high as is you think is practical.
-!     -   all output is to be shown here, on this page.
+!     
 ! 
-! See also:
+! - - show (in a grid format) all untouchable numbers ≤ 2,000.
+!   - show (for the above) the count of untouchable numbers.
+!   - show the count of untouchable numbers from unity up to (inclusive):
+!     - - 10
+!       - 100
+!       - 1,000
+!       - 10,000
+!       - 100,000
+!       - ... or as high as is you think is practical.
+!   - all output is to be shown here, on this page.
 ! 
-! -   -   Wolfram MathWorld: untouchable number.
-!     -   OEIS: A005114 untouchable numbers.
-!     -   OEIS: a list of all untouchable numbers below 100,000
-!         (inclusive).
-!     -   Wikipedia: untouchable number.
-!     -   Wikipedia: Goldbach's conjecture.
+! See also
+! 
+!     
+! 
+! - - Wolfram MathWorld: untouchable number.
+!   - OEIS: A005114 untouchable numbers.
+!   - OEIS: a list of all untouchable numbers below 100,000 (inclusive).
+!   - Wikipedia: untouchable number.
+!   - Wikipedia: Goldbach's conjecture.
 
 

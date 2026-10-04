@@ -5,11 +5,11 @@
 ! 
 ! Problem:
 ! 
-! -   Given a positive rational number $\frac mn$, specified by two
-!     positive integers m, n, output its entire sequence of convergents.
-! -   Given a quadratic real number $\frac{b\sqrt{a} + m}{n} > 0$,
-!     specified by integers a, b, m, n, where a is not a perfect square,
-!     output the first k convergents when given a positive number k.
+! - Given a positive rational number $\frac mn$, specified by two positive
+!   integers m, n, output its entire sequence of convergents.
+! - Given a quadratic real number $\frac{b\sqrt{a} + m}{n} > 0$, specified
+!   by integers a, b, m, n, where a is not a perfect square, output the
+!   first k convergents when given a positive number k.
 ! 
 ! The output format can be whatever is necessary to represent rational
 ! numbers, but it probably should be a 2-tuple of integers.
@@ -27,10 +27,10 @@
 ! 
 ! References and related tasks
 ! 
-! -   Wikipedia: Continued fraction
-! -   Continued fraction
-! -   Continued fraction/Arithmetic
-! -   Continued fraction/Arithmetic/Construct from rational number
-! -   Calkin-Wilf sequence
+! - Wikipedia: Continued fraction
+! - Continued fraction
+! - Continued fraction/Arithmetic
+! - Continued fraction/Arithmetic/Construct from rational number
+! - Calkin-Wilf sequence
 
 

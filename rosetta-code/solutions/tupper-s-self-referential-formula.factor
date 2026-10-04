@@ -46,8 +46,8 @@
 ! 
 ! References
 ! 
-! -   -   Wikipedia: Tupper's self-referential formula
-!     -   Tupper, Jeff. "Reliable Two-Dimensional Graphing Methods for
-!         Mathematical Formulae with Two Free Variables"
+! - - Wikipedia: Tupper's self-referential formula
+!   - Tupper, Jeff. "Reliable Two-Dimensional Graphing Methods for
+!     Mathematical Formulae with Two Free Variables"
 
 

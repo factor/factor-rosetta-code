@@ -5,7 +5,9 @@
 ! in binary, but that's typically invisible to the user, who normally
 ! enters or sees stored integers as decimal.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function (or identify the built-in function) which is passed a
 ! non-negative integer to convert, and another integer representing the

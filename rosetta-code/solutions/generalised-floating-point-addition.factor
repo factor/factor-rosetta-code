@@ -16,10 +16,10 @@
 ! If it is not possible to implement code by providing an implementation
 ! that uses the syntax of the specific language then:
 ! 
-! -   Note the reason why this is.
-! -   Demonstrate that the language still supports the semantics of
-!     generalised floating point by implementing the test case using
-!     built-in code or a library.
+! - Note the reason why this is.
+! - Demonstrate that the language still supports the semantics of
+!   generalised floating point by implementing the test case using
+!   built-in code or a library.
 ! 
 ! Test case:
 ! 

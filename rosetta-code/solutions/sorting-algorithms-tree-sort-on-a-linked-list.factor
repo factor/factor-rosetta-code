@@ -8,12 +8,12 @@
 ! The tree sort is considered by some to be the faster method to sort a
 ! linked list, followed by Quicksort and Mergesort:
 ! 
-! -   A Comparative Study of Linked List Sorting Algorithms by Ching-Kuang
-!     Shene
+! - A Comparative Study of Linked List Sorting Algorithms by Ching-Kuang
+!   Shene
 ! 
 ! Sediment sort, bubble sort, selection sort perform very badly.
 ! 
-! -   http://www.martinbroadhurst.com/sorting-a-linked-list-by-turning-it-into-a-binary-tree.html
+! - http://www.martinbroadhurst.com/sorting-a-linked-list-by-turning-it-into-a-binary-tree.html
 ! 
 ! Task:
 ! 

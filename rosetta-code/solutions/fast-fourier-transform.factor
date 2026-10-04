@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Calculate the FFT (Fast Fourier Transform) of an input sequence.
 ! 

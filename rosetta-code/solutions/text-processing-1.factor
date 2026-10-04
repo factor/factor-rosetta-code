@@ -23,10 +23,10 @@
 !     longest period with successive invalid measurements (i.e values with
 !     flag<=0)
 ! 
-! The data is free to download and use and is of this format:
+! As indicated above, data is no longer available at the original
+! location. However, a zipped mirror (offsite) is available here.
 ! 
-! Data is no longer available at that link. Zipped mirror available here
-! (offsite mirror).
+! The data is of this format:
 ! 
 !     1991-03-30  10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1
 !     1991-03-31  10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   10.000  1   20.000  1   20.000  1   20.000  1   35.000  1   50.000  1   60.000  1   40.000  1   30.000  1   30.000  1   30.000  1   25.000  1   20.000  1   20.000  1   20.000  1   20.000  1   20.000  1   35.000  1
@@ -36,7 +36,7 @@
 !     1991-04-03  10.000  1   9.000   1   10.000  1   10.000  1   9.000   1   10.000  1   15.000  1   24.000  1   28.000  1   24.000  1   18.000  1   14.000  1   12.000  1   13.000  1   14.000  1   15.000  1   14.000  1   15.000  1   13.000  1   13.000  1   13.000  1   12.000  1   10.000  1   10.000  1
 ! 
 ! Only a sample of the data showing its format is given above. The full
-! example file may be downloaded here.
+! example file may be downloaded from the offsite mirror, linked to above.
 ! 
 ! Structure your program to show statistics for each line of the file,
 ! (similar to the original Python, Perl, and AWK examples below), followed

@@ -12,8 +12,8 @@
 ! 
 ! Related
 ! 
-! -   Permutations/Derangements
-! -   Best shuffle
+! - Permutations/Derangements
+! - Best shuffle
 
 USING: assocs fry io.encodings.utf8 io.files kernel math
 math.combinatorics sequences sorting strings ;

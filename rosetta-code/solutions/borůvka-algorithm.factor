@@ -35,21 +35,21 @@
 ! 
 ! Borůvka's algorithm is used in various applications, including:
 ! 
-! -   Network design
-! -   Cluster analysis
-! -   Approximation algorithms for NP-hard problems like the Traveling
-!     salesman problem
+! - Network design
+! - Cluster analysis
+! - Approximation algorithms for NP-hard problems like the Traveling
+!   salesman problem
 ! 
 ! Comparison to other MST algorithms
 ! 
 ! While Borůvka's algorithm has the same asymptotic time complexity as
 ! Kruskal's and Prim's algorithms, it has certain advantages:
 ! 
-! -   It can be parallelized more effectively than the other algorithms.
-! -   It does not require a priority queue, making the implementation
-!     simpler in some contexts.
-! -   It was historically significant as the first algorithm for the MST
-!     problem.
+! - It can be parallelized more effectively than the other algorithms.
+! - It does not require a priority queue, making the implementation
+!   simpler in some contexts.
+! - It was historically significant as the first algorithm for the MST
+!   problem.
 ! 
 ! History
 ! 

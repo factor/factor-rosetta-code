@@ -2,7 +2,9 @@
 ! demarcate a byte stream into frames. Examples can be found in its
 ! Wikipedia article.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! To encode, instances of the byte 0x00 in the unencoded stream are
 ! substituted with the number of bytes until the next instance of 0x00
@@ -12,12 +14,14 @@
 ! milestone, and the final milestone will be the number of bytes until the
 ! final byte - 0x00.
 ! 
-! Bonus tasks:
+! Bonus tasks
 ! 
-! -   Decode an encoded packet
-!     -   Report an error if the final milestone exceeds the length of the
-!         end of the packet
-! -   Support encoding with a non-zero marker
+!     
+! 
+! - Decode an encoded packet
+!   - Report an error if the final milestone exceeds the length of the end
+!     of the packet
+! - Support encoding with a non-zero marker
 ! 
 ! Taken from the Wikipedia article Consistent Overhead Byte Stuffing.
 ! 

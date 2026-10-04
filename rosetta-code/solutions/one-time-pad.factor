@@ -2,34 +2,35 @@
 ! 
 ! To keep it simple, we will be using letters only.
 ! 
-! Sub-Tasks:
+! Sub-Tasks
 ! 
-! -   Generate the data for a One-time pad (user needs to specify a
-!     filename and length)
+!     
+! 
+! - Generate the data for a One-time pad (user needs to specify a filename
+!   and length)
 ! 
 !     The important part is to get "true random" numbers, e.g. from
 !     /dev/random
 ! 
-! -   encryption / decryption ( basically the same operation, much like
-!     Rot-13 )
+! - encryption / decryption ( basically the same operation, much like
+!   Rot-13 )
 ! 
 !     For this step, much of Vigenère cipher could be reused,
 ! 
 ! with the key to be read from the file containing the One-time pad.
 ! 
-! -   optional: management of One-time pads: list, mark as used, delete,
-!     etc.
+! - optional: management of One-time pads: list, mark as used, delete,
+!   etc.
 ! 
 !     Somehow, the users needs to keep track which pad to use for which
 !     partner.
 ! 
 ! To support the management of pad-files:
 ! 
-! -   Such files have a file-extension ".1tp"
-! -   Lines starting with "#" may contain arbitary meta-data (i.e.
-!     comments)
-! -   Lines starting with "-" count as "used"
-! -   Whitespace within the otp-data is ignored
+! - Such files have a file-extension ".1tp"
+! - Lines starting with "#" may contain arbitary meta-data (i.e. comments)
+! - Lines starting with "-" count as "used"
+! - Whitespace within the otp-data is ignored
 ! 
 ! For example, here is the data from Wikipedia:
 ! 
@@ -44,8 +45,8 @@
 ! 
 ! See also
 ! 
-! -   one time pad encryption in Python
-! -   snapfractalpop - One-Time-Pad Command-Line-Utility (C).
-! -   Crypt-OTP-2.00 on CPAN (Perl)
+! - one time pad encryption in Python
+! - snapfractalpop - One-Time-Pad Command-Line-Utility (C).
+! - Crypt-OTP-2.00 on CPAN (Perl)
 
 

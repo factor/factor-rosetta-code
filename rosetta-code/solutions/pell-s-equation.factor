@@ -8,14 +8,18 @@
 ! with integer solutions for x and y, where n is a given non-square
 ! positive integer.
 ! 
-! Task requirements:
+! Task requirements
 ! 
-! -   -   find the smallest solution in positive integers to Pell's
-!         equation for n = {61, 109, 181, 277}.
+!     
 ! 
-! See also:
+! - - find the smallest solution in positive integers to Pell's equation
+!     for n = {61, 109, 181, 277}.
 ! 
-! -   -   Wikipedia entry: Pell's equation.
+! See also
+! 
+!     
+! 
+! - - Wikipedia entry: Pell's equation.
 
 USING: formatting kernel locals math math.functions sequences ;
 

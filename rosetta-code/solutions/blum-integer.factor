@@ -26,11 +26,11 @@
 ! 
 ! Related task
 ! 
-! -   Semiprime
+! - Semiprime
 ! 
 ! References
 ! 
-! -   Wikipedia article Blum integer
-! -   OEIS sequence A016105: Blum integers
+! - Wikipedia article Blum integer
+! - OEIS sequence A016105: Blum integers
 
 

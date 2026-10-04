@@ -1,10 +1,14 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Pass a function as an argument to another function.
 ! 
-! Related task:
+! Related task
 ! 
-! -   First-class functions
+!     
+! 
+! - First-class functions
 
 USING: io ;
 IN: rosetacode

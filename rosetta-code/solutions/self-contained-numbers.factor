@@ -41,18 +41,18 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first 6 self-contained numbers. Extra kudos for
-!     doing so without using predetermined limits.
+! - Find and display the first 6 self-contained numbers. Extra kudos for
+!   doing so without using predetermined limits.
 ! 
 ! Stretch
 ! 
-! -   Find and display all 7 known self-contained numbers. Extra kudos for
-!     doing so without using predetermined limits.
+! - Find and display all 7 known self-contained numbers. Extra kudos for
+!   doing so without using predetermined limits.
 ! 
 ! See also
 ! 
-! -   OEIS: A005184 - Self-contained numbers: odd numbers k whose Collatz
-!     sequence contains a higher multiple of k
-! -   Task: Hailstone sequence
+! - OEIS: A005184 - Self-contained numbers: odd numbers k whose Collatz
+!   sequence contains a higher multiple of k
+! - Task: Hailstone sequence
 
 

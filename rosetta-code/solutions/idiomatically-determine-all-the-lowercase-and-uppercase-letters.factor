@@ -1,7 +1,5 @@
 ! []
 ! 
-! |right
-! 
 ! Idiomatically determine all the lowercase and uppercase letters (of the
 ! Latin [English] alphabet) being used currently by a computer programming
 ! language. The method should find the letters regardless of the hardware
@@ -11,8 +9,8 @@
 ! 
 ! Display the set of all:
 ! 
-! -   -   lowercase letters
-!     -   uppercase letters
+! - - lowercase letters
+!   - uppercase letters
 ! 
 ! that can be used (allowed) by the computer program,
 ! 
@@ -24,8 +22,8 @@
 ! 
 ! See also
 ! 
-! -   Idiomatically determine all the characters that can be used for
-!     symbols.
+! - Idiomatically determine all the characters that can be used for
+!   symbols.
 
 
 USE: math.ranges

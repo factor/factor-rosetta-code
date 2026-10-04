@@ -4,7 +4,9 @@
 ! A FASTA file can contain several strings, each identified by a name
 ! marked by a > (greater than) character at the beginning of the line.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that reads a FASTA file such as:
 ! 

@@ -79,20 +79,20 @@
 ! generate the addition-chains for 12509, 31415 and 27182 and use
 ! addition-chain exponentiation to calculate these two equations:
 ! 
-! -   1.00002206445416³¹⁴¹⁵
-! -   1.00002550055251²⁷¹⁸²
+! - 1.00002206445416³¹⁴¹⁵
+! - 1.00002550055251²⁷¹⁸²
 ! 
 ! Also: Display a count of how many multiplications were done in each
 ! case.
 ! 
 ! Note: There are two ways to approach this task:
 ! 
-! -   Brute force - try every permutation possible and pick one with the
-!     least number of multiplications. If the brute force is a simpler
-!     algorithm, then present it as a subtask under the subtitle "Brute
-!     force", eg ===Brute Force===.
-! -   Some clever algorithm - the wikipedia page has some hints, subtitle
-!     the code with the name of algorithm.
+! - Brute force - try every permutation possible and pick one with the
+!   least number of multiplications. If the brute force is a simpler
+!   algorithm, then present it as a subtask under the subtitle "Brute
+!   force", eg ===Brute Force===.
+! - Some clever algorithm - the wikipedia page has some hints, subtitle
+!   the code with the name of algorithm.
 ! 
 ! Note: Binary exponentiation does not usually produce the best solution.
 ! Provide only optimal solutions.

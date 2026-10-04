@@ -2,12 +2,12 @@
 ! maximal-length non-increasing subsequences. Categorize each of these
 ! subsequences by its percentage change using the following groups:
 ! 
-! -   Greater than 0% and less than 4%
-! -   Greater than or equal to 4% and less than 8%
-! -   Greater than or equal to 8% and less than 12%
-! -   Greater than or equal to 12% and less than 16%
-! -   Greater than or equal to 16% and less than 25%
-! -   Greater than or equal to 25%
+! - Greater than 0% and less than 4%
+! - Greater than or equal to 4% and less than 8%
+! - Greater than or equal to 8% and less than 12%
+! - Greater than or equal to 12% and less than 16%
+! - Greater than or equal to 16% and less than 25%
+! - Greater than or equal to 25%
 ! 
 ! If we were to plot these values, we'd be looking for peaks and troughs,
 ! categorized by the difference between the local maximum and the local

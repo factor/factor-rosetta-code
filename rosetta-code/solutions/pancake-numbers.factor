@@ -18,7 +18,10 @@
 ! Few people know p(20), generously I shall award an extra credit for
 ! anyone doing more than p(16).
 ! 
-! Warning: It is known that p(19) is 22 (see in particular the discussion at A058986); thus any algorithm that claims otherwise must be treated with caution.
+! Warning
+!     It is known that p(19) is 22 (see in particular the discussion at
+!     A058986); thus any algorithm that claims otherwise must be treated
+!     with caution.
 ! 
 !     Note that the original "cheeky partial answer" of Phix has since
 !     been updated (5/12/2020), and/but just that, with no examples as

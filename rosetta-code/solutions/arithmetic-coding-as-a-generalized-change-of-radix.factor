@@ -17,10 +17,10 @@
 ! 
 ! Show the results, in base 10, for all the following strings:
 ! 
-! -   "DABDDB"
-! -   "DABDDBBDDBA"
-! -   "ABRACADABRA"
-! -   "TOBEORNOTTOBEORTOBEORNOT"
+! - "DABDDB"
+! - "DABDDBBDDBA"
+! - "ABRACADABRA"
+! - "TOBEORNOTTOBEORTOBEORNOT"
 ! 
 ! Verify the implementation by decoding the results back into strings and
 ! checking for equality with the given strings.

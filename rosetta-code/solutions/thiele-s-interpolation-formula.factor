@@ -24,15 +24,15 @@
 ! 
 ! 1.  Building a 32 row trig table of values for x from 0 by 0.05 to 1.55
 !     of the trig functions:
-!     -   sin
-!     -   cos
-!     -   tan
+!     - sin
+!     - cos
+!     - tan
 ! 2.  Using columns from this table define an inverse - using Thiele's
 !     interpolation - for each trig function;
 ! 3.  Finally: demonstrate the following well known trigonometric
 !     identities:
-!     -    6 × sin⁻¹ ½ = π
-!     -    3 × cos⁻¹ ½ = π
-!     -    4 × tan⁻¹ 1 = π
+!     -  6 × sin⁻¹ ½ = π
+!     -  3 × cos⁻¹ ½ = π
+!     -  4 × tan⁻¹ 1 = π
 
 

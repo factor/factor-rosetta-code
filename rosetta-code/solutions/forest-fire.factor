@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement the Drossel and Schwabl definition of the forest-fire model.
 ! 
@@ -22,10 +24,12 @@
 ! change parameters (probabilities p and f ) through a graphical or
 ! command line interface.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   See Conway's Game of Life
-! -   See Wireworld.
+!     
+! 
+! - See Conway's Game of Life
+! - See Wireworld.
 
 USING: combinators grouping kernel literals math math.matrices
 math.vectors prettyprint random raylib.ffi sequences ;

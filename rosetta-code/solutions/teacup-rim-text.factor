@@ -13,12 +13,14 @@
 ! rather that TEA. And that's just English. What about Italian or Greek or
 ! ... um ... Telugu.
 ! 
-! For English, we will use the unixdict (now) located at: unixdict.txt.
+! For English, we will use words from Unixdict.txt.
 ! 
 ! (This will maintain continuity with other Rosetta Code tasks that also
 ! use it.)
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Search for a set of words that could be printed around the edge of a
 ! teacup. The words in each set are to be of the same length, that length

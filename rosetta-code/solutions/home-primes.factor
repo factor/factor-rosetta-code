@@ -28,16 +28,16 @@
 ! 
 ! Task
 ! 
-! -   Find and show here, on this page, the home prime iteration chains
-!     for the integers 2 through 20 inclusive.
+! - Find and show here, on this page, the home prime iteration chains for
+!   the integers 2 through 20 inclusive.
 ! 
 ! Stretch goal
 ! 
-! -   Find and show the iteration chain for 65.
+! - Find and show the iteration chain for 65.
 ! 
 ! Impossible goal
 ! 
-! -   Show the the home prime for HP49.
+! - Show the the home prime for HP49.
 ! 
 ! See also
 ! 

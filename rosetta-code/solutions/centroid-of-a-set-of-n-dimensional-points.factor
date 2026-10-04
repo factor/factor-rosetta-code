@@ -5,12 +5,16 @@
 ! Consider the centroid defined as the arithmetic mean of a set of points
 ! of arbitrary dimension.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a function in your chosen programming language to calculate such
 ! a centroid using an arbitrary number of points of arbitrary dimension.
 ! 
-! ;; Test your function with the following groups of points:
+! ;; Test your function with the following groups of points
+! 
+!     
 ! 
 ! one-dimensional: (1), (2), (3)
 ! 
@@ -24,7 +28,10 @@
 ! 
 !    Show a 3D plot image of the second 3-dimensional set and its centroid.
 ! 
-! See Also:
+! See Also
+! 
+!     
+! 
 ! ; https://en.wikipedia.org/wiki/Centroid Wikipedia page
 ! ; https://mathworld.wolfram.com/GeometricCentroid.html Wolfram Mathworld on Centroid
 

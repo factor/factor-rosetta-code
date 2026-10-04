@@ -1,18 +1,20 @@
-! Related tasks:
+! Related tasks
 ! 
-! -   Arrays
-! -   Vector
-!     -   Dot product
-!     -   Vector products
-! -   Matrices
-! -   Bivector
-! -   Antivector
-! -   Tensor
-! -   Quaternion
-! -   Rotor
-! -   Motor
-! -   Sedenion
-! -   Octonion
+!     
+! 
+! - Arrays
+! - Vector
+!   - Dot product
+!   - Vector products
+! - Matrices
+! - Bivector
+! - Antivector
+! - Tensor
+! - Quaternion
+! - Rotor
+! - Motor
+! - Sedenion
+! - Octonion
 ! 
 ! Task
 ! 
@@ -22,15 +24,15 @@
 ! 
 ! The Vector may be initialized in any reasonable way.
 ! 
-! -   Start and end points, and direction
-! -   Angular coefficient and value (length)
+! - Start and end points, and direction
+! - Angular coefficient and value (length)
 ! 
 ! The four operations to be implemented are:
 ! 
-! -   Vector  + Vector addition
-! -   Vector  - Vector subtraction
-! -   Vector  * scalar multiplication
-! -   Vector / scalar division
+! - Vector  + Vector addition
+! - Vector  - Vector subtraction
+! - Vector  * scalar multiplication
+! - Vector / scalar division
 
 (scratchpad) USE: math.vectors
 (scratchpad) { 1 2 } { 3 4 } v+

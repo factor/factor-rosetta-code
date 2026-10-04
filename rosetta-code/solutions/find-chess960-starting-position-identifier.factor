@@ -5,7 +5,9 @@
 ! positions, and some of the solutions accept a standard Starting Position
 ! Identifier number ("SP-ID"), and generate the corresponding position.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! This task is to go the other way: given a starting array of pieces
 ! (provided in any form that suits your implementation, whether string or
@@ -21,7 +23,9 @@
 ! on the same color square or the king not between the two rooks) is
 ! optional.
 ! 
-! Algorithm:
+! Algorithm
+! 
+!     
 ! 
 ! The derivation is the inverse of the algorithm given at Wikipedia, and
 ! goes like this (we'll use the standard chess setup as an example).

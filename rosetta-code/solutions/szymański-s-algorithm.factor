@@ -9,10 +9,10 @@
 ! 
 ! Task
 ! 
-! -   Implement Szymanski's algorithm utilizing parallel processes,
-!     threads, or similar coroutines.
-! -   Your example should implement the steps shown in the Wikipedia's
-!     pseudocode at the Wikipedia reference below.
+! - Implement Szymanski's algorithm utilizing parallel processes, threads,
+!   or similar coroutines.
+! - Your example should implement the steps shown in the Wikipedia's
+!   pseudocode at the Wikipedia reference below.
 ! 
 ! See also
 ! * https://en.wikipedia.org/wiki/Szyma%C5%84ski%27s_algorithm Wikipedia entry for Szymański's algorithm

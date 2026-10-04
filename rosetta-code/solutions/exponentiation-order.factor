@@ -16,22 +16,26 @@
 ! Using whatever operator or syntax your language supports (if any), show
 ! the results in three lines (with identification):
 ! 
-! -   -   5**3**2
-!     -   (5**3)**2
-!     -   5**(3**2)
+! - - 5**3**2
+!   - (5**3)**2
+!   - 5**(3**2)
 ! 
 ! If there are other methods (or formats) of multiple exponentiations,
 ! show them as well.
 ! 
-! See also:
+! See also
 ! 
-! -   MathWorld entry: exponentiation
+!     
 ! 
-! Related tasks:
+! - MathWorld entry: exponentiation
 ! 
-! -   exponentiation operator
-! -   arbitrary-precision integers (included)
-! -   Exponentiation with infix operators in (or operating on) the base
+! Related tasks
+! 
+!     
+! 
+! - exponentiation operator
+! - arbitrary-precision integers (included)
+! - Exponentiation with infix operators in (or operating on) the base
 
 USING: formatting math.functions ;
 

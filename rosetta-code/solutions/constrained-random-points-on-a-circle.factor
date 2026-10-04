@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Generate 100 <x,y> coordinate pairs such that x and y are integers
 ! sampled from the uniform distribution with the condition that

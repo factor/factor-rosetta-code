@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function to compute the arithmetic-geometric mean of two
 ! numbers.
@@ -16,9 +18,11 @@
 ! 
 ! $$\mathrm{agm}(1,1/\sqrt{2})$$
 ! 
-! Also see:
+! Also see
 ! 
-! -   mathworld.wolfram.com/Arithmetic-Geometric Mean
+!     
+! 
+! - mathworld.wolfram.com/Arithmetic-Geometric Mean
 
 USING: kernel math math.functions prettyprint ;
 IN: rosetta-code.arithmetic-geometric-mean

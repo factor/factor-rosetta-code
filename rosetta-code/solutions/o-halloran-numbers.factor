@@ -28,8 +28,8 @@
 ! 
 ! Task
 ! 
-! -   Find and display the sixteen even integer values larger than 6 (the
-!     minimum cuboid area) and less than 1000
+! - Find and display the sixteen even integer values larger than 6 (the
+!   minimum cuboid area) and less than 1000
 ! 
 ! that can not be the surface area of a cuboid.
 ! 

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show primes which sum of its decimal digits is 25
 ! 

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! p and q are coprimes if they have no common factors other than 1.
 ! 

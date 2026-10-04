@@ -1,11 +1,15 @@
 ! The prime decomposition of a number is defined as a list of prime
 ! numbers which when all multiplied together, are equal to that number.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 !  12 = 2 × 2 × 3,  so its prime decomposition is  {2, 2, 3}
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function which returns an array or collection which contains the
 ! prime decomposition of a given number n greater than 1.
@@ -21,16 +25,18 @@
 ! or some other artificial limit; it should work for any number regardless
 ! of size (ignoring the physical limits of RAM etc).
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   count in factors
-! -   factors of an integer
-! -   Sieve of Eratosthenes
-! -   primality by trial division
-! -   factors of a Mersenne number
-! -   trial factoring of a Mersenne number
-! -   partition an integer X into N primes
-! -   sequence of primes by Trial Division
+!     
+! 
+! - count in factors
+! - factors of an integer
+! - Sieve of Eratosthenes
+! - primality by trial division
+! - factors of a Mersenne number
+! - trial factoring of a Mersenne number
+! - partition an integer X into N primes
+! - sequence of primes by Trial Division
 ! 
 ! Category:Arbitrary precision
 

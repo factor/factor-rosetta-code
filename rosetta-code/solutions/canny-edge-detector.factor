@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that performs so-called canny edge detection on an
 ! image.

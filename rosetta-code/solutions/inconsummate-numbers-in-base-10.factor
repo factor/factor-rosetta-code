@@ -19,14 +19,14 @@
 ! 
 ! Task
 ! 
-! -   Write a routine to find inconsummate numbers in base 10;
-! -   Use that routine to find and display the first fifty inconsummate
-!     numbers.
+! - Write a routine to find inconsummate numbers in base 10;
+! - Use that routine to find and display the first fifty inconsummate
+!   numbers.
 ! 
 ! Stretch
 ! 
-! -   Use that routine to find and display the one thousandth inconsummate
-!     number.
+! - Use that routine to find and display the one thousandth inconsummate
+!   number.
 ! 
 ! See also
 ! * Numbers Aplenty - Inconsummate numbers

@@ -11,31 +11,30 @@
 ! horizontal symmetry about the initial line segment. Each quadrant
 ! corresponds to a digit place in the number:
 ! 
-! -   -   The upper-right quadrant represents the ones place.
-!     -   The upper-left quadrant represents the tens place.
-!     -   The lower-right quadrant represents the hundreds place.
-!     -   The lower-left quadrant represents the thousands place.
+! - - The upper-right quadrant represents the ones place.
+!   - The upper-left quadrant represents the tens place.
+!   - The lower-right quadrant represents the hundreds place.
+!   - The lower-left quadrant represents the thousands place.
 ! 
 ! Please consult the following image for examples of Cistercian numerals
 ! showing each glyph: 1
 ! 
 ! Task
 ! 
-! -   -   Write a function/procedure/routine to display any given
-!         Cistercian numeral. This could be done by drawing to the
-!         display, creating an image, or even as text (as long as it is a
-!         reasonable facsimile).
+! - - Write a function/procedure/routine to display any given Cistercian
+!     numeral. This could be done by drawing to the display, creating an
+!     image, or even as text (as long as it is a reasonable facsimile).
 ! 
-! -   -   Use the routine to show the following Cistercian numerals:
+! - - Use the routine to show the following Cistercian numerals:
 ! 
-! -   -   0
-!     -   1
-!     -   20
-!     -   300
-!     -   4000
-!     -   5555
-!     -   6789
-!     -   And a number of your choice!
+! - - 0
+!   - 1
+!   - 20
+!   - 300
+!   - 4000
+!   - 5555
+!   - 6789
+!   - And a number of your choice!
 ! 
 ! Notes
 ! 
@@ -45,8 +44,8 @@
 ! 
 ! See also
 ! 
-! -   -   Numberphile - The Forgotten Number System
-!     -   dcode.fr - Online Cistercian numeral converter
+! - - Numberphile - The Forgotten Number System
+!   - dcode.fr - Online Cistercian numeral converter
 
 USING: combinators continuations formatting grouping io kernel
 literals math.order math.text.utils multiline sequences

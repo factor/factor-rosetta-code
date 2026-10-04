@@ -5,9 +5,9 @@
 ! 
 ! The interface should provide
 ! 
-! -   the ability to recall previously typed commands
-! -   commandline editing
-! -   application specific commands
+! - the ability to recall previously typed commands
+! - commandline editing
+! - application specific commands
 ! 
 ! The application could be based on Simple database or something else.
 ! 

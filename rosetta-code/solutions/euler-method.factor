@@ -71,24 +71,28 @@
 ! 
 !         T(t) = T_(R) + (T₀ − T_(R)) e^(−kt)
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a routine of Euler's method and then to use it to solve the
 ! given example of Newton's cooling law with it for three different step
 ! sizes of:
 ! 
-! -   -   2 s
-!     -   5 s and
-!     -   10 s
+! - - 2 s
+!   - 5 s and
+!   - 10 s
 ! 
 ! and to compare with the analytical solution.
 ! 
-! Initial values:
+! Initial values
 ! 
-! -   -   initial temperature T₀ shall be 100 °C
-!     -   room temperature T_(R) shall be 20 °C
-!     -   cooling constant k shall be 0.07
-!     -   time interval to calculate shall be from 0 s ──► 100 s
+!     
+! 
+! - - initial temperature T₀ shall be 100 °C
+!   - room temperature T_(R) shall be 20 °C
+!   - cooling constant k shall be 0.07
+!   - time interval to calculate shall be from 0 s ──► 100 s
 ! 
 ! A reference solution (Common Lisp) can be seen below. We see that bigger
 ! step sizes lead to reduced approximation accuracy. []

@@ -5,11 +5,11 @@
 ! file must be compiled after any file containing definitions it depends
 ! on. A tool exists that extracts file dependencies.
 ! 
-! -   Assume the file names are single words, given without their file
-!     extensions.
-! -   Files mentioned as only dependants, have no dependants of their own,
-!     but their order of compiling must be given.
-! -   Any self dependencies should be ignored.
+! - Assume the file names are single words, given without their file
+!   extensions.
+! - Files mentioned as only dependants, have no dependants of their own,
+!   but their order of compiling must be given.
+! - Any self dependencies should be ignored.
 ! 
 ! A top level file is defined as a file that:
 ! 
@@ -44,9 +44,11 @@
 ! compiling any file might not include all files; and that checks for
 ! dependency cycles are not mandated.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Topological sort
+!     
+! 
+! - Topological sort
 ! 
 ! Category:Sorting
 

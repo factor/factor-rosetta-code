@@ -140,14 +140,14 @@
 ! 
 ! For each of the first 10 Metallic ratios; b = 0 through 9:
 ! 
-! -   Generate the corresponding "Lucas" sequence.
-! -   Show here, on this page, at least the first 15 elements of the
-!     "Lucas" sequence.
-! -   Using successive approximations, calculate the value of the ratio
-!     accurate to 32 decimal places.
-! -   Show the value of the approximation at the required accuracy.
-! -   Show the value of n when the approximation reaches the required
-!     accuracy (How many iterations did it take?).
+! - Generate the corresponding "Lucas" sequence.
+! - Show here, on this page, at least the first 15 elements of the "Lucas"
+!   sequence.
+! - Using successive approximations, calculate the value of the ratio
+!   accurate to 32 decimal places.
+! - Show the value of the approximation at the required accuracy.
+! - Show the value of n when the approximation reaches the required
+!   accuracy (How many iterations did it take?).
 ! 
 ! Optional, stretch goal - Show the value and number of iterations n, to
 ! approximate the Golden ratio to 256 decimal places.
@@ -157,8 +157,8 @@
 ! 
 ! See also
 ! 
-! -   Wikipedia: Metallic mean
-! -   Wikipedia: Lucas sequence
+! - Wikipedia: Metallic mean
+! - Wikipedia: Lucas sequence
 
 USING: combinators decimals formatting generalizations io kernel
 math prettyprint qw sequences ;

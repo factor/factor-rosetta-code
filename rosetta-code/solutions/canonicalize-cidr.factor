@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a function or program that, given a range of IPv4 addresses in
 ! CIDR notation (dotted-decimal/network-bits), will return/output the same
@@ -7,11 +9,15 @@
 ! That is, the IP address portion of the output CIDR block must not
 ! contain any set (1) bits in the host part of the address.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! Given 87.70.141.1/22, your code should output 87.70.140.0/22
 ! 
-! Explanation:
+! Explanation
+! 
+!     
 ! 
 ! An Internet Protocol version 4 address is a 32-bit value, conventionally
 ! represented as a number in base 256 using dotted-decimal notation, where

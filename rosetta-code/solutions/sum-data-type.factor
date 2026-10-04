@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a sum data type:
 ! 
@@ -10,9 +12,11 @@
 ! as tagged union, variant, variant record, choice type, discriminated
 ! union, disjoint union or coproduct.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Compound data type
+!     
+! 
+! - Compound data type
 
 USING: accessors kernel math math.parser strings ;
 

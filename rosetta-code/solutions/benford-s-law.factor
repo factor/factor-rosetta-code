@@ -43,8 +43,8 @@
 ! 
 ! See also:
 ! 
-! -   numberphile.com.
-! -   A starting page on Wolfram Mathworld is .
+! - numberphile.com.
+! - A starting page on Wolfram Mathworld is .
 
 USING: assocs compiler.tree.propagation.call-effect formatting
 kernel math math.functions math.statistics math.text.utils

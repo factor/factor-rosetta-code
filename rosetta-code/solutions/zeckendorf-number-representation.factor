@@ -17,7 +17,9 @@
 ! that no two consecutive Fibonacci numbers can be used which leads to the
 ! former unique solution.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Generate and show here a table of the Zeckendorf number representations
 ! of the decimal numbers zero to twenty, in order.
@@ -27,14 +29,18 @@
 ! rather than calculating each value separately but leave that to another
 ! separate task.
 ! 
-! Also see:
+! Also see
 ! 
-! -   OEIS A014417 for the the sequence of required results.
-! -   Brown's Criterion - Numberphile
+!     
 ! 
-! Related task:
+! - OEIS A014417 for the the sequence of required results.
+! - Brown's Criterion - Numberphile
 ! 
-! -   Fibonacci sequence
+! Related task
+! 
+!     
+! 
+! - Fibonacci sequence
 
 USING: formatting kernel locals make math sequences ;
 

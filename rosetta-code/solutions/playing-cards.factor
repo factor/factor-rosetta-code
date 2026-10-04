@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a data structure and the associated methods to define and
 ! manipulate a deck of playing cards.
@@ -7,21 +9,21 @@
 ! 
 ! The methods must include the ability to:
 ! 
-! -   -   make a new deck
-!     -   shuffle (randomize) the deck
-!     -   deal from the deck
-!     -   print the current contents of a deck
+! - - make a new deck
+!   - shuffle (randomize) the deck
+!   - deal from the deck
+!   - print the current contents of a deck
 ! 
 ! Each card must have a pip value and a suit value which constitute the
 ! unique value of the card.
 ! 
 ! Related tasks:
 ! 
-! -   Card shuffles
-! -   Deal cards_for_FreeCell
-! -   War Card_Game
-! -   Poker hand_analyser
-! -   Go Fish
+! - Card shuffles
+! - Deal cards_for_FreeCell
+! - War Card_Game
+! - Poker hand_analyser
+! - Go Fish
 ! 
 ! Category:Cards
 

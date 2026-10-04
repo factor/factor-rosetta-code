@@ -9,7 +9,9 @@
 ! Given a set S, the power set (or powerset) of S, written P(S), or 2^(S),
 ! is the set of all subsets of S.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! By using a library or built-in set type, or by defining a set type with
 ! necessary operations, write a function with a set S as input that yields

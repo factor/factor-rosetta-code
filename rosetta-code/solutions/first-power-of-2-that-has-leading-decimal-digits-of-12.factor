@@ -19,15 +19,17 @@
 ! 
 !          p(123, 45)  =  12710
 ! 
-! Task:
+! Task
 ! 
-! -   -   find:
-!         -   -    p(12, 1)
-!             -    p(12, 2)
-!             -    p(123, 45)
-!             -    p(123, 12345)
-!             -    p(123, 678910)
-!     -   display the results here, on this page.
+!     
+! 
+! - - find:
+!     - -  p(12, 1)
+!       -  p(12, 2)
+!       -  p(123, 45)
+!       -  p(123, 12345)
+!       -  p(123, 678910)
+!   - display the results here, on this page.
 
 USING: formatting fry generalizations kernel literals math
 math.functions math.parser sequences tools.time ;

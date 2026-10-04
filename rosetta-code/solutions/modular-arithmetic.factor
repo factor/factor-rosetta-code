@@ -33,7 +33,9 @@
 ! modular integers. In other words, the function is an algebraic
 ! expression that could be used with any ring, not just integers.
 ! 
-! Related tasks:
+! Related tasks
+! 
+!     
 ! 
 ! Modular exponentiation
 

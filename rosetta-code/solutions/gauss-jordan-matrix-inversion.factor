@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Invert matrix A using Gauss-Jordan method.
 ! 

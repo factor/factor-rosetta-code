@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Draw a sphere.
 ! 
@@ -7,12 +9,14 @@
 ! 
 ! Either static or rotational projection is acceptable for this task.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   draw a cuboid
-! -   draw a rotating cube
-! -   write language name in 3D ASCII
-! -   draw a Deathstar
+!     
+! 
+! - draw a cuboid
+! - draw a rotating cube
+! - write language name in 3D ASCII
+! - draw a Deathstar
 ! 
 ! Category:3D
 

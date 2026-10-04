@@ -8,12 +8,16 @@
 ! 
 ! is the unique sum of two different Ulam numbers u_(i(<n)) and u_(j(<n)).
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function to generate the n^(th) Ulam number.
 ! 
-! References:
+! References
 ! 
-! -   OEIS Ulam numbers
+!     
+! 
+! - OEIS Ulam numbers
 
 

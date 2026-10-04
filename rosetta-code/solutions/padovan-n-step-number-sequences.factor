@@ -42,7 +42,9 @@
 ! A117760: 'Expansion of 1/(1 - x - x^3 - x^5 - x^7)' |- | 8 ||
 ! 1,1,1,2,3,5,8,13,21,34,54,87,140,225,362, ... || |- |}
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Write a function to generate the first t terms, of the first
 !     2..max_n Padovan n-step number sequences as defined above.

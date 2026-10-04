@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find and display here on this page the Frobenius numbers that are <
 ! 10,000.

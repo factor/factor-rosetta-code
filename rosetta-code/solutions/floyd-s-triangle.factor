@@ -1,9 +1,9 @@
 ! Floyd's triangle lists the natural numbers in a right triangle aligned
 ! to the left where
 ! 
-! -   the first row is 1 (unity)
-! -   successive rows start towards the left with the next number followed
-!     by successive naturals listing one more number than the line above.
+! - the first row is 1 (unity)
+! - successive rows start towards the left with the next number followed
+!   by successive naturals listing one more number than the line above.
 ! 
 ! The first few lines of a Floyd triangle looks like this:
 ! 
@@ -13,10 +13,12 @@
 !      7  8  9 10
 !     11 12 13 14 15
 ! 
-! Task:
+! Task
 ! 
-! :# Write a program to generate and display here the first n lines of a
-! Floyd triangle. (Use n=5 and n=14 rows).
+!     1.  Write a program to generate and display here the first n lines
+!         of a Floyd triangle.
+! 
+! (Use n=5 and n=14 rows).
 ! 
 ! :# Ensure that when displayed in a mono-space font, the numbers line up
 ! in vertical columns as shown and that only one space separates numbers

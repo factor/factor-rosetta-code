@@ -41,15 +41,19 @@
 ! 
 ! He may not cut the items, so he can only take whole units of any item.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show which items does the tourist carry in his knapsack so that their
 ! total weight does not exceed 4 kg, and their total value is maximized.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Knapsack problem/Unbounded
-! -   Knapsack problem/Continuous
-! -   Knapsack problem/0-1
+!     
+! 
+! - Knapsack problem/Unbounded
+! - Knapsack problem/Continuous
+! - Knapsack problem/0-1
 
 

@@ -1,7 +1,9 @@
 ! Some languages have special semantics for obtaining a known line number
 ! from a file.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate how to obtain the contents of a specific line within a file.
 ! 

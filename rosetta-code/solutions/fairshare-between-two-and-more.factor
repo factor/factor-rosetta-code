@@ -11,7 +11,9 @@
 !     "When counting in binary, the digit sum modulo 2 is the Thue-Morse
 !     sequence"
 ! 
-! Sharing fairly between two or more:
+! Sharing fairly between two or more
+! 
+!     
 ! 
 ! Use this method:
 ! 
@@ -28,20 +30,24 @@
 ! 
 ! Show the first 25 terms of the fairshare sequence:
 ! 
-! -   -   For two people:
-!     -   For three people
-!     -   For five people
-!     -   For eleven people
+! - - For two people:
+!   - For three people
+!   - For five people
+!   - For eleven people
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Non-decimal radices/Convert
-!     -   Thue-Morse
+!     
 ! 
-! See also:
+! - - Non-decimal radices/Convert
+!   - Thue-Morse
 ! 
-! -   -   A010060, A053838, A053840: The On-Line Encyclopedia of Integer
-!         Sequences® (OEIS®)
+! See also
+! 
+!     
+! 
+! - - A010060, A053838, A053840: The On-Line Encyclopedia of Integer
+!     Sequences® (OEIS®)
 
 USING: formatting kernel math math.parser sequences ;
 

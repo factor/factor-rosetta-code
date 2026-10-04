@@ -12,15 +12,17 @@
 ! 
 ! The storage pool chosen by the allocator can be determined by either:
 ! 
-! -   the object type T
-! -   the type of pointer P
+! - the object type T
+! - the type of pointer P
 ! 
 ! In the former case objects can be allocated only in one storage pool.
 ! 
 ! In the latter case objects of the type can be allocated in any storage
 ! pool or on the stack.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! The task is to show how allocators and user-defined storage pools are
 ! supported by the language.

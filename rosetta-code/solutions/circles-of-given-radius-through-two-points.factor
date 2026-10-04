@@ -3,7 +3,9 @@
 ! Given two points on a plane and a radius, usually two circles of given
 ! radius can be drawn through the points.
 ! 
-! Exceptions:
+! Exceptions
+! 
+!     
 ! 
 ! 1.  r==0.0 should be treated as never describing circles (except in the
 !     case where the points are coincident).
@@ -15,13 +17,15 @@
 !     mechanism for the implementation language.
 ! 4.  If the points are too far apart then no circles can be drawn.
 ! 
-! Task detail:
+! Task detail
 ! 
-! -   Write a function/subroutine/method/... that takes two points and a
-!     radius and returns the two circles through those points, or some
-!     indication of special cases where two, possibly equal, circles
-!     cannot be returned.
-! -   Show here the output for the following inputs:
+!     
+! 
+! - Write a function/subroutine/method/... that takes two points and a
+!   radius and returns the two circles through those points, or some
+!   indication of special cases where two, possibly equal, circles cannot
+!   be returned.
+! - Show here the output for the following inputs:
 ! 
 !           p1                p2           r
 !     0.1234, 0.9876    0.8765, 0.2345    2.0
@@ -30,14 +34,18 @@
 !     0.1234, 0.9876    0.8765, 0.2345    0.5
 !     0.1234, 0.9876    0.1234, 0.9876    0.0
 ! 
-! Related task:
+! Related task
 ! 
-! -   Total circles area.
+!     
 ! 
-! See also:
+! - Total circles area.
 ! 
-! -   Finding the Center of a Circle from 2 Points and Radius from Math
-!     forum @ Drexel
+! See also
+! 
+!     
+! 
+! - Finding the Center of a Circle from 2 Points and Radius from Math
+!   forum @ Drexel
 ! 
 ! Category:Geometry
 

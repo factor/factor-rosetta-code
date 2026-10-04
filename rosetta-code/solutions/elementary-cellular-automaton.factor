@@ -10,7 +10,9 @@
 ! state is updated to 1 only in the cases 011, 010 and 000, since 13 in
 ! binary is 0b00001101.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a subroutine, program or function that allows to create and
 ! visualize the evolution of any of the 256 possible elementary cellular
@@ -24,13 +26,15 @@
 ! This task is basically a generalization of one-dimensional cellular
 ! automata.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   One-dimensional cellular automata
+!     
+! 
+! - One-dimensional cellular automata
 ! 
 ! See also
 ! 
-! -   Cellular automata (natureofcode.com)
+! - Cellular automata (natureofcode.com)
 
 USING: assocs formatting grouping io kernel math math.bits
 math.combinatorics sequences sequences.extras ;

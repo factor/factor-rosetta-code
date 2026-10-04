@@ -13,25 +13,29 @@
 ! variables. White space is not permitted as part of camel case or snake
 ! case variable names.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Write two functions, one to change snake case to camel case and
-!         one to change camel case to snake case. If possible, generalize
-!         the function enough to apply to strings containing spaces
-!         between words or a `-` dash between words, assuming that in
-!         those cases a space or hyphen is a also a separator character,
-!         like `_`, for the purpose of creating a new variable name.
-!         Leading or trailing whitespace may be ignored.
+!     
 ! 
-! -   -   Show the results on changing to both snake case and camel case
-!         for each of the following strings:
+! - - Write two functions, one to change snake case to camel case and one
+!     to change camel case to snake case. If possible, generalize the
+!     function enough to apply to strings containing spaces between words
+!     or a `-` dash between words, assuming that in those cases a space or
+!     hyphen is a also a separator character, like `_`, for the purpose of
+!     creating a new variable name. Leading or trailing whitespace may be
+!     ignored.
+! 
+! - - Show the results on changing to both snake case and camel case for
+!     each of the following strings:
 ! 
 !     "snakeCase", "snake_case", "variable_10_case", "variable10Case", "ɛrgo rE tHis",
 !     "hurry-up-joe!", "c://my-docs/happy_Flag-Day/12.doc", "  spaces  "
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Naming_conventions
+!     
+! 
+! - Naming_conventions
 
 USING: formatting kernel math regexp sequences splitting
 splitting.extras unicode ;

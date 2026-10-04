@@ -7,6 +7,6 @@
 ! 
 ! Related tasks
 ! 
-! -   Pythagoras Tree
+! - Pythagoras Tree
 
 

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a function/procedure/method/subroutine that takes a
 ! set/array/list/stream/table/collection of words with integer weights,
@@ -6,16 +8,18 @@
 ! the Dropbox Diet candidate screening exercise and the Subset sum problem
 ! Wikipedia article).
 ! 
-! For example:
+! For example
+! 
+!     
 ! 
 ! This set of weighted words, one solution would be the set of words:
 ! 
-! -   -   {elysee, efferent, deploy, departure, centipede, bonnet, balm,
-!         archbishop}
+! - - {elysee, efferent, deploy, departure, centipede, bonnet, balm,
+!     archbishop}
 ! 
 ! because their respective weights of:
 ! 
-! -   -   -326, 54, 44, 952, -658, 452, 397, and -915
+! - - -326, 54, 44, 952, -658, 452, 397, and -915
 ! 
 ! sum to zero.
 ! 

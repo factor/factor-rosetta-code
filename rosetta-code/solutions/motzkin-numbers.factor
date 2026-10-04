@@ -14,7 +14,7 @@
 ! 
 ! See also
 ! 
-! -   oeis:A001006 Motzkin numbers
+! - oeis:A001006 Motzkin numbers
 
 USING: combinators formatting io kernel math math.primes
 tools.memory.private ;

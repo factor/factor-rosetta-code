@@ -25,9 +25,9 @@
 ! the words that are identified as incremental count words, or if no words
 ! are found that match.
 ! 
-! -   -   Search for words containing (a b c) with a minimum count of 1
-!     -   Search for words containing (t h e) with a minimum count of 1
-!     -   Search for words containing (c i o) with a minimum count of 2
+! - - Search for words containing (a b c) with a minimum count of 1
+!   - Search for words containing (t h e) with a minimum count of 1
+!   - Search for words containing (c i o) with a minimum count of 2
 ! 
 ! Show the output here, on this page.
 ! 
@@ -37,9 +37,9 @@
 ! https://github.com/dwyl/english-words using the same letter groups, but
 ! with a minimum 1 higher.
 ! 
-! -   -   Search for words containing (a b c) with a minimum count of 2
-!     -   Search for words containing (t h e) with a minimum count of 2
-!     -   Search for words containing (c i o) with a minimum count of 3
+! - - Search for words containing (a b c) with a minimum count of 2
+!   - Search for words containing (t h e) with a minimum count of 2
+!   - Search for words containing (c i o) with a minimum count of 3
 ! 
 ! Related
 ! 

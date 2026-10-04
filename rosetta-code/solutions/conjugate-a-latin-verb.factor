@@ -1,4 +1,6 @@
-! Task: Create a program that can take a Latin verb and conjugate it, displaying in the following order:
+! Task
+!     Create a program that can take a Latin verb and conjugate it,
+!     displaying in the following order:
 ! 
 !     1st person singular
 !     2nd person singular
@@ -7,14 +9,16 @@
 !     2nd person plural
 !     3rd person plural
 ! 
-! -   Each should be on its own line.
-! -   Have at least one example from each of the 4 conjugations.
-! -   Irregular verbs are not required.
-! -   Translation into English is optional.
+! - Each should be on its own line.
+! - Have at least one example from each of the 4 conjugations.
+! - Irregular verbs are not required.
+! - Translation into English is optional.
 ! 
-! See also:
+! See also
 ! 
-! -   Wikipedia: Latin conjugation.
+!     
+! 
+! - Wikipedia: Latin conjugation.
 ! 
 ! Category: String manipulation Category:Simple
 

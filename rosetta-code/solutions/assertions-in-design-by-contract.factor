@@ -4,7 +4,9 @@
 ! result in when it is finished running (postconditions); they can also
 ! specify invariants of a class.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show in the program language of your choice an example of the use of
 ! assertions as a form of documentation.

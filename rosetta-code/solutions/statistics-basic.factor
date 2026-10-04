@@ -22,7 +22,9 @@
 ! histogram of a trillion numbers? (You don't really need to do a trillion
 ! numbers, just show how it can be done.)
 ! 
-! Hint:
+! Hint
+! 
+!     
 ! 
 ! For a finite population with equal probabilities at all points, one can
 ! derive:
@@ -33,7 +35,7 @@
 ! 
 ! $$\frac{1}{N}\sum_{i=1}^N(x_i-\overline{x})^2 = \frac{1}{N} \left(\sum_{i=1}^N x_i^2\right) - \overline{x}^2.$$
 ! 
-! -   Statistics/Normal distribution
+! - Statistics/Normal distribution
 
 USING: assocs formatting grouping io kernel literals math
 math.functions math.order math.statistics prettyprint random

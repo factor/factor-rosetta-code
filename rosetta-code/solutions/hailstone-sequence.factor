@@ -1,9 +1,9 @@
 ! The Hailstone sequence of numbers can be generated from a starting
 ! positive integer, n by:
 ! 
-! -   If n is 1 then the sequence ends.
-! -   If n is even then the next n of the sequence = n/2
-! -   If n is odd then the next n of the sequence = (3 * n) + 1
+! - If n is 1 then the sequence ends.
+! - If n is even then the next n of the sequence = n/2
+! - If n is odd then the next n of the sequence = (3 * n) + 1
 ! 
 ! The (unproven) Collatz conjecture is that the hailstone sequence for any
 ! starting number always terminates.
@@ -11,20 +11,22 @@
 ! This sequence was named by Lothar Collatz in 1937 (or possibly in 1939),
 ! and is also known as (the):
 ! 
-! -   -   hailstone sequence, hailstone numbers
-!     -   3x + 2 mapping, 3n + 1 problem
-!     -   Collatz sequence
-!     -   Hasse's algorithm
-!     -   Kakutani's problem
-!     -   Syracuse algorithm, Syracuse problem
-!     -   Thwaites conjecture
-!     -   Ulam's problem
+! - - hailstone sequence, hailstone numbers
+!   - 3x + 2 mapping, 3n + 1 problem
+!   - Collatz sequence
+!   - Hasse's algorithm
+!   - Kakutani's problem
+!   - Syracuse algorithm, Syracuse problem
+!   - Thwaites conjecture
+!   - Ulam's problem
 ! 
 ! The hailstone sequence is also known as hailstone numbers (because the
 ! values are usually subject to multiple descents and ascents like
 ! hailstones in a cloud).
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Create a routine to generate the hailstone sequence for a number.
 ! 2.  Use the routine to show that the hailstone sequence for the number
@@ -35,13 +37,15 @@
 ! 
 !   (But don't show the actual sequence!)
 ! 
-! See also:
+! See also
 ! 
-! -   xkcd (humourous).
-! -   The Notorious Collatz conjecture Terence Tao, UCLA (Presentation,
-!     pdf).
-! -   The Simplest Math Problem No One Can Solve Veritasium (video,
-!     sponsored).
+!     
+! 
+! - xkcd (humourous).
+! - The Notorious Collatz conjecture Terence Tao, UCLA (Presentation,
+!   pdf).
+! - The Simplest Math Problem No One Can Solve Veritasium (video,
+!   sponsored).
 
 ! rosetta/hailstone/hailstone.factor
 USING: arrays io kernel math math.ranges prettyprint sequences vectors ;

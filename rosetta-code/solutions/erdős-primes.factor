@@ -15,8 +15,10 @@
 ! Show that the 7,875th Erdős prime is 999,721 (the highest below
 ! 1,000,000)
 ! 
-! Also see:
+! Also see
 ! 
-! -   -   the OEIS entry: A064152 Erdos primes.
+!     
+! 
+! - - the OEIS entry: A064152 Erdos primes.
 
 

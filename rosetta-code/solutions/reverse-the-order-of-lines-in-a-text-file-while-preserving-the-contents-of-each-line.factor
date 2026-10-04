@@ -1,8 +1,10 @@
-! Task:
+! Task
 ! 
-! -   -   Read an entire (input) file (into memory or buffers).
-!     -   Display the lines/records of the entire file in reverse order.
-!     -   Show the results here, on this page.
+!     
+! 
+! - - Read an entire (input) file (into memory or buffers).
+!   - Display the lines/records of the entire file in reverse order.
+!   - Show the results here, on this page.
 ! 
 ! For the input file, use the following five lines (records):
 ! 

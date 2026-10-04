@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Summary: Find and print the mentions of a given string in the recent
 ! chat logs from a chatroom. Only use your programming language's standard

@@ -14,15 +14,17 @@
 ! It is not known if there are any odd perfect numbers (any that exist are
 ! larger than 10²⁰⁰⁰).
 ! 
-! The number of known perfect numbers is 51 (as of December, 2018), and
-! the largest known perfect number contains 49,724,095 decimal digits.
+! The number of known perfect numbers is 52 (as of October, 2024), and the
+! largest known perfect number contains 82,048,640 decimal digits.
 ! 
-! See also:
+! See also
 ! 
-! -   -   Rational Arithmetic
-!     -   Perfect numbers on OEIS
-!     -   Odd Perfect showing the current status of bounds on odd perfect
-!         numbers.
+!     
+! 
+! - - Rational Arithmetic
+!   - Perfect numbers on OEIS
+!   - Odd Perfect showing the current status of bounds on odd perfect
+!     numbers.
 
 USING: kernel math math.primes.factors sequences ;
 IN: rosettacode.perfect-numbers

@@ -18,12 +18,14 @@
 ! The product is more complicated and time-consuming to evaluate, but
 ! there are a few facts which may help:
 ! 
-! -   The operators and are commutative and distributive
-! -   the nim-product of a Fermat power () and a smaller number is their
-!     ordinary product
-! -   the nim-square of a Fermat power is the ordinary product
+! - The operators and are commutative and distributive
+! - the nim-product of a Fermat power () and a smaller number is their
+!   ordinary product
+! - the nim-square of a Fermat power is the ordinary product
 ! 
-! Tasks:
+! Tasks
+! 
+!     
 ! 
 ! 1.  Create nimber addition and multiplication tables up to at least 15
 ! 2.  Find the nim-sum and nim-product of two five digit integers of your

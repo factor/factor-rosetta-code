@@ -1,16 +1,20 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find and show members of prime triples (p, p+2, p+6), where p < 5500
 ! 
-! See also:
+! See also
 ! 
-! -   -   The OEIS entry: A022004 - Initial members of prime triples (p,
-!         p+2, p+6)
-!     -   The Wikipedia entry: Prime triplet
-!     -   The MathWorld entry: Prime Triplet
-!     -   The RosettaCode task for just (p,p+4): Cousin primes
-!     -   The RosettaCode task for other patterns of primes: Successive
-!         prime differences
+!     
+! 
+! - - The OEIS entry: A022004 - Initial members of prime triples (p, p+2,
+!     p+6)
+!   - The Wikipedia entry: Prime triplet
+!   - The MathWorld entry: Prime Triplet
+!   - The RosettaCode task for just (p,p+4): Cousin primes
+!   - The RosettaCode task for other patterns of primes: Successive prime
+!     differences
 
 USING: arrays kernel lists lists.lazy math math.primes
 math.primes.lists prettyprint sequences ;

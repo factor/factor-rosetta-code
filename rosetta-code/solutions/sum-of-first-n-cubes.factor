@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find and show sum of first n cubes, where n < 50 (ie show 50 entries for
 ! n=0..49)

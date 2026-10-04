@@ -15,12 +15,12 @@
 ! 
 ! Related task
 ! 
-! -   Primorial numbers
+! - Primorial numbers
 ! 
 ! See also
 ! 
-! -   oeis:A005235 Fortunate numbers
-! -   oeis:A046066 Fortunate numbers, sorted with duplicates removed
+! - oeis:A005235 Fortunate numbers
+! - oeis:A046066 Fortunate numbers, sorted with duplicates removed
 
 USING: grouping io kernel math math.factorials math.primes
 math.ranges prettyprint sequences sets sorting ;

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Obtain a valid Y or N response from the input device::keyboard.
 ! 

@@ -6,40 +6,45 @@
 ! μ(n), the Mertens function M(x) is the sum of the Möbius numbers from n
 ! == 1 through n == x.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Write a routine (function, procedure, whatever) to find the
-!         Mertens number for any positive integer x.
+!     
 ! 
-! -   -   Use that routine to find and display here, on this page, at
-!         least the first 99 terms in a grid layout. (Not just one long
-!         line or column of numbers.)
+! - - Write a routine (function, procedure, whatever) to find the Mertens
+!     number for any positive integer x.
 ! 
-! -   -   Use that routine to find and display here, on this page, the
-!         number of times the Mertens function sequence is equal to zero
-!         in the range M(1) through M(1000).
+! - - Use that routine to find and display here, on this page, at least
+!     the first 99 terms in a grid layout. (Not just one long line or
+!     column of numbers.)
 ! 
-! -   -   Use that routine to find and display here, on this page, the
-!         number of times the Mertens function sequence crosses zero in
-!         the range M(1) through M(1000). (Crossing defined as this term
-!         equal to zero but preceding term not.)
+! - - Use that routine to find and display here, on this page, the number
+!     of times the Mertens function sequence is equal to zero in the range
+!     M(1) through M(1000).
 ! 
-! See also:
+! - - Use that routine to find and display here, on this page, the number
+!     of times the Mertens function sequence crosses zero in the range
+!     M(1) through M(1000). (Crossing defined as this term equal to zero
+!     but preceding term not.)
 ! 
-! -   -   Wikipedia: Mertens function
-!     -   Wikipedia: Möbius function
-!     -   OEIS: A002321 - Mertens's function
-!     -   OEIS: A028442 - Numbers n such that Mertens's function M(n) is
-!         zero
-!     -   Numberphile - Mertens Conjecture
-!     -   Stackexchange: compute the mertens function
+! See also
+! 
+!     
+! 
+! - - Wikipedia: Mertens function
+!   - Wikipedia: Möbius function
+!   - OEIS: A002321 - Mertens's function
+!   - OEIS: A028442 - Numbers n such that Mertens's function M(n) is zero
+!   - Numberphile - Mertens Conjecture
+!   - Stackexchange: compute the mertens function
 ! 
 ! This is not code golf. The stackexchange link is provided as an
 ! algorithm reference, not as a guide.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Möbius function
+!     
+! 
+! - - Möbius function
 
 USING: formatting grouping io kernel math math.extras
 math.ranges math.statistics prettyprint sequences ;

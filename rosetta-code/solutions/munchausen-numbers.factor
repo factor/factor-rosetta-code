@@ -9,11 +9,13 @@
 ! 
 ! Find all Munchausen numbers between 1 and 5000.
 ! 
-! Also see:
+! Also see
 ! 
-! -   -   The OEIS entry: A046253
-!     -   The Wikipedia entry: Perfect digit-to-digit invariant,
-!         redirected from Munchausen Number
+!     
+! 
+! - - The OEIS entry: A046253
+!   - The Wikipedia entry: Perfect digit-to-digit invariant, redirected
+!     from Munchausen Number
 
 USING: kernel math.functions math.ranges math.text.utils
 prettyprint sequences ;

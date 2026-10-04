@@ -35,12 +35,14 @@
 ! In keeping with the general layout of several recent pseudo-random
 ! number tasks:
 ! 
-! Task:
+! Task
 ! 
-! -   Write a class or set of functions that generates pseudo-random
-!     numbers using splitmix64.
+!     
 ! 
-! -   Show the first five integers generated using the seed 1234567.
+! - Write a class or set of functions that generates pseudo-random numbers
+!   using splitmix64.
+! 
+! - Show the first five integers generated using the seed 1234567.
 ! 
 !     6457827717110365317
 !     3203168211198807973
@@ -48,19 +50,24 @@
 !     4593380528125082431
 !    16408922859458223821
 ! 
-! -   Show that for an initial seed of 987654321, the counts of 100_000
-!     repetitions of floor next_float() * 5 is as follows:
+! - Show that for an initial seed of 987654321, the counts of 100_000
+!   repetitions of floor next_float() * 5 is as follows:
 ! 
 !    0: 20027, 1: 19892, 2: 20073, 3: 19978, 4: 20030  
 ! 
-! -   Show your output here, on this page.
+! - Show your output here, on this page.
 ! 
-! See also:
+! See also
+! 
+!     
 ! 
 ! * Java docs for splitmix64
 ! * Public domain C code used in many PRNG implementations; by Sebastiano Vigna
 ! 
-! Related tasks:
+! Related tasks
+! 
+!     
+! 
 ! * Pseudo-random numbers/Combined recursive generator MRG32k3a‎‎
 ! * Pseudo-random numbers/PCG32‎‎
 ! * Pseudo-random_numbers/Xorshift_star

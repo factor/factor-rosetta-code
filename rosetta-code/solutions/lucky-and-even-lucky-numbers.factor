@@ -11,16 +11,16 @@
 ! 
 ! 1.  Return the first number from the list (which is 1).
 ! 2.  (Loop begins here)
-!     -   Note then return the second number from the list (which is 3).
-!     -   Discard every third, (as noted), number from the list to form
-!         the new list
+!     - Note then return the second number from the list (which is 3).
+!     - Discard every third, (as noted), number from the list to form the
+!       new list
 ! 
 ! 1, 3, 7, 9, 13, 15, 19, 21, 25, 27, 31, 33, 37, 39, 43, 45, 49, 51, 55, 57...
 ! 
 ! 1.  (Expanding the loop a few more times...)
-!     -   Note then return the third number from the list (which is 7).
-!     -   Discard every 7^(th), (as noted), number from the list to form
-!         the new list
+!     - Note then return the third number from the list (which is 7).
+!     - Discard every 7^(th), (as noted), number from the list to form the
+!       new list
 ! 
 ! 1, 3, 7, 9, 13, 15, 21, 25, 27, 31, 33, 37, 43, 45, 49, 51, 55, 57, 63, 67...
 ! 
@@ -39,9 +39,9 @@
 ! #* Take the 8^(th), i.e. 25. Remove every 25^(th).
 ! 
 ! 1.  (Rule for the loop)
-!     -   Note the n^(th), which is m.
-!     -   Remove every m^(th).
-!     -   Increment n.
+!     - Note the n^(th), which is m.
+!     - Remove every m^(th).
+!     - Increment n.
 ! 
 ! Definition of even lucky numbers
 ! 
@@ -54,16 +54,16 @@
 ! 
 ! 1.  Return the first number from the list (which is 2).
 ! 2.  (Loop begins here)
-!     -   Note then return the second number from the list (which is 4).
-!     -   Discard every 4^(th), (as noted), number from the list to form
-!         the new list
+!     - Note then return the second number from the list (which is 4).
+!     - Discard every 4^(th), (as noted), number from the list to form the
+!       new list
 ! 
 ! 2, 4, 6, 10, 12, 14, 18, 20, 22, 26, 28, 30, 34, 36, 38, 42, 44, 46, 50, 52...
 ! 
 ! 1.  (Expanding the loop a few more times...)
-!     -   Note then return the third number from the list (which is 6).
-!     -   Discard every 6^(th), (as noted), number from the list to form
-!         the new list
+!     - Note then return the third number from the list (which is 6).
+!     - Discard every 6^(th), (as noted), number from the list to form the
+!       new list
 ! 
 ! 2, 4, 6, 10, 12, 18, 20, 22, 26, 28, 34, 36, 38, 42, 44, 50, 52, 54, 58, 60...
 ! 
@@ -72,27 +72,27 @@
 ! #* Take the 5^(th), i.e. 12. Remove every 12^(th).
 ! 
 ! 1.  (Rule for the loop)
-!     -   Note the n^(th), which is m.
-!     -   Remove every m^(th).
-!     -   Increment n.
+!     - Note the n^(th), which is m.
+!     - Remove every m^(th).
+!     - Increment n.
 ! 
 ! Task requirements
 ! 
-! -   Write one or two subroutines (functions) to generate lucky numbers
-!     and even lucky numbers
-! -   Write a command-line interface to allow selection of which kind of
-!     numbers and which number(s). Since input is from the command line,
-!     tests should be made for the common errors:
-!     -   missing arguments
-!     -   too many arguments
-!     -   number (or numbers) aren't legal
-!     -   misspelled argument (lucky or evenLucky)
-! -   The command line handling should:
-!     -   support mixed case handling of the (non-numeric) arguments
-!     -   support printing a particular number
-!     -   support printing a range of numbers by their index
-!     -   support printing a range of numbers by their values
-! -   The resulting list of numbers should be printed on a single line.
+! - Write one or two subroutines (functions) to generate lucky numbers and
+!   even lucky numbers
+! - Write a command-line interface to allow selection of which kind of
+!   numbers and which number(s). Since input is from the command line,
+!   tests should be made for the common errors:
+!   - missing arguments
+!   - too many arguments
+!   - number (or numbers) aren't legal
+!   - misspelled argument (lucky or evenLucky)
+! - The command line handling should:
+!   - support mixed case handling of the (non-numeric) arguments
+!   - support printing a particular number
+!   - support printing a range of numbers by their index
+!   - support printing a range of numbers by their values
+! - The resulting list of numbers should be printed on a single line.
 ! 
 ! The program should support the arguments:
 ! 
@@ -115,21 +115,23 @@
 ! 
 ! Demonstrate the program by:
 ! 
-! -   showing the first twenty lucky numbers
-! -   showing the first twenty even lucky numbers
-! -   showing all lucky numbers between 6,000 and 6,100 (inclusive)
-! -   showing all even lucky numbers in the same range as above
-! -   showing the 10,000^(th) lucky number (extra credit)
-! -   showing the 10,000^(th) even lucky number (extra credit)
+! - showing the first twenty lucky numbers
+! - showing the first twenty even lucky numbers
+! - showing all lucky numbers between 6,000 and 6,100 (inclusive)
+! - showing all even lucky numbers in the same range as above
+! - showing the 10,000^(th) lucky number (extra credit)
+! - showing the 10,000^(th) even lucky number (extra credit)
 ! 
-! See also:
+! See also
 ! 
-! -   This task is related to the Sieve of Eratosthenes task.
-! -   OEIS Wiki Lucky numbers.
-! -   Sequence A000959 lucky numbers on The On-Line Encyclopedia of
-!     Integer Sequences.
-! -   Sequence A045954 even lucky numbers or ELN on The On-Line
-!     Encyclopedia of Integer Sequences.
-! -   Entry lucky numbers on The Eric Weisstein's World of Mathematics.
+!     
+! 
+! - This task is related to the Sieve of Eratosthenes task.
+! - OEIS Wiki Lucky numbers.
+! - Sequence A000959 lucky numbers on The On-Line Encyclopedia of Integer
+!   Sequences.
+! - Sequence A045954 even lucky numbers or ELN on The On-Line Encyclopedia
+!   of Integer Sequences.
+! - Entry lucky numbers on The Eric Weisstein's World of Mathematics.
 
 

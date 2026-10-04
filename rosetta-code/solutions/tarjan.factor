@@ -7,9 +7,11 @@
 ! 
 ! Tarjan's Algorithm is named for its discoverer, Robert Tarjan.
 ! 
-! References:
+! References
 ! 
-! -   The article on Wikipedia.
+!     
+! 
+! - The article on Wikipedia.
 ! 
 ! See also: Kosaraju
 ! 

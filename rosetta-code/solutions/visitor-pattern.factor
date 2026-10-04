@@ -58,7 +58,7 @@
 ! 
 ! References
 ! 
-! -   Wikipedia: Visitor pattern
-! -   Code Project - The Visitor Pattern Explained
+! - Wikipedia: Visitor pattern
+! - Code Project - The Visitor Pattern Explained
 
 

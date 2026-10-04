@@ -3,7 +3,9 @@
 ! and some don't. Some languages distinguish the null object from
 ! undefined values, and some don't.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how to access null in your language by checking to see if an object
 ! is equivalent to the null object.

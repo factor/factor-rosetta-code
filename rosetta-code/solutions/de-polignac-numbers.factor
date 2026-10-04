@@ -19,12 +19,12 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first fifty de Polignac numbers.
+! - Find and display the first fifty de Polignac numbers.
 ! 
 ! Stretch
 ! 
-! -   Find and display the one thousandth de Polignac number.
-! -   Find and display the ten thousandth de Polignac number.
+! - Find and display the one thousandth de Polignac number.
+! - Find and display the ten thousandth de Polignac number.
 ! 
 ! See also
 ! * Numbers Aplenty - de Polignac numbers

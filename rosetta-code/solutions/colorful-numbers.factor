@@ -21,17 +21,17 @@
 ! 
 ! Task
 ! 
-! -   Write a routine (subroutine, function, procedure, whatever it may be
-!     called in your language) to test if a number is a colorful number or
-!     not.
-! -   Use that routine to find all of the colorful numbers less than 100.
-! -   Use that routine to find the largest possible colorful number.
+! - Write a routine (subroutine, function, procedure, whatever it may be
+!   called in your language) to test if a number is a colorful number or
+!   not.
+! - Use that routine to find all of the colorful numbers less than 100.
+! - Use that routine to find the largest possible colorful number.
 ! 
 ! Stretch
 ! 
-! -   Find and display the count of colorful numbers in each order of
-!     magnitude.
-! -   Find and show the total count of all colorful numbers.
+! - Find and display the count of colorful numbers in each order of
+!   magnitude.
+! - Find and show the total count of all colorful numbers.
 ! 
 ! Colorful numbers have no real number theory application. They are more a
 ! recreational math puzzle than a useful tool.

@@ -22,8 +22,10 @@
 ! For extra-credits, you will make this algorithm run as fast as possible
 ! in your language, for instance with an extensive use of bitwise logic.
 ! 
-! Reference:
+! Reference
 ! 
-! -   Cellular automata: Is Rule 30 random? (PDF).
+!     
+! 
+! - Cellular automata: Is Rule 30 random? (PDF).
 
 

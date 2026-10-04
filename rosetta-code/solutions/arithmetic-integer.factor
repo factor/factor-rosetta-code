@@ -1,14 +1,16 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Get two integers from the user, and then (for those two integers),
 ! display their:
 ! 
-! -   -   sum
-!     -   difference
-!     -   product
-!     -   integer quotient
-!     -   remainder
-!     -   exponentiation (if the operator exists)
+! - - sum
+!   - difference
+!   - product
+!   - integer quotient
+!   - remainder
+!   - exponentiation (if the operator exists)
 ! 
 ! Don't include error handling.
 ! 

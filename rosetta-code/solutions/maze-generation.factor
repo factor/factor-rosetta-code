@@ -1,8 +1,8 @@
 ! []
 ! 
-! |right|a maze
+! Task
 ! 
-! Task:
+!     
 ! 
 ! Generate and show a maze, using the simple Depth-first search algorithm.
 ! 
@@ -16,6 +16,6 @@
 ! 
 ! Related tasks
 ! 
-! -   Maze solving.
+! - Maze solving.
 
 

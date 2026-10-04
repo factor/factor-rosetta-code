@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show here (on this page) the decimal numbers formed by:
 ! 

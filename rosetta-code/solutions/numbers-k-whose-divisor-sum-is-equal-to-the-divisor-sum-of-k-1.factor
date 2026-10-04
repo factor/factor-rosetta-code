@@ -20,7 +20,7 @@
 ! 
 ! See also
 ! 
-! -   -   OEIS A002961 - Numbers k such that k and k+1 have same sum of
-!         divisors
+! - - OEIS A002961 - Numbers k such that k and k+1 have same sum of
+!     divisors
 
 

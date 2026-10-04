@@ -6,17 +6,21 @@
 ! 
 ! If the conditions don't hold then a(n) = a(n-1) + n.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Generate and show here the first 15 members of the sequence.
 ! 2.  Find and show here, the first duplicated number in the sequence.
 ! 3.  Optionally: Find and show here, how many terms of the sequence are
 !     needed until all the integers 0..1000, inclusive, are generated.
 ! 
-! References:
+! References
 ! 
-! -   A005132, The On-Line Encyclopedia of Integer Sequences.
-! -   The Slightly Spooky Recamán Sequence, Numberphile video.
-! -   Recamán's sequence, on Wikipedia.
+!     
+! 
+! - A005132, The On-Line Encyclopedia of Integer Sequences.
+! - The Slightly Spooky Recamán Sequence, Numberphile video.
+! - Recamán's sequence, on Wikipedia.
 
 

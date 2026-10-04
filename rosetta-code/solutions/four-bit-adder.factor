@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! "Simulate" a four-bit adder.
 ! 
@@ -22,15 +24,15 @@
 ! the other "constructive blocks", in turn made of "simpler" and "smaller"
 ! ones.
 ! 
-! +----------------+----------------+----------------+----------------+
-! | (Xor gate with | (A half adder) | (A full adder) | (A 4-bit       |
-! | ANDs, ORs and  |                |                | adder)         |
-! | NOTs)          |                |                |                |
-! +================+================+================+================+
-! | [Xor gate done | [A half adder] | [A full adder] | [A 4-bit       |
-! | with ands, ors |                |                | adder]         |
-! | and nots]      |                |                |                |
-! +----------------+----------------+----------------+----------------+
+! +------------------+----------------+----------------+-----------------+
+! | (Xor gate with   | (A half adder) | (A full adder) | (A 4-bit adder) |
+! | ANDs, ORs and    |                |                |                 |
+! | NOTs)            |                |                |                 |
+! +==================+================+================+=================+
+! | [Xor gate done   | [A half adder] | [A full adder] | [A 4-bit adder] |
+! | with ands, ors   |                |                |                 |
+! | and nots]        |                |                |                 |
+! +------------------+----------------+----------------+-----------------+
 ! 
 ! : Schematics of the "constructive blocks"
 ! 

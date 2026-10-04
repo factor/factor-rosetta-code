@@ -16,17 +16,17 @@
 ! 
 ! Task
 ! 
-! -   Write a routine (subroutine, function, procedure, generator,
-!     whatever it may be called in your language) to find magic numbers.
-! -   Use that routine to find and display how many magic numbers exist.
-! -   Use that routine to find and display the largest possible magic
-!     number.
-! -   Count and display how many magic numbers have 1 digit, 2 digits, 3
-!     digits, ... for all magic numbers.
-! -   Find and display all of the magic numbers that are minimally
-!     pandigital in 1 through 9. (Contains each digit but only once.)
-! -   Find and display all of the magic numbers that are minimally
-!     pandigital in 0 through 9.
+! - Write a routine (subroutine, function, procedure, generator, whatever
+!   it may be called in your language) to find magic numbers.
+! - Use that routine to find and display how many magic numbers exist.
+! - Use that routine to find and display the largest possible magic
+!   number.
+! - Count and display how many magic numbers have 1 digit, 2 digits, 3
+!   digits, ... for all magic numbers.
+! - Find and display all of the magic numbers that are minimally
+!   pandigital in 1 through 9. (Contains each digit but only once.)
+! - Find and display all of the magic numbers that are minimally
+!   pandigital in 0 through 9.
 ! 
 ! Zero (0) may or may not be included as a magic number. For this task,
 ! include zero.

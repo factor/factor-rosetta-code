@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! If your system has a means to generate random numbers involving not only
 ! a software algorithm (like the /dev/urandom devices in Unix), then:
@@ -7,7 +9,7 @@
 ! 
 ! Related task
 ! 
-! -   Random_number_generator_(included)
+! - Random_number_generator_(included)
 ! 
 ! Category:Input Output
 

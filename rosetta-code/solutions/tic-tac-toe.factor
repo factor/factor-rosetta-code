@@ -1,8 +1,8 @@
 ! []
 ! 
-! |right
+! Task
 ! 
-! Task:
+!     
 ! 
 ! Play a game of tic-tac-toe.
 ! 
@@ -11,17 +11,17 @@
 ! 
 ! Tic-tac-toe is also known as:
 ! 
-! -   -   noughts and crosses
-!     -   tic tac toe
-!     -   tick tack toe
-!     -   three in a row
-!     -   tres en rayo and
-!     -   Xs and Os
+! - - noughts and crosses
+!   - tic tac toe
+!   - tick tack toe
+!   - three in a row
+!   - tres en rayo and
+!   - Xs and Os
 ! 
 ! See also
 ! 
-! -   MathWorld™, Tic-Tac-Toe game.
-! -   Wikipedia tic-tac-toe.
+! - MathWorld™, Tic-Tac-Toe game.
+! - Wikipedia tic-tac-toe.
 ! 
 ! Category:Games
 

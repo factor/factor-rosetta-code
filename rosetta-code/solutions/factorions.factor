@@ -1,9 +1,13 @@
-! Definition:
+! Definition
+! 
+!     
 ! 
 ! A factorion is a natural number that equals the sum of the factorials of
 ! its digits.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! 145 is a factorion in base 10 because:
 ! 
@@ -12,22 +16,26 @@
 ! It can be shown (see talk page) that no factorion in base 10 can exceed
 ! 1,499,999.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program in your language to demonstrate, by calculating and
 ! printing out the factorions, that:
 ! 
-! -   -   There are 3 factorions in base 9
-!     -   There are 4 factorions in base 10
-!     -   There are 5 factorions in base 11
-!     -   There are 2 factorions in base 12 (up to the same upper bound as
-!         for base 10)
+! - - There are 3 factorions in base 9
+!   - There are 4 factorions in base 10
+!   - There are 5 factorions in base 11
+!   - There are 2 factorions in base 12 (up to the same upper bound as for
+!     base 10)
 ! 
-! See also:
+! See also
 ! 
-! -   -   Wikipedia article
-!     -   OEIS:A014080 - Factorions in base 10
-!     -   OEIS:A193163 - Factorions in base n
+!     
+! 
+! - - Wikipedia article
+!   - OEIS:A014080 - Factorions in base 10
+!   - OEIS:A193163 - Factorions in base n
 
 USING: formatting io kernel math math.parser math.ranges memoize
 prettyprint sequences ;

@@ -2,10 +2,10 @@
 ! 
 ! It must be possible to:
 ! 
-! -   -   choose the number of colors will be used in the game (2 - 20)
-!     -   choose the color code length (4 - 10)
-!     -   choose the maximum number of guesses the player has (7 - 20)
-!     -   choose whether or not colors may be repeated in the code
+! - - choose the number of colors will be used in the game (2 - 20)
+!   - choose the color code length (4 - 10)
+!   - choose the maximum number of guesses the player has (7 - 20)
+!   - choose whether or not colors may be repeated in the code
 ! 
 ! The (computer program) game should display all the player guesses and
 ! the results of that guess.
@@ -38,12 +38,14 @@
 ! 
 ! Happy coding!
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Bulls and cows
-! -   Bulls and cows/Player
-! -   Guess the number
-! -   Guess the number/With Feedback
+!     
+! 
+! - Bulls and cows
+! - Bulls and cows/Player
+! - Guess the number
+! - Guess the number/With Feedback
 ! 
 ! Category:Puzzles
 

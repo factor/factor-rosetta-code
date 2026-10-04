@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Sort an array (or list) elements using the quicksort algorithm.
 ! 
@@ -83,12 +85,12 @@
 ! Quicksort is at one end of the spectrum of divide-and-conquer
 ! algorithms, with merge sort at the opposite end.
 ! 
-! -   Quicksort is a conquer-then-divide algorithm, which does most of the
-!     work during the partitioning and the recursive calls. The subsequent
-!     reassembly of the sorted partitions involves trivial effort.
-! -   Merge sort is a divide-then-conquer algorithm. The partioning
-!     happens in a trivial way, by splitting the input array in half. Most
-!     of the work happens during the recursive calls and the merge phase.
+! - Quicksort is a conquer-then-divide algorithm, which does most of the
+!   work during the partitioning and the recursive calls. The subsequent
+!   reassembly of the sorted partitions involves trivial effort.
+! - Merge sort is a divide-then-conquer algorithm. The partioning happens
+!   in a trivial way, by splitting the input array in half. Most of the
+!   work happens during the recursive calls and the merge phase.
 ! 
 ! With quicksort, every element in the first partition is less than or
 ! equal to every element in the second partition. Therefore, the merge

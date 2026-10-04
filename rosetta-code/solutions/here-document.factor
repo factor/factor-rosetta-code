@@ -10,13 +10,17 @@
 ! the chosen token at the beginning of the following line, which is used
 ! to mark the end of the text block.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate the use of here documents within the language.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Documentation
+!     
+! 
+! - Documentation
 
 "    a multiline
 string\n(with escape sequences: \u{greek-capital-letter-sigma})

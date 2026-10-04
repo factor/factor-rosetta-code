@@ -1,10 +1,12 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that will list everything in the current folder, similar
 ! to:
 ! 
-! -   -   the Unix utility “ls” 1 or
-!     -   the Windows terminal command “DIR”
+! - - the Unix utility “ls” 1 or
+!   - the Windows terminal command “DIR”
 ! 
 ! The output must be sorted, but printing extended details and producing
 ! multi-column output is not required.

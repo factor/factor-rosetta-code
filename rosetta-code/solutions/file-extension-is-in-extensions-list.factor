@@ -1,19 +1,21 @@
 ! Filename extensions are a rudimentary but commonly used way of
 ! identifying files types.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given an arbitrary filename and a list of extensions, tell whether the
 ! filename has one of those extensions.
 ! 
 ! Notes:
 ! 
-! -   The check should be case insensitive.
-! -   The extension must occur at the very end of the filename, and be
-!     immediately preceded by a dot (.).
-! -   You may assume that none of the given extensions are the empty
-!     string, and none of them contain a dot. Other than that they may be
-!     arbitrary strings.
+! - The check should be case insensitive.
+! - The extension must occur at the very end of the filename, and be
+!   immediately preceded by a dot (.).
+! - You may assume that none of the given extensions are the empty string,
+!   and none of them contain a dot. Other than that they may be arbitrary
+!   strings.
 ! 
 ! Extra credit:
 !     Allow extensions to contain dots. This way, users of your
@@ -57,10 +59,12 @@
 ! For these reasons, this task exists in addition to the Extract file
 ! extension task.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Extract file extension
-! -   String matching
+!     
+! 
+! - Extract file extension
+! - String matching
 ! 
 ! Category:File_System_Operations Category:String_manipulation
 

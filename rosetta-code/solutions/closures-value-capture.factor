@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a list of ten functions, in the simplest manner possible
 ! (anonymous functions are encouraged), such that the function at index i
@@ -8,7 +10,9 @@
 ! Display the result of running any but the last function, to demonstrate
 ! that the function indeed remembers its value.
 ! 
-! Goal:
+! Goal
+! 
+!     
 ! 
 ! Demonstrate how to create a series of independent closures based on the
 ! same template but maintain separate copies of the variable closed over.

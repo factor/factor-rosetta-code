@@ -46,10 +46,12 @@
 ! 
 ! Optionally, show the solution is unique.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Dinesman's multiple-dwelling problem
-! -   Twelve statements
+!     
+! 
+! - Dinesman's multiple-dwelling problem
+! - Twelve statements
 ! 
 ! Category:CHR Category:Puzzles
 

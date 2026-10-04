@@ -11,7 +11,9 @@
 ! 
 ! This is how the algorithm gets its divide and conquer description.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function to sort a collection of integers using the merge sort.
 ! 
@@ -55,9 +57,11 @@
 !        append rest(right) to result
 !    return result
 ! 
-! See also:
+! See also
 ! 
-! -   the Wikipedia entry: merge sort
+!     
+! 
+! - the Wikipedia entry: merge sort
 ! 
 ! Note: better performance can be expected if, rather than recursing until
 ! length(m) ≤ 1, an insertion sort is used for length(m) smaller than some

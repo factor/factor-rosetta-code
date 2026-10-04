@@ -1,13 +1,17 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! pi(n), the number of primes <= n, where pi(n) < 22
 ! 
-! Also see:
+! Also see
 ! 
-! -   -   Prime-counting_function.
-!     -   Tables and hints by Tomás Oliveira e Silva.
-!     -   the OEIS entry: A0000720 pi(n), the number of primes <= n.
-!         Sometimes called PrimePi(n)....
+!     
+! 
+! - - Prime-counting_function.
+!   - Tables and hints by Tomás Oliveira e Silva.
+!   - the OEIS entry: A0000720 pi(n), the number of primes <= n. Sometimes
+!     called PrimePi(n)....
 ! 
 ! Category:Prime Numbers
 

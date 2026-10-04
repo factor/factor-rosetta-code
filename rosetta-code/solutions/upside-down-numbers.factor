@@ -16,15 +16,15 @@
 ! 
 ! Task
 ! 
-! -   Write a routine to find (or generate) upside-down numbers.
-! -   Find and show the first 50 upside-down numbers.
-! -   Find and show the five hundredth upside-down number.
-! -   Find and show the five thousandth upside-down number.
+! - Write a routine to find (or generate) upside-down numbers.
+! - Find and show the first 50 upside-down numbers.
+! - Find and show the five hundredth upside-down number.
+! - Find and show the five thousandth upside-down number.
 ! 
 ! Stretch
 ! 
-! -   Find and show the fifty thousandth, five hundred thousandth, five
-!     millionth upside-down number.
+! - Find and show the fifty thousandth, five hundred thousandth, five
+!   millionth upside-down number.
 ! 
 ! See also
 ! * Numbers-A-Plenty: Upside-down number

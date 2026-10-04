@@ -7,12 +7,12 @@
 ! 
 ! See also
 ! 
-! -   -   OEIS:A069654
+! - - OEIS:A069654
 ! 
 ! Related tasks
 ! 
-! -   -   Sequence: smallest number with exactly n divisors
-!     -   Sequence: nth number with exactly n divisors‎‎
+! - - Sequence: smallest number with exactly n divisors
+!   - Sequence: nth number with exactly n divisors‎‎
 
 USING: io kernel math math.primes.factors prettyprint sequences ;
 

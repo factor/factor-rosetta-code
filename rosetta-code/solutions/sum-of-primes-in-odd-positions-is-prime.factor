@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Let p(i) be a sequence of prime numbers such that 2 = p(1), 3 = p(2), 5
 ! = p(3), ...

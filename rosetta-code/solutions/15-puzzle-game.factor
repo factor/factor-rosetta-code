@@ -1,25 +1,27 @@
 ! []
 ! 
-! 15_puzzle.png
+! Task
 ! 
-! Task:
+!     
 ! 
 ! Implement the Fifteen Puzzle Game.
 ! 
 ! The 15-puzzle is also known as:
 ! 
-! -   -   Fifteen Puzzle
-!     -   Gem Puzzle
-!     -   Boss Puzzle
-!     -   Game of Fifteen
-!     -   Mystic Square
-!     -   14-15 Puzzle
-!     -   and some others.
+! - - Fifteen Puzzle
+!   - Gem Puzzle
+!   - Boss Puzzle
+!   - Game of Fifteen
+!   - Mystic Square
+!   - 14-15 Puzzle
+!   - and some others.
 ! 
-! Related Tasks:
+! Related Tasks
 ! 
-! -   -   15 Puzzle Solver
-!     -   16 Puzzle Game
+!     
+! 
+! - - 15 Puzzle Solver
+!   - 16 Puzzle Game
 ! 
 ! Category:Puzzles Category:Games
 

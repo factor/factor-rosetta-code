@@ -2,7 +2,9 @@
 ! the act of adding commas to a number (or string), or to the numeric part
 ! of a larger string.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function that takes a string as an argument with optional
 ! arguments or parameters (the format of parameters/options is left to the
@@ -17,8 +19,8 @@
 ! 
 ! The number may be part of a larger (non-numeric) string such as:
 ! 
-! -   -   «US$1744 millions» ──or──
-!     -   ±25000 motes.
+! - - «US$1744 millions» ──or──
+!   - ±25000 motes.
 ! 
 ! The string may possibly not have a number suitable for commatizing, so
 ! it should be untouched and no error generated.
@@ -40,24 +42,23 @@
 ! 
 ! To wit, the following should be preserved:
 ! 
-! -   -   leading signs (+, -) ── even superfluous signs
-!     -   leading/trailing/embedded blanks, tabs, and other whitespace
-!     -   the case (upper/lower) of the exponent indicator, e.g.:
-!         4.8903d-002
+! - - leading signs (+, -) ── even superfluous signs
+!   - leading/trailing/embedded blanks, tabs, and other whitespace
+!   - the case (upper/lower) of the exponent indicator, e.g.: 4.8903d-002
 ! 
 ! Any exponent character(s) should be supported:
 ! 
-! -   -   1247e12
-!     -   57256.1D-4
-!     -   4444^60
-!     -   7500∙10**35
-!     -   8500x10**35
-!     -   9500↑35
-!     -   +55000↑3
-!     -   1000**100
-!     -   2048²
-!     -   4096³²
-!     -   10000pow(pi)
+! - - 1247e12
+!   - 57256.1D-4
+!   - 4444^60
+!   - 7500∙10**35
+!   - 8500x10**35
+!   - 9500↑35
+!   - +55000↑3
+!   - 1000**100
+!   - 2048²
+!   - 4096³²
+!   - 10000pow(pi)
 ! 
 ! Numbers may be terminated with any non-digit character, including
 ! subscripts and/or superscript: 4142135624³ or 7320509076_((base 24)).
@@ -82,7 +83,9 @@
 ! The character strings below may be placed in a file (and read) or stored
 ! as simple strings within the program.
 ! 
-! Strings to be used as a minimum:
+! Strings to be used as a minimum
+! 
+!     
 ! 
 ! The value of pi (expressed in base 10) should be separated with blanks
 ! every 5 places past the decimal point,
@@ -90,29 +93,30 @@
 ! the Zimbabwe dollar amount should use a decimal point for the "comma"
 ! separator:
 ! 
-! -   -   pi=3.14159265358979323846264338327950288419716939937510582097494459231
-!     -   The author has two Z$100000000000000 Zimbabwe notes (100
-!         trillion).
-!     -   "-in Aus$+1411.8millions"
-!     -   ===US$0017440 millions=== (in 2000 dollars)
-!     -   123.e8000 is pretty big.
-!     -   The land area of the earth is 57268900(29% of the surface)
-!         square miles.
-!     -   Ain't no numbers in this here words, nohow, no way, Jose.
-!     -   James was never known as 0000000007
-!     -   Arthur Eddington wrote: I believe there are
-!         15747724136275002577605653961181555468044717914527116709366231425076185631031296
-!         protons in the universe.
-!     -   ␢␢␢$-140000±100 millions.
-!     -   6/9/1946 was a good year for some.
+! - - pi=3.14159265358979323846264338327950288419716939937510582097494459231
+!   - The author has two Z$100000000000000 Zimbabwe notes (100 trillion).
+!   - "-in Aus$+1411.8millions"
+!   - ===US$0017440 millions=== (in 2000 dollars)
+!   - 123.e8000 is pretty big.
+!   - The land area of the earth is 57268900(29% of the surface) square
+!     miles.
+!   - Ain't no numbers in this here words, nohow, no way, Jose.
+!   - James was never known as 0000000007
+!   - Arthur Eddington wrote: I believe there are
+!     15747724136275002577605653961181555468044717914527116709366231425076185631031296
+!     protons in the universe.
+!   - ␢␢␢$-140000±100 millions.
+!   - 6/9/1946 was a good year for some.
 ! 
 ! where the penultimate string has three leading blanks (real blanks are
 ! to be used).
 ! 
-! Also see:
+! Also see
 ! 
-! -   The Wiki entry: (sir) Arthur Eddington's number of protons in the
-!     universe.
+!     
+! 
+! - The Wiki entry: (sir) Arthur Eddington's number of protons in the
+!   universe.
 
 USING: accessors grouping io kernel math regexp sequences
 splitting strings unicode ;

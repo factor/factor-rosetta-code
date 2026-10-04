@@ -13,9 +13,9 @@
 ! Hamiltonian circuit with the minimum total distance. The distance
 ! function must satisfy:
 ! 
-! -   d(u, v) ≥ 0 (non-negativity),
-! -   d(u, v) = d(v, u) (symmetry),
-! -   d(u, w) ≤ d(u, v) + d(v, w) (triangle inequality).
+! - d(u, v) ≥ 0 (non-negativity),
+! - d(u, v) = d(v, u) (symmetry),
+! - d(u, w) ≤ d(u, v) + d(v, w) (triangle inequality).
 ! 
 ! The TSP is NP-hard, meaning no known polynomial-time algorithm can solve
 ! it exactly for all cases unless P = NP. The Christofides algorithm
@@ -28,14 +28,14 @@
 ! most $\frac{3}{2}$ times the weight of the optimal TSP tour. This bound
 ! is derived as follows:
 ! 
-! -   The MST weight is at most the weight of the optimal tour (since
-!     removing one edge from the optimal tour yields a spanning tree).
-! -   The minimum-weight perfect matching for the odd-degree vertices has
-!     a weight at most half the optimal tour weight (since the optimal
-!     tour induces a matching on these vertices).
-! -   The Eulerian circuit’s weight is the sum of the MST and matching
-!     weights, and shortcutting does not increase the weight due to the
-!     triangle inequality.
+! - The MST weight is at most the weight of the optimal tour (since
+!   removing one edge from the optimal tour yields a spanning tree).
+! - The minimum-weight perfect matching for the odd-degree vertices has a
+!   weight at most half the optimal tour weight (since the optimal tour
+!   induces a matching on these vertices).
+! - The Eulerian circuit’s weight is the sum of the MST and matching
+!   weights, and shortcutting does not increase the weight due to the
+!   triangle inequality.
 ! 
 ! Thus, the total weight is at most
 ! $\text{MST} + \text{Matching} \leq \text{OPT} + \frac{\text{OPT}}{2} = \frac{3}{2} \text{OPT}$,
@@ -45,13 +45,13 @@
 ! 
 ! The algorithm runs in polynomial time:
 ! 
-! -   MST computation: O(mlog n) using Kruskal’s or Prim’s algorithm,
-!     where m is the number of edges and n is the number of vertices.
-! -   Odd-degree vertex identification: O(n).
-! -   Minimum-weight perfect matching: O(n³) using algorithms like the
-!     blossom algorithm.
-! -   Eulerian circuit construction: O(m).
-! -   Shortcut to Hamiltonian circuit: O(n).
+! - MST computation: O(mlog n) using Kruskal’s or Prim’s algorithm, where
+!   m is the number of edges and n is the number of vertices.
+! - Odd-degree vertex identification: O(n).
+! - Minimum-weight perfect matching: O(n³) using algorithms like the
+!   blossom algorithm.
+! - Eulerian circuit construction: O(m).
+! - Shortcut to Hamiltonian circuit: O(n).
 ! 
 ! The overall time complexity is dominated by the matching step, resulting
 ! in O(n³) for a complete graph where m = O(n²).

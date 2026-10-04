@@ -6,13 +6,15 @@
 ! called the "imaginary part" and "real part", where the imaginary part is
 ! the number to be multiplied by i.
 ! 
-! Task:
+! Task
 ! 
-! -   Show addition, multiplication, negation, and inversion of complex
-!     numbers in separate functions. (Subtraction and division operations
-!     can be made with pairs of these operations.)
-! -   Print the results for each operation tested.
-! -   Optional: Show complex conjugation.
+!     
+! 
+! - Show addition, multiplication, negation, and inversion of complex
+!   numbers in separate functions. (Subtraction and division operations
+!   can be made with pairs of these operations.)
+! - Print the results for each operation tested.
+! - Optional: Show complex conjugation.
 ! 
 ! By definition, the complex conjugate of a + bi is a − bi
 ! 

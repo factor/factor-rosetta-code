@@ -36,9 +36,9 @@
 ! 
 ! References
 ! 
-! -   OEIS sequence A361796: Prime numbers preceded by two consecutive
-!     numbers which are products of four distinct primes (or tetraprimes).
-! -   OEIS sequence A362578: Prime numbers followed by two consecutive
-!     numbers which are products of four distinct primes (or tetraprimes).
+! - OEIS sequence A361796: Prime numbers preceded by two consecutive
+!   numbers which are products of four distinct primes (or tetraprimes).
+! - OEIS sequence A362578: Prime numbers followed by two consecutive
+!   numbers which are products of four distinct primes (or tetraprimes).
 
 

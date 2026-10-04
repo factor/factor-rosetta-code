@@ -13,15 +13,14 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first fifty terms in the series. (0! through
-!     49!)
-! -   Find and display the position and value of the first m greater than
-!     1000.
+! - Find and display the first fifty terms in the series. (0! through 49!)
+! - Find and display the position and value of the first m greater than
+!   1000.
 ! 
 ! Stretch
 ! 
-! -   Find and display the position and value of each the first m greater
-!     than 2000, 3000, 4000 ... 10,000.
+! - Find and display the position and value of each the first m greater
+!   than 2000, 3000, 4000 ... 10,000.
 ! 
 ! See also
 ! * OEIS:A033932 - Least positive m such that n! + m is prime

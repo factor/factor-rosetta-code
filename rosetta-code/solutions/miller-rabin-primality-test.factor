@@ -22,10 +22,10 @@
 !    return composite
 ! return probably prime
 ! 
-! -   The nature of the test involves big numbers, so the use of "big
-!     numbers" libraries (or similar features of the language of your
-!     choice) are suggested, but not mandatory.
-! -   Deterministic variants of the test exist and can be implemented as
-!     extra (not mandatory to complete the task)
+! - The nature of the test involves big numbers, so the use of "big
+!   numbers" libraries (or similar features of the language of your
+!   choice) are suggested, but not mandatory.
+! - Deterministic variants of the test exist and can be implemented as
+!   extra (not mandatory to complete the task)
 
 

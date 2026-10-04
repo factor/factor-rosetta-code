@@ -1,7 +1,9 @@
 ! It is very important in aviation to have knowledge of the nearby
 ! airports at any time in flight.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Determine the distance and bearing from an Airplane to the 20 nearest
 ! Airports whenever requested. Use the non-commercial data from
@@ -21,10 +23,12 @@
 ! Bearing is measured in degrees (°). 0° = 360° = north then clockwise 90°
 ! = east, 180° = south, 270° = west. Resolution is 1°.
 ! 
-! See:
+! See
 ! 
-! -   -   openflights.org/data: Airport, airline and route data
-!     -   Movable Type Scripts: Calculate distance, bearing and more
-!         between Latitude/Longitude points
+!     
+! 
+! - - openflights.org/data: Airport, airline and route data
+!   - Movable Type Scripts: Calculate distance, bearing and more between
+!     Latitude/Longitude points
 
 

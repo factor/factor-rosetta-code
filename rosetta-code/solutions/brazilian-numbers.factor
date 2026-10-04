@@ -8,22 +8,23 @@
 ! natural number B where 1 < B < N-1 where the representation of N in base
 ! B has all equal digits.
 ! 
-! E.G.:
+! E.G.
 ! 
-! -   -   1, 2 & 3 can not be Brazilian; there is no base B that satisfies
-!         the condition 1 < B < N-1.
-!     -   4 is not Brazilian; 4 in base 2 is 100. The digits are not all
-!         the same.
-!     -   5 is not Brazilian; 5 in base 2 is 101, in base 3 is 12. There
-!         is no representation where the digits are the same.
-!     -   6 is not Brazilian; 6 in base 2 is 110, in base 3 is 20, in base
-!         4 is 12. There is no representation where the digits are the
-!         same.
-!     -   7 is Brazilian; 7 in base 2 is 111. There is at least one
-!         representation where the digits are all the same.
-!     -   8 is Brazilian; 8 in base 3 is 22. There is at least one
-!         representation where the digits are all the same.
-!     -   and so on...
+!     
+! 
+! - - 1, 2 & 3 can not be Brazilian; there is no base B that satisfies the
+!     condition 1 < B < N-1.
+!   - 4 is not Brazilian; 4 in base 2 is 100. The digits are not all the
+!     same.
+!   - 5 is not Brazilian; 5 in base 2 is 101, in base 3 is 12. There is no
+!     representation where the digits are the same.
+!   - 6 is not Brazilian; 6 in base 2 is 110, in base 3 is 20, in base 4
+!     is 12. There is no representation where the digits are the same.
+!   - 7 is Brazilian; 7 in base 2 is 111. There is at least one
+!     representation where the digits are all the same.
+!   - 8 is Brazilian; 8 in base 3 is 22. There is at least one
+!     representation where the digits are all the same.
+!   - and so on...
 ! 
 ! All even integers 2P >= 8 are Brazilian because 2P = 2(P-1) + 2, which
 ! is 22 in base P-1 when P-1 > 2. That becomes true when P >= 4.
@@ -36,20 +37,24 @@
 ! number. Mostly in form of 111 to base Integer(sqrt(prime number)). Must
 ! be an odd count of 1 to stay odd like primes > 2
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a routine (function, whatever) to determine if a number is
 ! Brazilian and use the routine to show here, on this page;
 ! 
-! -   -   the first 20 Brazilian numbers;
-!     -   the first 20 odd Brazilian numbers;
-!     -   the first 20 prime Brazilian numbers;
+! - - the first 20 Brazilian numbers;
+!   - the first 20 odd Brazilian numbers;
+!   - the first 20 prime Brazilian numbers;
 ! 
-! See also:
+! See also
 ! 
-! -   -   OEIS:A125134 - Brazilian numbers
-!     -   OEIS:A257521 - Odd Brazilian numbers
-!     -   OEIS:A085104 - Prime Brazilian numbers
+!     
+! 
+! - - OEIS:A125134 - Brazilian numbers
+!   - OEIS:A257521 - Odd Brazilian numbers
+!   - OEIS:A085104 - Prime Brazilian numbers
 
 USING: combinators grouping io kernel lists lists.lazy math
 math.parser math.primes.lists math.ranges namespaces prettyprint

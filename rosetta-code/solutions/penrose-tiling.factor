@@ -36,11 +36,13 @@
 ! 
 ! The task: fill a rectangular area with a Penrose tiling.
 ! 
-! See also:
+! See also
 ! 
-! -   A good introduction (ams.org)
-! -   Deflation explained for both sets (tartarus.org)
-! -   Deflation explained for Kite and Dart, includes Python code
-!     (preshing.com)
+!     
+! 
+! - A good introduction (ams.org)
+! - Deflation explained for both sets (tartarus.org)
+! - Deflation explained for Kite and Dart, includes Python code
+!   (preshing.com)
 
 

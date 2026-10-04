@@ -9,7 +9,7 @@
 ! 
 ! See also
 ! 
-! -   Convex Hull (youtube)
-! -   http://www.geeksforgeeks.org/convex-hull-set-2-graham-scan/
+! - Convex Hull (youtube)
+! - http://www.geeksforgeeks.org/convex-hull-set-2-graham-scan/
 
 

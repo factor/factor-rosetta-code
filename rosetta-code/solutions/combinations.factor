@@ -1,10 +1,14 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given non-negative integers m and n, generate all size m combinations of
 ! the integers from 0 (zero) to n-1 in sorted order (each combination is
 ! sorted and the entire table is sorted).
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! 3 comb 5 is:
 ! 
@@ -24,7 +28,9 @@
 ! 
 ! the combinations can be of the integers from 1 to n.
 ! 
-! See also:
+! See also
+! 
+!     
 
 USING: math.combinatorics prettyprint ;
 

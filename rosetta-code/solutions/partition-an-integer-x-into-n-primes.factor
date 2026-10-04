@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Partition a positive integer X into N distinct primes.
 ! 
@@ -21,23 +23,25 @@
 ! 
 !     Partitioned  19  with  3  primes:  3+5+11
 ! 
-! -   -   Use any spacing that may be appropriate for the display.
-!     -   You need not validate the input(s).
-!     -   Use the lowest primes possible; use 18 = 5+13, not 18 = 7+11.
-!     -   You only need to show one solution.
+! - - Use any spacing that may be appropriate for the display.
+!   - You need not validate the input(s).
+!   - Use the lowest primes possible; use 18 = 5+13, not 18 = 7+11.
+!   - You only need to show one solution.
 ! 
 ! This task is similar to factoring an integer.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Count in factors
-!     -   Prime decomposition
-!     -   Factors of an integer
-!     -   Sieve of Eratosthenes
-!     -   Primality by trial division
-!     -   Factors of a Mersenne number
-!     -   Factors of a Mersenne number
-!     -   Sequence of primes by trial division
+!     
+! 
+! - - Count in factors
+!   - Prime decomposition
+!   - Factors of an integer
+!   - Sieve of Eratosthenes
+!   - Primality by trial division
+!   - Factors of a Mersenne number
+!   - Factors of a Mersenne number
+!   - Sequence of primes by trial division
 
 USING: formatting fry grouping kernel math.combinatorics
 math.parser math.primes sequences ;

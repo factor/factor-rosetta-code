@@ -1,15 +1,18 @@
-! Task:
+! Task
 ! 
-! -   verify the version/revision of your currently running
-!     (compiler/interpreter/byte-compiler/runtime environment/whatever
-!     your language uses) and exit if it is too old.
-! -   check whether the variable "bloop" exists and whether the
-!     math-function "abs()" is available and if yes compute abs(bloop).
+!     
 ! 
-! Extra credit:
+! - verify the version/revision of your currently running
+!   (compiler/interpreter/byte-compiler/runtime environment/whatever your
+!   language uses) and exit if it is too old.
+! - check whether the variable "bloop" exists and whether the
+!   math-function "abs()" is available and if yes compute abs(bloop).
 ! 
-! -   Report the number of integer variables in global scope, and their
-!     sum.
+! Extra credit
+! 
+!     
+! 
+! - Report the number of integer variables in global scope, and their sum.
 
 : if-older ( n true false -- )
     [ build > ] 2dip if ; inline

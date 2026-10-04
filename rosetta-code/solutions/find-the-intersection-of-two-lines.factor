@@ -1,7 +1,9 @@
 ! Finding the intersection of two lines that are in the same plane is an
 ! important topic in collision detection.[1]
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find the point of intersection of two lines in 2D.
 ! 

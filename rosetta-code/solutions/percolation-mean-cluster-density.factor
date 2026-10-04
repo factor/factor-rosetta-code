@@ -22,7 +22,7 @@
 ! 
 ! See also
 ! 
-! -   s-Cluster on Wolfram mathworld.
+! - s-Cluster on Wolfram mathworld.
 
 USING: combinators formatting generalizations kernel math
 math.matrices random sequences ;

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show the ASCII character set from values 32 to 127 (decimal) in a table
 ! format.

@@ -36,54 +36,53 @@
 ! calculations as Gibbs vectors (the "arrow" kind of vector), and runs as
 ! multiple processes.
 ! 
-! -   A light source, which occasionally emits two pulses of
-!     plane-polarized light, one towards the left, the other towards the
-!     right. Both pulses have an amplitude of 1. About half the time the
-!     pulses are polarized, respectively, at an angle of 0° on the left
-!     and 90° on the right. The rest of the time the angles are reversed:
-!     90° on the left, 0° on the right. A random number generator should
-!     be used to select between the two settings. If the 0° angle is on
-!     the left, then a "0" should be recorded in a log. Otherwise a "1" is
-!     recorded.
+! - A light source, which occasionally emits two pulses of plane-polarized
+!   light, one towards the left, the other towards the right. Both pulses
+!   have an amplitude of 1. About half the time the pulses are polarized,
+!   respectively, at an angle of 0° on the left and 90° on the right. The
+!   rest of the time the angles are reversed: 90° on the left, 0° on the
+!   right. A random number generator should be used to select between the
+!   two settings. If the 0° angle is on the left, then a "0" should be
+!   recorded in a log. Otherwise a "1" is recorded.
 ! 
-! -   A polarizing beam splitter. Actually you will need two of these
-!     devices, but the two should share their implementation. Each beam
-!     splitter has an angle setting, which for our own convenience is
-!     required to be greater than or equal to 0° but less than 90°. (The
-!     simulation in the paper does not impose this requirement, but
-!     imposing it does not change the results.) A polarizing beam splitter
-!     does the following. For input it receives one of the light pulses
-!     emitted by the light source, and for output it emits two new light
-!     pulses, whose directions of travel we will not worry about. One of
-!     the new light pulses has amplitude equal to the cosine of the
-!     difference between the angle of the incoming light and the angular
-!     setting of the beam splitter. The other new light pulse has
-!     amplitude equal to the absolute value of the sine of the difference
-!     between angles. The new light pulses are plane-polarized but this
-!     information is not used by the next device in line, so may be
-!     ignored if one wishes. (The reference Python example does compute
-!     the directions of polarization.) The beam splitters will actually
-!     have two angle settings, with the first of the two settings chosen
-!     randomly about half the time. If the first angle setting was chosen,
-!     "0" is recorded in a log. Otherwise a "1" is recorded.
+! - A polarizing beam splitter. Actually you will need two of these
+!   devices, but the two should share their implementation. Each beam
+!   splitter has an angle setting, which for our own convenience is
+!   required to be greater than or equal to 0° but less than 90°. (The
+!   simulation in the paper does not impose this requirement, but imposing
+!   it does not change the results.) A polarizing beam splitter does the
+!   following. For input it receives one of the light pulses emitted by
+!   the light source, and for output it emits two new light pulses, whose
+!   directions of travel we will not worry about. One of the new light
+!   pulses has amplitude equal to the cosine of the difference between the
+!   angle of the incoming light and the angular setting of the beam
+!   splitter. The other new light pulse has amplitude equal to the
+!   absolute value of the sine of the difference between angles. The new
+!   light pulses are plane-polarized but this information is not used by
+!   the next device in line, so may be ignored if one wishes. (The
+!   reference Python example does compute the directions of polarization.)
+!   The beam splitters will actually have two angle settings, with the
+!   first of the two settings chosen randomly about half the time. If the
+!   first angle setting was chosen, "0" is recorded in a log. Otherwise a
+!   "1" is recorded.
 ! 
-! -   A light detector, or actually four of them that share their
-!     implementation. Each light detector receives as input, respectively,
-!     one of the four output pulses from the two polarizing beam
-!     splitters. A light detector first squares the amplitude of the
-!     incoming light pulse. This square is the intensity of the pulse.
-!     Then it compares the intensity it just computed with a uniform
-!     random number between 0.0 and 1.0. If the random number is less than
-!     or equal to the intensity, the light detector outputs a "1", meaning
-!     that it has detected a light pulse. Otherwise the detector outputs a
-!     "0", representing the quiescent state of the detector. (That is, the
-!     detector has failed to detect the pulse.) The output of each light
-!     detector is recorded in a log.
+! - A light detector, or actually four of them that share their
+!   implementation. Each light detector receives as input, respectively,
+!   one of the four output pulses from the two polarizing beam splitters.
+!   A light detector first squares the amplitude of the incoming light
+!   pulse. This square is the intensity of the pulse. Then it compares the
+!   intensity it just computed with a uniform random number between 0.0
+!   and 1.0. If the random number is less than or equal to the intensity,
+!   the light detector outputs a "1", meaning that it has detected a light
+!   pulse. Otherwise the detector outputs a "0", representing the
+!   quiescent state of the detector. (That is, the detector has failed to
+!   detect the pulse.) The output of each light detector is recorded in a
+!   log.
 ! 
 ! The angle settings of the polarizing beam splitters will be as follows:
 ! 
-! -   On the left, the first setting angle is 0° and the second is 45°.
-! -   On the right, the first angle is 22.5° and the second is 67.5°.
+! - On the left, the first setting angle is 0° and the second is 45°.
+! - On the right, the first angle is 22.5° and the second is 67.5°.
 ! 
 ! The simulation is run by having the light source emit some number of
 ! pulses and letting the other devices do their work. How you arrange this
@@ -137,24 +136,24 @@
 ! Malus, and assumes light detectors are the source of "randomness" in
 ! detections. Instead write a simulation with these differences:
 ! 
-! -   The light source works exactly as above, but now we call it a source
-!     of photons-containing-hidden-variables and pay no attention to the
-!     amplitude of the light pulses. They are now simply little "pellets"
-!     of light, but containing some inner state that quantum mechanics
-!     pointedly ignores.
-! -   A polarizing beam splitter, rather than emit light of reduced
-!     amplitude, emits up to two new photons-containing-hidden-variables,
-!     again of arbitrary amplitude. A photon-containing-hidden-variables
-!     possibly is emitted towards one of the light detectors, with
-!     probability equal to the square of the cosine of the difference in
-!     angle between the impinging photon and the beam splitter. The other
-!     light detector gets a photon-containing-hidden-variables with
-!     probability equal to the square of the sine.
-! -   The light detector we will now call a photodetector. It detects
-!     impinging photons-containing-hidden-variables with probability one.
-!     It is a perfect photon-containing-hidden-variables detector.
-! -   Output must be in the format described above, so the data analyzers
-!     can analyze them.
+! - The light source works exactly as above, but now we call it a source
+!   of photons-containing-hidden-variables and pay no attention to the
+!   amplitude of the light pulses. They are now simply little "pellets" of
+!   light, but containing some inner state that quantum mechanics
+!   pointedly ignores.
+! - A polarizing beam splitter, rather than emit light of reduced
+!   amplitude, emits up to two new photons-containing-hidden-variables,
+!   again of arbitrary amplitude. A photon-containing-hidden-variables
+!   possibly is emitted towards one of the light detectors, with
+!   probability equal to the square of the cosine of the difference in
+!   angle between the impinging photon and the beam splitter. The other
+!   light detector gets a photon-containing-hidden-variables with
+!   probability equal to the square of the sine.
+! - The light detector we will now call a photodetector. It detects
+!   impinging photons-containing-hidden-variables with probability one. It
+!   is a perfect photon-containing-hidden-variables detector.
+! - Output must be in the format described above, so the data analyzers
+!   can analyze them.
 ! 
 ! Though the simulation now includes "photons" instead of classical
 ! optics, it will be perfectly valid for the data analyzer to take into
@@ -183,6 +182,6 @@
 ! 
 ! See also
 ! 
-! -   Simulated optics experiment/Data analysis
+! - Simulated optics experiment/Data analysis
 
 

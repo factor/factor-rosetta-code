@@ -2,6 +2,7 @@
 ! explored. The task is to determine how many of the first million
 ! Ramanujan primes are twins.
 ! 
-! Related Task: Twin primes
+! Related Task
+!     Twin primes
 
 

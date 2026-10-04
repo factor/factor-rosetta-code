@@ -18,9 +18,11 @@
 ! 110 -> 1  # Needs one neighbour to survive
 ! 111 -> 0  # Starved to death.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Elementary cellular automaton
+!     
+! 
+! - Elementary cellular automaton
 
 USING: bit-arrays io kernel locals math sequences ;
 IN: cellular

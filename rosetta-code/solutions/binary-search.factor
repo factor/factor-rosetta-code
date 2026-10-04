@@ -16,7 +16,9 @@
 ! of the range. This process repeats until one has reached the secret
 ! number.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given the starting point of a range, the ending point of a range, and
 ! the "secret value", implement a binary search through a sorted integer
@@ -35,11 +37,11 @@
 ! initially) by making the following simple changes (which simply increase
 ! high by 1):
 ! 
-! -   change high = N-1 to high = N
-! -   change high = mid-1 to high = mid
-! -   (for recursive algorithm) change if (high < low) to if (high <= low)
-! -   (for iterative algorithm) change while (low <= high) to
-!     while (low < high)
+! - change high = N-1 to high = N
+! - change high = mid-1 to high = mid
+! - (for recursive algorithm) change if (high < low) to if (high <= low)
+! - (for iterative algorithm) change while (low <= high) to
+!   while (low < high)
 ! 
 ! Traditional algorithm
 ! 
@@ -209,15 +211,19 @@
 ! an unsigned number, the value is still the correct sum. To divide an
 ! unsigned number by 2, simply do a logical right shift.
 ! 
-! Related task:
+! Related task
 ! 
-! -   -   Guess the number/With Feedback (Player)
+!     
 ! 
-! See also:
+! - - Guess the number/With Feedback (Player)
 ! 
-! -   -   wp:Binary search algorithm
-!     -   Extra, Extra - Read All About It: Nearly All Binary Searches and
-!         Mergesorts are Broken.
+! See also
+! 
+!     
+! 
+! - - wp:Binary search algorithm
+!   - Extra, Extra - Read All About It: Nearly All Binary Searches and
+!     Mergesorts are Broken.
 ! 
 ! Category:Recursion
 

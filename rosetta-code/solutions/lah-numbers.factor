@@ -17,34 +17,39 @@
 !      or
 !   L(n, k) = (-1)**n * ( n! * (n - 1)! ) / ( k! * (k - 1)! ) / (n - k)!      # For   signed Lah numbers
 ! 
-! Task:
+! Task
 ! 
-! -   -   Write a routine (function, procedure, whatever) to find unsigned
-!         Lah numbers. There are several methods to generate unsigned Lah
-!         numbers. You are free to choose the most appropriate for your
-!         language. If your language has a built-in, or easily, publicly
-!         available library implementation, it is acceptable to use that.
+!     
 ! 
-! -   -   Using the routine, generate and show here, on this page, a table
-!         (or triangle) showing the unsigned Lah numbers, L(n, k), up to
-!         L(12, 12). it is optional to show the row / column for n == 0
-!         and k == 0. It is optional to show places where L(n, k) == 0
-!         (when k > n).
+! - - Write a routine (function, procedure, whatever) to find unsigned Lah
+!     numbers. There are several methods to generate unsigned Lah numbers.
+!     You are free to choose the most appropriate for your language. If
+!     your language has a built-in, or easily, publicly available library
+!     implementation, it is acceptable to use that.
 ! 
-! -   -   If your language supports large integers, find and show here, on
-!         this page, the maximum value of L(n, k) where n == 100.
+! - - Using the routine, generate and show here, on this page, a table (or
+!     triangle) showing the unsigned Lah numbers, L(n, k), up to L(12,
+!     12). it is optional to show the row / column for n == 0 and k == 0.
+!     It is optional to show places where L(n, k) == 0 (when k > n).
 ! 
-! See also:
+! - - If your language supports large integers, find and show here, on
+!     this page, the maximum value of L(n, k) where n == 100.
 ! 
-! -   -   Wikipedia - Lah number
-!     -   OEIS:A105278 - Unsigned Lah numbers
-!     -   OEIS:A008297 - Signed Lah numbers
+! See also
 ! 
-! Related Tasks:
+!     
 ! 
-! -   -   Stirling numbers of the first kind
-!     -   Stirling numbers of the second kind
-!     -   Bell numbers
+! - - Wikipedia - Lah number
+!   - OEIS:A105278 - Unsigned Lah numbers
+!   - OEIS:A008297 - Signed Lah numbers
+! 
+! Related Tasks
+! 
+!     
+! 
+! - - Stirling numbers of the first kind
+!   - Stirling numbers of the second kind
+!   - Bell numbers
 
 USING: combinators combinators.short-circuit formatting infix io
 kernel locals math math.factorials math.ranges prettyprint

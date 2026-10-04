@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Define a function/method/subroutine which sorts a sequence ("table") of
 ! sequences ("rows") of strings ("cells"), by one of the strings. Besides
@@ -38,7 +40,7 @@
 ! 
 ! See also:
 ! 
-! -   Named Arguments
+! - Named Arguments
 
 USING: accessors combinators io kernel math.order prettyprint
 sequences sorting ;

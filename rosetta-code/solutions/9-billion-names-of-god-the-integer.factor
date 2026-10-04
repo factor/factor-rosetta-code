@@ -42,10 +42,9 @@
 ! 
 ! Related tasks
 ! 
-! -   Partition function P
+! - Partition function P
 
-USING: combinators io kernel math math.ranges memoize prettyprint
-sequences ;
+USING: combinators io kernel math ranges memoize prettyprint sequences ;
 
 MEMO: p ( m n -- o )
     {
@@ -55,13 +54,13 @@ MEMO: p ( m n -- o )
         [ [ [ 1 - ] bi@ p ] [ [ - ] [ ] bi p + ] 2bi ]
     } cond ;
 
-: row ( n -- seq ) dup [1,b] [ p ] with map ;
+: row ( n -- seq ) dup [1..b] [ p ] with map ;
 
 : .row ( n -- ) row [ pprint bl ] each nl ;
 
-: .triangle ( n -- ) [1,b] [ .row ] each ;
+: .triangle ( n -- ) [1..b] [ .row ] each ;
 
 : G ( n -- sum ) row sum ;
 
 25 .triangle nl
-"Sums:" print { 23 123 1234 12345 } [ dup pprint bl G . ] each
+"Sums:" print { 23 123 1234 12345 } [ dup pprint bl G . flush ] each

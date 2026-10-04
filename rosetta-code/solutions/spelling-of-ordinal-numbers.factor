@@ -21,7 +21,9 @@
 ! 
 ! 2,000,000,000 is two billion, not two milliard.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a driver and a function (subroutine/routine ···) that returns the
 ! English-spelled ordinal version of a specified number (a positive
@@ -32,16 +34,20 @@
 ! 
 ! Show all output here.
 ! 
-! Test cases:
+! Test cases
+! 
+!     
 ! 
 ! Use (at least) the test cases of:
 ! 
 !   1  2  3  4  5  11  65  100  101  272  23456  8007006005004003
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Number names
-! -   N'th
+!     
+! 
+! - Number names
+! - N'th
 
 USING: assocs formatting grouping kernel literals locals math
 math.parser math.text.english qw regexp sequences

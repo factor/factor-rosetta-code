@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a Playfair cipher for encryption and decryption.
 ! 
@@ -7,7 +9,9 @@
 ! The output of the encrypted and decrypted message must be in capitalized
 ! digraphs, separated by spaces.
 ! 
-! Output example:
+! Output example
+! 
+!     
 ! 
 !                 HI DE TH EG OL DI NT HE TR EX ES TU MP
 ! 

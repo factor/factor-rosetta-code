@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Document common flow-control structures.
 ! 
@@ -7,10 +9,12 @@
 ! Note that Conditional Structures and Loop Structures have their own
 ! articles/categories.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Conditional Structures
-! -   Loop Structures
+!     
+! 
+! - Conditional Structures
+! - Loop Structures
 ! 
 ! Category:Flow control
 

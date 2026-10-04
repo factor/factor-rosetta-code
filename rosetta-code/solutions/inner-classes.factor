@@ -23,10 +23,10 @@
 ! 
 ! Reference
 ! 
-! -   Wikipedia: Inner class
+! - Wikipedia: Inner class
 ! 
 ! Related task
 ! 
-! -   Classes
+! - Classes
 
 

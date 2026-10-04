@@ -1,4 +1,6 @@
-! Definition:
+! Definition
+! 
+!     
 ! 
 ! An eban number is a number that has no letter e in it when the number is
 ! spelled in English.
@@ -15,23 +17,26 @@
 ! 
 ! This will allow optimizations to be used.
 ! 
-! Task:
+! Task
 ! 
-! -   -   show all eban numbers ≤ 1,000 (in a horizontal format), and a
-!         count
-!     -   show all eban numbers between 1,000 and 4,000 (inclusive), and a
-!         count
-!     -   show a count of all eban numbers up and including 10,000
-!     -   show a count of all eban numbers up and including 100,000
-!     -   show a count of all eban numbers up and including 1,000,000
-!     -   show a count of all eban numbers up and including 10,000,000
-!     -   show all output here.
+!     
 ! 
-! See also:
+! - - show all eban numbers ≤ 1,000 (in a horizontal format), and a count
+!   - show all eban numbers between 1,000 and 4,000 (inclusive), and a
+!     count
+!   - show a count of all eban numbers up and including 10,000
+!   - show a count of all eban numbers up and including 100,000
+!   - show a count of all eban numbers up and including 1,000,000
+!   - show a count of all eban numbers up and including 10,000,000
+!   - show all output here.
 ! 
-! -   -   The MathWorld entry: eban numbers.
-!     -   The OEIS entry: A6933, eban numbers.
-!     -   Number names.
+! See also
+! 
+!     
+! 
+! - - The MathWorld entry: eban numbers.
+!   - The OEIS entry: A6933, eban numbers.
+!   - Number names.
 
 USING: arrays formatting fry io kernel math math.functions
 math.order math.ranges prettyprint sequences ;

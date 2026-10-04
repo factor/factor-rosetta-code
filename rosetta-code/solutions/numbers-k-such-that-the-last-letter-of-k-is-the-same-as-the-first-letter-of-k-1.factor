@@ -36,12 +36,12 @@
 ! 
 ! References
 ! 
-! -   OEIS sequence A363659:Numbers k such that the last letter of k is
-!     the same as the first letter of k+1 when written in English.
+! - OEIS sequence A363659:Numbers k such that the last letter of k is the
+!   same as the first letter of k+1 when written in English.
 ! 
-! -   GCHQ, The GCHQ Puzzle Book, Penguin, 2016. See Puzzle 31, page 37
-!     (referred to in OEIS link).
+! - GCHQ, The GCHQ Puzzle Book, Penguin, 2016. See Puzzle 31, page 37
+!   (referred to in OEIS link).
 ! 
-! -   Number names
+! - Number names
 
 

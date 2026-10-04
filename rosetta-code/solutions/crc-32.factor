@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate a method of deriving the Cyclic Redundancy Check from within
 ! the language.

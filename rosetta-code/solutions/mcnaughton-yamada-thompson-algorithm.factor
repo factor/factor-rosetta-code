@@ -9,7 +9,9 @@
 ! As the workings of the algorithm are clearly described in the linked
 ! article they will not be repeated here.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement Thompson's Construction Algorithm to convert regular
 ! expressions into NFAs and match strings. The implementation should:

@@ -9,17 +9,17 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first 20 Wolstenholme numbers. (Or as many as
-!     reasonably supported by your language if it is fewer.)
-! -   Find and display the first 4 prime Wolstenholme numbers. (Or as many
-!     as reasonably supported by your language if it is fewer.)
+! - Find and display the first 20 Wolstenholme numbers. (Or as many as
+!   reasonably supported by your language if it is fewer.)
+! - Find and display the first 4 prime Wolstenholme numbers. (Or as many
+!   as reasonably supported by your language if it is fewer.)
 ! 
 ! Stretch
 ! 
-! -   Find and display the digit count of the 500th, 1000th, 2500th,
-!     5000th, 10000th Wolstenholme numbers.
-! -   Find and display the digit count of the first 15 prime Wolstenholme
-!     numbers.
+! - Find and display the digit count of the 500th, 1000th, 2500th, 5000th,
+!   10000th Wolstenholme numbers.
+! - Find and display the digit count of the first 15 prime Wolstenholme
+!   numbers.
 ! 
 ! See also
 ! * Wikipedia: Wolstenholme number

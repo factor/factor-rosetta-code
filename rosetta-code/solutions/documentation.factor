@@ -1,6 +1,8 @@
-! See also:
+! See also
 ! 
-! -   Related task: Comments
-! -   Related task: Here_document
+!     
+! 
+! - Related task: Comments
+! - Related task: Here_document
 
 

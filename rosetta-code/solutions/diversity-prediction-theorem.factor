@@ -17,41 +17,46 @@
 ! Therefore, when the diversity in a group is large, the error of the
 ! crowd is small.
 ! 
-! Definitions:
+! Definitions
 ! 
-! -   -   Average Individual Error: Average of the individual squared
-!         errors
-!     -   Collective Error: Squared error of the collective prediction
-!     -   Prediction Diversity: Average squared distance from the
-!         individual predictions to the collective prediction
-!     -   Diversity Prediction Theorem: Given a crowd of predictive
-!         models, then
+!     
+! 
+! - - Average Individual Error: Average of the individual squared errors
+!   - Collective Error: Squared error of the collective prediction
+!   - Prediction Diversity: Average squared distance from the individual
+!     predictions to the collective prediction
+!   - Diversity Prediction Theorem: Given a crowd of predictive models,
+!     then
 ! 
 !     
 ! 
 !         Collective Error = Average Individual Error ─ Prediction
 !         Diversity
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! For a given true value and a number of number of estimates (from a
 ! crowd), show (here on this page):
 ! 
-! -   -   the true value and the crowd estimates
-!     -   the average error
-!     -   the crowd error
-!     -   the prediction diversity
+! - - the true value and the crowd estimates
+!   - the average error
+!   - the crowd error
+!   - the prediction diversity
 ! 
 ! Use (at least) these two examples:
 ! 
-! -   -   a true value of 49 with crowd estimates of: 48 47 51
-!     -   a true value of 49 with crowd estimates of: 48 47 51 42
+! - - a true value of 49 with crowd estimates of: 48 47 51
+!   - a true value of 49 with crowd estimates of: 48 47 51 42
 ! 
-! Also see:
+! Also see
 ! 
-! -   -   Wikipedia entry: Wisdom of the crowd
-!     -   University of Michigan: PDF paper (exists on a web archive, the
-!         Wayback Machine).
+!     
+! 
+! - - Wikipedia entry: Wisdom of the crowd
+!   - University of Michigan: PDF paper (exists on a web archive, the
+!     Wayback Machine).
 
 USING: kernel math math.statistics math.vectors prettyprint ;
 

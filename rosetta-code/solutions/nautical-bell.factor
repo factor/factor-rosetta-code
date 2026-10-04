@@ -1,7 +1,5 @@
 ! []
 ! 
-! |right
-! 
 ! Task
 ! 
 ! Write a small program that emulates a nautical bell producing a ringing
@@ -15,9 +13,11 @@
 ! (such as producing a written notice "Two Bells Gone"), if these are more
 ! usual for the system type.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Sleep
+!     
+! 
+! - Sleep
 ! 
 ! Category: Date and time
 

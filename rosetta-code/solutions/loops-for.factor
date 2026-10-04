@@ -5,7 +5,9 @@
 ! Common extensions of this allow other counting patterns or iterating
 ! over abstract structures other than the integers.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how two loops may be nested within each other, with the number of
 ! iterations performed by the inner for loop being controlled by the outer
@@ -20,27 +22,31 @@
 !     ****
 !     *****
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Loop over multiple arrays simultaneously
-! -   Loops/Break
-! -   Loops/Continue
-! -   Loops/Do-while
-! -   Loops/Downward for
-! -   Loops/For
-! -   Loops/For with a specified step
-! -   Loops/Foreach
-! -   Loops/Increment loop index within loop body
-! -   Loops/Infinite
-! -   Loops/N plus one half
-! -   Loops/Nested
-! -   Loops/While
-! -   Loops/with multiple ranges
-! -   Loops/Wrong ranges
+!     
 ! 
-! Reference:
+! - Loop over multiple arrays simultaneously
+! - Loops/Break
+! - Loops/Continue
+! - Loops/Do-while
+! - Loops/Downward for
+! - Loops/For
+! - Loops/For with a specified step
+! - Loops/Foreach
+! - Loops/Increment loop index within loop body
+! - Loops/Infinite
+! - Loops/N plus one half
+! - Loops/Nested
+! - Loops/While
+! - Loops/with multiple ranges
+! - Loops/Wrong ranges
 ! 
-! -   For loop Wikipedia.
+! Reference
+! 
+!     
+! 
+! - For loop Wikipedia.
 ! 
 ! Category:Simple
 

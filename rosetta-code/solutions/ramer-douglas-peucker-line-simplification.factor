@@ -1,7 +1,9 @@
 ! The Ramer–Douglas–Peucker algorithm is a line simplification algorithm
 ! for reducing the number of points used to define its shape.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Using the Ramer–Douglas–Peucker algorithm, simplify the 2D line defined
 ! by the points:
@@ -12,9 +14,11 @@
 ! 
 ! Display the remaining points here.
 ! 
-! Reference:
+! Reference
 ! 
-! -   -   the Wikipedia article: Ramer-Douglas-Peucker algorithm.
+!     
+! 
+! - - the Wikipedia article: Ramer-Douglas-Peucker algorithm.
 ! 
 ! Category:Geometry Category:Recursion
 

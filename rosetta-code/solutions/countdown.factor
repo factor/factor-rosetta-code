@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given six numbers randomly selected from the list [1, 1, 2, 2, 3, 3, 4,
 ! 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 25, 50, 75, 100], calculate
@@ -13,13 +15,15 @@
 ! 
 ! Solution:
 ! 
-! -   100 + 6 = 106
-! -   75 * 3 = 225
-! -   106 * 225 = 23850
-! -   23850 - 50 = 23800
-! -   23800 / 25 = 952
+! - 100 + 6 = 106
+! - 75 * 3 = 225
+! - 106 * 225 = 23850
+! - 23850 - 50 = 23800
+! - 23800 / 25 = 952
 ! 
-! Origins:
+! Origins
+! 
+!     
 ! 
 ! This is originally a 1972 French television game show. The game consists
 ! of randomly selecting six of the twenty-four numbers, from a list of:
@@ -34,7 +38,9 @@
 ! (fractions are not allowed) and only positive integers can be obtained
 ! at any stage of the calculation. (More info on the original game).
 ! 
-! Extra challenge:
+! Extra challenge
+! 
+!     
 ! 
 ! The brute force algorithm is quite obvious. What is more interesting is
 ! to find some optimisation heuristics to reduce the number of

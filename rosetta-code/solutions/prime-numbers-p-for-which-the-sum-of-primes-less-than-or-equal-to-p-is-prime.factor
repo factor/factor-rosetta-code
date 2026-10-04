@@ -1,11 +1,13 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find primes p for which the sum of primes less than or equal to p is
 ! prime, where p < 1,000.
 ! 
 ! See also:
 ! 
-! -   Summarize primes
+! - Summarize primes
 
 USING: assocs assocs.extras kernel math.primes math.statistics
 prettyprint ;

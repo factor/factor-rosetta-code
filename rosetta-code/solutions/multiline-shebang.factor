@@ -18,7 +18,7 @@
 ! 
 ! See also
 ! 
-! -   Native shebang - where the "program loaded" is of the actual native
-!     task language.
+! - Native shebang - where the "program loaded" is of the actual native
+!   task language.
 
 #!/usr/bin/env factor -script

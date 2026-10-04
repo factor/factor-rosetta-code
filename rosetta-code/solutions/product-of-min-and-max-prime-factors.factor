@@ -2,8 +2,8 @@
 ! 
 ! Task
 ! 
-! -   Find and display the product of the minimum and maximum prime
-!     factors for the terms 1 through 100, inclusive.
+! - Find and display the product of the minimum and maximum prime factors
+!   for the terms 1 through 100, inclusive.
 ! 
 !     For some reason, the term for 1 is defined to be 1
 ! 

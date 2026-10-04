@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Sort an array (or list) of integers in ascending numerical order.
 ! 

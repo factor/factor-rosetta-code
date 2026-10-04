@@ -11,35 +11,35 @@
 ! 
 ! Task
 ! 
-! -   Find and display here on this page the first 50 cyclops numbers in
-!     base 10 (all of the sub tasks are restricted to base 10).
+! - Find and display here on this page the first 50 cyclops numbers in
+!   base 10 (all of the sub tasks are restricted to base 10).
 ! 
-! -   Find and display here on this page the first 50 prime cyclops
-!     numbers. (cyclops numbers that are prime.)
+! - Find and display here on this page the first 50 prime cyclops numbers.
+!   (cyclops numbers that are prime.)
 ! 
-! -   Find and display here on this page the first 50 blind prime cyclops
-!     numbers. (prime cyclops numbers that remain prime when "blinded";
-!     the zero is removed from the center.)
+! - Find and display here on this page the first 50 blind prime cyclops
+!   numbers. (prime cyclops numbers that remain prime when "blinded"; the
+!   zero is removed from the center.)
 ! 
-! -   Find and display here on this page the first 50 palindromic prime
-!     cyclops numbers. (prime cyclops numbers that are palindromes.)
+! - Find and display here on this page the first 50 palindromic prime
+!   cyclops numbers. (prime cyclops numbers that are palindromes.)
 ! 
 ! Stretch
 ! 
-! -   Find and display the first cyclops number greater than ten million
-!     (10,000,000) and the index (place) in the series where it is found.
+! - Find and display the first cyclops number greater than ten million
+!   (10,000,000) and the index (place) in the series where it is found.
 ! 
-! -   Find and display the first prime cyclops number greater than ten
-!     million (10,000,000) and the index (place) in the series where it is
-!     found.
+! - Find and display the first prime cyclops number greater than ten
+!   million (10,000,000) and the index (place) in the series where it is
+!   found.
 ! 
-! -   Find and display the first blind prime cyclops number greater than
-!     ten million (10,000,000) and the index (place) in the series where
-!     it is found.
+! - Find and display the first blind prime cyclops number greater than ten
+!   million (10,000,000) and the index (place) in the series where it is
+!   found.
 ! 
-! -   Find and display the first palindromic prime cyclops number greater
-!     than ten million (10,000,000) and the index (place) in the series
-!     where it is found.
+! - Find and display the first palindromic prime cyclops number greater
+!   than ten million (10,000,000) and the index (place) in the series
+!   where it is found.
 ! 
 ! (Note: there are no cyclops numbers between ten million and one hundred
 ! million, they need to have an odd number of digits)

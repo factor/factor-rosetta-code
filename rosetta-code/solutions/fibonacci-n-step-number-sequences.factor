@@ -42,7 +42,9 @@
 !     The Lucas series sums the two preceding values like the fibonacci
 !     series for n = 2 but uses [2, 1] as its initial values.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Write a function to generate Fibonacci n-step number sequences given
 !     its initial values and assuming the number of initial values
@@ -51,22 +53,26 @@
 ! 2.  Use this to print and show here at least the first ten members of
 !     the Fibo/tribo/tetra-nacci and Lucas sequences.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Fibonacci sequence
-! -   Wolfram Mathworld
-! -   Hofstadter Q sequence‎
-! -   Leonardo numbers
+!     
 ! 
-! Also see:
+! - Fibonacci sequence
+! - Wolfram Mathworld
+! - Hofstadter Q sequence‎
+! - Leonardo numbers
 ! 
-! -   Lucas Numbers - Numberphile (Video)
-! -   Tribonacci Numbers (and the Rauzy Fractal) - Numberphile (Video)
-! -   Wikipedia, Lucas number
-! -   MathWorld, Fibonacci Number
-! -   Some identities for r-Fibonacci numbers
-! -   OEIS Fibonacci numbers
-! -   OEIS Lucas numbers
+! Also see
+! 
+!     
+! 
+! - Lucas Numbers - Numberphile (Video)
+! - Tribonacci Numbers (and the Rauzy Fractal) - Numberphile (Video)
+! - Wikipedia, Lucas number
+! - MathWorld, Fibonacci Number
+! - Some identities for r-Fibonacci numbers
+! - OEIS Fibonacci numbers
+! - OEIS Lucas numbers
 
 USING: formatting fry kernel make math namespaces qw sequences ;
 

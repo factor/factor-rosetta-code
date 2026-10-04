@@ -20,7 +20,9 @@
 ! 
 ! Alternatively, if zero-based: (0,0,1), (0,1,0) and (1,0,0).
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! List the permutations you get from the input [2, 3, 1].
 ! 
@@ -29,11 +31,13 @@
 ! 
 ! (the example result would then be AAB, ABA and BAA).
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Anagrams
-! -   Permutations
-! -   Permutations/Derangements
+!     
+! 
+! - Anagrams
+! - Permutations
+! - Permutations/Derangements
 
 USING: arrays grouping math math.combinatorics prettyprint
 sequences sets ;

@@ -2,15 +2,15 @@
 ! of Applied Cryptography, Section 14.3.2, page 600. Montgomery reduction
 ! calculates TR⁻¹modm, without having to divide by m.
 ! 
-! -   Let M be a positive integer, and R and T integers such that R > m,
-!     gcd(m, R) = 1, and 0 ≤ T < mR.
-! -   R is usually chosen as b^(n), where b = base (radix) in which the
-!     numbers in the calculation as represented in (so b = 10 in ‘normal’
-!     paper arithmetic, b = 2 for computer implementations) and n = number
-!     of digits in base m
-! -   The numbers m (n digits long), T (2n digits long), R, b, n are known
-!     entities, a number m′ (often represented as m_dash in code) =
-!     −m⁻¹modb is precomputed.
+! - Let M be a positive integer, and R and T integers such that R > m,
+!   gcd(m, R) = 1, and 0 ≤ T < mR.
+! - R is usually chosen as b^(n), where b = base (radix) in which the
+!   numbers in the calculation as represented in (so b = 10 in ‘normal’
+!   paper arithmetic, b = 2 for computer implementations) and n = number
+!   of digits in base m
+! - The numbers m (n digits long), T (2n digits long), R, b, n are known
+!   entities, a number m^(′) (often represented as m_dash in code) =
+!   −m⁻¹modb is precomputed.
 ! 
 ! See the Handbook of Applied Cryptography for brief introduction to
 ! theory and numerical example in radix 10. Individual chapters of the

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given two strings of different length, determine which string is longer
 ! or shorter. Print both strings and their length, one on each line. Print
@@ -8,7 +10,9 @@
 ! appropriate for your language. If your language doesn't have an operator
 ! for measuring the length of a string, note it.
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Given more than two strings:
 ! 

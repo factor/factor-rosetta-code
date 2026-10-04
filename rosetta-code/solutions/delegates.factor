@@ -8,13 +8,13 @@
 ! 
 ! Delegator:
 ! 
-! -   Keep an optional delegate instance.
-! -   Implement "operation" method, returning the delegate "thing" if the
-!     delegate respond to "thing", or the string "default implementation".
+! - Keep an optional delegate instance.
+! - Implement "operation" method, returning the delegate "thing" if the
+!   delegate respond to "thing", or the string "default implementation".
 ! 
 ! Delegate:
 ! 
-! -   Implement "thing" and return the string "delegate implementation"
+! - Implement "thing" and return the string "delegate implementation"
 ! 
 ! Show how objects are created and used. First, without a delegate, then
 ! with a delegate that does not implement "thing", and last with a

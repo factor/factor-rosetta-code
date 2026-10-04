@@ -6,11 +6,11 @@
 ! 
 ! Consider three type of input sequences:
 ! 
-! -   -   ones: sequence of all 1's. Example: {1, 1, 1, 1, 1}
-!     -   range: ascending sequence, i.e. already sorted. Example: {1, 2,
-!         3, 10, 15}
-!     -   shuffled range: sequence with elements randomly distributed.
-!         Example: {5, 3, 9, 6, 8}
+! - - ones: sequence of all 1's. Example: {1, 1, 1, 1, 1}
+!   - range: ascending sequence, i.e. already sorted. Example: {1, 2, 3,
+!     10, 15}
+!   - shuffled range: sequence with elements randomly distributed.
+!     Example: {5, 3, 9, 6, 8}
 ! 
 ! Consider at least two different sorting functions (different algorithms
 ! or/and different implementation of the same algorithm).
@@ -21,11 +21,11 @@
 ! 
 ! Preliminary subtask:
 ! 
-! -   -   Bubble Sort, Insertion sort, Quicksort, Radix sort, Shell sort
-!     -   Query Performance
-!     -   Write float arrays to a text file
-!     -   Plot x, y arrays
-!     -   Polynomial Fitting
+! - - Bubble Sort, Insertion sort, Quicksort, Radix sort, Shell sort
+!   - Query Performance
+!   - Write float arrays to a text file
+!   - Plot x, y arrays
+!   - Polynomial Fitting
 ! 
 ! General steps:
 ! 

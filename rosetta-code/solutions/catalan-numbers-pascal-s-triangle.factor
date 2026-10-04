@@ -1,19 +1,24 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Print out the first 15 Catalan numbers by extracting them from Pascal's
 ! triangle.
 ! 
-! See:
+! See
 ! 
-! -   Catalan Numbers and the Pascal Triangle. This method enables
-!     calculation of Catalan Numbers using only addition and subtraction.
+!     
 ! 
-! -   Catalan's Triangle for a Number Triangle that generates Catalan
-!     Numbers using only addition.
-! -   Sequence A000108 on OEIS has a lot of information on Catalan
-!     Numbers.
+! - Catalan Numbers and the Pascal Triangle. This method enables
+!   calculation of Catalan Numbers using only addition and subtraction.
 ! 
-! Related Tasks:
+! - Catalan's Triangle for a Number Triangle that generates Catalan
+!   Numbers using only addition.
+! - Sequence A000108 on OEIS has a lot of information on Catalan Numbers.
+! 
+! Related Tasks
+! 
+!     
 ! 
 ! Pascal's triangle
 

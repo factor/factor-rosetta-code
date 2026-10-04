@@ -7,21 +7,27 @@
 ! 
 ! Super-d numbers are also shown on MathWorld™ as super-d or super-d.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Write a function/procedure/routine to find super-d numbers.
-!     -   For d=2 through d=6, use the routine to show the first 10
-!         super-d numbers.
+!     
 ! 
-! Extra credit:
+! - - Write a function/procedure/routine to find super-d numbers.
+!   - For d=2 through d=6, use the routine to show the first 10 super-d
+!     numbers.
 ! 
-! -   -   Show the first 10 super-7, super-8, and/or super-9 numbers
-!         (optional).
+! Extra credit
 ! 
-! See also:
+!     
 ! 
-! -   -   Wolfram MathWorld - Super-d Number.
-!     -   OEIS: A014569 - Super-3 Numbers.
+! - - Show the first 10 super-7, super-8, and/or super-9 numbers
+!     (optional).
+! 
+! See also
+! 
+!     
+! 
+! - - Wolfram MathWorld - Super-d Number.
+!   - OEIS: A014569 - Super-3 Numbers.
 
 USING: arrays formatting io kernel lists lists.lazy math
 math.functions math.ranges math.text.utils prettyprint sequences

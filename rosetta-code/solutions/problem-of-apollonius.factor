@@ -1,8 +1,8 @@
 ! []
 ! 
-! Two solutions to the problem of Apollonius|right
+! Task
 ! 
-! Task:
+!     
 ! 
 ! Implement a solution to the Problem of Apollonius (description on
 ! Wikipedia) which is the problem of finding the circle that is tangent to

@@ -2,18 +2,20 @@
 ! 
 ! Then, display a message if the first integer is:
 ! 
-! -   -   less than,
-!     -   equal to, or
-!     -   greater than
+! - - less than,
+!   - equal to, or
+!   - greater than
 ! 
 ! the second integer.
 ! 
 ! Test the condition for each case separately, so that all three
 ! comparison operators are used in the code.
 ! 
-! Related task:
+! Related task
 ! 
-! -   String comparison
+!     
+! 
+! - String comparison
 ! 
 ! Category:Arithmetic operations Category:Simple
 

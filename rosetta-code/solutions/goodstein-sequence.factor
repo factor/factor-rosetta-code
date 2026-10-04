@@ -35,25 +35,25 @@
 ! 
 ! Task
 ! 
-! -   Create a function to calculate the Goodstein sequence for a given
-!     integer.
+! - Create a function to calculate the Goodstein sequence for a given
+!   integer.
 ! 
-! -   Use this to show the first 10 values of Goodstein(n) for the numbers
-!     from 0 through 7.
+! - Use this to show the first 10 values of Goodstein(n) for the numbers
+!   from 0 through 7.
 ! 
-! -   Find the nth term (counting from 0) of Goodstein(n) for n from 0
-!     through 10.
+! - Find the nth term (counting from 0) of Goodstein(n) for n from 0
+!   through 10.
 ! 
 ! Stretch task
 ! 
-! -   Find the nth term (counting from 0) of Goodstein(n) for n = 11
-!     through 16.
+! - Find the nth term (counting from 0) of Goodstein(n) for n = 11 through
+!   16.
 ! 
 ! See also
 ! 
-! -   -   Wikipedia entry for Goodstein's theorem
-!     -   OEIS Goodstein numbers such that a(n) = G_n(n), where G is the
-!         Goodstein function
+! - - Wikipedia entry for Goodstein's theorem
+!   - OEIS Goodstein numbers such that a(n) = G_n(n), where G is the
+!     Goodstein function
 ! 
 ! *  "Googology site article " 
 

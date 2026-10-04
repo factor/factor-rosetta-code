@@ -5,7 +5,7 @@
 ! 
 ! Related task
 ! 
-! -   Strange_numbers
+! - Strange_numbers
 
 USING: grouping grouping.extras io kernel math math.primes
 math.ranges math.text.utils prettyprint sequences ;

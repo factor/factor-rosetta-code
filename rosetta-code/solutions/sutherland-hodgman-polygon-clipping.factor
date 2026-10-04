@@ -6,7 +6,9 @@
 ! complexity of a scene being displayed by eliminating parts of a polygon
 ! that do not need to be displayed.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Take the closed polygon defined by the points:
 ! 
@@ -18,7 +20,9 @@
 ! 
 ! Print the sequence of points that define the resulting clipped polygon.
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Display all three polygons on a graphical surface, using a different
 ! color for each polygon and filling the resulting polygon.

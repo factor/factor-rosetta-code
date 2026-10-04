@@ -6,9 +6,11 @@
 ! This is a special case of calling a foreign language function where the
 ! focus is close to the ABI level and not at the normal API level.
 ! 
-! Related task:
+! Related task
 ! 
-! -   OpenGL -- OpenGL is usually maintained as a shared library.
+!     
+! 
+! - OpenGL -- OpenGL is usually maintained as a shared library.
 ! 
 ! Category:Functions and subroutines
 

@@ -3,9 +3,11 @@
 ! See also
 ! * OEIS:A052014 - Primes with distinct digits in descending order
 ! 
-! Related:
+! Related
 ! 
-! -   Ascending primes
+!     
+! 
+! - Ascending primes
 
 USING: grouping grouping.extras math math.combinatorics
 math.functions math.primes math.ranges prettyprint sequences

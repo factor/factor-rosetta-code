@@ -56,7 +56,9 @@
 ! 
 ! So 17 multiplied by 34, by the Ethiopian method is 578.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! The task is to define three named
 ! functions/methods/procedures/subroutines:
@@ -68,18 +70,22 @@
 ! Use these functions to create a function that does Ethiopian
 ! multiplication.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Egyptian division
+!     
 ! 
-! References:
+! - Egyptian division
 ! 
-! -   Ethiopian multiplication explained (BBC Video clip)
+! References
 ! 
-! -   A Night Of Numbers - Go Forth And Multiply (Video)
+!     
 ! 
-! -   Russian Peasant Multiplication
-! -   Programming Praxis: Russian Peasant Multiplication
+! - Ethiopian multiplication explained (BBC Video clip)
+! 
+! - A Night Of Numbers - Go Forth And Multiply (Video)
+! 
+! - Russian Peasant Multiplication
+! - Programming Praxis: Russian Peasant Multiplication
 
 USING: arrays kernel math multiline sequences ;
 IN: ethiopian-multiplication

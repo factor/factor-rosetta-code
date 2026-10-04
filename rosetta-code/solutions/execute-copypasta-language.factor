@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a CopyPasta Language interpreter or compiler. These are the
 ! commands used by CopyPasta Language:

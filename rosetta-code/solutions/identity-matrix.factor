@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Build an identity matrix of a size known at run-time.
 ! 
@@ -16,11 +18,13 @@
 !   0      & 0      & 0      & \cdots & 1      \\
 ! \end{bmatrix}$
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Spiral matrix
-! -   Zig-zag matrix
-! -   Ulam_spiral_(for_primes)
+!     
+! 
+! - Spiral matrix
+! - Zig-zag matrix
+! - Ulam_spiral_(for_primes)
 ! 
 ! Category:Matrices
 

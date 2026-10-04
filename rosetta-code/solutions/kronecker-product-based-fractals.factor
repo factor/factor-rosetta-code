@@ -19,15 +19,17 @@
 ! A formal recurrent algorithm of creating Kronecker power of a matrix is
 ! the following:
 ! 
-! Algorithm:
+! Algorithm
 ! 
-! -   Let M is an initial matrix, and Rn is a resultant block matrix of
-!     the Kronecker power, where n is the power (a.k.a. order).
-! -   Self-product of M, i.e., M x M producing R2 (resultant matrix with
-!     order/power 2).
-! -   To receive the next order/power matrix use this recurrent formula:
-!     Rn = R(n-1) x M.
-! -   Plot this Rn matrix to produce the nth order fractal.
+!     
+! 
+! - Let M is an initial matrix, and Rn is a resultant block matrix of the
+!   Kronecker power, where n is the power (a.k.a. order).
+! - Self-product of M, i.e., M x M producing R2 (resultant matrix with
+!   order/power 2).
+! - To receive the next order/power matrix use this recurrent formula: Rn
+!   = R(n-1) x M.
+! - Plot this Rn matrix to produce the nth order fractal.
 ! 
 ! Even just looking at the resultant matrix you can see what will be
 ! plotted.
@@ -35,18 +37,22 @@
 ! There are virtually infinitely many fractals of this type. You are
 ! limited only by your creativity and the power of your computer.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Using Kronecker product implement and show two popular and well-known
 ! fractals, i.e.:
 ! 
-! -    Vicsek fractal;
-! -    Sierpinski carpet fractal.
+! -  Vicsek fractal;
+! -  Sierpinski carpet fractal.
 ! 
 ! The last one ( Sierpinski carpet) is already here on RC, but built using
 ! different approaches.
 ! 
-! Test cases:
+! Test cases
+! 
+!     
 ! 
 ! These 2 fractals (each order/power 4 at least) should be built using the
 ! following 2 simple matrices:
@@ -55,15 +61,17 @@
 !               │ 1 1 1 │           │ 1 0 1 │
 !               │ 0 1 0 │           │ 1 1 1 │
 ! 
-! Note:
+! Note
 ! 
-! -   Output could be a graphical or ASCII-art representation, but if an
-!     order is set > 4 then printing is not suitable.
-! -   The orientation and distortion of the fractal could be your
-!     language/tool specific.
-! -   It would be nice to see one additional fractal of your choice, e.g.,
-!     based on using a single (double) letter(s) of an alphabet, any
-!     sign(s) or already made a resultant matrix of the Kronecker product.
+!     
+! 
+! - Output could be a graphical or ASCII-art representation, but if an
+!   order is set > 4 then printing is not suitable.
+! - The orientation and distortion of the fractal could be your
+!   language/tool specific.
+! - It would be nice to see one additional fractal of your choice, e.g.,
+!   based on using a single (double) letter(s) of an alphabet, any sign(s)
+!   or already made a resultant matrix of the Kronecker product.
 ! 
 ! See implementations and results below in JavaScript, PARI/GP and R
 ! languages. They have additional samples of "H", "+" and checkerboard

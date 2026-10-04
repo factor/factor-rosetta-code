@@ -1,7 +1,5 @@
 ! []
 ! 
-! Archimedian_spiral_j.png
-! 
 ! The Archimedean spiral is a spiral named after the Greek mathematician
 ! Archimedes.
 ! 

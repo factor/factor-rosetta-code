@@ -10,7 +10,9 @@
 !    bin[n-1] counts how many inputs are >= limit[n-2] and < limit[n-1]
 !    bin[n] counts how many inputs are >= limit[n-1]
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! The task is to create a function that given the ascending limits and a
 ! stream/ list of numbers, will return the bins; together with another
@@ -20,7 +22,9 @@
 ! 
 ! Assume the numbers to bin are too large to practically sort.
 ! 
-! Task examples:
+! Task examples
+! 
+!     
 ! 
 ! Part 1: Bin using the following limits the given input data
 ! 

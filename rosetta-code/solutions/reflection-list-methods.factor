@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! The goal is to get the methods of an object, as names, values or both.
 ! 

@@ -9,12 +9,12 @@
 ! 
 ! Ideally this can be generalised as follows:
 ! 
-! -   The separator characters are defined by a user-supplied array that
-!     can include additional or alternative separators, e.g. (formfeed,
-!     linefeed, ".", "," ," ",...).
-! -   The selection criterion is generalised i^(th),i^(th),i^(th),i^(th)
-!     to a boolean function of f(page,line,field,word,...) or
-!     f(i^(th),j^(th),k^(th),l^(th),m^(th),etc...)
+! - The separator characters are defined by a user-supplied array that can
+!   include additional or alternative separators, e.g. (formfeed,
+!   linefeed, ".", "," ," ",...).
+! - The selection criterion is generalised i^(th),i^(th),i^(th),i^(th) to
+!   a boolean function of f(page,line,field,word,...) or
+!   f(i^(th),j^(th),k^(th),l^(th),m^(th),etc...)
 ! 
 ! Provide a reasonably interesting message to be decoded, e.g.
 ! "Silence-Dogood". Your choice.

@@ -9,7 +9,9 @@
 ! As the workings of the algorithm are clearly described in the linked
 ! article they will not be repeated here.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement the Brzozowski Algebraic Method to convert an NFA
 ! representation into a regular expression. The implementation should:

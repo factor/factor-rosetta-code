@@ -6,16 +6,18 @@
 ! 
 ! A tool exists that extracts library dependencies.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function that will return a valid compile order of VHDL
 ! libraries from their dependencies.
 ! 
-! -   Assume library names are single words.
-! -   Items mentioned as only dependents, (sic), have no dependents of
-!     their own, but their order of compiling must be given.
-! -   Any self dependencies should be ignored.
-! -   Any un-orderable dependencies should be flagged.
+! - Assume library names are single words.
+! - Items mentioned as only dependents, (sic), have no dependents of their
+!   own, but their order of compiling must be given.
+! - Any self dependencies should be ignored.
+! - Any un-orderable dependencies should be flagged.
 ! 
 ! Use the following data as an example:
 ! 
@@ -38,14 +40,16 @@
 ! Note: the above data would be un-orderable if, for example, dw04 is
 ! added to the list of dependencies of dw01.
 ! 
-! C.f.:
+! C.f.
 ! 
-! -   -   Topological sort/Extracted top item.
+!     
+! 
+! - - Topological sort/Extracted top item.
 ! 
 ! There are two popular algorithms for topological sorting:
 ! 
-! -   -   Kahn's 1962 topological sort [1]
-!     -   depth-first search [2] Jason Sachs
+! - - Kahn's 1962 topological sort [1]
+!   - depth-first search [2] Jason Sachs
 ! 
 ! "Ten little algorithms, part 4: topological sort"
 ! 

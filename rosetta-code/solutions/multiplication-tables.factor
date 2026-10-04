@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Produce a formatted 12×12 multiplication table of the kind memorized by
 ! rote when in primary (or elementary) school.

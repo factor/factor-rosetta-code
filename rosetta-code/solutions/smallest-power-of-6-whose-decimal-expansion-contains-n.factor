@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show the smallest (non-negative integer) power of 6 whose decimal
 ! expansion contains n, where n < 22

@@ -30,21 +30,21 @@
 ! 
 ! Task
 ! 
-! -   Write a procedure (routine, function, subroutine, whatever it may be
-!     called in your language) to perform a boustrophedon transform to a
-!     given sequence.
-! -   Use that routine to perform a boustrophedon transform on a few
-!     representative sequences. Show the first fifteen values from the
-!     transformed sequence.
+! - Write a procedure (routine, function, subroutine, whatever it may be
+!   called in your language) to perform a boustrophedon transform to a
+!   given sequence.
+! - Use that routine to perform a boustrophedon transform on a few
+!   representative sequences. Show the first fifteen values from the
+!   transformed sequence.
 ! 
 !     Use the following sequences for demonstration:
 ! 
-! -   -   (1, 0, 0, 0, …) ( one followed by an infinite series of zeros )
-!     -   (1, 1, 1, 1, …) ( an infinite series of ones )
-!     -   (1, −1, 1, −1, …) ( (-1)^n: alternating 1, -1, 1, -1 )
-!     -   (2, 3, 5, 7, 11, …) ( sequence of prime numbers )
-!     -   (1, 1, 2, 3, 5, …) ( sequence of Fibonacci numbers )
-!     -   (1, 1, 2, 6, 24, …) ( sequence of factorial numbers )
+! - - (1, 0, 0, 0, …) ( one followed by an infinite series of zeros )
+!   - (1, 1, 1, 1, …) ( an infinite series of ones )
+!   - (1, −1, 1, −1, …) ( (-1)^n: alternating 1, -1, 1, -1 )
+!   - (2, 3, 5, 7, 11, …) ( sequence of prime numbers )
+!   - (1, 1, 2, 3, 5, …) ( sequence of Fibonacci numbers )
+!   - (1, 1, 2, 6, 24, …) ( sequence of factorial numbers )
 ! 
 ! Stretch
 ! 

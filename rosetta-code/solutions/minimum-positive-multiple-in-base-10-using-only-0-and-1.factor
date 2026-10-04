@@ -8,7 +8,9 @@
 ! positive multiple of a positive integer n in base 10 that only uses the
 ! digits 0 and 1" will hereafter be referred to as "B10".
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a routine to find the B10 of a given integer.
 ! 
@@ -40,12 +42,13 @@
 ! numbers as much as possible. If you do use magic numbers, explain
 ! briefly why and what they do for your implementation.
 ! 
-! See also:
+! See also
 ! 
-! -   -   OEIS:A004290 Least positive multiple of n that when written in
-!         base 10 uses only 0's and 1's.
-!     -   How to find Minimum Positive Multiple in base 10 using only 0
-!         and 1
+!     
+! 
+! - - OEIS:A004290 Least positive multiple of n that when written in base
+!     10 uses only 0's and 1's.
+!   - How to find Minimum Positive Multiple in base 10 using only 0 and 1
 
 : is-1-or-0 ( char -- ? ) dup CHAR: 0 = [ drop t ] [ CHAR: 1 = ] if ;
 : int-is-B10 ( n -- ? ) unparse [ is-1-or-0 ] all? ;

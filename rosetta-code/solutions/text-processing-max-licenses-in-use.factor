@@ -13,7 +13,9 @@
 !  ...
 !  License IN  @ 2008/10/04_00:18:22 for job 4974
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Save the 10,000 line log file from here into a local file, then write a
 ! program to scan the file extracting both the maximum licenses that were

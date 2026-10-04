@@ -3,24 +3,26 @@
 ! material, but instead relies on a random initial position, with a few
 ! constraints:
 ! 
-! -   as in the standard chess game, all eight white pawns must be placed
-!     on the second rank.
-! -   White pieces must stand on the first rank as in the standard game,
-!     in random column order but with the two following constraints:
-!     -   the bishops must be placed on opposite color squares (i.e. they
-!         must be an odd number of spaces apart or there must be an even
-!         number of spaces between them)
-!     -   the King must be between two rooks (with any number of other
-!         pieces between them all)
-! -   Black pawns and pieces must be placed respectively on the seventh
-!     and eighth ranks, mirroring the white pawns and pieces, just as in
-!     the standard game. (That is, their positions are not independently
-!     randomized.)
+! - as in the standard chess game, all eight white pawns must be placed on
+!   the second rank.
+! - White pieces must stand on the first rank as in the standard game, in
+!   random column order but with the two following constraints:
+!   - the bishops must be placed on opposite color squares (i.e. they must
+!     be an odd number of spaces apart or there must be an even number of
+!     spaces between them)
+!   - the King must be between two rooks (with any number of other pieces
+!     between them all)
+! - Black pawns and pieces must be placed respectively on the seventh and
+!   eighth ranks, mirroring the white pawns and pieces, just as in the
+!   standard game. (That is, their positions are not independently
+!   randomized.)
 ! 
 ! With those constraints there are 960 possible starting positions, thus
 ! the name of the variant.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! The purpose of this task is to write a program that can randomly
 ! generate any one of the 960 Chess960 initial positions. You will show

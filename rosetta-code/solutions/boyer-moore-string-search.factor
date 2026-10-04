@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! This algorithm is designed for pattern searching on certain types of
 ! devices which are backtracking-unfriendly such as Tape drives and Hard

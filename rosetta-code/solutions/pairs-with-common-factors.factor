@@ -30,13 +30,13 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first one hundred terms of the sequence.
-! -   Find and display the one thousandth.
+! - Find and display the first one hundred terms of the sequence.
+! - Find and display the one thousandth.
 ! 
 ! Stretch
 ! 
-! -   Find and display the ten thousandth, one hundred thousandth, one
-!     millionth.
+! - Find and display the ten thousandth, one hundred thousandth, one
+!   millionth.
 ! 
 ! See also
 ! * OEIS:A185670 - Number of pairs (x,y) with 1 <= x < y <= n with at least one common factor

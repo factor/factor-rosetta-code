@@ -37,9 +37,9 @@
 ! 
 ! For each order of magnitude m from 10¹ through 10⁶:
 ! 
-! -   Find the first two sets of minimum adjacent prime gaps where the
-!     absolute value of the difference between the prime gap start values
-!     is greater than m.
+! - Find the first two sets of minimum adjacent prime gaps where the
+!   absolute value of the difference between the prime gap start values is
+!   greater than m.
 ! 
 ! E.G.
 ! 
@@ -54,7 +54,7 @@
 ! 
 ! Stretch goal
 ! 
-! -   Do the same for 10⁷ and 10⁸ (and higher?) orders of magnitude
+! - Do the same for 10⁷ and 10⁸ (and higher?) orders of magnitude
 ! 
 ! Note: the earliest value found for each order of magnitude may not be
 ! unique, in fact, is not unique; also, with the gaps in ascending order,

@@ -17,8 +17,8 @@
 ! 
 ! Reference
 ! 
-! -   OEIS:A111398 - Numbers which are the cube roots of the product of
-!     their proper divisors.
+! - OEIS:A111398 - Numbers which are the cube roots of the product of
+!   their proper divisors.
 ! 
 ! Note
 ! 

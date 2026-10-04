@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Using the dictionary unixdict.txt, search words containing "the"
 ! substring,

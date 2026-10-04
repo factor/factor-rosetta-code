@@ -4,8 +4,8 @@
 ! 
 ! The theorem on which the test is based can be stated as follows:
 ! 
-! -   a number p is prime if and only if all the coefficients of the
-!     polynomial expansion of
+! - a number p is prime if and only if all the coefficients of the
+!   polynomial expansion of
 ! 
 !     
 ! 
@@ -13,7 +13,9 @@
 ! 
 ! are divisible by p.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! Using p = 3:
 ! 
@@ -23,7 +25,9 @@
 ! 
 ! And all the coefficients are divisible by 3, so 3 is prime.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Create a function/subroutine/method that given p generates the
 !     coefficients of the expanded polynomial representation of
@@ -36,11 +40,13 @@
 ! 5.  As a stretch goal, generate all primes under 50 (needs integers
 !     larger than 31-bit).
 ! 
-! References:
+! References
 ! 
-! -   Agrawal-Kayal-Saxena (AKS) primality test (Wikipedia)
-! -   Fool-Proof Test for Primes - Numberphile (Video). The accuracy of
-!     this video is disputed -- at best it is an oversimplification.
+!     
+! 
+! - Agrawal-Kayal-Saxena (AKS) primality test (Wikipedia)
+! - Fool-Proof Test for Primes - Numberphile (Video). The accuracy of this
+!   video is disputed -- at best it is an oversimplification.
 
 USING: combinators formatting io kernel make math math.parser
 math.polynomials prettyprint sequences ;

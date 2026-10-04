@@ -13,11 +13,13 @@
 ! 
 ! Optionally, show the number of such pairs.
 ! 
-! Also see:
+! Also see
 ! 
-! -   -   the Wikipedia entry: cousin prime.
-!     -   the OEIS entry: A094343.
-!     -   the MathWorld entry: cousin primes.
+!     
+! 
+! - - the Wikipedia entry: cousin prime.
+!   - the OEIS entry: A094343.
+!   - the MathWorld entry: cousin primes.
 
 USING: kernel lists lists.lazy math math.primes prettyprint
 sequences ;

@@ -19,7 +19,9 @@
 ! counting primes, the Legendre method is generally much faster than
 ! sieving up to n.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Calculate π(n) for values up to 1 billion. Show π(n) for n = 1, 10, 100,
 ! ... 10⁹.
@@ -45,7 +47,7 @@
 ! just one. Thus, there should be (at least) two tree-splitting
 ! terminating conditions:
 ! 
-! φ(x, 0) = x, and φ(0, a) = 0 for any a
+! φ(x, 0) = x, φ(0, a) = 0 for any a, and φ(x, a) = 1 for x < p_(a)
 ! φ(x, a−1) − φ(⌊x/p_(a)⌋, a−1), where p_(a) is the a^(th) prime number.
 ! 
 ! The trouble with using a cache to achieve this is that one gets a huge
@@ -89,44 +91,40 @@
 ! version of the Legendre prime counting algorithm is only about 40 to 50
 ! lines of code (depending somewhat on the language used).
 ! 
-! Also note that the Legendre prime counting function was never used
+! Also note that the Legendre prime counting function was never much used
 ! practically at the time it was invented other than to demonstrate that
 ! it would find the count of primes to a trivial range only knowing the
 ! primes up to the square root of that range and there were too many
 ! operations (especially long integer division operations) to actually use
-! it for any reasonably range even with this optimization (about 250
-! thousand divisions to count primes to ten million), but the follow-on
-! work by Meissel in about 1870 onward definitely would have used this
-! optimization and others in order to hand calculate the number of primes
-! to a billion (1e9) in about ten years. Even with this optimization,
-! Meissel would have had to hand calculate over five million divisions, so
-! certainly used other Look Up Tables (LUT's) although certainly not
-! caching of Phi/φ values in order to reduce the work to something
-! possible in this amount of time. A "TinyPhi" LUT table for the first six
-! primes of thirteen and less would have reduced the amount of work
-! Meissel did to about 600 thousand divisions, but even that would have
-! been perhaps too much and it is very likely that he also used "partial
-! sieving" techniques, although that would have meant that as well as a
-! table of the primes up to a million, he would have also needed 161 other
-! tables of that range to a million sieved by the primes up to 13, 17, 19,
-! to 997; however, that extra work in building these tables (which might
-! have been done mechanically) would pay off in reducing the number of
-! divisions to about seven thousand so the divisions become a minor
-! problem possible to do over months and the majority of the time would be
-! spent producing the partial sieving tables up to a million.
+! it for any reasonably large range even with this optimization (about 128
+! thousand divisions to count the primes to ten million, and 15,321
+! division to count to primes to a million as Legendre did to 1808), but
+! the follow-on work by Meissel in about 1870 onward definitely would have
+! used this optimization and others in order to hand calculate the number
+! of primes to a billion (1e9) in about ten years. Even with this
+! optimization, Meissel would have had to hand calculate over ten million
+! divisions, so certainly used other Look Up Tables (LUT's) although
+! certainly not caching of Phi/φ values in order to reduce the work to
+! something possible in this amount of time. A "TinyPhi" LUT table for the
+! first six primes of thirteen and less would have reduced the amount of
+! work Meissel did to about 600 thousand divisions, but even that would
+! have been too much and he also used "partial sieving" techniques to
+! reduce the number of divisions to just 17,618 to count the number of
+! primes to a billion (10⁹).
 ! 
-! The reason that Meissel refined the Legendre method would have been
-! that, even applying all of the optimizations including "partial
-! sieving", he would still have had to do about three and a half million
-! divisions to count the primes to a billion even if the number of primes
-! and "partial sieve tables" only needed to be known to about 32 thousand,
-! where his "Meissel" algorithm reduced the number of divisions to only a
-! few thousand as per the above. Without a computer, he could never have
-! completed the calculation of the number of primes to a billion using an
-! optimized Legendre algorithm where he could using his modification.
-! However, modern computers make (reasonably) quick work of integer
-! divisions so that optimized algorithms of the Legendre type become
-! moderately useful although at the cost of memory use as compared to
-! Meissel type algorithms.
+! The reason that Meissel developed his own formula for counting primes is
+! that the Legendre formula would have been that, even applying all of the
+! optimizations including "partial sieving", he would still have had to do
+! about 259,937 divisions to count the primes to a billion even if the
+! number of primes and "partial sieve tables" only needed to be known to
+! about 32 thousand, where his "Meissel" algorithm reduced the number of
+! divisions to only under twenty thousand as per the above. Without a
+! computer, he could never have completed the calculation of the number of
+! primes to a billion using an optimized Legendre algorithm where he could
+! using his modification. However, modern computers make (reasonably)
+! quick work of integer divisions so that optimized algorithms of the
+! Legendre type become moderately useful although at the cost of memory
+! use as compared to Meissel type algorithms using "page-segmentation" to
+! reduce the size of the sieve buffer.
 
 

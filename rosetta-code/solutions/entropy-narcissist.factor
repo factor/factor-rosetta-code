@@ -1,15 +1,17 @@
 ! []
 ! 
-! |right
+! Task
 ! 
-! Task:
+!     
 ! 
 ! Write a computer program that computes and shows its own entropy.
 ! 
-! Related Tasks:
+! Related Tasks
 ! 
-! -   -   Fibonacci_word
-!     -   Entropy
+!     
+! 
+! - - Fibonacci_word
+!   - Entropy
 
 USING: assocs io io.encodings.utf8 io.files kernel math
 math.functions math.statistics prettyprint sequences ;

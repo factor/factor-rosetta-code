@@ -1,22 +1,28 @@
 ! A k-Almost-prime is a natural number n that is the product of k
 ! (possibly identical) primes.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! 1-almost-primes, where k = 1, are the prime numbers themselves.
 ! 
 ! 2-almost-primes, where k = 2, are the semiprimes.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function/method/subroutine/... that generates k-almost primes
 ! and use it to create a table here of the first ten members of k-Almost
 ! primes for 1 ≤ K ≤ 5.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Semiprime
-! -   :Category:Prime Numbers
+!     
+! 
+! - Semiprime
+! - :Category:Prime Numbers
 
 USING: formatting fry kernel lists lists.lazy locals
 math.combinatorics math.primes.factors math.ranges sequences ;

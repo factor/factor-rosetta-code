@@ -3,12 +3,12 @@
 ! 
 ! E.G.
 ! 
-! -   -   12 is an esthetic number. One and two differ by 1.
+! - - 12 is an esthetic number. One and two differ by 1.
 ! 
-! -   -   5654 is an esthetic number. Each digit is exactly 1 away from
-!         its neighbour.
+! - - 5654 is an esthetic number. Each digit is exactly 1 away from its
+!     neighbour.
 ! 
-! -   -   890 is not an esthetic number. Nine and zero differ by 9.
+! - - 890 is not an esthetic number. Nine and zero differ by 9.
 ! 
 ! These examples are nominally in base 10 but the concept extends easily
 ! to numbers in other bases. Traditionally, single digit numbers are
@@ -20,32 +20,33 @@
 ! 
 ! Task
 ! 
-! -   -   Write a routine (function, procedure, whatever) to find esthetic
-!         numbers in a given base.
+! - - Write a routine (function, procedure, whatever) to find esthetic
+!     numbers in a given base.
 ! 
-! -   -   Use that routine to find esthetic numbers in bases 2 through 16
-!         and display, here on this page, the esthectic numbers from index
-!         (base × 4) through index (base × 6), inclusive. (E.G. for base
-!         2: 8th through 12th, for base 6: 24th through 36th, etc.)
+! - - Use that routine to find esthetic numbers in bases 2 through 16 and
+!     display, here on this page, the esthectic numbers from index (base
+!     × 4) through index (base × 6), inclusive. (E.G. for base 2: 8th
+!     through 12th, for base 6: 24th through 36th, etc.)
 ! 
-! -   -   Find and display, here on this page, the base 10 esthetic
-!         numbers with a magnitude between 1000 and 9999.
+! - - Find and display, here on this page, the base 10 esthetic numbers
+!     with a magnitude between 1000 and 9999.
 ! 
-! -   -   Stretch: Find and display, here on this page, the base 10
-!         esthetic numbers with a magnitude between 1.0e8 and 1.3e8.
+! - - Stretch: Find and display, here on this page, the base 10 esthetic
+!     numbers with a magnitude between 1.0e8 and 1.3e8.
 ! 
-! Related task:
+! Related task
 ! 
-! -   numbers with equal rises and falls
+!     
 ! 
-! See also:
+! - numbers with equal rises and falls
 ! 
-! :;*OEIS A033075 - Positive numbers n such that all pairs of consecutive
-! decimal digits differ by 1
+! See also
 ! 
-! :;*Numbers Aplenty - Esthetic numbers
+!     
 ! 
-! :;*Geeks for Geeks - Stepping numbers
+!     *OEIS A033075 - Positive numbers n such that all pairs of consecutive decimal digits differ by 1
+!     *Numbers Aplenty - Esthetic numbers
+!     *Geeks for Geeks - Stepping numbers
 
 USING: combinators deques dlists formatting grouping io kernel
 locals make math math.order math.parser math.ranges

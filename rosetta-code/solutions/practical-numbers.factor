@@ -6,20 +6,22 @@
 ! using all selections from the factors compute all possible sums of
 ! factors and see if all numbers from 1 to X-1 can be created from it.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function that given X returns a boolean value of whether X is a
 ! Practical number, (using the above method).
 ! 
-! -   Show how many Practical numbers there are in the range 1..333,
-!     inclusive.
-! -   Show that the Practical numbers in the above range start and end in:
+! - Show how many Practical numbers there are in the range 1..333,
+!   inclusive.
+! - Show that the Practical numbers in the above range start and end in:
 ! 
 !     1, 2, 4, 6, 8, 12, 16, 18, 20, 24 ... 288, 294, 300, 304, 306, 308,
 !     312, 320, 324, 330
 ! 
 ! Stretch Goal
 ! 
-! -   Show if 666 is a Practical number
+! - Show if 666 is a Practical number
 
 

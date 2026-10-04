@@ -6,9 +6,11 @@
 !           =   
 !          =   for n > 1 
 ! 
-! Task part 1:
+! Task part 1
 ! 
-! -   Show on this page terms 1 through 20 of the Calkin-Wilf sequence.
+!     
+! 
+! - Show on this page terms 1 through 20 of the Calkin-Wilf sequence.
 ! 
 ! To avoid floating point error, you may want to use a rational number
 ! data type.
@@ -24,27 +26,35 @@
 ! 
 !          =   
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! The fraction 9/4 has odd continued fraction representation , giving a
 ! binary representation of 100011,
 ! 
 ! which means 9/4 appears as the 35th term of the sequence.
 ! 
-! Task part 2:
+! Task part 2
 ! 
-! -   Find the position of the number ⁸³¹¹⁶/₅₁₆₃₉ in the Calkin-Wilf
-!     sequence.
+!     
 ! 
-! Related tasks:
+! - Find the position of the number ⁸³¹¹⁶/₅₁₆₃₉ in the Calkin-Wilf
+!   sequence.
 ! 
-! -   -   Fusc sequence.
+! Related tasks
 ! 
-! See also:
+!     
 ! 
-! -   Wikipedia entry: Calkin-Wilf tree
-! -   Continued fraction
-! -   Continued fraction/Arithmetic/Construct from rational number
+! - - Fusc sequence.
+! 
+! See also
+! 
+!     
+! 
+! - Wikipedia entry: Calkin-Wilf tree
+! - Continued fraction
+! - Continued fraction/Arithmetic/Construct from rational number
 
 USING: formatting io kernel lists lists.lazy math
 math.continued-fractions math.functions math.parser prettyprint

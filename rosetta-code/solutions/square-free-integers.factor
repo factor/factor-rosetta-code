@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function to test if a number is square-free.
 ! 
@@ -10,22 +12,24 @@
 ! Show here (on this page) all square-free integers (in a horizontal
 ! format) that are between:
 ! 
-! -   -   1 ───► 145 (inclusive)
-!     -   1 trillion ───► 1 trillion + 145 (inclusive)
+! - - 1 ───► 145 (inclusive)
+!   - 1 trillion ───► 1 trillion + 145 (inclusive)
 ! 
 ! (One trillion = 1,000,000,000,000)
 ! 
 ! Show here (on this page) the count of square-free integers from:
 ! 
-! -   -   1 ───► one hundred (inclusive)
-!     -   1 ───► one thousand (inclusive)
-!     -   1 ───► ten thousand (inclusive)
-!     -   1 ───► one hundred thousand (inclusive)
-!     -   1 ───► one million (inclusive)
+! - - 1 ───► one hundred (inclusive)
+!   - 1 ───► one thousand (inclusive)
+!   - 1 ───► ten thousand (inclusive)
+!   - 1 ───► one hundred thousand (inclusive)
+!   - 1 ───► one million (inclusive)
 ! 
-! See also:
+! See also
 ! 
-! -   -   the Wikipedia entry: square-free integer
+!     
+! 
+! - - the Wikipedia entry: square-free integer
 
 USING: formatting grouping io kernel math math.functions
 math.primes.factors math.ranges sequences sets ;

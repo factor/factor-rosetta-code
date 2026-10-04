@@ -7,8 +7,8 @@
 ! 
 ! 161 is a Duffinian number.
 ! 
-! -   It is composite. (7 × 23)
-! -   The sigma sum 192 (1 + 7 + 23 + 161) is relatively prime to 161.
+! - It is composite. (7 × 23)
+! - The sigma sum 192 (1 + 7 + 23 + 161) is relatively prime to 161.
 ! 
 ! Duffinian numbers are very common.
 ! 
@@ -26,8 +26,8 @@
 ! 
 ! Task
 ! 
-! -   Find and show the first 50 Duffinian numbers.
-! -   Find and show at least the first 15 Duffinian triplets.
+! - Find and show the first 50 Duffinian numbers.
+! - Find and show at least the first 15 Duffinian triplets.
 ! 
 ! See also
 ! * Numbers Aplenty - Duffinian numbers

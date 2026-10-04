@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function that returns the longest common substring of two
 ! strings.
@@ -16,10 +18,12 @@
 ! "testing123testing" is "tsitest", whereas the longest common substring
 ! is just "test".
 ! 
-! References:
+! References
 ! 
-! -   Generalize Suffix Tree
-! -   Ukkonen’s Suffix Tree Construction
+!     
+! 
+! - Generalize Suffix Tree
+! - Ukkonen’s Suffix Tree Construction
 
 USING: io sequences.extras ;
 

@@ -2,52 +2,58 @@
 ! algorithm similar to that employed in generating the Fibonacci sequence.
 ! 
 ! 1.  The first and second members of the sequence are both 1:
-!     -   1, 1
+!     - 1, 1
 ! 2.  Start by considering the second member of the sequence
 ! 3.  Sum the considered member of the sequence and its precedent, (1 + 1)
 !     = 2, and append it to the end of the sequence:
-!     -   1, 1, 2
+!     - 1, 1, 2
 ! 4.  Append the considered member of the sequence to the end of the
 !     sequence:
-!     -   1, 1, 2, 1
+!     - 1, 1, 2, 1
 ! 5.  Consider the next member of the series, (the third member i.e. 2)
 ! 6.  GOTO 3
-!     -   
-!     -   ─── Expanding another loop we get: ───
-!     -   
+!     - 
+!     - ─── Expanding another loop we get: ───
+!     - 
 ! 7.  Sum the considered member of the sequence and its precedent, (2 + 1)
 !     = 3, and append it to the end of the sequence:
-!     -   1, 1, 2, 1, 3
+!     - 1, 1, 2, 1, 3
 ! 8.  Append the considered member of the sequence to the end of the
 !     sequence:
-!     -   1, 1, 2, 1, 3, 2
+!     - 1, 1, 2, 1, 3, 2
 ! 9.  Consider the next member of the series, (the fourth member i.e. 1)
 ! 
-! The task is to:
+! The task is to
 ! 
-! -   Create a function/method/subroutine/procedure/... to generate the
-!     Stern-Brocot sequence of integers using the method outlined above.
-! -   Show the first fifteen members of the sequence. (This should be: 1,
-!     1, 2, 1, 3, 2, 3, 1, 4, 3, 5, 2, 5, 3, 4)
-! -   Show the (1-based) index of where the numbers 1-to-10 first appear
-!     in the sequence.
-! -   Show the (1-based) index of where the number 100 first appears in
-!     the sequence.
-! -   Check that the greatest common divisor of all the two consecutive
-!     members of the series up to the 1000^(th) member, is always one.
+!     
+! 
+! - Create a function/method/subroutine/procedure/... to generate the
+!   Stern-Brocot sequence of integers using the method outlined above.
+! - Show the first fifteen members of the sequence. (This should be: 1, 1,
+!   2, 1, 3, 2, 3, 1, 4, 3, 5, 2, 5, 3, 4)
+! - Show the (1-based) index of where the numbers 1-to-10 first appear in
+!   the sequence.
+! - Show the (1-based) index of where the number 100 first appears in the
+!   sequence.
+! - Check that the greatest common divisor of all the two consecutive
+!   members of the series up to the 1000^(th) member, is always one.
 ! 
 ! Show your output on this page.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Fusc sequence.
-!     -   Continued fraction/Arithmetic
+!     
 ! 
-! Ref:
+! - - Fusc sequence.
+!   - Continued fraction/Arithmetic
 ! 
-! -   Infinite Fractions - Numberphile (Video).
-! -   Trees, Teeth, and Time: The mathematics of clock making.
-! -   A002487 The On-Line Encyclopedia of Integer Sequences.
+! Ref
+! 
+!     
+! 
+! - Infinite Fractions - Numberphile (Video).
+! - Trees, Teeth, and Time: The mathematics of clock making.
+! - A002487 The On-Line Encyclopedia of Integer Sequences.
 
 USING: formatting io kernel lists lists.lazy locals math
 math.ranges prettyprint sequences ;

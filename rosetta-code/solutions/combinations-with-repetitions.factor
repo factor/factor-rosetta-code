@@ -18,19 +18,25 @@
 ! 
 ! Also note that doughnut can also be spelled donut.
 ! 
-! Task:
+! Task
 ! 
-! -   Write a function/program/routine/.. to generate all the combinations
-!     with repetitions of n types of things taken k at a time and use it
-!     to show an answer to the doughnut example above.
-! -   For extra credit, use the function to compute and show just the
-!     number of ways of choosing three doughnuts from a choice of ten
-!     types of doughnut. Do not show the individual choices for this part.
+!     
 ! 
-! References:
+! - Write a function/program/routine/.. to generate all the combinations
+!   with repetitions of n types of things taken k at a time and use it to
+!   show an answer to the doughnut example above.
+! - For extra credit, use the function to compute and show just the number
+!   of ways of choosing three doughnuts from a choice of ten types of
+!   doughnut. Do not show the individual choices for this part.
 ! 
-! -   k-combination with repetitions
+! References
 ! 
-! See also:
+!     
+! 
+! - k-combination with repetitions
+! 
+! See also
+! 
+!     
 
 

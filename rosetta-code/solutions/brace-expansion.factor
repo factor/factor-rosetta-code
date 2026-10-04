@@ -114,19 +114,18 @@
 ! 
 ! a1bXc
 ! 
-! -   An alternation causes the list of alternatives that will be produced
-!     by its parent branch to be increased 𝑛-fold, each copy featuring one
-!     of the 𝑛 alternatives produced by the alternation's child branches,
-!     in turn, at that position.
-! -   This means that multiple alternations inside the same branch are
-!     cumulative (i.e. the complete list of alternatives produced by a
-!     branch is the string-concatenating "Cartesian product" of its
-!     parts).
-! -   All alternatives (even duplicate and empty ones) are preserved, and
-!     they are ordered like the examples demonstrate (i.e.
-!     "lexicographically" with regard to the alternations).
-! -   The alternatives produced by the root branch constitute the final
-!     output.
+! - An alternation causes the list of alternatives that will be produced
+!   by its parent branch to be increased 𝑛-fold, each copy featuring one
+!   of the 𝑛 alternatives produced by the alternation's child branches, in
+!   turn, at that position.
+! - This means that multiple alternations inside the same branch are
+!   cumulative (i.e. the complete list of alternatives produced by a
+!   branch is the string-concatenating "Cartesian product" of its parts).
+! - All alternatives (even duplicate and empty ones) are preserved, and
+!   they are ordered like the examples demonstrate (i.e.
+!   "lexicographically" with regard to the alternations).
+! - The alternatives produced by the root branch constitute the final
+!   output.
 ! 
 ! Parsing the input string involves some additional complexity to deal
 ! with escaped characters and "incomplete" brace pairs:
@@ -161,23 +160,23 @@
 ! 
 ! e}f
 ! 
-! -   An unescaped backslash which precedes another character, escapes
-!     that character (to force it to be treated as literal). The
-!     backslashes are passed along to the output unchanged.
-! -   Balanced brace pairs are identified by, conceptually, going through
-!     the string from left to right and associating each unescaped closing
-!     brace that is encountered with the nearest still unassociated
-!     unescaped opening brace to its left (if any). Furthermore, each
-!     unescaped comma is associated with the innermost brace pair that
-!     contains it (if any). With that in mind:
-!     -   Each brace pair that has at least one comma associated with it,
-!         forms an alternation (whose branches are the brace pair's
-!         contents split at its commas). The associated brace and comma
-!         characters themselves do not become part of the output.
-!     -   Brace characters from pairs without any associated comma, as
-!         well as unassociated brace and comma characters, as well as all
-!         characters that are not covered by the preceding rules, are
-!         instead treated as literals.
+! - An unescaped backslash which precedes another character, escapes that
+!   character (to force it to be treated as literal). The backslashes are
+!   passed along to the output unchanged.
+! - Balanced brace pairs are identified by, conceptually, going through
+!   the string from left to right and associating each unescaped closing
+!   brace that is encountered with the nearest still unassociated
+!   unescaped opening brace to its left (if any). Furthermore, each
+!   unescaped comma is associated with the innermost brace pair that
+!   contains it (if any). With that in mind:
+!   - Each brace pair that has at least one comma associated with it,
+!     forms an alternation (whose branches are the brace pair's contents
+!     split at its commas). The associated brace and comma characters
+!     themselves do not become part of the output.
+!   - Brace characters from pairs without any associated comma, as well as
+!     unassociated brace and comma characters, as well as all characters
+!     that are not covered by the preceding rules, are instead treated as
+!     literals.
 ! 
 ! For every possible input string, your implementation should produce
 ! exactly the output which this specification mandates. Please comply with
@@ -219,6 +218,6 @@
 ! 
 ! {}} some }{,{\\ edge \,}{ cases, {here} \\\\\} |}
 ! 
-! -   -   Brace_expansion_using_ranges
+! - - Brace_expansion_using_ranges
 
 

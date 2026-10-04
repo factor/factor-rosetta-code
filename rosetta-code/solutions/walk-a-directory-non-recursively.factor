@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Walk a given directory and print the names of files matching a given
 ! pattern.
@@ -11,9 +13,11 @@
 ! 
 ! Note: Please be careful when running any code presented here.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Walk Directory Tree (read entire directory tree).
+!     
+! 
+! - Walk Directory Tree (read entire directory tree).
 
 USING: globs io io.directories kernel regexp sequences ;
 IN: walk-directory-non-recursively

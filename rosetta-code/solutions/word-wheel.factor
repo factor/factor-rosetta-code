@@ -6,26 +6,29 @@
 ! will be a minimum word length of 3 or 4 characters. Each letter may only
 ! be used as many times as it appears in the wheel or grid.
 ! 
-! An example: 
-! 
+! An example
 !     
 ! 
-!         {| class="wikitable"
+!         
+! 
+!             {| class="wikitable"
 ! 
 ! | N | D | E |- | O | style="font-weight: bold;"| K | G |- | E | L | W |}
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program to solve the above "word wheel" puzzle.
 ! 
 ! Specifically:
 ! 
-! -   -   Find all words of 3 or more letters using only the letters in
-!         the string ndeokgelw.
-!     -   All words must contain the central letter K.
-!     -   Each letter may be used only as many times as it appears in the
-!         string.
-!     -   For this task we'll use lowercase English letters exclusively.
+! - - Find all words of 3 or more letters using only the letters in the
+!     string ndeokgelw.
+!   - All words must contain the central letter K.
+!   - Each letter may be used only as many times as it appears in the
+!     string.
+!   - For this task we'll use lowercase English letters exclusively.
 ! 
 ! A "word" is defined to be any string contained in the file located at
 ! http://wiki.puzzlers.org/pub/wordlists/unixdict.txt.
@@ -33,7 +36,9 @@
 ! If you prefer to use a different dictionary, please state which one you
 ! have used.
 ! 
-! Optional extra:
+! Optional extra
+! 
+!     
 ! 
 ! Word wheel puzzles usually state that there is at least one nine-letter
 ! word to be found. Using the above dictionary, find the 3x3 grids with at

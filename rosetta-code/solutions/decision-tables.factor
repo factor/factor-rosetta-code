@@ -1,7 +1,9 @@
 ! Decision Tables are a precise yet compact way to model complicated
 ! logic.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Demonstrate how your language implements decision tables.
 ! 

@@ -9,7 +9,9 @@
 ! This separation can be used to redirect error messages to a different
 ! place than normal messages.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how to print a message to standard error by printing Goodbye,
 ! World! on that stream.

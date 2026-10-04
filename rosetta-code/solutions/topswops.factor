@@ -25,20 +25,26 @@
 ! For a particular number n of cards, topswops(n) is the maximum swaps
 ! needed for any starting permutation of the n cards.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! The task is to generate and show here a table of n vs topswops(n) for n
 ! in the range 1..10 inclusive.
 ! 
-! Note:
+! Note
+! 
+!     
 ! 
 ! Topswops is also known as Fannkuch from the German word Pfannkuchen
 ! meaning pancake.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Number reversal game
-! -   Sorting algorithms/Pancake sort
+!     
+! 
+! - Number reversal game
+! - Sorting algorithms/Pancake sort
 
 USING: formatting kernel math math.combinatorics math.order
 math.ranges sequences ;

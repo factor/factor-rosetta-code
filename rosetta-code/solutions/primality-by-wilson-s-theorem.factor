@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a boolean function that tells whether a given integer is prime
 ! using Wilson's theorem.
@@ -8,10 +10,12 @@
 ! 
 ! Remember that 1 and all non-positive integers are not prime.
 ! 
-! See also:
+! See also
 ! 
-! -   Cut-the-knot: Wilson's theorem.
-! -   Wikipedia: Wilson's theorem
+!     
+! 
+! - Cut-the-knot: Wilson's theorem.
+! - Wikipedia: Wilson's theorem
 
 USING: formatting grouping io kernel lists lists.lazy math
 math.factorials math.functions prettyprint sequences ;

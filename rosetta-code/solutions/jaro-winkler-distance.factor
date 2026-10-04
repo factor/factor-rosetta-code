@@ -21,10 +21,10 @@
 ! 
 ! Where:
 ! 
-! -   m is the number of matching characters (the same character within
-!     max(|s1|, |s2|)/2 - 1 of one another);
-! -   t is half the number of transpositions (a shared character placed in
-!     different positions).
+! - m is the number of matching characters (the same character within
+!   max(|s1|, |s2|)/2 - 1 of one another);
+! - t is half the number of transpositions (a shared character placed in
+!   different positions).
 ! 
 ! The Winkler modification to Jaro is to check for identical prefixes of
 ! the strings.
@@ -44,11 +44,11 @@
 ! 
 ! Where:
 ! 
-! -   sim_(j) is the Jaro similarity.
-! -   l is the number of matching characters at the beginning of the
-!     strings, up to 4.
-! -   p is a factor to modify the amount to which the prefix similarity
-!     affects the metric.
+! - sim_(j) is the Jaro similarity.
+! - l is the number of matching characters at the beginning of the
+!   strings, up to 4.
+! - p is a factor to modify the amount to which the prefix similarity
+!   affects the metric.
 ! 
 ! Winkler suggested this be 0.1.
 ! The Jaro-Winkler distance between strings, which is 0.0 for identical
@@ -62,7 +62,9 @@
 ! more often than their beginnings. This may help a spelling checker
 ! program to generate better alternatives for misspelled word replacement.
 ! 
-! The task:
+! The task
+! 
+!     
 ! 
 ! Using a dictionary of your choice and the following list of 9 commonly
 ! misspelled words:
@@ -70,19 +72,19 @@
 ! "accomodate", "definately", "goverment​", "occured", "publically",
 ! "recieve​", "seperate", "untill", "wich​"
 ! 
-! -   Calculate the Jaro-Winkler distance between the misspelled word and
-!     words in the dictionary.
+! - Calculate the Jaro-Winkler distance between the misspelled word and
+!   words in the dictionary.
 ! 
-! -   Use this distance to list close alternatives (at least two per word)
-!     to the misspelled words.
+! - Use this distance to list close alternatives (at least two per word)
+!   to the misspelled words.
 ! 
-! -   Show the calculated distances between the misspelled words and their
-!     potential replacements.
+! - Show the calculated distances between the misspelled words and their
+!   potential replacements.
 ! 
 ! See also
 ! 
-! -   -   Wikipedia page: Jaro–Winkler distance.
-!     -   Comparing string similarity algorithms. Comparison of algorithms
-!         on Medium
+! - - Wikipedia page: Jaro–Winkler distance.
+!   - Comparing string similarity algorithms. Comparison of algorithms on
+!     Medium
 
 

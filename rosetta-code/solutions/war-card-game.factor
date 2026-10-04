@@ -5,17 +5,17 @@
 ! 
 ! References:
 ! 
-! -   -   Bicycle card company: War game site
+! - - Bicycle card company: War game site
 ! 
-! -   -   Wikipedia: War (card game)
+! - - Wikipedia: War (card game)
 ! 
 ! Related tasks:
 ! 
-! -   Playing cards
-! -   Card shuffles
-! -   Deal cards for FreeCell
-! -   Poker hand_analyser
-! -   Go Fish
+! - Playing cards
+! - Card shuffles
+! - Deal cards for FreeCell
+! - Poker hand_analyser
+! - Go Fish
 ! 
 ! Category:Cards Category:Games
 

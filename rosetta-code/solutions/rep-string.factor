@@ -12,17 +12,19 @@
 ! means that the repeating unit is never longer than half the length of
 ! the input string.
 ! 
-! Task:
+! Task
 ! 
-! -   Write a function/subroutine/method/... that takes a string and
-!     returns an indication of if it is a rep-string and the repeated
-!     string. (Either the string that is repeated, or the number of
-!     repeated characters would suffice).
-! -   There may be multiple sub-strings that make a string a rep-string -
-!     in that case an indication of all, or the longest, or the shortest
-!     would suffice.
-! -   Use the function to indicate the repeating substring if any, in the
-!     following:
+!     
+! 
+! - Write a function/subroutine/method/... that takes a string and returns
+!   an indication of if it is a rep-string and the repeated string.
+!   (Either the string that is repeated, or the number of repeated
+!   characters would suffice).
+! - There may be multiple sub-strings that make a string a rep-string - in
+!   that case an indication of all, or the longest, or the shortest would
+!   suffice.
+! - Use the function to indicate the repeating substring if any, in the
+!   following:
 ! 
 !     1001110011
 !     1110111011
@@ -36,7 +38,7 @@
 !     00
 !     1
 ! 
-! -   Show your output on this page.
+! - Show your output on this page.
 
 USING: formatting grouping kernel math math.ranges qw sequences ;
 IN: rosetta-code.rep-string

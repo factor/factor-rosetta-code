@@ -9,7 +9,7 @@
 ! 
 ! See also
 ! 
-! -   Computer Graphics Tutorial (lodev.org)
-! -   Plasma (bidouille.org)
+! - Computer Graphics Tutorial (lodev.org)
+! - Plasma (bidouille.org)
 
 

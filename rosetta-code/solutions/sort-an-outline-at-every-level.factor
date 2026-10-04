@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write and test a function over an indented plain text outline which
 ! either:
@@ -11,11 +13,11 @@
 ! Your code should detect and warn of at least two types of inconsistent
 ! indentation:
 ! 
-! -   inconsistent use of whitespace characters (e.g. mixed use of tabs
-!     and spaces)
-! -   inconsistent indent widths. For example, an indentation with an odd
-!     number of spaces in an outline in which the unit indent appears to
-!     be 2 spaces, or 4 spaces.
+! - inconsistent use of whitespace characters (e.g. mixed use of tabs and
+!   spaces)
+! - inconsistent indent widths. For example, an indentation with an odd
+!   number of spaces in an outline in which the unit indent appears to be
+!   2 spaces, or 4 spaces.
 ! 
 ! Your code should be able to detect and handle both tab-indented, and
 ! space-indented (e.g. 4 space, 2 space etc) outlines, without being given
@@ -34,8 +36,8 @@
 ! 
 ! Tests
 ! 
-! -   Sort every level of the (4 space indented) outline below lexically,
-!     once ascending and once descending.
+! - Sort every level of the (4 space indented) outline below lexically,
+!   once ascending and once descending.
 ! 
 !     zeta
 !         beta
@@ -49,7 +51,7 @@
 !         iota
 !         epsilon
 ! 
-! -   Do the same with a tab-indented equivalent of the same outline.
+! - Do the same with a tab-indented equivalent of the same outline.
 ! 
 !     zeta
 !         gamma
@@ -93,9 +95,9 @@
 !         iota
 !         epsilon
 ! 
-! -   Attempt to separately sort each of the following two outlines,
-!     reporting any inconsistencies detected in their indentations by your
-!     validation code.
+! - Attempt to separately sort each of the following two outlines,
+!   reporting any inconsistencies detected in their indentations by your
+!   validation code.
 ! 
 !     alpha
 !         epsilon
@@ -121,9 +123,11 @@
 !         iota
 !         epsilon
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Functional_coverage_tree
-!     -   Display_an_outline_as_a_nested_table
+!     
+! 
+! - - Functional_coverage_tree
+!   - Display_an_outline_as_a_nested_table
 
 

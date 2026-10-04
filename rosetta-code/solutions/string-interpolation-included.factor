@@ -11,7 +11,9 @@
 !     sequence of characters to indicate what is to be replaced such as
 !     "%", or "#" rather than "X").
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Use your languages inbuilt string interpolation abilities to
 !     interpolate a string missing the text "little" which is held in a

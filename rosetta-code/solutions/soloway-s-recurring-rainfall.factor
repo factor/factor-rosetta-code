@@ -16,15 +16,14 @@
 ! 
 ! Implementation Details:
 ! 
-! -   Only Integers are to be accepted as input
-! -   Output should be floating point
-! -   Rainfall can be negative
-!     (https://www.geographyrealm.com/what-is-negative-rainfall/)
-! -   For languages where the user is inputting data, the number of data
-!     inputs can be "infinite"
-! -   A complete implementation should handle error cases reasonably
-!     (asking the user for more input, skipping the bad value when
-!     encountered, etc)
+! - Only Integers are to be accepted as input
+! - Output should be floating point
+! - Rainfall can be negative
+!   (https://www.geographyrealm.com/what-is-negative-rainfall/)
+! - For languages where the user is inputting data, the number of data
+!   inputs can be "infinite"
+! - A complete implementation should handle error cases reasonably (asking
+!   the user for more input, skipping the bad value when encountered, etc)
 ! 
 ! The purpose of this problem, as originally proposed in the 1980's
 ! through its continued use today, is to just show fundamentals of CS:
@@ -36,8 +35,8 @@
 ! 
 ! References:
 ! 
-! -   http://cs.brown.edu/~kfisler/Pubs/icer14-rainfall/icer14.pdf
-! -   https://www.curriculumonline.ie/getmedia/8bb01bff-509e-48ed-991e-3ab5dad74a78/Seppletal-2015-DoweknowhowdifficulttheRainfallProblemis.pdf
-! -   https://en.wikipedia.org/wiki/Moving_average#Cumulative_average
+! - http://cs.brown.edu/~kfisler/Pubs/icer14-rainfall/icer14.pdf
+! - https://www.curriculumonline.ie/getmedia/8bb01bff-509e-48ed-991e-3ab5dad74a78/Seppletal-2015-DoweknowhowdifficulttheRainfallProblemis.pdf
+! - https://en.wikipedia.org/wiki/Moving_average#Cumulative_average
 
 

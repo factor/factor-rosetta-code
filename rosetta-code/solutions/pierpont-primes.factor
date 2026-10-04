@@ -8,26 +8,30 @@
 ! definition, but will be called "Pierpont primes of the first kind" on
 ! this page to distinguish them.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Write a routine (function, procedure, whatever) to find Pierpont
-!         primes of the first & second kinds.
+!     
 ! 
-! -   -   Use the routine to find and display here, on this page, the
-!         first 50 Pierpont primes of the first kind.
+! - - Write a routine (function, procedure, whatever) to find Pierpont
+!     primes of the first & second kinds.
 ! 
-! -   -   Use the routine to find and display here, on this page, the
-!         first 50 Pierpont primes of the second kind
+! - - Use the routine to find and display here, on this page, the first 50
+!     Pierpont primes of the first kind.
 ! 
-! -   -   If your language supports large integers, find and display here,
-!         on this page, the 250^(th) Pierpont prime of the first kind and
-!         the 250^(th) Pierpont prime of the second kind.
+! - - Use the routine to find and display here, on this page, the first 50
+!     Pierpont primes of the second kind
 ! 
-! See also:
+! - - If your language supports large integers, find and display here, on
+!     this page, the 250^(th) Pierpont prime of the first kind and the
+!     250^(th) Pierpont prime of the second kind.
 ! 
-! -   -   Wikipedia - Pierpont primes
-!     -   OEIS:A005109 - Class 1 -, or Pierpont primes
-!     -   OEIS:A005105 - Class 1 +, or Pierpont primes of the second kind
+! See also
+! 
+!     
+! 
+! - - Wikipedia - Pierpont primes
+!   - OEIS:A005109 - Class 1 -, or Pierpont primes
+!   - OEIS:A005105 - Class 1 +, or Pierpont primes of the second kind
 
 USING: fry grouping io kernel locals make math math.functions
 math.primes prettyprint sequences sorting ;

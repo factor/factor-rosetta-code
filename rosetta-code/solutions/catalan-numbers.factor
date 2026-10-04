@@ -8,7 +8,9 @@
 ! 
 ! $$C_0 = 1 \quad \mbox{and} \quad C_n=\frac{2(2n-1)}{n+1}C_{n-1},$$
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement at least one of these algorithms and print out the first 15
 ! Catalan numbers with each.
@@ -16,10 +18,12 @@
 ! Memoization is not required, but may be worth the effort when using the
 ! second method above.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Catalan numbers/Pascal's triangle
-! -   Evaluate binomial coefficients
+!     
+! 
+! - Catalan numbers/Pascal's triangle
+! - Evaluate binomial coefficients
 
 USING: kernel math math.combinatorics prettyprint ;
 

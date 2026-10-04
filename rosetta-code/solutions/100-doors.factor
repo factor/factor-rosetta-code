@@ -11,7 +11,9 @@
 ! The third time, visit every 3^(rd) door (door #3, #6, #9, ...), etc,
 ! until you only visit the 100^(th) door.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Answer the question: what state are the doors in after the last pass?
 ! Which are open, which are closed?
@@ -23,7 +25,9 @@
 ! however, as should be obvious, this defeats the intent of comparing
 ! implementations across programming languages.
 ! 
-! Why doesn't syntax highlighting work on this page ?:
+! Why doesn't syntax highlighting work on this page ?
+! 
+!     
 ! 
 ! Currently, there is a limit on how many <syntaxhighlight> tags can
 ! appear on a page, so only the first few languages get highlighting, the
@@ -32,8 +36,7 @@
 ! highlighters on Syntax highlighting using Mediawiki formatting or
 ! something similar.
 
-USING: bit-arrays formatting fry kernel math math.ranges
-sequences ;
+USING: bit-arrays formatting fry kernel math ranges sequences ;
 IN: rosetta.doors
 
 CONSTANT: number-of-doors 100
@@ -45,7 +48,7 @@ CONSTANT: number-of-doors 100
     [ multiples ] dip '[ _ [ not ] change-nth ] each ;
 
 : toggle-all-multiples ( doors -- )
-    [ number-of-doors [1,b] ] dip '[ _ toggle-multiples ] each ;
+    [ number-of-doors [1..b] ] dip '[ _ toggle-multiples ] each ;
 
 : print-doors ( doors -- )
     [
@@ -59,12 +62,10 @@ CONSTANT: number-of-doors 100
 main
 
 
-USING:
-    formatting
-    math math.primes.factors math.ranges
-    sequences ;
-IN: rosetta-doors2
+USING: formatting math math.primes.factors ranges sequences ;
+IN: rosetta.doors2
 
 : main ( -- )
-    100 [1,b] [ divisors length odd? ] filter "Open %[%d, %]\n" printf ;
+    100 [1..b] [ divisors length odd? ] filter "Open %[%d, %]\n" printf ;
 
+main

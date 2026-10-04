@@ -18,9 +18,9 @@
 ! The word stateful in the task description refers to the need for SMA()
 ! to remember certain information between calls to it:
 ! 
-! -   The period, P
-! -   An ordered container of at least the last P numbers from each of its
-!     individual calls.
+! - The period, P
+! - An ordered container of at least the last P numbers from each of its
+!   individual calls.
 ! 
 ! Stateful also means that successive calls to I(), the initializer,
 ! should return separate routines that do not share saved state so they

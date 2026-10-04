@@ -10,9 +10,11 @@
 ! 
 !     There is just one dog named Bernie.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Unicode variable names
+!     
+! 
+! - Unicode variable names
 
 USING: formatting locals ;
 IN: scratchpad

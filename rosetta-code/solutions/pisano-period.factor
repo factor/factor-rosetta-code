@@ -11,7 +11,9 @@
 ! integers, or, it may be calculated by finding the least common multiple
 ! of the Pisano periods of each composite component.
 ! 
-! E.G.:
+! E.G.
+! 
+!     
 ! 
 ! Given a Pisano period function: pisano(x), and a least common multiple
 ! function lcm(x, y):
@@ -46,9 +48,9 @@
 ! 
 ! Related tasks
 ! 
-! -   Fibonacci sequence
-! -   Prime decomposition
-! -   Least common multiple
+! - Fibonacci sequence
+! - Prime decomposition
+! - Least common multiple
 ! 
 ! Category:Mathematics
 

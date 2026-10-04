@@ -5,9 +5,11 @@
 ! In languages where cursor control and highlighting are not possible, it
 ! is permissible to output each word as it is spoken.
 ! 
-! Related task:
+! Related task
 ! 
-! -   -   speech synthesis
+!     
+! 
+! - - speech synthesis
 ! 
 ! Category:Speech synthesis Category:Temporal media
 

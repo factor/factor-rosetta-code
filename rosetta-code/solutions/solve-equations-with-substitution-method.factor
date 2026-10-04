@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Let given equations:
 ! 
@@ -8,7 +10,7 @@
 ! 
 ! See related
 ! 
-! -   Reduced row echelon form
-! -   Gaussian elimination
+! - Reduced row echelon form
+! - Gaussian elimination
 
 

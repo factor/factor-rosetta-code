@@ -22,7 +22,7 @@
 ! 
 ! See also
 ! 
-! -   Idiomatically determine all the lowercase and uppercase letters.
+! - Idiomatically determine all the lowercase and uppercase letters.
 
 USING: parser see ;
 \ scan-word-name see

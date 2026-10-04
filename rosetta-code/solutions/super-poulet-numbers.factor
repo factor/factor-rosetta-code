@@ -3,12 +3,12 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first 20 super-Poulet numbers.
+! - Find and display the first 20 super-Poulet numbers.
 ! 
 ! Stretch
 ! 
-! -   Find and display the index and value of the first super-Poulet
-!     number greater than one million.
+! - Find and display the index and value of the first super-Poulet number
+!   greater than one million.
 ! 
 ! See also
 ! *Task: Fermat pseudoprimes

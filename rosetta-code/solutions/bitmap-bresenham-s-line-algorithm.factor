@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Using the data storage type defined on the Bitmap page for raster
 ! graphics images,

@@ -4,14 +4,16 @@
 ! 
 ! The IBAN consists of up to 34 alphanumeric characters:
 ! 
-! -   -   first the two-letter ISO 3166-1 alpha-2 country code,
-!     -   then two check digits, and
-!     -   finally a country-specific Basic Bank Account Number (BBAN).
+! - - first the two-letter ISO 3166-1 alpha-2 country code,
+!   - then two check digits, and
+!   - finally a country-specific Basic Bank Account Number (BBAN).
 ! 
 ! The check digits enable a sanity check of the bank account number to
 ! confirm its integrity even before submitting a transaction.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Validate the following fictitious IBAN: GB82 WEST 1234 5698 7654 32
 ! 

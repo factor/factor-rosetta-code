@@ -16,7 +16,9 @@
 ! but in general not weight-balanced nor μ-balanced; that is, sibling
 ! nodes can have hugely differing numbers of descendants.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement an AVL tree in the language of choice, and provide at least
 ! basic operations.

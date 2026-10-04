@@ -34,17 +34,21 @@
 !             hasChanged := true
 ! until hasChanged = false
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Sort an array of elements using the bubble sort algorithm. The elements
 ! must have a total order and the index of the array can be of any
 ! discrete type. For languages where this is not possible, sort an array
 ! of integers.
 ! 
-! References:
+! References
 ! 
-! -   The article on Wikipedia.
-! -   Dance interpretation.
+!     
+! 
+! - The article on Wikipedia.
+! - Dance interpretation.
 
 USING: fry kernel locals math math.order sequences
 sequences.private ;

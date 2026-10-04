@@ -1,7 +1,7 @@
 ! A number wheel has:
 ! 
-! -   A name which is an uppercase letter.
-! -   A set of ordered values which are either numbers or names.
+! - A name which is an uppercase letter.
+! - A set of ordered values which are either numbers or names.
 ! 
 ! A number is generated/yielded from a named wheel by:
 ! 
@@ -24,7 +24,9 @@
 ! wheels then the first named wheel is assumed to be the one that values
 ! are generated from.
 ! 
-! Examples:
+! Examples
+! 
+!     
 ! 
 ! Given the wheels:
 ! 
@@ -49,7 +51,9 @@
 !  Generates:
 !    1 6 7 1 8 6 1 7 8 1 6 7 1 8 6 1 7 8 1 6 ...    
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Generate and show the first twenty terms of the sequence of numbers
 ! generated from these groups:

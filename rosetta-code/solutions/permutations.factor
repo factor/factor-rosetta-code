@@ -1,11 +1,15 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that generates all permutations of n different objects.
 ! (Practically numerals!)
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Find the missing permutation
-! -   Permutations/Derangements
+!     
+! 
+! - Find the missing permutation
+! - Permutations/Derangements
 
 

@@ -1,17 +1,21 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Compute the least common multiple (LCM) of two integers.
 ! 
 ! Given m and n, the least common multiple is the smallest positive
 ! integer that has both m and n as factors.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! The least common multiple of 12 and 18 is 36, because:
 ! 
-! -   -   12 is a factor (12 × 3 = 36), and
-!     -   18 is a factor (18 × 2 = 36), and
-!     -   there is no positive integer less than 36 that has both factors.
+! - - 12 is a factor (12 × 3 = 36), and
+!   - 18 is a factor (18 × 2 = 36), and
+!   - there is no positive integer less than 36 that has both factors.
 ! 
 ! As a special case, if either m or n is zero, then the least common
 ! multiple is zero.
@@ -31,12 +35,14 @@
 ! 
 ! Related task
 ! 
-! -   -   greatest common divisor.
+! - - greatest common divisor.
 ! 
-! See also:
+! See also
 ! 
-! -   MathWorld entry: Least Common Multiple.
-! -   Wikipedia entry: Least common multiple.
+!     
+! 
+! - MathWorld entry: Least Common Multiple.
+! - Wikipedia entry: Least common multiple.
 ! 
 ! Category:Recursion
 

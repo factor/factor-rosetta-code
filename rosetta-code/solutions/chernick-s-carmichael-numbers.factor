@@ -14,12 +14,12 @@
 !    ⋯
 !    U(n, m) = U(n − 1, m)(2^((n − 2))9m + 1)
 ! 
-! -   The smallest Chernick's Carmichael number with 3 prime factors, is:
-!     U(3, 1) = 1729.
-! -   The smallest Chernick's Carmichael number with 4 prime factors, is:
-!     U(4, 1) = 63973.
-! -   The smallest Chernick's Carmichael number with 5 prime factors, is:
-!     U(5, 380) = 26641259752490421121.
+! - The smallest Chernick's Carmichael number with 3 prime factors, is:
+!   U(3, 1) = 1729.
+! - The smallest Chernick's Carmichael number with 4 prime factors, is:
+!   U(4, 1) = 63973.
+! - The smallest Chernick's Carmichael number with 5 prime factors, is:
+!   U(5, 380) = 26641259752490421121.
 ! 
 ! For n = 5, the smallest number m that satisfy Chernick's conditions, is
 ! m = 380, therefore U(5, 380) is the smallest Chernick's Carmichael
@@ -35,8 +35,8 @@
 ! For n ≥ 3, let a(n) be the smallest Chernick's Carmichael number with n
 ! prime factors.
 ! 
-! -   Compute a(n) for n = 3..9.
-! -   Optional: find a(10).
+! - Compute a(n) for n = 3..9.
+! - Optional: find a(10).
 ! 
 ! Note: it's perfectly acceptable to show the terms in factorized form:
 ! 
@@ -47,13 +47,13 @@
 ! 
 ! See also
 ! 
-! -   Jack Chernick, On Fermat's simple theorem (PDF), equation (8)
+! - Jack Chernick, On Fermat's simple theorem (PDF), equation (8)
 ! 
-! -   OEIS A318646: The least Chernick's "universal form" Carmichael
-!     number with n prime factors
+! - OEIS A318646: The least Chernick's "universal form" Carmichael number
+!   with n prime factors
 ! 
 ! Related tasks
 ! 
-! -   Carmichael 3 strong pseudoprimes
+! - Carmichael 3 strong pseudoprimes
 
 

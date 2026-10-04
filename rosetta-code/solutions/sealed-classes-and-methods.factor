@@ -26,12 +26,12 @@
 ! 
 ! Reference
 ! 
-! -   Inheritance Non-subclassable classes
+! - Inheritance Non-subclassable classes
 ! 
 ! Related task
 ! 
-! -   Classes
-! -   Inheritance/Single
-! -   Inheritance/Multiple
+! - Classes
+! - Inheritance/Single
+! - Inheritance/Multiple
 
 

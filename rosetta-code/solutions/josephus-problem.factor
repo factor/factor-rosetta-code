@@ -11,7 +11,9 @@
 ! prisoners are killed in (let's call it the "killing sequence") will be
 ! 1, 3, 0, and 4, and the survivor will be #2.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given any n, k > 0, find out which prisoner will be the final survivor.
 ! 
@@ -23,7 +25,9 @@
 ! 
 ! Which number was he?
 ! 
-! Extra:
+! Extra
+! 
+!     
 ! 
 ! The captors may be especially kind and let m survivors free,
 ! 
@@ -32,7 +36,9 @@
 ! Provide a way to calculate which prisoner is at any given position on
 ! the killing sequence.
 ! 
-! Notes:
+! Notes
+! 
+!     
 ! 
 ! 1.  You can always play the executioner and follow the procedure exactly
 !     as described, walking around the circle, counting (and cutting off)

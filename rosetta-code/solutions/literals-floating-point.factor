@@ -1,7 +1,9 @@
 ! Programming languages have different ways of expressing floating-point
 ! literals.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how floating-point literals can be expressed in your language:
 ! decimal or other bases, exponential notation, and any other special
@@ -10,10 +12,12 @@
 ! You may want to include a regular expression or BNF/ABNF/EBNF defining
 ! allowable formats for your language.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Literals/Integer
-! -   Extreme floating point values
+!     
+! 
+! - Literals/Integer
+! - Extreme floating point values
 
 3.14           ! basic float
 +3.14          ! Optional signs

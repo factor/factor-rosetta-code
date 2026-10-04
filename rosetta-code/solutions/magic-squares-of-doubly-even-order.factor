@@ -26,12 +26,14 @@
 ! 
 ! Related tasks
 ! 
-! -   Magic squares of odd order
-! -   Magic squares of singly even order
+! - Magic squares of odd order
+! - Magic squares of singly even order
 ! 
-! See also:
+! See also
 ! 
-! -   Doubly Even Magic Squares (1728.org)
+!     
+! 
+! - Doubly Even Magic Squares (1728.org)
 
 USING: arrays combinators.short-circuit formatting fry
 generalizations kernel math math.matrices prettyprint sequences

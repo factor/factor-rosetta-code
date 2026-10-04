@@ -108,7 +108,7 @@
 ! element of each column gets onto the diagonal of A. Rearranging the rows
 ! means to multiply A by a permutation matrix P:
 ! 
-! PA ⇒ A′
+! PA ⇒ A^(′)
 ! 
 ! Example:
 ! 
@@ -131,7 +131,9 @@
 ! 
 ! PA = LU
 ! 
-! Task description:
+! Task description
+! 
+!     
 ! 
 ! The task is to implement a routine which will take a square nxn matrix A
 ! and return a lower triangular matrix L, a upper triangular matrix U and
@@ -140,7 +142,9 @@
 ! You should then test it on the following two examples and include your
 ! output.
 ! 
-! Example 1:
+! Example 1
+! 
+!     
 ! 
 !     A
 ! 
@@ -166,7 +170,9 @@
 !     1   0   0
 !     0   0   1
 ! 
-! Example 2:
+! Example 2
+! 
+!     
 ! 
 !     A
 ! 

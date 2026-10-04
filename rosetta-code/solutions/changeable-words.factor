@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Using the dictionary unixdict.txt, change one letter in a word, and if
 ! the changed word occurs in the dictionary,
@@ -7,15 +9,19 @@
 ! 
 ! The length of any word shown should have a length '''> 11.
 ! 
-! Note:
+! Note
 ! 
-! -   A copy of the specific unixdict.txt linked to should be used for
-!     consistency of results.
-! -   Words > 11 are required, ie of 12 characters or more.
+!     
 ! 
-! Reference:
+! - A copy of the specific unixdict.txt linked to should be used for
+!   consistency of results.
+! - Words > 11 are required, ie of 12 characters or more.
 ! 
-! -   Levenshtein distance
+! Reference
+! 
+!     
+! 
+! - Levenshtein distance
 
 USING: assocs combinators.short-circuit formatting
 io.encodings.ascii io.files kernel math math.combinatorics

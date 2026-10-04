@@ -2,7 +2,7 @@
 ! standard provides a solution to record the animation of data. Smil
 ! animations can be added to any kind of contents formated in XML.
 ! 
-! -   SMIL on Wikipedia and at W3
+! - SMIL on Wikipedia and at W3
 ! 
 ! The task is to create an utility that given the first Smiled XML file,
 ! would return the following ones:

@@ -39,11 +39,11 @@
 ! 2.  Call this function repeatedly to count how many shuffles are needed
 !     to get a deck back to its original order, for each of the deck sizes
 !     listed under "Test Cases" below.
-!     -   You can use a list of numbers (or anything else that's
-!         convenient) to represent a deck; just make sure that all "cards"
-!         are unique within each deck.
-!     -   Print out the resulting shuffle counts, to demonstrate that your
-!         program passes the test-cases.
+!     - You can use a list of numbers (or anything else that's convenient)
+!       to represent a deck; just make sure that all "cards" are unique
+!       within each deck.
+!     - Print out the resulting shuffle counts, to demonstrate that your
+!       program passes the test-cases.
 ! 
 ! Test Cases
 ! 

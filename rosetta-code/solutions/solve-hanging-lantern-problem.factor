@@ -23,7 +23,9 @@
 ! 
 ! ------------------------------------------------------------------------
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Input:
 ! 
@@ -48,7 +50,9 @@
 ! 
 ! ------------------------------------------------------------------------
 ! 
-! Optional task:
+! Optional task
+! 
+!     
 ! 
 ! Output all the sequences using this format:
 ! 
@@ -56,8 +60,10 @@
 ! [2,1,3,…]
 ! ……
 ! 
-! Related:
+! Related
 ! 
-! -   Permutations_with_some_identical_elements
+!     
+! 
+! - Permutations_with_some_identical_elements
 
 

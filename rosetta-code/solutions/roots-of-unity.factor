@@ -1,6 +1,8 @@
 ! The purpose of this task is to explore working with complex numbers.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given n, find the n^(th) roots of unity.
 

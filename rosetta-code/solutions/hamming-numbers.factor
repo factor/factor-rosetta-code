@@ -7,7 +7,9 @@
 ! Hamming numbers are also known as ugly numbers and also 5-smooth numbers
 ! (numbers whose prime divisors are less or equal to 5).
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Generate the sequence of Hamming numbers, in increasing order. In
 ! particular:
@@ -17,19 +19,23 @@
 ! 3.  Show the one million^(th) Hamming number (if the language – or a
 !     convenient library – supports arbitrary-precision integers).
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Humble numbers
-! -   N-smooth numbers
+!     
 ! 
-! References:
+! - Humble numbers
+! - N-smooth numbers
 ! 
-! -   Wikipedia entry: Hamming numbers (this link is re-directed to
-!     Regular number).
-! -   Wikipedia entry: Smooth number
-! -   OEIS entry: A051037 5-smooth or Hamming numbers
-! -   Hamming problem from Dr. Dobb's CodeTalk (dead link as of Sep 2011;
-!     parts of the thread here and here).
+! References
+! 
+!     
+! 
+! - Wikipedia entry: Hamming numbers (this link is re-directed to Regular
+!   number).
+! - Wikipedia entry: Smooth number
+! - OEIS entry: A051037 5-smooth or Hamming numbers
+! - Hamming problem from Dr. Dobb's CodeTalk (dead link as of Sep 2011;
+!   parts of the thread here and here).
 
 USING: accessors deques dlists fry kernel make math math.order
 ;

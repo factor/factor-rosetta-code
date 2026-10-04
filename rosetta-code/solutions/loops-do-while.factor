@@ -2,27 +2,31 @@
 ! time through the loop, add 1 to the value then print it. The loop must
 ! execute at least once.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Loop over multiple arrays simultaneously
-! -   Loops/Break
-! -   Loops/Continue
-! -   Loops/Do-while
-! -   Loops/Downward for
-! -   Loops/For
-! -   Loops/For with a specified step
-! -   Loops/Foreach
-! -   Loops/Increment loop index within loop body
-! -   Loops/Infinite
-! -   Loops/N plus one half
-! -   Loops/Nested
-! -   Loops/While
-! -   Loops/with multiple ranges
-! -   Loops/Wrong ranges
+!     
 ! 
-! Reference:
+! - Loop over multiple arrays simultaneously
+! - Loops/Break
+! - Loops/Continue
+! - Loops/Do-while
+! - Loops/Downward for
+! - Loops/For
+! - Loops/For with a specified step
+! - Loops/Foreach
+! - Loops/Increment loop index within loop body
+! - Loops/Infinite
+! - Loops/N plus one half
+! - Loops/Nested
+! - Loops/While
+! - Loops/with multiple ranges
+! - Loops/Wrong ranges
 ! 
-! -   Do while loop Wikipedia.
+! Reference
+! 
+!     
+! 
+! - Do while loop Wikipedia.
 ! 
 ! Category:Conditional loops Category:Simple
 

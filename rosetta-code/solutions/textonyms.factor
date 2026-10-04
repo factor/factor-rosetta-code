@@ -13,7 +13,9 @@
 !     8 -> TUV
 !     9 -> WXYZ  
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program that finds textonyms in a list of words such as
 ! Textonyms/wordlist or unixdict.txt.
@@ -38,7 +40,9 @@
 ! 
 !  2748424767 -> "Briticisms", "criticisms"
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Use a word list and keypad mapping other than English.
 

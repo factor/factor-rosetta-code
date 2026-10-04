@@ -1,5 +1,3 @@
-! {{ draft task }}
-! 
 ! Task
 ! 
 ! Draw a classic torus in your language.

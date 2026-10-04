@@ -8,18 +8,20 @@
 ! taken to avoid concurrently overwriting the same record from another
 ! job.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given a two record sample for a mythical "passwd" file:
 ! 
-! -   Write these records out in the typical system format.
-!     -   Ideally these records will have named fields of various types.
-! -   Close the file, then reopen the file for append.
-!     -   Append a new record to the file and close the file again.
-!     -   Take appropriate care to avoid concurrently overwrites from
-!         another job.
-! -   Open the file and demonstrate the new record has indeed written to
-!     the end.
+! - Write these records out in the typical system format.
+!   - Ideally these records will have named fields of various types.
+! - Close the file, then reopen the file for append.
+!   - Append a new record to the file and close the file again.
+!   - Take appropriate care to avoid concurrently overwrites from another
+!     job.
+! - Open the file and demonstrate the new record has indeed written to the
+!   end.
 ! 
 !   account   password   UID    GID    fullname,office,extension,homephone,email                                directory      shell
 !   --------- ---------- ------ ------ ------------------------------------------------------------------------ -------------- -----------
@@ -49,14 +51,16 @@
 ! Finally: Provide a summary of the language's "append record"
 ! capabilities in a table. eg.
 ! 
-! +---------------------+---------------+-------------+----------+-----------+
-! | Data Representation |               | IO          | Append   | Automatic |
-! |                     |               | Library     | Possible | Append    |
-! +=====================+===============+=============+==========+===========+
-! | In core             | On disk       |             |          |           |
-! +---------------------+---------------+-------------+----------+-----------+
-! | C struct            | CSV text file | glibc/stdio | ☑        | ☑         |
-! +---------------------+---------------+-------------+----------+-----------+
+! +----------------------+-------------+----------+-----------+---------------+
+! | Data Representation  | IO          | Append   | Automatic | Multi-tasking |
+! |                      | Library     | Possible | Append    | Safe          |
+! +============+=========+=============+==========+===========+===============+
+! | In core    | On disk |             |          |           |               |
+! +------------+---------+-------------+----------+-----------+---------------+
+! | C struct   | CSV     | glibc/stdio | ☑        | ☑         | ☑ (Not all,   |
+! |            | text    |             |          |           | eg NFS)       |
+! |            | file    |             |          |           |               |
+! +------------+---------+-------------+----------+-----------+---------------+
 ! 
 ! : Append Capabilities.
 ! 

@@ -13,11 +13,11 @@
 ! 
 ! Related tasks
 ! 
-! -   Magic squares of odd order
-! -   Magic squares of doubly even order
+! - Magic squares of odd order
+! - Magic squares of doubly even order
 ! 
 ! See also
 ! 
-! -   Singly Even Magic Squares (1728.org)
+! - Singly Even Magic Squares (1728.org)
 
 

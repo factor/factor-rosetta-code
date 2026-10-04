@@ -35,12 +35,16 @@
 ! 
 ! 'Admin ACK your MSG. CODE291 SEND further 2000 SUPP to HQ by 1 March'
 ! 
-! Related task:
+! Related task
 ! 
-! -   -   Straddling checkerboard
+!     
 ! 
-! Reference:
+! - - Straddling checkerboard
 ! 
-! -   -   Cipher Machines web page on Checkerboards: Checkerboards
+! Reference
+! 
+!     
+! 
+! - - Cipher Machines web page on Checkerboards: Checkerboards
 
 

@@ -7,7 +7,9 @@
 ! token, then the server checks if the token supplied by the client
 ! matches the locally generated token.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement this algorithm using HMAC-SHA1 and an optional step is to
 ! generate the random Base-32 string used as the secret key, but this is
@@ -22,13 +24,13 @@
 ! 
 ! According to RFC 6238, the reference implementation is as follows:
 ! 
-! -   Generate a key, K, which is an arbitrary bytestring, and share it
-!     securely with the client.
-! -   Agree upon an epoch, T0, and an interval, TI, which will be used to
-!     calculate the value of the counter C (defaults are the Unix epoch as
-!     T0 and 30 seconds as TI)
-! -   Agree upon a cryptographic hash method (default is SHA-1)
-! -   Agree upon a token length, N (default is 6)
+! - Generate a key, K, which is an arbitrary bytestring, and share it
+!   securely with the client.
+! - Agree upon an epoch, T0, and an interval, TI, which will be used to
+!   calculate the value of the counter C (defaults are the Unix epoch as
+!   T0 and 30 seconds as TI)
+! - Agree upon a cryptographic hash method (default is SHA-1)
+! - Agree upon a token length, N (default is 6)
 ! 
 ! Although RFC 6238 allows different parameters to be used, the Google
 ! implementation of the authenticator app does not support T0, TI values,
@@ -36,8 +38,8 @@
 ! expects the K secret key to be entered (or supplied in a QR code) in
 ! base-32 encoding according to RFC 3548.
 ! 
-! -   Google Authenticator App (Apple iOS)
-! -   Google Authenticator App (Google Android)
-! -   Microsoft Authenticator App (Windows Phone)
+! - Google Authenticator App (Apple iOS)
+! - Google Authenticator App (Google Android)
+! - Microsoft Authenticator App (Windows Phone)
 
 

@@ -5,7 +5,7 @@
 ! To show the first, second, third, ... up to the tenth largest member of
 ! the vector, in order, here on this page.
 ! 
-! -   Note: Quicksort has a separate task.
+! - Note: Quicksort has a separate task.
 ! 
 ! Category:Sorting
 

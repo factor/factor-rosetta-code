@@ -10,8 +10,8 @@
 ! 
 ! See Also:
 ! 
-! -   Combinations and permutations
-! -   Pascal's triangle
+! - Combinations and permutations
+! - Pascal's triangle
 
 
 : fact ( n -- n-factorial )

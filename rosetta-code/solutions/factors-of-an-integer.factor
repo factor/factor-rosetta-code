@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Compute the factors of a positive integer.
 ! 
@@ -13,18 +15,20 @@
 ! 
 ! Note that every prime number has two factors: 1 and itself.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   count in factors
-! -   prime decomposition
-! -   Sieve of Eratosthenes
-! -   primality by trial division
-! -   factors of a Mersenne number
-! -   trial factoring of a Mersenne number
-! -   partition an integer X into N primes
-! -   sequence of primes by Trial Division
-! -   sequence: smallest number greater than previous term with exactly n
-!     divisors
+!     
+! 
+! - count in factors
+! - prime decomposition
+! - Sieve of Eratosthenes
+! - primality by trial division
+! - factors of a Mersenne number
+! - trial factoring of a Mersenne number
+! - partition an integer X into N primes
+! - sequence of primes by Trial Division
+! - sequence: smallest number greater than previous term with exactly n
+!   divisors
 ! 
 ! Category:Arithmetic operations Category:Mathematical_operations
 ! Category:Prime Numbers

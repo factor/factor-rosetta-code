@@ -25,7 +25,7 @@
 ! 
 ! See also
 ! 
-! -   Neural networks (nature of code)
-! -   Machine Learning - Perceptrons (youtube)
+! - Neural networks (nature of code)
+! - Machine Learning - Perceptrons (youtube)
 
 

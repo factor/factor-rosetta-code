@@ -2,7 +2,9 @@
 ! longest common subsequence, which you can use as an external function
 ! for this task.
 ! 
-! ;Task:
+! ;Task
+! 
+!     
 ! 
 ! Given two strings u and v, find the shortest possible sequence s, which
 ! is the shortest common super-sequence of u and v where both u and v are
@@ -10,9 +12,11 @@
 ! 
 ! Demonstrate this by printing s where u=“abcbdab” and v=“bdcaba”.
 ! 
-! Also see:
+! Also see
 ! 
-! -   Wikipedia: shortest common supersequence
+!     
+! 
+! - Wikipedia: shortest common supersequence
 
 USING: combinators io kernel locals math memoize sequences ;
 

@@ -16,20 +16,22 @@
 ! Each game can result in a win for one team and a loss for the other team
 ! or it can result in a draw/tie for each team.
 ! 
-! -   -   A win is worth three points.
-!     -   A draw/tie is worth one point.
-!     -   A loss is worth zero points.
+! - - A win is worth three points.
+!   - A draw/tie is worth one point.
+!   - A loss is worth zero points.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Generate all possible outcome combinations for the six group
-!         stage games. With three possible outcomes for each game there
-!         should be 3⁶ = 729 of them.
-!     -   Calculate the standings points for each team with each
-!         combination of outcomes.
-!     -   Show a histogram (graphical, ASCII art, or straight
-!         counts--whichever is easiest/most fun) of the standings points
-!         for all four teams over all possible outcomes.
+!     
+! 
+! - - Generate all possible outcome combinations for the six group stage
+!     games. With three possible outcomes for each game there should be 3⁶
+!     = 729 of them.
+!   - Calculate the standings points for each team with each combination
+!     of outcomes.
+!   - Show a histogram (graphical, ASCII art, or straight
+!     counts--whichever is easiest/most fun) of the standings points for
+!     all four teams over all possible outcomes.
 ! 
 ! Don't worry about tiebreakers as they can get complicated. We are
 ! basically looking to answer the question "if a team gets x standings

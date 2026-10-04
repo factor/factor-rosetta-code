@@ -25,8 +25,8 @@
 ! 
 ! Related tasks
 ! 
-! -   Sierpinski triangle/Graphical for graphics images of this pattern.
-! -   Sierpinski carpet
+! - Sierpinski triangle/Graphical for graphics images of this pattern.
+! - Sierpinski carpet
 
 USING: io kernel math sequences ;
 IN: sierpinski

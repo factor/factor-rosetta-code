@@ -16,26 +16,26 @@
 ! 
 ! Task
 ! 
-! -   Find and display the first 50 happy primes
+! - Find and display the first 50 happy primes
 ! 
 ! The first 8 happy numbers are: (1 7 10 13 19 23 28 31) Looking at the
 ! first two, The ratio of happy primes to all happy numbers is 1/2 at
 ! index 2 value 7.
 ! 
-! -   From there on, find the first index and the value where the fraction
-!     of happy primes to happy numbers is less than or equal to 1/3
-!     through 1/8. (There may be more than one, find the first.)
+! - From there on, find the first index and the value where the fraction
+!   of happy primes to happy numbers is less than or equal to 1/3 through
+!   1/8. (There may be more than one, find the first.)
 ! 
 ! Stretch
 ! 
-! -   Find the first index and the value where the fraction of happy
-!     primes to happy numbers is less than or equal to 1/9 through 1/12
-!     (or as low as you have patience for.)
+! - Find the first index and the value where the fraction of happy primes
+!   to happy numbers is less than or equal to 1/9 through 1/12 (or as low
+!   as you have patience for.)
 ! 
 ! See also
 ! 
-! -   Task: Happy numbers
-! -   OEIS A035497 - Happy primes: primes that eventually reach 1 under
-!     iteration of "x -> sum of squares of digits of x".
+! - Task: Happy numbers
+! - OEIS A035497 - Happy primes: primes that eventually reach 1 under
+!   iteration of "x -> sum of squares of digits of x".
 
 

@@ -3,7 +3,9 @@
 ! outer function. In most languages, the inner function can also modify
 ! variables in the outer function.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program consisting of two nested functions that prints the
 ! following text.
@@ -22,9 +24,11 @@
 ! creating a list item. It accesses the separator from the outer function
 ! and modifies the counter.
 ! 
-! References:
+! References
 ! 
-! -   -   Nested function
+!     
+! 
+! - - Nested function
 ! 
 ! Category:Scope Category:Functions and subroutines
 

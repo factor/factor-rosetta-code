@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Draw a clock.
 ! 
@@ -28,10 +30,10 @@
 ! 
 ! Key points
 ! 
-! -   animate simple object
-! -   timed event
-! -   polling system resources
-! -   code clarity
+! - animate simple object
+! - timed event
+! - polling system resources
+! - code clarity
 ! 
 ! Category:Date and time
 

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a comb sort.
 ! 
@@ -13,17 +15,19 @@
 ! Some implementations use the insertion sort once the gap is less than a
 ! certain amount.
 ! 
-! Also see:
+! Also see
 ! 
-! -   the Wikipedia article: Comb sort.
+!     
+! 
+! - the Wikipedia article: Comb sort.
 ! 
 ! Variants:
 ! 
-! -   Combsort11 makes sure the gap ends in (11, 8, 6, 4, 3, 2, 1), which
-!     is significantly faster than the other two possible endings.
-! -   Combsort with different endings changes to a more efficient sort
-!     when the data is almost sorted (when the gap is small). Comb sort
-!     with a low gap isn't much better than the Bubble Sort.
+! - Combsort11 makes sure the gap ends in (11, 8, 6, 4, 3, 2, 1), which is
+!   significantly faster than the other two possible endings.
+! - Combsort with different endings changes to a more efficient sort when
+!   the data is almost sorted (when the gap is small). Comb sort with a
+!   low gap isn't much better than the Bubble Sort.
 ! 
 ! Pseudocode:
 ! 

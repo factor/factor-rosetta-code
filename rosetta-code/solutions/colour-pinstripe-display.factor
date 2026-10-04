@@ -7,17 +7,18 @@
 ! 
 ! black, red, green, blue, magenta, cyan, yellow, and white:
 ! 
-! -   -   after filling the top quarter, switch to a wider 2 pixel wide
-!         vertical pinstripe pattern,
-!     -   halfway down the display, switch to 3 pixel wide vertical
-!         pinstripe,
-!     -   finally to a 4 pixels wide vertical pinstripe for the last
-!         quarter of the display.
+! - - after filling the top quarter, switch to a wider 2 pixel wide
+!     vertical pinstripe pattern,
+!   - halfway down the display, switch to 3 pixel wide vertical pinstripe,
+!   - finally to a 4 pixels wide vertical pinstripe for the last quarter
+!     of the display.
 ! 
-! See also:
+! See also
 ! 
-! -   display black and white
-! -   print colour
+!     
+! 
+! - display black and white
+! - print colour
 
 USING: accessors arrays colors.constants kernel locals math
 math.ranges opengl sequences ui ui.gadgets ui.render ;

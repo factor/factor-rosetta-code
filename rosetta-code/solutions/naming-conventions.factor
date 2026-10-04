@@ -11,9 +11,9 @@
 ! Document (with simple examples where possible) the evolution and current
 ! status of these naming conventions. For example, name conventions for:
 ! 
-! -   Procedure and operator names. (Intrinsic or external)
-! -   Class, Subclass and instance names.
-! -   Built-in versus libraries names.
+! - Procedure and operator names. (Intrinsic or external)
+! - Class, Subclass and instance names.
+! - Built-in versus libraries names.
 ! 
 ! If possible, indicate where the naming conventions are implicit,
 ! explicit, mandatory or discretionary. Any tools that enforced the naming
@@ -25,8 +25,10 @@
 ! whereas Python embeds member functions in between "__" to make a member
 ! function "private".
 ! 
-! See also:
+! See also
 ! 
-! -   Wikipedia: Naming convention (programming)
+!     
+! 
+! - Wikipedia: Naming convention (programming)
 
 

@@ -122,29 +122,30 @@
 ! 
 ! Notes concerning the above list of words
 ! 
-! -   -   each line has a list of days-of-the-week for a language,
-!         separated by at least one blank
-!     -   the words on each line happen to be in order, from Sunday ──►
-!         Saturday
-!     -   most lines have words in mixed case and some have all manner of
-!         accented words and other characters
-!     -   some words were translated to the nearest character that was
-!         available to code page 437
-!     -   the characters in the words are not restricted except that they
-!         may not have imbedded blanks
-!     -   for this example, the use of an underscore (_) was used to
-!         indicate a blank in a word
+! - - each line has a list of days-of-the-week for a language, separated
+!     by at least one blank
+!   - the words on each line happen to be in order, from Sunday ──►
+!     Saturday
+!   - most lines have words in mixed case and some have all manner of
+!     accented words and other characters
+!   - some words were translated to the nearest character that was
+!     available to code page 437
+!   - the characters in the words are not restricted except that they may
+!     not have imbedded blanks
+!   - for this example, the use of an underscore (_) was used to indicate
+!     a blank in a word
 ! 
-! Task:
+! Task
 ! 
-! -   -   The list of words (days of the week) needn't be
-!         verified/validated.
-!     -   Write a function to find the (numeric) minimum length
-!         abbreviation for each line that would make abbreviations unique.
-!     -   A blank line (or a null line) should return a null string.
-!     -   Process and show the output for at least the first five lines of
-!         the file.
-!     -   Show all output here.
+!     
+! 
+! - - The list of words (days of the week) needn't be verified/validated.
+!   - Write a function to find the (numeric) minimum length abbreviation
+!     for each line that would make abbreviations unique.
+!   - A blank line (or a null line) should return a null string.
+!   - Process and show the output for at least the first five lines of the
+!     file.
+!   - Show all output here.
 
 USING: formatting io io.encodings.utf8 io.files kernel math
 sequences sets splitting ;

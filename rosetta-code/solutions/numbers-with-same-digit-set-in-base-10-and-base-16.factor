@@ -4,7 +4,9 @@
 ! number that uses the same set of digits (regardless of order and
 ! ignoring duplicates) as the original number, where n < 100000
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! The decimal number 2339 is 923 when written in hexadecimal.
 ! 

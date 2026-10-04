@@ -8,21 +8,21 @@
 ! Several different prime numbers may be expressed as the "same" string
 ! when converted to a different base.
 ! 
-! -   107 base 10 converted to base 6 == 255
+! - 107 base 10 converted to base 6 == 255
 ! 
-! -   173 base 10 converted to base 8 == 255
+! - 173 base 10 converted to base 8 == 255
 ! 
-! -   353 base 10 converted to base 12 == 255
+! - 353 base 10 converted to base 12 == 255
 ! 
-! -   467 base 10 converted to base 14 == 255
+! - 467 base 10 converted to base 14 == 255
 ! 
-! -   743 base 10 converted to base 18 == 255
+! - 743 base 10 converted to base 18 == 255
 ! 
-! -   1277 base 10 converted to base 24 == 255
+! - 1277 base 10 converted to base 24 == 255
 ! 
-! -   1487 base 10 converted to base 26 == 255
+! - 1487 base 10 converted to base 26 == 255
 ! 
-! -   2213 base 10 converted to base 32 == 255
+! - 2213 base 10 converted to base 32 == 255
 ! 
 ! Task
 ! 

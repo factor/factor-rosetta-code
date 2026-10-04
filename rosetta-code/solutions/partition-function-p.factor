@@ -2,7 +2,9 @@
 ! number of distinct ways in which n can be expressed as the sum of
 ! non-increasing positive integers.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 !  P(4) = 5   because   4 = Σ(4) = Σ(3,1) = Σ(2,2) = Σ(2,1,1) = Σ(1,1,1,1)
 ! 
@@ -21,25 +23,31 @@
 ! 
 ! In Wolfram Language, this function has been implemented as PartitionsP.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function which returns the value of PartitionsP(n). Solutions
 ! can be iterative or recursive.
 ! 
 ! Bonus task: show how long it takes to compute PartitionsP(6666).
 ! 
-! References:
+! References
 ! 
-! -   The hardest "What comes next?" (Euler's pentagonal formula) The
-!     explanatory video by Mathologer that makes this task a popular
-!     interest.
-! -   Partition Function P Mathworld entry for the Partition function.
-! -   Partition function (number theory) Wikipedia entry for the Partition
-!     function.
+!     
 ! 
-! Related tasks:
+! - The hardest "What comes next?" (Euler's pentagonal formula) The
+!   explanatory video by Mathologer that makes this task a popular
+!   interest.
+! - Partition Function P Mathworld entry for the Partition function.
+! - Partition function (number theory) Wikipedia entry for the Partition
+!   function.
 ! 
-! -   9 billion names of God the integer
+! Related tasks
+! 
+!     
+! 
+! - 9 billion names of God the integer
 ! 
 ! Category:Memoization
 

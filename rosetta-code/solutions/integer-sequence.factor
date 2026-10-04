@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a program that, when run, would display all integers from 1 to ∞
 ! (or any relevant implementation limit), in sequence (i.e. 1, 2, 3, 4,

@@ -11,12 +11,12 @@
 ! 
 ! The primary operations of a VList are:
 ! 
-! -   Locate the kth element (O(1) average, O(log n) worst-case)
-! -   Add an element to the front of the VList (O(1) average, with an
-!     occasional allocation)
-! -   Obtain a new array beginning at the second element of an old array
-!     (O(1))
-! -   Compute the length of the list (O(log n))
+! - Locate the kth element (O(1) average, O(log n) worst-case)
+! - Add an element to the front of the VList (O(1) average, with an
+!   occasional allocation)
+! - Obtain a new array beginning at the second element of an old array
+!   (O(1))
+! - Compute the length of the list (O(log n))
 ! 
 ! Task
 ! 

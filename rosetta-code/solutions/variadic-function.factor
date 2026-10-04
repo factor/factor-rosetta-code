@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a function which takes in a variable number of arguments and
 ! prints each one on its own line.
@@ -8,9 +10,11 @@
 ! 
 ! Functions of this type are also known as Variadic Functions.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Call a function
+!     
+! 
+! - Call a function
 
 MACRO: variadic-print ( n -- quot ) [ print ] n*quot ;
 

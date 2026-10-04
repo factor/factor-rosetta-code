@@ -1,6 +1,8 @@
 ! [Illustration of FIFO behavior]
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a FIFO queue.
 ! 
@@ -9,19 +11,21 @@
 ! 
 ! Operations:
 ! 
-! -   -   push (aka enqueue) - add element
-!     -   pop (aka dequeue) - pop first element
-!     -   empty - return truth value when empty
+! - - push (aka enqueue) - add element
+!   - pop (aka dequeue) - pop first element
+!   - empty - return truth value when empty
 ! 
 ! Errors:
 ! 
-! -   handle the error of trying to pop from an empty queue (behavior
-!     depends on the language and platform)
+! - handle the error of trying to pop from an empty queue (behavior
+!   depends on the language and platform)
 ! 
-! See:
+! See
 ! 
-! -   Queue/Usage for the built-in FIFO or queue of your language or
-!     standard library.
+!     
+! 
+! - Queue/Usage for the built-in FIFO or queue of your language or
+!   standard library.
 
 USING: accessors kernel ;
 IN: rosetta-code.queue-definition

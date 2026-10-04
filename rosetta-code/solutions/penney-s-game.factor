@@ -11,7 +11,9 @@
 ! sequence. The coin is tossed and the first player to see his sequence in
 ! the sequence of coin tosses wins.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! One player might choose the sequence HHT and the other THT.
 ! 
@@ -23,21 +25,21 @@
 ! Create a program that tosses the coin, keeps score and plays Penney's
 ! game against a human opponent.
 ! 
-! -   Who chooses and shows their sequence of three should be chosen
-!     randomly.
-! -   If going first, the computer should randomly choose its sequence of
-!     three.
-! -   If going second, the computer should automatically play the optimum
-!     sequence.
-! -   Successive coin tosses should be shown.
+! - Who chooses and shows their sequence of three should be chosen
+!   randomly.
+! - If going first, the computer should randomly choose its sequence of
+!   three.
+! - If going second, the computer should automatically play the optimum
+!   sequence.
+! - Successive coin tosses should be shown.
 ! 
 ! Show output of a game where the computer chooses first and a game where
 ! the user goes first here on this page.
 ! 
 ! See also
 ! 
-! -   The Penney Ante Part 1 (Video).
-! -   The Penney Ante Part 2 (Video).
+! - The Penney Ante Part 1 (Video).
+! - The Penney Ante Part 2 (Video).
 
 USING: arrays ascii io kernel math prettyprint random sequences
 strings ;

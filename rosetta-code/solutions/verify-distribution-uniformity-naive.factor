@@ -1,21 +1,23 @@
 ! This task is an adjunct to Seven-sided dice from five-sided dice.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a function to check that the random integers returned from a
 ! small-integer generator function have uniform distribution.
 ! 
 ! The function should take as arguments:
 ! 
-! -   The function (or object) producing random integers.
-! -   The number of times to call the integer generator.
-! -   A 'delta' value of some sort that indicates how close to a flat
-!     distribution is close enough.
+! - The function (or object) producing random integers.
+! - The number of times to call the integer generator.
+! - A 'delta' value of some sort that indicates how close to a flat
+!   distribution is close enough.
 ! 
 ! The function should produce:
 ! 
-! -   Some indication of the distribution achieved.
-! -   An 'error' if the distribution is not flat enough.
+! - Some indication of the distribution achieved.
+! - An 'error' if the distribution is not flat enough.
 ! 
 ! Show the distribution checker working when the produced distribution is
 ! flat enough and when it is not. (Use a generator from Seven-sided dice
@@ -23,7 +25,7 @@
 ! 
 ! See also:
 ! 
-! -   Verify distribution uniformity/Chi-squared test
+! - Verify distribution uniformity/Chi-squared test
 
 USING: kernel random sequences assocs locals sorting prettyprint
   math math.functions math.statistics math.vectors math.ranges ;

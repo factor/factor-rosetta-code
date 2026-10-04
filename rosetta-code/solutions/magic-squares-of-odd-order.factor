@@ -26,13 +26,15 @@
 ! 
 ! Related tasks
 ! 
-! -   Magic squares of singly even order
-! -   Magic squares of doubly even order
+! - Magic squares of singly even order
+! - Magic squares of doubly even order
 ! 
-! See also:
+! See also
 ! 
-! -   MathWorld™ entry: Magic_square
-! -   Odd Magic Squares (1728.org)
+!     
+! 
+! - MathWorld™ entry: Magic_square
+! - Odd Magic Squares (1728.org)
 
 USING: formatting io kernel math math.matrices math.ranges
 sequences sequences.extras ;

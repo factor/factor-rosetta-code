@@ -4,11 +4,11 @@
 ! outputted by one of the Simulated optics experiment/Simulator
 ! implementations. The analysis will estimate the following numbers:
 ! 
-! -   Four correlation coefficients: one for each of the four possible
-!     combinations of the two polarizing beam splitter angles. These
-!     measure the interrelatedness of light detection events on the two
-!     sides of the experiment.
-! -   A CHSH contrast, which is derived from the correlation coefficients.
+! - Four correlation coefficients: one for each of the four possible
+!   combinations of the two polarizing beam splitter angles. These measure
+!   the interrelatedness of light detection events on the two sides of the
+!   experiment.
+! - A CHSH contrast, which is derived from the correlation coefficients.
 ! 
 ! The estimated CHSH contrast is what we are really interested in, because
 ! what we intend to show is that it contradicts what many physicists
@@ -147,10 +147,10 @@
 ! 
 ! See also
 ! 
-! -   Simulated optics experiment/Simulator
-! -   E. T. Jaynes, "Clearing up mysteries -- the original goal" Opening
-!     lecture of the eighth International MAXENT Workshop. 1988. This is a
-!     classic from the same physicist as the Jaynes-Cummings model is
-!     named for.
+! - Simulated optics experiment/Simulator
+! - E. T. Jaynes, "Clearing up mysteries -- the original goal" Opening
+!   lecture of the eighth International MAXENT Workshop. 1988. This is a
+!   classic from the same physicist as the Jaynes-Cummings model is named
+!   for.
 
 

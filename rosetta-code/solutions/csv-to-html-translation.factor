@@ -5,7 +5,9 @@
 ! characters and character sequences that would normally be escaped when
 ! converted to HTML
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a function that takes a string representation of the CSV data and
 ! returns a text string of an HTML table representing the CSV data.
@@ -20,7 +22,9 @@
 !     Brians mother,I'm his mother; that's who!
 !     The multitude,Behold his mother! Behold his mother!
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Optionally allow special formatting for the first row of the table as if
 ! it is the tables header row (via <thead> preferably; CSS if you must).

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program to perform a conversion of the old Russian measures of
 ! length to the metric system (and vice versa).
@@ -10,9 +12,11 @@
 ! 
 ! vershoks, arshins, sazhens, versts, meters, centimeters and kilometers.
 ! 
-! Also see:
+! Also see
 ! 
-! -   -   Old Russian measure of length
+!     
+! 
+! - - Old Russian measure of length
 
 USING: formatting inverse io kernel math prettyprint quotations
 sequences units.imperial units.si vocabs ;

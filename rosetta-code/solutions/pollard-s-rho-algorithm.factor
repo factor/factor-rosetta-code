@@ -9,14 +9,18 @@
 ! changed parameters to finally find a factor (not necessarily a prime
 ! factor) with quite high probability.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function to demonstrate the algorithm (see pseudocode in
 ! Wikipedia). The intent is to show the principle as clear as possible in
 ! the respective language, but avoid an endless loop. Enhanced versions
 ! may be presented as extra examples.
 ! 
-! Warning:
+! Warning
+! 
+!     
 ! 
 ! The variables 'x' and 'y' may be equal during an iteration, calling
 ! 'gcd()' with first argument 0, while the GCD is only defined for
@@ -27,23 +31,27 @@
 ! 
 ! Example numbers, if supported:
 ! 
-! -   4294967213 = 75167 * 57139 (32 bits)
-! -   9759463979 = 98779 * 98801 (34 bits)
-! -   34225158206557151 = 130051349 * 263166499 (55 bits)
-! -   763218146048580636353 = 25998278833 * 29356487441 (70 bits)
+! - 4294967213 = 75167 * 57139 (32 bits)
+! - 9759463979 = 98779 * 98801 (34 bits)
+! - 34225158206557151 = 130051349 * 263166499 (55 bits)
+! - 763218146048580636353 = 25998278833 * 29356487441 (70 bits)
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   prime decomposition
-! -   AKS test for primes
-! -   factors of an integer
-! -   factors of a Mersenne number
-! -   trial factoring of a Mersenne number
-! -   partition an integer X into N primes
-! -   sequence of primes by Trial Division
+!     
 ! 
-! References:
+! - prime decomposition
+! - AKS test for primes
+! - factors of an integer
+! - factors of a Mersenne number
+! - trial factoring of a Mersenne number
+! - partition an integer X into N primes
+! - sequence of primes by Trial Division
 ! 
-! -   Wikipedia: Pollard's rho algorithm
+! References
+! 
+!     
+! 
+! - Wikipedia: Pollard's rho algorithm
 
 

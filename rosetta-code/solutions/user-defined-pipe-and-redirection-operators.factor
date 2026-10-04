@@ -1,20 +1,19 @@
 ! If the language supports operator definition, then:
 ! 
-! -   create "user defined" the equivalents of the Unix shell "<", "|",
-!     ">", "<<", ">>" and $(cmd) operators.
-! -   Provide simple equivalents of: cat, tee, grep, & uniq, but as
-!     filters/procedures native to the specific language.
-! -   Replicate the below sample shell script, but in the specific
-!     language
-! -   Specifically do not cache the entire stream before the subsequent
-!     filter/procedure starts. Pass each record on as soon as available
-!     through each of the filters/procedures in the chain.
+! - create "user defined" the equivalents of the Unix shell "<", "|", ">",
+!   "<<", ">>" and $(cmd) operators.
+! - Provide simple equivalents of: cat, tee, grep, & uniq, but as
+!   filters/procedures native to the specific language.
+! - Replicate the below sample shell script, but in the specific language
+! - Specifically do not cache the entire stream before the subsequent
+!   filter/procedure starts. Pass each record on as soon as available
+!   through each of the filters/procedures in the chain.
 ! 
 ! Alternately: if the language does not support operator definition then
 ! replace with:
 ! 
-! -   define the procedures: input(cmd,stream), pipe(stream,cmd),
-!     output(stream, stream), whereis(array), append(stream)
+! - define the procedures: input(cmd,stream), pipe(stream,cmd),
+!   output(stream, stream), whereis(array), append(stream)
 ! 
 ! For bonus Kudos: Implement the shell "&" concept as a dyadic operator in
 ! the specific language. e.g.:

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a boolean function that tells whether a given integer is prime.
 ! 
@@ -10,17 +12,19 @@
 ! 
 ! A loop from 3 to √ will suffice, but other loops are allowed.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   count in factors
-! -   prime decomposition
-! -   AKS test for primes
-! -   factors of an integer
-! -   Sieve of Eratosthenes
-! -   factors of a Mersenne number
-! -   trial factoring of a Mersenne number
-! -   partition an integer X into N primes
-! -   sequence of primes by Trial Division
+!     
+! 
+! - count in factors
+! - prime decomposition
+! - AKS test for primes
+! - factors of an integer
+! - Sieve of Eratosthenes
+! - factors of a Mersenne number
+! - trial factoring of a Mersenne number
+! - partition an integer X into N primes
+! - sequence of primes by Trial Division
 
 USING: combinators kernel math math.functions math.ranges sequences ;
 

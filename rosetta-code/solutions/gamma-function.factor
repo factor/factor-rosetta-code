@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement one algorithm (or more) to compute the Gamma (Γ) function (in
 ! the real field only).
@@ -18,8 +20,8 @@
 ! 
 ! Better suggested methods:
 ! 
-! -   Lanczos approximation
-! -   Stirling's approximation
+! - Lanczos approximation
+! - Stirling's approximation
 
 ! built in
 USING: picomath prettyprint ;

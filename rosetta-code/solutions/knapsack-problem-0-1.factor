@@ -39,7 +39,9 @@
 ! He may not cut or diminish the items, so he can only take whole units of
 ! any item.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show which items the tourist can carry in his knapsack so that their
 ! total weight does not exceed 400 dag [4 kg], and their total value is
@@ -47,12 +49,14 @@
 ! 
 ! [dag = decagram = 10 grams]
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Knapsack problem/Bounded
-! -   Knapsack problem/Unbounded
-! -   Knapsack problem/Continuous
-! -   A* search algorithm
+!     
+! 
+! - Knapsack problem/Bounded
+! - Knapsack problem/Unbounded
+! - Knapsack problem/Continuous
+! - A* search algorithm
 ! 
 ! Category:Memoization Category:Puzzles
 

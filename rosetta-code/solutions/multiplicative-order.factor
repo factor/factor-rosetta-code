@@ -1,7 +1,9 @@
 ! The multiplicative order of a relative to m is the least positive
 ! integer n such that a^n is 1 (modulo m).
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! The multiplicative order of 37 relative to 1000 is 100 because 37^100 is
 ! 1 (modulo 1000), and no number smaller than 100 would do.
@@ -16,7 +18,9 @@
 ! order will also yield 1 when used as exponent for a, it's enough to find
 ! the least d such that (q^d)*(t/(q^e)) yields 1 when used as exponent.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a routine to calculate the multiplicative order along these
 ! lines. You may assume that routines to determine the factorization into

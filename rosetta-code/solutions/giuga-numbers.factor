@@ -11,9 +11,9 @@
 ! 30 is a Giuga number because its distinct prime factors are 2, 3 and 5
 ! and:
 ! 
-! -   30/2 - 1 = 14 is divisible by 2
-! -   30/3 - 1 = 9 is divisible by 3
-! -   30/5 - 1 = 5 is divisible by 5
+! - 30/2 - 1 = 14 is divisible by 2
+! - 30/3 - 1 = 9 is divisible by 3
+! - 30/5 - 1 = 5 is divisible by 5
 ! 
 ! Task
 ! 
@@ -25,7 +25,7 @@
 ! 
 ! References
 ! 
-! -   Wikipedia: Giuga number
-! -   OEIS:A007850 - Giuga numbers
+! - Wikipedia: Giuga number
+! - OEIS:A007850 - Giuga numbers
 
 

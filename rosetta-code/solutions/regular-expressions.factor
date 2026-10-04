@@ -1,7 +1,9 @@
-! Task:
+! Task
 ! 
-! -   -   match a string against a regular expression
-!     -   substitute part of a string using a regular expression
+!     
+! 
+! - - match a string against a regular expression
+!   - substitute part of a string using a regular expression
 ! 
 ! Category:Regular expressions
 

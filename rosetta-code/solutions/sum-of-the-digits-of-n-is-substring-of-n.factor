@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find and show numbers n with property that the sum of the decimal digits
 ! of n is substring of n, where n < 1,000

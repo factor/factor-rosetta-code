@@ -7,7 +7,9 @@
 ! filter of your own creation. This exercise is to test your ability to
 ! think about all the possible ways user input could break your program.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a function that takes a list of 20 first and last names, and
 ! copies them to a record or struct. Ten of them must be typical input,
@@ -15,10 +17,10 @@
 ! other ten must be deliberately chosen to cause problems with a program
 ! that expects only letters and punctuation. A few examples:
 ! 
-! -   ASCII control codes such as NUL, CR, LF
-! -   Code for the language you are using that can result in damage (e.g.
-!     -rm -rf, delete System32, DROP TABLE, etc.)
-! -   Numbers, symbols, foreign languages, emojis, etc.
+! - ASCII control codes such as NUL, CR, LF
+! - Code for the language you are using that can result in damage (e.g.
+!   -rm -rf, delete System32, DROP TABLE, etc.)
+! - Numbers, symbols, foreign languages, emojis, etc.
 ! 
 ! (There were already solutions provided before the requirement that ten
 ! names are "normal" and ten are potentially harmful was added. Those
@@ -27,6 +29,6 @@
 ! 
 ! Related tasks
 ! 
-! -   Parametrized SQL statement
+! - Parametrized SQL statement
 
 

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how to spell out a number in English.
 ! 
@@ -9,9 +11,11 @@
 ! Support for inputs other than positive integers (like zero, negative
 ! integers, and floating-point numbers) is optional.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Spelling of ordinal numbers.
+!     
+! 
+! - Spelling of ordinal numbers.
 
 IN: scratchpad USE: math.text.english
 IN: scratchpad 43112609 number>text print

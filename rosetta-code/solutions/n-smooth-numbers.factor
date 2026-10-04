@@ -18,14 +18,15 @@
 ! 
 !            where     i, j, k, m, p ≥ 0  
 ! 
-! Task:
+! Task
 ! 
-! -   -   calculate and show the first 25 n-smooth numbers for n=2 ───►
-!         n=29
-!     -   calculate and show three numbers starting with 3,000 n-smooth
-!         numbers for n=3 ───► n=29
-!     -   calculate and show twenty numbers starting with 30,000 n-smooth
-!         numbers for n=503 ───► n=521 (optional)
+!     
+! 
+! - - calculate and show the first 25 n-smooth numbers for n=2 ───► n=29
+!   - calculate and show three numbers starting with 3,000 n-smooth
+!     numbers for n=3 ───► n=29
+!   - calculate and show twenty numbers starting with 30,000 n-smooth
+!     numbers for n=503 ───► n=521 (optional)
 ! 
 ! All ranges (for n) are to be inclusive, and only prime numbers are to be
 ! used.
@@ -37,27 +38,30 @@
 ! 
 ! Show all output here on this page.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Hamming numbers
-!     -   humble numbers
+!     
 ! 
-! References:
+! - - Hamming numbers
+!   - humble numbers
 ! 
-! -   -   Wikipedia entry: Hamming numbers (this link is re-directed to
-!         Regular number).
-!     -   Wikipedia entry: Smooth number
-!     -   OEIS entry: A000079 2-smooth numbers or non-negative powers of
-!         two
-!     -   OEIS entry: A003586 3-smooth numbers
-!     -   Mintz 1981: 3-smooth numbers
-!     -   OEIS entry: A051037 5-smooth numbers or Hamming numbers
-!     -   OEIS entry: A002473 7-smooth numbers or humble numbers
-!     -   OEIS entry: A051038 11-smooth numbers
-!     -   OEIS entry: A080197 13-smooth numbers
-!     -   OEIS entry: A080681 17-smooth numbers
-!     -   OEIS entry: A080682 19-smooth numbers
-!     -   OEIS entry: A080683 23-smooth numbers
+! References
+! 
+!     
+! 
+! - - Wikipedia entry: Hamming numbers (this link is re-directed to
+!     Regular number).
+!   - Wikipedia entry: Smooth number
+!   - OEIS entry: A000079 2-smooth numbers or non-negative powers of two
+!   - OEIS entry: A003586 3-smooth numbers
+!   - Mintz 1981: 3-smooth numbers
+!   - OEIS entry: A051037 5-smooth numbers or Hamming numbers
+!   - OEIS entry: A002473 7-smooth numbers or humble numbers
+!   - OEIS entry: A051038 11-smooth numbers
+!   - OEIS entry: A080197 13-smooth numbers
+!   - OEIS entry: A080681 17-smooth numbers
+!   - OEIS entry: A080682 19-smooth numbers
+!   - OEIS entry: A080683 23-smooth numbers
 
 USING: deques dlists formatting fry io kernel locals make math
 math.order math.primes math.text.english namespaces prettyprint

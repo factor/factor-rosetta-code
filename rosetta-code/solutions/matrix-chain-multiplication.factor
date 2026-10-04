@@ -16,10 +16,10 @@
 ! Here is an example of computation of the total cost, for matrices
 ! A(5,6), B(6,3), C(3,1):
 ! 
-! -   AB costs 5*6*3=90 and produces a matrix of dimensions (5,3), then
-!     (AB)C costs 5*3*1=15. The total cost is 105.
-! -   BC costs 6*3*1=18 and produces a matrix of dimensions (6,1), then
-!     A(BC) costs 5*6*1=30. The total cost is 48.
+! - AB costs 5*6*3=90 and produces a matrix of dimensions (5,3), then
+!   (AB)C costs 5*3*1=15. The total cost is 105.
+! - BC costs 6*3*1=18 and produces a matrix of dimensions (6,1), then
+!   A(BC) costs 5*6*1=30. The total cost is 48.
 ! 
 ! In this case, computing (AB)C requires more than twice as many
 ! operations as A(BC). The difference can be much more dramatic in real
@@ -38,8 +38,8 @@
 ! 
 ! Try this function on the following two lists:
 ! 
-! -   [1, 5, 25, 30, 100, 70, 2, 1, 100, 250, 1, 1000, 2]
-! -   [1000, 1, 500, 12, 1, 700, 2500, 3, 2, 5, 14, 10]
+! - [1, 5, 25, 30, 100, 70, 2, 1, 100, 250, 1, 1000, 2]
+! - [1000, 1, 500, 12, 1, 700, 2500, 3, 2, 5, 14, 10]
 ! 
 ! To solve the task, it's possible, but not required, to write a function
 ! that enumerates all possible ways to parenthesize the product. This is

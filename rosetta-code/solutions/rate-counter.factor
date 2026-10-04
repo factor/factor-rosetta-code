@@ -5,8 +5,8 @@
 ! Multiple approaches are allowed (even preferable), so long as they can
 ! accomplish these goals:
 ! 
-! -   Run N seconds worth of jobs and/or Y jobs.
-! -   Report at least three distinct times.
+! - Run N seconds worth of jobs and/or Y jobs.
+! - Report at least three distinct times.
 ! 
 ! Be aware of the precision and accuracy limitations of your timing
 ! mechanisms, and document them if you can.

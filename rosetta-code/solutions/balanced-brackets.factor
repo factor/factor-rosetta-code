@@ -1,12 +1,14 @@
 ! Task:
 ! 
-! -   Generate a string with N opening brackets [ and with N closing
-!     brackets ], in some arbitrary order.
-! -   Determine whether the generated string is balanced; that is, whether
-!     it consists entirely of pairs of opening/closing brackets (in that
-!     order), none of which mis-nest.
+! - Generate a string with N opening brackets [ and with N closing
+!   brackets ], in some arbitrary order.
+! - Determine whether the generated string is balanced; that is, whether
+!   it consists entirely of pairs of opening/closing brackets (in that
+!   order), none of which mis-nest.
 ! 
-! Examples:
+! Examples
+! 
+!     
 ! 
 !    (empty)      OK
 !    []           OK   

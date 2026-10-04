@@ -23,9 +23,9 @@
 ! 
 ! See also:
 ! 
-! -   Varargs
-! -   Optional parameters
-! -   Wikipedia: Named parameter
+! - Varargs
+! - Optional parameters
+! - Wikipedia: Named parameter
 
 
 :: my-named-params ( a b -- c ) a b * ;

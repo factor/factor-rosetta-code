@@ -6,25 +6,27 @@
 ! 
 ! Assume that the series is defined as the numbers in increasing order.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! The task is to create a function/method/procedure to generate successive
 ! members of the Harshad sequence.
 ! 
 ! Use it to:
 ! 
-! -   -   list the first 20 members of the sequence, and
-!     -   list the first Harshad number greater than 1000.
+! - - list the first 20 members of the sequence, and
+!   - list the first Harshad number greater than 1000.
 ! 
 ! Show your output here.
 ! 
 ! Related task
 ! 
-! -   -   Increasing gaps between consecutive Niven numbers
+! - - Increasing gaps between consecutive Niven numbers
 ! 
 ! See also
 ! 
-! -    OEIS: A005349
+! -  OEIS: A005349
 
 USING: math.text.utils lists lists.lazy ;
 

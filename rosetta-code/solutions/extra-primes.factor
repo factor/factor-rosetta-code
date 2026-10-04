@@ -12,11 +12,13 @@
 ! OEIS:A062088 - Primes with every digit a prime and the sum of the digits
 ! a prime.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Numbers with prime digits whose sum is 13
-! -   Smarandache prime-digital sequence
-! -   :Category:Prime Numbers
+!     
+! 
+! - Numbers with prime digits whose sum is 13
+! - Smarandache prime-digital sequence
+! - :Category:Prime Numbers
 
 USING: formatting io kernel math math.functions math.primes
 sequences sequences.extras ;

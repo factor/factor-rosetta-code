@@ -8,30 +8,36 @@
 ! factors. It has the values {−1, 0, 1} depending on the factorization of
 ! n:
 ! 
-! -   -   μ(1) is defined to be 1.
+! - - μ(1) is defined to be 1.
 ! 
-! -   -   μ(n) = 1 if n is a square-free positive integer with an even
-!         number of prime factors.
+! - - μ(n) = 1 if n is a square-free positive integer with an even number
+!     of prime factors.
 ! 
-! -   -   μ(n) = −1 if n is a square-free positive integer with an odd
-!         number of prime factors.
+! - - μ(n) = −1 if n is a square-free positive integer with an odd number
+!     of prime factors.
 ! 
-! -   -   μ(n) = 0 if n has a squared prime factor.
+! - - μ(n) = 0 if n has a squared prime factor.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Write a routine (function, procedure, whatever) μ(n) to find the
-!         Möbius number for a positive integer n.
+!     
 ! 
-! -   -   Use that routine to find and display here, on this page, at
-!         least the first 99 terms in a grid layout. (Not just one long
-!         line or column of numbers.)
+! - - Write a routine (function, procedure, whatever) μ(n) to find the
+!     Möbius number for a positive integer n.
 ! 
-! See also:
+! - - Use that routine to find and display here, on this page, at least
+!     the first 99 terms in a grid layout. (Not just one long line or
+!     column of numbers.)
+! 
+! See also
+! 
+!     
 ! 
 ! **; Wikipedia: Möbius function
 ! 
-! Related Tasks:
+! Related Tasks
+! 
+!     
 ! 
 ! **; Mertens function
 

@@ -22,12 +22,16 @@
 ! 
 ! :::# 15 pennies
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! How many ways are there to make change for a dollar using these common
 ! coins? (1 dollar = 100 cents).
 ! 
-! Optional:
+! Optional
+! 
+!     
 ! 
 ! Less common are dollar coins (100 cents); and very rare are half dollars
 ! (50 cents). With the addition of these two coins, how many ways are
@@ -35,12 +39,14 @@
 ! 
 ! (Note: the answer is larger than 2³²).
 ! 
-! References:
+! References
 ! 
-! -   an algorithm from the book Structure and Interpretation of Computer
-!     Programs.
-! -   an article in the algorithmist.
-! -   Change-making problem on Wikipedia.
+!     
+! 
+! - an algorithm from the book Structure and Interpretation of Computer
+!   Programs.
+! - an article in the algorithmist.
+! - Change-making problem on Wikipedia.
 
 USING: combinators kernel locals math math.ranges sequences sets sorting ;
 IN: rosetta.coins

@@ -1,7 +1,9 @@
 ! The month of October in 2010 has five Fridays, five Saturdays, and five
 ! Sundays.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Write a program to show all months that have this same
 !     characteristic of five full weekends from the year 1900 through 2100
@@ -11,8 +13,8 @@
 ! 
 ! Algorithm suggestions
 ! 
-! -   Count the number of Fridays, Saturdays, and Sundays in every month.
-! -   Find all of the 31-day months that begin on Friday.
+! - Count the number of Fridays, Saturdays, and Sundays in every month.
+! - Find all of the 31-day months that begin on Friday.
 ! 
 ! Extra credit
 ! 
@@ -21,9 +23,9 @@
 ! 
 ! Related tasks
 ! 
-! -   Day of the week
-! -   Last Friday of each month
-! -   Find last sunday of each month
+! - Day of the week
+! - Last Friday of each month
+! - Find last sunday of each month
 ! 
 ! Category:Puzzles
 

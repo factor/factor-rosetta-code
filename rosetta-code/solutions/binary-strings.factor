@@ -12,17 +12,17 @@
 ! 
 ! In particular the functions you need to create are:
 ! 
-! -   String creation and destruction (when needed and if there's no
-!     garbage collection or similar mechanism)
-! -   String assignment
-! -   String comparison
-! -   String cloning and copying
-! -   Check if a string is empty
-! -   Append a byte to a string
-! -   Extract a substring from a string
-! -   Replace every occurrence of a byte (or a string) in a string with
-!     another string
-! -   Join strings
+! - String creation and destruction (when needed and if there's no garbage
+!   collection or similar mechanism)
+! - String assignment
+! - String comparison
+! - String cloning and copying
+! - Check if a string is empty
+! - Append a byte to a string
+! - Extract a substring from a string
+! - Replace every occurrence of a byte (or a string) in a string with
+!   another string
+! - Join strings
 ! 
 ! Possible contexts of use: compression algorithms (like LZW compression),
 ! L-systems (manipulation of symbols), many more.

@@ -12,5 +12,12 @@
 ! 
 ! (If a language does not allow for a solution using mutually recursive
 ! functions then state this rather than give a solution by other means).
+! 
+! Related tasks
+! 
+!     
+! 
+! - Y combinator
+! - Variadic fixed-point combinator
 
 

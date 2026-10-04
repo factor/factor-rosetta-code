@@ -23,24 +23,24 @@
 ! 
 ! Task
 ! 
-! -   Starting at order 3, show the first 20 magic constants.
-! -   Show the 1000th magic constant. (Order 1003)
-! -   Find and show the order of the smallest N x N magic square whose
-!     constant is greater than 10¹ through 10¹⁰.
+! - Starting at order 3, show the first 20 magic constants.
+! - Show the 1000th magic constant. (Order 1003)
+! - Find and show the order of the smallest N x N magic square whose
+!   constant is greater than 10¹ through 10¹⁰.
 ! 
 ! Stretch
 ! 
-! -   Find and show the order of the smallest N x N magic square whose
-!     constant is greater than 10¹¹ through 10²⁰.
+! - Find and show the order of the smallest N x N magic square whose
+!   constant is greater than 10¹¹ through 10²⁰.
 ! 
 ! See also
 ! 
-! -   Wikipedia: Magic constant
-! -   OEIS: A006003 (Similar sequence, though it includes terms for 0, 1 &
-!     2.)
-! -   Magic squares of odd order
-! -   Magic squares of singly even order
-! -   Magic squares of doubly even order
+! - Wikipedia: Magic constant
+! - OEIS: A006003 (Similar sequence, though it includes terms for 0, 1 &
+!   2.)
+! - Magic squares of odd order
+! - Magic squares of singly even order
+! - Magic squares of doubly even order
 
 USING: formatting io kernel math math.functions.integer-logs
 math.ranges prettyprint sequences ;

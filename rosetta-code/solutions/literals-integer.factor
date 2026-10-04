@@ -1,7 +1,9 @@
 ! Some programming languages have ways of expressing integer literals in
 ! bases other than the normal base ten.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how integer literals can be expressed in as many bases as your
 ! language allows.
@@ -13,9 +15,11 @@
 ! Also show any other ways of expressing literals, e.g. for different
 ! types of integers.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Literals/Floating point
+!     
+! 
+! - Literals/Floating point
 ! 
 ! Category:Simple
 

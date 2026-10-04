@@ -144,7 +144,9 @@
 ! 
 ! halt
 ! 
-! A simple example virtual machine:
+! A simple example virtual machine
+! 
+!     
 ! 
 !     def run_vm(data_size)
 !         int stack[data_size + 1000]
@@ -194,10 +196,10 @@
 ! 
 ! Related Tasks
 ! 
-! -   Lexical Analyzer task
-! -   Syntax Analyzer task
-! -   Code Generator task
-! -   AST Interpreter task
+! - Lexical Analyzer task
+! - Syntax Analyzer task
+! - Code Generator task
+! - AST Interpreter task
 ! 
 ! __TOC__
 

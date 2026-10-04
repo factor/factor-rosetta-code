@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given a string of characters A, C, G, and T representing a DNA sequence
 ! write a routine to mutate the sequence, (string) by:
@@ -18,10 +20,12 @@
 ! 6.  "Pretty print" the sequence after all mutations, and a count of its
 !     size, and the count of each base in the sequence.
 ! 
-! Extra credit:
+! Extra credit
 ! 
-! -   Give more information on the individual mutations applied.
-! -   Allow mutations to be weighted and/or chosen.
+!     
+! 
+! - Give more information on the individual mutations applied.
+! - Allow mutations to be weighted and/or chosen.
 
 USING: assocs combinators.random formatting grouping io kernel
 macros math math.statistics namespaces prettyprint quotations

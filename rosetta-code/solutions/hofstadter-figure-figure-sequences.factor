@@ -18,7 +18,9 @@
 ! 
 !    2, 4, 5, 6, 8, ...
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! 1.  Create two functions named ffr and ffs that when given n return R(n)
 !     or S(n) respectively.
@@ -34,11 +36,13 @@
 !     960 values of ffs include all the integers from 1 to 1000 exactly
 !     once.
 ! 
-! References:
+! References
 ! 
-! -   Sloane's A005228 and A030124.
-! -   Wolfram MathWorld
-! -   Wikipedia: Hofstadter Figure-Figure sequences.
+!     
+! 
+! - Sloane's A005228 and A030124.
+! - Wolfram MathWorld
+! - Wikipedia: Hofstadter Figure-Figure sequences.
 
 SYMBOL: S  V{ 2 } S set
 SYMBOL: R  V{ 1 } R set

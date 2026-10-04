@@ -36,12 +36,12 @@
 ! Show the redacted sentence for each of the redaction target strings
 ! [Tom] & [tom] using the following options:
 ! 
-! -   -   Whole word
-!     -   Whole word, Case insensitive
-!     -   Partial word
-!     -   Partial word, Case insensitive
-!     -   Partial word, Overkill
-!     -   Partial word, Case insensitive, Overkill
+! - - Whole word
+!   - Whole word, Case insensitive
+!   - Partial word
+!   - Partial word, Case insensitive
+!   - Partial word, Overkill
+!   - Partial word, Case insensitive, Overkill
 ! 
 ! Note that some combinations don't, or at least, shouldn't really differ
 ! from less specific combination. E.G. "Whole word, Overkill" should be

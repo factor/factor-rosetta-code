@@ -1,9 +1,11 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Take the string alphaBETA and demonstrate how to convert it to:
 ! 
-! -   -   upper-case and
-!     -   lower-case
+! - - upper-case and
+!   - lower-case
 ! 
 ! Use the default encoding of a string literal or plain ASCII if there is
 ! no string literal in your language.

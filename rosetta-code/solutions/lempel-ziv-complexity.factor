@@ -40,9 +40,11 @@
 ! Your output may optionally show E(S), the exhaustive history(or
 ! production process) [LZ76 phrases, not mine] separated by dots.
 ! 
-! See also:
+! See also
 ! 
-! -   -   wp:Lempel–Ziv complexity
-!     -   the original 1976 paper
+!     
+! 
+! - - wp:Lempel–Ziv complexity
+!   - the original 1976 paper
 
 

@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function to determine whether a given set of frequency counts
 ! could plausibly have come from a uniform distribution by using the χ²
@@ -10,12 +12,16 @@
 ! 
 ! Note: normally a two-tailed test would be used for this kind of problem.
 ! 
-! Reference:
+! Reference
 ! 
-! -   -   an entry at the MathWorld website: chi-squared distribution.
+!     
 ! 
-! Related task:
+! - - an entry at the MathWorld website: chi-squared distribution.
 ! 
-! -   -   Statistics/Chi-squared_distribution
+! Related task
+! 
+!     
+! 
+! - - Statistics/Chi-squared_distribution
 
 

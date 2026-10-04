@@ -2,12 +2,16 @@
 ! non-negative integer for printing in different number bases. Such common
 ! number bases might include binary, Octal and Hexadecimal.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Print a small range of integers in some different bases, as supported by
 ! standard routines of your programming language.
 ! 
-! Note:
+! Note
+! 
+!     
 ! 
 ! This is distinct from Number base conversion as a user-defined
 ! conversion function is not asked for.)

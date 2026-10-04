@@ -13,12 +13,16 @@
 ! 
 ! You are also given eight pegs numbered 1-to-8.
 ! 
-! Objective:
+! Objective
+! 
+!     
 ! 
 ! Place the eight pegs in the holes so that the (absolute) difference
 ! between any two numbers connected by any line is greater than one.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! In this attempt:
 ! 
@@ -39,17 +43,19 @@
 ! 
 ! Produce and show here one solution to the puzzle.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   A* search algorithm
-!     -   Solve a Holy Knight's tour
-!     -   Knight's tour
-!     -   N-queens problem
-!     -   Solve a Hidato puzzle
-!     -   Solve a Holy Knight's tour
-!     -   Solve a Hopido puzzle
-!     -   Solve a Numbrix puzzle
-!     -   4-rings or 4-squares puzzle
+!     
+! 
+! - - A* search algorithm
+!   - Solve a Holy Knight's tour
+!   - Knight's tour
+!   - N-queens problem
+!   - Solve a Hidato puzzle
+!   - Solve a Holy Knight's tour
+!   - Solve a Hopido puzzle
+!   - Solve a Numbrix puzzle
+!   - 4-rings or 4-squares puzzle
 ! 
 ! See also
 ! 

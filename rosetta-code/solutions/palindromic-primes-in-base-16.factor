@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Find palindromic primes n in base 16, where n < 500₁₀
 

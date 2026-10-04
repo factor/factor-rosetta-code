@@ -11,11 +11,11 @@
 ! 
 ! Legendre symbol
 ! 
-! -   The Legendre symbol ( a | p) denotes the value of a ^ ((p-1)/2) (mod
-!     p)
-! -   (a | p) ≡ 1 if a is a square (mod p)
-! -   (a | p) ≡ -1 if a is not a square (mod p)
-! -   (a | p) ≡ 0 is a ≡ 0
+! - The Legendre symbol ( a | p) denotes the value of a ^ ((p-1)/2) (mod
+!   p)
+! - (a | p) ≡ 1 if a is a square (mod p)
+! - (a | p) ≡ -1 if a is not a square (mod p)
+! - (a | p) ≡ 0 is a ≡ 0
 ! 
 ! Arithmetic in Fp²
 ! 
@@ -26,28 +26,27 @@
 ! operations are modulo p, addition, multiplication and exponentiation in
 ! Fp² are defined as :
 ! 
-! -   (x1 + ω y1) + (x2 + ω y2) := (x1 + x2 + ω (y1 + y2))
-! -   (x1 + ω y1) * (x2 + ω y2) := (x1*x2 + y1*y2*ω²) + ω (x1*y2 + x2*y1)
-!     -   (0 + ω) * (0 + ω) := (ω² + 0 ω) ≡ ω² in Fp
-! -   (x1 + ω y1) ^ n := (x + ω y) * (x + ω y) * ... ( n times) (1)
+! - (x1 + ω y1) + (x2 + ω y2) := (x1 + x2 + ω (y1 + y2))
+! - (x1 + ω y1) * (x2 + ω y2) := (x1*x2 + y1*y2*ω²) + ω (x1*y2 + x2*y1)
+!   - (0 + ω) * (0 + ω) := (ω² + 0 ω) ≡ ω² in Fp
+! - (x1 + ω y1) ^ n := (x + ω y) * (x + ω y) * ... ( n times) (1)
 ! 
 ! Algorithm pseudo-code
 ! 
-! -   Input : p an odd prime, and n ≠ 0 in Fp
-! -   Step 0. Check that n is indeed a square : (n | p) must be ≡ 1
-! -   Step 1. Find, by trial and error, an a > 0 such as (a² - n) is not a
-!     square : (a²-n | p) must be ≡ -1.
-! -   Step 2. Let ω² = a² - n. Compute, in Fp2 : (a + ω) ^ ((p + 1)/2)
-!     (mod p)
+! - Input : p an odd prime, and n ≠ 0 in Fp
+! - Step 0. Check that n is indeed a square : (n | p) must be ≡ 1
+! - Step 1. Find, by trial and error, an a > 0 such as (a² - n) is not a
+!   square : (a²-n | p) must be ≡ -1.
+! - Step 2. Let ω² = a² - n. Compute, in Fp2 : (a + ω) ^ ((p + 1)/2) (mod
+!   p)
 ! 
 ! To compute this step, use a pair of numbers, initially [a,1], and use
 ! repeated "multiplication" which is defined such that [c,d] times [e,f]
 ! is (mod p) [ c*c + ω²*f*f, d*e + c*f ].
 ! 
-! -   Step 3. Check that the result is ≡ x + 0 * ω in Fp2, that is x in
-!     Fp.
-! -   Step 4. Output the two positive solutions, x and p - x (mod p).
-! -   Step 5. Check that x * x ≡ n (mod p)
+! - Step 3. Check that the result is ≡ x + 0 * ω in Fp2, that is x in Fp.
+! - Step 4. Output the two positive solutions, x and p - x (mod p).
+! - Step 5. Check that x * x ≡ n (mod p)
 ! 
 ! Example from Wikipedia
 ! 
@@ -66,23 +65,22 @@
 ! 
 ! Find solutions (if any) for
 ! 
-! -   n = 10 p = 13
-! -   n = 56 p = 101
-! -   n = 8218 p = 10007
-! -   n = 8219 p = 10007
-! -   n = 331575 p = 1000003
+! - n = 10 p = 13
+! - n = 56 p = 101
+! - n = 8218 p = 10007
+! - n = 8219 p = 10007
+! - n = 331575 p = 1000003
 ! 
 ! Extra credit
 ! 
-! -   n 665165880 p 1000000007
-! -   n 881398088036 p 1000000000039
-! -   n = 34035243914635549601583369544560650254325084643201 p = 10^50 +
-!     151
+! - n 665165880 p 1000000007
+! - n 881398088036 p 1000000000039
+! - n = 34035243914635549601583369544560650254325084643201 p = 10^50 + 151
 ! 
 ! See also:
 ! 
-! -   Modular exponentiation
-! -   Tonelli-Shanks algorithm
+! - Modular exponentiation
+! - Tonelli-Shanks algorithm
 
 USING: accessors assocs interpolate io kernel literals locals
 math math.extras math.functions ;

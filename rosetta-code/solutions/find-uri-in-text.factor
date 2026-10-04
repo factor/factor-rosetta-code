@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a function to search plain text for URIs or IRIs.
 ! 
@@ -17,12 +19,14 @@
 ! 
 ! Consider the following issues:
 ! 
-! -   -    . , ; ' ? ( ) are legal characters in a URI, but they are often
-!         used in plain text as a delimiter.
-!     -   IRIs allow most (but not all) unicode characters.
-!     -   URIs can be something else besides http:// or https://
+! - -  . , ; ' ? ( ) are legal characters in a URI, but they are often
+!     used in plain text as a delimiter.
+!   - IRIs allow most (but not all) unicode characters.
+!   - URIs can be something else besides http:// or https://
 ! 
-! Sample text:
+! Sample text
+! 
+!     
 ! 
 !      this URI contains an illegal character, parentheses and a misplaced full stop:
 !      http://en.wikipedia.org/wiki/Erich_Kästner_(camera_designer). (which is handled by http://mediawiki.org/).

@@ -6,7 +6,9 @@
 ! An interactive mode may also be known as a command mode, a
 ! read-eval-print loop (REPL), or a shell.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Show how to start this mode.
 ! 
@@ -14,7 +16,9 @@
 ! two strings and a separator that returns the strings separated by two
 ! concatenated instances of the separator (the 3^(rd) argument).
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 !              f('Rosetta',  'Code',  ':')   
 ! 
@@ -22,7 +26,9 @@
 ! 
 !              'Rosetta::Code'               
 ! 
-! Note:
+! Note
+! 
+!     
 ! 
 ! This task is not about creating your own interactive mode.
 

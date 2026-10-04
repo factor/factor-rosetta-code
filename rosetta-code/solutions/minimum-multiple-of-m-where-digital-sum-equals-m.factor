@@ -3,11 +3,11 @@
 ! 
 ! Task
 ! 
-! -   Find the first 40 elements of the sequence.
+! - Find the first 40 elements of the sequence.
 ! 
 ! Stretch
 ! 
-! -   Find the next 30 elements of the sequence.
+! - Find the next 30 elements of the sequence.
 ! 
 ! See also
 ! 

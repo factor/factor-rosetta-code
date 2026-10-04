@@ -20,10 +20,12 @@
 ! example wp:Pfaffian#Efficient computation. However, efficient methods
 ! for calculating the hfaffian are not known.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Permutations by swapping
-! -   Determinant_and_permanent
+!     
+! 
+! - Permutations by swapping
+! - Determinant_and_permanent
 ! 
 ! FYI: How Many Definitions Does the Pfaffian Have?
 ! 
@@ -52,11 +54,11 @@
 ! 
 ! Where:
 ! 
-! -   S_(2n) is the symmetric group (the set of all permutations of 2n
-!     elements),
-! -   sgn(σ) is the sign of the permutation σ,
-! -   The product $\prod_{i=1}^n a_{\sigma(2i-1), \sigma(2i)}$ ensures
-!     pairwise contributions.
+! - S_(2n) is the symmetric group (the set of all permutations of 2n
+!   elements),
+! - sgn(σ) is the sign of the permutation σ,
+! - The product $\prod_{i=1}^n a_{\sigma(2i-1), \sigma(2i)}$ ensures
+!   pairwise contributions.
 ! 
 ! In practice, the summation is computed over specific subsets of pairings
 ! to reduce complexity.
@@ -66,11 +68,11 @@
 ! The Pfaffian can also be defined recursively. For a 2n × 2n
 ! skew-symmetric matrix A, the recursion is as follows:
 ! 
-! -   For n = 1 (A is a 2 × 2 matrix):
+! - For n = 1 (A is a 2 × 2 matrix):
 ! 
 !  Pf(A) = a₁₂
 ! 
-! -   For n > 1:
+! - For n > 1:
 ! 
 !  $\text{Pf}(A) = \sum_{j=2}^{2n} (-1)^j a_{1j} \cdot \text{Pf}(A_{1j}),$
 ! 

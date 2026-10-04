@@ -10,7 +10,9 @@
 ! As the workings of the algorithm are clearly described in the linked
 ! Wikipedia article they will not be repeated here.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write routines, methods, procedures etc. in your language to generate a
 ! Verhoeff checksum digit for non-negative integers of any length and to
@@ -30,8 +32,10 @@
 ! Display digit by digit calculations for the first two integers but not
 ! for the third.
 ! 
-! Related task:
+! Related task
 ! 
-! -   Damm algorithm
+!     
+! 
+! - Damm algorithm
 
 

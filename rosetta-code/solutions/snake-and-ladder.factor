@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a Snakes and Ladders game where the computer plays against a
 ! human player.

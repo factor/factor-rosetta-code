@@ -12,7 +12,9 @@
 ! 
 ! Describes the following graph. Note that node 3 has no neighbours
 ! 
-! Example graph:
+! Example graph
+! 
+!     
 ! 
 !     +---+
 !     | 3 |
@@ -35,22 +37,29 @@
 !     2 maps-to 1 and 0
 !     3 maps-to <nothing>
 ! 
-! Graph colouring task:
+! Graph colouring task
+! 
+!     
 ! 
 ! Colour the vertices of a given graph so that no edge is between
 ! verticies of the same colour.
 ! 
-! -   Integers may be used to denote different colours.
-! -   Algorithm should do better than just assigning each vertex a
-!     separate colour. The idea is to minimise the number of colours used,
-!     although no algorithm short of exhaustive search for the minimum is
-!     known at present, (and exhaustive search is not a requirement).
-! -   Show for each edge, the colours assigned on each vertex.
-! -   Show the total number of nodes, edges, and colours used for each
-!     graph.
+! - Integers may be used to denote different colours.
+! - Algorithm should do better than just assigning each vertex a separate
+!   colour. The idea is to minimise the number of colours used, although
+!   no algorithm short of exhaustive search for the minimum is known at
+!   present, (and exhaustive search is not a requirement).
+! - Show for each edge, the colours assigned on each vertex.
+! - Show the total number of nodes, edges, and colours used for each
+!   graph.
 ! 
-! Use the following graphs:
-! Ex1:
+! Use the following graphs
+! 
+!     
+! 
+! Ex1
+! 
+!     
 ! 
 !        0-1 1-2 2-0 3
 ! 
@@ -64,7 +73,9 @@
 !     | 0 | --- | 1 | --- | 2 |
 !     +---+     +---+     +---+
 ! 
-! Ex2:
+! Ex2
+! 
+!     
 ! 
 ! The wp articles left-side graph
 ! 
@@ -91,7 +102,9 @@
 !            |                   |
 !            +-------------------+
 ! 
-! Ex3:
+! Ex3
+! 
+!     
 ! 
 ! The wp articles right-side graph which is the same graph as Ex2, but
 ! with different node orderings and namings.
@@ -119,7 +132,9 @@
 !            |                   |
 !            +-------------------+
 ! 
-! Ex4:
+! Ex4
+! 
+!     
 ! 
 ! This is the same graph, node naming, and edge order as Ex2 except some
 ! of the edges x-y are flipped to y-x. This might alter the node order
@@ -145,10 +160,12 @@
 !                                               |                             |
 !                                               +-----------------------------+
 ! 
-! References:
+! References
 ! 
-! -   Greedy coloring Wikipedia.
-! -   Graph Coloring : Greedy Algorithm & Welsh Powell Algorithm by
-!     Priyank Jain.
+!     
+! 
+! - Greedy coloring Wikipedia.
+! - Graph Coloring : Greedy Algorithm & Welsh Powell Algorithm by Priyank
+!   Jain.
 
 

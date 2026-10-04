@@ -1,11 +1,10 @@
 ! This task is about expressing numbers with an attached (abutted) suffix
 ! multiplier(s), the suffix(es) could be:
 ! 
-! -   -   an alphabetic (named) multiplier which could be abbreviated
-!     -   metric multiplier(s) which can be specified multiple times
-!     -   "binary" multiplier(s) which can be specified multiple times
-!     -   explanation marks (!) which indicate a factorial or
-!         multifactorial
+! - - an alphabetic (named) multiplier which could be abbreviated
+!   - metric multiplier(s) which can be specified multiple times
+!   - "binary" multiplier(s) which can be specified multiple times
+!   - explanation marks (!) which indicate a factorial or multifactorial
 ! 
 ! The (decimal) numbers can be expressed generally as:
 ! 
@@ -15,17 +14,17 @@
 ! 
 ! where:
 ! 
-! -   -   numbers won't have embedded blanks (contrary to the expaciated
-!         examples above where whitespace was used for readability)
-!     -   this task will only be dealing with decimal numbers, both in the
-!         mantissa and exponent
-!     -   ± indicates an optional plus or minus sign (+ or -)
-!     -   digits are the decimal digits (0 ──► 9)
-!     -   the digits can have comma(s) interjected to separate the periods
-!         (thousands) such as: 12,467,000
-!     -   . is the decimal point, sometimes also called a dot
-!     -   e or E denotes the use of decimal exponentiation (a number
-!         multiplied by raising ten to some power)
+! - - numbers won't have embedded blanks (contrary to the expaciated
+!     examples above where whitespace was used for readability)
+!   - this task will only be dealing with decimal numbers, both in the
+!     mantissa and exponent
+!   - ± indicates an optional plus or minus sign (+ or -)
+!   - digits are the decimal digits (0 ──► 9)
+!   - the digits can have comma(s) interjected to separate the periods
+!     (thousands) such as: 12,467,000
+!   - . is the decimal point, sometimes also called a dot
+!   - e or E denotes the use of decimal exponentiation (a number
+!     multiplied by raising ten to some power)
 ! 
 ! This isn't a pure or perfect definition of the way we express decimal
 ! numbers, but it should convey the intent for this task.
@@ -50,7 +49,9 @@
 ! All numbers to be "expanded" can be assumed to be valid and there won't
 ! be a requirement to verify their validity.
 ! 
-! Abbreviated alphabetic suffixes to be supported (where the capital letters signify the minimum abbreation that can be used):
+! Abbreviated alphabetic suffixes to be supported (where the capital letters signify the minimum abbreation that can be used)
+! 
+!     
 ! 
 !      PAIRs         multiply the number by  2         (as in pairs of shoes or pants)
 !      SCOres        multiply the number by  20        (as 3score would be 60)
@@ -63,7 +64,9 @@
 ! when expressing exact numbers (She has 2 dozen eggs, and dozens of
 ! quavas)
 ! 
-! Metric suffixes to be supported (whether or not they're officially sanctioned):
+! Metric suffixes to be supported (whether or not they're officially sanctioned)
+! 
+!     
 ! 
 !      K     multiply the number by  10^3              kilo      (1,000)
 !      M     multiply the number by  10^6              mega      (1,000,000)
@@ -78,7 +81,9 @@
 !      V     multiply the number by  10^33             vendeka   (1,000,000,000,000,000,000,000,000,000,000,000)
 !      U     multiply the number by  10^36             udekta    (1,000,000,000,000,000,000,000,000,000,000,000,000)
 ! 
-! Binary suffixes to be supported (whether or not they're officially sanctioned):
+! Binary suffixes to be supported (whether or not they're officially sanctioned)
+! 
+!     
 ! 
 !      Ki    multiply the number by  2^10              kibi      (1,024)
 !      Mi    multiply the number by  2^20              mebi      (1,048,576)
@@ -101,7 +106,9 @@
 ! 
 ! I.E.: 123k 123K 123GKi 12.3GiGG 12.3e-7T .78E100e
 ! 
-! Factorial suffixes to be supported:
+! Factorial suffixes to be supported
+! 
+!     
 ! 
 !      !      compute the (regular) factorial product:   5!   is  5 × 4 × 3 × 2 × 1  =  120
 !      !!     compute the  double   factorial product:   8!   is  8 × 6 × 4 × 2      =  384
@@ -116,19 +123,23 @@
 ! Multifactorials aren't to be confused with super─factorials where (4!)!
 ! would be (24)!.
 ! 
-! Task:
+! Task
 ! 
-! -   -   Using the test cases (below), show the "expanded" numbers here,
-!         on this page.
-!     -   For each list, show the input on one line, and also show the
-!         output on one line.
-!     -   When showing the input line, keep the spaces (whitespace) and
-!         case (capitalizations) as is.
-!     -   For each result (list) displayed on one line, separate each
-!         number with two blanks.
-!     -   Add commas to the output numbers were appropriate.
+!     
 ! 
-! Test cases:
+! - - Using the test cases (below), show the "expanded" numbers here, on
+!     this page.
+!   - For each list, show the input on one line, and also show the output
+!     on one line.
+!   - When showing the input line, keep the spaces (whitespace) and case
+!     (capitalizations) as is.
+!   - For each result (list) displayed on one line, separate each number
+!     with two blanks.
+!   - Add commas to the output numbers were appropriate.
+! 
+! Test cases
+! 
+!     
 ! 
 !     2greatGRo   24Gros  288Doz  1,728pairs  172.8SCOre
 !     1,567      +1.567k    0.1567e-2m
@@ -140,11 +151,13 @@
 ! where the last number for the factorials has nine factorial symbols (!)
 ! after the 9
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Multifactorial (which has a clearer and more succinct definition of
-!     multifactorials.)
-! -   Factorial
+!     
+! 
+! - Multifactorial (which has a clearer and more succinct definition of
+!   multifactorials.)
+! - Factorial
 
 USING: combinators combinators.short-circuit formatting fry
 grouping grouping.extras kernel literals math math.functions

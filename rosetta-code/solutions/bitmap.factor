@@ -4,9 +4,9 @@
 ! If possible provide a function to allocate an uninitialised image, given
 ! its width and height, and provide 3 additional functions:
 ! 
-! -   -   one to fill an image with a plain RGB color,
-!     -   one to set a given pixel with a color,
-!     -   one to get the color of a pixel.
+! - - one to fill an image with a plain RGB color,
+!   - one to set a given pixel with a color,
+!   - one to get the color of a pixel.
 ! 
 ! (If there are specificities about the storage or the allocation, explain
 ! those.)

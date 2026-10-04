@@ -3,17 +3,19 @@
 ! and settlement of trades. The CUSIP was adopted as an American National
 ! Standard under Accredited Standards X9.6.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Ensure the last digit (i.e., the check digit) of the CUSIP code (the
 ! 1^(st) column) is correct, against the following:
 ! 
-! -   037833100 Apple Incorporated
-! -   17275R102 Cisco Systems
-! -   38259P508 Google Incorporated
-! -   594918104 Microsoft Corporation
-! -   68389X106 Oracle Corporation (incorrect)
-! -   68389X105 Oracle Corporation
+! - 037833100 Apple Incorporated
+! - 17275R102 Cisco Systems
+! - 38259P508 Google Incorporated
+! - 594918104 Microsoft Corporation
+! - 68389X106 Oracle Corporation (incorrect)
+! - 68389X105 Oracle Corporation
 ! 
 ! Example pseudo-code below.
 ! 
@@ -45,9 +47,11 @@
 !        return (10 - (sum mod 10)) mod 10
 !     end function
 ! 
-! See related tasks:
+! See related tasks
 ! 
-! -   SEDOL
-! -   ISIN
+!     
+! 
+! - SEDOL
+! - ISIN
 
 

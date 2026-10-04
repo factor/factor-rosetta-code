@@ -1,6 +1,8 @@
 ! An Inverted Index is a data structure used to create full text search.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Given a set of text files, implement a program to create an inverted
 ! index.

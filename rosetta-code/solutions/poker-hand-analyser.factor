@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a program to parse a single five card poker hand and rank it
 ! according to this list of poker hands.
@@ -8,11 +10,13 @@
 ! 
 ! Each input card has two characters indicating face and suit.
 ! 
-! Example:
+! Example
 ! 
 !     
 ! 
-!         2d (two of diamonds).
+!         
+! 
+!             2d (two of diamonds).
 ! 
 ! Faces are: a, 2, 3, 4, 5, 6, 7, 8, 9, 10, j, q, k
 ! 
@@ -36,7 +40,9 @@
 !  high-card
 !  invalid
 ! 
-! Examples:
+! Examples
+! 
+!     
 ! 
 !    2♥ 2♦ 2♣ k♣ q♦:   three-of-a-kind
 !    2♥ 5♥ 7♦ 8♣ 9♠:   high-card
@@ -51,17 +57,21 @@
 ! The programs output for the above examples should be displayed here on
 ! this page.
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! 1.  use the playing card characters introduced with Unicode 6.0
 !     (U+1F0A1 - U+1F0DE).
 ! 2.  allow two jokers
 ! 
-! -   -   use the symbol joker
-!     -   duplicates would be allowed (for jokers only)
-!     -   five-of-a-kind would then be the highest hand
+! - - use the symbol joker
+!   - duplicates would be allowed (for jokers only)
+!   - five-of-a-kind would then be the highest hand
 ! 
-! More extra credit examples:
+! More extra credit examples
+! 
+!     
 ! 
 !    joker  2♦  2♠  k♠  q♦:     three-of-a-kind
 !    joker  5♥  7♦  8♠  9♦:     straight
@@ -77,13 +87,15 @@
 !    joker  Q♦  joker  A♦ 10♦:  straight-flush
 !    joker  2♦  2♠  joker  q♦:  four-of-a-kind
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   Playing cards
-! -   Card shuffles
-! -   Deal cards_for_FreeCell
-! -   War Card_Game
-! -   Go Fish
+!     
+! 
+! - Playing cards
+! - Card shuffles
+! - Deal cards_for_FreeCell
+! - War Card_Game
+! - Go Fish
 ! 
 ! Category:Cards Category:Games
 

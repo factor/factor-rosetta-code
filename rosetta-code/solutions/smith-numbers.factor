@@ -27,14 +27,14 @@
 ! 
 ! See also
 ! 
-! -   from Wikipedia: https://en.wikipedia.org/wiki/Smith_number Smith
-!     number.
-! -   from MathWorld: http://mathworld.wolfram.com/SmithNumber.html Smith
-!     number.
-! -   from OEIS A6753: https://oeis.org/A006753 OEIS sequence A6753.
-! -   from OEIS A104170: https://oeis.org/A104170 Number of Smith numbers
-!     below 10^n.
-! -   from The Prime pages:
-!     http://primes.utm.edu/glossary/xpage/SmithNumber.html Smith numbers.
+! - from Wikipedia: https://en.wikipedia.org/wiki/Smith_number Smith
+!   number.
+! - from MathWorld: http://mathworld.wolfram.com/SmithNumber.html Smith
+!   number.
+! - from OEIS A6753: https://oeis.org/A006753 OEIS sequence A6753.
+! - from OEIS A104170: https://oeis.org/A104170 Number of Smith numbers
+!   below 10^n.
+! - from The Prime pages:
+!   http://primes.utm.edu/glossary/xpage/SmithNumber.html Smith numbers.
 
 

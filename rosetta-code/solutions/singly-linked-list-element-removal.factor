@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Define a method to remove an element from a singly-linked list and
 ! demonstrate its use.

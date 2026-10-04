@@ -4,7 +4,9 @@
 ! some point, the sequence 1, f(1), f(f(1))... will contain a repetition,
 ! a number that occurring for the second time in the sequence.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Write a program or a script that estimates, for each N, the average
 ! length until the first such repetition.

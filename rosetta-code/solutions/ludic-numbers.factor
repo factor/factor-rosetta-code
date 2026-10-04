@@ -11,62 +11,60 @@
 ! 
 ! (Loop)
 ! 
-! -   Take the first member of the resultant array as the next ludic
-!     number 2.
-! -   Remove every 2^(nd) indexed item from the array (including the
-!     first).
+! - Take the first member of the resultant array as the next ludic number
+!   2.
+! - Remove every 2^(nd) indexed item from the array (including the first).
 ! 
 !     
 ! 
 !         2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 ...
 ! 
-! -   (Unrolling a few loops...)
-! -   Take the first member of the resultant array as the next ludic
-!     number 3.
-! -   Remove every 3^(rd) indexed item from the array (including the
-!     first).
+! - (Unrolling a few loops...)
+! - Take the first member of the resultant array as the next ludic number
+!   3.
+! - Remove every 3^(rd) indexed item from the array (including the first).
 ! 
 !     
 ! 
 !         3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 ...
 ! 
-! -   Take the first member of the resultant array as the next ludic
-!     number 5.
-! -   Remove every 5^(th) indexed item from the array (including the
-!     first).
+! - Take the first member of the resultant array as the next ludic number
+!   5.
+! - Remove every 5^(th) indexed item from the array (including the first).
 ! 
 !     
 ! 
 !         5 7 11 13 17 19 23 25 29 31 35 37 41 43 47 49 53 55 59 61 65 67 71 73 77 ...
 ! 
-! -   Take the first member of the resultant array as the next ludic
-!     number 7.
-! -   Remove every 7^(th) indexed item from the array (including the
-!     first).
+! - Take the first member of the resultant array as the next ludic number
+!   7.
+! - Remove every 7^(th) indexed item from the array (including the first).
 ! 
 !     
 ! 
 !         7 11 13 17 23 25 29 31 37 41 43 47 53 55 59 61 67 71 73 77 83 85 89 91 97 ...
 ! 
-! -    ...
-! -   Take the first member of the current array as the next ludic number
-!     L.
-! -   Remove every L^(th) indexed item from the array (including the
-!     first).
-! -    ...
+! -  ...
+! - Take the first member of the current array as the next ludic number L.
+! - Remove every L^(th) indexed item from the array (including the first).
+! -  ...
 ! 
-! Task:
+! Task
 ! 
-! -   Generate and show here the first 25 ludic numbers.
-! -   How many ludic numbers are there less than or equal to 1000?
-! -   Show the 2000..2005^(th) ludic numbers.
+!     
 ! 
-! Stretch goal:
+! - Generate and show here the first 25 ludic numbers.
+! - How many ludic numbers are there less than or equal to 1000?
+! - Show the 2000..2005^(th) ludic numbers.
+! 
+! Stretch goal
+! 
+!     
 ! 
 ! Show all triplets of ludic numbers < 250.
 ! 
-! -   A triplet is any three numbers x, x + 2, x + 6 where all three
-!     numbers are also ludic numbers.
+! - A triplet is any three numbers x, x + 2, x + 6 where all three numbers
+!   are also ludic numbers.
 ! 
 ! Category:Prime Numbers
 

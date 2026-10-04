@@ -25,22 +25,28 @@
 ! One interacts with the Game of Life by creating an initial configuration
 ! and observing how it evolves.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Although you should test your implementation on more complex examples
 ! such as the glider in a larger universe, show the action of the blinker
 ! (three adjoining cells in a row all alive), over three generations, in a
 ! 3 by 3 grid.
 ! 
-! References:
+! References
 ! 
-! -   Its creator John Conway, explains the game of life. Video from
-!     numberphile on youtube.
-! -   John Conway Inventing Game of Life - Numberphile video.
+!     
 ! 
-! Related task:
+! - Its creator John Conway, explains the game of life. Video from
+!   numberphile on youtube.
+! - John Conway Inventing Game of Life - Numberphile video.
 ! 
-! -   Langton's ant - another well known cellular automaton.
+! Related task
+! 
+!     
+! 
+! - Langton's ant - another well known cellular automaton.
 ! 
 ! Category:Cellular automata
 

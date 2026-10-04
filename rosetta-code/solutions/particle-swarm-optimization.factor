@@ -6,11 +6,11 @@
 ! usage. To provide a common basis for comparing implementations, the
 ! following test cases are recommended:
 ! 
-! -   McCormick function - bowl-shaped, with a single minimum
+! - McCormick function - bowl-shaped, with a single minimum
 ! 
-!     function parameters and bounds (recommended):
-! -   -1.5 < x1 < 4
-! -   -3 < x2 < 4
+!   function parameters and bounds (recommended):
+! - -1.5 < x1 < 4
+! - -3 < x2 < 4
 ! 
 ! search parameters (suggested):
 ! 
@@ -47,7 +47,7 @@
 !  References:
 !  
 ! 
-! -   [Particle Swarm Optimization1]
-! -   [Virtual Library of Optimization Test Functions2]
+! - [Particle Swarm Optimization1]
+! - [Virtual Library of Optimization Test Functions2]
 
 

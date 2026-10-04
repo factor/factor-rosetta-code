@@ -2,14 +2,14 @@
 ! 
 ! A cocktail sort is also known as:
 ! 
-! -   -   cocktail shaker sort
-!     -   happy hour sort
-!     -   bidirectional bubble sort
-!     -   a bubble sort variation
-!     -   a selection sort variation
-!     -   ripple sort
-!     -   shuffle sort
-!     -   shuttle sort
+! - - cocktail shaker sort
+!   - happy hour sort
+!   - bidirectional bubble sort
+!   - a bubble sort variation
+!   - a selection sort variation
+!   - ripple sort
+!   - shuffle sort
+!   - shuttle sort
 ! 
 ! The improvement is basically that values "bubble" (migrate) both
 ! directions through the array, because on each iteration the cocktail
@@ -58,16 +58,20 @@
 ! 
 ! % indicates a comment, and deal indicates a swap.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement a cocktail sort and optionally show the sorted output here on
 ! this page.
 ! 
 ! See the discussion page for some timing comparisons.
 ! 
-! Related task:
+! Related task
 ! 
-! -   -   cocktail sort
+!     
+! 
+! - - cocktail sort
 ! 
 ! Category:Sorting
 

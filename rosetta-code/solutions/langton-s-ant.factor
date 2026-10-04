@@ -19,7 +19,9 @@
 ! about 10 cells wide. Conceptually the ant can then walk infinitely far
 ! away.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Start the ant near the center of a 100x100 field of cells, which is
 ! about big enough to contain the initial chaotic part of the movement.
@@ -30,13 +32,17 @@
 ! The problem has received some analysis; for more details, please take a
 ! look at the Wikipedia article (a link is below)..
 ! 
-! See also:
+! See also
 ! 
-! -   Wikipedia: Langton's ant.
+!     
 ! 
-! Related task:
+! - Wikipedia: Langton's ant.
 ! 
-! -   Conway's Game of Life.
-! -   Elementary cellular automaton
+! Related task
+! 
+!     
+! 
+! - Conway's Game of Life.
+! - Elementary cellular automaton
 
 

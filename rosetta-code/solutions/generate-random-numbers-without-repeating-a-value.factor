@@ -4,13 +4,17 @@
 ! position. Unfortunately, most random number generators can produce the
 ! same value more than once, which in this case isn't what we want.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Create a random number generator and have it output the numbers 1
 ! through 20 (inclusive), in a random order. It cannot produce the same
 ! value more than once.
 ! 
-! Or:
+! Or
+! 
+!     
 ! 
 ! Given the output of an existing random number generator that does
 ! produce repeated output, create a function that constrains the output to
@@ -27,9 +31,9 @@
 ! 
 ! Related Tasks
 ! 
-! -   -   15 Puzzle Solver
-!     -   16 Puzzle Game
-!     -   Random numbers
+! - - 15 Puzzle Solver
+!   - 16 Puzzle Game
+!   - Random numbers
 
 USING: kernel math.combinatorics math.ranges prettyprint random
 sequences ;

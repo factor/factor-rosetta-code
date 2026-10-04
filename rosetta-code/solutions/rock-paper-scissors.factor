@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! Implement the classic children's game Rock-paper-scissors, as well as a
 ! simple predictive AI (artificial intelligence) player.
@@ -10,9 +12,9 @@
 ! 
 ! The winner is decided by a set of rules:
 ! 
-! -   -   Rock beats scissors
-!     -   Scissors beat paper
-!     -   Paper beats rock
+! - - Rock beats scissors
+!   - Scissors beat paper
+!   - Paper beats rock
 ! 
 ! If both players choose the same thing, there is no winner for that
 ! round.
@@ -23,7 +25,9 @@
 ! keep a record of the choice frequency, and use that information to make
 ! a weighted random choice in an attempt to defeat its opponent.
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Support additional choices additional weapons.
 

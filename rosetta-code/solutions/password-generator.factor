@@ -30,10 +30,10 @@
 ! 
 ! For example: Il1 O0 5S 2Z where the characters are:
 ! 
-! -   -   capital eye, lowercase ell, the digit one
-!     -   capital oh, the digit zero
-!     -   the digit five, capital ess
-!     -   the digit two, capital zee
+! - - capital eye, lowercase ell, the digit one
+!   - capital oh, the digit zero
+!   - the digit five, capital ess
+!   - the digit two, capital zee
 
 USING: arrays assocs combinators command-line continuations io
 kernel math math.parser multiline namespaces peg.ebnf

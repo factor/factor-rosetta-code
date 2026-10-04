@@ -119,6 +119,6 @@
 !     rangeless{random}string -> 
 !         rangeless{random}string
 ! 
-! -   range expansion
+! - range expansion
 
 

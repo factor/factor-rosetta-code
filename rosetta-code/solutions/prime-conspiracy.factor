@@ -19,7 +19,9 @@
 ! Lets call i -> j a transition if i is the last decimal digit of a prime,
 ! and j the last decimal digit of the following prime.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Considering the first one million primes. Count, for any pair of
 ! successive primes, the number of transitions i -> j and print them along
@@ -27,16 +29,22 @@
 ! 
 ! You can see that, for a given i, frequencies are not evenly distributed.
 ! 
-! Observation:
+! Observation
+! 
+!     
 ! 
 ! (Modulo 10), primes whose last digit is 9 "prefer" the digit 1 to the
 ! digit 9, as its following prime.
 ! 
-! Extra credit:
+! Extra credit
+! 
+!     
 ! 
 ! Do the same for one hundred million primes.
 ! 
-! Example for 10,000 primes:
+! Example for 10,000 primes
+! 
+!     
 ! 
 !     10000 first primes. Transitions prime % 10 → next-prime % 10.
 !     1 → 1 count:        365 frequency: 3.65 %

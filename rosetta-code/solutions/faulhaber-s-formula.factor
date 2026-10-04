@@ -3,20 +3,26 @@
 ! a (p + 1)th-degree polynomial function of n, the coefficients involving
 ! Bernoulli numbers.
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Generate the first 10 closed-form expressions, starting with p = 0.
 ! 
-! Related tasks:
+! Related tasks
 ! 
-! -   -   Bernoulli numbers.
-!     -   evaluate binomial coefficients.
+!     
 ! 
-! See also:
+! - - Bernoulli numbers.
+!   - evaluate binomial coefficients.
 ! 
-! -   -   The Wikipedia entry: Faulhaber's formula.
-!     -   The Wikipedia entry: Bernoulli numbers.
-!     -   The Wikipedia entry: binomial coefficients.
+! See also
+! 
+!     
+! 
+! - - The Wikipedia entry: Faulhaber's formula.
+!   - The Wikipedia entry: Bernoulli numbers.
+!   - The Wikipedia entry: binomial coefficients.
 
 USING: formatting kernel math math.combinatorics math.extras
 math.functions regexp sequences ;

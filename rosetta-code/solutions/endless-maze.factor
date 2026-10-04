@@ -1,4 +1,6 @@
-! Task:
+! Task
+! 
+!     
 ! 
 ! This program randomly generates a potentially endless maze. It can be
 ! traversed by entering the subjective direction to go into. The purpose

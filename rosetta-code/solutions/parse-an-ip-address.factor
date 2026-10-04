@@ -15,7 +15,9 @@
 ! |Rosetta Code's primary server's public IPv6 address, with a specified
 ! port (80) |}
 ! 
-! Task:
+! Task
+! 
+!     
 ! 
 ! Emit each described IP address as a hexadecimal integer representing the
 ! address, the address space, and the port number specified, if any.
@@ -25,7 +27,9 @@
 ! was represented, port number and something that says if the port was
 ! specified.
 ! 
-! Example:
+! Example
+! 
+!     
 ! 
 ! 127.0.0.1 has the address number 7F000001 (2130706433 decimal) in the
 ! ipv4 address space.
