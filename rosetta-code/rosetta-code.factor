@@ -1,9 +1,18 @@
-USING: assocs combinators.short-circuit io io.directories
+USING: arrays assocs combinators.short-circuit continuations io io.directories
 io.encodings.utf8 io.files io.files.unique io.launcher kernel
 literals math mediawiki.api namespaces prettyprint regexp
-sequences sets sorting splitting strings system unicode ;
+sequences sets sorting splitting strings system unicode vectors ;
 
 IN: rosetta-code
+
+! Entries are { task stage error }; retained after a batch for inspection.
+SYMBOL: task-failures
+SYMBOL: current-task
+
+:: record-task-failure ( error stage -- )
+    task-failures get [
+        current-task get stage error 3array swap push
+    ] [ ] if* ;
 
 MEMO: list-category ( title -- members )
     'H{ { "list" "categorymembers" } { "cmtitle" _ } }
@@ -76,7 +85,7 @@ MEMO: list-category ( title -- members )
 
 : get-plain-description ( page -- description/f )
     get-clean-description dup [
-        [
+        [ [
             "raw.txt" utf8 set-file-contents
             ${
                 os macos?
@@ -88,7 +97,11 @@ MEMO: list-category ( title -- members )
                 "raw.txt"
             } try-output-process
             "plain.txt" utf8 file-contents
-        ] cleanup-unique-directory
+        ] cleanup-unique-directory ] [
+            dup output-process-error? [
+                "description fallback" record-task-failure
+            ] [ rethrow ] if
+        ] recover
     ] when ;
 
 : get-solution ( task -- solution/f )
@@ -111,11 +124,29 @@ MEMO: list-category ( title -- members )
         [ task-path '[ _ utf8 set-file-contents ] when* ] bi
     ] with-directory ;
 
+: report-task-failures ( -- )
+    task-failures get dup empty? [ drop ] [
+        "Articles needing attention ({ task stage error }):" print
+        [ . ] each
+    ] if ;
+
+: save-tasks ( tasks -- )
+    V{ } clone task-failures namespaces:set
+    [
+        dup . flush
+        dup current-task [
+            [ save-task ] [
+                nip "save failed" record-task-failure
+            ] recover
+        ] with-variable
+    ] each
+    report-task-failures ;
+
 : save-all-tasks ( -- )
-    all-tasks [ dup . flush save-task ] each ;
+    all-tasks save-tasks ;
 
 : save-draft-tasks ( -- )
-    draft-tasks [ dup . flush save-task ] each ;
+    draft-tasks save-tasks ;
 
 : with-rosetta-code ( quot -- )
     [ "https://rosettacode.org/w/api.php" endpoint ] dip
