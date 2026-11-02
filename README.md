@@ -5,11 +5,11 @@ The [Rosetta Code](https://rosettacode.org) project is quite interesting:
 > The idea is to present solutions to the same task in as many different
 > languages as possible, to demonstrate how languages are similar and
 > different, and to aid a person with a grounding in one approach to a problem
-> in learning another. Rosetta Code currently has 1,349
+> in learning another. Rosetta Code currently has 1,362
 > [tasks](*https://rosettacode.org/wiki/Category:Solutions_by_Programming_Task),
-> 406 [draft
+> 423 [draft
 > tasks](https://rosettacode.org/wiki/Category:Draft_Programming_Tasks), and
-> is aware of 995
+> is aware of 1,016
 > [languages](https://rosettacode.org/wiki/Category:Programming_Languages),
 > though we do not (and cannot) have solutions to every task in every
 > language.
@@ -28,9 +28,9 @@ the currently scraped solutions.
 Currently this is a fair amount of code:
 
 ```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Language            Files        Lines         Code     Comments       Blanks
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Factor               1719        79904        13977        59415         6512
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Language              Files        Lines         Code     Comments       Blanks
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Factor                 1775        85304        13958        64726         6620
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
