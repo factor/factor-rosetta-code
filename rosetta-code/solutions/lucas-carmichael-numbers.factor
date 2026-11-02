@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function that generates all the Lucas-Carmichael numbers with n
 ! prime factors in a given range [A, B].
@@ -16,7 +16,7 @@
 ! 
 ! Algorithm
 ! 
-!     
+!   
 ! 
 ! [Algorithm for generating Lucas-Carmichael numbers with n prime factors]
 ! 

@@ -37,7 +37,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Write a class or set of functions that generates pseudo-random numbers
 !   using splitmix64.
@@ -59,14 +59,14 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! * Java docs for splitmix64
 ! * Public domain C code used in many PRNG implementations; by Sebastiano Vigna
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! * Pseudo-random numbers/Combined recursive generator MRG32k3a‎‎
 ! * Pseudo-random numbers/PCG32‎‎

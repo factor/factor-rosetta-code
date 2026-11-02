@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find the greatest common divisor (GCD) of two integers.
 ! 
@@ -9,13 +9,13 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - least common multiple.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - MathWorld entry: greatest common divisor.
 !   - Wikipedia entry: greatest common divisor.

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Beginning from the current directory, or optionally from a directory
 ! specified as a command-line argument, determine how many files there are

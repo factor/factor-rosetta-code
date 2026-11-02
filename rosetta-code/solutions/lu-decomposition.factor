@@ -133,7 +133,7 @@
 ! 
 ! Task description
 ! 
-!     
+!   
 ! 
 ! The task is to implement a routine which will take a square nxn matrix A
 ! and return a lower triangular matrix L, a upper triangular matrix U and
@@ -144,7 +144,7 @@
 ! 
 ! Example 1
 ! 
-!     
+!   
 ! 
 !     A
 ! 
@@ -172,7 +172,7 @@
 ! 
 ! Example 2
 ! 
-!     
+!   
 ! 
 !     A
 ! 

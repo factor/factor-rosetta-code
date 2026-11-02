@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Compute and show the list of Knuth's power tree integers necessary for
 ! the computation of:
@@ -23,7 +23,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! An example of a small power tree for some low integers:
 ! 
@@ -81,7 +81,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - - Donald E. Knuth's book: The Art of Computer Programming, Vol. 2,
 !     Second Edition, Seminumerical Algorithms, section 4.6.3: Evaluation

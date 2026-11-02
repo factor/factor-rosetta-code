@@ -1,13 +1,13 @@
 ! Definition
 ! 
-!     
+!   
 ! 
 ! n is a strange number (expressed in base ten) if every adjacent decimal
 ! digit differs from its neighbour by a prime number.
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show all strange numbers for 100 < n < 500
 ! 

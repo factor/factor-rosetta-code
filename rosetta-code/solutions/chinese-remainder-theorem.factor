@@ -4,21 +4,21 @@
 ! Then, for any given sequence of integers a₁, a₂, …, a_(k), there exists
 ! an integer x solving the following system of simultaneous congruences:
 ! 
-!     
+!   
 ! 
-!         $\begin{align}
-!           x &\equiv a_1 \pmod{n_1} \\
-!           x &\equiv a_2 \pmod{n_2} \\
-!             &{}\  \  \vdots \\
-!           x &\equiv a_k \pmod{n_k}
-!         \end{align}$
+!     $\begin{align}
+!       x &\equiv a_1 \pmod{n_1} \\
+!       x &\equiv a_2 \pmod{n_2} \\
+!         &{}\  \  \vdots \\
+!       x &\equiv a_k \pmod{n_k}
+!     \end{align}$
 ! 
 ! Furthermore, all solutions x of this system are congruent modulo the
 ! product, N = n₁n₂…n_(k).
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program to solve a system of linear congruences by applying the
 ! Chinese Remainder Theorem.
@@ -40,9 +40,9 @@
 ! Suppose, as above, that a solution is required for the system of
 ! congruences:
 ! 
-!     
+!   
 ! 
-!         x ≡ a_(i) (mod  n_(i))  for i = 1, …, k
+!     x ≡ a_(i) (mod  n_(i))  for i = 1, …, k
 ! 
 ! Again, to begin, the product N = n₁n₂…n_(k) is defined.
 ! 
@@ -55,15 +55,15 @@
 ! 
 ! Then, one solution to the system of simultaneous congruences is:
 ! 
-!     
+!   
 ! 
-!         $x = \sum_{i=1}^k a_i s_i N/n_i$
+!     $x = \sum_{i=1}^k a_i s_i N/n_i$
 ! 
 ! and the minimal solution,
 ! 
-!     
+!   
 ! 
-!         x (mod  N).
+!     x (mod  N).
 
 USING: math.algebra prettyprint ;
 { 2 3 2 } { 3 5 7 } chinese-remainder .

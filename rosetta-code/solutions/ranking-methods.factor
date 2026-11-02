@@ -7,7 +7,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! The following scores are accrued for all competitors of a competition
 ! (in best-first order):

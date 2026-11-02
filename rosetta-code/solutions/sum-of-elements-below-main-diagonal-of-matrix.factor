@@ -1,15 +1,15 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find and display the sum of elements that are below the main diagonal of
 ! a matrix.
 ! 
 ! The matrix should be a square matrix.
 ! 
-!     
+!   
 ! 
-!         ─── Matrix to be used: ───
+!     ─── Matrix to be used: ───
 ! 
 !      [[1,3,7,8,10],
 !       [2,4,16,14,4],

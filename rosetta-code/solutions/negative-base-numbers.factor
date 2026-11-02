@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Encode the decimal number 10 as negabinary (expect 11110)
 ! - Encode the decimal number 146 as negaternary (expect 21102)
@@ -14,7 +14,7 @@
 ! 
 ! extra credit
 ! 
-!     
+!   
 ! 
 ! - supply an integer, that when encoded to base -62 (or something
 !   "higher"), expresses the

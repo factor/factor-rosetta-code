@@ -41,7 +41,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Define a new type that emulates ternary logic by storing data trits.
 ! - Given all the binary logic operators of the original programming

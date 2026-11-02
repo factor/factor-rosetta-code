@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that takes a bitcoin address as argument, and checks
 ! whether or not this address is valid.
@@ -33,7 +33,7 @@
 ! 
 ! Example of a bitcoin address
 ! 
-!     
+!   
 ! 
 ! 1AGNa15ZQXAZUgFiqJ2i7Z2DPU2J6hW62i
 ! 

@@ -35,7 +35,7 @@
 ! 
 ! Further information
 ! 
-!     
+!   
 ! 
 ! - Further explanation and interpretation
 ! - Video demonstration of the funnel experiment at the Mayo Clinic.

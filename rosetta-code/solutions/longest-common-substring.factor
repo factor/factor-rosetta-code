@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function that returns the longest common substring of two
 ! strings.
@@ -20,7 +20,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Generalize Suffix Tree
 ! - Ukkonen’s Suffix Tree Construction

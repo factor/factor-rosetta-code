@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program or a script that returns the date of the last Fridays of
 ! each month of a given year.

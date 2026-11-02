@@ -49,14 +49,14 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wikipedia webpage: A* search algorithm.
 ! - An introduction to: Breadth First Search |> Dijkstra’s Algorithm |> A*
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - 15 puzzle solver
 ! - Dijkstra's algorithm

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program to parse a single five card poker hand and rank it
 ! according to this list of poker hands.
@@ -12,11 +12,11 @@
 ! 
 ! Example
 ! 
+!   
+! 
 !     
 ! 
-!         
-! 
-!             2d (two of diamonds).
+!       2d (two of diamonds).
 ! 
 ! Faces are: a, 2, 3, 4, 5, 6, 7, 8, 9, 10, j, q, k
 ! 
@@ -42,7 +42,7 @@
 ! 
 ! Examples
 ! 
-!     
+!   
 ! 
 !    2♥ 2♦ 2♣ k♣ q♦:   three-of-a-kind
 !    2♥ 5♥ 7♦ 8♣ 9♠:   high-card
@@ -59,7 +59,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! 1.  use the playing card characters introduced with Unicode 6.0
 !     (U+1F0A1 - U+1F0DE).
@@ -71,7 +71,7 @@
 ! 
 ! More extra credit examples
 ! 
-!     
+!   
 ! 
 !    joker  2♦  2♠  k♠  q♦:     three-of-a-kind
 !    joker  5♥  7♦  8♠  9♦:     straight
@@ -89,7 +89,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Playing cards
 ! - Card shuffles

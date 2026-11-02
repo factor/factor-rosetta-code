@@ -11,7 +11,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write a routine (function, procedure, whatever) to find Stirling
 !     numbers of the second kind. There are several methods to generate
@@ -31,14 +31,14 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia - Stirling numbers of the second kind
 !   - OEIS:A008277 - Stirling numbers of the second kind
 ! 
 ! Related Tasks
 ! 
-!     
+!   
 ! 
 ! - - Stirling numbers of the first kind
 !   - Bell numbers

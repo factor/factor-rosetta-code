@@ -5,9 +5,9 @@
 ! 
 ! Use the
 ! 
-!     Key 0e329232ea6d0d73
-!     to encrypt 8787878787878787
-!     and display the result 0000000000000000.
+!   Key 0e329232ea6d0d73
+!   to encrypt 8787878787878787
+!   and display the result 0000000000000000.
 ! 
 ! Bonus (optional): add standard padding to match the C#, Java, Modula-2,
 ! Kotlin, and Phix entries, so the above encrypted result would instead be

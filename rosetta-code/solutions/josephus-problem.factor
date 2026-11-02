@@ -13,7 +13,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given any n, k > 0, find out which prisoner will be the final survivor.
 ! 
@@ -27,7 +27,7 @@
 ! 
 ! Extra
 ! 
-!     
+!   
 ! 
 ! The captors may be especially kind and let m survivors free,
 ! 
@@ -38,7 +38,7 @@
 ! 
 ! Notes
 ! 
-!     
+!   
 ! 
 ! 1.  You can always play the executioner and follow the procedure exactly
 !     as described, walking around the circle, counting (and cutting off)

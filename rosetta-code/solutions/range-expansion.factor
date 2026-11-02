@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Expand the range description:
 ! 
@@ -11,7 +11,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Range extraction
 

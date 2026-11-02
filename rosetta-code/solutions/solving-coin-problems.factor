@@ -11,11 +11,11 @@
 ! Programming: Case Studies in Common Lisp, Peter Norvig lays out the
 ! STUDENT program and then challenges his readers as follows:
 ! 
-!     "Exercise 7.8 [d] Find a mathematically oriented domain that is
-!     sufficiently limited so that STUDENT can solve problems in it. The
-!     chemistry of solutions (calculating pH concentrations) might be an
-!     example. Write the necessary *student-rules*, and test the resulting
-!     program." (PAIP, p. 236)
+!   "Exercise 7.8 [d] Find a mathematically oriented domain that is
+!   sufficiently limited so that STUDENT can solve problems in it. The
+!   chemistry of solutions (calculating pH concentrations) might be an
+!   example. Write the necessary *student-rules*, and test the resulting
+!   program." (PAIP, p. 236)
 ! 
 ! There are several types of word problems commonly encountered in high
 ! school algebra, for example coin problems, age problems, distance
@@ -35,10 +35,10 @@
 ! 3.  The value of the ith type of thing is v_(i)
 ! 4.  The total number of things is:
 ! 
-!         $N = \sum^k_{i=1} n_i$
+!       $N = \sum^k_{i=1} n_i$
 ! 5.  The total value of all the things is:
 ! 
-!         $V = \sum^k_{i=1} n_i \times v_i$
+!       $V = \sum^k_{i=1} n_i \times v_i$
 ! 
 ! A typical coin problem wants us to find the n_(i), given some of the
 ! other information from the schema.

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find and show positive decimal integers divisible by their individual
 ! digits, but not divisible by the product of their digits,

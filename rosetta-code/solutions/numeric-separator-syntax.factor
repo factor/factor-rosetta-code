@@ -3,13 +3,13 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show the numeric separator syntax and describe its specification.
 ! 
 ! E.G.
 ! 
-!     
+!   
 ! 
 ! - - What separators are eligible?
 !   - Can there be multiple consecutive separators?

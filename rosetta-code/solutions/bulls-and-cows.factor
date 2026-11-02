@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a four digit random number from the digits 1 to 9, without
 ! duplication.
@@ -27,7 +27,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Bulls and cows/Player
 ! - Guess the number

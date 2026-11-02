@@ -1,6 +1,6 @@
 ! MRG32k3a Combined recursive generator (pseudo-code)
 ! 
-!     
+!   
 ! 
 !    /* Constants */
 !    /* First generator */
@@ -39,7 +39,7 @@
 ! 
 !    end class
 ! 
-!     MRG32k3a Use:
+!   MRG32k3a Use:
 ! 
 !    random_gen = instance MRG32k3a
 !    random_gen.seed(1234567)

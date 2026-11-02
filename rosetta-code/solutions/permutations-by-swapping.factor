@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate permutations of n items in which successive permutations differ
 ! from each other by the swapping of any two items.
@@ -21,7 +21,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Steinhaus–Johnson–Trotter algorithm
 ! - Johnson-Trotter Algorithm Listing All Permutations
@@ -30,7 +30,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Matrix arithmetic
 ! - Gray code

@@ -186,9 +186,9 @@
 ! come up with a solution that is idiomatic in your programming language.
 ! (See #Perl for a reference implementation.)
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable" style="white-space: nowrap;"
+!     {| class="wikitable" style="white-space: nowrap;"
 ! 
 ! |- ! Input (single string) ! Ouput (list/array of strings) |-
 ! style="vertical-align:top" | ~/{Downloads,Pictures}/*.{jpg,gif,png} |

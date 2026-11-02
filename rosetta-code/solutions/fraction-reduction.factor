@@ -24,7 +24,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find and show some fractions that can be reduced by the above "method".
 ! 
@@ -53,7 +53,7 @@
 ! 
 ! Task requirements/restrictions
 ! 
-!     
+!   
 ! 
 ! - - only proper fractions and their reductions (the result) are to be
 !     used (no vulgar fractions)
@@ -74,13 +74,13 @@
 ! 
 ! Somewhat related task
 ! 
-!     
+!   
 ! 
 ! - - Farey sequence (It concerns fractions.)
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia entry: proper and improper fractions.
 !   - Wikipedia entry: anomalous cancellation and/or accidental

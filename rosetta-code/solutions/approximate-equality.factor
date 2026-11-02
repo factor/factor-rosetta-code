@@ -9,7 +9,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a function which returns true if two floating point numbers are
 ! approximately equal.
@@ -46,8 +46,6 @@
 ! that just rounding the numbers to a fixed number of decimals should not
 ! be enough. Otherwise answers may vary and still be correct. See the
 ! Python code for one type of solution.
-! 
-! __TOC__
 
 USING: formatting generalizations kernel math math.functions ;
 

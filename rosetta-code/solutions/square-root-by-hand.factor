@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program that will calculate n decimal digits of the square root
 ! of a non─negative number.

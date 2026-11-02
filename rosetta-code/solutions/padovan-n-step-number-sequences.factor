@@ -23,10 +23,10 @@
 ! 
 ! The initial values of the sequences are:
 ! 
-!     
+!   
 ! 
-!         {| style="text-align: left;" border="4" cellpadding="2"
-!         cellspacing="2"
+!     {| style="text-align: left;" border="4" cellpadding="2"
+!     cellspacing="2"
 ! 
 ! |+ Padovan n-step sequences |- style="background-color: rgb(255, 204,
 ! 255);" ! n !! Values !! OEIS Entry |- | 2 ||
@@ -38,13 +38,13 @@
 ! of their 4th litter' |- | 5 || 1,1,1,2,3,5,8,12,19,30,47,74,116,182,286,
 ! ... || A060961: 'Number of compositions (ordered partitions) of n into
 ! 1's, 3's and 5's' |- | 6 || 1,1,1,2,3,5,8,13,20,32,51,81,129,205,326,
-! ... || |- | 7 || 1,1,1,2,3,5,8,13,21,33,53,85,136,218,349, ... ||
-! A117760: 'Expansion of 1/(1 - x - x^3 - x^5 - x^7)' |- | 8 ||
-! 1,1,1,2,3,5,8,13,21,34,54,87,140,225,362, ... || |- |}
+! ... || <not found> |- | 7 || 1,1,1,2,3,5,8,13,21,33,53,85,136,218,349,
+! ... || A117760: 'Expansion of 1/(1 - x - x^3 - x^5 - x^7)' |- | 8 ||
+! 1,1,1,2,3,5,8,13,21,34,54,87,140,225,362, ... || <not found> |- |}
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Write a function to generate the first t terms, of the first
 !     2..max_n Padovan n-step number sequences as defined above.

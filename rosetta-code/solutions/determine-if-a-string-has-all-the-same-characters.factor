@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a character string (which may be empty, or have a length of zero
 ! characters):

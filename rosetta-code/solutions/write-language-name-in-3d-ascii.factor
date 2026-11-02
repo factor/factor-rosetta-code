@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write/display a language's name in 3D ASCII.
 ! 
@@ -9,7 +9,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - draw a sphere
 ! - draw a cuboid

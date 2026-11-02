@@ -9,10 +9,10 @@
 ! 
 ! This is the item list in the butcher's shop:
 ! 
-!     
+!   
 ! 
-!         {| style="text-align: left; width: 40%;" border="4"
-!         cellpadding="2" cellspacing="2"
+!     {| style="text-align: left; width: 40%;" border="4" cellpadding="2"
+!     cellspacing="2"
 ! 
 ! |+ Table of potential knapsack items |- style="background-color:
 ! rgb(255, 204, 255);" ! Item !! Weight (kg) !! Price (Value) |- | beef ||
@@ -24,14 +24,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show which items the thief carries in his knapsack so that their total
 ! weight does not exceed 15 kg, and their total value is maximized.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Knapsack problem/Bounded
 ! - Knapsack problem/Unbounded
@@ -39,7 +39,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wikipedia article: continuous knapsack.
 

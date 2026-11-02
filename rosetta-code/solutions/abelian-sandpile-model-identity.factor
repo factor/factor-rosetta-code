@@ -48,7 +48,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Create a class or datastructure and functions to represent and operate
 !   on sandpiles.
@@ -68,7 +68,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - https://www.youtube.com/watch?v=1MtEUErz7Gg
 ! - https://en.wikipedia.org/wiki/Abelian_sandpile_model

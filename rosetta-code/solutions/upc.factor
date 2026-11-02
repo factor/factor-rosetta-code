@@ -1,6 +1,6 @@
 ! Goal
 ! 
-!     
+!   
 ! 
 ! Convert UPC bar codes to decimal.
 ! 
@@ -16,7 +16,7 @@
 ! 
 ! Sample input
 ! 
-!     
+!   
 ! 
 ! Below, we have a representation of ten different UPC-A bar codes read by
 ! our imaginary bar code reader:
@@ -37,7 +37,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement code to find the corresponding decimal representation of each,
 ! rejecting the error.
@@ -47,7 +47,7 @@
 ! 
 ! Notes
 ! 
-!     
+!   
 ! 
 ! Each digit is represented by 7 bits:
 ! 
@@ -75,7 +75,7 @@
 ! 
 ! The UPC-A bar code structure
 ! 
-!     
+!   
 ! 
 ! - - It begins with at least 9 spaces (which our imaginary bar code
 !     reader unfortunately doesn't always reproduce properly),
@@ -93,7 +93,7 @@
 ! 
 ! Verification
 ! 
-!     
+!   
 ! 
 ! Multiply each digit in the represented 12 digit sequence by the
 ! corresponding number in (3,1,3,1,3,1,3,1,3,1,3,1) and add the products.

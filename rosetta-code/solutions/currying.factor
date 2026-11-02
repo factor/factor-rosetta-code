@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a simple demonstrative example of Currying in a specific
 ! language.

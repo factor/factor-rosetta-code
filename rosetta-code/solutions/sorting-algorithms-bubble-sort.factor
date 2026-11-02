@@ -36,7 +36,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Sort an array of elements using the bubble sort algorithm. The elements
 ! must have a total order and the index of the array can be of any
@@ -45,7 +45,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - The article on Wikipedia.
 ! - Dance interpretation.

@@ -8,13 +8,13 @@
 ! 
 ! For example
 ! 
-!     
+!   
 ! 
-!     if M is 'the cat sat on the mat'
+!   if M is 'the cat sat on the mat'
 ! 
-!     And N is 'mat cat'
+!   And N is 'mat cat'
 ! 
-!     Then the result M' is 'the mat sat on the cat'.
+!   Then the result M' is 'the mat sat on the cat'.
 ! 
 ! The words not in N are left in their original positions.
 ! 
@@ -23,15 +23,15 @@
 ! 
 ! For example
 ! 
-!     
+!   
 ! 
-!     M = 'A B C A B C A B C'
+!   M = 'A B C A B C A B C'
 ! 
-!     N = 'C A C A'
+!   N = 'C A C A'
 ! 
 ! Is ordered as:
 ! 
-!     M' = 'C B A C B A A B C'
+!   M' = 'C B A C B A A B C'
 ! 
 ! Show the output, here, for at least the following inputs:
 ! 
@@ -45,7 +45,7 @@
 ! 
 ! Cf
 ! 
-!     
+!   
 ! 
 ! - Sort disjoint sublist
 ! 

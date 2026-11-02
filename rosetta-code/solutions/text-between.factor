@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Get the text in a string that occurs between a start and end delimiter.
 ! Programs will be given a search string, a start delimiter string, and an

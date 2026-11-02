@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given two strings of different length, determine which string is longer
 ! or shorter. Print both strings and their length, one on each line. Print
@@ -12,7 +12,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Given more than two strings:
 ! 

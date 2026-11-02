@@ -1,6 +1,6 @@
 ! Description
 ! 
-!     
+!   
 ! 
 ! The Chaocipher was invented by J.F.Byrne in 1918 and, although simple by
 ! modern cryptographic standards, does not appear to have been broken
@@ -11,7 +11,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Code the algorithm in your language and test that it works with the
 ! plaintext 'WELLDONEISBETTERTHANWELLSAID' used in the paper itself.

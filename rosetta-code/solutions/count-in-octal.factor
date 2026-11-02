@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Produce a sequential count in octal, starting at zero, and using an
 ! increment of a one for each consecutive number.
@@ -11,7 +11,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Integer sequence is a similar task without the use of octal numbers.
 ! 

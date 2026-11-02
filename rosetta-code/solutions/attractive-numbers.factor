@@ -3,20 +3,20 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! The number 20, whose prime decomposition is 2 × 2 × 5, is an attractive
 ! number because the number of its prime factors (3) is also prime.
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show sequence items up to 120.
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - - The OEIS entry: A063989: Numbers with a prime number of prime
 !     divisors.

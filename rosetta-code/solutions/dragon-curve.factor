@@ -28,8 +28,8 @@
 !                                    /     \
 !     *---L---*      expands to     *       *
 ! 
-!     The co-routines dcl and dcr in various examples do this recursively
-!     to a desired expansion level.
+!   The co-routines dcl and dcr in various examples do this recursively to
+!   a desired expansion level.
 ! 
 ! - The curl direction right or left can be a parameter instead of two
 !   separate routines.
@@ -44,11 +44,10 @@
 !                                v v
 !                                 *
 ! 
-!     This can be seen in the SVG example. This is best suited to off-line
-!     drawing since the reversal in the second half means the drawing
-!     jumps backward and forward (in binary reflected Gray code order)
-!     which is not very good for a plotter or for drawing progressively on
-!     screen.
+!   This can be seen in the SVG example. This is best suited to off-line
+!   drawing since the reversal in the second half means the drawing jumps
+!   backward and forward (in binary reflected Gray code order) which is
+!   not very good for a plotter or for drawing progressively on screen.
 ! 
 ! - Successive approximation repeatedly re-writes each straight line as
 !   two new segments at a right angle,
@@ -63,14 +62,14 @@
 !                           \ /      if N even 
 !                            *
 ! 
-!     Numbering from the start of the curve built so far, if the segment
-!     is at an odd position then the bend introduced is on the right side.
-!     If the segment is an even position then on the left. The process is
-!     then repeated on the new doubled list of segments. This constructs a
-!     full set of line segments before any drawing.
+!   Numbering from the start of the curve built so far, if the segment is
+!   at an odd position then the bend introduced is on the right side. If
+!   the segment is an even position then on the left. The process is then
+!   repeated on the new doubled list of segments. This constructs a full
+!   set of line segments before any drawing.
 ! 
-!     The effect of the splitting is a kind of bottom-up version of the
-!     recursions. See the Asymptote example for code doing this.
+!   The effect of the splitting is a kind of bottom-up version of the
+!   recursions. See the Asymptote example for code doing this.
 ! 
 ! - Iteratively the curve always turns 90-degrees left or right at each
 !   point. The direction of the turn is given by the bit above the lowest
@@ -84,16 +83,15 @@
 !     AboveMask = LowMask + 1    # eg. giving 0000100000
 !     BitAboveLowestOne = n BITAND AboveMask
 ! 
-!     The first turn is at n=1, so reckon the curve starting at the origin
-!     as n=0 then a straight line segment to position n=1 and turn there.
+!   The first turn is at n=1, so reckon the curve starting at the origin
+!   as n=0 then a straight line segment to position n=1 and turn there.
 ! 
-!     If you prefer to reckon the first turn as n=0 then take the bit
-!     above the lowest 0-bit instead. This works because "...10000" minus
-!     1 is "...01111" so the lowest 0 in n-1 is where the lowest 1 in n
-!     is.
+!   If you prefer to reckon the first turn as n=0 then take the bit above
+!   the lowest 0-bit instead. This works because "...10000" minus 1 is
+!   "...01111" so the lowest 0 in n-1 is where the lowest 1 in n is.
 ! 
-!     Going by turns suits turtle graphics such as Logo or a plotter
-!     drawing with a pen and current direction.
+!   Going by turns suits turtle graphics such as Logo or a plotter drawing
+!   with a pen and current direction.
 ! 
 ! - If a language doesn't maintain a "current direction" for drawing then
 !   you can always keep that separately and apply turns by
@@ -106,9 +104,9 @@
 !           ^  ^    ^ ^     4 places where change bit value
 !                           so direction=4*90degrees=East
 ! 
-!     This can be calculated by counting the number of 1 bits in "n XOR (n
-!     RIGHTSHIFT 1)" since such a shift and xor leaves a single 1 bit at
-!     each position where two adjacent bits differ.
+!   This can be calculated by counting the number of 1 bits in "n XOR (n
+!   RIGHTSHIFT 1)" since such a shift and xor leaves a single 1 bit at
+!   each position where two adjacent bits differ.
 ! 
 ! - Absolute X,Y coordinates of a point n can be calculated in complex
 !   numbers by some powers (i+1)^k and add/subtract/rotate. This is done
@@ -120,18 +118,18 @@
 !   building an entire image before printing. See M4 for an example of
 !   this.
 ! 
-!     A predicate works by dividing out complex number i+1 until reaching
-!     the origin, so it takes roughly a bit at a time from X and Y is thus
-!     quite efficient. Why it works is slightly subtle but the calculation
-!     is not difficult. (Check segment by applying an offset to move X,Y
-!     to an "even" position before dividing i+1. Check vertex by whether
-!     the segment either East or West is on the curve.)
+!   A predicate works by dividing out complex number i+1 until reaching
+!   the origin, so it takes roughly a bit at a time from X and Y is thus
+!   quite efficient. Why it works is slightly subtle but the calculation
+!   is not difficult. (Check segment by applying an offset to move X,Y to
+!   an "even" position before dividing i+1. Check vertex by whether the
+!   segment either East or West is on the curve.)
 ! 
-!     The number of steps in the predicate corresponds to doublings of the
-!     curve, so stopping the check at say 8 steps can limit the curve
-!     drawn to 2^8=256 points. The offsets arising in the predicate are
-!     bits of n the segment number, so can note those bits to calculate n
-!     and limit to an arbitrary desired length or sub-section.
+!   The number of steps in the predicate corresponds to doublings of the
+!   curve, so stopping the check at say 8 steps can limit the curve drawn
+!   to 2^8=256 points. The offsets arising in the predicate are bits of n
+!   the segment number, so can note those bits to calculate n and limit to
+!   an arbitrary desired length or sub-section.
 ! 
 ! - As a Lindenmayer system of expansions. The simplest is two symbols F
 !   and S both straight lines, as used by the PGF code.

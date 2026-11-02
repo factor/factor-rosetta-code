@@ -9,7 +9,7 @@
 ! 
 ! Links
 ! 
-!     
+!   
 ! 
 ! - OEIS Independent domination number for queens
 ! - OEIS Independent domination number for knights

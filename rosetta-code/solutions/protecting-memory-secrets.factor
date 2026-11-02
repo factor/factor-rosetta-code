@@ -38,7 +38,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! The basic task is:
 ! 
@@ -99,7 +99,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! If anyone has examples of similar regulations or standards please add
 ! them below or on the talk page.

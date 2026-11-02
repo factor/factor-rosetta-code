@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how to specify and execute a short program in the language from a
 ! command shell, where the input to the command shell is only one line in

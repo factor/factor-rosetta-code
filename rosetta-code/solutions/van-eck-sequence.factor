@@ -9,49 +9,49 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! Using A:
 ! 
-!     0
+!   0
 ! 
 ! Using B:
 ! 
-!     0 0
+!   0 0
 ! 
 ! Using C:
 ! 
-!     0 0 1
+!   0 0 1
 ! 
 ! Using B:
 ! 
-!     0 0 1 0
+!   0 0 1 0
 ! 
 ! Using C: (zero last occurred two steps back - before the one)
 ! 
-!     0 0 1 0 2
+!   0 0 1 0 2
 ! 
 ! Using B:
 ! 
-!     0 0 1 0 2 0
+!   0 0 1 0 2 0
 ! 
 ! Using C: (two last occurred two steps back - before the zero)
 ! 
-!     0 0 1 0 2 0 2 2
+!   0 0 1 0 2 0 2 2
 ! 
 ! Using C: (two last occurred one step back)
 ! 
-!     0 0 1 0 2 0 2 2 1
+!   0 0 1 0 2 0 2 2 1
 ! 
 ! Using C: (one last appeared six steps back)
 ! 
-!     0 0 1 0 2 0 2 2 1 6
+!   0 0 1 0 2 0 2 2 1 6
 ! 
 ! ...
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create a function/procedure/method/subroutine/... to generate the
 !     Van Eck sequence of numbers.
@@ -63,7 +63,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Don't Know (the Van Eck Sequence) - Numberphile video.
 ! - Wikipedia Article: Van Eck's Sequence.

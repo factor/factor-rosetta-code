@@ -2,15 +2,15 @@
 ! 
 ! The Pfaffian is given by
 ! 
-!     
+!   
 ! 
-!         $\operatorname{Pf}(A) = \frac{1}{2^n n!} \sum_{\sigma \in S_{2n}} \sgn(\sigma) \prod_{i=1}^n A_{\sigma(2i-1), \sigma(2i)}$
+!     $\operatorname{Pf}(A) = \frac{1}{2^n n!} \sum_{\sigma \in S_{2n}} \sgn(\sigma) \prod_{i=1}^n A_{\sigma(2i-1), \sigma(2i)}$
 ! 
 ! while the hfaffian is given by
 ! 
-!     
+!   
 ! 
-!         $\operatorname{hf}(A) = \frac{1}{2^n n!} \sum_{\sigma \in S_{2n}} \prod_{i=1}^n A_{\sigma(2i-1), \sigma(2i)}$
+!     $\operatorname{hf}(A) = \frac{1}{2^n n!} \sum_{\sigma \in S_{2n}} \prod_{i=1}^n A_{\sigma(2i-1), \sigma(2i)}$
 ! 
 ! In both cases the sum is over the permutations σ of the symmetric group
 ! on 2n elements. (A permutation's sign is 1 if there are an even number
@@ -22,7 +22,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Permutations by swapping
 ! - Determinant_and_permanent

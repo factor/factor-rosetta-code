@@ -8,11 +8,11 @@
 ! 
 ! The Jaro similarity d_(j) of two given strings s₁ and s₂ is
 ! 
-!     $d_j = \left\{
+!   $d_j = \left\{
 ! 
-!     \begin{array}{l l}
-!       0 & \text{if }m = 0\\
-!       \frac{1}{3}\left(\frac{m}{|s_1|} + \frac{m}{|s_2|} + \frac{m-t}{m}\right) & \text{otherwise} \end{array} \right.$
+!   \begin{array}{l l}
+!     0 & \text{if }m = 0\\
+!     \frac{1}{3}\left(\frac{m}{|s_1|} + \frac{m}{|s_2|} + \frac{m-t}{m}\right) & \text{otherwise} \end{array} \right.$
 ! 
 ! Where:
 ! 
@@ -39,7 +39,7 @@
 ! 
 ! We find a Jaro score of:
 ! 
-!     $d_j = \frac{1}{3}\left(\frac{4}{6} + \frac{4}{5} + \frac{4-0}{4}\right) = 0.822$
+!   $d_j = \frac{1}{3}\left(\frac{4}{6} + \frac{4}{5} + \frac{4-0}{4}\right) = 0.822$
 ! 
 ! Task
 ! 

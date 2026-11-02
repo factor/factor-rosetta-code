@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the Sieve of Eratosthenes algorithm, with the only allowed
 ! optimization that the outer loop can stop at the square root of the
@@ -20,14 +20,14 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! - It is important that the sieve algorithm be the actual algorithm used
 !   to find prime numbers for the task.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Emirp primes
 ! - count in factors

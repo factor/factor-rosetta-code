@@ -1,6 +1,6 @@
 ! Definitions
 ! 
-!     
+!   
 ! 
 ! - - A safe prime is a prime p and where (p-1)/2 is also prime.
 !   - The corresponding prime (p-1)/2 is known as a Sophie Germain prime.
@@ -9,7 +9,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Find and display (on one line) the first 35 safe primes.
 !   - Find and display the count of the safe primes below 1,000,000.
@@ -23,13 +23,13 @@
 ! 
 ! Related Task
 ! 
-!     
+!   
 ! 
 ! - - strong and weak primes.
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - The OEIS article: safe primes.
 !   - The OEIS article: unsafe primes.

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Sort an array of positive integers using the Bead Sort Algorithm.
 ! 

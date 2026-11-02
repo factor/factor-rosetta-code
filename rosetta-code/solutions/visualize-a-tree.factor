@@ -13,7 +13,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program to produce a visual representation of some tree.
 ! 

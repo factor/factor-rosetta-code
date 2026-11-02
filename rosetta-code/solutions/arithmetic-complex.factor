@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Show addition, multiplication, negation, and inversion of complex
 !   numbers in separate functions. (Subtraction and division operations

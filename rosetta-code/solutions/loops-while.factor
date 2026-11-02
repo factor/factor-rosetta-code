@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Start an integer value at 1024.
 ! 
@@ -11,7 +11,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Loop over multiple arrays simultaneously
 ! - Loops/Break

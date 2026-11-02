@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Provide code that produces a list of numbers which is the n^(th) order
 ! forward difference, given a non-negative integer (specifying the order)
@@ -41,19 +41,19 @@
 ! 
 ! Algorithmic options
 ! 
-!     
+!   
 ! 
 ! - Iterate through all previous forward differences and re-calculate a
 !   new array each time.
 ! - Use this formula (from Wikipedia):
 ! 
-!     
+!   
 ! 
-!         $\Delta^n [f](x)= \sum_{k=0}^n {n \choose k} (-1)^{n-k} f(x+k)$
+!     $\Delta^n [f](x)= \sum_{k=0}^n {n \choose k} (-1)^{n-k} f(x+k)$
 ! 
-!     
+!   
 ! 
-!         (Pascal's Triangle may be useful for this option.)
+!     (Pascal's Triangle may be useful for this option.)
 
 USING: kernel math math.vectors sequences ;
 IN: rosetacode

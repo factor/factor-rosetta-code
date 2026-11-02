@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a player of the Bulls and Cows game, rather than a scorer. The
 ! player should give intermediate answers that respect the scores to
@@ -16,7 +16,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Bulls and cows
 ! - Guess the number

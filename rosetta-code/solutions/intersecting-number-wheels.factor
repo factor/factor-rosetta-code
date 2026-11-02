@@ -5,18 +5,18 @@
 ! 
 ! A number is generated/yielded from a named wheel by:
 ! 
-!     1. Starting at the first value of the named wheel and advancing
-!     through subsequent values and wrapping around to the first value to
-!     form a "wheel":
+!   1. Starting at the first value of the named wheel and advancing
+!   through subsequent values and wrapping around to the first value to
+!   form a "wheel":
 ! 
-!         1.a If the value is a number, yield it.
-!         1.b If the value is a name, yield the next value from the named
-!         wheel
-!         1.c Advance the position of this wheel.
+!     1.a If the value is a number, yield it.
+!     1.b If the value is a name, yield the next value from the named
+!     wheel
+!     1.c Advance the position of this wheel.
 ! 
 ! Given the wheel
 ! 
-!     A: 1 2 3
+!   A: 1 2 3
 ! 
 ! the number 1 is first generated, then 2, then 3, 1, 2, 3, 1, ...
 ! 
@@ -26,7 +26,7 @@
 ! 
 ! Examples
 ! 
-!     
+!   
 ! 
 ! Given the wheels:
 ! 
@@ -53,7 +53,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate and show the first twenty terms of the sequence of numbers
 ! generated from these groups:

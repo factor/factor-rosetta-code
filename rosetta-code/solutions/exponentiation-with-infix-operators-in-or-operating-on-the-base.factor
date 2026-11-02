@@ -18,7 +18,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! A negative five raised to the 3^(rd) power could be specified as:
 ! 
@@ -31,7 +31,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - compute and display exponentiation with a possible infix operator,
 !     whether specified and/or implied/inferred.
@@ -57,7 +57,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Exponentiation order
 ! - Exponentiation operator
@@ -67,7 +67,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Wikipedia: Order of operations in Programming languages
 

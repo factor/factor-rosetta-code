@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Let (p₁, p₂) are neighbor primes.
 ! 

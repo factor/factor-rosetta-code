@@ -18,7 +18,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given the starting point of a range, the ending point of a range, and
 ! the "secret value", implement a binary search through a sorted integer
@@ -213,13 +213,13 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - Guess the number/With Feedback (Player)
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - wp:Binary search algorithm
 !   - Extra, Extra - Read All About It: Nearly All Binary Searches and

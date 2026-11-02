@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Implement queue operations for Fibonacci heaps. Where H is heap, x
 !   node with data value, k integer.

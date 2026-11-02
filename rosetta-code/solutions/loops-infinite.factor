@@ -1,12 +1,12 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Print out SPAM followed by a newline in an infinite loop.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Loop over multiple arrays simultaneously
 ! - Loops/Break

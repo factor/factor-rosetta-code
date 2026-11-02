@@ -1,6 +1,6 @@
 ! Task details
 ! 
-!     
+!   
 ! 
 ! - Use your language's random number generator to create a
 !   function/method/subroutine/... randN that returns a one or a zero, but

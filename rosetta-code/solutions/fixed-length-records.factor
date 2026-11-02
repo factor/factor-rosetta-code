@@ -16,7 +16,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program to read 80 column fixed length records (no newline
 ! terminators (but newline characters allowed in the data)) and then write
@@ -37,7 +37,7 @@
 ! 
 ! Sample data
 ! 
-!     
+!   
 ! 
 ! To create the sample input file, use an editor that supports fixed
 ! length records or use a conversion utility. For instance, most GNU/Linux

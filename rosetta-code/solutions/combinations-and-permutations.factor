@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the combination (^(n)C_(k)) and permutation (^(n)P_(k))
 ! operators in the target language:
@@ -22,7 +22,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Evaluate binomial coefficients
 

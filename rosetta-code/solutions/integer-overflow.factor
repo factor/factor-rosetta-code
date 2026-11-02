@@ -14,7 +14,7 @@
 ! 
 ! Definition
 ! 
-!     
+!   
 ! 
 ! An integer overflow happens when the result of a computation does not
 ! fit into the fixed size integer. The result can be too small or too big
@@ -22,7 +22,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! When a language has fixed size integer types, create a program that does
 ! arithmetic computations for the fixed size integers of the language.
@@ -33,9 +33,9 @@
 ! 
 ! For 32-bit signed integers:
 ! 
-!     
+!   
 ! 
-!         {|class="wikitable"
+!     {|class="wikitable"
 ! 
 ! !Expression !Result that does not fit into a 32-bit signed integer |- |
 ! -(-2147483647-1) | 2147483648 |- | 2000000000 + 2000000000 | 4000000000
@@ -44,9 +44,9 @@
 ! 
 ! For 64-bit signed integers:
 ! 
-!     
+!   
 ! 
-!         {|class="wikitable"
+!     {|class="wikitable"
 ! 
 ! !Expression !Result that does not fit into a 64-bit signed integer |- |
 ! -(-9223372036854775807-1) | 9223372036854775808 |- |
@@ -57,9 +57,9 @@
 ! 
 ! For 32-bit unsigned integers:
 ! 
-!     
+!   
 ! 
-!         {|class="wikitable"
+!     {|class="wikitable"
 ! 
 ! !Expression !Result that does not fit into a 32-bit unsigned integer |-
 ! | -4294967295 | -4294967295 |- | 3000000000 + 3000000000 | 6000000000 |-
@@ -68,9 +68,9 @@
 ! 
 ! For 64-bit unsigned integers:
 ! 
-!     
+!   
 ! 
-!         {|class="wikitable"
+!     {|class="wikitable"
 ! 
 ! !Expression !Result that does not fit into a 64-bit unsigned integer |-
 ! | -18446744073709551615 | -18446744073709551615 |- |
@@ -80,7 +80,7 @@
 ! 
 ! Notes
 ! 
-!     
+!   
 ! 
 ! - - When the integer overflow does trigger an exception show how the
 !     exception is caught.

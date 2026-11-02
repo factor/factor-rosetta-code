@@ -1,6 +1,6 @@
 ! Introduction
 ! 
-!     
+!   
 ! 
 ! When formatting a page for display, Mediawiki allows the page to include
 ! bold and italic text by placing the bold/italic text within paired
@@ -17,7 +17,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! The task is to write a syntax highlighter that given a source in your
 ! language will output a wiki formatted version of the source with the
@@ -38,7 +38,7 @@
 ! 
 ! Presenting your source
 ! 
-!     
+!   
 ! 
 ! Instead of showing your source within syntaxhighlight tags and having a
 ! separate output block, just show the source that would be output from
@@ -48,7 +48,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! https://www.mediawiki.org/wiki/Help:Formatting
 

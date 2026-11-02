@@ -47,7 +47,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - The command table needn't be verified/validated.
 !   - Write a function to validate if the user "words" (given as input)
@@ -61,7 +61,7 @@
 ! 
 ! An example test case to be used for this task
 ! 
-!     
+!   
 ! 
 ! For a user string of:
 ! 

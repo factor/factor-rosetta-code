@@ -6,7 +6,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate the steps involved in causing the application to run a main
 ! procedure, rather than an event driven window at startup.

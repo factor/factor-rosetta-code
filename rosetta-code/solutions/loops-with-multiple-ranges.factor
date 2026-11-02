@@ -28,7 +28,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Simulate/translate the above PL/I program snippet as best as possible in
 ! your language, with particular emphasis on the do loop construct.
@@ -72,7 +72,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Loop over multiple arrays simultaneously
 ! - Loops/Break

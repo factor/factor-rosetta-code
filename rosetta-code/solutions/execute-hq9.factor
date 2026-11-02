@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a HQ9+ interpreter or compiler.
 

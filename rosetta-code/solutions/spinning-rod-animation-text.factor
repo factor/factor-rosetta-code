@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! An animation with the following frames in the following order (if
 ! certain characters aren't available or can't be used correctly in the

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how to represent the boolean states "true" and "false" in a
 ! language.
@@ -9,7 +9,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Logical operations
 ! 

@@ -23,7 +23,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create a function/method/routine called one_of_n that given n, the
 !     number of actual lines in a file, follows the algorithm above to

@@ -9,7 +9,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Discuss and demonstrate its unicode awareness and capabilities.
 ! 
@@ -27,14 +27,14 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! This task is a bit unusual in that it encourages general discussion
 ! rather than clever coding.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Unicode variable names
 ! - Terminal control/Display an extended character

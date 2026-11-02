@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Strip control codes and extended characters from a string.
 ! 

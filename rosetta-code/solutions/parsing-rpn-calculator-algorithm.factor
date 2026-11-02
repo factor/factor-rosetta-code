@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a stack-based evaluator for an expression in reverse Polish
 ! notation (RPN) that also shows the changes in the stack as each
@@ -17,14 +17,14 @@
 ! 
 ! Notes
 ! 
-!     
+!   
 ! 
 ! -  ^ means exponentiation in the expression above.
 ! -  / means division.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Parsing/Shunting-yard algorithm for a method of generating an RPN from
 !   an infix expression.

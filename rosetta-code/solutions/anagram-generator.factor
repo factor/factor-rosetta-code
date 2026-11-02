@@ -22,11 +22,11 @@
 ! 
 ! Use a publicly and freely available word file as its word list.
 ! 
-!     unixdict.txt from http://wiki.puzzlers.org is a popular, though
-!     somewhat limited choice.
-!     A much larger word list: words_alpha.txt file from
-!     https://github.com/dwyl/english-words. May be better as far as
-!     coverage but may return unreasonably large results.
+!   unixdict.txt from http://wiki.puzzlers.org is a popular, though
+!   somewhat limited choice.
+!   A much larger word list: words_alpha.txt file from
+!   https://github.com/dwyl/english-words. May be better as far as
+!   coverage but may return unreasonably large results.
 ! 
 ! Use your program to generate anagrams of some words / phrases / names of
 ! your choice. No need to show all the output. It is likely to be very
@@ -35,8 +35,8 @@
 ! 
 ! For example, show the seed and one or two of the best anagrams:
 ! 
-!     Purefox -> Fur expo
-!     Petelomax -> Metal expo
+!   Purefox -> Fur expo
+!   Petelomax -> Metal expo
 ! 
 ! .oO(hmmm. Seem to be detecting something of a trend here...)
 

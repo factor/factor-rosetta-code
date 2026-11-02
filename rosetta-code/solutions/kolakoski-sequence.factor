@@ -1,13 +1,13 @@
 ! The Kolakoski sequence is an infinite sequence of natural numbers,
 ! (excluding zero); with the property that:
 ! 
-!     if you form a new sequence from the counts of runs of the same
-!     number in the first sequence, this new sequence is the same as the
-!     first sequence.
+!   if you form a new sequence from the counts of runs of the same number
+!   in the first sequence, this new sequence is the same as the first
+!   sequence.
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! This is not a Kolakoski sequence:
 ! 
@@ -17,8 +17,8 @@
 ! (RLE); but a true RLE also gives the character that each run encodes),
 ! is calculated like this:
 ! 
-!     Starting from the leftmost number of the sequence we have 2 ones,
-!     followed by 3 twos, then 1 ones, 2 twos, 1 one, ...
+!   Starting from the leftmost number of the sequence we have 2 ones,
+!   followed by 3 twos, then 1 ones, 2 twos, 1 one, ...
 ! 
 ! The above gives the RLE of:
 ! 
@@ -29,7 +29,7 @@
 ! 
 ! Creating a Kolakoski sequence
 ! 
-!     
+!   
 ! 
 ! Lets start with the two numbers (1, 2) that we will cycle through; i.e.
 ! they will be used in this order:
@@ -74,7 +74,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create a routine/proceedure/function/... that given an initial
 !     ordered list/array/tuple etc of the natural numbers (1, 2), returns

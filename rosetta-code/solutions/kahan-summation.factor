@@ -1,11 +1,11 @@
 ! :;Note to language implementers:
 ! 
-!     This task touches on the details of number representation that is
-!     often hidden for convenience in many programming languages. You may
-!     need to understand the difference between precision in calculations
-!     and precision in presenting answers for example; or understand
-!     decimal arithmetic as distinct from the usual binary based floating
-!     point schemes used in many languages.
+!   This task touches on the details of number representation that is
+!   often hidden for convenience in many programming languages. You may
+!   need to understand the difference between precision in calculations
+!   and precision in presenting answers for example; or understand decimal
+!   arithmetic as distinct from the usual binary based floating point
+!   schemes used in many languages.
 ! 
 ! The Kahan summation algorithm is a method of summing a series of numbers
 ! represented in a limited precision in a way that minimises the loss of
@@ -52,7 +52,7 @@
 ! 
 ! In general
 ! 
-!     
+!   
 ! 
 ! - Show all output on this page.
 ! - If the floating point calculations are used then answers may depend on

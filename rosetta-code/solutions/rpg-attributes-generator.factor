@@ -23,7 +23,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that:
 ! 

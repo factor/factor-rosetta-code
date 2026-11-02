@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a Vigenère cypher, both encryption and decryption.
 ! 
@@ -12,7 +12,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Caesar cipher
 ! - Rot-13

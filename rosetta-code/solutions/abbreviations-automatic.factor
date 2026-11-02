@@ -137,7 +137,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - The list of words (days of the week) needn't be verified/validated.
 !   - Write a function to find the (numeric) minimum length abbreviation

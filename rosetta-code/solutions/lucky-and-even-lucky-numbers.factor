@@ -124,7 +124,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - This task is related to the Sieve of Eratosthenes task.
 ! - OEIS Wiki Lucky numbers.

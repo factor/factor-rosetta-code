@@ -95,7 +95,5 @@
 ! - Code Generator task
 ! - Virtual Machine Interpreter task
 ! - AST Interpreter task
-! 
-! __TOC__
 
 

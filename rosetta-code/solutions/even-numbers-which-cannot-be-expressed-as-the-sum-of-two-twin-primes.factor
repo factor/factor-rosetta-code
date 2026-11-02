@@ -14,10 +14,10 @@
 ! - Find and display the positive even integers that cannot be expressed
 !   as the sum of two twin primes, up to a limit of 5,000.
 ! 
-!     
+!   
 ! 
-!         E.g.: The first 3 twin primes are 3, 5 and 7, so 6 (3+3), 8
-!         (5+3) and 10 (5+5 or 7+3) can be formed but 2 and 4 cannot.
+!     E.g.: The first 3 twin primes are 3, 5 and 7, so 6 (3+3), 8 (5+3)
+!     and 10 (5+5 or 7+3) can be formed but 2 and 4 cannot.
 ! 
 ! - Show the numbers that cannot be formed by summing two twin primes when
 !   1 is treated as a prime (and so a twin prime).

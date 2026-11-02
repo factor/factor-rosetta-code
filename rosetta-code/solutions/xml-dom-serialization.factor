@@ -1,10 +1,11 @@
 ! Create a simple DOM and having it serialize to:
 ! 
-!  
-!      
+!  <?xml version="1.0" ?>
+!  <root>
+!      <element>
 !          Some text here
-!      
-!  
+!      </element>
+!  </root>
 
 USING: xml.syntax xml.writer ;
 

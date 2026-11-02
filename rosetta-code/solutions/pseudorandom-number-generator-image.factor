@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that creates an image from a Pseudorandom Number
 ! Generator (PRNG) algorithm's output. The image can have the following
@@ -20,7 +20,7 @@
 ! 
 ! Possible Output
 ! 
-!     
+!   
 ! 
 ! https://www.random.org/analysis/randbitmap-rdo.png
 ! 
@@ -28,7 +28,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Blum Blum Shub 1.
 ! - Blum-Micali Algorithm: 2.

@@ -24,7 +24,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a outline with at least 3 levels of indentation, for example:
 ! 
@@ -75,7 +75,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Use background color to distinguish the main stages of your outline, so
 ! that the subtree of each node at level two is consistently colored, and
@@ -83,7 +83,7 @@
 ! 
 ! Output
 ! 
-!     
+!   
 ! 
 ! Display your nested table on this page.
 

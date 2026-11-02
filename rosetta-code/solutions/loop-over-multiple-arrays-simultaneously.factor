@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Loop over multiple arrays (or lists or tuples or whatever they're called
 ! in your language) and display the i ^(th) element of each.
@@ -25,7 +25,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Loop over multiple arrays simultaneously
 ! - Loops/Break

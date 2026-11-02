@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function that given X returns a boolean value of whether X is a
 ! Practical number, (using the above method).
@@ -17,8 +17,8 @@
 !   inclusive.
 ! - Show that the Practical numbers in the above range start and end in:
 ! 
-!     1, 2, 4, 6, 8, 12, 16, 18, 20, 24 ... 288, 294, 300, 304, 306, 308,
-!     312, 320, 324, 330
+!   1, 2, 4, 6, 8, 12, 16, 18, 20, 24 ... 288, 294, 300, 304, 306, 308,
+!   312, 320, 324, 330
 ! 
 ! Stretch Goal
 ! 

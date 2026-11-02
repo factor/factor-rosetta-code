@@ -3,13 +3,13 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Display the string Goodbye, World! without a trailing newline.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Hello world/Graphical
 ! - Hello world/Line Printer

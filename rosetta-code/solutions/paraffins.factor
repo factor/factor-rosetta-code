@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Enumerate, without repetitions and in order of increasing size, all
 ! possible paraffin molecules (also known as alkanes).
@@ -35,7 +35,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! With n = 3 there is only one way of linking the carbons despite the
 ! different orientations the molecule can be drawn; and with n = 4 there
@@ -59,10 +59,10 @@
 ! 
 ! The sequence of those results is visible in the OEIS entry:
 ! 
-!     
+!   
 ! 
-!         A00602: number of n-node unrooted quartic trees; number of
-!         n-carbon alkanes C(n)H(2n+2) ignoring stereoisomers.
+!     A00602: number of n-node unrooted quartic trees; number of n-carbon
+!     alkanes C(n)H(2n+2) ignoring stereoisomers.
 ! 
 ! The sequence is (the index starts from zero, and represents the number
 ! of carbon atoms):
@@ -74,7 +74,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Show the paraffins in some way.
 ! 
@@ -117,7 +117,7 @@
 ! 
 ! Links
 ! 
-!     
+!   
 ! 
 ! - A paper that explains the problem and its solution in a functional
 !   language:

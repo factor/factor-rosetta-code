@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Produce a spiral array.
 ! 
@@ -20,7 +20,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Zig-zag matrix
 ! - Identity_matrix

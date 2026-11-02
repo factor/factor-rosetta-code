@@ -146,7 +146,7 @@
 ! 
 ! A simple example virtual machine
 ! 
-!     
+!   
 ! 
 !     def run_vm(data_size)
 !         int stack[data_size + 1000]
@@ -200,7 +200,5 @@
 ! - Syntax Analyzer task
 ! - Code Generator task
 ! - AST Interpreter task
-! 
-! __TOC__
 
 

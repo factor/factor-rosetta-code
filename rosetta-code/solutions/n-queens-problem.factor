@@ -10,7 +10,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - A* search algorithm
 ! - Solve a Hidato puzzle

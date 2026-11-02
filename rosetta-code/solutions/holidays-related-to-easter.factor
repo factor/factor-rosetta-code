@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Calculate the dates of:
 ! 
@@ -18,7 +18,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! From the year 325 CE on, Easter Sunday has been defined as the first
 ! Sunday after the first full moon on or after the day of the March
@@ -72,7 +72,7 @@
 ! 
 ! Test values of Easter dates
 ! 
-!     
+!   
 ! 
 !   Year   Orthodox   Catholic   Calendar
 !   ------ ---------- ---------- ----------

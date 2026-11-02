@@ -2,7 +2,7 @@
 ! 
 ! About the task
 ! 
-!     
+!   
 ! 
 ! We can see that some features of factorial numbers (the series of
 ! numbers 1!, 2!, 3!, ...) come about because such numbers are the product
@@ -30,7 +30,7 @@
 ! 
 ! The task
 ! 
-!     
+!   
 ! 
 ! Create a function to calculate the mean of the proportions of 0 digits
 ! out of the total digits found in each factorial product from 1! to N!.
@@ -51,7 +51,7 @@
 ! 
 ! Stretch task
 ! 
-!     
+!   
 ! 
 ! Find the N in 10000 < N < 50000 where the mean of the proportions of 0
 ! digits in the factorial products from 1 to N permanently falls below

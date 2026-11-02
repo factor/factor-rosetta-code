@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given n, find the n^(th) roots of unity.
 

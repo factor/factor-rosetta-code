@@ -15,8 +15,8 @@
 ! 
 ! Task
 ! 
-!     1.  Write a program to generate and display here the first n lines
-!         of a Floyd triangle.
+!   1.  Write a program to generate and display here the first n lines of
+!       a Floyd triangle.
 ! 
 ! (Use n=5 and n=14 rows).
 ! 

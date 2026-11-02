@@ -1,12 +1,12 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Display the string Hello world! on a text console.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Hello world/Graphical
 ! - Hello world/Line Printer

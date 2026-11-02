@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Similar to the task GUI component interaction, write a program that
 ! presents a form with three components to the user:

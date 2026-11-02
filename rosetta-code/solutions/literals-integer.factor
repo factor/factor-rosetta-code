@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how integer literals can be expressed in as many bases as your
 ! language allows.
@@ -17,7 +17,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Literals/Floating point
 ! 

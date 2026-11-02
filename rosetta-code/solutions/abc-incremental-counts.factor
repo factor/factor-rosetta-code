@@ -22,8 +22,8 @@
 ! words following the above description.
 ! 
 ! Using the unixdict.txt from http://wiki.puzzlers.org, find and display
-! the words that are identified as incremental count words, or if no words
-! are found that match.
+! the words that are identified as incremental count words, or <none> if
+! no words are found that match.
 ! 
 ! - - Search for words containing (a b c) with a minimum count of 1
 !   - Search for words containing (t h e) with a minimum count of 1

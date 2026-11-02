@@ -12,7 +12,7 @@
 ! 
 ! For instance
 ! 
-!     
+!   
 ! 
 ! If the vertices of the graph represent cities and edge path costs
 ! represent driving distances between pairs of cities connected by a
@@ -27,7 +27,7 @@
 ! 
 ! Important note
 ! 
-!     
+!   
 ! 
 ! The inputs to Dijkstra's algorithm are a directed and weighted graph
 ! consisting of 2 or more nodes, generally represented by:
@@ -42,7 +42,7 @@
 ! 
 ! An example, starting with
 ! 
-!     
+!   
 ! 
 !                                              a──►b,  cost=7,   lastNode=a  
 !                                              a──►c,  cost=9,   lastNode=a 
@@ -87,7 +87,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Implement a version of Dijkstra's algorithm that outputs a set of
 !     edges depicting the shortest path to each reachable node from an
@@ -97,9 +97,9 @@
 ! 3.  Write a program which interprets the output from the above and use
 !     it to output the shortest path from node a to nodes e and f.
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable" style="text-align: center; float: left"
+!     {| class="wikitable" style="text-align: center; float: left"
 ! 
 ! |+ Vertices |- ! Number !! Name |- | 1 || a |- | 2 || b |- | 3 || c |- |
 ! 4 || d |- | 5 || e |- | 6 || f |}

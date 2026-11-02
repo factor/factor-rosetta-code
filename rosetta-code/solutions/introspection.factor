@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! - verify the version/revision of your currently running
 !   (compiler/interpreter/byte-compiler/runtime environment/whatever your
@@ -10,7 +10,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! - Report the number of integer variables in global scope, and their sum.
 

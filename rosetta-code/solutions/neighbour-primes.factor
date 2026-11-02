@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find and show primes p such that p*q+2 is prime, where q is next prime
 ! after p and p < 500

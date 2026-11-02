@@ -34,7 +34,7 @@
 ! 
 ! BSD formula
 ! 
-!     
+!   
 ! 
 ! - state_(n + 1) = 1103515245 × state_(n) + 12345 (mod  2³¹)
 ! - rand_(n) = state_(n)
@@ -42,7 +42,7 @@
 ! 
 ! Microsoft formula
 ! 
-!     
+!   
 ! 
 ! - state_(n + 1) = 214013 × state_(n) + 2531011 (mod  2³¹)
 ! - rand_(n) = state_(n) ÷ 2¹⁶

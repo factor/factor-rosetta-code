@@ -14,14 +14,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program to score for, and simulate dice throws for, a
 ! two-person game.
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Pig the dice game/Player
 

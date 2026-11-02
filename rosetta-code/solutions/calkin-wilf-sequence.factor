@@ -8,7 +8,7 @@
 ! 
 ! Task part 1
 ! 
-!     
+!   
 ! 
 ! - Show on this page terms 1 through 20 of the Calkin-Wilf sequence.
 ! 
@@ -28,7 +28,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! The fraction 9/4 has odd continued fraction representation , giving a
 ! binary representation of 100011,
@@ -37,20 +37,20 @@
 ! 
 ! Task part 2
 ! 
-!     
+!   
 ! 
 ! - Find the position of the number ⁸³¹¹⁶/₅₁₆₃₉ in the Calkin-Wilf
 !   sequence.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Fusc sequence.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wikipedia entry: Calkin-Wilf tree
 ! - Continued fraction

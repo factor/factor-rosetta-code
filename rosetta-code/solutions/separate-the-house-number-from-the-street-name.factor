@@ -9,7 +9,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write code that correctly separates the house number from the street
 ! name and presents them both. No static data must be shown, only

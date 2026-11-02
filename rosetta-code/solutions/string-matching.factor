@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given two strings, demonstrate the following three types of string
 ! matching:

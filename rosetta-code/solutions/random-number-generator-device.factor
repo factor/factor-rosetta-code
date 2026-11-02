@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! If your system has a means to generate random numbers involving not only
 ! a software algorithm (like the /dev/urandom devices in Unix), then:

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a string containing uppercase characters (A-Z), compress repeated
 ! 'runs' of the same character by storing the length of that run, and
@@ -11,12 +11,12 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
-!     Input:
-!     WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWBWWWWWWWWWWWWWW
+!   Input:
+!   WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWBWWWWWWWWWWWWWW
 ! 
-!     Output: 12W1B12W3B24W1B14W
+!   Output: 12W1B12W3B24W1B14W
 ! 
 ! Note: the encoding step in the above example is the same as a step of
 ! the Look-and-say sequence.

@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Create a function that, given a parameter representing size,
 !     generates such a symbol scaled to the requested size.

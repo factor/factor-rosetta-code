@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Shuffle the characters of a string in such a way that as many of the
 ! character values are in a different position as possible.
@@ -18,13 +18,13 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! tree, eetr, (0)
 ! 
 ! Test cases
 ! 
-!     
+!   
 ! 
 ! abracadabra
 ! seesaw

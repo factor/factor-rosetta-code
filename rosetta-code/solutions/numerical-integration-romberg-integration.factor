@@ -44,7 +44,7 @@
 ! ;Task Write a procedure (routine, function, method) that calculates the
 ! definite integral for a function f(x) using Romberg integration. Test
 ! your solution by calculating
-! ∫⁻³³exp (x) dx ≈ 20.0357499
+! ∫₋₃³exp (x) dx ≈ 20.0357499
 ! with 5 steps.
 ! ;Reference Wikipedia
 ! 

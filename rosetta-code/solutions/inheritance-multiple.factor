@@ -6,7 +6,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write two classes (or interfaces) Camera and MobilePhone, then write a
 ! class CameraPhone which is both a Camera and a MobilePhone.

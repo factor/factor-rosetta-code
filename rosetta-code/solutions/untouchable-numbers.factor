@@ -1,6 +1,6 @@
 ! Definitions
 ! 
-!     
+!   
 ! 
 ! - - Untouchable numbers are also known as nonaliquot numbers.
 ! 
@@ -22,7 +22,7 @@
 ! 
 ! Observations and conjectures
 ! 
-!     
+!   
 ! 
 ! All untouchable numbers > 5 are composite numbers.
 ! 
@@ -50,7 +50,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - show (in a grid format) all untouchable numbers ≤ 2,000.
 !   - show (for the above) the count of untouchable numbers.
@@ -65,7 +65,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Wolfram MathWorld: untouchable number.
 !   - OEIS: A005114 untouchable numbers.

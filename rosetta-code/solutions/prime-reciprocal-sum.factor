@@ -3,17 +3,17 @@
 ! than 1.
 ! 
 ! E.G.
-!     The cumulative reciprocal sum with zero terms is 0. The smallest
-!     prime whose reciprocal can be added to the sum without reaching or
-!     exceeding 1 is 2, so the first term is 2 and the new cumulative
-!     reciprocal sum is 1/2.
+!   The cumulative reciprocal sum with zero terms is 0. The smallest prime
+!   whose reciprocal can be added to the sum without reaching or exceeding
+!   1 is 2, so the first term is 2 and the new cumulative reciprocal sum
+!   is 1/2.
 ! 
-!     The smallest prime whose reciprocal can be added to the sum without
-!     reaching or exceeding 1 is 3. (2 would cause the cumulative
-!     reciprocal sum to reach 1.) So the next term is 3, and the new
-!     cumulative sum is 5/6.
+!   The smallest prime whose reciprocal can be added to the sum without
+!   reaching or exceeding 1 is 3. (2 would cause the cumulative reciprocal
+!   sum to reach 1.) So the next term is 3, and the new cumulative sum is
+!   5/6.
 ! 
-!     and so on...
+!   and so on...
 ! 
 ! Task
 ! 

@@ -3,41 +3,41 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Verify the following Machin-like formulas are correct by calculating the
 ! value of tan (right hand side) for each equation using exact arithmetic
 ! and showing they equal 1:
 ! 
-!     ${\pi\over4} = \arctan{1\over2} + \arctan{1\over3}$
-!     ${\pi\over4} = 2 \arctan{1\over3} + \arctan{1\over7}$
-!     ${\pi\over4} = 4 \arctan{1\over5} - \arctan{1\over239}$
-!     ${\pi\over4} = 5 \arctan{1\over7} + 2 \arctan{3\over79}$
-!     ${\pi\over4} = 5 \arctan{29\over278} + 7 \arctan{3\over79}$
-!     ${\pi\over4} = \arctan{1\over2} + \arctan{1\over5} + \arctan{1\over8}$
-!     ${\pi\over4} = 4 \arctan{1\over5} - \arctan{1\over70} + \arctan{1\over99}$
-!     ${\pi\over4} = 5 \arctan{1\over7} + 4 \arctan{1\over53} + 2 \arctan{1\over4443}$
-!     ${\pi\over4} = 6 \arctan{1\over8} + 2 \arctan{1\over57} + \arctan{1\over239}$
-!     ${\pi\over4} = 8 \arctan{1\over10} - \arctan{1\over239} - 4 \arctan{1\over515}$
-!     ${\pi\over4} = 12 \arctan{1\over18} + 8 \arctan{1\over57} - 5 \arctan{1\over239}$
-!     ${\pi\over4} = 16 \arctan{1\over21} + 3 \arctan{1\over239} + 4 \arctan{3\over1042}$
-!     ${\pi\over4} = 22 \arctan{1\over28} + 2 \arctan{1\over443} - 5 \arctan{1\over1393} - 10 \arctan{1\over11018}$
-!     ${\pi\over4} = 22 \arctan{1\over38} + 17 \arctan{7\over601} + 10 \arctan{7\over8149}$
-!     ${\pi\over4} = 44 \arctan{1\over57} + 7 \arctan{1\over239} - 12 \arctan{1\over682} + 24 \arctan{1\over12943}$
-!     ${\pi\over4} = 88 \arctan{1\over172} + 51 \arctan{1\over239} + 32 \arctan{1\over682} + 44 \arctan{1\over5357} + 68 \arctan{1\over12943}$
+!   ${\pi\over4} = \arctan{1\over2} + \arctan{1\over3}$
+!   ${\pi\over4} = 2 \arctan{1\over3} + \arctan{1\over7}$
+!   ${\pi\over4} = 4 \arctan{1\over5} - \arctan{1\over239}$
+!   ${\pi\over4} = 5 \arctan{1\over7} + 2 \arctan{3\over79}$
+!   ${\pi\over4} = 5 \arctan{29\over278} + 7 \arctan{3\over79}$
+!   ${\pi\over4} = \arctan{1\over2} + \arctan{1\over5} + \arctan{1\over8}$
+!   ${\pi\over4} = 4 \arctan{1\over5} - \arctan{1\over70} + \arctan{1\over99}$
+!   ${\pi\over4} = 5 \arctan{1\over7} + 4 \arctan{1\over53} + 2 \arctan{1\over4443}$
+!   ${\pi\over4} = 6 \arctan{1\over8} + 2 \arctan{1\over57} + \arctan{1\over239}$
+!   ${\pi\over4} = 8 \arctan{1\over10} - \arctan{1\over239} - 4 \arctan{1\over515}$
+!   ${\pi\over4} = 12 \arctan{1\over18} + 8 \arctan{1\over57} - 5 \arctan{1\over239}$
+!   ${\pi\over4} = 16 \arctan{1\over21} + 3 \arctan{1\over239} + 4 \arctan{3\over1042}$
+!   ${\pi\over4} = 22 \arctan{1\over28} + 2 \arctan{1\over443} - 5 \arctan{1\over1393} - 10 \arctan{1\over11018}$
+!   ${\pi\over4} = 22 \arctan{1\over38} + 17 \arctan{7\over601} + 10 \arctan{7\over8149}$
+!   ${\pi\over4} = 44 \arctan{1\over57} + 7 \arctan{1\over239} - 12 \arctan{1\over682} + 24 \arctan{1\over12943}$
+!   ${\pi\over4} = 88 \arctan{1\over172} + 51 \arctan{1\over239} + 32 \arctan{1\over682} + 44 \arctan{1\over5357} + 68 \arctan{1\over12943}$
 ! 
 ! and confirm that the following formula is incorrect by showing tan
 ! (right hand side) is not 1:
 ! 
-!     ${\pi\over4} = 88 \arctan{1\over172} + 51 \arctan{1\over239} + 32 \arctan{1\over682} + 44 \arctan{1\over5357} + 68 \arctan{1\over12944}$
+!   ${\pi\over4} = 88 \arctan{1\over172} + 51 \arctan{1\over239} + 32 \arctan{1\over682} + 44 \arctan{1\over5357} + 68 \arctan{1\over12944}$
 ! 
 ! These identities are useful in calculating the values:
 ! 
-!     $\tan(a + b) = {\tan(a) + \tan(b) \over 1 - \tan(a) \tan(b)}$
+!   $\tan(a + b) = {\tan(a) + \tan(b) \over 1 - \tan(a) \tan(b)}$
 ! 
-!     $\tan\left(\arctan{a \over b}\right) = {a \over b}$
+!   $\tan\left(\arctan{a \over b}\right) = {a \over b}$
 ! 
-!     tan (−a) = −tan (a)
+!   tan (−a) = −tan (a)
 ! 
 ! You can store the equations in any convenient data structure, but for
 ! extra credit parse them from human-readable text input.

@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Using the Ramer–Douglas–Peucker algorithm, simplify the 2D line defined
 ! by the points:
@@ -16,7 +16,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - - the Wikipedia article: Ramer-Douglas-Peucker algorithm.
 ! 

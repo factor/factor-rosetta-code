@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate the different syntax and semantics provided for calling a
 ! function.

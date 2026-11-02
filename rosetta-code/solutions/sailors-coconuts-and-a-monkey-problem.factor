@@ -21,7 +21,7 @@
 ! 
 ! The task
 ! 
-!     
+!   
 ! 
 ! 1.  Calculate the minimum possible size of the initial pile of coconuts
 !     collected during the first day.
@@ -37,14 +37,14 @@
 ! 
 ! Extra credit (optional)
 ! 
-!     
+!   
 ! 
 ! - Give some indication of the number of coconuts each sailor hides
 !   during the night.
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! - Of course the tale is told in a world where the collection of any
 !   amount of coconuts in a day and multiple divisions of the pile, etc
@@ -55,7 +55,7 @@
 ! 
 ! C.f
 ! 
-!     
+!   
 ! 
 ! - Monkeys and Coconuts - Numberphile (Video) Analytical solution.
 ! - A002021: Pile of coconuts problem The On-Line Encyclopedia of Integer

@@ -6,7 +6,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Filter a signal using an order 3 low-pass Butterworth filter. The
 ! coefficients for the filter are a=[1.00000000, -2.77555756e-16,
@@ -22,7 +22,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! https://en.wikipedia.org/wiki/Butterworth_filter Wikipedia on
 ! Butterworth filters

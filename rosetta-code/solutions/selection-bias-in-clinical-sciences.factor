@@ -56,7 +56,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Create a simulation of the subjects, keeping track of their medication
 !   dosages, group membership, and Covid-19 status during the study.
@@ -88,10 +88,10 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
-!     *Wikipedia - Selection Bias
-!     *Wikipedia - Retrospective studies
-!     *UCDavis (pdf) Challenges in Retrospective studies
+!   *Wikipedia - Selection Bias
+!   *Wikipedia - Retrospective studies
+!   *UCDavis (pdf) Challenges in Retrospective studies
 
 

@@ -6,7 +6,7 @@
 ! 
 ! The algorithm
 ! 
-!     
+!   
 ! 
 ! - - Select the first n items as the sample as they become available;
 !   - For the i-th item where i > n, have a random chance of n/i of
@@ -17,7 +17,7 @@
 ! 
 ! The Task
 ! 
-!     
+!   
 ! 
 ! - - Create a function s_of_n_creator that given n the maximum sample
 !     size, returns a function s_of_n that takes one parameter, item.
@@ -38,13 +38,13 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - The Art of Computer Programming, Vol 2, 3.4.2 p.142
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - One of n lines in a file
 ! - Accumulator factory

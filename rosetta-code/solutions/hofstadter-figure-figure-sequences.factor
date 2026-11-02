@@ -1,11 +1,11 @@
 ! These two sequences of positive integers are defined as:
 ! 
-!     
+!   
 ! 
-!         $\begin{align}
-!         R(1)&=1\ ;\ S(1)=2 \\
-!         R(n)&=R(n-1)+S(n-1), \quad n>1.
-!         \end{align}$
+!     $\begin{align}
+!     R(1)&=1\ ;\ S(1)=2 \\
+!     R(n)&=R(n-1)+S(n-1), \quad n>1.
+!     \end{align}$
 ! 
 ! The sequence S(n) is further defined as the sequence of positive
 ! integers not present in R(n).
@@ -20,7 +20,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create two functions named ffr and ffs that when given n return R(n)
 !     or S(n) respectively.
@@ -38,7 +38,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Sloane's A005228 and A030124.
 ! - Wolfram MathWorld

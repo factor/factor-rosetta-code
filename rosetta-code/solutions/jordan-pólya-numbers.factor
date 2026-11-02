@@ -27,7 +27,5 @@
 ! 
 ! - Wikipedia article : Jordan-Pólya number
 ! - OEIS sequence A001013: Jordan-Pólya numbers
-! 
-! __TOC__
 
 

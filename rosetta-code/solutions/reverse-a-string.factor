@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Take a string and reverse it.
 ! 
@@ -8,7 +8,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Preserve Unicode combining characters.
 ! 

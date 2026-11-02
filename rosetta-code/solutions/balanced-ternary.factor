@@ -4,7 +4,7 @@
 ! 
 ! Examples
 ! 
-!     
+!   
 ! 
 ! Decimal 11 = 3² + 3¹ − 3⁰, thus it can be written as "++−"
 ! 
@@ -12,7 +12,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement balanced ternary representation of integers with the
 ! following:

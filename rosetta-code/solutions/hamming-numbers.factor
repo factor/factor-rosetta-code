@@ -9,7 +9,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate the sequence of Hamming numbers, in increasing order. In
 ! particular:
@@ -21,14 +21,14 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Humble numbers
 ! - N-smooth numbers
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Wikipedia entry: Hamming numbers (this link is re-directed to Regular
 !   number).

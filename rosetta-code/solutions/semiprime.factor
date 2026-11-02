@@ -11,7 +11,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 !    1679  =  23 × 73  
 ! 
@@ -20,13 +20,13 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function determining whether a given number is semiprime.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - The Wikipedia article: semiprime.
 ! - The Wikipedia article: almost prime.

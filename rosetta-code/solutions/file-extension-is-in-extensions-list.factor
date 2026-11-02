@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given an arbitrary filename and a list of extensions, tell whether the
 ! filename has one of those extensions.
@@ -18,20 +18,20 @@
 !   strings.
 ! 
 ! Extra credit:
-!     Allow extensions to contain dots. This way, users of your
-!     function/program have full control over what they consider as the
-!     extension in cases like:
+!   Allow extensions to contain dots. This way, users of your
+!   function/program have full control over what they consider as the
+!   extension in cases like:
 ! 
 !   archive.tar.gz
 ! 
-!     Please state clearly whether or not your solution does this.
+!   Please state clearly whether or not your solution does this.
 ! 
 ! The following test cases all assume this list of extensions: zip, rar,
 ! 7z, gz, archive, A##
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |- ! Filename ! Result |- | MyData.a## || true |- | MyData.tar.Gz ||
 ! true |- | MyData.gzip || false |- | MyData.7z.backup || false |- |
@@ -40,9 +40,9 @@
 ! If your solution does the extra credit requirement, add tar.bz2 to the
 ! list of extensions, and check the following additional test cases:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |- ! Filename ! Result |- | MyData_v1.0.tar.bz2 || true |- |
 ! MyData_v1.0.bz2 || false |}
@@ -61,7 +61,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Extract file extension
 ! - String matching

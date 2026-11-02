@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given the date string "March 7 2009 7:30pm EST",
 ! 

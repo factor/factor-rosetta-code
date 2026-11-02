@@ -1,4 +1,4 @@
-!     Zigzag Numbers
+!   Zigzag Numbers
 ! 
 ! A permutation of a set {1, ..., n} is a rearrangement of the elements of
 ! the set. A permutation c(1), ..., c(n) is said to be zigzag or
@@ -30,7 +30,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function that generates all zigzag permutations of the set {1,
 ! ..., n} and a function that returns the number of zigzag permutations of
@@ -40,7 +40,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! Wikipedia entry on Alternating Permutation
 ! OEIS sequence A000111: Euler zigzag numbers

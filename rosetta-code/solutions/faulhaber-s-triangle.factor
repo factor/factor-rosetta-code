@@ -26,7 +26,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Bernoulli numbers
 ! - Evaluate binomial coefficients

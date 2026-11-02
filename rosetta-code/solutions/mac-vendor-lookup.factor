@@ -6,7 +6,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Interface with one (or numerous) APIs that exist on the internet and
 ! retrieve the device manufacturer based on a supplied MAC address.

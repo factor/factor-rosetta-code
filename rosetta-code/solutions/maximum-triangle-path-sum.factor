@@ -16,7 +16,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find the maximum total in the triangle below:
 ! 

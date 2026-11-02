@@ -37,7 +37,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function/method/procedure/subroutine that will validate a number
 ! with the Luhn test, and
@@ -51,7 +51,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - SEDOL
 ! - ISIN

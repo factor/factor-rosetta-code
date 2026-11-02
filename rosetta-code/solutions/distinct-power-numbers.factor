@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Compute all combinations of a^(b) where a and b are integers between 2
 ! and 5 inclusive.

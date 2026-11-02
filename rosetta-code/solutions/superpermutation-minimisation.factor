@@ -30,7 +30,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - The Minimal Superpermutation Problem. by Nathaniel Johnston.
 ! - oeis A180632 gives 0-5 as 0, 1, 3, 9, 33, 153. 6 is thought to be 872.

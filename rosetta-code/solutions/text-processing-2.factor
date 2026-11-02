@@ -28,7 +28,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Confirm the general field format of the file.
 ! 2.  Identify any DATESTAMPs that are duplicated.

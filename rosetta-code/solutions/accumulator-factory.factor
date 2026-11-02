@@ -7,12 +7,12 @@
 ! 
 ! Rules
 ! 
-!     
+!   
 ! 
 ! The detailed rules are at http://paulgraham.com/accgensub.html and are
 ! reproduced here for simplicity (with additions in small italic text).
 ! 
-!     Before you submit an example, make sure the function
+!   Before you submit an example, make sure the function
 ! 
 ! :# Takes a number n and returns a function (lets call it g), that takes
 ! a number i, and returns n incremented by the accumulation of i from
@@ -39,19 +39,19 @@
 ! way that could cause them to be inadvertently modified by other code.
 ! (No global variables or other such things.)
 ! 
-!     E.g. if after the example, you added the following code (in a
-!     made-up language) where the factory function is called foo:
-!     :
+!   E.g. if after the example, you added the following code (in a made-up
+!   language) where the factory function is called foo:
+!   :
 ! 
 ! x(5); foo(3); print x(2.3);
 ! 
-!     It should print 8.3. (There is no need to print the form of the
-!     accumulator function returned by foo(3); it's not part of the task
-!     at all.)
+!   It should print 8.3. (There is no need to print the form of the
+!   accumulator function returned by foo(3); it's not part of the task at
+!   all.)
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a function that implements the described rules.
 ! 

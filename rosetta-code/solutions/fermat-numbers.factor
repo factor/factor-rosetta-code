@@ -14,7 +14,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write a routine (function, procedure, whatever) to generate Fermat
 !     numbers.
@@ -30,7 +30,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia - Fermat numbers
 !   - OEIS:A000215 - Fermat numbers

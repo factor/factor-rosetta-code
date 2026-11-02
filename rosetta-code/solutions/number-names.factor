@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how to spell out a number in English.
 ! 
@@ -13,7 +13,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Spelling of ordinal numbers.
 

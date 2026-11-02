@@ -4,7 +4,7 @@
 ! subsequences that are "new" compared to what has been seen before.
 ! 
 ! Test cases
-!     {| class="wikitable"
+!   {| class="wikitable"
 ! 
 ! |- | style="text-align:center"| S || c(S) |- | style="text-align:right"|
 ! "AZSEDRFTGYGUJIJOKB" || style="text-align:center"| 16 |- |
@@ -42,7 +42,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - wp:Lempel–Ziv complexity
 !   - the original 1976 paper

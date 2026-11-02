@@ -11,7 +11,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement Thompson's Construction Algorithm to convert regular
 ! expressions into NFAs and match strings. The implementation should:

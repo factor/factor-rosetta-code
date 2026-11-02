@@ -18,13 +18,13 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Wikipedia: Long Division
 ! 
 ! Related
 ! 
-!     
+!   
 ! 
 ! - Long primes
 

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Compute the least common multiple (LCM) of two integers.
 ! 
@@ -9,7 +9,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! The least common multiple of 12 and 18 is 36, because:
 ! 
@@ -26,9 +26,9 @@
 ! If you already have gcd for greatest common divisor, then this formula
 ! calculates lcm.
 ! 
-!     
+!   
 ! 
-!         $\operatorname{lcm}(m, n) = \frac{|m \times n|}{\operatorname{gcd}(m, n)}$
+!     $\operatorname{lcm}(m, n) = \frac{|m \times n|}{\operatorname{gcd}(m, n)}$
 ! 
 ! One can also find lcm by merging the prime decompositions of both m and
 ! n.
@@ -39,7 +39,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - MathWorld entry: Least Common Multiple.
 ! - Wikipedia entry: Least common multiple.

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program to find the sum of squares of a numeric vector.
 ! 
@@ -8,7 +8,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Mean
 

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a list of integer arrays nums (which may be unsorted), find the
 ! smallest missing positive integer in each array in the list.
@@ -10,7 +10,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! - nums = [1,2,0], [3,4,-1,1], [7,8,9,11,12]
 ! - output = 3, 2, 1

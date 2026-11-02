@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Re-implement integer exponentiation for both int^(int) and float^(int)
 ! as both a procedure, and an operator (if your language supports operator
@@ -15,7 +15,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Exponentiation order
 ! - arbitrary-precision integers (included)

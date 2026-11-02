@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Assume points are on a plane defined by (x, y) real number
 !     coordinates.
@@ -16,13 +16,13 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Determine_if_two_triangles_overlap
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - Discussion of several methods.
 !     http://totologic.blogspot.com/2014/01/accurate-point-in-triangle-test.html

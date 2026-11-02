@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Sort an array (or list) of elements using the Selection sort algorithm.
 ! 
@@ -21,7 +21,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Rosetta Code: O (complexity).
 ! - Wikipedia: Selection sort.

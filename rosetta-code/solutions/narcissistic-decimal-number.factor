@@ -10,7 +10,7 @@
 ! 
 ! An example
 ! 
-!     
+!   
 ! 
 ! - - if n is 153
 !   - then m, (the number of decimal digits) is 3
@@ -19,7 +19,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate and show here the first 25 narcissistic decimal numbers.
 ! 
@@ -27,7 +27,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - the OEIS entry: Armstrong (or Plus Perfect, or narcissistic) numbers.
 ! - MathWorld entry: Narcissistic Number.

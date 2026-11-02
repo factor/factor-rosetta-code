@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function which determines if a given year is long (53 weeks) or
 ! not, and demonstrate it.

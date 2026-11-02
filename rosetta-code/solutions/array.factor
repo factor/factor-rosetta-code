@@ -8,37 +8,37 @@
 ! The implementation details of an array give rise to an important
 ! distinction between arrays and associative arrays.
 ! 
-!     The implementation of arrays is based on setting the bounds of
-!     indices of the array, the size of the array, normally by allocating
-!     a contiguous region of memory to hold the elements of the array, and
-!     using simple offset calculations on the indices from the origin of
-!     the memory to access memory elements. Some languages support
-!     extensions to allow such arrays to be resized, or re-shaped, in
-!     which the memory area is adjusted, but extent elements are retained.
+!   The implementation of arrays is based on setting the bounds of indices
+!   of the array, the size of the array, normally by allocating a
+!   contiguous region of memory to hold the elements of the array, and
+!   using simple offset calculations on the indices from the origin of the
+!   memory to access memory elements. Some languages support extensions to
+!   allow such arrays to be resized, or re-shaped, in which the memory
+!   area is adjusted, but extent elements are retained.
 ! 
-!     By contrast, an associative array maps the association between index
-!     "keys" and their associated values, generally using more complex
-!     hash functions on the keys of the array to map them to their
-!     corresponding elements (by pointers, references or memory addresses
-!     of some sort). Associative arrays are referred to variously as
-!     "hashes" (Perl), "maps" or "mappings" (Lua), or "dictionaries"
-!     (Python), as well as "associative arrays" (AWK, ksh, and others).
-!     The keys into associative arrays are normally not constrained to be
-!     integers, unlike arrays, which generally required contiguous integer
-!     ranges. Different languages may impose various constraints on these
-!     keys. For example, in Perl, keys must always be strings, so 1, "1",
-!     and 1.0, each of which stringifies to "1", are the same key, but
-!     "1.0" is distinct from all of these. In PHP, keys must be strings or
-!     integers; floats and booleans get implicitly converted to an
-!     integer. Other languages (such as Python) may treat each type of
-!     object as distinct. (See associative array for further discussion.)
+!   By contrast, an associative array maps the association between index
+!   "keys" and their associated values, generally using more complex hash
+!   functions on the keys of the array to map them to their corresponding
+!   elements (by pointers, references or memory addresses of some sort).
+!   Associative arrays are referred to variously as "hashes" (Perl),
+!   "maps" or "mappings" (Lua), or "dictionaries" (Python), as well as
+!   "associative arrays" (AWK, ksh, and others). The keys into associative
+!   arrays are normally not constrained to be integers, unlike arrays,
+!   which generally required contiguous integer ranges. Different
+!   languages may impose various constraints on these keys. For example,
+!   in Perl, keys must always be strings, so 1, "1", and 1.0, each of
+!   which stringifies to "1", are the same key, but "1.0" is distinct from
+!   all of these. In PHP, keys must be strings or integers; floats and
+!   booleans get implicitly converted to an integer. Other languages (such
+!   as Python) may treat each type of object as distinct. (See associative
+!   array for further discussion.)
 ! 
-!     Non-associative arrays may have speed and memory consumption
-!     advantages. Associative arrays have greater flexibility in types
-!     used for keys, and generally obviate the need to implement searches
-!     through the collection. (Each component on which one would search
-!     can be implemented as a different associative array of references to
-!     their corresponding values or records.)
+!   Non-associative arrays may have speed and memory consumption
+!   advantages. Associative arrays have greater flexibility in types used
+!   for keys, and generally obviate the need to implement searches through
+!   the collection. (Each component on which one would search can be
+!   implemented as a different associative array of references to their
+!   corresponding values or records.)
 ! 
 ! Arrays with more than one index are called multidimensional arrays. For
 ! example, a matrix is a two-dimensional array.
@@ -428,24 +428,25 @@
 ! block, as in C; but, furthermore, there is a view. The view exists only
 ! as a typechecking entity; there is no runtime code associated with it.
 ! Suppose you have a fully initialized array, called a, of fourteen int
-! starting at address p. Then the view for the array may be written
-! @[int][14] @ p or equivalently as array_v (int, p, 14) To access an
-! element of the array, that view needs to be available to the
-! typechecker. Let us suppose the view is in fact available, and that
-! there are operator overrides to use the square brackets as (in this case
-! one-dimensional) array indices. Then a program that says let val x =
-! a[3] in a[4] := x end should be compilable, but one that says let val x
-! = a[20] in a[30] := x end will trigger a type error, due to the
-! out-of-bounds indices.
+! starting at address p. Then the view for the array may be written <lang
+! ATS>@[int][14] @ p</lang> or equivalently as <lang ATS>array_v (int, p,
+! 14)</lang> To access an element of the array, that view needs to be
+! available to the typechecker. Let us suppose the view is in fact
+! available, and that there are operator overrides to use the square
+! brackets as (in this case one-dimensional) array indices. Then a program
+! that says <lang ATS>let val x = a[3] in a[4] := x end</lang> should be
+! compilable, but one that says <lang ATS>let val x = a[20] in a[30] := x
+! end</lang> will trigger a type error, due to the out-of-bounds indices.
 ! 
 ! Above we assumed a was fully initialized. Working with an array that is
 ! not fully initialized can become quite complex, and I shall mention only
-! that the view for a before it is initialized would be @[int?][14] @ p
-! with a question mark. Fortunately there are routines in the prelude to
-! fully initialize an array, for instance with a fill value such as zero
-! or an empty string. There are also ways to fully deinitialize an array;
-! to allocate an array in the heap, and to free one; to place an array in
-! a stack frame; to make an array as a global variable.
+! that the view for a before it is initialized would be <lang
+! ATS>@[int?][14] @ p</lang> with a question mark. Fortunately there are
+! routines in the prelude to fully initialize an array, for instance with
+! a fill value such as zero or an empty string. There are also ways to
+! fully deinitialize an array; to allocate an array in the heap, and to
+! free one; to place an array in a stack frame; to make an array as a
+! global variable.
 ! 
 ! The curious reader is encouraged to go to the ATS website for more
 ! information.
@@ -459,12 +460,12 @@
 ! though one could place a short text into a small CHARACTER variable that
 ! is equivalenced to an INTEGER variable and use that integer as in a
 ! "hash table" scheme, possibly to good effect. Indexing starts with one,
-! and the size is fixed by the declaration at compile time, thus REAL
-! A(66) !Declares an array, elements one to sixty-six.
+! and the size is fixed by the declaration at compile time, thus <lang
+! Fortran> REAL A(66) !Declares an array, elements one to sixty-six.
 ! 
 !      A(3) = 1.1    !Assigns a value to the third element of A.
 !      A(2) = 1.1
-!      A(1) = 1.1
+!      A(1) = 1.1</lang>
 ! 
 ! Higher dimensonality is available, with additional indices, thus given
 ! the declaration INTEGER B(12,9) individual elements would be accessed
@@ -554,11 +555,12 @@
 ! of the diagonal elements; if so, one must be rigorous about keeping
 ! track of which has what subscripts! Escalating to three (or more)
 ! dimensions is quite possible, but, a calm and resolute mind is needed.
-! As for ragged arrays, F90 facilities are required: consider TYPE AROW
+! As for ragged arrays, F90 facilities are required: consider <lang
+! Fortran> TYPE AROW
 ! 
 !  REAL, ALLOCATABLE:: COL(:)
 ! END TYPE AROW
-! TYPE(AROW) A(66)
+! TYPE(AROW) A(66)</lang>
 ! 
 ! This declares an array of sixty-six rows, where A(r,c) would be accessed
 ! via A(r).COL(c), but first the code would have to execute
@@ -570,7 +572,7 @@
 ! 
 ! This defines an array suitable to hold a 64x64 truecolor image (i.e.
 ! red, green and blue RGB values all can go from 0 to 255) and then sets
-! the color of a single pixel type
+! the color of a single pixel <lang pascal> type
 ! 
 !  color = red, green, blue;
 !  rgbvalue = 0 .. 255;
@@ -586,7 +588,7 @@
 !  picture[4, 7, green] := 255;
 !  picture[4, 7, blue]  := 0
 ! 
-! end.
+! end. </lang>
 ! 
 ! jq
 ! 
@@ -608,23 +610,24 @@
 ! (m+1). The expression should instead be interpreted to mean: produce an
 ! array derived from a such that a[m] == 1. If necessary, jq will add
 ! "null" elements to achieve this requirement. Thus, one way to create an
-! array of m+1 nulls is to write:[][m] = null It might seem that jq must
-! be horrendously inefficient because of immutability, but in fact, jq is
-! fast because of compiler optimizations.
+! array of m+1 nulls is to write:<lang jq>[][m] = null</lang> It might
+! seem that jq must be horrendously inefficient because of immutability,
+! but in fact, jq is fast because of compiler optimizations.
 ! 
 ! Basic Array Operations
 ! 
 ! Assuming a and b are arrays, and if m and n are non-negative integers:
-! [][n] = null # => an array with (1+n) nulls [range(0;n)] # => [0,1, ...
-! (n-1)] a | length # => the length of a a + b # => the concatenation of a
-! followed by b a[n] # => the element at offset n (or null) a[-1] # => the
-! last element (or null) a[m:n] # => the subarray [a[m], ..., a[n-1]]
+! <lang jq> [][n] = null # => an array with (1+n) nulls [range(0;n)] # =>
+! [0,1, ... (n-1)] a | length # => the length of a a + b # => the
+! concatenation of a followed by b a[n] # => the element at offset n (or
+! null) a[-1] # => the last element (or null) a[m:n] # => the subarray
+! [a[m], ..., a[n-1]] </lang>
 ! 
 ! Streams and Arrays
 ! 
 ! jq provides support for streams of JSON entities, and thus the syntax
 ! for converting between an array and the stream of entities that an array
-! contains is fundamental to jq. In brief:
+! contains is fundamental to jq. In brief: <lang jq>
 ! 
 ! 1.  If a is an array, then the expression
 ! 
@@ -635,7 +638,7 @@
 ! 1.  Conversely, if S is a stream of entities,
 ! 2.  then they can be gathered together using the syntax:
 ! 
-! [ S ] For example, if S is the stream (1,2,3), then [(1,2,3)] ==
+! [ S ] </lang> For example, if S is the stream (1,2,3), then [(1,2,3)] ==
 ! [1,2,3].
 ! 
 ! This highlights an important point about "," in jq: the comma is not
@@ -643,20 +646,21 @@
 ! 
 ! map/reduce
 ! 
-! jq's "map" filter is quite conventional, e.g. [1,2,3] | map(-(.)) # =>
-! [-1, -2, -3]The reduce filter, however, has a special syntax that makes
-! it very powerful. In brief, the syntax is:reduce S as $var (init;
-! update) where S is an expression producing a stream of values, and init
-! and update are jq expressions. The reduction takes place by setting a
-! hidden variable to the value of "init" initially, and then performing
-! the update on the hidden variable as specified by "update" for each
-! value, $var, in the stream. The result of the reduction is the final
-! value of the hidden variable.
+! jq's "map" filter is quite conventional, e.g. <lang jq>[1,2,3] |
+! map(-(.)) # => [-1, -2, -3]</lang>The reduce filter, however, has a
+! special syntax that makes it very powerful. In brief, the syntax
+! is:<lang jq>reduce S as $var (init; update) </lang>where S is an
+! expression producing a stream of values, and init and update are jq
+! expressions. The reduction takes place by setting a hidden variable to
+! the value of "init" initially, and then performing the update on the
+! hidden variable as specified by "update" for each value, $var, in the
+! stream. The result of the reduction is the final value of the hidden
+! variable.
 ! 
 ! For example, here is a toy example followed by an efficient computation
-! of n! (factorial n):reduce [1,2,3][] as $i (0; . + $i) # => 6
+! of n! (factorial n):<lang jq>reduce [1,2,3][] as $i (0; . + $i) # => 6
 ! 
-! reduce range(2;n+1) as $i (1; . * $i) # => n!
+! reduce range(2;n+1) as $i (1; . * $i) # => n!</lang>
 ! 
 ! =
 

@@ -22,7 +22,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate and show here the results for the following inputs:
 ! 

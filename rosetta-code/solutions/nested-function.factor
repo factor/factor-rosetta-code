@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program consisting of two nested functions that prints the
 ! following text.
@@ -26,7 +26,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - - Nested function
 ! 

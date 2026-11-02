@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Display a series of vertical color bars across the width of the display.
 ! 

@@ -10,7 +10,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create a named function/method/subroutine/... to generate
 !     derangements of the integers 0..n-1, (or 1..n if you prefer).
@@ -22,13 +22,13 @@
 ! 
 ! Optional stretch goal
 ! 
-!     
+!   
 ! 
 ! - Calculate !20
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Anagrams/Deranged anagrams
 ! - Best shuffle

@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Encrypt an input/source file by replacing every upper/lower case
 ! alphabets of the source file with another predetermined upper/lower case
@@ -15,7 +15,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Caesar cipher
 ! - Rot-13
@@ -23,7 +23,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wikipedia: Substitution cipher
 ! 

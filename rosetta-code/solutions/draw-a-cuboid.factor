@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Draw a cuboid with relative dimensions of 2 × 3 × 4.
 ! 

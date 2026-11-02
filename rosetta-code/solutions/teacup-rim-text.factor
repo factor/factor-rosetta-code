@@ -20,7 +20,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Search for a set of words that could be printed around the edge of a
 ! teacup. The words in each set are to be of the same length, that length

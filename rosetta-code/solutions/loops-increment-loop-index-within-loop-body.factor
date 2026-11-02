@@ -6,13 +6,13 @@
 ! 
 ! Goal
 ! 
-!     
+!   
 ! 
 ! Demonstrate the best way to accomplish this.
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a loop which:
 ! 
@@ -32,7 +32,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! Not all programming languages allow the modification of a loop's index.
 ! If that is the case, then use whatever method that is appropriate or
@@ -41,7 +41,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Loop over multiple arrays simultaneously
 ! - Loops/Break

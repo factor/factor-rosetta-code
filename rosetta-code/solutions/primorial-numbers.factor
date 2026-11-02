@@ -16,11 +16,11 @@
 ! To express this mathematically, primorial_(n) is the product of the
 ! first n (successive) primes:
 ! 
-!     ${\rm primorial}_n = \prod_{k=1}^n {\rm prime}_k$
+!   ${\rm primorial}_n = \prod_{k=1}^n {\rm prime}_k$
 ! 
-!     
+!   
 ! 
-!         ─── where ${\rm prime}_k$ is the k^(th)'' prime number.
+!     ─── where ${\rm prime}_k$ is the k^(th)'' prime number.
 ! 
 ! In some sense, generating primorial numbers is similar to factorials.
 ! 
@@ -28,7 +28,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Show the first ten primorial numbers (0 ──► 9, inclusive).
 ! - Show the length of primorial numbers whose index is: 10 100 1,000
@@ -41,7 +41,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Sequence of primorial primes
 ! - Factorial
@@ -49,7 +49,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - the MathWorld webpage: primorial
 ! - the Wikipedia webpage: primorial.

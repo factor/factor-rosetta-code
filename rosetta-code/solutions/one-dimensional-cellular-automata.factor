@@ -20,7 +20,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Elementary cellular automaton
 

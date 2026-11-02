@@ -6,7 +6,7 @@
 ! 
 ! Approximately equal to:
 ! 
-!     1.2020569031595942853997381615114499907649862923404988817922715553418382057863130901864558736093352581
+!   1.2020569031595942853997381615114499907649862923404988817922715553418382057863130901864558736093352581
 ! 
 ! This constant was known and studied by many early mathematicians, but
 ! was not named until 1978, after Roger Apéry, who was first to prove it
@@ -21,7 +21,7 @@
 ! One of the earliest, discovered in the late 1800s by A. Markov and later
 ! widely published by Apéry is:
 ! 
-!     $\zeta(3) = \frac{5}{2} \sum_{k=1}^\infty (-1)^{k-1} \frac{k!^2}{(2k)! k^3}.$
+!   $\zeta(3) = \frac{5}{2} \sum_{k=1}^\infty (-1)^{k-1} \frac{k!^2}{(2k)! k^3}.$
 ! 
 ! Much better than direct calculation of ζ(3), but still only yielding
 ! about .63 correct digits per iteration.
@@ -30,7 +30,7 @@
 ! known to date, yielding about 5.04 correct digits per term, is by
 ! Sebastian Wedeniwski.
 ! 
-!     $\zeta(3) = \frac{1}{24} \sum_{k=0}^\infty (-1)^k \frac{(2k + 1)!^3 (2k)!^3 k!^3 (126392k^5 + 412708k^4 + 531578k^3 + 336367k^2 + 104000k + 12463)}{(3k + 2)! (4k + 3)!^3}.$
+!   $\zeta(3) = \frac{1}{24} \sum_{k=0}^\infty (-1)^k \frac{(2k + 1)!^3 (2k)!^3 k!^3 (126392k^5 + 412708k^4 + 531578k^3 + 336367k^2 + 104000k + 12463)}{(3k + 2)! (4k + 3)!^3}.$
 ! 
 ! Task
 ! 

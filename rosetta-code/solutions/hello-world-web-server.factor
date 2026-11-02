@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Serve our standard text Goodbye, World! to http://localhost:8080/ so
 ! that it can be viewed with a web browser.

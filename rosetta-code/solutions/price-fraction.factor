@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a floating point value between 0.00 and 1.00, rescale according to
 ! the following table:

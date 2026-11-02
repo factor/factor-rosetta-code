@@ -21,7 +21,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Compute and show here the following statistics for juggler sequences
 ! with an initial term of a[n] where n is between 20 and 39 inclusive:
@@ -50,7 +50,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Hailstone sequence
 ! - Yellowstone sequence
@@ -58,7 +58,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - oeis:A007320 Number of steps needed for Juggler sequence started at n
 !   to reach 1

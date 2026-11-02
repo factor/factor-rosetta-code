@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a function that returns the maximum value in a provided set of
 ! values,

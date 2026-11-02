@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function/procedure/subroutine that is called with an integer
 ! value and returns the middle three digits of the integer if possible or

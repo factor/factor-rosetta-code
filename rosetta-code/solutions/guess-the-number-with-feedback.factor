@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a game (computer program) that follows the following rules:
 ! 
@@ -15,7 +15,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Guess the number/With Feedback (Player)
 

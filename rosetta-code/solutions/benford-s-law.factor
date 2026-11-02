@@ -20,9 +20,9 @@
 ! A set of numbers is said to satisfy Benford's law if the leading digit
 ! d(d ∈ {1, …, 9}) occurs with probability
 ! 
-!     
+!   
 ! 
-!         $P(d) = \log_{10}(d+1)-\log_{10}(d) = \log_{10}\left(1+\frac{1}{d}\right)$
+!     $P(d) = \log_{10}(d+1)-\log_{10}(d) = \log_{10}\left(1+\frac{1}{d}\right)$
 ! 
 ! For this task, write (a) routine(s) to calculate the distribution of
 ! first significant (non-zero) digits in a collection of numbers, then

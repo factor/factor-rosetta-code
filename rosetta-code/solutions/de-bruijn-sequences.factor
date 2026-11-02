@@ -24,7 +24,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! For this Rosetta Code task, a de Bruijn sequence is to be generated that
 ! can be used to shorten a brute-force attack on a PIN-like code lock that
@@ -35,7 +35,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! A digital door lock with a 4-digit code would have B (10,4) solutions,
 ! with a length of 10,000 (digits).
@@ -48,7 +48,7 @@
 ! 
 ! Task requirements
 ! 
-!     
+!   
 ! 
 ! - - Generate a de Bruijn sequence for a 4-digit (decimal) PIN code.
 !     - - Show the length of the generated de Bruijn sequence.
@@ -74,7 +74,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia entry: de Bruijn sequence.
 !   - MathWorld entry: de Bruijn sequence.

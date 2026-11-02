@@ -20,7 +20,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - calculate and show the first 25 n-smooth numbers for n=2 ───► n=29
 !   - calculate and show three numbers starting with 3,000 n-smooth
@@ -40,14 +40,14 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Hamming numbers
 !   - humble numbers
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia entry: Hamming numbers (this link is re-directed to
 !     Regular number).

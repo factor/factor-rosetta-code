@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Input a Boolean function from the user as a string then calculate
 !     and print a formatted truth table for the given function.
@@ -18,14 +18,14 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Boolean values
 ! - Ternary logic
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wolfram MathWorld entry on truth tables.
 ! - some "truth table" examples from Google.

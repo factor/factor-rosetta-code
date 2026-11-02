@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Solve Ax=b using Gaussian elimination then backwards substitution.
 ! 
@@ -12,7 +12,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - the Wikipedia entry: Gaussian elimination
 

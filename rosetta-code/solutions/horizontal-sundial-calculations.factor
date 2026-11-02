@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program that calculates the hour, sun hour angle, dial hour
 ! line angle from 6am to 6pm for an operator entered location.

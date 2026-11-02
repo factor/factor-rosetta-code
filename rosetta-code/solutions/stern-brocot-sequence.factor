@@ -25,7 +25,7 @@
 ! 
 ! The task is to
 ! 
-!     
+!   
 ! 
 ! - Create a function/method/subroutine/procedure/... to generate the
 !   Stern-Brocot sequence of integers using the method outlined above.
@@ -42,14 +42,14 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Fusc sequence.
 !   - Continued fraction/Arithmetic
 ! 
 ! Ref
 ! 
-!     
+!   
 ! 
 ! - Infinite Fractions - Numberphile (Video).
 ! - Trees, Teeth, and Time: The mathematics of clock making.

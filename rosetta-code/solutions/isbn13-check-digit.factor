@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Validate the check digit of an ISBN-13 code:
 ! 
@@ -20,7 +20,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - for details: 13-digit ISBN method of validation. (installs cookies.)
 

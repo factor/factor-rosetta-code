@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Make a file that can be useful with spell checkers like Ispell and
 ! Aspell.

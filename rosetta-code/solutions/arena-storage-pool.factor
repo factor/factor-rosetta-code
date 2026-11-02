@@ -22,7 +22,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! The task is to show how allocators and user-defined storage pools are
 ! supported by the language.

@@ -49,7 +49,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - For more information on Circle sorting, see Sourceforge.
 

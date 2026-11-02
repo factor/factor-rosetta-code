@@ -3,7 +3,7 @@
 ! 
 ! Task description
 ! 
-!     
+!   
 ! 
 ! 1.  Create a function that takes a heading in degrees and returns the
 !     correct 32-point compass heading.
@@ -12,9 +12,9 @@
 !     first table of the wikipedia article, but use only the following 33
 !     headings as input:
 ! 
-!     [0.0, 16.87, 16.88, 33.75, 50.62, 50.63, 67.5, 84.37, 84.38, 101.25, 118.12, 118.13, 135.0, 151.87, 151.88, 168.75, 185.62, 185.63, 202.5, 219.37, 219.38, 236.25, 253.12, 253.13, 270.0, 286.87, 286.88, 303.75, 320.62, 320.63, 337.5, 354.37, 354.38].
-!     (They should give the same order of points but are spread throughout
-!     the ranges of acceptance).
+!   [0.0, 16.87, 16.88, 33.75, 50.62, 50.63, 67.5, 84.37, 84.38, 101.25, 118.12, 118.13, 135.0, 151.87, 151.88, 168.75, 185.62, 185.63, 202.5, 219.37, 219.38, 236.25, 253.12, 253.13, 270.0, 286.87, 286.88, 303.75, 320.62, 320.63, 337.5, 354.37, 354.38].
+!   (They should give the same order of points but are spread throughout
+!   the ranges of acceptance).
 ! 
 ! Notes;
 ! 

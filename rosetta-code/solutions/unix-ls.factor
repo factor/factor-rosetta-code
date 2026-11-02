@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that will list everything in the current folder, similar
 ! to:

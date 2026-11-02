@@ -41,20 +41,20 @@
 ! * Write a routine that, given a natural number k, returns a naturally ordered Walsh matrix of order 2^(k).
 ! * Display a few sample generated matrices.
 ! 
-!     
+!   
 ! 
-!         Traditionally, Walsh matrices use 1 & -1 to denote the different
-!         cell values in text mode, or green and red blocks in image mode.
-!         You may use whichever display mode is most convenient for your
-!         particular language.
+!     Traditionally, Walsh matrices use 1 & -1 to denote the different
+!     cell values in text mode, or green and red blocks in image mode. You
+!     may use whichever display mode is most convenient for your
+!     particular language.
 ! 
 ! Stretch
 ! * Also, optionally generate sequency ordered Walsh matrices.
 ! 
-!     
+!   
 ! 
-!         A sequency ordered Walsh matrix has the rows sorted by number of
-!         sign changes.
+!     A sequency ordered Walsh matrix has the rows sorted by number of
+!     sign changes.
 ! 
 ! See also
 ! * Wikipedia: Walsh matrix

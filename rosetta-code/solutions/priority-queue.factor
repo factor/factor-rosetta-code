@@ -6,7 +6,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a priority queue. The queue must support at least two operations:
 ! 

@@ -6,7 +6,6 @@
 ! 
 ! Rough textual version without edges:
 ! 
-! 
 !           1         
 !                             17
 !      7   A
@@ -45,7 +44,7 @@
 ! 
 ! A second format
 ! 
-!     
+!   
 ! 
 ! A separate algorithm returns polygonal faces consisting of a face name
 ! and an unordered set of edge definitions for each face.
@@ -68,7 +67,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1. Write a routine to check if two perimeter formatted faces have the
 ! same perimeter. Use it to check if the following pairs of perimeters are

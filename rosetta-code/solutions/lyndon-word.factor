@@ -11,9 +11,9 @@
 ! 
 ! The first Lyndon words on the binary alphabet {0, 1} are:
 ! 
-!     0, 1, 01, 001, 011, 0001, 0011, 0111, 00001, 00011, 00101, 00111,
-!     01011, 01111, ...
-!     
+!   0, 1, 01, 001, 011, 0001, 0011, 0111, 00001, 00011, 00101, 00111,
+!   01011, 01111, ...
+!   
 ! 
 ! Task: Given a positive number n and an ordered list of alphabet, list
 ! all Lyndon words of length at most n, in the lexicographic order.

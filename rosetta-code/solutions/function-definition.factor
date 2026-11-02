@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a definition of a function called "multiply" that takes two
 ! arguments and returns their product.
@@ -14,7 +14,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Function prototype
 

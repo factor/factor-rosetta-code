@@ -3,7 +3,7 @@
 ! 
 ! Problem
 ! 
-!     
+!   
 ! 
 ! You are given a a data file of thousands of lines; each of three
 ! `whitespace` separated fields: a date, a one word name and the magnitude
@@ -17,7 +17,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Create a program or script invocation to find all the events with
 !   magnitude greater than 6

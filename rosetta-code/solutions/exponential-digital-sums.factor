@@ -4,13 +4,13 @@
 ! 
 ! E.G.
 ! 
-!     {| class="wikitable"
+!   {| class="wikitable"
 ! 
 ! |- | 9² == 81 || 8 + 1 == 9 |}
 ! 
 ! Some integers have this property using more than one exponent.
 ! 
-!     {| class="wikitable"
+!   {| class="wikitable"
 ! 
 ! |- | 18³ == 5832 || 5 + 8 + 3 + 2 == 18 |- | 18⁶ == 34012224 || 3 + 4 +
 ! 0 + 1 + 2 + 2 + 2 + 4 == 18 |- | 18⁷ == 612220032 || 6 + 1 + 2 + 2 + 2 +

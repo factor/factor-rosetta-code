@@ -9,7 +9,7 @@
 ! 
 ! Example n=4 randomised Latin square
 ! 
-!     
+!   
 ! 
 !     0 2 3 1
 !     2 1 0 3
@@ -18,7 +18,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create a function/routine/procedure/method/... that given n
 !     generates a randomised Latin square of size n.
@@ -27,14 +27,14 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! Strict uniformity in the random generation is a hard problem and not a
 ! requirement of the task.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Latin Squares in reduced form/Randomizing using Jacobson and Matthews’
 !   Technique
@@ -42,7 +42,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - Wikipedia: Latin square
 ! - OEIS: A002860

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Remove a specific line or a number of lines from a file.
 ! 

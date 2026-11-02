@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! The following problem is taken from Project Euler problem 41.
 ! 
@@ -12,7 +12,7 @@
 ! 
 ! Optional
 ! 
-!     
+!   
 ! 
 ! Further say that an n+1-digit number is pandigital0 if it makes use of
 ! all the digits 0 to n exactly once. For example 10243 is a 5-digit

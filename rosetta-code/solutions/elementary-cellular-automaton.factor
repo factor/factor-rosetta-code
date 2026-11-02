@@ -12,7 +12,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a subroutine, program or function that allows to create and
 ! visualize the evolution of any of the 256 possible elementary cellular
@@ -28,7 +28,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - One-dimensional cellular automata
 ! 

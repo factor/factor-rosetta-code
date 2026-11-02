@@ -24,7 +24,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - Cellular automata: Is Rule 30 random? (PDF).
 

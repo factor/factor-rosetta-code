@@ -13,7 +13,7 @@
 ! 
 ! Related
 ! 
-!     
+!   
 ! 
 ! - Primes with digits in nondecreasing order (infinite series allowing
 !   duplicate digits, whereas this isn't and doesn't)

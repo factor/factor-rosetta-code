@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a list of ten functions, in the simplest manner possible
 ! (anonymous functions are encouraged), such that the function at index i
@@ -12,7 +12,7 @@
 ! 
 ! Goal
 ! 
-!     
+!   
 ! 
 ! Demonstrate how to create a series of independent closures based on the
 ! same template but maintain separate copies of the variable closed over.

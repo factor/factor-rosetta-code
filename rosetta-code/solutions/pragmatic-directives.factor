@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! List any pragmatic directives supported by the language, and demonstrate
 ! how to activate and deactivate the pragmatic directives and to describe

@@ -4,7 +4,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! 1184 and 1210 are an amicable pair, with proper divisors:
 ! 
@@ -13,7 +13,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Calculate and show here the Amicable pairs below 20,000; (there are
 ! eight).

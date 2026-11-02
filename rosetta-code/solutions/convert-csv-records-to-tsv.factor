@@ -76,7 +76,7 @@
 ! 
 ! signifies that the input as given on the left should be transformed into
 ! the 'tsv' string given on the right, in both cases minus the surrounding
-! quotes. On either side, signifies the tab character.
+! quotes. On either side, <tab> signifies the tab character.
 ! 
 !     'a,"b"'      => 'a<tab>b'   # <tab> is the tab character
 !     '"a","b""c"' => 'a<tab>b"c' # double-quotes are normalized

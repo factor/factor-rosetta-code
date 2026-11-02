@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write a routine (function, procedure, whatever) to find the Mertens
 !     number for any positive integer x.
@@ -28,7 +28,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia: Mertens function
 !   - Wikipedia: Möbius function
@@ -42,7 +42,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Möbius function
 

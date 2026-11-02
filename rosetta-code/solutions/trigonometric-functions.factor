@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! If your language has a library or built-in functions for trigonometry,
 ! show examples of:

@@ -23,7 +23,7 @@
 ! 
 ! You can alternatively use this formula:
 ! 
-!     Given the angles α₁, …, α_(n) the mean is computed by
+!   Given the angles α₁, …, α_(n) the mean is computed by
 ! 
 ! $$\bar{\alpha} = \operatorname{atan2}\left(\frac{1}{n}\cdot\sum_{j=1}^n \sin\alpha_j, \frac{1}{n}\cdot\sum_{j=1}^n \cos\alpha_j\right)$$
 ! 

@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Merge and aggregate two datasets as provided in .csv files into a new
 ! resulting dataset.
@@ -15,7 +15,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! Either load the data from the .csv files or create the required data
 ! structures hard-coded.
@@ -61,7 +61,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! This task is aimed in particular at programming languages that are used
 ! in data science and data processing, such as F#, Python, R, SPSS, MATLAB
@@ -69,7 +69,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - CSV data manipulation
 ! - CSV to HTML translation

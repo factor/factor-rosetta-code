@@ -7,7 +7,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function to generate the n^(th) Fibonacci number.
 ! 
@@ -28,14 +28,14 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Fibonacci n-step number sequences
 ! - Leonardo numbers
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Wikipedia, Fibonacci number
 ! - Wikipedia, Lucas number

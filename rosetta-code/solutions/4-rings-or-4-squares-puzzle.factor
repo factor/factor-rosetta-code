@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Replace a, b, c, d, e, f, and
 ! 
@@ -42,7 +42,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Solve the no connection puzzle
 ! 

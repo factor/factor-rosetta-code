@@ -1,7 +1,7 @@
-!     
+!   
 ! 
-!         ''This task is about derived types; for implementation
-!         inheritance, see Polymorphism.
+!     ''This task is about derived types; for implementation inheritance,
+!     see Polymorphism.
 ! 
 ! Inheritance is an operation of type algebra that creates a new type from
 ! one or several parent types.
@@ -46,17 +46,17 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show a tree of types which inherit from each other.
 ! 
-!     
+!   
 ! 
-!         At the top of the tree should be a class called Animal.
-!         The second level should have Dog and Cat.
-!         Under Dog should be Lab and Collie.
-!         None of the classes need to have any functions, the only thing
-!         they need to do is inherit from the specified superclasses
+!     At the top of the tree should be a class called Animal.
+!     The second level should have Dog and Cat.
+!     Under Dog should be Lab and Collie.
+!     None of the classes need to have any functions, the only thing they
+!     need to do is inherit from the specified superclasses
 ! 
 !  (overriding functions should be shown in Polymorphism). 
 ! 

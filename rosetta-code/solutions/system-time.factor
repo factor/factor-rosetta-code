@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Output the system time (any units will do as long as they are noted)
 ! either by a system command or one built into the language.
@@ -10,13 +10,13 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Date format
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Retrieving system time (wiki)
 ! 

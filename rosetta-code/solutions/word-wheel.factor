@@ -7,17 +7,17 @@
 ! be used as many times as it appears in the wheel or grid.
 ! 
 ! An example
+!   
+! 
 !     
 ! 
-!         
-! 
-!             {| class="wikitable"
+!       {| class="wikitable"
 ! 
 ! | N | D | E |- | O | style="font-weight: bold;"| K | G |- | E | L | W |}
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program to solve the above "word wheel" puzzle.
 ! 
@@ -38,7 +38,7 @@
 ! 
 ! Optional extra
 ! 
-!     
+!   
 ! 
 ! Word wheel puzzles usually state that there is at least one nine-letter
 ! word to be found. Using the above dictionary, find the 3x3 grids with at

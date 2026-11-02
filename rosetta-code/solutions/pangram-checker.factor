@@ -5,14 +5,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function or method to check a sentence to see if it is a pangram
 ! (or not) and show its use.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - determine if a string has all the same characters
 !   - determine if a string has all unique characters

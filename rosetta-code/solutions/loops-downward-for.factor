@@ -1,12 +1,12 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a for loop which writes a countdown from 10 to 0.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Loop over multiple arrays simultaneously
 ! - Loops/Break

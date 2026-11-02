@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Using the word list from
 ! https://web.archive.org/web/20240920144647if_/http://wiki.puzzlers.org/pub/wordlists/unixdict.txt,
@@ -23,7 +23,7 @@
 ! 
 ! Stretch goal
 ! 
-!     
+!   
 ! 
 ! As a stretch goal use the entries from the table of Word Frequencies in
 ! Written and Spoken English: based on the British National Corpus,
@@ -35,7 +35,7 @@
 ! 
 ! cf.
 ! 
-!     
+!   
 ! 
 ! - Schools to rethink 'i before e' - BBC news, 20 June 2009
 ! - I Before E Except After C - QI Series 8 Ep 14, (humorous)

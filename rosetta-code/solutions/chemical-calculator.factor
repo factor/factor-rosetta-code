@@ -138,7 +138,7 @@
 ! 
 ! Examples
 ! 
-!     
+!   
 ! 
 !     assert   1.008 == molar_mass('H')                  # hydrogen
 !     assert   2.016 == molar_mass('H2')                 # hydrogen gas
@@ -154,7 +154,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia article: Molecular mass
 

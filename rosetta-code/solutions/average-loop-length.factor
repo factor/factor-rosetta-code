@@ -6,7 +6,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program or a script that estimates, for each N, the average
 ! length until the first such repetition.

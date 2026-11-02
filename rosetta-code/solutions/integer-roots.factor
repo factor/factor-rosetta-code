@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program that computes an approximation of the principal N^(th)
 ! root of X as the largest integer less than or equal to R for which

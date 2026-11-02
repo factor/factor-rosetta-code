@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate how to generate and display a Voroni diagram.
 ! 

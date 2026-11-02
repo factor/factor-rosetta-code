@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Print out (in a manner considered suitable for the platform) the current
 ! call stack.

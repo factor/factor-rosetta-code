@@ -4,7 +4,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! In this table of countries and cities, a stable sort on the second
 ! column, the cities, would keep the USBirmingham above the UKBirmingham.
@@ -24,11 +24,11 @@
 ! 
 ! Task
 ! 
-!     1.  Examine the documentation on any in-built sort routines supplied
-!         by a language.
-!     2.  Indicate if an in-built routine is supplied
-!     3.  If supplied, indicate whether or not the in-built routine is
-!         stable.
+!   1.  Examine the documentation on any in-built sort routines supplied
+!       by a language.
+!   2.  Indicate if an in-built routine is supplied
+!   3.  If supplied, indicate whether or not the in-built routine is
+!       stable.
 ! 
 ! (This Wikipedia table shows the stability of some common sort routines).
 ! 

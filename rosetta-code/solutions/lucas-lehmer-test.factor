@@ -6,7 +6,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Calculate all Mersenne primes up to the implementation's maximum
 ! precision, or the 47^(th) Mersenne prime (whichever comes first).

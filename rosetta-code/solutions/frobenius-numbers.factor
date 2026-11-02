@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find and display here on this page the Frobenius numbers that are <
 ! 10,000.
@@ -11,16 +11,16 @@
 ! 
 ! where:
 ! 
-!     
+!   
 ! 
-!         prime(1) = 2
-!         prime(2) = 3
-!         prime(3) = 5
-!         prime(4) = 7
+!     prime(1) = 2
+!     prime(2) = 3
+!     prime(3) = 5
+!     prime(4) = 7
 ! 
-!             •
-!             •
-!             •
+!       •
+!       •
+!       •
 ! 
 ! Category:Prime Numbers
 

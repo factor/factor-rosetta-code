@@ -6,7 +6,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement such a mapping:
 ! 
@@ -24,7 +24,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Make the rank function as a bijection and show unrank(n) for n varying
 ! from 0 to 10.

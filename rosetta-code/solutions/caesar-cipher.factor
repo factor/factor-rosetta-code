@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a Caesar cipher, both encoding and decoding.
 ! 
@@ -24,7 +24,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Rot-13
 ! - Substitution Cipher

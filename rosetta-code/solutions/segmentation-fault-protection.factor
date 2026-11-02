@@ -17,7 +17,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Showcase what built-in protections your language has for segmentation
 ! faults, if any. If your language doesn't have any, show what happens

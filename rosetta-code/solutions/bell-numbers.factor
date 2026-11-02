@@ -6,20 +6,19 @@
 ! 
 ! So
 ! 
-!     
+!   
 ! 
-!     B₀ = 1 trivially. There is only one way to partition a set with zero
-!     elements. { }
+!   B₀ = 1 trivially. There is only one way to partition a set with zero
+!   elements. { }
 ! 
-!     B₁ = 1 There is only one way to partition a set with one element.
-!     {a}
+!   B₁ = 1 There is only one way to partition a set with one element. {a}
 ! 
-!     B₂ = 2 Two elements may be partitioned in two ways. {a} {b}, {a b}
+!   B₂ = 2 Two elements may be partitioned in two ways. {a} {b}, {a b}
 ! 
-!     B₃ = 5 Three elements may be partitioned in five ways {a} {b} {c},
-!     {a b} {c}, {a} {b c}, {a c} {b}, {a b c}
+!   B₃ = 5 Three elements may be partitioned in five ways {a} {b} {c}, {a
+!   b} {c}, {a} {b c}, {a c} {b}, {a b c}
 ! 
-!     and so on.
+!   and so on.
 ! 
 ! A simple way to find the Bell numbers is construct a Bell triangle, also
 ! known as an Aitken's array or Peirce triangle, and read off the numbers
@@ -29,7 +28,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a routine (function, generator, whatever) to generate the Bell
 ! number sequence and call the routine to show here, on this page at least
@@ -41,7 +40,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - OEIS:A000110 Bell or exponential numbers
 !   - OEIS:A011971 Aitken's array

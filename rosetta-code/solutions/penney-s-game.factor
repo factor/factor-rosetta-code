@@ -13,7 +13,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! One player might choose the sequence HHT and the other THT.
 ! 

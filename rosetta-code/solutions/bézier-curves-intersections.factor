@@ -3,9 +3,9 @@
 ! are parabolas intersecting at four points, as shown in the following
 ! diagram:
 ! 
-!     
+!   
 ! 
-!         []
+!     []
 ! 
 ! The task is to write a program that finds all four intersection points
 ! and prints their (x, y) coordinates. You may use any algorithm you know

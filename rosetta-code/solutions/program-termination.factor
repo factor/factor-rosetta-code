@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show the syntax for a complete stoppage of a program inside a
 ! conditional.

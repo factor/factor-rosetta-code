@@ -19,7 +19,7 @@
 ! 
 ! Related
 ! 
-!     
+!   
 ! 
 ! - Narcissistic_decimal_number
 

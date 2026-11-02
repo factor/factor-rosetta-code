@@ -10,16 +10,14 @@
 ! longitude. (Ideally double precision).
 ! 
 ! Example 1:
-!     print (encodeGeohash (for: [51.433718, -0.214126], withPrecision:
-!     2))
-!     // Result: "gc" (all of Ireland, most of England and Wales, small
-!     part of Scotland)
+!   print (encodeGeohash (for: [51.433718, -0.214126], withPrecision: 2))
+!   // Result: "gc" (all of Ireland, most of England and Wales, small part
+!   of Scotland)
 ! 
 ! Example 2:
-!     print (encodeGeohash (for: [51.433718, -0.214126], withPrecision:
-!     9))
-!     // Result: "gcpue5hp4" (the umpire's chair on Center Court at
-!     Wimbledon)
+!   print (encodeGeohash (for: [51.433718, -0.214126], withPrecision: 9))
+!   // Result: "gcpue5hp4" (the umpire's chair on Center Court at
+!   Wimbledon)
 ! 
 ! From the Wikipedia page, geohashes can be "useful in database systems
 ! where queries on a single index are much easier or faster than

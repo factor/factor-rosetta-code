@@ -28,7 +28,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - cocktail sort with shifting bounds
 ! 

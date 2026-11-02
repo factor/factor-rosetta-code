@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function or program that takes a string as input, and checks
 ! whether it is a valid ISIN.
@@ -16,7 +16,7 @@
 ! 
 ! Details
 ! 
-!     
+!   
 ! 
 ! The format of an ISIN is as follows:
 ! 
@@ -44,11 +44,11 @@
 ! 
 ! Test cases
 ! 
+!   
+! 
 !     
 ! 
-!         
-! 
-!             {| class="wikitable"
+!       {| class="wikitable"
 ! 
 ! ! ISIN ! Validity ! Comment |- | US0378331005 || valid || |- |
 ! US0373831005 || not valid || The transposition typo is caught by the
@@ -68,7 +68,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - Interactive online ISIN validator
 ! - Wikipedia article: International Securities Identification Number

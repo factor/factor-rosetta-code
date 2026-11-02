@@ -30,7 +30,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - For each of pairs, triplets, quadruplets and quintuplets, Find and
 !     display the count of each group type of sexy primes less than one

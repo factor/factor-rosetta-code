@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate how to copy data structures containing complex heterogeneous
 ! and cyclic semantics.

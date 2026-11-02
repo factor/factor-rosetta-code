@@ -1,13 +1,13 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show here (on this page) the decimal numbers formed by:
 ! 
-!     
+!   
 ! 
-!         (n 1's appended by the digit 3) and then square the result,
-!         where 0 <= n < 8
+!     (n 1's appended by the digit 3) and then square the result, where 0
+!     <= n < 8
 ! 
 ! See also
 ! * oeis:A151997

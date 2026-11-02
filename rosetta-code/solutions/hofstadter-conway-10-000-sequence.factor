@@ -47,7 +47,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create a routine to generate members of the Hofstadter-Conway
 !     $10,000 sequence.
@@ -58,7 +58,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - Conways Challenge Sequence, Mallows' own account.
 ! - Mathworld Article.

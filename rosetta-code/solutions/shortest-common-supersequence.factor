@@ -4,7 +4,7 @@
 ! 
 ! ;Task
 ! 
-!     
+!   
 ! 
 ! Given two strings u and v, find the shortest possible sequence s, which
 ! is the shortest common super-sequence of u and v where both u and v are
@@ -14,7 +14,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - Wikipedia: shortest common supersequence
 

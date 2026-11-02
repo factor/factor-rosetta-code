@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a function, compose, whose two arguments f and g, are both
 ! functions with one argument.
@@ -11,7 +11,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 !  compose(f, g) (x) = f(g(x))
 ! 

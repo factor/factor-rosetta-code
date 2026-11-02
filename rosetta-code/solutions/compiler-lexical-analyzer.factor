@@ -1,11 +1,10 @@
 ! Definition from Wikipedia:
 ! 
-!     Lexical analysis is the process of converting a sequence of
-!     characters (such as in a computer program or web page) into a
-!     sequence of tokens (strings with an identified "meaning"). A program
-!     that performs lexical analysis may be called a lexer, tokenizer, or
-!     scanner (though "scanner" is also used to refer to the first stage
-!     of a lexer).
+!   Lexical analysis is the process of converting a sequence of characters
+!   (such as in a computer program or web page) into a sequence of tokens
+!   (strings with an identified "meaning"). A program that performs
+!   lexical analysis may be called a lexer, tokenizer, or scanner (though
+!   "scanner" is also used to refer to the first stage of a lexer).
 ! 
 ! Create a lexical analyzer for the simple programming language specified
 ! below. The program should read input from a file and/or stdin, and write
@@ -18,9 +17,9 @@
 ! 
 ! Operators
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |- ! Name !! Common name !! Character sequence |- | Op_multiply ||
 ! multiply || * |- | Op_divide || divide || / |- | Op_mod || mod || % |- |
@@ -38,9 +37,9 @@
 ! 
 ! Symbols
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |- ! Name !! Common name !! Character |- | LeftParen || left parenthesis
 ! || ( |- | RightParen || right parenthesis || ) |- | LeftBrace || left
@@ -49,9 +48,9 @@
 ! 
 ! Keywords
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |- ! Name || Character sequence |- | Keyword_if || if |- | Keyword_else
 ! || else |- | Keyword_while || while |- | Keyword_print || print |- |
@@ -62,9 +61,9 @@
 ! These differ from the the previous tokens, in that each occurrence of
 ! them has a value associated with it.
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |- ! Name ! Common name ! Format description ! Format regex ! Value |- |
 ! Identifier | identifier | one or more letter/number/underscore
@@ -89,9 +88,9 @@
 ! 
 ! Zero-width tokens
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |- ! Name || Location |- | End_of_input || when the end of the input
 ! stream is reached |}
@@ -124,7 +123,7 @@
 !         count = count + 1 ; /* number of primes found so far */
 !     }
 ! 
-! - if(p){print(n," ");count=count+1;}
+! -     if(p){print(n," ");count=count+1;}
 ! 
 ! Complete list of token names
 ! 
@@ -165,9 +164,9 @@
 ! 
 ! The following error conditions should be caught:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |- ! Error ! Example |- | Empty character constant | '' |- | Unknown
 ! escape sequence. | \r |- | Multi-character constant. | 'xx' |- |
@@ -178,7 +177,7 @@
 ! |- | Invalid number. Starts like a number, but ends in non-numeric
 ! characters. | 123abc |}
 ! 
-!     {| class="wikitable"
+!   {| class="wikitable"
 ! 
 ! |- ! Input ! Output |- | style="vertical-align:top" | Test Case 1:
 ! 

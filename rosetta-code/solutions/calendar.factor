@@ -27,14 +27,14 @@
 ! 
 ! See Also
 ! 
-!     
+!   
 ! 
 ! - - Snoopy calendar 1969-2025 Marcel van der Veer - The deck is credited
 !     as being one of the first FOSS programs.
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - Five weekends
 ! 

@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function that takes a string as an argument with optional
 ! arguments or parameters (the format of parameters/options is left to the
@@ -72,10 +72,9 @@
 ! length (or number) of the decimal digits between commas. The default
 ! period length is 3.
 ! 
-!     
+!   
 ! 
-!         E.G.: in this example, the period length is five:
-!         56789,12340,14148
+!     E.G.: in this example, the period length is five: 56789,12340,14148
 ! 
 ! The location of where to start the scanning for the target field (the
 ! numeric part) should be able to be specified. The default is 1.
@@ -85,7 +84,7 @@
 ! 
 ! Strings to be used as a minimum
 ! 
-!     
+!   
 ! 
 ! The value of pi (expressed in base 10) should be separated with blanks
 ! every 5 places past the decimal point,
@@ -113,7 +112,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - The Wiki entry: (sir) Arthur Eddington's number of protons in the
 !   universe.

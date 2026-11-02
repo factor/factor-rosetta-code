@@ -2,18 +2,18 @@
 ! the replacement of defined character sequences in the string by values
 ! or variable values.
 ! 
-!     For example, given an original string of "Mary had a X lamb.", a
-!     value of "big", and if the language replaces X in its interpolation
-!     routine, then the result of its interpolation would be the string
-!     "Mary had a big lamb".
+!   For example, given an original string of "Mary had a X lamb.", a value
+!   of "big", and if the language replaces X in its interpolation routine,
+!   then the result of its interpolation would be the string
+!   "Mary had a big lamb".
 ! 
-!     (Languages usually include an infrequently used character or
-!     sequence of characters to indicate what is to be replaced such as
-!     "%", or "#" rather than "X").
+!   (Languages usually include an infrequently used character or sequence
+!   of characters to indicate what is to be replaced such as "%", or "#"
+!   rather than "X").
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Use your languages inbuilt string interpolation abilities to
 !     interpolate a string missing the text "little" which is held in a

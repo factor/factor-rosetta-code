@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate how to implement matrix exponentiation as an operator.
 

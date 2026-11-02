@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a text file and an integer n, print/display the n most common
 ! words in the file (and the number of their occurrences) in decreasing
@@ -30,7 +30,7 @@
 ! 
 ! History
 ! 
-!     
+!   
 ! 
 ! This task was originally taken from programming pearls from
 ! Communications of the ACM June 1986 Volume 29 Number 6 where this
@@ -40,7 +40,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - McIlroy's program
 ! 

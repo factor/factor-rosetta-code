@@ -12,7 +12,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a list comprehension that builds the list of all Pythagorean
 ! triples with elements between 1 and n.

@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find the point of intersection of two lines in 2D.
 ! 

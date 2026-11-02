@@ -13,7 +13,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Answer the question: what state are the doors in after the last pass?
 ! Which are open, which are closed?
@@ -27,7 +27,7 @@
 ! 
 ! Why doesn't syntax highlighting work on this page ?
 ! 
-!     
+!   
 ! 
 ! Currently, there is a limit on how many <syntaxhighlight> tags can
 ! appear on a page, so only the first few languages get highlighting, the

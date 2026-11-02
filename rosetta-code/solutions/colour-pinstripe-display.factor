@@ -15,7 +15,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - display black and white
 ! - print colour

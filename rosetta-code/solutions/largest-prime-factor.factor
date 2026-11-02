@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! The task description is taken for Project Euler
 ! (https://projecteuler.net/problem=3)

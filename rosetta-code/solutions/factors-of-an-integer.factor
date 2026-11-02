@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Compute the factors of a positive integer.
 ! 
@@ -17,7 +17,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - count in factors
 ! - prime decomposition

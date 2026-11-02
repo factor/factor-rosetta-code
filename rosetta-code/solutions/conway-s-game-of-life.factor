@@ -27,7 +27,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Although you should test your implementation on more complex examples
 ! such as the glider in a larger universe, show the action of the blinker
@@ -36,7 +36,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Its creator John Conway, explains the game of life. Video from
 !   numberphile on youtube.
@@ -44,7 +44,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Langton's ant - another well known cellular automaton.
 ! 

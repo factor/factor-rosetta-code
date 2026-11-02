@@ -1,12 +1,12 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Pass a function as an argument to another function.
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - First-class functions
 

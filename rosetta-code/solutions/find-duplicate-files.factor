@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program which, given a minimum size and a folder/directory,
 ! will find all files of at least size bytes with duplicate contents under

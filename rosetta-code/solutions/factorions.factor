@@ -1,13 +1,13 @@
 ! Definition
 ! 
-!     
+!   
 ! 
 ! A factorion is a natural number that equals the sum of the factorials of
 ! its digits.
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! 145 is a factorion in base 10 because:
 ! 
@@ -18,7 +18,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program in your language to demonstrate, by calculating and
 ! printing out the factorions, that:
@@ -31,7 +31,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia article
 !   - OEIS:A014080 - Factorions in base 10

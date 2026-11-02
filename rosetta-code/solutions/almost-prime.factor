@@ -3,7 +3,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! 1-almost-primes, where k = 1, are the prime numbers themselves.
 ! 
@@ -11,7 +11,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function/method/subroutine/... that generates k-almost primes
 ! and use it to create a table here of the first ten members of k-Almost
@@ -19,7 +19,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Semiprime
 ! - :Category:Prime Numbers

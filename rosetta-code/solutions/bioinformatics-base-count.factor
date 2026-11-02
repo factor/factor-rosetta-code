@@ -13,7 +13,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - "Pretty print" the sequence followed by a summary of the counts of
 !     each of the bases: (A, C, G, and T) in the sequence

@@ -1,14 +1,14 @@
 ! A fast scheme for evaluating a polynomial such as:
 ! 
-!     −19 + 7x − 4x² + 6x³ 
+!   −19 + 7x − 4x² + 6x³ 
 ! 
 ! when
 ! 
-!     x = 3 .
+!   x = 3 .
 ! 
 ! is to arrange the computation as follows:
 ! 
-!     ((((0)x + 6)x + (−4))x + 7)x + (−19) 
+!   ((((0)x + 6)x + (−4))x + 7)x + (−19) 
 ! 
 ! And compute the result from the innermost brackets outwards as in this
 ! pseudocode:
@@ -24,10 +24,10 @@
 ! 
 ! Task Description
 ! 
-!     Create a routine that takes a list of coefficients of a polynomial
-!     in order of increasing powers of x; together with a value of x to
-!     compute its value at, and return the value of the polynomial at that
-!     value using Horner's rule.
+!   Create a routine that takes a list of coefficients of a polynomial in
+!   order of increasing powers of x; together with a value of x to compute
+!   its value at, and return the value of the polynomial at that value
+!   using Horner's rule.
 ! 
 ! Cf. Formal power series
 

@@ -14,7 +14,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - show the first 50 humble numbers (in a horizontal list)
 !   - show the number of humble numbers that have x decimal digits for all
@@ -24,13 +24,13 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Hamming numbers
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia: Smooth numbers, see the 2^(nd) paragraph.
 !   - OEIS A002473: humble numbers

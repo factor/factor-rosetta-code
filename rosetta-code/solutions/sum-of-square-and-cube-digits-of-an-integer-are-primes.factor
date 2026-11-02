@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find and show here all positive integers n less than 100 where:
 ! 
@@ -9,7 +9,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! 16 satisfies the task descrption because 16 x 16 = 256 has a digit sum
 ! of 13 which is prime and 16 x 16 x 16 = 4096 has a digit sum of 19 which

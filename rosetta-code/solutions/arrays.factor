@@ -1,6 +1,6 @@
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Arrays
 !   - Array
@@ -21,7 +21,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show basic array syntax in your language.
 ! 

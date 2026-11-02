@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Guide a new user of a language through the steps necessary to install
 ! the programming language and selection of a text editor if needed, to

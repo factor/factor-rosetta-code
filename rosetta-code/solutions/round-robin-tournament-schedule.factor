@@ -8,14 +8,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that prints out a tournament schedule for 12
 ! participants (represented by numbers 1 to 12).
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia - Round-robin tournament
 

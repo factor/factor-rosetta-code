@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a compound data type:
 ! 
@@ -10,7 +10,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Enumeration
 

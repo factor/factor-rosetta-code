@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Solve the "Impossible Puzzle":
 ! 

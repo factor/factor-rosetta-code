@@ -2,9 +2,9 @@
 ! ways. Some are given in the table below, and the referenced video shows
 ! some of the geometric similarities.
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! ! Comment !! Padovan !! Fibonacci |- | || || |- | Named after. ||
 ! Richard Padovan || Leonardo of Pisa: Fibonacci |- | || || |- |
@@ -25,7 +25,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Write a function/method/subroutine to compute successive members of
 !   the Padovan series using the recurrence relation.
@@ -44,7 +44,7 @@
 ! 
 ! Ref
 ! 
-!     
+!   
 ! 
 ! - The Plastic Ratio - Numberphile video.
 

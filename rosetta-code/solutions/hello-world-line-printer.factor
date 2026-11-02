@@ -1,13 +1,13 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Cause a line printer attached to the computer to print a line containing
 ! the message: Hello World!
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! A line printer is not the same as standard output.
 ! 

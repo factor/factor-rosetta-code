@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Numbers n such that reverse(d) divides reverse(n) for all divisors d of
 ! n, where n < 200

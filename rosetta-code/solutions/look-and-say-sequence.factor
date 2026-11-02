@@ -15,7 +15,7 @@
 ! - Say the number, from left to right, group by group; as how many of
 !   that digit there are - followed by the digit grouped.
 ! 
-!     This becomes the next number of the sequence.
+!   This becomes the next number of the sequence.
 ! 
 ! An example:
 ! 
@@ -28,14 +28,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program to generate successive members of the look-and-say
 ! sequence.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Fours is the number of letters in the ...
 ! - Number names
@@ -45,7 +45,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Look-and-Say Numbers (feat John Conway), A Numberphile Video.
 ! - This task is related to, and an application of, the Run-length

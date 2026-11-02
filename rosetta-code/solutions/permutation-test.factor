@@ -6,10 +6,10 @@
 ! the control group were given a placebo. The effect of the treatment or
 ! placebo on each volunteer was measured and reported in this table.
 ! 
-!     
+!   
 ! 
-!         {| style="text-align: left; width: 25%;" border="4"
-!         cellpadding="2" cellspacing="2"
+!     {| style="text-align: left; width: 25%;" border="4" cellpadding="2"
+!     cellspacing="2"
 ! 
 ! |+ Table of experimental results |- style="background-color: rgb(255,
 ! 204, 255);" ! Treatment group !! Control group |- | 85 || 68 |- | 88 ||

@@ -40,7 +40,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a basic class with a method, a constructor, an instance variable
 ! and how to instantiate it.

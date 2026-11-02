@@ -11,7 +11,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! If n₀ = 12 we get
 ! 
@@ -40,7 +40,7 @@
 ! 
 ! Seed and related Lychrel numbers
 ! 
-!     
+!   
 ! 
 ! Any integer produced in the sequence of a Lychrel number is also a
 ! Lychrel number.
@@ -74,7 +74,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Find the number of seed Lychrel number candidates and related numbers
 !   for n in the range 1..10000 inclusive. (With that iteration limit of
@@ -87,7 +87,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - What's special about 196? Numberphile video.
 ! - A023108 Positive integers which apparently never result in a

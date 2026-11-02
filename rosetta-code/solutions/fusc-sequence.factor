@@ -1,6 +1,6 @@
 ! Definitions
 ! 
-!     
+!   
 ! 
 ! The fusc integer sequence is defined as:
 ! 
@@ -15,7 +15,7 @@
 ! 
 ! An observation
 ! 
-!     
+!   
 ! 
 ! - - fusc(A) = fusc(B)
 ! 
@@ -30,7 +30,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - show the first 61 fusc numbers (starting at zero) in a horizontal
 !     format.
@@ -43,14 +43,14 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - Stern-Brocot sequence
 !   - Calkin-Wilf sequence.
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - the MathWorld entry: Stern's Diatomic Series.
 !   - the OEIS entry: A2487.

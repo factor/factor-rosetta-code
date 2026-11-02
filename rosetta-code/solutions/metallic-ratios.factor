@@ -55,9 +55,9 @@
 ! 
 ! So, The first ten Metallic ratios are:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable" style="text-align: center;"
+!     {| class="wikitable" style="text-align: center;"
 ! 
 ! |+ Metallic ratios !Name!!b!!Equation!!Value!!Continued fraction!!OEIS
 ! link |- |Platinum||0||(0 + √4) / 2|| 1||-||- |- |Golden||1||(1 + √5) /

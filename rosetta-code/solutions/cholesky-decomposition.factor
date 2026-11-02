@@ -80,7 +80,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! 1.  The Cholesky decomposition of a Pascal upper-triangle matrix is the
 !     Identity matrix of the same size.

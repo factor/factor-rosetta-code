@@ -5,28 +5,28 @@
 ! There is no "one true way" to do this, but for the purpose of this task
 ! 'natural' orderings might include:
 ! 
-!     1. Ignore leading, trailing and multiple adjacent spaces
-!     2. Make all whitespace characters equivalent.
-!     3. Sorting without regard to case.
-!     4. Sorting numeric portions of strings in numeric order.
+!   1. Ignore leading, trailing and multiple adjacent spaces
+!   2. Make all whitespace characters equivalent.
+!   3. Sorting without regard to case.
+!   4. Sorting numeric portions of strings in numeric order.
 ! 
-!         That is split the string into fields on numeric boundaries, then
-!         sort on each field, with the rightmost fields being the most
-!         significant, and numeric fields of integers treated as numbers.
-!         foo9.txt before foo10.txt
-!         As well as ... x9y99 before x9y100, before x10y0
-!         ... (for any number of groups of integers in a string).
-!     5. Title sorts: without regard to a leading, very common, word such
+!     That is split the string into fields on numeric boundaries, then
+!     sort on each field, with the rightmost fields being the most
+!     significant, and numeric fields of integers treated as numbers.
+!     foo9.txt before foo10.txt
+!     As well as ... x9y99 before x9y100, before x10y0
+!     ... (for any number of groups of integers in a string).
+!   5. Title sorts: without regard to a leading, very common, word such
 ! 
-!         as 'The' in "The thirty-nine steps".
-!     6. Sort letters without regard to accents.
-!     7. Sort ligatures as separate letters.
-!     8. Replacements:
+!     as 'The' in "The thirty-nine steps".
+!   6. Sort letters without regard to accents.
+!   7. Sort ligatures as separate letters.
+!   8. Replacements:
 ! 
-!         Sort German eszett or scharfes S (ß) as ss
-!         Sort ſ, LATIN SMALL LETTER LONG S as s
-!         Sort ʒ, LATIN SMALL LETTER EZH as s
-!          ∙∙∙
+!     Sort German eszett or scharfes S (ß) as ss
+!     Sort ſ, LATIN SMALL LETTER LONG S as s
+!     Sort ʒ, LATIN SMALL LETTER EZH as s
+!      ∙∙∙
 ! 
 ! Task Description
 ! 
@@ -44,7 +44,7 @@
 ! 
 ! Sample input
 ! 
-!     
+!   
 ! 
 !     &bull; Ignoring leading spaces.                       Text strings:   ['ignore leading spaces:  2-2',
 !                                                                       'ignore leading spaces:  2-1', 

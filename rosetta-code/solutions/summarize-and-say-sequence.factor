@@ -29,7 +29,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find all the positive integer seed values under 1000000, for the above
 ! convergent self-referential sequence, that takes the largest number of
@@ -67,7 +67,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Fours is the number of letters in the ...
 ! - Look-and-say sequence
@@ -77,7 +77,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - The On-Line Encyclopedia of Integer Sequences.
 

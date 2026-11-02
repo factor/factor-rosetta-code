@@ -1,12 +1,12 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Calculate the Feigenbaum constant.
 ! 
 ! See
 ! 
-!     
+!   
 ! 
 ! - - Details in the Wikipedia article: Feigenbaum constant.
 

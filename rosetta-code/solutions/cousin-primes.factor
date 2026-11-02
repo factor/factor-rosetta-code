@@ -15,7 +15,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - the Wikipedia entry: cousin prime.
 !   - the OEIS entry: A094343.

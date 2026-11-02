@@ -21,14 +21,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program to solve the challenge using both the original list of
 ! states and the fictitious list.
 ! 
 ! Caveats
 ! 
-!     
+!   
 ! 
 ! - case and spacing aren't significant - just letters (harmonize case)
 ! - don't expect the names to be in any order - such as being sorted

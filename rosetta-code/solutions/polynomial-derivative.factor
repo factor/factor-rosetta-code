@@ -6,7 +6,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - Polynomial long division
 

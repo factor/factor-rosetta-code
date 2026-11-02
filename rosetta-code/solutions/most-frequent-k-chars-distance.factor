@@ -74,7 +74,7 @@
 ! 
 ! Worked Examples
 ! 
-!     
+!   
 ! 
 ! The original paper gives several worked examples, including these two:
 ! 

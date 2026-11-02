@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find positive integers for which the base 16 (hexadecimal)
 ! representation does not contain any decimal digits '0'..'9', where n <

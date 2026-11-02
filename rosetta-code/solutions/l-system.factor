@@ -1,9 +1,10 @@
 ! Introduction
 ! 
 ! An L-system, or Lindenmayer system, is a Turing-complete form of
-! computaion, based in the parallel rewriting of symbols, usually provided
-! and managed as strings. The name comes after Aristid Lindenmayer, a
-! biologist who created it in order to simulate the growth of plants.
+! computation, based in the parallel rewriting of symbols, usually
+! provided and managed as strings. The name comes after Aristid
+! Lindenmayer, a biologist who created it in order to simulate the growth
+! of plants.
 ! 
 ! An L-system consists of:
 ! 

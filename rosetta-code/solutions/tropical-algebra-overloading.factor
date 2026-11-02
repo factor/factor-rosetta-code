@@ -9,7 +9,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Define functions or, if the language supports the symbols as
 !   operators, operators for ⊕ and ⊗ that fit the above description. If

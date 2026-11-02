@@ -50,7 +50,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create a function to generate a permutation from a rank.
 ! 2.  Create the inverse function that given the permutation generates its
@@ -62,14 +62,14 @@
 ! 
 ! Stretch goal
 ! 
-!     
+!   
 ! 
 ! - State how reasonable it would be to use your program to address the
 !   limits of the Stack Overflow question.
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! 1.  Ranking and Unranking Permutations in Linear Time by Myrvold &
 !     Ruskey. (Also available via Google here).
@@ -79,7 +79,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! 1.  Factorial_base_numbers_indexing_permutations_of_a_collection
 

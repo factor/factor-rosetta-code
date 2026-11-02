@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create code that will list (preferably calculate) all of the Mersenne
 ! primes until some limitation is reached.
@@ -11,7 +11,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - the Wikipedia entry: Mersenne prime.
 ! - the MathWorld entry; Mersenne prime.

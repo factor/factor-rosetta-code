@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Draw a square matrix which has 1's on both diagonals but 0's elsewhere.
 ! 

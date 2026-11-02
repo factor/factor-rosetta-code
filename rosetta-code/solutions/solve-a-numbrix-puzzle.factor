@@ -64,7 +64,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - A* search algorithm
 ! - Solve a Holy Knight's tour

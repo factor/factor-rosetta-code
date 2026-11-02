@@ -20,7 +20,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! If different than 32-bit x86, specify the target architecture of the
 ! machine code for your example. It may be helpful to also include an

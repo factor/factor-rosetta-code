@@ -10,7 +10,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! 187 is a gapful number because it is evenly divisible by the number 17
 ! which is formed by the first and last decimal digits of 187.
@@ -19,7 +19,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Generate and show all sets of numbers (below) on one line
 !     (horizontally) with a title, here on this page
@@ -29,7 +29,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Harshad or Niven series.
 !   - palindromic gapful numbers.
@@ -37,7 +37,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - The OEIS entry: A108343 gapful numbers.
 !   - numbersaplenty gapful numbers

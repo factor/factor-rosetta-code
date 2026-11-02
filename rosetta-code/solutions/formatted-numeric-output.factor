@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Express a number in decimal as a fixed-length string with leading zeros.
 ! 

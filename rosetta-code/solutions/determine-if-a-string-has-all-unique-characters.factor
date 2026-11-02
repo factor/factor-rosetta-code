@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a character string (which may be empty, or have a length of zero
 ! characters):
@@ -29,9 +29,9 @@
 !   - a string of length 7 which contains a blank in the middle: XYZ ZYX
 !   - a string of length 36 which doesn't contain the letter "oh":
 ! 
-!     
+!   
 ! 
-!         1234567890ABCDEFGHIJKLMN0PQRSTUVWXYZ
+!     1234567890ABCDEFGHIJKLMN0PQRSTUVWXYZ
 ! 
 ! Show all output here on this page.
 

@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Simulate such a machine capable of taking the definition of any other
 ! Turing machine and executing it.

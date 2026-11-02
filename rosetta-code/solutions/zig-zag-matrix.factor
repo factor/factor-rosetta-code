@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Produce a zig-zag array.
 ! 
@@ -23,7 +23,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Spiral matrix
 ! - Identity matrix
@@ -31,7 +31,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wiktionary entry: anti-diagonals
 

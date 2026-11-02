@@ -10,7 +10,7 @@
 ! 
 ! Definitions
 ! 
-!     
+!   
 ! 
 ! The angular scales used or referenced here:
 ! 
@@ -69,7 +69,7 @@
 ! 
 ! Notes
 ! 
-!     
+!   
 ! 
 ! In continental Europe, the French term centigrade was used for ¹/₁₀₀ of
 ! a grad (grade); this was one reason for the adoption of the term Celsius
@@ -82,7 +82,7 @@
 ! 
 ! Positive and negative angles
 ! 
-!     
+!   
 ! 
 ! Although the definition of the measurement of an angle doesn't support
 ! the concept of a negative angle, it's frequently useful to impose a
@@ -93,7 +93,7 @@
 ! 
 ! Normalization
 ! 
-!     
+!   
 ! 
 ! Normalization (for this Rosetta Code task) will keep the same sign, but
 ! it will reduce the magnitude to less than a full circle; in other words,
@@ -105,7 +105,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - write a function (or equivalent) to do the normalization for each
 !     scale

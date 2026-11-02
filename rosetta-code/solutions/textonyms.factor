@@ -15,7 +15,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that finds textonyms in a list of words such as
 ! Textonyms/wordlist or unixdict.txt.
@@ -42,7 +42,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Use a word list and keypad mapping other than English.
 

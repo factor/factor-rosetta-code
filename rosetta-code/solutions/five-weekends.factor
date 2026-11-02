@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Write a program to show all months that have this same
 !     characteristic of five full weekends from the year 1900 through 2100

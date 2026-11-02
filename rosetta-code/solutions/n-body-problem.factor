@@ -2,11 +2,11 @@
 ! mechanical system of N interacting objects. The system is described by
 ! Newton's Law
 ! 
-!     $\vec F = m_i \frac{d^2 \vec r_{i}}{dt^2}, i=1..N$
+!   $\vec F = m_i \frac{d^2 \vec r_{i}}{dt^2}, i=1..N$
 ! 
 ! with continuous combined force from other bodies
 ! 
-!     $F_i = \sum^{}_{j\neq i} F_{ij}, i=1..N$
+!   $F_i = \sum^{}_{j\neq i} F_{ij}, i=1..N$
 ! 
 ! Exact formulation of first mechanical problem is, given initial
 ! coordinates and velocities t = 0, to find coordinates and velocities at

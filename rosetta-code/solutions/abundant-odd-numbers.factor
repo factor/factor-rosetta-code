@@ -5,7 +5,7 @@
 ! 
 ! E.G.
 ! 
-!     
+!   
 ! 
 ! 12 is abundant, it has the proper divisors 1, 2, 3, 4 & 6 which sum to
 ! 16 ( > 12 or n);
@@ -29,7 +29,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - - OEIS:A005231: Odd abundant numbers (odd numbers n whose sum of
 !     divisors exceeds 2n)

@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a simple physical model of a pendulum and animate it.
 ! 

@@ -2,7 +2,7 @@
 ! 
 ! A particular activity of bats occurs at these times of the day:
 ! 
-!     23:00:17, 23:40:20, 00:12:45, 00:17:19
+!   23:00:17, 23:40:20, 00:12:45, 00:17:19
 ! 
 ! Using the idea that there are twenty-four hours in a day, which is
 ! analogous to there being 360 degrees in a circle, map times of day to

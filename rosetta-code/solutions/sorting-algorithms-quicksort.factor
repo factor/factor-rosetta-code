@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Sort an array (or list) elements using the quicksort algorithm.
 ! 
@@ -74,13 +74,13 @@
 ! contrasts quicksort with merge sort, because both sorts have an average
 ! time of O(nlogn).
 ! 
-!     "On average, mergesort does fewer comparisons than quicksort, so it
-!     may be better when complicated comparison routines are used.
-!     Mergesort also takes advantage of pre-existing order, so it would be
-!     favored for using sort() to merge several sorted arrays. On the
-!     other hand, quicksort is often faster for small arrays, and on
-!     arrays of a few distinct values, repeated many times." —
-!     http://perldoc.perl.org/sort.html
+!   "On average, mergesort does fewer comparisons than quicksort, so it
+!   may be better when complicated comparison routines are used. Mergesort
+!   also takes advantage of pre-existing order, so it would be favored for
+!   using sort() to merge several sorted arrays. On the other hand,
+!   quicksort is often faster for small arrays, and on arrays of a few
+!   distinct values, repeated many times." —
+!   http://perldoc.perl.org/sort.html
 ! 
 ! Quicksort is at one end of the spectrum of divide-and-conquer
 ! algorithms, with merge sort at the opposite end.

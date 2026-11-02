@@ -58,8 +58,8 @@
 ! - Find the first number whose lunar square is smaller than the previous.
 ! 
 ! See also
-!     OEIS A087019 - Lunar squares
-!     OEIS A189788 - Base-10 lunar factorials
-!     Tropical algebra overloading
+!   OEIS A087019 - Lunar squares
+!   OEIS A189788 - Base-10 lunar factorials
+!   Tropical algebra overloading
 
 

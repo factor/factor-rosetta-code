@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given an existing list of arguments (which may or may not be named)
 ! stored in a data structure, show how to apply a function to them.
@@ -18,7 +18,7 @@
 ! 
 ! Additional guidance
 ! 
-!     
+!   
 ! 
 ! This task is NOT the same as Apply a callback to an array. If you are
 ! using higher-order functions, your language's equivalent of map will
@@ -29,7 +29,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Call a function
 !   - Named parameters

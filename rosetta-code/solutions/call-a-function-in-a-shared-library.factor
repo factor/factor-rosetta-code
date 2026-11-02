@@ -8,7 +8,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - OpenGL -- OpenGL is usually maintained as a shared library.
 ! 

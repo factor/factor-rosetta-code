@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Strip block comments from program text (of a programming language much
 ! like classic C).
@@ -38,7 +38,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Ensure that the stripping code is not hard-coded to the particular
 ! delimiters described above, but instead allows the caller to specify

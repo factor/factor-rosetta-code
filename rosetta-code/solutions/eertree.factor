@@ -8,14 +8,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Construct an eertree for the string "eertree", then output all
 ! sub-palindromes by traversing the tree.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wikipedia entry: trie.
 ! - Wikipedia entry: suffix tree

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Output the 8 notes of the C major diatonic scale to the default musical
 ! sound device on the system. Specifically, pitch must be tuned to 12-tone

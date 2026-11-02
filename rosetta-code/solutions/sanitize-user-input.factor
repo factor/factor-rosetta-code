@@ -9,7 +9,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a function that takes a list of 20 first and last names, and
 ! copies them to a record or struct. Ten of them must be typical input,

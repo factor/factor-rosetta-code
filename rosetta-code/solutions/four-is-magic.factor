@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a subroutine, function, whatever it may be called in your
 ! language, that takes an integer number and returns an English text
@@ -39,7 +39,7 @@
 ! 
 ! Some task guidelines
 ! 
-!     
+!   
 ! 
 ! - - You may assume the input will only contain integer numbers.
 !   - Cardinal numbers between 20 and 100 may use either hyphens or spaces
@@ -82,7 +82,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Four is the number of_letters in the ...
 !   - Look-and-say sequence

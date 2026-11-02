@@ -36,17 +36,17 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - numbers with equal rises and falls
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
-!     *OEIS A033075 - Positive numbers n such that all pairs of consecutive decimal digits differ by 1
-!     *Numbers Aplenty - Esthetic numbers
-!     *Geeks for Geeks - Stepping numbers
+!   *OEIS A033075 - Positive numbers n such that all pairs of consecutive decimal digits differ by 1
+!   *Numbers Aplenty - Esthetic numbers
+!   *Geeks for Geeks - Stepping numbers
 
 USING: combinators deques dlists formatting grouping io kernel
 locals make math math.order math.parser math.ranges

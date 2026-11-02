@@ -15,7 +15,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a computer program which outputs all valid combinations.
 ! 

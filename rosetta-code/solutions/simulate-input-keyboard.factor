@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Send simulated keystrokes to a GUI window, or terminal.
 ! 

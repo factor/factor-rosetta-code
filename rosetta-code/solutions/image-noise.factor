@@ -3,7 +3,7 @@
 ! 
 ! A sample image
 ! 
-!     []
+!   []
 ! 
 ! Category:Raster graphics operations
 

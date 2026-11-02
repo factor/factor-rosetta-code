@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate how to strip leading and trailing whitespace from a string.
 ! 

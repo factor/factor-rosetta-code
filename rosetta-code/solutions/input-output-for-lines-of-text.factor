@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! The first line contains the number of lines to follow, followed by that
 ! number of lines of text on STDIN.
@@ -10,7 +10,7 @@
 ! 
 ! Sample input with corresponding output
 ! 
-!     
+!   
 ! 
 ! Input
 ! 
@@ -27,7 +27,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Input/Output for Pairs of Numbers
 ! - File/Input and Output

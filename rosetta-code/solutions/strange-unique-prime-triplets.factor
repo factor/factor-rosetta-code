@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Find all triplets of strange unique primes in which n, m, and p are
 !     all less than 30.

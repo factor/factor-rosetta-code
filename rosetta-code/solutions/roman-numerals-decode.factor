@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a function that takes a Roman numeral as its argument and returns
 ! its value as a numeric decimal integer.

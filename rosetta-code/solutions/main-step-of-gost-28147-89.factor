@@ -12,7 +12,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the main step of this encryption algorithm.
 

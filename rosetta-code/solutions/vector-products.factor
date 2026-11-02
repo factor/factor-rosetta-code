@@ -1,6 +1,6 @@
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Arrays
 ! - Vector
@@ -46,31 +46,31 @@
 ! 
 ! - The dot product (a scalar quantity)
 ! 
-!     
+!   
 ! 
-!          A • B = a₁b₁ + a₂b₂ + a₃b₃
+!      A • B = a₁b₁ + a₂b₂ + a₃b₃
 ! 
 ! - The cross product (a vector quantity)
 ! 
-!     
+!   
 ! 
-!          A x B = (a₂b₃ - a₃b₂, a₃b₁ - a₁b₃, a₁b₂ - a₂b₁)
+!      A x B = (a₂b₃ - a₃b₂, a₃b₁ - a₁b₃, a₁b₂ - a₂b₁)
 ! 
 ! - The scalar triple product (a scalar quantity)
 ! 
-!     
+!   
 ! 
-!          A • (B x C)
+!      A • (B x C)
 ! 
 ! - The vector triple product (a vector quantity)
 ! 
-!     
+!   
 ! 
-!          A x (B x C)
+!      A x (B x C)
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given the three vectors:
 ! 

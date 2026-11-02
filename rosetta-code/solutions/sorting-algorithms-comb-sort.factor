@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a comb sort.
 ! 
@@ -17,7 +17,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - the Wikipedia article: Comb sort.
 ! 

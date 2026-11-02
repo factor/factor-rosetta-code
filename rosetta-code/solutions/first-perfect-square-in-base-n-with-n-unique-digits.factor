@@ -21,7 +21,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! * OEIS A260182: smallest square that is pandigital in base n.
 ! 

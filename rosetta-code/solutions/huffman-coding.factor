@@ -14,9 +14,9 @@
 ! string, the smaller codes assigned to letters such as 'e' cannot occur
 ! as a prefix in the larger codes such as that for 'x'.
 ! 
-!     If you were to assign a code 01 for 'e' and code 011 for 'x', then
-!     if the bits to decode started as 011... then you would not know if
-!     you should decode an 'e' or an 'x'.
+!   If you were to assign a code 01 for 'e' and code 011 for 'x', then if
+!   the bits to decode started as 011... then you would not know if you
+!   should decode an 'e' or an 'x'.
 ! 
 ! The Huffman coding scheme takes each symbol and its weight (or frequency
 ! of occurrence), and generates proper encodings for each symbol taking
@@ -45,13 +45,13 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Using the characters and their frequency from the string:
 ! 
-!     
+!   
 ! 
-!         this is an example for huffman encoding
+!     this is an example for huffman encoding
 ! 
 ! create a program to generate a Huffman encoding for each character as a
 ! table.

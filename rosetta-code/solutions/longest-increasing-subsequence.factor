@@ -10,7 +10,7 @@
 ! 
 ! Ref
 ! 
-!     
+!   
 ! 
 ! 1.  Dynamic Programming #1: Longest Increasing Subsequence on YouTube
 ! 2.  An efficient solution can be based on Patience sorting.

@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given two integers, A and B.
 ! 
@@ -12,23 +12,23 @@
 ! 
 ! Input data
 ! 
-!     
+!   
 ! 
 ! Two integers are written in the input stream, separated by space(s):
 ! 
-!     (−1000 ≤ A, B ≤ +1000)
+!   (−1000 ≤ A, B ≤ +1000)
 ! 
 ! Output data
 ! 
-!     
+!   
 ! 
 ! The required output is one integer: the sum of A and B.
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
-!         {|class="standard"
+!     {|class="standard"
 ! 
 ! ! input 
 ! ! output 

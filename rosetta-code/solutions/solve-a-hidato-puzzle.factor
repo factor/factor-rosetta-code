@@ -32,7 +32,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - A* search algorithm
 ! - N-queens problem

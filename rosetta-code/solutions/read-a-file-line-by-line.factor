@@ -3,7 +3,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Read a file character by character
 ! - Input loop.

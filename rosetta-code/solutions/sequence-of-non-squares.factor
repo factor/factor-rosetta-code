@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show that the following remarkable formula gives the sequence of
 ! non-square natural numbers:

@@ -36,7 +36,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create and display a Harriss Spiral in your language.
 

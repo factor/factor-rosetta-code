@@ -1,5 +1,5 @@
 ! Task
-!     Count how many vowels and consonants occur in a string
+!   Count how many vowels and consonants occur in a string
 
 USING: ascii combinators io kernel math.statistics prettyprint
 sequences ;

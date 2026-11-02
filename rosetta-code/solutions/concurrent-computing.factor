@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Using either native language concurrency syntax or freely available
 ! libraries, write a program to display the strings "Enjoy" "Rosetta"

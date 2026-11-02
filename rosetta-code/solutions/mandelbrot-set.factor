@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate and draw the Mandelbrot set.
 ! 

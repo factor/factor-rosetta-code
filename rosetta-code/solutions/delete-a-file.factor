@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Delete a file called "input.txt" and delete a directory called "docs".
 ! 

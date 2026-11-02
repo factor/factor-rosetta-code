@@ -17,7 +17,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate History variable support:
 ! 

@@ -19,10 +19,10 @@
 ! For small values of n, Greek numeric prefixes are sometimes used to
 ! individually name each series.
 ! 
-!     
+!   
 ! 
-!         {| style="text-align: left;" border="4" cellpadding="2"
-!         cellspacing="2"
+!     {| style="text-align: left;" border="4" cellpadding="2"
+!     cellspacing="2"
 ! 
 ! |+ Fibonacci n-step sequences |- style="background-color: rgb(255, 204,
 ! 255);" ! n !! Series name !! Values |- | 2 || fibonacci || 1 1 2 3 5 8
@@ -39,12 +39,12 @@
 ! 
 ! Allied sequences can be generated where the initial values are changed:
 ! 
-!     The Lucas series sums the two preceding values like the fibonacci
-!     series for n = 2 but uses [2, 1] as its initial values.
+!   The Lucas series sums the two preceding values like the fibonacci
+!   series for n = 2 but uses [2, 1] as its initial values.
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Write a function to generate Fibonacci n-step number sequences given
 !     its initial values and assuming the number of initial values
@@ -55,7 +55,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Fibonacci sequence
 ! - Wolfram Mathworld
@@ -64,7 +64,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - Lucas Numbers - Numberphile (Video)
 ! - Tribonacci Numbers (and the Rauzy Fractal) - Numberphile (Video)

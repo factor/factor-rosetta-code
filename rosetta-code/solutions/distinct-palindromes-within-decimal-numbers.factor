@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Find all the palindromes including single digits in the integers
 !     from 100 to 125, inclusive.
@@ -17,7 +17,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - OEIS entry: A262188 (Task 1).
 !   - OEIS entry: A151997 (Task 2).

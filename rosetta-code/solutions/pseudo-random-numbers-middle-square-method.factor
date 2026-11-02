@@ -1,6 +1,6 @@
 ! The Method
 ! 
-!     
+!   
 ! 
 ! To generate a sequence of n-digit pseudorandom numbers, an n-digit
 ! starting value is created and squared, producing a 2n-digit number. If
@@ -11,7 +11,7 @@
 ! 
 ! Pseudo code
 ! 
-!     
+!   
 ! 
 !     var seed = 675248
 !     function random()
@@ -26,7 +26,7 @@
 ! 
 ! Middle-square method use
 ! 
-!     
+!   
 ! 
 !     for i = 1 to 5
 !         print random()
@@ -34,7 +34,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Generate a class/set of functions that generates pseudo-random
 ! 

@@ -14,15 +14,15 @@
 ! 
 ! For example, the next row of the triangle would be:
 ! 
-!     
+!   
 ! 
-!         1 (since the first element of each row doesn't have two elements
-!         above it)
-!         4 (1 + 3)
-!         6 (3 + 3)
-!         4 (3 + 1)
-!         1 (since the last element of each row doesn't have two elements
-!         above it)
+!     1 (since the first element of each row doesn't have two elements
+!     above it)
+!     4 (1 + 3)
+!     6 (3 + 3)
+!     4 (3 + 1)
+!     1 (since the last element of each row doesn't have two elements
+!     above it)
 ! 
 ! So the triangle now looks like this:
 ! 
@@ -37,7 +37,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function that prints out the first n rows of the triangle (with
 ! f(1) yielding the row consisting of only the element 1).
@@ -49,7 +49,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Evaluate binomial coefficients
 

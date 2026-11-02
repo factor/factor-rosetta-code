@@ -12,7 +12,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a computer program that will:
 ! 
@@ -28,7 +28,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Nim game
 ! 

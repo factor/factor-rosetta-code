@@ -29,7 +29,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that outputs its own source code in this way. If the
 ! language allows it, you may add a variant that accesses the code
@@ -81,7 +81,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - print itself.
 

@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function to generate a string output which is the concatenation
 ! of input words from a list/sequence where:

@@ -14,7 +14,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Design a simple Nim game where the human player goes first, and the
 ! computer always wins. The game should enforce the rules.

@@ -1,12 +1,12 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! pi(n), the number of primes <= n, where pi(n) < 22
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - Prime-counting_function.
 !   - Tables and hints by Tomás Oliveira e Silva.

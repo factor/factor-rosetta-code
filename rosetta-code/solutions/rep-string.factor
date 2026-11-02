@@ -14,7 +14,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Write a function/subroutine/method/... that takes a string and returns
 !   an indication of if it is a rep-string and the repeated string.

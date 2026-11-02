@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! The goal is to create an associative array (also known as a dictionary,
 ! map, or hash).

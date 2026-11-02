@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Smallest positive integer k such that the decimal expansion of k^(k)
 ! contains n, where n < 51

@@ -60,7 +60,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a cocktail sort and optionally show the sorted output here on
 ! this page.
@@ -69,7 +69,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - cocktail sort
 ! 

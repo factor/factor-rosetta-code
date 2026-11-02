@@ -15,7 +15,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Translate ISAAC's reference C or Pascal code into your language of
 ! choice.

@@ -29,7 +29,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Calculate and show here the first 10 members of EKG(2).
 ! 2.  Calculate and show here the first 10 members of EKG(5).
@@ -41,7 +41,7 @@
 ! 
 ! Related Tasks
 ! 
-!     
+!   
 ! 
 ! 1.  Greatest common divisor
 ! 2.  Sieve of Eratosthenes
@@ -49,7 +49,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - The EKG Sequence and the Tree of Numbers. (Video).
 

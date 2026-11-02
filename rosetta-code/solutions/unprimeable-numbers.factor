@@ -1,6 +1,6 @@
 ! Definitions
 ! 
-!     
+!   
 ! 
 ! As used here, all unprimeable numbers (positive integers) are always
 ! expressed in base ten.
@@ -23,7 +23,7 @@
 ! 
 ! Examples
 ! 
-!     
+!   
 ! 
 ! 190 isn't unprimeable, because by changing the zero digit into a three
 ! yields 193, which is a prime.
@@ -39,7 +39,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - show the first 35 unprimeable numbers (horizontally, on one line,
 !     preferably with a title)
@@ -52,7 +52,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - the OEIS entry: A118118 (unprimeable)
 !   - with some useful counts to compare unprimeable number

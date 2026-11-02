@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how to concatenate two arrays in your language.
 ! 

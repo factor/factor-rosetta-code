@@ -7,7 +7,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Show the print debugging statements in the language.
 ! - Demonstrate their ability to track provenance by displaying

@@ -4,13 +4,13 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! Returns would include 1'st 2'nd 3'rd 11'th 111'th 1001'st 1012'th
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Use your routine to show here the output for at least the following
 ! (inclusive) ranges of integer inputs: 0..25, 250..265, 1000..1025

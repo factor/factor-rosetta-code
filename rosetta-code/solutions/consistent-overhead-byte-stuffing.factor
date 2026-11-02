@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! To encode, instances of the byte 0x00 in the unencoded stream are
 ! substituted with the number of bytes until the next instance of 0x00
@@ -16,7 +16,7 @@
 ! 
 ! Bonus tasks
 ! 
-!     
+!   
 ! 
 ! - Decode an encoded packet
 !   - Report an error if the final milestone exceeds the length of the end

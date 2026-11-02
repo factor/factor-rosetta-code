@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find and show here on this page the minimum number of coins that can
 ! make a value of 988.

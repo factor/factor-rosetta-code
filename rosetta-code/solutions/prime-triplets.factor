@@ -1,12 +1,12 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find and show members of prime triples (p, p+2, p+6), where p < 5500
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - The OEIS entry: A022004 - Initial members of prime triples (p, p+2,
 !     p+6)

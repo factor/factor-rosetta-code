@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! List the conditional structures offered by a programming language. See
 ! Wikipedia: conditionals for descriptions.

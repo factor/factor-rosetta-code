@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Walk a given directory and print the names of files matching a given
 ! pattern.
@@ -15,7 +15,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Walk Directory Tree (read entire directory tree).
 

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show primes which sum of its decimal digits is 25
 ! 
@@ -11,9 +11,9 @@
 ! Show the count of all such primes that do not contain any zeroes in the
 ! range:
 ! 
-!     
+!   
 ! 
-!         (997 ≤ n ≤ 1,111,111,111,111,111,111,111,111).
+!     (997 ≤ n ≤ 1,111,111,111,111,111,111,111,111).
 
 USING: kernel lists lists.lazy math math.primes.lists prettyprint ;
 

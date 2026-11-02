@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a jumbled list of the numbers 1 to 9 that are definitely not in
 ! ascending order.
@@ -18,7 +18,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Sorting algorithms/Pancake sort
 ! - Pancake sorting.

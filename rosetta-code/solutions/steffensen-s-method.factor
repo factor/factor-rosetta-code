@@ -65,9 +65,9 @@
 ! These two parabolas are shown in the following figure. As you can see,
 ! they intersect at four points.
 ! 
-!     
+!   
 ! 
-!         []
+!     []
 ! 
 ! We want to try to find the points of intersection.
 ! 

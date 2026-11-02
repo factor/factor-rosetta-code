@@ -67,7 +67,5 @@
 ! Theoretical bounds have been placed on the longest 5T game. The lower
 ! bound of 170 and upper bound of either 324 or 704 according to two
 ! different papers (see talk page).
-! 
-! __TOC__
 
 

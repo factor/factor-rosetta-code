@@ -4,7 +4,7 @@
 ! 
 ! Test cases
 ! 
-!     
+!   
 ! 
 ! - The encoded string "http%3A%2F%2Ffoo%20bar%2F" should be reverted to
 !   the unencoded form "http://foo bar/".

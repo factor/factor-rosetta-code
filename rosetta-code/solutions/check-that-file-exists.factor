@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Verify that a file called input.txt and a directory called docs exist.
 ! 

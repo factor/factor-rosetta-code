@@ -14,20 +14,20 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Define the stateless Y combinator and use it to compute factorials and
 ! Fibonacci numbers from other stateless functions or lambda expressions.
 ! 
 ! Cf
 ! 
-!     
+!   
 ! 
 ! - Jim Weirich: Adventures in Functional Programming
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Anonymous recursion
 ! - Variadic fixed-point combinator

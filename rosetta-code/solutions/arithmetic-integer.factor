@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Get two integers from the user, and then (for those two integers),
 ! display their:

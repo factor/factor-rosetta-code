@@ -21,7 +21,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Calculate π(n) for values up to 1 billion. Show π(n) for n = 1, 10, 100,
 ! ... 10⁹.

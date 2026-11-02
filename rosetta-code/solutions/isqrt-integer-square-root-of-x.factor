@@ -27,7 +27,7 @@
 ! 
 ! Pseudo─code using quadratic residue
 ! 
-!     
+!   
 ! 
 ! For this task, the integer square root of a non─negative number will be
 ! computed using a version of quadratic residue, which has the advantage
@@ -87,7 +87,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Compute and show all output here (on this page) for:
 ! 
@@ -105,7 +105,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - sequence of non-squares
 !   - integer roots

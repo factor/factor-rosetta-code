@@ -6,10 +6,10 @@
 ! 
 ! E.g:
 ! 
-!     Given values v1, v2
-!     Given f(param1, param2)
-!     Then partial(f, param1=v1) returns f'(param2)
-!     And f(param1=v1, param2=v2) == f'(param2=v2) (for any value v2)
+!   Given values v1, v2
+!   Given f(param1, param2)
+!   Then partial(f, param1=v1) returns f'(param2)
+!   And f(param1=v1, param2=v2) == f'(param2=v2) (for any value v2)
 ! 
 ! Note that in the partial application of a parameter, (in the above case
 ! param1), other parameters are not explicitly mentioned. This is a

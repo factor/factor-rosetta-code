@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function or program which:
 ! 
@@ -19,9 +19,9 @@
 ! 
 ! Test Cases
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |- ! input number ! output string |- | 7259 | 2 hr, 59 sec |- | 86400 |
 ! 1 d |- | 6000000 | 9 wk, 6 d, 10 hr, 40 min |}
@@ -30,9 +30,9 @@
 ! 
 ! The following five units should be used:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |- ! unit ! suffix used in output ! conversion |- | week | wk | 1 week =
 ! 7 days |- | day | d | 1 day = 24 hours |- | hour | hr | 1 hour = 60

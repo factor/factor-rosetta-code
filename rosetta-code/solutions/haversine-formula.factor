@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a great-circle distance function, or use a library function,
 ! to show the great-circle distance between:

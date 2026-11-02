@@ -10,7 +10,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement at least one of these algorithms and print out the first 15
 ! Catalan numbers with each.
@@ -20,7 +20,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Catalan numbers/Pascal's triangle
 ! - Evaluate binomial coefficients

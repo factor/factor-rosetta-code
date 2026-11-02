@@ -8,13 +8,13 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given an array of numbers, compute the five-number summary.
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! While these five numbers can be used to draw a boxplot, statistical
 ! packages will typically need extra data.

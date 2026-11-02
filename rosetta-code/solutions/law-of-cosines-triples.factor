@@ -6,7 +6,7 @@
 ! 
 ! Specific angles
 ! 
-!     
+!   
 ! 
 ! For an angle of of 90º this becomes the more familiar "Pythagoras
 ! equation":
@@ -23,7 +23,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Find all integer solutions (in order) to the three specific cases,
 !   distinguishing between each angle being considered.
@@ -37,7 +37,7 @@
 ! 
 ! Optional Extra credit
 ! 
-!     
+!   
 ! 
 ! - How many 60° integer triples are there for sides in the range
 !   1..10_000 where the sides are not all of the same length.
@@ -48,7 +48,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Visualising Pythagoras: ultimate proofs and crazy contortions
 !   Mathlogger Video

@@ -21,7 +21,7 @@
 ! 
 ! Example 1
 ! 
-!     
+!   
 ! 
 ! If X is the three sided die with 1, 3, 6 on its faces and Y has 2, 3, 4
 ! on its faces then the equal possibility outcomes from throwing both, and
@@ -46,7 +46,7 @@
 ! 
 ! Transitivity
 ! 
-!     
+!   
 ! 
 ! In mathematics transitivity are rules like:
 ! 
@@ -73,7 +73,7 @@
 ! 
 ! Notes
 ! 
-!     
+!   
 ! 
 ! - The order of numbers on the faces of a die is not relevant. For
 !   example, three faced die described with face numbers of 1, 2, 3 or 2,
@@ -90,7 +90,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! ====
 ! 
@@ -105,7 +105,7 @@
 ! 
 ! Optional stretch goal
 ! 
-!     
+!   
 ! 
 ! Find lists of four non-transitive dice selected from the same possible
 ! dice from the non-stretch goal.
@@ -114,7 +114,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - The Most Powerful Dice - Numberphile Video.
 ! - Nontransitive dice - Wikipedia.

@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate the methods available for declaring prototypes within the
 ! language. The provided solutions should include:

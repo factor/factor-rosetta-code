@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Calculate 10! (ten factorial) at compile time.
 ! 

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a procedure which accepts as arguments another procedure and a
 ! positive integer.

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Display an extended (non ASCII) character onto the terminal.
 ! 

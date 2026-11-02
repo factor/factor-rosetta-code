@@ -5,14 +5,14 @@
 ! The Celsius and Kelvin scales have the same magnitude, but different
 ! null points.
 ! 
-!     0 degrees Celsius corresponds to 273.15 kelvin.
-!     0 kelvin is absolute zero.
+!   0 degrees Celsius corresponds to 273.15 kelvin.
+!   0 kelvin is absolute zero.
 ! 
 ! The Fahrenheit and Rankine scales also have the same magnitude, but
 ! different null points.
 ! 
-!     0 degrees Fahrenheit corresponds to 459.67 degrees Rankine.
-!     0 degrees Rankine is absolute zero.
+!   0 degrees Fahrenheit corresponds to 459.67 degrees Rankine.
+!   0 degrees Rankine is absolute zero.
 ! 
 ! The Celsius/Kelvin and Fahrenheit/Rankine scales have a ratio of 5 : 9.
 ! 
@@ -23,7 +23,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 !     K  21.00
 ! 

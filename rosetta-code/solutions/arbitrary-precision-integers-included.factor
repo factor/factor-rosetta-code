@@ -24,7 +24,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Long multiplication
 ! - Exponentiation order

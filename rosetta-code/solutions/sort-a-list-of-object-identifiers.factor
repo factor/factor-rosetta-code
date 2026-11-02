@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how to sort a list of OIDs, in their natural sort order.
 ! 
@@ -12,9 +12,9 @@
 ! - Their natural sort order is lexicographical with regard to the
 !   dot-separated fields, using numeric comparison between fields.
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |- ! Input (list of strings) ! Output (list of strings) |- |
 ! 1.3.6.1.4.1.11.2.17.19.3.4.0.10

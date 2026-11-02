@@ -1,8 +1,8 @@
 ! In short: Use the specimen language (native) for "scripting".
 ! 
 ! Example
-!     If your language is "foo", then the test case of "echo.foo" runs in
-!     a terminal as "./echo.foo Hello, world!".
+!   If your language is "foo", then the test case of "echo.foo" runs in a
+!   terminal as "./echo.foo Hello, world!".
 ! 
 ! In long: Create a program (in the specimen language) that will
 ! automatically compile a test case (of the same specimen language) to a

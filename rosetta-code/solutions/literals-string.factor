@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show literal specification of characters and strings.
 ! 
@@ -14,7 +14,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Special characters
 ! - Here document

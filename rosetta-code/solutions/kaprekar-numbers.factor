@@ -10,7 +10,7 @@
 ! 
 ! Example Kaprekar numbers
 ! 
-!     
+!   
 ! 
 ! - 2223 is a Kaprekar number, as 2223 * 2223 = 4941729, 4941729 may be
 !   split to 494 and 1729, and 494 + 1729 = 2223.
@@ -19,7 +19,7 @@
 ! 
 ! Example process
 ! 
-!     
+!   
 ! 
 ! 10000 (100²) splitting from left to right:
 ! 
@@ -31,20 +31,20 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate and show all Kaprekar numbers less than 10,000.
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Optionally, count (and report the count of) how many Kaprekar numbers
 ! are less than 1,000,000.
 ! 
 ! Extra extra credit
 ! 
-!     
+!   
 ! 
 ! The concept of Kaprekar numbers is not limited to base 10 (i.e. decimal
 ! numbers); if you can, show that Kaprekar numbers exist in other bases
@@ -66,13 +66,13 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - The Kaprekar Numbers by Douglas E. Iannucci (2000). PDF version
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Casting out nines
 

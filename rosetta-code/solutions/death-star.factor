@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Display a region that consists of a large sphere with part of a smaller
 ! sphere removed from it as a result of geometric subtraction.
@@ -11,7 +11,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - draw a sphere
 ! - draw a cuboid

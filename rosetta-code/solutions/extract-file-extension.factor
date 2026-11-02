@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function or program that
 ! 
@@ -19,7 +19,7 @@
 ! 
 ! Specification
 ! 
-!     
+!   
 ! 
 ! For the purposes of this task, a filename extension:
 ! 
@@ -29,11 +29,11 @@
 ! 
 ! Test cases
 ! 
+!   
+! 
 !     
 ! 
-!         
-! 
-!             {| class="wikitable"
+!       {| class="wikitable"
 ! 
 ! |- ! Input ! Output ! Comment |- | http://example.com/download.tar.gz |
 ! .gz | |- | CharacterModel.3DS | .3DS | |- | .desktop | .desktop | |- |

@@ -1,9 +1,9 @@
 ! In computational number theory, the Tonelli–Shanks algorithm is a
 ! technique for solving for x in a congruence of the form:
 ! 
-!     
+!   
 ! 
-!         x² ≡ n (mod p)
+!     x² ≡ n (mod p)
 ! 
 ! where n is an integer which is a quadratic residue (mod p), p is an odd
 ! prime, and x,n ∈ F_(p) where F_(p) = {0, 1, ..., p - 1}.
@@ -20,7 +20,7 @@
 ! 
 ! Algorithm pseudo-code
 ! 
-!     
+!   
 ! 
 ! All ≡ are taken to mean (mod p) unless stated otherwise.
 ! 
@@ -42,7 +42,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the above algorithm.
 ! 
@@ -56,7 +56,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! - n = 665820697 p = 1000000009
 ! - n = 881398088036 p = 1000000000039
@@ -64,7 +64,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Modular exponentiation
 ! - Cipolla's algorithm

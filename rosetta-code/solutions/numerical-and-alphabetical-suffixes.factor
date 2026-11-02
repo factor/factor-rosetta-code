@@ -51,7 +51,7 @@
 ! 
 ! Abbreviated alphabetic suffixes to be supported (where the capital letters signify the minimum abbreation that can be used)
 ! 
-!     
+!   
 ! 
 !      PAIRs         multiply the number by  2         (as in pairs of shoes or pants)
 !      SCOres        multiply the number by  20        (as 3score would be 60)
@@ -66,7 +66,7 @@
 ! 
 ! Metric suffixes to be supported (whether or not they're officially sanctioned)
 ! 
-!     
+!   
 ! 
 !      K     multiply the number by  10^3              kilo      (1,000)
 !      M     multiply the number by  10^6              mega      (1,000,000)
@@ -83,7 +83,7 @@
 ! 
 ! Binary suffixes to be supported (whether or not they're officially sanctioned)
 ! 
-!     
+!   
 ! 
 !      Ki    multiply the number by  2^10              kibi      (1,024)
 !      Mi    multiply the number by  2^20              mebi      (1,048,576)
@@ -108,7 +108,7 @@
 ! 
 ! Factorial suffixes to be supported
 ! 
-!     
+!   
 ! 
 !      !      compute the (regular) factorial product:   5!   is  5 × 4 × 3 × 2 × 1  =  120
 !      !!     compute the  double   factorial product:   8!   is  8 × 6 × 4 × 2      =  384
@@ -125,7 +125,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Using the test cases (below), show the "expanded" numbers here, on
 !     this page.
@@ -139,7 +139,7 @@
 ! 
 ! Test cases
 ! 
-!     
+!   
 ! 
 !     2greatGRo   24Gros  288Doz  1,728pairs  172.8SCOre
 !     1,567      +1.567k    0.1567e-2m
@@ -153,7 +153,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Multifactorial (which has a clearer and more succinct definition of
 !   multifactorials.)

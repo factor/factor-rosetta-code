@@ -1,27 +1,27 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Define a function/method/subroutine which sorts a sequence ("table") of
 ! sequences ("rows") of strings ("cells"), by one of the strings. Besides
 ! the input to be sorted, it shall have the following optional parameters:
 ! 
-!     {|
+!   {|
 ! 
 ! |
 ! 
 ! ------------------------------------------------------------------------
 ! 
 ! ordering
-!     A function specifying the ordering of strings; lexicographic by
-!     default.
+!   A function specifying the ordering of strings; lexicographic by
+!   default.
 ! 
 ! column
-!     An integer specifying which string of each row to compare; the first
-!     by default.
+!   An integer specifying which string of each row to compare; the first
+!   by default.
 ! 
 ! reverse
-!     Reverses the ordering.
+!   Reverses the ordering.
 ! 
 ! ------------------------------------------------------------------------
 ! 

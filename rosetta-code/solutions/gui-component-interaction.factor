@@ -10,7 +10,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! For a minimal "application", write a program that presents a form with
 ! three components to the user:

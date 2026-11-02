@@ -15,7 +15,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Save the 10,000 line log file from here into a local file, then write a
 ! program to scan the file extracting both the maximum licenses that were

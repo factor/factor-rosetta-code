@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Detect a cycle in an iterated function using Brent's algorithm.
 ! 

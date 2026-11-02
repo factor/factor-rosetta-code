@@ -5,7 +5,7 @@
 ! 
 ! Sample input with corresponding output
 ! 
-!     
+!   
 ! 
 ! Input
 ! 

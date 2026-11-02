@@ -1,7 +1,8 @@
 ! Create a function that takes a list of character names and a list of
-! corresponding remarks and returns an XML document of elements each with
-! a name attributes and each enclosing its remarks. All elements are to be
-! enclosed in turn, in an outer element.
+! corresponding remarks and returns an XML document of <Character>
+! elements each with a name attributes and each enclosing its remarks. All
+! <Character> elements are to be enclosed in turn, in an outer
+! <CharacterRemarks> element.
 ! 
 ! As an example, calling the function with the three names of:
 ! 
@@ -23,12 +24,11 @@
 !         <Character name="Emily">Short &amp; shrift</Character>
 !     </CharacterRemarks>
 ! 
-! The document may include an
-! 
-! declaration and document type declaration, but these are optional. If
-! attempting this task by direct string manipulation, the implementation
-! must include code to perform entity substitution for the characters that
-! have entities defined in the XML 1.0 specification.
+! The document may include an <?xml?> declaration and document type
+! declaration, but these are optional. If attempting this task by direct
+! string manipulation, the implementation must include code to perform
+! entity substitution for the characters that have entities defined in the
+! XML 1.0 specification.
 ! 
 ! Note: the example is chosen to show correct escaping of XML strings.
 ! Note too that although the task is written to take two lists of

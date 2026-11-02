@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a dice simulator and scorer of Pig the dice game and add to it
 ! the ability to play the game to at least one strategy.
@@ -17,7 +17,7 @@
 ! 
 ! Game Rules
 ! 
-!     
+!   
 ! 
 ! The game of Pig is a multiplayer game played with a single six-sided
 ! die. The object of the game is to reach 100 points or more. Play is

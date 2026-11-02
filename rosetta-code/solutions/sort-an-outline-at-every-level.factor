@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write and test a function over an indented plain text outline which
 ! either:
@@ -125,7 +125,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Functional_coverage_tree
 !   - Display_an_outline_as_a_nested_table

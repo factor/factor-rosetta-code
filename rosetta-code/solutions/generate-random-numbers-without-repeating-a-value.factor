@@ -6,7 +6,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a random number generator and have it output the numbers 1
 ! through 20 (inclusive), in a random order. It cannot produce the same
@@ -14,7 +14,7 @@
 ! 
 ! Or
 ! 
-!     
+!   
 ! 
 ! Given the output of an existing random number generator that does
 ! produce repeated output, create a function that constrains the output to

@@ -7,15 +7,15 @@
 ! - a number p is prime if and only if all the coefficients of the
 !   polynomial expansion of
 ! 
-!     
+!   
 ! 
-!         (x − 1)^(p) − (x^(p) − 1)
+!     (x − 1)^(p) − (x^(p) − 1)
 ! 
 ! are divisible by p.
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! Using p = 3:
 ! 
@@ -27,7 +27,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create a function/subroutine/method that given p generates the
 !     coefficients of the expanded polynomial representation of
@@ -42,7 +42,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Agrawal-Kayal-Saxena (AKS) primality test (Wikipedia)
 ! - Fool-Proof Test for Primes - Numberphile (Video). The accuracy of this

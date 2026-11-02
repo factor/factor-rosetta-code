@@ -38,7 +38,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create a routine to represent two-colour queens on a 2-D board.
 !     (Alternating black/white background colours, Unicode chess pieces
@@ -50,7 +50,7 @@
 ! 
 ! Stretch
 ! 
-!     
+!   
 ! 
 ! 1.  Use your routine to show that there is no solution for the m=10, n=8
 !     case.
@@ -61,7 +61,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Peaceably Coexisting Armies of Queens (Pdf) by Robert A. Bosch.
 !   Optima, the Mathematical Programming Socity newsletter, issue 62.

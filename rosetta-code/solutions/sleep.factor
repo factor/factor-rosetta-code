@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that does the following in this order:
 ! 
@@ -14,7 +14,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Nautical bell
 

@@ -5,17 +5,17 @@
 ! (Clicking on the above website (hal.archives-ouvertes.fr) will leave a
 ! cookie.)
 ! 
-!     For F_word_(m) start with F_wordChar_(n=1)
-!     Draw a segment forward
-!     If current F_wordChar is 0
+!   For F_word_(m) start with F_wordChar_(n=1)
+!   Draw a segment forward
+!   If current F_wordChar is 0
 ! 
-!         Turn left if n is even
-!         Turn right if n is odd
-!     next n and iterate until end of F_word
+!     Turn left if n is even
+!     Turn right if n is odd
+!   next n and iterate until end of F_word
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create and display a fractal similar to Fig 1.
 ! 

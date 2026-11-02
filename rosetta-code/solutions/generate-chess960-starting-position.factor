@@ -22,7 +22,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! The purpose of this task is to write a program that can randomly
 ! generate any one of the 960 Chess960 initial positions. You will show

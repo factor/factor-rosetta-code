@@ -8,7 +8,7 @@
 ! similarity between finite sample sets, and is defined as the size of the
 ! intersection divided by the size of the union of the sample sets:
 ! 
-!     J(A, B) = |A ∩ B|/|A ∪ B|
+!   J(A, B) = |A ∩ B|/|A ∪ B|
 ! 
 ! Define sets as follows, using any linear data structure:
 ! 

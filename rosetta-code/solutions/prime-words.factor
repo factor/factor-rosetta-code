@@ -19,7 +19,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show here on this page every prime word in unixdict.txt.
 

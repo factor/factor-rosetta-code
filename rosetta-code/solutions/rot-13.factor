@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a rot-13 function (or procedure, class, subroutine, or other
 ! "callable" object as appropriate to your programming environment).
@@ -40,7 +40,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Caesar cipher
 ! - Substitution Cipher

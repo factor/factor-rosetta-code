@@ -4,13 +4,13 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate and show here, the first twenty anti-primes.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Factors of an integer
 !   - Sieve of Eratosthenes

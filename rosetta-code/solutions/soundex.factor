@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! The goal is for homophones to be encoded to the same representation so
 ! that they can be matched despite minor differences in spelling (from the
@@ -11,7 +11,7 @@
 ! 
 ! Caution
 ! 
-!     
+!   
 ! 
 ! There is a major issue in many of the implementations concerning the
 ! separation of two consonants that have the same soundex code! According

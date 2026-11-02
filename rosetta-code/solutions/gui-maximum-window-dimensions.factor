@@ -15,11 +15,11 @@
 ! 
 ! Considerations
 ! 
-!     
+!   
 ! 
 ! --- Multiple Monitors
 ! 
-!     
+!   
 ! 
 ! For multiple monitors, the values calculated should represent the size
 ! of the usable display area on the monitor which is related to the task

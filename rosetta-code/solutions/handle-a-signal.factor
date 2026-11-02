@@ -7,7 +7,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Provide a program that displays an integer on each line of output at the
 ! rate of about one per half second. Upon receipt of the SIGINT signal

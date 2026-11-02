@@ -18,29 +18,29 @@
 !   and B are sets):
 !   - x ∈ A: determine if x is an element of A
 ! 
-!     
+!   
 ! 
-!         example: 1 is in [1, 2), while 2, 3, ... are not.
+!     example: 1 is in [1, 2), while 2, 3, ... are not.
 ! 
 ! - - A ∪ B: union of A and B, i.e. {x | x ∈ A or x ∈ B}
 ! 
-!     
+!   
 ! 
-!         example: [0, 2) ∪ (1, 3) = [0, 3); [0, 1) ∪ (2, 3] = well,
-!         [0, 1) ∪ (2, 3]
+!     example: [0, 2) ∪ (1, 3) = [0, 3); [0, 1) ∪ (2, 3] = well, [0, 1) ∪
+!     (2, 3]
 ! 
 ! - - A ∩ B: intersection of A and B, i.e. {x | x ∈ A and x ∈ B}
 ! 
-!     
+!   
 ! 
-!         example: [0, 2) ∩ (1, 3) = (1, 2); [0, 1) ∩ (2, 3] = empty set
+!     example: [0, 2) ∩ (1, 3) = (1, 2); [0, 1) ∩ (2, 3] = empty set
 ! 
 ! - - A - B: difference between A and B, also written as A \ B, i.e. {x |
 !     x ∈ A and x ∉ B}
 ! 
-!     
+!   
 ! 
-!         example: [0, 2) − (1, 3) = [0, 1]
+!     example: [0, 2) − (1, 3) = [0, 1]
 ! 
 ! - Test your implementation by checking if numbers 0, 1, and 2 are in any
 !   of the following sets:

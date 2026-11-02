@@ -5,20 +5,20 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate the first 10 closed-form expressions, starting with p = 0.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Bernoulli numbers.
 !   - evaluate binomial coefficients.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - The Wikipedia entry: Faulhaber's formula.
 !   - The Wikipedia entry: Bernoulli numbers.

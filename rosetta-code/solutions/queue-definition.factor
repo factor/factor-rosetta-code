@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a FIFO queue.
 ! 
@@ -22,7 +22,7 @@
 ! 
 ! See
 ! 
-!     
+!   
 ! 
 ! - Queue/Usage for the built-in FIFO or queue of your language or
 !   standard library.

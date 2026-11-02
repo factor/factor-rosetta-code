@@ -17,7 +17,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given an initial sequence of ranges write programs to add or remove an
 ! integer from the sequence and display the resultant sequence.
@@ -40,7 +40,7 @@
 ! 
 ! Ex0
 ! 
-!     
+!   
 ! 
 !    Start with ""
 !        add 77
@@ -52,7 +52,7 @@
 ! 
 ! Ex1
 ! 
-!     
+!   
 ! 
 !    Start with "1-3,5-5"
 !        add 1
@@ -64,7 +64,7 @@
 ! 
 ! Ex2
 ! 
-!     
+!   
 ! 
 !    Start with "1-5,10-25,27-30"
 !        add 26

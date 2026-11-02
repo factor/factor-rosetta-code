@@ -15,9 +15,9 @@
 ! in the "ready" state, which maps to exactly two states in the following
 ! way:
 ! 
-!     ready -> deposit -> waiting
+!   ready -> deposit -> waiting
 ! 
-!     ready -> quit -> exit
+!   ready -> quit -> exit
 ! 
 ! The variables in bold-face represent transitions. Any input signal not
 ! corresponding to one of those transitions can either trigger an error or
@@ -25,23 +25,23 @@
 ! repeated. If, for example, a deposit input signal is encountered, the
 ! FSM will move to the "waiting" state, which defines these transitions:
 ! 
-!     waiting -> select -> dispense
+!   waiting -> select -> dispense
 ! 
-!     waiting -> refund -> refunding
+!   waiting -> refund -> refunding
 ! 
 ! The "dispense" state defines only one transition:
 ! 
-!     dispense -> remove -> ready
+!   dispense -> remove -> ready
 ! 
 ! Note, however, that in this example the "refunding" state doesn't
 ! actually require input in order to move to the "ready" state, so an
 ! implicit transition is defined as such:
 ! 
-!     refunding -> ready
+!   refunding -> ready
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a finite state machine which handles both explicit and
 ! implicit transitions. Then demonstrate an example which models some
@@ -49,7 +49,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Computers Without Memory (Finite State Automata), A Computerphile
 !   Video.

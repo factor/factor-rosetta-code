@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program that finds and outputs the roots of a given function,
 ! range and (if applicable) step width.

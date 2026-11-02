@@ -45,13 +45,13 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Using the above method find a factor of 2⁹²⁹-1 (aka M929)
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - count in factors
 ! - prime decomposition
@@ -64,7 +64,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Computers in 1948: 2¹²⁷ - 1
 ! 

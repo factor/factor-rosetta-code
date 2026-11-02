@@ -5,15 +5,15 @@
 ! restart the inventory from 0.
 ! 
 ! E.G.
-!     Start taking inventory; how many 0s are there? 0. Add a 0 to the end
-!     of the sequence and restart the inventory. (0)
+!   Start taking inventory; how many 0s are there? 0. Add a 0 to the end
+!   of the sequence and restart the inventory. (0)
 ! 
-!     How many 0s are there? 1. Add a 1 to the end of the sequence. How
-!     many 1s are there? 1. Add a 1 to the end of the sequence. How many
-!     2s are there? 0. Add a 0 to the end of the sequence and restart the
-!     inventory. (0 1 1 0)
+!   How many 0s are there? 1. Add a 1 to the end of the sequence. How many
+!   1s are there? 1. Add a 1 to the end of the sequence. How many 2s are
+!   there? 0. Add a 0 to the end of the sequence and restart the
+!   inventory. (0 1 1 0)
 ! 
-!     and so on.
+!   and so on.
 ! 
 ! Task
 ! 

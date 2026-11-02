@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Your task is to implement a variadic fixed-point combinator fix^(*) that
 ! finds and returns the fixed points of all given functions:
@@ -26,7 +26,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Y combinator
 ! - Variadic function
@@ -34,7 +34,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Mayer Goldberg: A Variadic Extension of Curry’s Fixed-Point Combinator
 ! 

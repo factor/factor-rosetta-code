@@ -43,7 +43,5 @@
 ! Reference.
 ! 
 ! 1 p-Adic expansions
-! 
-! __TOC__
 
 

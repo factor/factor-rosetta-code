@@ -5,22 +5,22 @@
 ! 
 ! The sequence starts with:
 ! 
-!     
+!   
 ! 
-!         a₁ = 1
+!     a₁ = 1
 ! 
 ! then for n > 1, a_(n) is the smallest positive integer such that every
 ! pairwise sum
 ! 
-!     
+!   
 ! 
-!         a_(i) + a_(j)
+!     a_(i) + a_(j)
 ! 
 ! is distinct, for all i and j less than or equal to n.
 ! 
 ! The Task
 ! 
-!     
+!   
 ! 
 ! - - Find and display, here, on this page the first 30 terms of the
 !     Mian–Chowla sequence.
@@ -29,47 +29,47 @@
 ! 
 ! Demonstrating working through the first few terms longhand:
 ! 
-!     
+!   
 ! 
-!         a₁ = 1
+!     a₁ = 1
 ! 
-!     
+!   
 ! 
-!         1 + 1 = 2
+!     1 + 1 = 2
 ! 
 ! Speculatively try a₂ = 2
 ! 
-!     
+!   
 ! 
-!         1 + 1 = 2
-!         1 + 2 = 3
-!         2 + 2 = 4
+!     1 + 1 = 2
+!     1 + 2 = 3
+!     2 + 2 = 4
 ! 
 ! There are no repeated sums so 2 is the next number in the sequence.
 ! 
 ! Speculatively try a₃ = 3
 ! 
-!     
+!   
 ! 
-!         1 + 1 = 2
-!         1 + 2 = 3
-!         1 + 3 = 4
-!         2 + 2 = 4
-!         2 + 3 = 5
-!         3 + 3 = 6
+!     1 + 1 = 2
+!     1 + 2 = 3
+!     1 + 3 = 4
+!     2 + 2 = 4
+!     2 + 3 = 5
+!     3 + 3 = 6
 ! 
 ! Sum of 4 is repeated so 3 is rejected.
 ! 
 ! Speculatively try a₃ = 4
 ! 
-!     
+!   
 ! 
-!         1 + 1 = 2
-!         1 + 2 = 3
-!         1 + 4 = 5
-!         2 + 2 = 4
-!         2 + 4 = 6
-!         4 + 4 = 8
+!     1 + 1 = 2
+!     1 + 2 = 3
+!     1 + 4 = 5
+!     2 + 2 = 4
+!     2 + 4 = 6
+!     4 + 4 = 8
 ! 
 ! There are no repeated sums so 4 is the next number in the sequence.
 ! 
@@ -77,7 +77,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - OEIS:A005282 Mian-Chowla sequence
 

@@ -25,7 +25,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Use your language to demonstrate the various types of jumps that it
 ! supports.

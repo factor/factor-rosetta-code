@@ -1,8 +1,8 @@
 ! Note: Niven numbers are also called Harshad numbers.
 ! 
-!     
+!   
 ! 
-!         They are also called multidigital numbers.
+!     They are also called multidigital numbers.
 ! 
 ! Niven numbers are positive integers which are evenly divisible by the
 ! sum of its digits (expressed in base ten).
@@ -11,7 +11,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - find the gap (difference) of a Niven number from the previous Niven
 !     number
@@ -33,13 +33,13 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - Harshad or Niven series.
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - Journal of Integer Sequences, Vol. 6 (2004), Article 03.2.5, Large
 !     and Small Gaps Between Consecutive Niven Numbers.

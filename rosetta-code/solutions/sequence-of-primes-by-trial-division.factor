@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate a sequence of primes by means of trial division.
 ! 
@@ -22,7 +22,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - count in factors
 ! - prime decomposition

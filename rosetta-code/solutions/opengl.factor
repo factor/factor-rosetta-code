@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Display a smooth shaded triangle with OpenGL.
 ! 

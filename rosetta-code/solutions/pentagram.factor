@@ -6,7 +6,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Draw (or print) a regular pentagram, in any orientation. Use a different
 ! color (or token) for stroke and fill, and background. For the fill it

@@ -11,7 +11,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how to print a message to standard error by printing Goodbye,
 ! World! on that stream.

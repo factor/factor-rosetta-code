@@ -14,7 +14,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Either by implementing the algorithm, by using a dedicated library or by
 ! using a built-in function in your language, compute the modular inverse

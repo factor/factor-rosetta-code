@@ -11,7 +11,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function to demonstrate the algorithm (see pseudocode in
 ! Wikipedia). The intent is to show the principle as clear as possible in
@@ -20,7 +20,7 @@
 ! 
 ! Warning
 ! 
-!     
+!   
 ! 
 ! The variables 'x' and 'y' may be equal during an iteration, calling
 ! 'gcd()' with first argument 0, while the GCD is only defined for
@@ -38,7 +38,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - prime decomposition
 ! - AKS test for primes
@@ -50,7 +50,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Wikipedia: Pollard's rho algorithm
 

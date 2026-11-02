@@ -17,7 +17,7 @@
 ! 
 ! Examples
 ! 
-!     
+!   
 ! 
 ! In the following character string:
 ! 
@@ -41,7 +41,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a subroutine/function/procedure/routine··· to locate repeated
 ! characters and collapse (delete) them from the character string. The

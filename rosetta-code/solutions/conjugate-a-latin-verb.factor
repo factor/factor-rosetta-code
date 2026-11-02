@@ -1,6 +1,6 @@
 ! Task
-!     Create a program that can take a Latin verb and conjugate it,
-!     displaying in the following order:
+!   Create a program that can take a Latin verb and conjugate it,
+!   displaying in the following order:
 ! 
 !     1st person singular
 !     2nd person singular
@@ -16,7 +16,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wikipedia: Latin conjugation.
 ! 

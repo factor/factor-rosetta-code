@@ -10,7 +10,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a routine to find the B10 of a given integer.
 ! 
@@ -44,7 +44,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - OEIS:A004290 Least positive multiple of n that when written in base
 !     10 uses only 0's and 1's.

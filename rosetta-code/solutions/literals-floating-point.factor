@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how floating-point literals can be expressed in your language:
 ! decimal or other bases, exponential notation, and any other special
@@ -14,7 +14,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Literals/Integer
 ! - Extreme floating point values

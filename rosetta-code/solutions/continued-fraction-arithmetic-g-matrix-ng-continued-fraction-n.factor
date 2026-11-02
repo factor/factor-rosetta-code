@@ -1,16 +1,15 @@
 ! This task investigates mathmatical operations that can be performed on a
 ! single continued fraction. This requires only a baby version of NG:
 ! 
-!     $\begin{bmatrix}
-!       a_1 & a \\
-!       b_1 & b 
-!     \end{bmatrix}$
+!   $\begin{bmatrix}
+!     a_1 & a \\
+!     b_1 & b 
+!   \end{bmatrix}$
 ! 
 ! I may perform perform the following operations:
 ! 
-!     Input the next term of N₁
-!     Output a term of the continued fraction resulting from the
-!     operation.
+!   Input the next term of N₁
+!   Output a term of the continued fraction resulting from the operation.
 ! 
 ! I output a term if the integer parts of $\frac{a}{b}$ and
 ! $\frac{a_1}{b_1}$ are equal. Otherwise I input a term from N. If I need
@@ -42,9 +41,9 @@
 ! 
 ! Demonstrate your solution by calculating:
 ! 
-!     [1;5,2] + 1/2
-!     [3;7] + 1/2
-!     [3;7] divided by 4
+!   [1;5,2] + 1/2
+!   [3;7] + 1/2
+!   [3;7] divided by 4
 ! 
 ! Using a generator for $\sqrt{2}$ (e.g., from Continued fraction)
 ! calculate $\frac{1}{\sqrt{2}}$. You are now at the starting line for

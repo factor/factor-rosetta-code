@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Input a string and the integer 75000 from the text console.
 ! 
@@ -8,7 +8,7 @@
 ! 
 ! Why doesn't syntax highlighting work on this page ?
 ! 
-!     
+!   
 ! 
 ! Currently, there is a limit on how many <syntaxhighlight> tags can
 ! appear on a page, so only the first few languages get highlighting, the

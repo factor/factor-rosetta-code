@@ -1,16 +1,16 @@
 ! Suffixation: a letter or a group of letters added to the end of a word
 ! to change its meaning.
 ! 
-!     
+!   
 ! 
-!         ───── or, as used herein ─────
+!     ───── or, as used herein ─────
 ! 
 ! Suffixation: the addition of a metric or "binary" metric suffix to a
 ! number, with/without rounding.
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function(s) to append (if possible) a metric or a "binary"
 ! metric suffix to a number (displayed in decimal).
@@ -21,7 +21,7 @@
 ! 
 ! Task requirements
 ! 
-!     
+!   
 ! 
 ! - - write a function (or functions) to add (if possible) a suffix to a
 !     number
@@ -53,7 +53,7 @@
 ! 
 ! Metric suffixes to be supported (whether or not they're officially sanctioned)
 ! 
-!     
+!   
 ! 
 !      K     multiply the number by  10^3              kilo      (1,000)
 !      M     multiply the number by  10^6              mega      (1,000,000)
@@ -70,7 +70,7 @@
 ! 
 ! "Binary" suffixes to be supported (whether or not they're officially sanctioned)
 ! 
-!     
+!   
 ! 
 !      Ki    multiply the number by  2^10              kibi      (1,024)
 !      Mi    multiply the number by  2^20              mebi      (1,048,576)
@@ -87,7 +87,7 @@
 ! 
 ! For instance, with this pseudo─code
 ! 
-!     
+!   
 ! 
 !                                  /* 1st arg: the number to be transformed.*/
 !                                  /* 2nd arg: # digits past the dec. point.*/
@@ -124,7 +124,7 @@
 ! 
 ! Use these test cases
 ! 
-!     
+!   
 ! 
 !                87,654,321
 !               -998,877,665,544,332,211,000      3

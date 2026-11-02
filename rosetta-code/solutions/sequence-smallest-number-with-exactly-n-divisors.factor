@@ -7,7 +7,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Sequence: smallest number greater than previous term with exactly n
 !     divisors
@@ -15,7 +15,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - OEIS:A005179
 

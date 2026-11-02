@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Sort an array (or list) of strings in order of descending length, and in
 ! ascending lexicographic order for strings of equal length.

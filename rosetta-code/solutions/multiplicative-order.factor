@@ -3,7 +3,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! The multiplicative order of 37 relative to 1000 is 100 because 37^100 is
 ! 1 (modulo 1000), and no number smaller than 100 would do.
@@ -20,7 +20,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a routine to calculate the multiplicative order along these
 ! lines. You may assume that routines to determine the factorization into

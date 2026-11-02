@@ -1,22 +1,22 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Define two associative arrays, where one represents the following "base"
 ! data:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |+ | Key || Value |- | "name" || "Rocket Skates" |- | "price" || 12.75
 ! |- | "color" || "yellow" |}
 ! 
 ! And the other represents "update" data:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |+ | Key || Value |- | "price" || 15.25 |- | "color" || "red" |- |
 ! "year" || 1974 |}
@@ -29,9 +29,9 @@
 ! that would work for any data, not just the specific data given here, but
 ! in this example the result should be:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |+ | Key || Value |- | "name" || "Rocket Skates" |- | "price" || 15.25
 ! |- | "color" || "red" |- | "year" || 1974 |}

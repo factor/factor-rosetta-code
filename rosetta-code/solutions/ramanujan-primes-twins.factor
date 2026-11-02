@@ -3,6 +3,6 @@
 ! Ramanujan primes are twins.
 ! 
 ! Related Task
-!     Twin primes
+!   Twin primes
 
 

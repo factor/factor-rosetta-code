@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the Xiaolin Wu's line algorithm described in Wikipedia.
 ! 
@@ -8,7 +8,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - See Bresenham's line algorithm for aliased lines.
 ! 

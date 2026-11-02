@@ -14,7 +14,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Print the first 25 vampire numbers and their fangs.
 ! 2.  Check if the following numbers are vampire numbers and, if so, print
@@ -26,7 +26,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - numberphile.com.
 ! - vampire search algorithm

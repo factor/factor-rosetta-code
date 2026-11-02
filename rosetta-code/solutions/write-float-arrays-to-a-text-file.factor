@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write two equal-sized numerical arrays 'x' and 'y' to a two-column text
 ! file named 'filename'.

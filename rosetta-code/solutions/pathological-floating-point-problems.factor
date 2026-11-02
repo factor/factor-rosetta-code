@@ -19,18 +19,18 @@
 ! 
 ! Consider the sequence:
 ! 
-!     
+!   
 ! 
-!          v₁ = 2
-!          v₂ = -4
-!          v_(n) = 111 - 1130 / v_(n-1) + 3000 / (v_(n-1) * v_(n-2))
+!      v₁ = 2
+!      v₂ = -4
+!      v_(n) = 111 - 1130 / v_(n-1) + 3000 / (v_(n-1) * v_(n-2))
 ! 
 ! As n grows larger, the series should converge to 6 but small amounts of
 ! error will cause it to approach 100.
 ! 
 ! Task 1
 ! 
-!     
+!   
 ! 
 ! Display the values of the sequence where n = 3, 4, 5, 6, 7, 8, 20, 30,
 ! 50 & 100 to at least 16 decimal places.
@@ -48,7 +48,7 @@
 ! 
 ! Task 2
 ! 
-!     
+!   
 ! 
 ! The Chaotic Bank Society is offering a new investment account to their
 ! customers.
@@ -76,17 +76,16 @@
 ! 
 ! Task 3, extra credit
 ! 
-!     
+!   
 ! 
 ! Siegfried Rump's example. Consider the following function, designed by
 ! Siegfried Rump in 1988.
 ! 
-!     
+!   
 ! 
-!          f(a,b) = 333.75b⁶ + a²( 11a²b² - b⁶ - 121b⁴ - 2 ) + 5.5b⁸ +
-!         a/(2b)
-!          compute f(a,b) where a=77617.0 and b=33096.0
-!          f(77617.0, 33096.0) = -0.827396059946821
+!      f(a,b) = 333.75b⁶ + a²( 11a²b² - b⁶ - 121b⁴ - 2 ) + 5.5b⁸ + a/(2b)
+!      compute f(a,b) where a=77617.0 and b=33096.0
+!      f(77617.0, 33096.0) = -0.827396059946821
 ! 
 ! Demonstrate how to solve at least one of the first two problems, or
 ! both, and the third if you're feeling particularly jaunty.

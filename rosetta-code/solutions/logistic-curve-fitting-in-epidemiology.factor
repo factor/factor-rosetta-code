@@ -61,7 +61,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Demonstrate code that finds a least-squares fits of the curve to the
 !   data.

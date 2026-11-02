@@ -9,9 +9,9 @@
 ! 
 ! Use these values if possible:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! !start ||stop ||increment ||Comment |- | -2||2||1||Normal |- |
 ! -2||2||0||Zero increment |- | -2||2||-1||Increments away from stop value
@@ -23,7 +23,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Loop over multiple arrays simultaneously
 ! - Loops/Break

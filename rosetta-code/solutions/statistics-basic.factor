@@ -24,7 +24,7 @@
 ! 
 ! Hint
 ! 
-!     
+!   
 ! 
 ! For a finite population with equal probabilities at all points, one can
 ! derive:

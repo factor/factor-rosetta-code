@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find the sequence of increasing primes, q, from 2 up to but excluding
 ! 16,000, where the successor of q is the least prime, p, such that p - q

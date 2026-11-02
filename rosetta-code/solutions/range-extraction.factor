@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Create a function that takes a list of integers in increasing order
 !   and returns a correctly formatted string in the range format.
@@ -17,7 +17,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Range expansion
 

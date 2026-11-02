@@ -5,7 +5,7 @@
 ! - - If the terms eventually reach 0 then the series for K is said to
 !     terminate.
 ! 
-!     
+!   
 ! 
 ! There are several classifications for non termination:
 ! 
@@ -18,7 +18,7 @@
 !     3 then the sequence repeats with period N - 1 and K is called
 !     sociable.
 ! 
-!     
+!   
 ! 
 ! Perfect, amicable and sociable numbers eventually repeat the original
 ! number K; there are other repetitions...
@@ -31,7 +31,7 @@
 !     forms the sequence 562, 284, 220, 284, 220, ... such K are called
 !     cyclic.
 ! 
-!     
+!   
 ! 
 ! And finally:
 ! 
@@ -44,7 +44,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create routine(s) to generate the aliquot sequence of a positive
 !     integer enough to classify it according to the classifications given
@@ -54,16 +54,16 @@
 ! 3.  Use it to show the classification and sequences of the following
 !     integers, in order:
 ! 
-!     
+!   
 ! 
-!         11, 12, 28, 496, 220, 1184, 12496, 1264460, 790, 909, 562, 1064,
-!         1488, and optionally 15355717786080.
+!     11, 12, 28, 496, 220, 1184, 12496, 1264460, 790, 909, 562, 1064,
+!     1488, and optionally 15355717786080.
 ! 
 ! Show all output on this page.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Abundant, deficient and perfect number classifications.
 !   (Classifications from only the first two members of the whole
@@ -73,7 +73,7 @@
 ! 
 ! External links
 ! 
-!     
+!   
 ! 
 ! - An amazing thing about 276, Numberphile
 

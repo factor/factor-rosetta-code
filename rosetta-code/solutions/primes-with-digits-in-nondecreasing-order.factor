@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find all primes (n) with their decimal digits in non-decreasing order,
 ! where n < 1,000

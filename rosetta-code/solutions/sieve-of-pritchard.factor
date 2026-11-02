@@ -34,7 +34,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program/subprogram that uses the Sieve of Pritchard algorithm to
 ! find all primes up to a specified limit. Show the result of running it
@@ -42,7 +42,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Sieve of Eratosthenes
 ! - Emirp primes

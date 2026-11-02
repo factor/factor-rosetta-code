@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a sum data type:
 ! 
@@ -14,7 +14,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Compound data type
 

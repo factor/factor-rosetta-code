@@ -9,7 +9,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program to create an ordered collection A of functions of a real
 ! number. At least one function should be built-in and at least one should
@@ -25,7 +25,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! First-class Numbers
 

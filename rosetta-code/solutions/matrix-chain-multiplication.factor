@@ -48,8 +48,6 @@
 ! 
 ! See also Matrix chain multiplication on Wikipedia.
 ! 
-! __TOC__
-! 
 ! Category:Matrices
 
 

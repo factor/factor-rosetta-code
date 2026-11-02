@@ -47,7 +47,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write a computer program (by whatever name) to contain a list of the
 !     known elements.

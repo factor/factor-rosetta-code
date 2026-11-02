@@ -9,7 +9,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Create a function (or subroutine) that uses turtle graphics to draw
 !     a house of a specified size as depicted. Optionally make it lovely

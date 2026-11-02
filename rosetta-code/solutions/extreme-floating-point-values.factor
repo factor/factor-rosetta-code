@@ -14,14 +14,14 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - What Every Computer Scientist Should Know About Floating-Point
 !   Arithmetic
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Infinity
 ! - Detect division by zero

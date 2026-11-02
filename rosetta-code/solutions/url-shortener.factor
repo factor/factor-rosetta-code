@@ -38,8 +38,7 @@
 ! Should redirect the user to the original URL:
 ! 
 !    <!DOCTYPE html>
-!    
-! 
+!    <html lang="en">
 !    ...
 ! 
 ! Rules:

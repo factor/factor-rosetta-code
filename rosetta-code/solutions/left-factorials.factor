@@ -17,17 +17,17 @@
 ! This Rosetta Code task will be using this formula (factorial sums) for
 ! left factorial:
 ! 
-!     
+!   
 ! 
-!         $!n = \sum_{k=0}^{n-1} k!$
+!     $!n = \sum_{k=0}^{n-1} k!$
 ! 
-!     
+!   
 ! 
-!         where
+!     where
 ! 
-!     
+!   
 ! 
-!         !0 = 0
+!     !0 = 0
 ! 
 ! Task
 ! 
@@ -42,7 +42,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - The OEIS entry: A003422 left factorials
 ! - The MathWorld entry: left factorial
@@ -51,7 +51,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - permutations/derangements (subfactorials)
 ! 

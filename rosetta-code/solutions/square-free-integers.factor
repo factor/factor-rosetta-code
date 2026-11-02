@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function to test if a number is square-free.
 ! 
@@ -27,7 +27,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - the Wikipedia entry: square-free integer
 

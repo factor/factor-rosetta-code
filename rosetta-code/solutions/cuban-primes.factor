@@ -3,7 +3,7 @@
 ! 
 ! Some definitions of cuban primes
 ! 
-!     
+!   
 ! 
 ! - - primes which are the difference of two consecutive cubes.
 !   - primes of the form: (n+1)³ - n³.
@@ -15,7 +15,7 @@
 ! 
 ! Task requirements
 ! 
-!     
+!   
 ! 
 ! - - show the first 200 cuban primes (in a multi─line horizontal format).
 !   - show the 100,000^(th) cuban prime.
@@ -27,7 +27,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia entry: cuban prime.
 !   - MathWorld entry: cuban prime.

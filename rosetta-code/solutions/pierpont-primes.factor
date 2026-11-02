@@ -10,7 +10,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write a routine (function, procedure, whatever) to find Pierpont
 !     primes of the first & second kinds.
@@ -27,7 +27,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia - Pierpont primes
 !   - OEIS:A005109 - Class 1 -, or Pierpont primes

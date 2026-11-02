@@ -37,9 +37,9 @@
 ! cycle through the five elements, but will always be yin.
 ! 
 ! Task
-!     Create a subroutine or program that will return or output the
-!     animal, yin/yang association, and element for the lunisolar year
-!     that begins in a given CE year.
+!   Create a subroutine or program that will return or output the animal,
+!   yin/yang association, and element for the lunisolar year that begins
+!   in a given CE year.
 ! 
 ! You may optionally provide more information in the form of the year's
 ! numerical position within the 60-year cycle and/or its actual Chinese
@@ -47,7 +47,7 @@
 ! 
 ! Requisite information
 ! 
-!     
+!   
 ! 
 ! - The animal cycle runs in this order: Rat, Ox, Tiger, Rabbit, Dragon,
 !   Snake, Horse, Goat, Monkey, Rooster, Dog, Pig.
@@ -61,7 +61,7 @@
 ! 
 ! Information for optional task
 ! 
-!     
+!   
 ! 
 ! - The ten celestial stems are 甲 jiă, 乙 yĭ, 丙 bĭng, 丁 dīng, 戊 wù, 己
 !   jĭ, 庚 gēng, 辛 xīn, 壬 rén, and 癸 gŭi. With the ASCII version of

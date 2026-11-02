@@ -1,5 +1,5 @@
 !   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------
-!   In a general Gaussian quadrature rule, an definite integral of f(x) is first approximated over the interval [−1, 1] by a polynomial approximable function g(x) and a known weighting function W(x).   ∫⁻¹¹f(x) dx = ∫⁻¹¹W(x)g(x) dx
+!   In a general Gaussian quadrature rule, an definite integral of f(x) is first approximated over the interval [−1, 1] by a polynomial approximable function g(x) and a known weighting function W(x).   ∫₋₁¹f(x) dx = ∫₋₁¹W(x)g(x) dx
 !   Those are then approximated by a sum of function values at specified points x_(i) multiplied by some weights w_(i):                                                                                   $\int_{-1}^1 W(x) g(x) \, dx \approx \sum_{i=1}^n w_i g(x_i)$
 !   In the case of Gauss-Legendre quadrature, the weighting function W(x) = 1, so we can approximate an integral of f(x) with:                                                                            $\int_{-1}^1 f(x)\,dx \approx \sum_{i=1}^n w_i f(x_i)$
 !   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------
@@ -9,38 +9,21 @@
 ! evaluations, which greatly speeds up the calculation compared to more
 ! simple numerical integration methods.
 ! 
-! +----------------------------------+-----------------------------------------------------------------------------------------------------------+
-! | The n evaluation points x_(i)    | P₀(x) = 1                                                                                                 |
-! | for a n-point rule, also called  | P₁(x) = x                                                                                                 |
-! | "nodes", are roots of n-th order | nP_(n)(x) = (2n − 1)xP_(n − 1)(x) − (n − 1)P_(n − 2)(x)                                                   |
-! | Legendre Polynomials P_(n)(x).   |                                                                                                           |
-! | Legendre polynomials are defined |                                                                                                           |
-! | by the following recursive rule: |                                                                                                           |
-! +----------------------------------+-----------------------------------------------------------------------------------------------------------+
-! | There is also a recursive        | $P_{n}'(x) = \frac{n}{x^2-1} \left( x P_n(x) - P_{n-1}(x) \right)$                                        |
-! | equation for their derivative:   |                                                                                                           |
-! +----------------------------------+-----------------------------------------------------------------------------------------------------------+
-! | The roots of those polynomials   | $x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$                                                                  |
-! | are in general not analytically  |                                                                                                           |
-! | solvable, so they have to be     |                                                                                                           |
-! | approximated numerically, for    |                                                                                                           |
-! | example by Newton-Raphson        |                                                                                                           |
-! | iteration:                       |                                                                                                           |
-! +----------------------------------+-----------------------------------------------------------------------------------------------------------+
-! | The first guess x₀ for the i-th  | $x_0 = \cos \left( \pi \, \frac{i - \frac{1}{4}}{n+\frac{1}{2}} \right)$                                  |
-! | root of a n-order polynomial     |                                                                                                           |
-! | P_(n) can be given by            |                                                                                                           |
-! +----------------------------------+-----------------------------------------------------------------------------------------------------------+
-! | After we get the nodes x_(i), we | $w_i = \frac{2}{\left( 1-x_i^2 \right) [P'_n(x_i)]^2}$                                                    |
-! | compute the appropriate weights  |                                                                                                           |
-! | by:                              |                                                                                                           |
-! +----------------------------------+-----------------------------------------------------------------------------------------------------------+
-! | After we have the nodes and the  | $\int_a^b f(x)\,dx \approx \frac{b-a}{2} \sum_{i=1}^n w_i f\left(\frac{b-a}{2}x_i + \frac{a+b}{2}\right)$ |
-! | weights for a n-point quadrature |                                                                                                           |
-! | rule, we can approximate an      |                                                                                                           |
-! | integral over any interval       |                                                                                                           |
-! | [a, b] by                        |                                                                                                           |
-! +----------------------------------+-----------------------------------------------------------------------------------------------------------+
+!   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
+!   The n evaluation points x_(i) for a n-point rule, also called "nodes", are roots of n-th order Legendre Polynomials P_(n)(x). Legendre polynomials are defined by the following recursive rule:   P₀(x) = 1
+!                                                                                                                                                                                                     P₁(x) = x
+!                                                                                                                                                                                                     nP_(n)(x) = (2n − 1)xP_(n − 1)(x) − (n − 1)P_(n − 2)(x)
+! 
+!   There is also a recursive equation for their derivative:                                                                                                                                          $P_{n}'(x) = \frac{n}{x^2-1} \left( x P_n(x) - P_{n-1}(x) \right)$
+! 
+!   The roots of those polynomials are in general not analytically solvable, so they have to be approximated numerically, for example by Newton-Raphson iteration:                                    $x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$
+! 
+!   The first guess x₀ for the i-th root of a n-order polynomial P_(n) can be given by                                                                                                                $x_0 = \cos \left( \pi \, \frac{i - \frac{1}{4}}{n+\frac{1}{2}} \right)$
+! 
+!   After we get the nodes x_(i), we compute the appropriate weights by:                                                                                                                              $w_i = \frac{2}{\left( 1-x_i^2 \right) [P'_n(x_i)]^2}$
+! 
+!   After we have the nodes and the weights for a n-point quadrature rule, we can approximate an integral over any interval [a, b] by                                                                 $\int_a^b f(x)\,dx \approx \frac{b-a}{2} \sum_{i=1}^n w_i f\left(\frac{b-a}{2}x_i + \frac{a+b}{2}\right)$
+!   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
 ! 
 ! Task description
 ! 

@@ -15,9 +15,9 @@
 ! The Jaro similarity between two strings s1 and s2, sim_(j), is defined
 ! as
 ! 
-!     sim_(j) = 0 if m is 0.
-!     sim_(j) = ( (m / length of s1) + (m / length of s2) + (m - t) / m )
-!     / 3 otherwise.
+!   sim_(j) = 0 if m is 0.
+!   sim_(j) = ( (m / length of s1) + (m / length of s2) + (m - t) / m ) /
+!   3 otherwise.
 ! 
 ! Where:
 ! 
@@ -64,7 +64,7 @@
 ! 
 ! The task
 ! 
-!     
+!   
 ! 
 ! Using a dictionary of your choice and the following list of 9 commonly
 ! misspelled words:

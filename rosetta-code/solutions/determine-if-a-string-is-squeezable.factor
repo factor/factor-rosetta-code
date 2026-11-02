@@ -21,7 +21,7 @@
 ! 
 ! Examples
 ! 
-!     
+!   
 ! 
 ! In the following character string with a specified immediately repeated
 ! character of e:
@@ -47,7 +47,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a subroutine/function/procedure/routine··· to locate a specified
 ! immediately repeated character and squeeze (delete) them from the

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the classic children's game Rock-paper-scissors, as well as a
 ! simple predictive AI (artificial intelligence) player.
@@ -27,7 +27,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Support additional choices additional weapons.
 

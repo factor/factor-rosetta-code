@@ -7,14 +7,14 @@
 !   result).
 ! - If there is no next highest integer return zero.
 ! 
-!     ^(*1) Alternatively phrased as: "Find the smallest integer larger
-!     than the (positive or zero) integer N
+!   ^(*1) Alternatively phrased as: "Find the smallest integer larger than
+!   the (positive or zero) integer N
 ! 
-!         which can be obtained by reordering the (base ten) digits of N".
+!     which can be obtained by reordering the (base ten) digits of N".
 ! 
 ! Algorithm 1
 ! 
-!     
+!   
 ! 
 ! 1.  Generate all the permutations of the digits and sort into numeric
 !     order.
@@ -26,7 +26,7 @@
 ! 
 ! Algorithm 2
 ! 
-!     
+!   
 ! 
 ! 1.  Scan right-to-left through the digits of the number until you find a
 !     digit with a larger digit somewhere to the right of it.
@@ -57,7 +57,7 @@
 ! 
 ! Task requirements
 ! 
-!     
+!   
 ! 
 ! Calculate the next highest integer from the digits of the following
 ! numbers:
@@ -73,7 +73,7 @@
 ! 
 ! Optional stretch goal
 ! 
-!     
+!   
 ! 
 ! - - 9589776899767587796600
 

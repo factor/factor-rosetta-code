@@ -26,7 +26,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write a routine (function, procedure, whatever) to find Stirling
 !     numbers of the first kind. There are several methods to generate
@@ -47,7 +47,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia - Stirling numbers of the first kind
 !   - OEIS:A008275 - Signed Stirling numbers of the first kind
@@ -55,7 +55,7 @@
 ! 
 ! Related Tasks
 ! 
-!     
+!   
 ! 
 ! - - Stirling numbers of the second kind
 !   - Lah numbers

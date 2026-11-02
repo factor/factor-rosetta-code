@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Odd numbers of the form p*q where p and q are distinct primes, where p*q
 ! < 1000

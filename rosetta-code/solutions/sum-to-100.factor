@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find solutions to the sum to one hundred puzzle.
 ! 

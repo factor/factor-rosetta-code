@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Demonstrate how to assign an empty string to a variable.
 !   - Demonstrate how to check that a string is empty.

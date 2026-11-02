@@ -7,7 +7,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how two loops may be nested within each other, with the number of
 ! iterations performed by the inner for loop being controlled by the outer
@@ -24,7 +24,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Loop over multiple arrays simultaneously
 ! - Loops/Break
@@ -44,7 +44,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - For loop Wikipedia.
 ! 

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function to search plain text for URIs or IRIs.
 ! 
@@ -26,7 +26,7 @@
 ! 
 ! Sample text
 ! 
-!     
+!   
 ! 
 !      this URI contains an illegal character, parentheses and a misplaced full stop:
 !      http://en.wikipedia.org/wiki/Erich_Kästner_(camera_designer). (which is handled by http://mediawiki.org/).

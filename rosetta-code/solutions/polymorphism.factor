@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create two classes Point(x,y) and Circle(x,y,r) with a polymorphic
 ! function print, accessors for (x,y,r), copy constructor, assignment and

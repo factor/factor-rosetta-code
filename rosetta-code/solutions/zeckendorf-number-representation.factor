@@ -19,7 +19,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate and show here a table of the Zeckendorf number representations
 ! of the decimal numbers zero to twenty, in order.
@@ -31,14 +31,14 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - OEIS A014417 for the the sequence of required results.
 ! - Brown's Criterion - Numberphile
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Fibonacci sequence
 

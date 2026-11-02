@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Plot a function represented as x, y numerical arrays.
 ! 

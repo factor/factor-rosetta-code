@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program which counts up from 1, displaying each number as the
 ! multiplication of its prime factors.
@@ -9,7 +9,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 !   2  is prime,  so it would be shown as itself. 
 ! 
@@ -19,7 +19,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - prime decomposition
 ! - factors of an integer

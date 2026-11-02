@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate how to obtain the contents of a specific line within a file.
 ! 

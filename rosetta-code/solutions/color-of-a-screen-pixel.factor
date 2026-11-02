@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Get color information from an arbitrary pixel on the screen, such as the
 ! current location of the mouse cursor.

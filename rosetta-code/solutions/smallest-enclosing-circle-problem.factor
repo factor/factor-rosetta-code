@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find circle of smallest radius containing all of given points.
 ! 

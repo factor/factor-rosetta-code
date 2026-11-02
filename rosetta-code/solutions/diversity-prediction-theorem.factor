@@ -11,15 +11,15 @@
 ! 
 ! Scott E. Page introduced the diversity prediction theorem:
 ! 
-!     The squared error of the collective prediction equals the average
-!     squared error minus the predictive diversity.
+!   The squared error of the collective prediction equals the average
+!   squared error minus the predictive diversity.
 ! 
 ! Therefore, when the diversity in a group is large, the error of the
 ! crowd is small.
 ! 
 ! Definitions
 ! 
-!     
+!   
 ! 
 ! - - Average Individual Error: Average of the individual squared errors
 !   - Collective Error: Squared error of the collective prediction
@@ -28,14 +28,13 @@
 !   - Diversity Prediction Theorem: Given a crowd of predictive models,
 !     then
 ! 
-!     
+!   
 ! 
-!         Collective Error = Average Individual Error ─ Prediction
-!         Diversity
+!     Collective Error = Average Individual Error ─ Prediction Diversity
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! For a given true value and a number of number of estimates (from a
 ! crowd), show (here on this page):
@@ -52,7 +51,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia entry: Wisdom of the crowd
 !   - University of Michigan: PDF paper (exists on a web archive, the

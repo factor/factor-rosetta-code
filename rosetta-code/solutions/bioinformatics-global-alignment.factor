@@ -31,7 +31,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Given N non-identical strings of characters A, C, G, and T
 !     representing N DNA sequences, find the shortest DNA sequence
@@ -46,7 +46,7 @@
 ! - - Find the shortest common superstring for the following four
 !     examples:
 ! 
-!     
+!   
 ! 
 ! ("TA", "AAG", "TA", "GAA", "TA")
 ! 
@@ -70,7 +70,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Bioinformatics base count.
 !   - Bioinformatics sequence mutation.

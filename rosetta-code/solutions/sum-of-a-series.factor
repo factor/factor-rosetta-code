@@ -6,19 +6,19 @@
 ! 
 ! For this task, use:
 ! 
-!     
+!   
 ! 
-!         $S_n = \sum_{k=1}^n \frac{1}{k^2}$
+!     $S_n = \sum_{k=1}^n \frac{1}{k^2}$
 ! 
-!     
+!   
 ! 
-!         and compute S₁₀₀₀
+!     and compute S₁₀₀₀
 ! 
 ! This approximates the zeta function for S=2, whose exact value
 ! 
-!     
+!   
 ! 
-!         $\zeta(2) = {\pi^2\over 6}$
+!     $\zeta(2) = {\pi^2\over 6}$
 ! 
 ! is the solution of the Basel problem.
 

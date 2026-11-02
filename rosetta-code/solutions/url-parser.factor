@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Parse a well-formed URL to retrieve the relevant information: scheme,
 ! domain, path, ...
@@ -13,9 +13,9 @@
 ! 
 ! According to the standards, the characters:
 ! 
-!     
+!   
 ! 
-!          ! * ' ( ) ; : @ & = + $ , / ? % # [ ]
+!      ! * ' ( ) ; : @ & = + $ , / ? % # [ ]
 ! 
 ! only need to be percent-encoded (%) in case of possible confusion.
 ! 
@@ -34,7 +34,7 @@
 ! 
 ! Test cases
 ! 
-!     
+!   
 ! 
 ! According to T. Berners-Lee
 ! 

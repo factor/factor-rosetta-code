@@ -1,13 +1,13 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Calculate Meissel–Mertens constant up to a precision your language can
 ! handle.
 ! 
 ! Motivation
 ! 
-!     
+!   
 ! 
 ! Analogous to Euler's constant, which is important in determining the sum
 ! of reciprocal natural numbers, Meissel-Mertens' constant is important in
@@ -15,7 +15,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! We consider the finite sum of reciprocal natural numbers:
 ! 
@@ -41,7 +41,7 @@
 ! 
 ! See
 ! 
-!     
+!   
 ! 
 ! - - Details in the Wikipedia article: Meissel–Mertens constant
 

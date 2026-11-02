@@ -17,14 +17,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! When you get tired of trying to figure it out in your head, write a
 ! program to solve it, and print the correct answer or answers.
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Print out a table of near misses, that is, solutions that are
 ! contradicted by only a single statement.

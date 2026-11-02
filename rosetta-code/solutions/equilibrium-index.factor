@@ -4,27 +4,27 @@
 ! 
 ! For example, in a sequence A:
 ! 
-!     
+!   
 ! 
-!         A₀ = −7
-!         A₁ = 1
-!         A₂ = 5
-!         A₃ = 2
-!         A₄ = −4
-!         A₅ = 3
-!         A₆ = 0
+!     A₀ = −7
+!     A₁ = 1
+!     A₂ = 5
+!     A₃ = 2
+!     A₄ = −4
+!     A₅ = 3
+!     A₆ = 0
 ! 
 ! 3 is an equilibrium index, because:
 ! 
-!     
+!   
 ! 
-!         A₀ + A₁ + A₂ = A₄ + A₅ + A₆
+!     A₀ + A₁ + A₂ = A₄ + A₅ + A₆
 ! 
 ! 6 is also an equilibrium index, because:
 ! 
-!     
+!   
 ! 
-!         A₀ + A₁ + A₂ + A₃ + A₄ + A₅ = 0
+!     A₀ + A₁ + A₂ + A₃ + A₄ + A₅ = 0
 ! 
 ! (sum of zero elements is zero)
 ! 

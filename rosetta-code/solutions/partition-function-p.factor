@@ -4,7 +4,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 !  P(4) = 5   because   4 = Σ(4) = Σ(3,1) = Σ(2,2) = Σ(2,1,1) = Σ(1,1,1,1)
 ! 
@@ -25,7 +25,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function which returns the value of PartitionsP(n). Solutions
 ! can be iterative or recursive.
@@ -34,7 +34,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - The hardest "What comes next?" (Euler's pentagonal formula) The
 !   explanatory video by Mathologer that makes this task a popular
@@ -45,7 +45,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - 9 billion names of God the integer
 ! 

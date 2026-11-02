@@ -13,13 +13,13 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Calculate the Jacobi symbol (a | n).
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - Wikipedia article on Jacobi symbol.
 

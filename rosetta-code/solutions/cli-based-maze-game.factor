@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a complete but CLI-controlled maze-game! Use the CLI interface
 ! only. The symbols:

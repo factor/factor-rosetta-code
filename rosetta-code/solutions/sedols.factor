@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! For each number list of 6-digit SEDOLs, calculate and append the
 ! checksum digit.
@@ -35,14 +35,14 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Check each input is correctly formed, especially with respect to valid
 ! characters allowed in a SEDOL string.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Luhn test
 ! - ISIN

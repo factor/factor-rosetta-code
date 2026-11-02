@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a boolean function that tells whether a given integer is prime.
 ! 
@@ -14,7 +14,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - count in factors
 ! - prime decomposition

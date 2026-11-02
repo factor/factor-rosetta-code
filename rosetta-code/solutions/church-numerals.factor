@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! In the Church encoding of natural numbers, the number N is encoded by a
 ! function that applies its first argument N times to its second argument.

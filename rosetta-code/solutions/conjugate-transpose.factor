@@ -2,9 +2,9 @@
 ! transpose of M is a matrix M^(H) containing the complex conjugates of
 ! the matrix transposition of M.
 ! 
-!     
+!   
 ! 
-!         $(M^H)_{ji} = \overline{M_{ij}}$
+!     $(M^H)_{ji} = \overline{M_{ij}}$
 ! 
 ! This means that row j, column i of the conjugate transpose equals the
 ! 
@@ -22,7 +22,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given some matrix of complex numbers, find its conjugate transpose.
 ! 
@@ -34,7 +34,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - MathWorld entry: conjugate transpose
 ! - MathWorld entry: Hermitian matrix

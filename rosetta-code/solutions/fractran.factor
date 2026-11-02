@@ -14,14 +14,14 @@
 ! 
 ! Conway gave a program for primes in FRACTRAN:
 ! 
-!     17/91, 78/85, 19/51, 23/38, 29/33, 77/29, 95/23, 77/19, 1/17, 11/13,
-!     13/11, 15/14, 15/2, 55/1
+!   17/91, 78/85, 19/51, 23/38, 29/33, 77/29, 95/23, 77/19, 1/17, 11/13,
+!   13/11, 15/14, 15/2, 55/1
 ! 
 ! Starting with n = 2, this FRACTRAN program will change n to
 ! 15 = 2 × (15/2), then 825 = 15 × (55/1), generating the following
 ! sequence of integers:
 ! 
-!     2, 15, 825, 725, 1925, 2275, 425, 390, 330, 290, 770, …
+!   2, 15, 825, 725, 1925, 2275, 425, 390, 330, 290, 770, …
 ! 
 ! After 2, this sequence contains the following powers of 2:
 ! 
@@ -33,7 +33,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that reads a list of fractions in a natural format from
 ! the keyboard or from a string, to parse it into a sequence of fractions
@@ -43,13 +43,13 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Use this program to derive the first 20 or so prime numbers.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! For more on how to program FRACTRAN as a universal programming language,
 ! see:

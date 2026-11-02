@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how language objects can be allocated at a specific machine
 ! addresses.

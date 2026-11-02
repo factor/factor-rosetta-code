@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Send a string as audible Morse code to an audio device (e.g., the PC
 ! speaker).

@@ -12,7 +12,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Write a routine (function, procedure, generator, whatever) to
 !   calculate Sylvester's sequence.
@@ -23,14 +23,14 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Egyptian fractions
 ! - Harmonic series
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - OEIS A000058 - Sylvester's sequence
 

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Find and show (in decimal) the first six numbers (non-negative
 !   integers) that are palindromes in both:

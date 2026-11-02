@@ -6,7 +6,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! The decimal number 2339 is 923 when written in hexadecimal.
 ! 

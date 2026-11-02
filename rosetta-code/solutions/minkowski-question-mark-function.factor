@@ -31,7 +31,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wikipedia entry: Minkowski's question-mark function
 

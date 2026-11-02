@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Determine the distance and bearing from an Airplane to the 20 nearest
 ! Airports whenever requested. Use the non-commercial data from
@@ -25,7 +25,7 @@
 ! 
 ! See
 ! 
-!     
+!   
 ! 
 ! - - openflights.org/data: Airport, airline and route data
 !   - Movable Type Scripts: Calculate distance, bearing and more between

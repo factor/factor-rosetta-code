@@ -36,9 +36,9 @@
 ! - Show rf(119). The result should be undefined.
 ! 
 ! Notes
-!     Since the factorial inverse of 1 is both 0 and 1, your function
-!     should return 0 in this case since it is normal to use the first
-!     match found in a series.
+!   Since the factorial inverse of 1 is both 0 and 1, your function should
+!   return 0 in this case since it is normal to use the first match found
+!   in a series.
 ! 
 ! See also
 ! 

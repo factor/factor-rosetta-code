@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find the point of intersection for the infinite ray with direction
 ! (0,-1,-1) passing through position (0,0,10) with the infinite plane with

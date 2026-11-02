@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Using the dictionary unixdict.txt, change one letter in a word, and if
 ! the changed word occurs in the dictionary,
@@ -11,7 +11,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! - A copy of the specific unixdict.txt linked to should be used for
 !   consistency of results.
@@ -19,7 +19,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - Levenshtein distance
 

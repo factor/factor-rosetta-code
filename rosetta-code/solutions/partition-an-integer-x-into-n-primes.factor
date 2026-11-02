@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Partition a positive integer X into N distinct primes.
 ! 
@@ -32,7 +32,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Count in factors
 !   - Prime decomposition

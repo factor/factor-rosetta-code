@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Sort an array of integers (of any convenient size) into ascending order
 ! using Pancake sorting.
@@ -24,14 +24,14 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Number reversal game
 ! - Topswops
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - Wikipedia article: pancake sorting.
 ! 

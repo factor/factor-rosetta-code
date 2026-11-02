@@ -32,7 +32,7 @@
 ! 
 ! task
 ! 
-!     
+!   
 ! 
 ! - - Create a representation of a pack of Set cards, shuffle it, select a
 !     specified number of cards from the pack and list them in the output.
@@ -41,7 +41,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - The Wikipedia article, Set (card game)
 

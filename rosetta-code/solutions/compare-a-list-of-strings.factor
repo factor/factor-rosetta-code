@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a list of arbitrarily many strings, show how to:
 ! 

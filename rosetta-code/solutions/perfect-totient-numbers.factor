@@ -2,13 +2,13 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - Totient function
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - the OEIS entry for perfect totient numbers.
 !   - mrob list of the first 54

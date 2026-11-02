@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! In a two-dimensional world, we begin with any bar-chart (or row of
 ! close-packed 'towers', each of unit width), and then it rains,

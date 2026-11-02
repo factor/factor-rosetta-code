@@ -1,8 +1,8 @@
 ! The digital root, X, of a number, n, is calculated:
 ! 
-!     find X as the sum of the digits of n
-!     find a new X by summing the digits of X, repeating until X has only
-!     one digit.
+!   find X as the sum of the digits of n
+!   find a new X by summing the digits of X, repeating until X has only
+!   one digit.
 ! 
 ! The additive persistence is the number of summations required to obtain
 ! the single digit.
@@ -26,7 +26,7 @@
 ! 
 ! See
 ! 
-!     
+!   
 ! 
 ! - Casting out nines for this wiki's use of this procedure.
 ! - Digital root/Multiplicative digital root

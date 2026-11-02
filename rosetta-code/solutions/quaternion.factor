@@ -1,6 +1,6 @@
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Arrays
 ! - Vector
@@ -43,9 +43,9 @@
 ! The order of multiplication is important, as, in general, for two
 ! quaternions:
 ! 
-!     
+!   
 ! 
-!          q¹ and q²: q¹q² ≠ q²q¹.
+!      q¹ and q²: q¹q² ≠ q²q¹.
 ! 
 ! An example of a quaternion might be 1 +2i +3j +4k
 ! 
@@ -56,7 +56,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given the three quaternions and their components:
 ! 

@@ -32,20 +32,19 @@
 ! large problems, so ideally keep sorts out of the iterative cycle. It
 ! works as follows:
 ! 
-!     Step 1: Balance the given transportation problem if either (total
-!     supply>total demand) or (total supply<total demand)
-!     Step 2: Determine the penalty cost for each row and column by
-!     subtracting the lowest cell cost in the row or column from the next
-!     lowest cell cost in the same row or column.
-!     Step 3: Select the row or column with the highest penalty cost
-!     (breaking ties arbitrarily or choosing the lowest-cost cell).
-!     Step 4: Allocate as much as possible to the feasible cell with the
-!     lowest transportation cost in the row or column with the highest
-!     penalty cost.
-!     Step 5: Repeat steps 2, 3 and 4 until all requirements have been
-!     meet.
-!     Step 6: Compute total transportation cost for the feasible
-!     allocations.
+!   Step 1: Balance the given transportation problem if either (total
+!   supply>total demand) or (total supply<total demand)
+!   Step 2: Determine the penalty cost for each row and column by
+!   subtracting the lowest cell cost in the row or column from the next
+!   lowest cell cost in the same row or column.
+!   Step 3: Select the row or column with the highest penalty cost
+!   (breaking ties arbitrarily or choosing the lowest-cost cell).
+!   Step 4: Allocate as much as possible to the feasible cell with the
+!   lowest transportation cost in the row or column with the highest
+!   penalty cost.
+!   Step 5: Repeat steps 2, 3 and 4 until all requirements have been meet.
+!   Step 6: Compute total transportation cost for the feasible
+!   allocations.
 ! 
 ! For this task assume that the model is balanced.
 ! 

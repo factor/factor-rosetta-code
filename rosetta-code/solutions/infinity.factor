@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function which tests if infinity is supported for floating point
 ! numbers (this step should be omitted for languages where the language
@@ -13,7 +13,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Extreme floating point values
 ! 

@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a function to check that the random integers returned from a
 ! small-integer generator function have uniform distribution.

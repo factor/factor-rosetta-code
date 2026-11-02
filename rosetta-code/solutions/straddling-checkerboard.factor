@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement functions to encrypt and decrypt a message using the
 ! straddling checkerboard method. The checkerboard should take a 28

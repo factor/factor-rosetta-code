@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find maximum difference between adjacent elements of list.
 ! 

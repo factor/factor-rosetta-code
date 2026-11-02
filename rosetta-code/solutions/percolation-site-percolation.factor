@@ -4,11 +4,11 @@
 ! Assume that the probability of any cell being filled is a constant p
 ! where
 ! 
-!     0.0 ≤ p ≤ 1.0
+!   0.0 ≤ p ≤ 1.0
 ! 
 ! The task
 ! 
-!     
+!   
 ! 
 ! Simulate creating the array of cells with probability p and then testing
 ! if there is a route through adjacent filled cells from any on row 0 to

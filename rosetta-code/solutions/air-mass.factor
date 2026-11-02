@@ -20,7 +20,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write a function that calculates the air mass for an observer at a
 !     given altitude a above sea level and zenith angle z.
@@ -29,10 +29,10 @@
 !   - Do the same for the NASA SOFIA infrared telescope, which has a
 !     cruising altitude of 13,700 meters (about 8.3 miles),
 ! 
-!     
+!   
 ! 
-!         it flies in a specially retrofitted Boeing 747 about four
-!         flights a week.
+!     it flies in a specially retrofitted Boeing 747 about four flights a
+!     week.
 
 USING: formatting io kernel math math.functions math.order
 math.ranges math.trig sequences ;

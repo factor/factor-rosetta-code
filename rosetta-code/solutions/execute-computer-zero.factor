@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a Computer/zero Assembly emulator. You may consider this webpage
 ! as a reference implementation. Output the results of the sample programs
@@ -14,7 +14,7 @@
 !     your standard printing routines to output it.
 ! 
 ! Bonus Points
-!     Run all 5 sample programs at the aforementioned website and output
-!     their results.
+!   Run all 5 sample programs at the aforementioned website and output
+!   their results.
 
 

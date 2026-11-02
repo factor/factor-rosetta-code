@@ -11,7 +11,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - The OEIS entry: A046253
 !   - The Wikipedia entry: Perfect digit-to-digit invariant, redirected

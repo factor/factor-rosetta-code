@@ -1,13 +1,13 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a 2D sliding block puzzle game where blocks with numbers are
 ! combined to add their values.
 ! 
 ! Rules of the game
 ! 
-!     
+!   
 ! 
 ! - - The rules are that on each turn the player must choose a direction
 !     (up, down, left or right).
@@ -29,7 +29,7 @@
 ! 
 ! Requirements
 ! 
-!     
+!   
 ! 
 ! - "Non-greedy" movement.
 ! 
@@ -38,15 +38,15 @@
 ! 
 !                [2][2][2][2] 
 ! 
-!     
+!   
 ! 
-!         to the right should result in:
+!     to the right should result in:
 ! 
 !                ......[4][4] 
 ! 
-!     
+!   
 ! 
-!         and not:
+!     and not:
 ! 
 !                .........[8] 
 ! 
@@ -57,15 +57,15 @@
 ! 
 !                ...[2][2][2] 
 ! 
-!     
+!   
 ! 
-!         to the right should result in:
+!     to the right should result in:
 ! 
 !                ......[2][4] 
 ! 
-!     
+!   
 ! 
-!         and not:
+!     and not:
 ! 
 !                ......[4][2] 
 ! 

@@ -58,7 +58,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! The task is to define three named
 ! functions/methods/procedures/subroutines:
@@ -72,13 +72,13 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Egyptian division
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Ethiopian multiplication explained (BBC Video clip)
 ! 

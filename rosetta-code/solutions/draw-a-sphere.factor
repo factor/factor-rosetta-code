@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Draw a sphere.
 ! 
@@ -11,7 +11,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - draw a cuboid
 ! - draw a rotating cube

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate a method of deriving the Cyclic Redundancy Check from within
 ! the language.
@@ -15,9 +15,9 @@
 ! For the purpose of this task, generate a CRC-32 checksum for the ASCII
 ! encoded string:
 ! 
-!     
+!   
 ! 
-!         The quick brown fox jumps over the lazy dog
+!     The quick brown fox jumps over the lazy dog
 ! 
 ! Category:Checksums
 

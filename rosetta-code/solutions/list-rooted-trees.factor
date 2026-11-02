@@ -37,7 +37,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that, when given n, enumerates all ways of nesting n
 ! bags. You can use the parentheses notation above, or any tree

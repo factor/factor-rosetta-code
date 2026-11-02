@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Take the string alphaBETA and demonstrate how to convert it to:
 ! 

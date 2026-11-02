@@ -21,7 +21,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Print the integer portions (the starred formula, which is without
 !     the power of 1000 divisor) of the first 10 terms of the series.
@@ -30,7 +30,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - - Gert Almkvist and Jesús Guillera, Ramanujan-like series for 1/π² and
 !     string theory, Experimental Mathematics, 21 (2012), page 2, formula

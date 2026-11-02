@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Ensure the last digit (i.e., the check digit) of the CUSIP code (the
 ! 1^(st) column) is correct, against the following:
@@ -49,7 +49,7 @@
 ! 
 ! See related tasks
 ! 
-!     
+!   
 ! 
 ! - SEDOL
 ! - ISIN

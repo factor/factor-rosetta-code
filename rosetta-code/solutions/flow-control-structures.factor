@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Document common flow-control structures.
 ! 
@@ -11,7 +11,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Conditional Structures
 ! - Loop Structures

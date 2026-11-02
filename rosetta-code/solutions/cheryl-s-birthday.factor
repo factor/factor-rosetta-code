@@ -22,7 +22,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Sum and Product Puzzle
 ! 

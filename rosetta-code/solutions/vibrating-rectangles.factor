@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! ::#Draw at least 20 rectangles with a common center, to be more precise,
 ! the circumcenter of all the rectangles must coincide. None of the

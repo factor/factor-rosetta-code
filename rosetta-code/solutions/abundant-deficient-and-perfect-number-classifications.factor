@@ -10,7 +10,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! 6 has proper divisors of 1, 2, and 3.
 ! 
@@ -18,7 +18,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Calculate how many of the integers 1 to 20,000 (inclusive) are in each
 ! of the three classes.
@@ -27,7 +27,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Aliquot sequence classifications. (The whole series from which this
 !   task is a subset.)

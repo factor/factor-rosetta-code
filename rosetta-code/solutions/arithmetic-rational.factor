@@ -1,13 +1,13 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a reasonably complete implementation of rational arithmetic in
 ! the particular language using the idioms of the language.
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! Define a new type called frac with binary operator "//" of two integers
 ! that returns a structure made up of the numerator and the denominator
@@ -29,7 +29,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Perfect Numbers
 ! - Check Machin-like formulas

@@ -6,7 +6,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show in the program language of your choice an example of the use of
 ! assertions as a form of documentation.

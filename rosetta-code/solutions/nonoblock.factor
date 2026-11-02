@@ -2,7 +2,7 @@
 ! 
 ! Given
 ! 
-!     
+!   
 ! 
 ! - The number of cells in a row.
 ! - The size of each, (space separated), connected block of cells to fit
@@ -10,7 +10,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - show all possible positions.
 ! - show the number of positions of the blocks for the following cases
@@ -20,7 +20,7 @@
 ! 
 ! Enumerate the following configurations
 ! 
-!     
+!   
 ! 
 ! 1.  5 cells and [2, 1] blocks
 ! 2.  5 cells and [] blocks (no blocks)
@@ -31,7 +31,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! Given a row of five cells and a block of two cells followed by a block
 ! of one cell - in that order, the example could be shown as:
@@ -63,7 +63,7 @@
 ! 
 ! An algorithm
 ! 
-!     
+!   
 ! 
 ! - Find the minimum space to the right that is needed to legally hold all
 !   but the leftmost block of cells (with a space between blocks
@@ -79,7 +79,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - The blog post Nonogram puzzle solver (part 1) Inspired this task and
 !   donated its Nonoblock#Python solution.

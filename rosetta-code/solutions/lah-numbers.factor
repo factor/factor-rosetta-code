@@ -19,7 +19,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write a routine (function, procedure, whatever) to find unsigned Lah
 !     numbers. There are several methods to generate unsigned Lah numbers.
@@ -37,7 +37,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia - Lah number
 !   - OEIS:A105278 - Unsigned Lah numbers
@@ -45,7 +45,7 @@
 ! 
 ! Related Tasks
 ! 
-!     
+!   
 ! 
 ! - - Stirling numbers of the first kind
 !   - Stirling numbers of the second kind

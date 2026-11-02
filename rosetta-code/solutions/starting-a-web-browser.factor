@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write the code which automatically opens a web page in a browser showing
 ! the addresses. No static data must be shown, only processed data.

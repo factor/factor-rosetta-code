@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a data structure and the associated methods to define and
 ! manipulate a deck of playing cards.

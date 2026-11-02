@@ -7,7 +7,7 @@
 ! 
 ! Encoding algorithm
 ! 
-!     
+!   
 ! 
 !         for each symbol of the input sequence:
 !             output the index of the symbol in the symbol table
@@ -15,7 +15,7 @@
 ! 
 ! Decoding algorithm
 ! 
-!     
+!   
 ! 
 !         # Using the same starting symbol table
 !         for each index of the input sequence:
@@ -24,14 +24,14 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! Encoding the string of character symbols 'broood' using a symbol table
 ! of the lowercase characters a-to-z
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable" border="1"
+!     {| class="wikitable" border="1"
 ! 
 ! |- ! Input ! Output ! SymbolTable |- | broood | 1 |
 ! 'abcdefghijklmnopqrstuvwxyz' |- | broood | 1 17 |
@@ -43,9 +43,9 @@
 ! 
 ! Decoding the indices back to the original symbol order:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable" border="1"
+!     {| class="wikitable" border="1"
 ! 
 ! |- ! Input ! Output ! SymbolTable |- | 1 17 15 0 0 5 | b |
 ! 'abcdefghijklmnopqrstuvwxyz' |- | 1 17 15 0 0 5 | br |
@@ -57,7 +57,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Encode and decode the following three strings of characters using
 !     the symbol table of the lowercase characters a-to-z as above.

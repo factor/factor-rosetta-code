@@ -10,7 +10,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Calculate (from 0 up to a limit of 100) the largest non-McNuggets number
 ! (a number n which cannot be expressed with 6x + 9y + 20z = n where x, y

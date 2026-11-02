@@ -2,7 +2,7 @@
 ! 
 ! Requirements
 ! 
-!     
+!   
 ! 
 ! - An abstract-syntax tree (AST) for the expression must be created from
 !   parsing the input.
@@ -16,7 +16,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! For those who don't remember, mathematical precedence is as follows:
 ! 
@@ -26,7 +26,7 @@
 ! 
 ! C.f
 ! 
-!     
+!   
 ! 
 ! - 24 game Player.
 ! - Parsing/RPN calculator algorithm.

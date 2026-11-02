@@ -3,9 +3,9 @@
 ! 
 ! Taking the following as inputs:
 ! 
-!     
+!   
 ! 
-!         {| border="5" cellspacing="0" cellpadding=2
+!     {| border="5" cellspacing="0" cellpadding=2
 ! 
 ! |- |127.0.0.1 |The "localhost" IPv4 address |- |127.0.0.1:80 |The
 ! "localhost" IPv4 address, with a specified port (80) |- |::1 |The
@@ -17,7 +17,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Emit each described IP address as a hexadecimal integer representing the
 ! address, the address space, and the port number specified, if any.
@@ -29,7 +29,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! 127.0.0.1 has the address number 7F000001 (2130706433 decimal) in the
 ! ipv4 address space.

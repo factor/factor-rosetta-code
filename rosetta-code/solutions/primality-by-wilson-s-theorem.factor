@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a boolean function that tells whether a given integer is prime
 ! using Wilson's theorem.
@@ -12,7 +12,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Cut-the-knot: Wilson's theorem.
 ! - Wikipedia: Wilson's theorem

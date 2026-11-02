@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a generator of prime numbers, in order, that will automatically
 ! adjust to accommodate the generation of any reasonably high prime.
@@ -43,7 +43,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - Prime Numbers. Website with large count of primes.
 

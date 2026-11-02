@@ -43,7 +43,7 @@
 ! substituting chi-square k into s as k/2 and chi-squared x into x as x /
 ! 2,
 ! 
-!     $F(x;\,k) = (x/2)^{(k/2)} \, e^{-x/2} \sum_{m=0}^\infty\frac{(x/2)^m}{\Gamma(\frac{k}{2}+m+1)}.$
+!   $F(x;\,k) = (x/2)^{(k/2)} \, e^{-x/2} \sum_{m=0}^\infty\frac{(x/2)^m}{\Gamma(\frac{k}{2}+m+1)}.$
 ! 
 ! Because series formulas may be subject to accumulated errors from
 ! rounding in the frequently used region where x and k are under 10 and
@@ -84,14 +84,14 @@
 ! 
 ! Related Tasks
 ! 
-!     
+!   
 ! 
 ! - Statistics/Basic
 ! - Statistics/Normal_distribution
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! https://en.wikipedia.org/wiki/Chi-squared_test Chi Squared Test
 ! https://www.itl.nist.gov/div898/handbook/eda/section3/eda3666.htm NIST

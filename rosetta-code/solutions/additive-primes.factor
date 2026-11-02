@@ -12,7 +12,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - the OEIS entry: A046704 additive primes.
 !   - the prime-numbers entry: additive primes.

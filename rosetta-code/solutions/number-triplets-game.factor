@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! The rules are simple:
 ! 

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - match a string against a regular expression
 !   - substitute part of a string using a regular expression

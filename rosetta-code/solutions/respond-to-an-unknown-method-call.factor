@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate how to make the object respond (sensibly/usefully) to an
 ! invocation of a method on it that it does not support through its class
@@ -15,7 +15,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Send an unknown method call.
 

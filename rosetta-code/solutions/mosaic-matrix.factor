@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Draw a 'mosaic' matrix which, for the purposes of this task, is a square
 ! matrix which has 1's in alternate cells (both horizontally and

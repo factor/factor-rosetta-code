@@ -3,13 +3,13 @@
 ! end up with the first card from the left half, followed by the first
 ! card from the right half, and so on:
 ! 
-!     
+!   
 ! 
-!         7♠ 8♠ 9♠ J♠ Q♠ K♠
+!     7♠ 8♠ 9♠ J♠ Q♠ K♠
 ! 
-!         →
+!     →
 ! 
-!         7♠ 8♠ 9♠
+!     7♠ 8♠ 9♠
 ! 
 ! J♠ Q♠ K♠
 ! 
@@ -23,10 +23,10 @@
 ! the deck - for example for a deck of eight cards it takes three
 ! shuffles:
 ! 
-!     
+!   
 ! 
-!         {| style="border-spacing:0.5em
-!         0;border-collapse:separate;margin:0 1em;text-align:right"
+!     {| style="border-spacing:0.5em 0;border-collapse:separate;margin:0
+!     1em;text-align:right"
 ! 
 ! |- | original: || 1 2 3 4 5 6 7 8 |- | after 1st shuffle: || 1 5 2 6 3 7
 ! 4 8 |- | after 2nd shuffle: || 1 3 5 7 2 4 6 8 |- | after 3rd shuffle:
@@ -47,9 +47,9 @@
 ! 
 ! Test Cases
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! |- ! input (deck size) !! output (number of shuffles required) |- | 8 ||
 ! 3 |- | 24 || 11 |- | 52 || 8 |- | 100 || 30 |- | 1020 || 1018 |- | 1024

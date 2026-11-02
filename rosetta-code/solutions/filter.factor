@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Select certain elements from an Array into a new Array in a generic way.
 ! 

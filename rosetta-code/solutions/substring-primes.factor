@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find all primes in which all substrings (in base ten) are also primes.
 ! 
@@ -9,7 +9,7 @@
 ! 
 ! Advanced
 ! 
-!     
+!   
 ! 
 ! Solve by testing at most 15 numbers for primality. Show a list of all
 ! numbers tested that were not prime.

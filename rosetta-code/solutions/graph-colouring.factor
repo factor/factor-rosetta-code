@@ -14,7 +14,7 @@
 ! 
 ! Example graph
 ! 
-!     
+!   
 ! 
 !     +---+
 !     | 3 |
@@ -39,7 +39,7 @@
 ! 
 ! Graph colouring task
 ! 
-!     
+!   
 ! 
 ! Colour the vertices of a given graph so that no edge is between
 ! verticies of the same colour.
@@ -55,11 +55,11 @@
 ! 
 ! Use the following graphs
 ! 
-!     
+!   
 ! 
 ! Ex1
 ! 
-!     
+!   
 ! 
 !        0-1 1-2 2-0 3
 ! 
@@ -75,12 +75,11 @@
 ! 
 ! Ex2
 ! 
-!     
+!   
 ! 
 ! The wp articles left-side graph
 ! 
 !    1-6 1-7 1-8 2-5 2-7 2-8 3-5 3-6 3-8 4-5 4-6 4-7
-! 
 ! 
 !       +----------------------------------+
 !       |                                  |
@@ -104,13 +103,12 @@
 ! 
 ! Ex3
 ! 
-!     
+!   
 ! 
 ! The wp articles right-side graph which is the same graph as Ex2, but
 ! with different node orderings and namings.
 ! 
 !    1-4 1-6 1-8 3-2 3-6 3-8 5-2 5-4 5-8 7-2 7-4 7-6
-! 
 ! 
 !       +----------------------------------+
 !       |                                  |
@@ -134,14 +132,13 @@
 ! 
 ! Ex4
 ! 
-!     
+!   
 ! 
 ! This is the same graph, node naming, and edge order as Ex2 except some
 ! of the edges x-y are flipped to y-x. This might alter the node order
 ! used in the greedy algorithm leading to differing numbers of colours.
 ! 
 !    1-6 7-1 8-1 5-2 2-7 2-8 3-5 6-3 3-8 4-5 4-6 4-7
-! 
 ! 
 !                           +-------------------------------------------------+
 !                           |                                                 |
@@ -162,7 +159,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Greedy coloring Wikipedia.
 ! - Graph Coloring : Greedy Algorithm & Welsh Powell Algorithm by Priyank

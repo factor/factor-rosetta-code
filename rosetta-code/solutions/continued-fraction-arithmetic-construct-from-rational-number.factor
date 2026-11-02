@@ -17,31 +17,31 @@
 ! 
 ! Demonstrate the function by outputing the continued fraction for:
 ! 
-!     1/2
-!     3
-!     23/8
-!     13/11
-!     22/7
-!     -151/77
+!   1/2
+!   3
+!   23/8
+!   13/11
+!   22/7
+!   -151/77
 ! 
 ! $\sqrt 2$ should approach [1; 2, 2, 2, 2, …] try ever closer rational
 ! approximations until boredom gets the better of you:
 ! 
-!     14142,10000
-!     141421,100000
-!     1414214,1000000
-!     14142136,10000000
+!   14142,10000
+!   141421,100000
+!   1414214,1000000
+!   14142136,10000000
 ! 
 ! Try :
 ! 
-!     31,10
-!     314,100
-!     3142,1000
-!     31428,10000
-!     314285,100000
-!     3142857,1000000
-!     31428571,10000000
-!     314285714,100000000
+!   31,10
+!   314,100
+!   3142,1000
+!   31428,10000
+!   314285,100000
+!   3142857,1000000
+!   31428571,10000000
+!   314285714,100000000
 ! 
 ! Observe how this rational number behaves differently to $\sqrt 2$ and
 ! convince yourself that, in the same way as 3.7 may be represented as

@@ -1,20 +1,20 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create an interpreter for a Markov Algorithm.
 ! 
 ! Rules have the syntax:
 ! 
-!  ::= (( | ) +)*
-!  ::= # {}
-!  ::=   ->  [.] 
-!  ::= ( | ) []
+! <ruleset> ::= ((<comment> | <rule>) <newline>+)*
+! <comment> ::= # {<any character>}
+! <rule> ::= <pattern> <whitespace> -> <whitespace> [.] <replacement>
+! <whitespace> ::= (<tab> | <space>) [<whitespace>]
 ! 
 ! There is one rule per line.
 ! 
-! If there is a . (period) present before the , then this is a terminating
-! rule in which case the interpreter must halt execution.
+! If there is a . (period) present before the <replacement>, then this is
+! a terminating rule in which case the interpreter must halt execution.
 ! 
 ! A ruleset consists of a sequence of rules, with optional comments.
 ! 
@@ -24,7 +24,7 @@
 ! 
 ! Ruleset 1
 ! 
-!     
+!   
 ! 
 !     # This rules file is extracted from Wikipedia:
 !     # http://en.wikipedia.org/wiki/Markov_Algorithm
@@ -37,15 +37,15 @@
 ! 
 ! Sample text of:
 ! 
-!     I bought a B of As from T S.
+!   I bought a B of As from T S.
 ! 
 ! Should generate the output:
 ! 
-!     I bought a bag of apples from my brother.
+!   I bought a bag of apples from my brother.
 ! 
 ! Ruleset 2
 ! 
-!     
+!   
 ! 
 ! A test of the terminating rule
 ! 
@@ -59,15 +59,15 @@
 ! 
 ! Sample text of:
 ! 
-!     I bought a B of As from T S.
+!   I bought a B of As from T S.
 ! 
 ! Should generate:
 ! 
-!     I bought a bag of apples from T shop.
+!   I bought a bag of apples from T shop.
 ! 
 ! Ruleset 3
 ! 
-!     
+!   
 ! 
 ! This tests for correct substitution order and may trap simple regexp
 ! based replacement routines if special regexp characters are not escaped.
@@ -86,15 +86,15 @@
 ! 
 ! Sample text of:
 ! 
-!     I bought a B of As W my Bgage from T S.
+!   I bought a B of As W my Bgage from T S.
 ! 
 ! Should generate:
 ! 
-!     I bought a bag of apples with my money from T shop.
+!   I bought a bag of apples with my money from T shop.
 ! 
 ! Ruleset 4
 ! 
-!     
+!   
 ! 
 ! This tests for correct order of scanning of rules, and may trap
 ! replacement routines that scan in the wrong order. It implements a
@@ -132,15 +132,15 @@
 ! 
 ! Sample text of:
 ! 
-!     _1111*11111_
+!   _1111*11111_
 ! 
 ! should generate the output:
 ! 
-!     11111111111111111111
+!   11111111111111111111
 ! 
 ! Ruleset 5
 ! 
-!     
+!   
 ! 
 ! A simple Turing machine, implementing a three-state busy beaver.
 ! 
@@ -174,10 +174,10 @@
 ! 
 ! This ruleset should turn
 ! 
-!     000000A000000
+!   000000A000000
 ! 
 ! into
 ! 
-!     00011H1111000
+!   00011H1111000
 
 

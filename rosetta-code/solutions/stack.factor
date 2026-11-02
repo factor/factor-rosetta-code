@@ -38,7 +38,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a stack supporting the basic operations: push, pop, empty.
 ! 

@@ -15,7 +15,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write two functions, one to change snake case to camel case and one
 !     to change camel case to snake case. If possible, generalize the
@@ -33,7 +33,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Naming_conventions
 

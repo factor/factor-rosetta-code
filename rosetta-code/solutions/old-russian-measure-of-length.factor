@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program to perform a conversion of the old Russian measures of
 ! length to the metric system (and vice versa).
@@ -14,7 +14,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - Old Russian measure of length
 

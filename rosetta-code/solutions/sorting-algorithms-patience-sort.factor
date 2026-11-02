@@ -3,7 +3,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - Longest increasing subsequence
 ! 

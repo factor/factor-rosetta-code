@@ -1,5 +1,5 @@
-!     In algebra, polynomial long division is an algorithm for dividing a
-!     polynomial by another polynomial of the same or lower degree.
+!   In algebra, polynomial long division is an algorithm for dividing a
+!   polynomial by another polynomial of the same or lower degree.
 ! 
 ! Let us suppose a polynomial is represented by a vector, x (i.e., an
 ! ordered collection of coefficients) so that the i^(th) element keeps the
@@ -101,7 +101,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - Polynomial derivative
 

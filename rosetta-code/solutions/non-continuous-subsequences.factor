@@ -16,7 +16,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! For the sequence 1,2,3,4, there are five non-continuous subsequences,
 ! namely:
@@ -29,7 +29,7 @@
 ! 
 ! Goal
 ! 
-!     
+!   
 ! 
 ! There are different ways to calculate those subsequences.
 ! 

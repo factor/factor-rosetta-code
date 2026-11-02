@@ -46,22 +46,22 @@
 ! 
 ! 1. Linear momentum:
 ! 
-!     p = m·v
+!   p = m·v
 ! 
 ! 2. NKTg₁:
 ! 
-!     NKTg₁ = x·p
+!   NKTg₁ = x·p
 ! 
 ! 3. NKTg₂:
 ! 
-!     NKTg₂ = (dm/dt)·p
+!   NKTg₂ = (dm/dt)·p
 ! 
 ! 4. Determine motion tendency:
 ! 
-!     If NKTg₁ > 0 → moving away from stable state
-!     If NKTg₁ < 0 → moving toward stable state
-!     If NKTg₂ > 0 → mass variation supports motion
-!     If NKTg₂ < 0 → mass variation resists motion
+!   If NKTg₁ > 0 → moving away from stable state
+!   If NKTg₁ < 0 → moving toward stable state
+!   If NKTg₂ > 0 → mass variation supports motion
+!   If NKTg₂ < 0 → mass variation resists motion
 ! 
 ! Programs should output p, NKTg₁, NKTg₂, and the interpreted motion
 ! tendency.

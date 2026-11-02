@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Randomly generate a string of 200 DNA bases (represented by A, C, G, and
 ! T).

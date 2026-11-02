@@ -40,7 +40,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Sierpinski triangle
 

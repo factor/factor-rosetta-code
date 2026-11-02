@@ -18,7 +18,5 @@
 ! especially add application specific commands.
 ! 
 ! See also: Input loop
-! 
-! __TOC__
 
 

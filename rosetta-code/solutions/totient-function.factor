@@ -8,7 +8,7 @@
 ! 
 ! Definitions (as per number theory)
 ! 
-!     
+!   
 ! 
 ! The totient function:
 ! 
@@ -22,7 +22,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a totient function and:
 ! 
@@ -39,13 +39,13 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - Perfect totient numbers
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia: Euler's totient function.
 !   - MathWorld: totient function.

@@ -3,13 +3,13 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 !  12 = 2 × 2 × 3,  so its prime decomposition is  {2, 2, 3}
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function which returns an array or collection which contains the
 ! prime decomposition of a given number n greater than 1.
@@ -27,7 +27,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - count in factors
 ! - factors of an integer

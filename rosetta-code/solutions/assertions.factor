@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show an assertion in your language by asserting that an integer variable
 ! is equal to 42.

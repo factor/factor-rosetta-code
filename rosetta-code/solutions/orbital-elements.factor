@@ -46,7 +46,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how to perform this conversion from orbital elements to orbital
 ! state vectors in your programming language.

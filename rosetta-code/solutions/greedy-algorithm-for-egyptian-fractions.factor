@@ -1,9 +1,8 @@
 ! An Egyptian fraction is the sum of distinct unit fractions such as:
 ! 
-!     
+!   
 ! 
-!         
-!         $\tfrac{1}{2} + \tfrac{1}{3} + \tfrac{1}{16} \,(= \tfrac{43}{48})$
+!      $\tfrac{1}{2} + \tfrac{1}{3} + \tfrac{1}{16} \,(= \tfrac{43}{48})$
 ! 
 ! Each fraction in the expression has a numerator equal to 1 (unity) and a
 ! denominator that is a positive integer, and all the denominators are
@@ -13,10 +12,10 @@
 ! $\tfrac{x}{y}$ to be represented by repeatedly performing the
 ! replacement
 ! 
-!     
+!   
 ! 
-!         
-!         $\frac{x}{y} = \frac{1}{\lceil y/x\rceil} + \frac{(-y)\!\!\!\!\mod x}{y\lceil y/x\rceil}$
+!     
+!     $\frac{x}{y} = \frac{1}{\lceil y/x\rceil} + \frac{(-y)\!\!\!\!\mod x}{y\lceil y/x\rceil}$
 ! 
 ! (simplifying the 2^(nd) term in this replacement as necessary, and where
 ! ⌈x⌉ is the ceiling function).
@@ -39,7 +38,7 @@
 ! 
 ! Task requirements
 ! 
-!     
+!   
 ! 
 ! - show the Egyptian fractions for: $\tfrac{43}{48}$ and $\tfrac{5}{121}$
 !   and $\tfrac{2014}{59}$
@@ -53,7 +52,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - Wolfram MathWorld™ entry: Egyptian fraction
 ! - Numberphile YouTube video: Egyptian Fractions and the Greedy Algorithm

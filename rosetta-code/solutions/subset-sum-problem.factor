@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a function/procedure/method/subroutine that takes a
 ! set/array/list/stream/table/collection of words with integer weights,
@@ -10,7 +10,7 @@
 ! 
 ! For example
 ! 
-!     
+!   
 ! 
 ! This set of weighted words, one solution would be the set of words:
 ! 
@@ -23,10 +23,10 @@
 ! 
 ! sum to zero.
 ! 
-!     
+!   
 ! 
-!         {| style="text-align: left; width: 40%;" border="5"
-!         cellpadding="2" cellspacing="2"
+!     {| style="text-align: left; width: 40%;" border="5" cellpadding="2"
+!     cellspacing="2"
 ! 
 ! |+ Table of weighted words |- style="background-color: rgb(255, 204,
 ! 255);" ! word !! weight |- | alliance || -624 |- | archbishop || -915 |-

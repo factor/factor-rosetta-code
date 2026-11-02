@@ -27,13 +27,13 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find that missing permutation.
 ! 
 ! Methods
 ! 
-!     
+!   
 ! 
 ! - Obvious method:
 ! 
@@ -54,7 +54,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Permutations)
 

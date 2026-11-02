@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Considering in order of length, n, all sequences of consecutive primes,
 ! p, from 2 onwards, where p < 1000 and n>0, select those sequences whose

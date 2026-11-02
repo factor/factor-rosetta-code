@@ -12,14 +12,14 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! 1037 is a gapful number because it is evenly divisible by the number 17
 ! which is formed by the first and last decimal digits of 1037.
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Show (nine sets) the first 20 palindromic gapful numbers that end
 !     with:
@@ -41,20 +41,20 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! All palindromic gapful numbers are divisible by eleven.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - palindrome detection.
 !   - gapful numbers.
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - The OEIS entry: A108343 gapful numbers.
 ! 

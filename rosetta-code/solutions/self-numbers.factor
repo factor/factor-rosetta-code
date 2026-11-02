@@ -12,7 +12,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! *OEIS: A003052 - Self numbers or Colombian numbers
 ! *Wikipedia: Self numbers

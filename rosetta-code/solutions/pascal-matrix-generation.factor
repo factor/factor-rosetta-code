@@ -31,7 +31,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write functions capable of generating each of the three forms of n-by-n
 ! matrices.
@@ -45,7 +45,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! The Cholesky decomposition of a Pascal symmetric matrix is the Pascal
 ! lower-triangle matrix of the same size.

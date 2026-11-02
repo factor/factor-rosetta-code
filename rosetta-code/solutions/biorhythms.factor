@@ -25,9 +25,9 @@
 ! 
 ! The three cycles and their lengths are as follows:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! ! Cycle ! Length |- |Physical | 23 days |- |Emotional | 28 days |-
 ! |Mental | 33 days |}

@@ -22,7 +22,5 @@
 ! Reference.
 ! 
 ! 1 Solving
-! 
-! __TOC__
 
 

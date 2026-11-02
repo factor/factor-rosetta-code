@@ -19,7 +19,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Rational Arithmetic
 !   - Perfect numbers on OEIS

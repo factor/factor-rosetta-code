@@ -1,5 +1,5 @@
 ! Problem
-!     Hamiltonian Cycle via Chvátal Closure
+!   Hamiltonian Cycle via Chvátal Closure
 ! 
 ! Instance: A simple undirected graph G = (V, E) with |V| = n.
 ! 

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that prints the integers from 1 to 100 (inclusive).
 ! 
@@ -16,7 +16,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - (a blog) dont-overthink-fizzbuzz
 ! - (a blog) fizzbuzz-the-programmers-stairway-to-heaven

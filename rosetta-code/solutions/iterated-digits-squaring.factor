@@ -13,16 +13,16 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
-!     Count how many number chains for integers 1 <= n < 100_000_000 end
-!     with a value 89.
+!   Count how many number chains for integers 1 <= n < 100_000_000 end
+!   with a value 89.
 ! 
 ! Or, for much less credit - (showing that your algorithm and/or language
 ! is slow):
 ! 
-!     Count how many number chains for integers 1 <= n < 1_000_000 end
-!     with a value 89.
+!   Count how many number chains for integers 1 <= n < 1_000_000 end with
+!   a value 89.
 ! 
 ! This problem derives from the Project Euler problem 92.
 ! 
@@ -30,7 +30,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Combinations with repetitions
 ! - Digital root

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how a foreign language function can be called from the language.
 ! 
@@ -13,7 +13,7 @@
 ! 
 ! Notes
 ! 
-!     
+!   
 ! 
 ! - It is not mandated if the C run-time library is to be loaded
 !   statically or dynamically. You are free to use either way.
@@ -23,7 +23,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Use another language to call a function
 

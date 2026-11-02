@@ -1,9 +1,9 @@
-!     
+!   
 ! 
-!         $\begin{align}
-!         Q(1)&=Q(2)=1, \\
-!         Q(n)&=Q\big(n-Q(n-1)\big)+Q\big(n-Q(n-2)\big), \quad n>2.
-!         \end{align}$
+!     $\begin{align}
+!     Q(1)&=Q(2)=1, \\
+!     Q(n)&=Q\big(n-Q(n-1)\big)+Q\big(n-Q(n-2)\big), \quad n>2.
+!     \end{align}$
 ! 
 ! It is defined like the Fibonacci sequence, but whereas the next term in
 ! the Fibonacci sequence is the sum of the previous two terms, in the Q
@@ -13,7 +13,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Confirm and display that the first ten terms of the sequence are: 1,
 !   1, 2, 3, 3, 4, 5, 5, 6, and 6

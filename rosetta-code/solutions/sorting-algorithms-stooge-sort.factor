@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show the Stooge Sort for an array of integers.
 ! 

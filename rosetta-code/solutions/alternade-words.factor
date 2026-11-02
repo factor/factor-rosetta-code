@@ -3,7 +3,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! The word lounge contains the word lug (lounge) and the word one
 ! (lounge).
@@ -16,14 +16,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Print out every alternade in unixdict.txt whose length is 6 or greater,
 ! also showing both the words that make up the alternade.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia entry: Alternade
 

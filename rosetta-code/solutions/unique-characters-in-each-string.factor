@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a list of strings, find the characters appearing exactly once in
 ! each string.

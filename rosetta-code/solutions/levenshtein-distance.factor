@@ -7,7 +7,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! The Levenshtein distance between "kitten" and "sitting" is 3, since the
 ! following three edits change one into the other, and there isn't a way
@@ -26,20 +26,20 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implements a Levenshtein distance function, or uses a library function,
 ! to show the Levenshtein distance between "kitten" and "sitting".
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Longest common subsequence
 ! 
 ! Notes
 ! 
-!     
+!   
 ! 
 ! - The classical Levenshtein distance uses insertion, deletion, and
 !   substitution as its elementary edit operations. Adjacent transposition
@@ -67,7 +67,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - V. I. Levenshtein, "Binary codes capable of correcting deletions,
 !   insertions, and reversals", Dokl. Akad. Nauk SSSR 163(4), 845–848
@@ -79,12 +79,10 @@
 ! 
 ! Further reading
 ! 
-!     
+!   
 ! 
 ! - Levenshtein.net — Unicode and Grapheme-Safe Levenshtein:
 !   Normalization, EGCs and Correct Text Distance.
-! 
-! brbr
 
 USING: lcs prettyprint ;
 "kitten" "sitting" levenshtein .

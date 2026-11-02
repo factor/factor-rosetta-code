@@ -6,7 +6,7 @@
 ! 
 ! Definitions and directives
 ! 
-!     
+!   
 ! 
 ! - - English is to be used in spelling numbers.
 !   - Letters are defined as the upper─ and lowercase letters in the Latin
@@ -23,7 +23,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write a driver (invoking routine) and a function
 !     (subroutine/routine···) that returns the sequence (for any positive
@@ -44,7 +44,7 @@
 ! 
 ! Test cases
 ! 
-!     
+!   
 ! 
 !  Display the first  201  numbers in the sequence  (and the total number of characters in the sentence).
 !  Display the number of letters  (and the word itself)  of the       1,000^(th)  word.
@@ -55,7 +55,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Four is magic
 !   - Look-and-say sequence
@@ -66,7 +66,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - See the OEIS sequence A72425 "Four is the number of letters...".
 !   - See the OEIS sequence A72424 "Five's the number of letters..."

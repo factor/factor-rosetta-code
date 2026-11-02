@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate a collection filled with 1000 normally distributed random (or
 ! pseudo-random) numbers with a mean of 1.0 and a standard deviation of
@@ -11,7 +11,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Standard deviation
 ! 

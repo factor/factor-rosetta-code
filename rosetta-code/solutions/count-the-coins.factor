@@ -24,14 +24,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! How many ways are there to make change for a dollar using these common
 ! coins? (1 dollar = 100 cents).
 ! 
 ! Optional
 ! 
-!     
+!   
 ! 
 ! Less common are dollar coins (100 cents); and very rare are half dollars
 ! (50 cents). With the addition of these two coins, how many ways are
@@ -41,7 +41,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - an algorithm from the book Structure and Interpretation of Computer
 !   Programs.

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Read a file one character at a time, as opposed to reading the entire
 ! file at once.
@@ -15,7 +15,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Read a file line by line
 

@@ -22,7 +22,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! If possible, demonstrate this by writing the recursive version of the
 ! fibonacci function (see Fibonacci sequence) which checks for a negative
@@ -30,7 +30,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Y combinator
 

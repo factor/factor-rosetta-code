@@ -23,7 +23,7 @@
 ! 
 ! Two implementations
 ! 
-!     
+!   
 ! 
 ! 1.  For the host word size on the host platform, implement the routine
 !     "efficiently" in without looping or recursion.
@@ -33,7 +33,7 @@
 ! 
 ! Test cases
 ! 
-!     
+!   
 ! 
 ! 1.  For the host machine word size: Use the powers of 42 up to host's
 !     the "natural" word size to calculate the index of the first and last
@@ -45,7 +45,7 @@
 ! 
 ! Additionally
 ! 
-!     
+!   
 ! 
 ! In a particular language, there maybe (at least) two alternative
 ! approaches of calculating the required values:
@@ -58,7 +58,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Find the log base 2 of an N-bit integer in O(lg(N)) operations
 ! - 80386 Instruction Set - BSF -- Bit Scan Forward

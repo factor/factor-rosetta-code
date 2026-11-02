@@ -7,16 +7,15 @@
 ! 
 ! E.G.
 ! 
-!     6 is a Zumkeller number; The divisors {1 2 3 6} can be partitioned
-!     into two groups {1 2 3} and {6} that both sum to 6.
+!   6 is a Zumkeller number; The divisors {1 2 3 6} can be partitioned
+!   into two groups {1 2 3} and {6} that both sum to 6.
 ! 
-!     10 is not a Zumkeller number; The divisors {1 2 5 10} can not be
-!     partitioned into two groups in any way that will both sum to the
-!     same value.
+!   10 is not a Zumkeller number; The divisors {1 2 5 10} can not be
+!   partitioned into two groups in any way that will both sum to the same
+!   value.
 ! 
-!     12 is a Zumkeller number; The divisors {1 2 3 4 6 12} can be
-!     partitioned into two groups {1 3 4 6} and {2 12} that both sum to
-!     14.
+!   12 is a Zumkeller number; The divisors {1 2 3 4 6 12} can be
+!   partitioned into two groups {1 3 4 6} and {2 12} that both sum to 14.
 ! 
 ! Even Zumkeller numbers are common; odd Zumkeller numbers are much less
 ! so. For values below 10^6, there is at least one Zumkeller number in
@@ -28,7 +27,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write a routine (function, procedure, whatever) to find Zumkeller
 !     numbers.
@@ -41,7 +40,7 @@
 ! 
 ! See Also
 ! 
-!     
+!   
 ! 
 ! - - OEIS:A083207 - Zumkeller numbers to get an impression of different
 !     partitions OEIS:A083206 Zumkeller partitions
@@ -49,7 +48,7 @@
 ! 
 ! Related Tasks
 ! 
-!     
+!   
 ! 
 ! - - Abundant odd numbers
 !   - Abundant, deficient and perfect number classifications

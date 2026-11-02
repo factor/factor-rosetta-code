@@ -8,9 +8,9 @@
 ! The RMS is calculated as the mean of the squares of the numbers,
 ! square-rooted:
 ! 
-!     
+!   
 ! 
-!         $x_{\mathrm{rms}} = \sqrt {{{x_1}^2 + {x_2}^2 + \cdots + {x_n}^2} \over n}.$
+!     $x_{\mathrm{rms}} = \sqrt {{{x_1}^2 + {x_2}^2 + \cdots + {x_n}^2} \over n}.$
 ! 
 ! See also
 

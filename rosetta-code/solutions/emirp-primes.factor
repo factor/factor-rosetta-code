@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - show the first twenty emirps
 !   - show all emirps between 7,700 and 8,000
@@ -22,7 +22,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wikipedia, Emirp.
 ! - The Prime Pages, emirp.

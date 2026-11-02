@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate how to achieve movement of the terminal cursor:
 ! 

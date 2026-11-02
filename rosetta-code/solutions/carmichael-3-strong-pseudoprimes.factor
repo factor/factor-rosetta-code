@@ -10,13 +10,13 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find Carmichael numbers of the form:
 ! 
-!     
+!   
 ! 
-!          Prime₁ × Prime₂ × Prime₃
+!      Prime₁ × Prime₂ × Prime₃
 ! 
 ! where (Prime₁ < Prime₂ < Prime₃) for all Prime₁ up to 61.
 ! 
@@ -24,7 +24,7 @@
 ! 
 ! Pseudocode
 ! 
-!     
+!   
 ! 
 ! For a given Prime₁
 ! 

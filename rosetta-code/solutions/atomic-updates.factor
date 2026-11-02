@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Define a data type consisting of a fixed number of 'buckets', each
 ! containing a nonnegative integer value, which supports operations to:

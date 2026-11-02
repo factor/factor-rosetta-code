@@ -18,7 +18,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function to run a simulation like this, with a variable number
 ! of random points to select.

@@ -20,7 +20,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write a routine (function, procedure, whatever) μ(n) to find the
 !     Möbius number for a positive integer n.
@@ -31,13 +31,13 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! **; Wikipedia: Möbius function
 ! 
 ! Related Tasks
 ! 
-!     
+!   
 ! 
 ! **; Mertens function
 

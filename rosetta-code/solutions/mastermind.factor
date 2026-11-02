@@ -12,9 +12,9 @@
 ! 
 ! Display (just an idea):
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable" border="1"
+!     {| class="wikitable" border="1"
 ! 
 ! |- ! Feature !! Graphic Version !! Text Version |- | Player guess |
 ! Colored circles | Alphabet letters |- |Correct color & position |Black
@@ -31,16 +31,16 @@
 ! 
 ! result:
 ! 
-!     
+!   
 ! 
-!         two correct colors and spot,
-!         one correct color/wrong spot, one color isn't in the code.
+!     two correct colors and spot,
+!     one correct color/wrong spot, one color isn't in the code.
 ! 
 ! Happy coding!
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Bulls and cows
 ! - Bulls and cows/Player

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that outputs the lyrics of the Christmas carol The
 ! Twelve Days of Christmas. The lyrics can be found here.

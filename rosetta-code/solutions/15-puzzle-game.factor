@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the Fifteen Puzzle Game.
 ! 
@@ -18,7 +18,7 @@
 ! 
 ! Related Tasks
 ! 
-!     
+!   
 ! 
 ! - - 15 Puzzle Solver
 !   - 16 Puzzle Game

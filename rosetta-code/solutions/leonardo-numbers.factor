@@ -8,10 +8,10 @@
 !                     ─── also ───
 !        L(n) =      2  *  Fib(n+1)   -  1                 [4^(th) equation]  
 ! 
-!     
+!   
 ! 
-!         where the + 1 will herein be known as the add number.
-!         where the FIB is the Fibonacci numbers.
+!     where the + 1 will herein be known as the add number.
+!     where the FIB is the Fibonacci numbers.
 ! 
 ! This task will be using the 3^(rd) equation (above) to calculate the
 ! Leonardo numbers.
@@ -25,7 +25,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - show the 1^(st) 25 Leonardo numbers, starting at L(0).
 !   - allow the first two Leonardo numbers to be specified [for L(0) and
@@ -40,14 +40,14 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Fibonacci number
 ! - Fibonacci n-step number sequences
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wikipedia, Leonardo numbers
 ! - Wikipedia, Fibonacci numbers

@@ -26,7 +26,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - The OEIS sequence: A007422: Multiplicatively perfect numbers
 

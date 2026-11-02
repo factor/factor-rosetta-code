@@ -45,7 +45,7 @@
 ! 
 ! Algorithm
 ! 
-!     
+!   
 ! 
 ! Assume black pixels are one and white pixels zero, and that the input
 ! image is a rectangular N by M array of ones and zeroes.
@@ -84,7 +84,7 @@
 ! 
 ! Step 1
 ! 
-!     
+!   
 ! 
 ! All pixels are tested and pixels satisfying all the following conditions
 ! (simultaneously) are just noted at this stage.
@@ -101,7 +101,7 @@
 ! 
 ! Step 2
 ! 
-!     
+!   
 ! 
 ! All pixels are again tested and pixels satisfying all the following
 ! conditions are just noted at this stage.
@@ -118,14 +118,14 @@
 ! 
 ! Iteration
 ! 
-!     
+!   
 ! 
 ! If any pixels were set in this round of either step 1 or step 2 then all
 ! steps are repeated until no image pixels are so changed.
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Write a routine to perform Zhang-Suen thinning on an image matrix of
 !     ones and zeroes.
@@ -146,7 +146,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - Zhang-Suen Thinning Algorithm, Java Implementation by Nayef Reza.
 ! - "Character Recognition Systems: A Guide for Students and

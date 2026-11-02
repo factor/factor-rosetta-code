@@ -16,7 +16,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program to aid in the playing of the game by:
 ! 
@@ -31,7 +31,7 @@
 ! 
 ! Optional stretch goals
 ! 
-!     
+!   
 ! 
 ! - Add timing.
 ! - Allow players to set a maximum playing time for the game.

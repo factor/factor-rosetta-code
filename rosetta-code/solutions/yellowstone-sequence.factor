@@ -16,22 +16,22 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! a(4) is 4 because 4 is the smallest number following 1, 2, 3 in the
 ! sequence that is relatively prime to the entry before it (3), and is not
 ! relatively prime to the number two entries before it (2).
 ! 
 ! Task
-!     Find and show as output the first 30 Yellowstone numbers.
+!   Find and show as output the first 30 Yellowstone numbers.
 ! 
 ! Extra
-!     Demonstrate how to plot, with x = n and y coordinate a(n), the first
-!     100 Yellowstone numbers.
+!   Demonstrate how to plot, with x = n and y coordinate a(n), the first
+!   100 Yellowstone numbers.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Greatest common divisor.
 !   - Plot coordinate pairs.
@@ -39,7 +39,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - The OEIS entry: A098550 The Yellowstone permutation.
 !   - Applegate et al, 2015: The Yellowstone Permutation 1.

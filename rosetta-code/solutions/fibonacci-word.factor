@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Perform the above steps for n = 37.
 ! 
@@ -24,7 +24,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Fibonacci word/fractal
 ! - Entropy

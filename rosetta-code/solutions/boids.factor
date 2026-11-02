@@ -30,7 +30,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - http://www.red3d.com/cwr/boids/
 ! - http://natureofcode.com/book/chapter-6-autonomous-agents/

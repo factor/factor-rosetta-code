@@ -38,7 +38,7 @@
 ! According to the paper listed below by P. Erdos, the number of these
 ! sequences is
 ! 
-!     $F(n) = \sum_{k} F(\frac{n}{a_k}) + 1$
+!   $F(n) = \sum_{k} F(\frac{n}{a_k}) + 1$
 ! 
 ! where a is a list of the factors of n, including n, but excluding 1.
 ! F(n) is here the same as a function for calculating the number of

@@ -43,49 +43,49 @@
 ! 
 ! DEALT 9 CARDS:
 ! 
-!     green, one, oval, striped
+!   green, one, oval, striped
 ! 
-!     green, one, diamond, open
+!   green, one, diamond, open
 ! 
-!     green, one, diamond, striped
+!   green, one, diamond, striped
 ! 
-!     green, one, diamond, solid
+!   green, one, diamond, solid
 ! 
-!     purple, one, diamond, open
+!   purple, one, diamond, open
 ! 
-!     purple, two, squiggle, open
+!   purple, two, squiggle, open
 ! 
-!     purple, three, oval, open
+!   purple, three, oval, open
 ! 
-!     red, three, oval, open
+!   red, three, oval, open
 ! 
-!     red, three, diamond, solid
+!   red, three, diamond, solid
 ! 
 ! CONTAINING 4 SETS:
 ! 
-!     green, one, oval, striped
+!   green, one, oval, striped
 ! 
-!     purple, two, squiggle, open
+!   purple, two, squiggle, open
 ! 
-!     red, three, diamond, solid
+!   red, three, diamond, solid
 ! 
-!     green, one, diamond, open
+!   green, one, diamond, open
 ! 
-!     green, one, diamond, striped
+!   green, one, diamond, striped
 ! 
-!     green, one, diamond, solid
+!   green, one, diamond, solid
 ! 
-!     green, one, diamond, open
+!   green, one, diamond, open
 ! 
-!     purple, two, squiggle, open
+!   purple, two, squiggle, open
 ! 
-!     red, three, oval, open
+!   red, three, oval, open
 ! 
-!     purple, one, diamond, open
+!   purple, one, diamond, open
 ! 
-!     purple, two, squiggle, open
+!   purple, two, squiggle, open
 ! 
-!     purple, three, oval, open
+!   purple, three, oval, open
 
 USING: arrays backtrack combinators.short-circuit formatting
 fry grouping io kernel literals math.combinatorics math.matrices

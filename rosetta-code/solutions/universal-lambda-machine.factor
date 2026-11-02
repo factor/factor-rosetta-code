@@ -22,7 +22,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Simulate the universal lambda machine Or in other words, write a BLC
 ! interpreter. Support either bit-mode or byte-mode, or preferably both

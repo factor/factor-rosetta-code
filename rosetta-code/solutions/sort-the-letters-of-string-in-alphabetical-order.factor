@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function/program/subroutine/procedure to sort the characters of
 ! a string in lexicographical order.

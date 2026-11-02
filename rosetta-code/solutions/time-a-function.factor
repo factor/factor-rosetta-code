@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program which uses a timer (with the least granularity available
 ! on your system) to time how long a function takes to execute.

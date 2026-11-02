@@ -5,7 +5,7 @@
 ! 
 ! The task
 ! 
-!     
+!   
 ! 
 ! 1.  Take a uniform random number generator and create a large (you
 !     decide how large) set of numbers that follow a normal (Gaussian)
@@ -16,7 +16,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - You may refer to code in Statistics/Basic if available.
 

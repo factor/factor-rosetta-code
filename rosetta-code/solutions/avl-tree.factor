@@ -18,7 +18,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement an AVL tree in the language of choice, and provide at least
 ! basic operations.

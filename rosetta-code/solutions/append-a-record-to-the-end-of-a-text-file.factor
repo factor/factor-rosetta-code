@@ -10,7 +10,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a two record sample for a mythical "passwd" file:
 ! 
@@ -51,16 +51,15 @@
 ! Finally: Provide a summary of the language's "append record"
 ! capabilities in a table. eg.
 ! 
-! +----------------------+-------------+----------+-----------+---------------+
-! | Data Representation  | IO          | Append   | Automatic | Multi-tasking |
-! |                      | Library     | Possible | Append    | Safe          |
-! +============+=========+=============+==========+===========+===============+
-! | In core    | On disk |             |          |           |               |
-! +------------+---------+-------------+----------+-----------+---------------+
-! | C struct   | CSV     | glibc/stdio | ☑        | ☑         | ☑ (Not all,   |
-! |            | text    |             |          |           | eg NFS)       |
-! |            | file    |             |          |           |               |
-! +------------+---------+-------------+----------+-----------+---------------+
+! +-----------------------+-------------+----------+-----------+---------------+
+! | Data Representation   | IO          | Append   | Automatic | Multi-tasking |
+! |                       | Library     | Possible | Append    | Safe          |
+! +===========+===========+=============+==========+===========+===============+
+! | In core   | On disk   |             |          |           |               |
+! +-----------+-----------+-------------+----------+-----------+---------------+
+! | C struct  | CSV text  | glibc/stdio | ☑        | ☑         | ☑ (Not all,   |
+! |           | file      |             |          |           | eg NFS)       |
+! +-----------+-----------+-------------+----------+-----------+---------------+
 ! 
 ! : Append Capabilities.
 ! 

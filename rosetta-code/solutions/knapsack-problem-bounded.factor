@@ -16,10 +16,10 @@
 ! 
 ! This is the list:
 ! 
-!     
+!   
 ! 
-!         {| style="text-align: left; width: 55%;" border="4"
-!         cellpadding="2" cellspacing="2"
+!     {| style="text-align: left; width: 55%;" border="4" cellpadding="2"
+!     cellspacing="2"
 ! 
 ! |+ Table of potential knapsack items |- style="background-color:
 ! rgb(255, 204, 255);" ! item !! weight (dag) (each) !! value (each) !!
@@ -43,14 +43,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show which items does the tourist carry in his knapsack so that their
 ! total weight does not exceed 4 kg, and their total value is maximized.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Knapsack problem/Unbounded
 ! - Knapsack problem/Continuous

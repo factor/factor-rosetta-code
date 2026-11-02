@@ -5,7 +5,7 @@
 ! 
 ! Related
 ! 
-!     
+!   
 ! 
 ! - Ascending primes
 

@@ -13,7 +13,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function which returns the value of F(x, y).
 ! 

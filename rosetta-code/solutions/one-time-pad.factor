@@ -4,26 +4,26 @@
 ! 
 ! Sub-Tasks
 ! 
-!     
+!   
 ! 
 ! - Generate the data for a One-time pad (user needs to specify a filename
 !   and length)
 ! 
-!     The important part is to get "true random" numbers, e.g. from
-!     /dev/random
+!   The important part is to get "true random" numbers, e.g. from
+!   /dev/random
 ! 
 ! - encryption / decryption ( basically the same operation, much like
 !   Rot-13 )
 ! 
-!     For this step, much of Vigenère cipher could be reused,
+!   For this step, much of Vigenère cipher could be reused,
 ! 
 ! with the key to be read from the file containing the One-time pad.
 ! 
 ! - optional: management of One-time pads: list, mark as used, delete,
 !   etc.
 ! 
-!     Somehow, the users needs to keep track which pad to use for which
-!     partner.
+!   Somehow, the users needs to keep track which pad to use for which
+!   partner.
 ! 
 ! To support the management of pad-files:
 ! 

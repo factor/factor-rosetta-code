@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given an integer n, return 1──►n (inclusive) in lexicographical order.
 ! 
@@ -8,7 +8,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! Given 13,
 ! 

@@ -62,7 +62,7 @@
 ! 
 ! Task description
 ! 
-!     
+!   
 ! 
 ! - Create a function/method/routine that given n, generates the n'th term
 !   of the van der Corput sequence in base 2.
@@ -74,7 +74,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - The Basic Low Discrepancy Sequences
 ! - Non-decimal radices/Convert

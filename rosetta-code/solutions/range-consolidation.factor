@@ -3,15 +3,15 @@
 ! 
 ! That range can be shown as:
 ! 
-!     
+!   
 ! 
-!         [b0, b1]
+!     [b0, b1]
 ! 
-!     
+!   
 ! 
-!         or equally as:
+!     or equally as:
 ! 
-!             [b1, b0]
+!       [b1, b0]
 ! 
 ! Given two ranges, the act of consolidation between them compares the two
 ! ranges:
@@ -32,54 +32,54 @@
 ! 
 ! Example 1
 ! 
-!     
+!   
 ! 
-!     Given the two ranges [1, 2.5] and [3, 4.2] then
+!   Given the two ranges [1, 2.5] and [3, 4.2] then
 ! 
-!     there is no common region between the ranges and the result is the
-!     same as the input.
+!   there is no common region between the ranges and the result is the
+!   same as the input.
 ! 
 ! Example 2
 ! 
-!     
+!   
 ! 
-!     Given the two ranges [1, 2.5] and [1.8, 4.7] then
+!   Given the two ranges [1, 2.5] and [1.8, 4.7] then
 ! 
-!     there is : an overlap [2.5, 1.8] between the ranges and
+!   there is : an overlap [2.5, 1.8] between the ranges and
 ! 
-!     the result is the single range [1, 4.7].
+!   the result is the single range [1, 4.7].
 ! 
-!     Note that order of bounds in a range is not (yet) stated.
+!   Note that order of bounds in a range is not (yet) stated.
 ! 
 ! Example 3
 ! 
-!     
+!   
 ! 
-!     Given the two ranges [6.1, 7.2] and [7.2, 8.3] then
+!   Given the two ranges [6.1, 7.2] and [7.2, 8.3] then
 ! 
-!     they touch at 7.2 and
+!   they touch at 7.2 and
 ! 
-!     the result is the single range [6.1, 8.3].
+!   the result is the single range [6.1, 8.3].
 ! 
 ! Example 4
 ! 
-!     
+!   
 ! 
-!     Given the three ranges [1, 2] and [4, 8] and [2, 5]
+!   Given the three ranges [1, 2] and [4, 8] and [2, 5]
 ! 
-!     then there is no intersection of the ranges [1, 2] and [4, 8]
+!   then there is no intersection of the ranges [1, 2] and [4, 8]
 ! 
-!     but the ranges [1, 2] and [2, 5] overlap and
+!   but the ranges [1, 2] and [2, 5] overlap and
 ! 
-!     consolidate to produce the range [1, 5].
+!   consolidate to produce the range [1, 5].
 ! 
-!     This range, in turn, overlaps the other range [4, 8], and
+!   This range, in turn, overlaps the other range [4, 8], and
 ! 
-!     so consolidates to the final output of the single range [1, 8].
+!   so consolidates to the final output of the single range [1, 8].
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Let a normalized range display show the smaller bound to the left; and
 ! show the range with the smaller lower bound to the left of other ranges
@@ -98,7 +98,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Set consolidation
 ! - Set of real numbers

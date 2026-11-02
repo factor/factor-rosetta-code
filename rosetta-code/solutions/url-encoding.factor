@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Provide a function or mechanism to convert a provided string into URL
 ! encoding representation.
@@ -25,14 +25,14 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! The string "http://foo bar/" would be encoded as
 ! "http%3A%2F%2Ffoo%20bar%2F".
 ! 
 ! Variations
 ! 
-!     
+!   
 ! 
 ! - Lowercase escapes are legal, as in "http%3a%2f%2ffoo%20bar%2f".
 ! - Special characters have different encodings for different standards:
@@ -45,7 +45,7 @@
 ! 
 ! Options
 ! 
-!     
+!   
 ! 
 ! It is permissible to use an exception string (containing a set of
 ! symbols that do not need to be converted). However, this is an optional
@@ -53,7 +53,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - URL decoding
 ! - URL parser

@@ -9,7 +9,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Write a function/procedure/routine to find super-d numbers.
 !   - For d=2 through d=6, use the routine to show the first 10 super-d
@@ -17,14 +17,14 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! - - Show the first 10 super-7, super-8, and/or super-9 numbers
 !     (optional).
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Wolfram MathWorld - Super-d Number.
 !   - OEIS: A014569 - Super-3 Numbers.

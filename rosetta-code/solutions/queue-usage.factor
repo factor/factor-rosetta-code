@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a queue data structure and demonstrate its operations.
 ! 

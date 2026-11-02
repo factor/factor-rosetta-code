@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Build an identity matrix of a size known at run-time.
 ! 
@@ -20,7 +20,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Spiral matrix
 ! - Zig-zag matrix

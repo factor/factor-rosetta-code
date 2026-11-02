@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show the results of raising zero to the zeroth power.
 ! 
@@ -24,7 +24,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - The Wiki entry: Zero to the power of zero.
 ! - The Wiki entry: Zero to the power of zero: History.

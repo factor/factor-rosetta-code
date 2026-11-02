@@ -15,7 +15,7 @@
 ! 
 ! Task Detail
 ! 
-!     
+!   
 ! 
 ! Given the following input template t and list of payloads p:
 ! 
@@ -40,7 +40,7 @@
 ! 
 ! Optional Extended tasks
 ! 
-!     
+!   
 ! 
 ! 2. Show which payloads remain unused.
 ! 

@@ -13,7 +13,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function to sort a collection of integers using the merge sort.
 ! 
@@ -59,7 +59,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - the Wikipedia entry: merge sort
 ! 

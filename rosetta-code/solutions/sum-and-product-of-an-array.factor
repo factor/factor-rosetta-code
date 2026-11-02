@@ -1,12 +1,12 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Compute the sum and product of an array of integers.
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Array
 ! - Arrays

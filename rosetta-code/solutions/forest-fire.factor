@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the Drossel and Schwabl definition of the forest-fire model.
 ! 
@@ -26,7 +26,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - See Conway's Game of Life
 ! - See Wireworld.

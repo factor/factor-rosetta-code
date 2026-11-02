@@ -1,6 +1,6 @@
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Arrays
 ! - Vector
@@ -29,15 +29,15 @@
 ! 
 ! The determinant is given by
 ! 
-!     
+!   
 ! 
-!         $\det(A) = \sum_\sigma\sgn(\sigma)\prod_{i=1}^n M_{i,\sigma_i}$
+!     $\det(A) = \sum_\sigma\sgn(\sigma)\prod_{i=1}^n M_{i,\sigma_i}$
 ! 
 ! while the permanent is given by
 ! 
-!     
+!   
 ! 
-!         $\operatorname{perm}(A)=\sum_\sigma\prod_{i=1}^n M_{i,\sigma_i}$
+!     $\operatorname{perm}(A)=\sum_\sigma\prod_{i=1}^n M_{i,\sigma_i}$
 ! 
 ! In both cases the sum is over the permutations σ of the permutations of
 ! 1, 2, ..., n. (A permutation's sign is 1 if there are an even number of

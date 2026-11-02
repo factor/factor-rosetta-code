@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Demonstrate how to compare two strings from within the language and how
 ! to achieve a lexical comparison.

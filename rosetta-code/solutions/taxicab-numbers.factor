@@ -6,10 +6,10 @@
 ! 
 ! The first taxicab number is 1729, which is:
 ! 
-!     
+!   
 ! 
-!         1³ + 12³ and also
-!         9³ + 10³.
+!     1³ + 12³ and also
+!     9³ + 10³.
 ! 
 ! Taxicab numbers are also known as:
 ! 
@@ -20,7 +20,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Compute and display the lowest 25 taxicab numbers (in numeric order,
 !   and in a human-readable format).
@@ -33,7 +33,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - A001235: taxicab numbers on The On-Line Encyclopedia of Integer
 !   Sequences.

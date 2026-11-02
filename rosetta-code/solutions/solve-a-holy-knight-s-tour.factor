@@ -12,7 +12,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 !       0 0 0 
 !       0   0 0 
@@ -29,7 +29,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - A* search algorithm
 ! - Knight's tour

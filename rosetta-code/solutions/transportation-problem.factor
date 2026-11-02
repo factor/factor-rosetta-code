@@ -6,10 +6,10 @@
 ! 
 ! Example of the transportation problem:
 ! 
-!     
+!   
 ! 
-!         {| border="1" style="border-collapse: collapse; border: 1px
-!         solid black; text-align: center;"
+!     {| border="1" style="border-collapse: collapse; border: 1px solid
+!     black; text-align: center;"
 ! 
 ! |- !style="width:100pt"| !style="width:100pt"|Consumer 1,
 ! need 20 kg !style="width:100pt"|Consumer 2,
@@ -28,10 +28,10 @@
 ! 
 ! The solution for the above example would be the plan:
 ! 
-!     
+!   
 ! 
-!         {| border="1" style="border-collapse: collapse; border: 1px
-!         solid black; text-align: center;"
+!     {| border="1" style="border-collapse: collapse; border: 1px solid
+!     black; text-align: center;"
 ! 
 ! |- !style="width:100pt"| !style="width:100pt"|Consumer 1
 ! !style="width:100pt"|Consumer 2 !style="width:100pt"|Consumer 3 |-
@@ -39,7 +39,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - The Transportation Problem
 ! - [https://www.youtube.com/watch?v=BI1SsbDg0vQ&list=PLlCWmLrQuBh1yHhpDfULpRGoTuLgeDB4X|
@@ -47,7 +47,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Vogel's approximation method
 

@@ -24,7 +24,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Build a dozen environments, and a single piece of code to be run
 ! repeatedly in each of these environments.

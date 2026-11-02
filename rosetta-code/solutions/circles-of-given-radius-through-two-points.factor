@@ -5,7 +5,7 @@
 ! 
 ! Exceptions
 ! 
-!     
+!   
 ! 
 ! 1.  r==0.0 should be treated as never describing circles (except in the
 !     case where the points are coincident).
@@ -19,7 +19,7 @@
 ! 
 ! Task detail
 ! 
-!     
+!   
 ! 
 ! - Write a function/subroutine/method/... that takes two points and a
 !   radius and returns the two circles through those points, or some
@@ -36,13 +36,13 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Total circles area.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Finding the Center of a Circle from 2 Points and Radius from Math
 !   forum @ Drexel

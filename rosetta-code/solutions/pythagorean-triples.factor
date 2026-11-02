@@ -13,14 +13,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! The task is to determine how many Pythagorean triples there are with a
 ! perimeter no larger than 100 and the number of these that are primitive.
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Deal with large values. Can your program handle a maximum perimeter of
 ! 1,000,000? What about 10,000,000? 100,000,000?
@@ -31,7 +31,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Euler's sum of powers conjecture
 ! - List comprehensions

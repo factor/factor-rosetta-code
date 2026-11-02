@@ -11,9 +11,9 @@
 ! 
 ! The cell transition rules are this:
 ! 
-!     
+!   
 ! 
-!         {| class=wikitable
+!     {| class=wikitable
 ! 
 ! |- ! Input State ! Output State ! Condition |- | empty | empty | |- |
 ! electronhead | electrontail | |- | electrontail | conductor | |- |
@@ -23,7 +23,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program that reads a Wireworld program from a file and displays
 ! an animation of the processing. Here is a sample description file (using

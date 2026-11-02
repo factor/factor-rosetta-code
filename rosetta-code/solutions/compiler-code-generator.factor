@@ -18,7 +18,7 @@
 ! 
 ! Run one of the Syntax analyzer solutions
 ! 
-!     
+!   
 ! 
 ! parse < while.lex > while.ast
 ! 
@@ -67,7 +67,7 @@
 ! 
 ! Input format
 ! 
-!     
+!   
 ! 
 ! As shown in the table, above, the output from the syntax analyzer is a
 ! flattened AST.
@@ -111,7 +111,7 @@
 ! 
 ! Registers
 ! 
-!     
+!   
 ! 
 ! - sp: the stack pointer - points to the next top of stack. The stack is
 !   a 32-bit integer array.
@@ -121,13 +121,13 @@
 ! 
 ! Data
 ! 
-!     
+!   
 ! 
 ! 32-bit integers and strings
 ! 
 ! Instructions
 ! 
-!     
+!   
 ! 
 ! Each instruction is one byte. The following instructions also have a
 ! 32-bit integer operand:
@@ -211,7 +211,5 @@
 ! - Syntax Analyzer task
 ! - Virtual Machine Interpreter task
 ! - AST Interpreter task
-! 
-! __TOC__
 
 

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a function which takes in a variable number of arguments and
 ! prints each one on its own line.
@@ -12,7 +12,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Call a function
 

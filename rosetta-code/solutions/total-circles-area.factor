@@ -46,13 +46,13 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Circles of given radius through two points.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - http://www.reddit.com/r/dailyprogrammer/comments/zff9o/9062012_challenge_96_difficult_water_droplets/
 ! - http://stackoverflow.com/a/1667789/10562

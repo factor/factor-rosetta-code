@@ -9,18 +9,18 @@
 ! the following relation between the x and y coordinates of any point on
 ! the curve:
 ! 
-!     
+!   
 ! 
-!         y² = x³ + ax + b
+!     y² = x³ + ax + b
 ! 
 ! a and b are arbitrary parameters that define the specific curve which is
 ! used.
 ! 
 ! For this particular task, we'll use the following parameters:
 ! 
-!     
+!   
 ! 
-!          a=0, b=7
+!      a=0, b=7
 ! 
 ! The most interesting thing about elliptic curves is the fact that it is
 ! possible to define a group structure on it.
@@ -29,9 +29,9 @@
 ! notation +, such that for any three distinct points P, Q and R on the
 ! curve, whenever these points are aligned, we have:
 ! 
-!     
+!   
 ! 
-!          P + Q + R = 0
+!      P + Q + R = 0
 ! 
 ! Here 0 (zero) is the infinity point, for which the x and y values are
 ! not defined. It's basically the same kind of point which defines the

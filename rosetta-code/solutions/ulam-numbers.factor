@@ -10,13 +10,13 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function to generate the n^(th) Ulam number.
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - OEIS Ulam numbers
 

@@ -30,7 +30,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function that takes a string (word) and determines whether the
 ! word can be spelled with the given collection of blocks.
@@ -46,7 +46,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 !         >>> can_make_word("A")
 !         True

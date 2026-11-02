@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Generate and show here the first 15 members of the sequence.
 ! 2.  Find and show here, the first duplicated number in the sequence.
@@ -17,7 +17,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - A005132, The On-Line Encyclopedia of Integer Sequences.
 ! - The Slightly Spooky Recamán Sequence, Numberphile video.

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! "Simulate" a four-bit adder.
 ! 

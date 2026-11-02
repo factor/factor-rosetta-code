@@ -12,7 +12,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Create a function that returns a generation of the m'th powers of the
 !   positive integers starting from zero, in order, and without obvious or
@@ -32,7 +32,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - Generator
 ! 

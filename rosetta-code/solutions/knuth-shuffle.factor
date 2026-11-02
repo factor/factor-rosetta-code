@@ -3,14 +3,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the Knuth shuffle for an integer array (or, if possible, an
 ! array of any type).
 ! 
 ! Specification
 ! 
-!     
+!   
 ! 
 ! Given an array itemswith indices ranging from0'' tolast'', the algorithm
 ! can be defined as follows (pseudo-code):
@@ -21,7 +21,7 @@
 ! 
 ! Notes
 ! 
-!     
+!   
 ! 
 ! - It modifies the input array in-place.
 ! - If that is unreasonable in your programming language, you may amend
@@ -31,11 +31,11 @@
 ! 
 ! Test cases
 ! 
+!   
+! 
 !     
 ! 
-!         
-! 
-!             {| class="wikitable"
+!       {| class="wikitable"
 ! 
 ! |- ! Input array ! Possible output arrays |- | [] | [] |- | [10] | [10]
 ! |- | [10, 20] | [10, 20] [20, 10] |- | [10, 20, 30] | [10, 20, 30]
@@ -46,7 +46,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Sattolo cycle
 

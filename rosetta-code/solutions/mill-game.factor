@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create an implementation of the classic Mill game.
 ! 
@@ -22,7 +22,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Article: wikipedia Nine men's morris
 ! - Article: Play on-line

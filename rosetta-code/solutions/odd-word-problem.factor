@@ -1,13 +1,13 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that solves the odd word problem with the restrictions
 ! given below.
 ! 
 ! Description
 ! 
-!     
+!   
 ! 
 ! You are promised an input stream consisting of English letters and
 ! punctuations.
@@ -23,20 +23,20 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! A stream with six words:
 ! 
-!     
+!   
 ! 
-!         what,is,the;meaning,of:life.
+!     what,is,the;meaning,of:life.
 ! 
 ! The task is to reverse the letters in every other word while leaving
 ! punctuations intact, producing:
 ! 
-!     
+!   
 ! 
-!         what,si,the;gninaem,of:efil.
+!     what,si,the;gninaem,of:efil.
 ! 
 ! while observing the following restrictions:
 ! 
@@ -53,13 +53,13 @@
 ! 
 ! Test cases
 ! 
-!     
+!   
 ! 
 ! Work on both the "life" example given above, and also the text:
 ! 
-!     
+!   
 ! 
-!         we,are;not,in,kansas;any,more.
+!     we,are;not,in,kansas;any,more.
 
 USING: continuations kernel io io.streams.string locals unicode.categories ;
 IN: rosetta.odd-word

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show in decimal notation all positive integers (less than 501) which,
 ! when converted to hexadecimal notation, cannot be written without using

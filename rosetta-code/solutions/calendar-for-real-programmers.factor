@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Provide an algorithm as per the Calendar task, except the entire code
 ! for the algorithm must be presented entirely without lowercase.

@@ -1,13 +1,13 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Display the current CPU utilization, as a percentage, calculated from
 ! /proc/stat.
 ! 
 ! Background
 ! 
-!     
+!   
 ! 
 ! Most Linux kernels provide a virtual /proc filesystem, providing an
 ! interface to various internal data structures.

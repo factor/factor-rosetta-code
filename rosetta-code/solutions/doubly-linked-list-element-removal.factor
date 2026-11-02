@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Define a method to remove an element from a doubly-linked list and
 ! demonstrate its use.

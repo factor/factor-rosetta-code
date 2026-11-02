@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! The task is to create a function/method/procedure to generate successive
 ! members of the Harshad sequence.

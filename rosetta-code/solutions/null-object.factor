@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how to access null in your language by checking to see if an object
 ! is equivalent to the null object.

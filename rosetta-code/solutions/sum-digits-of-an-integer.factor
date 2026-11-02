@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Take a Natural Number in a given base and return the sum of its digits:
 ! 

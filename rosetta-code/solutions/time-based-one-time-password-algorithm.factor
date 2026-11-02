@@ -9,7 +9,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement this algorithm using HMAC-SHA1 and an optional step is to
 ! generate the random Base-32 string used as the secret key, but this is
@@ -18,9 +18,9 @@
 ! A reference implementation, based on JavaScript, can be found at the
 ! following location:
 ! 
-!     
+!   
 ! 
-!         http://blog.tinisles.com/2011/10/google-authenticator-one-time-password-algorithm-in-javascript
+!     http://blog.tinisles.com/2011/10/google-authenticator-one-time-password-algorithm-in-javascript
 ! 
 ! According to RFC 6238, the reference implementation is as follows:
 ! 

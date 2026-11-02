@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a function that takes a signed integer x, and returns another
 ! signed integer as follows:
@@ -20,9 +20,9 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
-!         {|class="standard"
+!     {|class="standard"
 ! 
 ! ! input 
 ! ! output 
@@ -39,9 +39,9 @@
 ! 
 ! Additional example for integer types with a signed zero (uncommon)
 ! 
-!     
+!   
 ! 
-!         {|class="standard"
+!     {|class="standard"
 ! 
 ! ! input 
 ! ! output 

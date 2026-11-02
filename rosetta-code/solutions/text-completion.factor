@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program that takes in a user inputted word and prints out
 ! possible words that are valid in the English dictionary. Please state
@@ -10,7 +10,7 @@
 ! 
 ! Resources
 ! 
-!     
+!   
 ! 
 ! Github Repo
 ! 
@@ -30,7 +30,7 @@
 ! 
 ! Possible Output
 ! 
-!     
+!   
 ! 
 !     Input word: 
 !     complition

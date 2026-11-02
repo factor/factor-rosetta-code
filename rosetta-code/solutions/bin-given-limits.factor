@@ -12,7 +12,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! The task is to create a function that given the ascending limits and a
 ! stream/ list of numbers, will return the bins; together with another
@@ -24,7 +24,7 @@
 ! 
 ! Task examples
 ! 
-!     
+!   
 ! 
 ! Part 1: Bin using the following limits the given input data
 ! 

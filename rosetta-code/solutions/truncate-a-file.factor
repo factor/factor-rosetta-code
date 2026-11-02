@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Truncate a file to a specific length. This should be implemented as a
 ! routine that takes two parameters: the filename and the required file

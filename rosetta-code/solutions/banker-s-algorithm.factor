@@ -7,7 +7,7 @@
 ! 
 ! Example input
 ! 
-!     
+!   
 ! 
 ! Assuming that the system distinguishes between four types of resources,
 ! (A, B, C and D), the following is an example of how those resources

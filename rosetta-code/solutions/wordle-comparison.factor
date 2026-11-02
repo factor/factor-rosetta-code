@@ -1,6 +1,6 @@
 ! Rationale
 ! 
-!     
+!   
 ! 
 ! While similar to both Bulls and cows and Mastermind, Wordle is a notable
 ! variation, having experienced a viral surge in popularity, and reverse
@@ -22,7 +22,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a function or procedure that takes two strings; the answer
 ! string, and the guess string, and returns a string, list, dynamic array

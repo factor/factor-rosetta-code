@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find the largest base 10 integer whose digits are all different, and is
 ! evenly divisible by each of its individual digits.
@@ -11,7 +11,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! 135 is evenly divisible by 1, 3, and 5.
 ! 
@@ -27,20 +27,20 @@
 ! 
 ! Stretch goal
 ! 
-!     
+!   
 ! 
 ! Do the same thing for hexadecimal.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - gapful numbers.
 !   - palindromic gapful numbers.
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - The OEIS sequence: A115569: Lynch-Bell numbers.
 ! 

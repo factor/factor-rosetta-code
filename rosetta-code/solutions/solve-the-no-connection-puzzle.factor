@@ -15,14 +15,14 @@
 ! 
 ! Objective
 ! 
-!     
+!   
 ! 
 ! Place the eight pegs in the holes so that the (absolute) difference
 ! between any two numbers connected by any line is greater than one.
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! In this attempt:
 ! 
@@ -45,7 +45,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - A* search algorithm
 !   - Solve a Holy Knight's tour

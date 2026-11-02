@@ -14,14 +14,14 @@
 ! 
 ! Test case
 ! 
-!     
+!   
 ! 
 ! Use this to compute the standard deviation of this demonstration set,
 ! {2, 4, 4, 4, 5, 5, 7, 9}, which is 2.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Random numbers
 

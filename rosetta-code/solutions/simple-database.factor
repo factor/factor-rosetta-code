@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a simple tool to track a small set of data.
 ! 
@@ -47,7 +47,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Take notes on the command line
 

@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program to generate Chebyshev coefficients.
 ! 

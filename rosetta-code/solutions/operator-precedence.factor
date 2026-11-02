@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Provide a list of precedence and associativity of all the operators and
 ! constructs that the language utilizes in descending order of precedence

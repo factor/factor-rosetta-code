@@ -3,13 +3,13 @@
 ! 
 ! Goal
 ! 
-!     
+!   
 ! 
 ! Demonstrate the best way to do this.
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a loop which writes the comma-separated list
 ! 
@@ -20,7 +20,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Loop over multiple arrays simultaneously
 ! - Loops/Break

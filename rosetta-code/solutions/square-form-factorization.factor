@@ -50,8 +50,6 @@
 ! 
 ! 1 A detailed analysis of SquFoF (2007)
 ! 
-! __TOC__
-! 
 ! Category:Prime Numbers
 
 

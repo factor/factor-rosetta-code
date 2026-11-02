@@ -22,7 +22,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Generate all possible outcome combinations for the six group stage
 !     games. With three possible outcomes for each game there should be 3⁶

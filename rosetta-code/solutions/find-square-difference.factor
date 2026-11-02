@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find and show on this page the least positive integer number n, where
 ! difference of n*n and (n-1)*(n-1) greater than 1000.

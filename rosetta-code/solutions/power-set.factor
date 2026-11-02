@@ -11,7 +11,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! By using a library or built-in set type, or by defining a set type with
 ! necessary operations, write a function with a set S as input that yields
@@ -19,10 +19,10 @@
 ! 
 ! For example, the power set of {1,2,3,4} is
 ! 
-!     
+!   
 ! 
-!         {{}, {1}, {2}, {1,2}, {3}, {1,3}, {2,3}, {1,2,3}, {4}, {1,4},
-!         {2,4}, {1,2,4}, {3,4}, {1,3,4}, {2,3,4}, {1,2,3,4}}.
+!     {{}, {1}, {2}, {1,2}, {3}, {1,3}, {2,3}, {1,2,3}, {4}, {1,4}, {2,4},
+!     {1,2,4}, {3,4}, {1,3,4}, {2,3,4}, {1,2,3,4}}.
 ! 
 ! For a set which contains n elements, the corresponding power set has
 ! 2^(n) elements, including the edge cases of empty set.

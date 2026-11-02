@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Read from a text stream either word-by-word or line-by-line until the
 ! stream runs out of data.

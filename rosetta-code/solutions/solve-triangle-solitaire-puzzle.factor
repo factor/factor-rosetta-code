@@ -26,7 +26,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Print a solution to solve the puzzle leaving one peg not implemented
 ! variations.

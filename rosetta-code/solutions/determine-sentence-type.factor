@@ -3,14 +3,14 @@
 ! these! Just make sure you don't break it”
 ! 
 ! Task
-!     Search for the last used punctuation in a sentence, and determine
-!     its type according to its punctuation.
+!   Search for the last used punctuation in a sentence, and determine its
+!   type according to its punctuation.
 ! 
 ! Output one of these letters
-!     "E" (Exclamation!), "Q" (Question?), "S" (Serious.), "N" (Neutral).
+!   "E" (Exclamation!), "Q" (Question?), "S" (Serious.), "N" (Neutral).
 ! 
 ! Extra
-!     Make your code able to determine multiple sentences.
+!   Make your code able to determine multiple sentences.
 ! 
 ! Don't leave any errors!
 ! 

@@ -6,7 +6,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a window containing the string "Hello World!" (the trailing space
 ! is significant).

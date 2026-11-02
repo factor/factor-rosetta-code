@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Provide a function to find the closest two points among a set of given
 ! points in two dimensions, i.e. to solve the Closest pair of points
@@ -64,7 +64,7 @@
 ! 
 ! References and further readings
 ! 
-!     
+!   
 ! 
 ! - Closest pair of points problem
 ! - Closest Pair (McGill)

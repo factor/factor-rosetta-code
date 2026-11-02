@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement a binary tree where each node carries an integer, and
 ! implement:
@@ -31,7 +31,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wikipedia article: Tree traversal.
 ! 

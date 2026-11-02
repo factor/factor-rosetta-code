@@ -36,7 +36,7 @@
 ! 
 ! Related Task
 ! 
-!     
+!   
 ! 
 ! - 15 puzzle game
 ! - A* search algorithm

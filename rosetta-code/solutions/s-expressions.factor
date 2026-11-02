@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a simple reader and writer for S-Expressions that handles quoted
 ! and unquoted strings, integers and floats.
@@ -43,7 +43,7 @@
 ! 
 ! Extra Credit
 ! 
-!     
+!   
 ! 
 ! Let the writer produce pretty printed output with indenting and
 ! line-breaks.

@@ -15,7 +15,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 ! 7 is the first long prime, the reciprocal of seven is ¹/⁷, which is
 ! equal to the repeating decimal fraction '''0.142857142857···
@@ -30,7 +30,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Show all long primes up to 500 (preferably on one line).
 !   - Show the number of long primes up to 500
@@ -45,7 +45,7 @@
 ! 
 ! ;;Also see
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia: full reptend prime
 !   - MathWorld: full reptend prime

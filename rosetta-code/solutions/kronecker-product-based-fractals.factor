@@ -21,7 +21,7 @@
 ! 
 ! Algorithm
 ! 
-!     
+!   
 ! 
 ! - Let M is an initial matrix, and Rn is a resultant block matrix of the
 !   Kronecker power, where n is the power (a.k.a. order).
@@ -39,7 +39,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Using Kronecker product implement and show two popular and well-known
 ! fractals, i.e.:
@@ -52,7 +52,7 @@
 ! 
 ! Test cases
 ! 
-!     
+!   
 ! 
 ! These 2 fractals (each order/power 4 at least) should be built using the
 ! following 2 simple matrices:
@@ -63,7 +63,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! - Output could be a graphical or ASCII-art representation, but if an
 !   order is set > 4 then printing is not suitable.

@@ -37,7 +37,7 @@
 !   representative sequences. Show the first fifteen values from the
 !   transformed sequence.
 ! 
-!     Use the following sequences for demonstration:
+!   Use the following sequences for demonstration:
 ! 
 ! - - (1, 0, 0, 0, …) ( one followed by an infinite series of zeros )
 !   - (1, 1, 1, 1, …) ( an infinite series of ones )

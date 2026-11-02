@@ -24,7 +24,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Fours is the number of letters in the ...
 ! - Look-and-say sequence

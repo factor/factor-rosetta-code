@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find the angle which is the result of the subtraction b2 - b1, where b1
 ! and b2 are the bearings.
@@ -24,13 +24,13 @@
 ! 
 ! Optional extra
 ! 
-!     
+!   
 ! 
 ! Allow the input bearings to be any (finite) value.
 ! 
 ! Test cases
 ! 
-!     
+!   
 ! 
 ! - -70099.74233810938 and 29840.67437876723
 ! - -165313.6666297357 and 33693.9894517456

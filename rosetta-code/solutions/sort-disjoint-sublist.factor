@@ -5,19 +5,19 @@
 ! Make your example work with the following list of values and set of
 ! indices:
 ! 
-!     
+!   
 ! 
-!         Values: [7, 6, 5, 4, 3, 2, 1, 0]
+!     Values: [7, 6, 5, 4, 3, 2, 1, 0]
 ! 
-!     
+!   
 ! 
-!         Indices: {6, 1, 7}
+!     Indices: {6, 1, 7}
 ! 
 ! Where the correct result would be:
 ! 
-!     
+!   
 ! 
-!         [7, 0, 5, 4, 3, 2, 1, 6].
+!     [7, 0, 5, 4, 3, 2, 1, 6].
 ! 
 ! In case of one-based indexing, rather than the zero-based indexing
 ! above, you would use the indices {7, 2, 8} instead.

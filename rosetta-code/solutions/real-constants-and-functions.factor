@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how to use the following math constants and functions in your
 ! language (if not available, note it):
@@ -19,7 +19,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Trigonometric Functions
 ! 

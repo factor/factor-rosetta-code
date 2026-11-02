@@ -1,6 +1,6 @@
 ! Definitions
 ! 
-!     
+!   
 ! 
 ! - - The factorial of 0 (zero) is defined as being 1 (unity).
 !   - The Factorial Function of a positive integer, n, is defined as the
@@ -10,7 +10,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function to return the factorial of a number.
 ! 
@@ -20,7 +20,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Primorial numbers
 ! 

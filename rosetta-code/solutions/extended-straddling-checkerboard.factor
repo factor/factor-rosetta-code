@@ -37,13 +37,13 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - Straddling checkerboard
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - - Cipher Machines web page on Checkerboards: Checkerboards
 

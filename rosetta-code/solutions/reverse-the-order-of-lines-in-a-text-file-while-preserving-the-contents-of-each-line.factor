@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Read an entire (input) file (into memory or buffers).
 !   - Display the lines/records of the entire file in reverse order.

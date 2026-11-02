@@ -5,7 +5,7 @@
 ! 
 ! Description of operation
 ! 
-!     
+!   
 ! 
 ! In a Galton box, there are a set of pins arranged in a triangular
 ! pattern. A number of balls are dropped so that they fall in line with
@@ -21,13 +21,13 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate an animated simulation of a Galton device.
 ! 
 ! Task requirements
 ! 
-!     
+!   
 ! 
 ! - - The box should have at least 5 pins on the bottom row.
 !   - A solution can use graphics or ASCII animation.

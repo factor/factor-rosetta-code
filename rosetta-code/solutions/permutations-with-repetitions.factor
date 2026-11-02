@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate a sequence of permutations of n elements drawn from choice of k
 ! values.

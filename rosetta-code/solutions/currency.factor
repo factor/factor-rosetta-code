@@ -1,13 +1,13 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how to represent currency in a simple example, using a data type
 ! that represent exact values of dollars and cents.
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! The IEEE 754 binary floating point representations of numbers like 2.86
 ! and .0765 are not exact.

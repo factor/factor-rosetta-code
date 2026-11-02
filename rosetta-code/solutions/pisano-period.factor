@@ -13,7 +13,7 @@
 ! 
 ! E.G.
 ! 
-!     
+!   
 ! 
 ! Given a Pisano period function: pisano(x), and a least common multiple
 ! function lcm(x, y):

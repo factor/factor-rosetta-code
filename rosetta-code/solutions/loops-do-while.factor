@@ -4,7 +4,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Loop over multiple arrays simultaneously
 ! - Loops/Break
@@ -24,7 +24,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! - Do while loop Wikipedia.
 ! 

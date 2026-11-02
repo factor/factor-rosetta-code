@@ -4,14 +4,14 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how reduce (or foldl or foldr etc), work (or would be implemented)
 ! in your language.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wikipedia article: Fold
 ! - Wikipedia article: Catamorphism

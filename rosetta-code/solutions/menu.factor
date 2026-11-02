@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a prompt and a list containing a number of strings of which one is
 ! to be selected, create a function that:
@@ -23,7 +23,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! This task is fashioned after the action of the Bash select statement.
 

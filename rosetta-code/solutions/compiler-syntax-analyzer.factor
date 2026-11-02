@@ -49,13 +49,13 @@
 ! 
 ! Run one of the Syntax analyzer solutions
 ! 
-!     
+!   
 ! 
 ! parse < while.lex > while.ast
 ! 
 ! The following table shows the input to lex, lex output, and the AST produced by the parser
 ! 
-!     
+!   
 ! 
 ! +--------------------------------------------+-----------------------------------------------+--------------------------------+
 ! | Input to lex                               | Output from lex, input to parse               | Output from parse              |
@@ -97,7 +97,7 @@
 ! 
 ! List of node type names
 ! 
-!     
+!   
 ! 
 !     Identifier String Integer Sequence If Prtc Prts Prti While Assign Negate Not Multiply Divide Mod
 !     Add Subtract Less LessEqual Greater GreaterEqual Equal NotEqual And Or
@@ -106,7 +106,7 @@
 ! 
 ! Non-terminal (internal) nodes
 ! 
-!     
+!   
 ! 
 ! For Operators, the following nodes should be created:
 ! 
@@ -325,7 +325,7 @@
 ! 
 ! Once the AST is built, it should be output in a flattened format. This can be as simple as the following
 ! 
-!     
+!   
 ! 
 !     def prt_ast(t)
 !         if t == NULL
@@ -341,7 +341,7 @@
 ! 
 ! If the AST is correctly built, loading it into a subsequent program should be as simple as
 ! 
-!     
+!   
 ! 
 !     def load_ast()
 !         line = readline()
@@ -369,7 +369,7 @@
 ! Interpreter solutions.
 ! 
 ! Test program, assuming this is in a file called prime.t
-!     lex <prime.t | parse
+!   lex <prime.t | parse
 ! 
 ! +-------------------------------------------------+---------------------------------------------------------+------------------------------------------+
 ! | Input to lex                                    | Output from lex, input to parse                         | Output from parse                        |
@@ -484,7 +484,5 @@
 ! - Code Generator task
 ! - Virtual Machine Interpreter task
 ! - AST Interpreter task
-! 
-! __TOC__
 
 

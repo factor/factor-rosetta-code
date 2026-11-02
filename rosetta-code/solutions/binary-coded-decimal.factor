@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Use your language's built-in BCD functions, OR create your own
 ! conversion function, that converts an addition of hexadecimal numbers to
@@ -21,7 +21,7 @@
 ! 
 ! Bonus Points
 ! 
-!     
+!   
 ! 
 ! Demonstrate the above test cases in both "packed BCD" (two digits per
 ! byte) and "unpacked BCD" (one digit per byte).

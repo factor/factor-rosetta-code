@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Find and print the first 30 cyclotomic polynomials.
 ! - Find and print the order of the first 10 cyclotomic polynomials that

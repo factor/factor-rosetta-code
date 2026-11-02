@@ -20,7 +20,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Continued fraction/Arithmetic for tasks that do arithmetic over
 !     continued fractions.

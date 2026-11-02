@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Using a well-known testing-specific library/module/suite for your
 ! language, write some tests for your language's entry in Palindrome.

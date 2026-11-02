@@ -1,19 +1,17 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the Kronecker product of two matrices (arbitrary sized)
 ! resulting in a block matrix.
 ! 
 ! Test cases
 ! 
-!     
+!   
 ! 
 ! Show results for each of the following two samples:
 ! 
 ! Sample 1 (from Wikipedia):
-! 
-! 
 ! 
 !               ┌   ┐     ┌   ┐     ┌           ┐
 !               │1 2│     │0 5│     │ 0  5  0 10│
@@ -41,7 +39,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! -  Kronecker product based fractals.
 

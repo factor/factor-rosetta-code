@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Describe, and give a pointer to documentation on your languages use
 !     of characters beyond those of the ASCII character set in the naming
@@ -14,7 +14,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Case-sensitivity of identifiers
 

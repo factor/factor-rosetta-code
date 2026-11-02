@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Extend the data storage type defined on this page to support grayscale
 ! images.

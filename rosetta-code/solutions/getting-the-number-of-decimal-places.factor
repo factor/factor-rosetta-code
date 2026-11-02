@@ -1,13 +1,13 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program (function) to get the number of decimal places in a
 ! given number.
 ! 
 ! Examples
 ! 
-!     
+!   
 ! 
 ! - - for num = 12.345 decimals = 3, and
 !   - for num = 12.3450 decimals = 4

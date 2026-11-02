@@ -22,7 +22,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create 16 Puzzle Game.
 ! 
@@ -32,7 +32,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - - 15 Puzzle Game
 ! 

@@ -10,7 +10,5 @@
 ! 
 ! If your language cannot create executable files or is not cross-platform
 ! it should be omitted from this task.
-! 
-! __TOC__
 
 

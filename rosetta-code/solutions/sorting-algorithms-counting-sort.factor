@@ -1,13 +1,13 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the Counting sort. This is a way of sorting integers when the
 ! minimum and maximum value are known.
 ! 
 ! Pseudocode
 ! 
-!     
+!   
 ! 
 ! function countingSort(array, min, max):
 !     count: array of (max - min + 1) elements

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show positive integers n whose binary and ternary digits sum are prime,
 ! where n < 200.

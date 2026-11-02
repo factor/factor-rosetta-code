@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a sequence of integers, find a continuous subsequence which
 ! maximizes the sum of its elements, that is, the elements of no other

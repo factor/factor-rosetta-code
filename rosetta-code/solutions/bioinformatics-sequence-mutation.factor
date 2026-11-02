@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a string of characters A, C, G, and T representing a DNA sequence
 ! write a routine to mutate the sequence, (string) by:
@@ -22,7 +22,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! - Give more information on the individual mutations applied.
 ! - Allow mutations to be weighted and/or chosen.

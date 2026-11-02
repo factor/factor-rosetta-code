@@ -1,6 +1,6 @@
 ! Background
 ! 
-!     
+!   
 ! 
 ! This "longest string challenge" is inspired by a problem that used to be
 ! given to students learning Icon. Students were expected to try to solve
@@ -63,7 +63,7 @@
 ! 
 ! Intent of restrictions
 ! 
-!     
+!   
 ! 
 ! Because of the variety of languages on Rosetta Code and the wide variety
 ! of concepts used in them, there needs to be a bit of clarification and

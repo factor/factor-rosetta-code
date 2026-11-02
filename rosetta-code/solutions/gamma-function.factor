@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement one algorithm (or more) to compute the Gamma (Γ) function (in
 ! the real field only).
@@ -11,9 +11,9 @@
 ! 
 ! The Gamma function can be defined as:
 ! 
-!     
+!   
 ! 
-!          Γ(x) = ∫₀^(∞)t^(x − 1)e^(−t)dt
+!      Γ(x) = ∫₀^(∞)t^(x − 1)e^(−t)dt
 ! 
 ! This suggests a straightforward (but inefficient) way of computing the Γ
 ! through numerical integration.

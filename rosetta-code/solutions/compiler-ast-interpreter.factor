@@ -8,7 +8,7 @@
 ! 
 ! Loading the AST from the syntax analyzer is as simple as (pseudo code)
 ! 
-!     
+!   
 ! 
 !     def load_ast()
 !         line = readline()
@@ -34,7 +34,7 @@
 ! 
 ! The interpreter algorithm is relatively simple
 ! 
-!     
+!   
 ! 
 !     interp(x)
 !         if x == NULL return NULL
@@ -132,7 +132,5 @@
 ! - Syntax Analyzer task
 ! - Code Generator task
 ! - Virtual Machine Interpreter task
-! 
-! __TOC__
 
 

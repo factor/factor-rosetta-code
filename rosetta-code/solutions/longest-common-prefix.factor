@@ -7,7 +7,7 @@
 ! _(pref)  x ~ "for all members x of set R, it holds true that string S is
 ! a prefix of x"
 ! 
-!     (help here: does not express thatSis the longest common prefix ofx)
+!   (help here: does not express thatSis the longest common prefix ofx)
 ! 
 ! An example use case for this: given a set of phone numbers, identify a
 ! common dialing code. This can be accomplished by first determining the

@@ -65,21 +65,21 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how many of each item does he take to maximize the value of items
 ! he is carrying away with him.
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! - There are four solutions that maximize the value taken. Only one need
 !   be given.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Knapsack problem/Bounded
 ! - Knapsack problem/Continuous

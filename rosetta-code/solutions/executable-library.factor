@@ -13,13 +13,13 @@
 ! - The library, when executed directly should satisfy the remaining
 !   requirements of the Hailstone sequence task:
 ! 
-!     
+!   
 ! 
-!         2. Use the routine to show that the hailstone sequence for the
-!         number 27 has 112 elements starting with 27, 82, 41, 124 and
-!         ending with 8, 4, 2, 1
-!         3. Show the number less than 100,000 which has the longest
-!         hailstone sequence together with that sequence's length.
+!     2. Use the routine to show that the hailstone sequence for the
+!     number 27 has 112 elements starting with 27, 82, 41, 124 and ending
+!     with 8, 4, 2, 1
+!     3. Show the number less than 100,000 which has the longest hailstone
+!     sequence together with that sequence's length.
 ! 
 ! - Create a second executable to calculate the following:
 !   - Use the library's hailstone function, in the standard manner, (or

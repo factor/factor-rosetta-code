@@ -23,11 +23,11 @@
 ! The ciphertext, C, is then computed by taking each block of P, and
 ! computing
 ! 
-!     C ≡ P^(e) mod  n
+!   C ≡ P^(e) mod  n
 ! 
 ! Similarly, to decode, one computes
 ! 
-!     P ≡ C^(d) mod  n
+!   P ≡ C^(d) mod  n
 ! 
 ! To generate a key, one finds 2 (ideally large) primes p and q. the value
 ! “n” is simply: n = p × q. One must then choose an “e” such that
@@ -36,7 +36,7 @@
 ! 
 ! The decryption value d is then found by solving
 ! 
-!     d × e ≡ 1 mod  (p − 1) × (q − 1)
+!   d × e ≡ 1 mod  (p − 1) × (q − 1)
 ! 
 ! The security of the code is based on the secrecy of the Private Key
 ! (decryption exponent) “d” and the difficulty in factoring “n”. Research
@@ -61,11 +61,11 @@
 !   will be meet this requirement;however, they are NOT long enough to be
 !   considered secure:
 ! 
-!     
+!   
 ! 
-!         n = 9516311845790656153499716760847001433441357
-!         e = 65537
-!         d = 5617843187844953170308463622230283376298685
+!     n = 9516311845790656153499716760847001433441357
+!     e = 65537
+!     d = 5617843187844953170308463622230283376298685
 ! 
 ! - Messages can be hard-coded into the program, there is no need for
 !   elaborate input coding.

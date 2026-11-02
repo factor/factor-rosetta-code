@@ -1,6 +1,6 @@
 ! Definition
 ! 
-!     
+!   
 ! 
 ! An eban number is a number that has no letter e in it when the number is
 ! spelled in English.
@@ -19,7 +19,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - show all eban numbers ≤ 1,000 (in a horizontal format), and a count
 !   - show all eban numbers between 1,000 and 4,000 (inclusive), and a
@@ -32,7 +32,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - The MathWorld entry: eban numbers.
 !   - The OEIS entry: A6933, eban numbers.

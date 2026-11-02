@@ -42,7 +42,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Run a repeated simulation of each of the above scenario, calculating
 !     the percentage of suicide with a randomization of the four spinning,
@@ -55,7 +55,7 @@
 ! 
 ! Reference
 ! 
-!     
+!   
 ! 
 ! Youtube video on the Russian 1895 Nagant revolver
 ! https://www.youtube.com/watch?v=Dh1mojMaEtM

@@ -11,7 +11,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - OEIS A019546: Primes whose digits are primes.
 ! - https://www.scribd.com/document/214851583/On-the-Smarandache-prime-digital-subsequence-sequences

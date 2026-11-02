@@ -25,7 +25,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Input:
 ! 
@@ -52,7 +52,7 @@
 ! 
 ! Optional task
 ! 
-!     
+!   
 ! 
 ! Output all the sequences using this format:
 ! 
@@ -62,7 +62,7 @@
 ! 
 ! Related
 ! 
-!     
+!   
 ! 
 ! - Permutations_with_some_identical_elements
 

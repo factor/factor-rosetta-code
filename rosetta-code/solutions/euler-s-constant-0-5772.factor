@@ -39,7 +39,5 @@
 ! 1 Gourdon and Sebah, The Euler constant γ. (for all formulas)
 ! 
 ! 2 Euler's original journal article translated from the latin (p. 9)
-! 
-! __TOC__
 
 

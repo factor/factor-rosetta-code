@@ -29,9 +29,9 @@
 ! 1.  Graph Construction:
 ! 
 ! - Convert the list of edges into an adjacency list using a
-!   `HashMap<String, HashSet>`. Each key in the hashmap represents a
-!   vertex, and its corresponding hash set contains all adjacent vertices
-!   (neighbors).
+!   `HashMap<String, HashSet<String>>`. Each key in the hashmap represents
+!   a vertex, and its corresponding hash set contains all adjacent
+!   vertices (neighbors).
 ! 
 ! 1.  Bron-Kerbosch Algorithm Implementation:
 ! 

@@ -18,7 +18,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - write a function (or routine) to return the population count of a
 !   non-negative integer.

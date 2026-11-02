@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Determine which of these pairs of triangles overlap in 2D:
 ! 

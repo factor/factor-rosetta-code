@@ -19,20 +19,20 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find and display, here on this page, the first 25 weird numbers.
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Abundant, deficient and perfect number classifications
 !   - Proper divisors
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - OEIS: A006037 weird numbers
 !   - Wikipedia: weird number

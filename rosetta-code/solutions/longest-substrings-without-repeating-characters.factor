@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a string, find the longest substring without any repeating
 ! characters.

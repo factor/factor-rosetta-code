@@ -3,7 +3,7 @@
 ! 
 ! Basic task
 ! 
-!     
+!   
 ! 
 ! The basic task is to wrap a paragraph of text in a simple way in your
 ! language.
@@ -17,7 +17,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Wrap text using a more sophisticated algorithm such as the Knuth and
 ! Plass TeX algorithm. If your language provides this, you get easy extra

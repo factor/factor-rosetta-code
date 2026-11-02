@@ -5,7 +5,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! for the purposes of this task, "lexicographically later" means "greater
 ! than" - see the Mathematical discussion of ordering link below.

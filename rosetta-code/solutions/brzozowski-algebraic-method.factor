@@ -11,7 +11,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the Brzozowski Algebraic Method to convert an NFA
 ! representation into a regular expression. The implementation should:

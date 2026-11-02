@@ -1,6 +1,6 @@
 ! Definitions (as per number theory)
 ! 
-!     
+!   
 ! 
 ! - - The prime(p) is the 'p''^(th) prime.
 !     - - prime(1) is 2
@@ -13,7 +13,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - Find and display (on one line) the first 36 strong primes.
 !   - Find and display the count of the strong primes below 1,000,000.
@@ -27,13 +27,13 @@
 ! 
 ! Related Task
 ! 
-!     
+!   
 ! 
 ! - - Safe primes and unsafe primes.
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - The OEIS article A051634: strong primes.
 !   - The OEIS article A051635: weak primes.

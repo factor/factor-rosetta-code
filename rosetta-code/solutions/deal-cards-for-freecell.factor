@@ -38,9 +38,9 @@
 ! 4.  Deal all 52 cards, face up, across 8 columns. The first 8 cards go
 !     in 8 columns, the next 8 cards go on the first 8 cards, and so on.
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! !| Order to deal cards !| Game #1 !| Game #617 |- ||
 ! 

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a set of positive integers, write a function to order the integers
 ! in such a way that the concatenation of the numbers forms the largest
@@ -14,7 +14,7 @@
 ! 
 ! Possible algorithms
 ! 
-!     
+!   
 ! 
 ! 1.  A solution could be found by trying all combinations and return the
 !     best.
@@ -28,7 +28,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Algorithms: What is the most efficient way to arrange the given
 !   numbers to form the biggest number?

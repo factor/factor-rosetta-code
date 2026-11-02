@@ -23,7 +23,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a driver and a function (subroutine/routine ···) that returns the
 ! English-spelled ordinal version of a specified number (a positive
@@ -36,7 +36,7 @@
 ! 
 ! Test cases
 ! 
-!     
+!   
 ! 
 ! Use (at least) the test cases of:
 ! 
@@ -44,7 +44,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Number names
 ! - N'th

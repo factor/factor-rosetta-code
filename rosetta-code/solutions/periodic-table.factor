@@ -1,13 +1,13 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Display the row and column in the periodic table of the given atomic
 ! number.
 ! 
 ! The periodic table
 ! 
-!     
+!   
 ! 
 ! Let us consider the following periodic table representation.
 ! 
@@ -59,7 +59,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - the periodic table
 ! - This task was an idea from CompSciFact

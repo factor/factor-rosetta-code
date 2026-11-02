@@ -14,7 +14,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Calculate all values of the function checking and stating which are
 ! "almost integers".

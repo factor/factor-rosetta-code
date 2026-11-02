@@ -14,7 +14,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Take the following selection of 70 English Pokemon names (extracted from
 ! Wikipedia's list of Pokemon) and generate the/a sequence with the

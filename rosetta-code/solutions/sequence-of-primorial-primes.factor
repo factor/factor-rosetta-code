@@ -7,19 +7,19 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Generate and show here the first ten values of the sequence.
 ! 
 ! Optional extended task
 ! 
-!     
+!   
 ! 
 ! Show the first twenty members of the series.
 ! 
 ! Notes
 ! 
-!     
+!   
 ! 
 ! - This task asks for the primorial indices that create the final
 !   primorial prime numbers, so there should be no ten-or-more digit
@@ -32,14 +32,14 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Primorial numbers
 ! - Factorial
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Primorial prime Wikipedia.
 ! - Primorial prime from The Prime Glossary.

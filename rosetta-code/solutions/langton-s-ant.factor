@@ -21,7 +21,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Start the ant near the center of a 100x100 field of cells, which is
 ! about big enough to contain the initial chaotic part of the movement.
@@ -34,13 +34,13 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Wikipedia: Langton's ant.
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Conway's Game of Life.
 ! - Elementary cellular automaton

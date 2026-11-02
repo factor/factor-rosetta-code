@@ -30,7 +30,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create/use a nest datastructure format and textual representation
 !     for arbitrary trees.
@@ -47,7 +47,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! - It's all about showing aspects of the contrasting datastructures as
 !   they hold the tree.

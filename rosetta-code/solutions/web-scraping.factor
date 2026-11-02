@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program that downloads the time from this URL:
 ! http://tycho.usno.navy.mil/cgi-bin/timer.pl and then prints the current

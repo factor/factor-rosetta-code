@@ -22,7 +22,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! List the permutations you get from the input [2, 3, 1].
 ! 
@@ -33,7 +33,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Anagrams
 ! - Permutations

@@ -1,6 +1,6 @@
 ! Definitions and restrictions
 ! 
-!     
+!   
 ! 
 ! Rare numbers are positive integers n where:
 ! 
@@ -13,7 +13,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - find and show the first 5 rare numbers
 !   - find and show the first 8 rare numbers (optional)
@@ -23,7 +23,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - - an OEIS entry: A035519 rare numbers.
 !   - an OEIS entry: A059755 odd rare numbers.

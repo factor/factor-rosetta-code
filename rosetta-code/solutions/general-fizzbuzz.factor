@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a generalized version of FizzBuzz that works for any list of
 ! factors, along with their words.

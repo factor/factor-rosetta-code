@@ -7,7 +7,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement the original NYSIIS algorithm, shown in Wikipedia, rather than
 ! any other subsequent modification.

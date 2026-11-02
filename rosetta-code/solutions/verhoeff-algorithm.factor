@@ -12,7 +12,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write routines, methods, procedures etc. in your language to generate a
 ! Verhoeff checksum digit for non-negative integers of any length and to
@@ -34,7 +34,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Damm algorithm
 

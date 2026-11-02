@@ -23,7 +23,7 @@
 ! 
 ! Definitions
 ! 
-!     
+!   
 ! 
 ! Chowla numbers can also be expressed as:
 ! 
@@ -43,7 +43,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - - create a chowla function that returns the chowla number for a
 !     positive integer n
@@ -65,7 +65,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - -  totient function
 !   -  perfect numbers
@@ -74,7 +74,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - the OEIS entry for A48050 Chowla's function.
 

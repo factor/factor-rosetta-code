@@ -22,17 +22,17 @@
 ! 
 ! Caution:
 ! 
-!     
+!   
 ! 
-!         This implementation of error propagation does not address issues
-!         of dependent and independent values. It is assumed that a and b
-!         are independent and so the formula for multiplication should not
-!         be applied to a*a for example. See the talk page for some of the
-!         implications of this issue.
+!     This implementation of error propagation does not address issues of
+!     dependent and independent values. It is assumed that a and b are
+!     independent and so the formula for multiplication should not be
+!     applied to a*a for example. See the talk page for some of the
+!     implications of this issue.
 ! 
 ! Task details
 ! 
-!     
+!   
 ! 
 ! 1.  Add an uncertain number type to your language that can support
 !     addition, subtraction, multiplication, division, and exponentiation
@@ -52,14 +52,14 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - A Guide to Error Propagation B. Keeney, 2005.
 ! - Propagation of uncertainty Wikipedia.
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Quaternion type
 

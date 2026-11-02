@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show a loop which prints random numbers (each number newly generated
 ! each loop) from 0 to 19 (inclusive).
@@ -16,7 +16,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Loop over multiple arrays simultaneously
 ! - Loops/Break

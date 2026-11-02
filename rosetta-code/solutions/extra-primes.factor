@@ -14,7 +14,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Numbers with prime digits whose sum is 13
 ! - Smarandache prime-digital sequence

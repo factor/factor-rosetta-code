@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program that takes an RPN representation of an expression
 ! formatted as a space separated sequence of tokens and generates the
@@ -14,9 +14,9 @@
 ! - Test with the following input RPN strings then print and display the
 !   output here.
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! ! RPN input !! sample output |- || align="center" |
 ! 3 4 2 * 1 5 - 2 3 ^ ^ / +|| 3 + 4 * 2 / ( 1 - 5 ) ^ 2 ^ 3 |- ||
@@ -25,9 +25,9 @@
 ! 
 ! - Operator precedence and operator associativity is given in this table:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! ! operator !! precedence !! associativity !! operation |- ||
 ! align="center" | ^ || 4 || right || exponentiation |- || align="center"
@@ -37,7 +37,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Parsing/Shunting-yard algorithm for a method of generating an RPN from
 !   an infix expression.

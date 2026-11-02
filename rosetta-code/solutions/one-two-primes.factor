@@ -16,9 +16,9 @@
 ! - Find and and show the abbreviated values for the elements with n equal
 !   to 100 through 2000 in increments of 100.
 ! 
-!     Shorten the displayed number by replacing any leading 1s in the
-!     number with the count of 1s, and show the remainder of the number.
-!     (See Raku example for reference)
+!   Shorten the displayed number by replacing any leading 1s in the number
+!   with the count of 1s, and show the remainder of the number. (See Raku
+!   example for reference)
 ! 
 ! See also
 ! * OEIS:A036229 - Smallest n-digit prime containing only digits 1 or 2 or -1 if no such prime exists

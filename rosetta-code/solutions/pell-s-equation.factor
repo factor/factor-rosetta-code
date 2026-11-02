@@ -1,23 +1,23 @@
 ! Pell's equation (also called the Pell–Fermat equation) is a Diophantine
 ! equation of the form:
 ! 
-!     
+!   
 ! 
-!          x² - ny² = 1
+!      x² - ny² = 1
 ! 
 ! with integer solutions for x and y, where n is a given non-square
 ! positive integer.
 ! 
 ! Task requirements
 ! 
-!     
+!   
 ! 
 ! - - find the smallest solution in positive integers to Pell's equation
 !     for n = {61, 109, 181, 277}.
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - Wikipedia entry: Pell's equation.
 

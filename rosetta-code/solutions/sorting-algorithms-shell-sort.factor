@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Sort an array of elements using the Shell sort algorithm, a diminishing
 ! increment sort.

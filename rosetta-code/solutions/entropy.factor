@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Calculate the Shannon entropy H of a given input string.
 ! 
@@ -73,7 +73,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Fibonacci_word
 !   - Entropy/Narcissist

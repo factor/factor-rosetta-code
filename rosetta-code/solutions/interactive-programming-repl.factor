@@ -8,7 +8,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how to start this mode.
 ! 
@@ -18,7 +18,7 @@
 ! 
 ! Example
 ! 
-!     
+!   
 ! 
 !              f('Rosetta',  'Code',  ':')   
 ! 
@@ -28,7 +28,7 @@
 ! 
 ! Note
 ! 
-!     
+!   
 ! 
 ! This task is not about creating your own interactive mode.
 

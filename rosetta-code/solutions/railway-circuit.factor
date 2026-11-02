@@ -1,6 +1,6 @@
 ! Railway circuit
 ! 
-!     
+!   
 ! 
 ! Given n sections of curve tracks, each one being an arc of 30° of radius
 ! R.
@@ -9,7 +9,7 @@
 ! 
 ! Constraints
 ! 
-!     
+!   
 ! 
 ! - n = 12 + k*4 (k = 0, 1, ...)
 ! - The circuit must be a closed, connected graph, and the last arc must
@@ -21,13 +21,13 @@
 ! 
 ! Illustrations
 ! 
-!     
+!   
 ! 
 ! http://www.echolalie.org/echolisp/duplo.html
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function which counts and displays all possible circuits Cn for
 ! n = 12, 16, 20.
@@ -39,16 +39,16 @@
 ! 
 ! Examples
 ! 
+!   
+! 
 !     
 ! 
-!         
-! 
-!             C12 = (1,1,1,1,1,1,1,1,1,1,1,1) and
-!             C12 = (-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1)
+!       C12 = (1,1,1,1,1,1,1,1,1,1,1,1) and
+!       C12 = (-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1)
 ! 
 ! Straight tracks (extra-extra credit)
 ! 
-!     
+!   
 ! 
 ! Suppose we have m = k*2 sections of straight tracks, each of length L.
 ! 

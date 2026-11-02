@@ -8,7 +8,7 @@
 ! Example 1: Specifying that the difference between s'primes be 2 leads to
 ! the groups:
 ! 
-!     (3, 5), (5, 7), (11, 13), (17, 19), (29, 31), ...
+!   (3, 5), (5, 7), (11, 13), (17, 19), (29, 31), ...
 ! 
 ! (Known as Twin primes or Prime pairs)
 ! 
@@ -16,7 +16,7 @@
 ! groups of size one greater than the number of differences. Differences
 ! of 2, 4 leads to the groups:
 ! 
-!     (5, 7, 11), (11, 13, 17), (17, 19, 23), (41, 43, 47), ....
+!   (5, 7, 11), (11, 13, 17), (17, 19, 23), (41, 43, 47), ....
 ! 
 ! In the first group 7 is two more than 5 and 11 is four more than 7; as
 ! well as 5, 7, and 11 being successive primes. Differences are checked in
@@ -25,7 +25,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - In each case use a list of primes less than 1_000_000
 ! - For the following Differences show the first and last group, as well

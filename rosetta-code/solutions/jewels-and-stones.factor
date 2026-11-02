@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a function which takes two string parameters: 'stones' and
 ! 'jewels' and returns an integer.

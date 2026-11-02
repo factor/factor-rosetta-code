@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Find and show all palindromic primes n, where n < 1000
 ! 

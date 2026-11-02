@@ -11,7 +11,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Tabulate the MP and MDR of the numbers 123321, 7739, 893, 899998
 ! - Tabulate MDR versus the first five numbers having that MDR, something
@@ -34,7 +34,7 @@
 ! 
 ! Similar
 ! 
-!     
+!   
 ! 
 ! The Product of decimal digits of n page was redirected here, and had the
 ! following description
@@ -46,7 +46,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - Multiplicative Digital Root on Wolfram Mathworld.
 ! - Multiplicative digital root on The On-Line Encyclopedia of Integer

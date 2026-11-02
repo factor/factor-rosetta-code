@@ -1,52 +1,52 @@
 ! Some definitions to help in the explanation
 ! 
-!     
+!   
 ! 
-!     Floor operation
+!   Floor operation
 ! 
-!     
+!   
 ! 
-!         https://en.wikipedia.org/wiki/Floor_and_ceiling_functions
+!     https://en.wikipedia.org/wiki/Floor_and_ceiling_functions
 ! 
-!     
+!   
 ! 
-!         Greatest integer less than or equal to a real number.
+!     Greatest integer less than or equal to a real number.
 ! 
-!     Bitwise Logical shift operators (c-inspired)
+!   Bitwise Logical shift operators (c-inspired)
 ! 
-!     
+!   
 ! 
-!         https://en.wikipedia.org/wiki/Bitwise_operation#Bit_shifts
+!     https://en.wikipedia.org/wiki/Bitwise_operation#Bit_shifts
 ! 
-!     
+!   
 ! 
-!         Binary bits of value shifted left or right, with zero bits
-!         shifted in where appropriate.
-!         Examples are shown for 8 bit binary numbers; most significant
-!         bit to the left.
+!     Binary bits of value shifted left or right, with zero bits shifted
+!     in where appropriate.
+!     Examples are shown for 8 bit binary numbers; most significant bit to
+!     the left.
 ! 
-!     
+!   
 ! 
-!         << Logical shift left by given number of bits.
+!     << Logical shift left by given number of bits.
 ! 
-!             E.g Binary 00110101 << 2 == Binary 11010100
+!       E.g Binary 00110101 << 2 == Binary 11010100
 ! 
-!     
+!   
 ! 
-!         >> Logical shift right by given number of bits.
+!     >> Logical shift right by given number of bits.
 ! 
-!             E.g Binary 00110101 >> 2 == Binary 00001101
+!       E.g Binary 00110101 >> 2 == Binary 00001101
 ! 
-!     ^ Bitwise exclusive-or operator
+!   ^ Bitwise exclusive-or operator
 ! 
-!         https://en.wikipedia.org/wiki/Exclusive_or
-!         Bitwise comparison for if bits differ
+!     https://en.wikipedia.org/wiki/Exclusive_or
+!     Bitwise comparison for if bits differ
 ! 
-!             E.g Binary 00110101 ^ Binary 00110011 == Binary 00000110
+!       E.g Binary 00110101 ^ Binary 00110011 == Binary 00000110
 ! 
 ! [https://en.wikipedia.org/wiki/Xorshift#xorshift*| Xorshift_star] Generator (pseudo-code)
 ! 
-!     
+!   
 ! 
 !    /* Let u64 denote an unsigned 64 bit integer type. */
 !    /* Let u32 denote an unsigned 32 bit integer type. */
@@ -88,7 +88,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Generate a class/set of functions that generates pseudo-random
 ! 
@@ -103,7 +103,7 @@
 ! 
 !    floor(random_gen.next_float() * 5)
 ! 
-!     Is as follows:
+!   Is as follows:
 ! 
 !    0: 20103, 1: 19922, 2: 19937, 3: 20031, 4: 20007
 ! 

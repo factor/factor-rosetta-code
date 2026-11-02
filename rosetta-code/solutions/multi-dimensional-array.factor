@@ -11,7 +11,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - State if the language supports multi-dimensional arrays in its syntax
 !   and usual implementation.

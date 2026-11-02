@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! The goal is to get the properties of an object, as names, values or
 ! both.

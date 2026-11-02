@@ -4,7 +4,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Using the protocol definition described there, build this component in a
 ! fashion idiomatic and natural to your language.

@@ -5,9 +5,8 @@
 ! This conjecture is called Euler's sum of powers conjecture and can be
 ! stated as such:
 ! 
-!     At least k positive k^(th) powers are required to sum to a k^(th)
-!     power, except for the trivial case of one k^(th) power: y^(k) =
-!     y^(k).
+!   At least k positive k^(th) powers are required to sum to a k^(th)
+!   power, except for the trivial case of one k^(th) power: y^(k) = y^(k).
 ! 
 ! In 1966, Leon J. Lander and Thomas R. Parkin used a brute-force search
 ! on a CDC 6600 computer restricting numbers to those less than 250.

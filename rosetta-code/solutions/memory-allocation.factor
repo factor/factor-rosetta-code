@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Show how to explicitly allocate and deallocate blocks of memory in your
 ! language.

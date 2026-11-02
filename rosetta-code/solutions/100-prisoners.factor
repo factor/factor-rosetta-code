@@ -1,6 +1,6 @@
 ! The Problem
 ! 
-!     
+!   
 ! 
 ! - 100 prisoners are individually numbered 1 to 100
 ! - A room having a cupboard of 100 opaque drawers numbered 1 to 100, that
@@ -20,7 +20,7 @@
 ! 
 ! The task
 ! 
-!     
+!   
 ! 
 ! 1.  Simulate several thousand instances of the game where the prisoners
 !     randomly open drawers
@@ -38,7 +38,7 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! 1.  The unbelievable solution to the 100 prisoner puzzle standupmaths
 !     (Video).

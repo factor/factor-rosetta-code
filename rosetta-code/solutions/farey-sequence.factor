@@ -14,33 +14,33 @@
 ! 
 ! The Farey sequences of orders 1 to 5 are:
 ! 
-!     
+!   
 ! 
-!         ${\bf\it{F}}_1 = \frac{0}{1}, \frac{1}{1}$
+!     ${\bf\it{F}}_1 = \frac{0}{1}, \frac{1}{1}$
 ! 
-!     
+!   
 ! 
-!     
+!   
 ! 
-!         ${\bf\it{F}}_2 = \frac{0}{1}, \frac{1}{2}, \frac{1}{1}$
+!     ${\bf\it{F}}_2 = \frac{0}{1}, \frac{1}{2}, \frac{1}{1}$
 ! 
-!     
+!   
 ! 
-!     
+!   
 ! 
-!         ${\bf\it{F}}_3 = \frac{0}{1}, \frac{1}{3}, \frac{1}{2}, \frac{2}{3}, \frac{1}{1}$
+!     ${\bf\it{F}}_3 = \frac{0}{1}, \frac{1}{3}, \frac{1}{2}, \frac{2}{3}, \frac{1}{1}$
 ! 
-!     
+!   
 ! 
-!     
+!   
 ! 
-!         ${\bf\it{F}}_4 = \frac{0}{1}, \frac{1}{4}, \frac{1}{3}, \frac{1}{2}, \frac{2}{3}, \frac{3}{4}, \frac{1}{1}$
+!     ${\bf\it{F}}_4 = \frac{0}{1}, \frac{1}{4}, \frac{1}{3}, \frac{1}{2}, \frac{2}{3}, \frac{3}{4}, \frac{1}{1}$
 ! 
-!     
+!   
 ! 
-!     
+!   
 ! 
-!         ${\bf\it{F}}_5 = \frac{0}{1}, \frac{1}{5}, \frac{1}{4}, \frac{1}{3}, \frac{2}{5}, \frac{1}{2}, \frac{3}{5}, \frac{2}{3}, \frac{3}{4}, \frac{4}{5}, \frac{1}{1}$
+!     ${\bf\it{F}}_5 = \frac{0}{1}, \frac{1}{5}, \frac{1}{4}, \frac{1}{3}, \frac{2}{5}, \frac{1}{2}, \frac{3}{5}, \frac{2}{3}, \frac{3}{4}, \frac{4}{5}, \frac{1}{1}$
 ! 
 ! Task
 ! 
@@ -54,13 +54,13 @@
 ! The length (the number of fractions) of a Farey sequence asymptotically
 ! approaches:
 ! 
-!     
+!   
 ! 
-!          3 × n² ÷ π²
+!      3 × n² ÷ π²
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - OEIS sequence A006842 numerators of Farey series of order 1, 2, ···
 ! - OEIS sequence A006843 denominators of Farey series of order 1, 2, ···

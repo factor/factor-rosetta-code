@@ -5,12 +5,12 @@
 ! supply of each type of element and where the order of choice does not
 ! matter. For example:
 ! 
-!     Q: How many ways can a person choose two doughnuts from a store
-!     selling three types of doughnut: iced, jam, and plain? (i.e., S is
-!     {iced, jam, plain}, |S| = 3, and k = 2.)
+!   Q: How many ways can a person choose two doughnuts from a store
+!   selling three types of doughnut: iced, jam, and plain? (i.e., S is
+!   {iced, jam, plain}, |S| = 3, and k = 2.)
 ! 
-!     A: 6: {iced, iced}; {iced, jam}; {iced, plain}; {jam, jam}; {jam,
-!     plain}; {plain, plain}.
+!   A: 6: {iced, iced}; {iced, jam}; {iced, plain}; {jam, jam}; {jam,
+!   plain}; {plain, plain}.
 ! 
 ! Note that both the order of items within a pair, and the order of the
 ! pairs given in the answer is not significant; the pairs represent
@@ -20,7 +20,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! - Write a function/program/routine/.. to generate all the combinations
 !   with repetitions of n types of things taken k at a time and use it to
@@ -31,12 +31,12 @@
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - k-combination with repetitions
 ! 
 ! See also
 ! 
-!     
+!   
 
 

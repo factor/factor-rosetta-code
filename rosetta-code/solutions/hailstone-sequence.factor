@@ -26,7 +26,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create a routine to generate the hailstone sequence for a number.
 ! 2.  Use the routine to show that the hailstone sequence for the number
@@ -39,7 +39,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - xkcd (humourous).
 ! - The Notorious Collatz conjecture Terence Tao, UCLA (Presentation,

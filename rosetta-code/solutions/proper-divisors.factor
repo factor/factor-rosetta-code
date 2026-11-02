@@ -6,7 +6,7 @@
 ! 
 ! Examples
 ! 
-!     
+!   
 ! 
 ! The proper divisors of 6 are 1, 2, and 3.
 ! 
@@ -14,7 +14,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! 1.  Create a routine to generate all the proper divisors of a number.
 ! 2.  use it to show the proper divisors of the numbers 1 to 10 inclusive.
@@ -26,7 +26,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Amicable pairs
 ! - Abundant, deficient and perfect number classifications

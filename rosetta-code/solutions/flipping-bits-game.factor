@@ -1,6 +1,6 @@
 ! The game
 ! 
-!     
+!   
 ! 
 ! Given an N×N square array of zeroes or ones in an initial configuration,
 ! and a target configuration of zeroes and ones.
@@ -14,7 +14,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program to score for the Flipping bits game.
 ! 

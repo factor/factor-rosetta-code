@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function to flatten the nesting in an arbitrary list of values.
 ! 
@@ -14,7 +14,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Tree traversal
 

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a function, or show a built-in function, to count the number of
 ! non-overlapping occurrences of a substring inside a string.

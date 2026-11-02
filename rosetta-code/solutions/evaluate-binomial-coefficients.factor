@@ -4,9 +4,9 @@
 ! 
 ! This formula is recommended:
 ! 
-!     
+!   
 ! 
-!         $\binom{n}{k} = \frac{n!}{(n-k)!k!} = \frac{n(n-1)(n-2)\ldots(n-k+1)}{k(k-1)(k-2)\ldots 1}$
+!     $\binom{n}{k} = \frac{n!}{(n-k)!k!} = \frac{n(n-1)(n-2)\ldots(n-k+1)}{k(k-1)(k-2)\ldots 1}$
 ! 
 ! See Also:
 ! 

@@ -1,6 +1,6 @@
 ! Task (in three parts)
 ! 
-!     
+!   
 ! 
 ! Part 1
 ! 
@@ -26,14 +26,14 @@
 ! calculations like this would not be sensible. To find a computer use for
 ! your procedure:
 ! 
-!     Consider the statement "318682 is 101558 + 217124 and squared is
-!     101558217124" (see: Kaprekar numbers#Casting Out Nines (fast)).
-!     note that 318682 has the same checksum as (101558 + 217124);
-!     note that 101558217124 has the same checksum as (101558 + 217124)
-!     because for a Kaprekar they are made up of the same digits
-!     (sometimes with extra zeroes);
-!     note that this implies that for Kaprekar numbers the checksum of k
-!     equals the checksum of k².
+!   Consider the statement "318682 is 101558 + 217124 and squared is
+!   101558217124" (see: Kaprekar numbers#Casting Out Nines (fast)).
+!   note that 318682 has the same checksum as (101558 + 217124);
+!   note that 101558217124 has the same checksum as (101558 + 217124)
+!   because for a Kaprekar they are made up of the same digits (sometimes
+!   with extra zeroes);
+!   note that this implies that for Kaprekar numbers the checksum of k
+!   equals the checksum of k².
 ! 
 ! Demonstrate that your procedure can be used to generate or filter a
 ! range of numbers with the property co9(k) = co9(k²) and show that this
@@ -45,8 +45,8 @@
 ! Considering this MathWorld page, produce a efficient algorithm based on
 ! the more mathematical treatment of Casting Out Nines, and realizing:
 ! 
-!     co9(x) is the residual of x mod 9;
-!     the procedure can be extended to bases other than 9.
+!   co9(x) is the residual of x mod 9;
+!   the procedure can be extended to bases other than 9.
 ! 
 ! Demonstrate your algorithm by generating or filtering a range of numbers
 ! with the property k and show that this subset is a small proportion of

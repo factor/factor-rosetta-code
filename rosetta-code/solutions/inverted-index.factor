@@ -2,7 +2,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Given a set of text files, implement a program to create an inverted
 ! index.

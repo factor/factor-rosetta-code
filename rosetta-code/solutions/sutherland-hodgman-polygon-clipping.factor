@@ -8,21 +8,21 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Take the closed polygon defined by the points:
 ! 
-!     [(50, 150), (200, 50), (350, 150), (350, 300), (250, 300), (200, 250), (150, 350), (100, 250), (100, 200)]
+!   [(50, 150), (200, 50), (350, 150), (350, 300), (250, 300), (200, 250), (150, 350), (100, 250), (100, 200)]
 ! 
 ! and clip it by the rectangle defined by the points:
 ! 
-!     [(100, 100), (300, 100), (300, 300), (100, 300)]
+!   [(100, 100), (300, 100), (300, 300), (100, 300)]
 ! 
 ! Print the sequence of points that define the resulting clipped polygon.
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Display all three polygons on a graphical surface, using a different
 ! color for each polygon and filling the resulting polygon.

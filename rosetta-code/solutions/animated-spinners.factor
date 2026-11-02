@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create and display five spinners. One spinner in the middle and four
 ! spinners surrounding it. Each spinner is created by drawing radius lines
@@ -12,7 +12,7 @@
 ! 
 ! Stretch goal
 ! 
-!     
+!   
 ! 
 ! Extra credit for offsetting the spinners with mouse movement.
 ! 

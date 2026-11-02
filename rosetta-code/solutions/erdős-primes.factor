@@ -17,7 +17,7 @@
 ! 
 ! Also see
 ! 
-!     
+!   
 ! 
 ! - - the OEIS entry: A064152 Erdos primes.
 

@@ -3,7 +3,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Open an image file, enlarge it by 60% using bilinear interpolation, then
 ! either display the result or save the result to a file.

@@ -31,7 +31,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - Doubly Even Magic Squares (1728.org)
 

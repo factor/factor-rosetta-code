@@ -5,7 +5,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Implement basic element-wise matrix-matrix and scalar-matrix operations,
 ! which can be referred to in other, higher-order tasks.

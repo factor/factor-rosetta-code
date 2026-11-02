@@ -11,7 +11,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function/subroutine/... that takes two ranges and a real number,
 ! and returns the mapping of the real number from the first to the second
@@ -22,7 +22,7 @@
 ! 
 ! Extra credit
 ! 
-!     
+!   
 ! 
 ! Show additional idiomatic ways of performing the mapping, using tools
 ! available to the language.

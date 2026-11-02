@@ -10,7 +10,7 @@
 ! 
 ! E.G.
 ! 
-!     
+!   
 ! 
 ! - - 1, 2 & 3 can not be Brazilian; there is no base B that satisfies the
 !     condition 1 < B < N-1.
@@ -39,7 +39,7 @@
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a routine (function, whatever) to determine if a number is
 ! Brazilian and use the routine to show here, on this page;
@@ -50,7 +50,7 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - - OEIS:A125134 - Brazilian numbers
 !   - OEIS:A257521 - Odd Brazilian numbers

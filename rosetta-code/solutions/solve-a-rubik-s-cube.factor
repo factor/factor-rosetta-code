@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Create a program that is capable of solving a Rubik's Cube as
 ! efficiently as possible.

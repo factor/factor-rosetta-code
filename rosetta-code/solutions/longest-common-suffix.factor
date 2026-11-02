@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a function to find the longest common suffix string amongst an
 ! array of strings.

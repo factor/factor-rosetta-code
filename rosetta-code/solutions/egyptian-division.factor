@@ -30,18 +30,18 @@
 ! 
 ! Table creation:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! ! powers_of_2 ! doublings |- | 1 | 34 |- | 2 | 68 |- | 4 | 136 |- | 8 |
 ! 272 |- | 16 | 544 |}
 ! 
 ! Initialization of sums:
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! ! powers_of_2 ! doublings ! answer ! accumulator |- | 1 | 34 |
 ! 
@@ -70,9 +70,9 @@
 ! When a row is considered it is shown crossed out if it is not
 ! accumulated, or bold if the row causes summations.
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! ! powers_of_2 ! doublings ! answer ! accumulator |- | 1 | 34 |
 ! 
@@ -92,9 +92,9 @@
 ! 
 ! |- | 16 | 544 | 16 | 544 |}
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! ! powers_of_2 ! doublings ! answer ! accumulator |- | 1 | 34 |
 ! 
@@ -114,9 +114,9 @@
 ! 
 ! |}
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! ! powers_of_2 ! doublings ! answer ! accumulator |- | 1 | 34 |
 ! 
@@ -136,9 +136,9 @@
 ! 
 ! |}
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! ! powers_of_2 ! doublings ! answer ! accumulator |- | 1 | 34 |
 ! 
@@ -158,9 +158,9 @@
 ! 
 ! |}
 ! 
-!     
+!   
 ! 
-!         {| class="wikitable"
+!     {| class="wikitable"
 ! 
 ! ! powers_of_2 ! doublings ! answer ! accumulator |- | 1 | 34 | 17 | 578
 ! |- | 2 | 68 |
@@ -183,14 +183,14 @@
 ! 
 ! Answer
 ! 
-!     
+!   
 ! 
 ! So 580 divided by 34 using the Egyptian method is 17 remainder (578 -
 ! 580) or 2.
 ! 
 ! Task
 ! 
-!     
+!   
 ! 
 ! The task is to create a function that does Egyptian division. The
 ! function should
@@ -204,14 +204,14 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - - Egyptian fractions
 !   - Ethiopian multiplication
 ! 
 ! References
 ! 
-!     
+!   
 ! 
 ! - - Egyptian Number System
 

@@ -25,13 +25,13 @@
 ! 
 ! See also
 ! 
-!     
+!   
 ! 
 ! - MathWorld entry: exponentiation
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - exponentiation operator
 ! - arbitrary-precision integers (included)

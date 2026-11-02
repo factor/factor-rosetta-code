@@ -1,6 +1,6 @@
 ! Use the quickselect algorithm on the vector
 ! 
-!     [9, 8, 7, 6, 5, 0, 1, 2, 3, 4]
+!   [9, 8, 7, 6, 5, 0, 1, 2, 3, 4]
 ! 
 ! To show the first, second, third, ... up to the tenth largest member of
 ! the vector, in order, here on this page.

@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Walk a given directory tree and print files matching a given pattern.
 ! 
@@ -11,7 +11,7 @@
 ! 
 ! Related task
 ! 
-!     
+!   
 ! 
 ! - Walk a directory/Non-recursively (read a single directory).
 ! 

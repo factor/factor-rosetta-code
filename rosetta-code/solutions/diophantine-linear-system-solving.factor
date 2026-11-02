@@ -535,7 +535,5 @@
 ! 
 ! To save server space, better not repeat full test results in your post.
 ! Once your solution covers all cases, a selected example will suffice.
-! 
-! __TOC__
 
 

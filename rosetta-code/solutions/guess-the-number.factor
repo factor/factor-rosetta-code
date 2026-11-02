@@ -1,6 +1,6 @@
 ! Task
 ! 
-!     
+!   
 ! 
 ! Write a program where the program chooses a number between 1 and 10.
 ! 
@@ -15,7 +15,7 @@
 ! 
 ! Related tasks
 ! 
-!     
+!   
 ! 
 ! - Bulls and cows
 ! - Bulls and cows/Player
